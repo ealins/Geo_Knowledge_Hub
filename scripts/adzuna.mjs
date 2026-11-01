@@ -39,5 +39,9 @@ for (const [country, what] of cfg.queries.slice(0, cap)) {
   await new Promise((s) => setTimeout(s, 3000)); // stay far below the per-minute limit
 }
 if (!items.size && failed) { console.log("All calls failed; keeping previous file."); process.exit(0); }
+// Keep earlier results too (a daily slice of 20 queries differs from day to day); age them out after max_days_old.
+const cutoff = Date.now() - (cfg.max_days_old ?? 30) * 864e5;
+const urls = new Set([...items.values()].map((x) => x.url));
+for (const old of prev.items ?? []) if (!urls.has(old.url) && (Date.parse(old.posted) || 0) >= cutoff) items.set(old.url, old);
 await writeFile(OUT, JSON.stringify({ fetched_at: new Date().toISOString(), calls, items: [...items.values()] }, null, 2) + "\n");
 console.log(`calls ${calls}, items ${items.size}`);
