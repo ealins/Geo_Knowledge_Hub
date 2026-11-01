@@ -433,7 +433,7 @@ async function runSource(src, statusOut) {
     if (src.type === "collected") {
       // Career pages rendered by the Cloudflare Worker (Browser Rendering, cron). Keep links whose text is strongly on topic.
       const file = JSON.parse(await fetchText(src.url));
-      const raw = (file.pages ?? []).flatMap((p) => (p.links ?? []).map((l) => ({ title: l.t, link: l.h, date: "", summary: p.name, deadline: "", location: p.name, open_posting: true })));
+      const raw = (file.pages ?? []).flatMap((p) => (p.links ?? []).map((l) => ({ title: l.t, link: l.h, date: file.fetched_at || "", summary: p.name, deadline: "", location: p.name, open_posting: true })));
       // These pages list every discipline, so the title must look like a vacancy AND name a geodata topic.
       const VACANCY = /\b(ph\.?d|postdoc|post-doctoral|postdoctoral|doctoral|doctorate|research associate|research assistant|researcher|scientist|engineer|lecturer|professor|fellow|position|vacancy|wissenschaftlich|developer|specialist|analyst)\b/i;
       const TOPIC = /geodata|geo-?ai|\bgis\b|geoinformat|geospatial|geomatic|geodes|geodetic|geophysic|remote sensing|earth observation|lidar|photogramm|point cloud|\bmapping\b|cartograph|digital twin|\bsar\b|insar|gnss|hyperspectral|computer vision|spatial|glaciolog|physical geography|surveying|satellite|flood|debris|terrain|citygml|\bbim\b|3d (city|model|reconstruction)/i;
