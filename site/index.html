@@ -155,6 +155,18 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 .colmore:hover{border-color:var(--accent)}
 .colempty{padding:22px 4px;color:var(--faint);font-size:13px}
 
+/* where */
+.where{margin:12px 0 2px;display:flex;flex-direction:column;gap:8px}
+.wrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.wlabel{font-size:12.5px;color:var(--faint);margin-right:4px}
+.wpill{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;padding:5px 13px;cursor:pointer;font-size:13px;display:inline-flex;gap:7px;align-items:baseline}
+.wpill:hover{border-color:var(--accent);color:var(--text)}
+.wpill[aria-pressed="true"]{background:var(--text);color:var(--bg);border-color:var(--text);font-weight:600}
+.wpill i{font-style:normal;font-size:12px;opacity:.65;font-variant-numeric:tabular-nums}
+.wpill.c{padding:3px 10px;font-size:12.5px}
+.wpill.c[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)}
+.wnote{font-size:12.5px;color:var(--faint)}
+
 /* matcher */
 .matcher{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:6px}
 .matcher h3{margin:0 0 4px!important;color:var(--text)!important;font:600 14px var(--sans)!important}
@@ -301,6 +313,7 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
         <label class="sr" for="q">Search</label>
         <div class="sbox"><input id="q" type="search" placeholder="Search titles, sources and topics" autocomplete="off"><kbd>/</kbd></div>
       </div>
+      <div class="where" id="where" aria-label="Filter by place"></div>
       <div class="count" id="count" aria-live="polite">Loading…</div>
       <div id="dhead"></div>
       <div id="overview"></div>
@@ -342,7 +355,7 @@ const PAGE = 40;
 const NEEDS_DEADLINE = new Set(["job", "course", "event"]);
 const upcoming = it => it.kind === "event" && it.ends && Date.parse(it.ends) + 864e5 >= Date.now();
 const when = it => Date.parse(it.deadline || it.starts || 0) || 0;
-const st = { domain: "", sub: "", kind: "all", topic: "", source: "", q: "", sort: "auto", newOnly: false, unlisted: false, savedOnly: false, shown: PAGE };
+const st = { continent: "", country: "", domain: "", sub: "", kind: "all", topic: "", source: "", q: "", sort: "auto", newOnly: false, unlisted: false, savedOnly: false, shown: PAGE };
 let feed = { items: [] }, status = {}, saved = new Set();
 
 const $ = id => document.getElementById(id);
@@ -395,11 +408,41 @@ function classify(it) {
   if (!it._d.size) it._d.add("general");
 }
 
-function filtered(ignoreKind, ignoreDomain, ignoreSub) {
+const WORLD = {
+  Europe: ["Germany|de|deutschland", "United Kingdom|gb|uk|england|scotland|wales|northern ireland|great britain", "Netherlands|nl|the netherlands|holland", "Switzerland|ch|schweiz", "Austria|at|österreich", "Sweden|se", "Norway|no", "Finland|fi", "Denmark|dk", "Belgium|be", "France|fr", "Spain|es", "Italy|it|italia", "Poland|pl", "Portugal|pt", "Ireland|ie", "Iceland|is", "Czechia|cz|czech republic", "Hungary|hu", "Greece|gr", "Bulgaria|bg", "Romania|ro", "Croatia|hr", "Slovenia|si", "Slovakia|sk", "Estonia|ee", "Latvia|lv", "Lithuania|lt", "Luxembourg|lu", "Serbia|rs", "Türkiye|tr|turkey|turkiye"],
+  Asia: ["China|cn|chinese taipei|taiwan|hong kong", "India|in", "Japan|jp", "South Korea|kr|korea", "Singapore|sg", "Malaysia|my", "Thailand|th", "Indonesia|id", "Vietnam|vn", "Philippines|ph", "Pakistan|pk", "Bangladesh|bd", "Nepal|np", "Sri Lanka|lk", "Iran|ir", "Israel|il", "Saudi Arabia|sa", "United Arab Emirates|ae|uae|abu dhabi|dubai", "Qatar|qa", "Kazakhstan|kz"],
+  "North America": ["United States|us|usa|united states of america", "Canada|ca", "Mexico|mx"],
+  "South America": ["Brazil|br", "Chile|cl", "Argentina|ar", "Colombia|co", "Peru|pe", "Ecuador|ec"],
+  Africa: ["South Africa|za", "Nigeria|ng", "Kenya|ke", "Egypt|eg", "Ghana|gh", "Morocco|ma", "Tanzania|tz", "Ethiopia|et", "Rwanda|rw", "Uganda|ug", "Senegal|sn", "Tunisia|tn"],
+  Oceania: ["Australia|au", "New Zealand|nz", "Fiji|fj|fiji islands"],
+};
+const PLACE = new Map();
+for (const [cont, list] of Object.entries(WORLD)) for (const row of list) { const [name, ...al] = row.split("|"); for (const a of [name.toLowerCase(), ...al]) PLACE.set(a, [cont, name]); }
+const TLD = { de: "Germany", uk: "United Kingdom", nl: "Netherlands", ch: "Switzerland", at: "Austria", se: "Sweden", no: "Norway", fi: "Finland", dk: "Denmark", be: "Belgium", fr: "France", es: "Spain", it: "Italy", pl: "Poland", pt: "Portugal", ie: "Ireland", cn: "China", jp: "Japan", in: "India", au: "Australia", nz: "New Zealand", ca: "Canada", us: "United States", edu: "United States", br: "Brazil", za: "South Africa" };
+function placeOf(it) {
+  if (it._p !== undefined) return it._p;
+  let r = null;
+  if (it.kind === "job" || it.kind === "course" || it.kind === "event") {
+    const loc = (it.location || "").toLowerCase().replace(/[()]/g, " ");
+    const parts = loc.split(/,|\s-\s|\//).map(s => s.trim()).filter(Boolean);
+    for (const part of [...parts].reverse()) { if (PLACE.has(part)) { r = PLACE.get(part); break; } }
+    if (!r) { const words = loc.split(/[\s,]+/).filter(Boolean); for (let n = 3; n >= 1 && !r; n--) for (let i = 0; i + n <= words.length && !r; i++) { const g = words.slice(i, i + n).join(" "); if (g.length > 2 && PLACE.has(g)) r = PLACE.get(g); } }
+    if (!r && /^jobsac/.test(it.source || "")) r = PLACE.get("united kingdom");
+    if (!r && /^(adzuna)/.test(it.source || "")) r = null;
+    if (!r) { try { const tld = new URL(it.url).hostname.split(".").pop(); if (TLD[tld]) r = PLACE.get(TLD[tld].toLowerCase()); } catch {} }
+  }
+  return (it._p = r || (it.kind === "paper" || it.kind === "news" ? false : null));
+}
+const contOf = it => { const p = placeOf(it); return p ? p[0] : p === false ? "" : "Not stated"; };
+const countryOf = it => { const p = placeOf(it); return p ? p[1] : ""; };
+
+function filtered(ignoreKind, ignoreDomain, ignoreSub, ignoreWhere) {
   const q = st.q.trim().toLowerCase();
   return feed.items.filter(it =>
     (ignoreKind || st.kind === "all" || it.kind === st.kind) &&
     (!st.topic || (it.matched || []).includes(st.topic)) &&
+    (ignoreWhere || !st.continent || contOf(it) === st.continent) &&
+    (ignoreWhere || !st.country || countryOf(it) === st.country) &&
     (ignoreDomain || !st.domain || it._d.has(st.domain)) &&
     (ignoreSub || ignoreDomain || !st.sub || it._s.has(st.domain + ":" + st.sub)) &&
     (!st.source || it.source_name === st.source) &&
@@ -662,6 +705,22 @@ function drawContours() {
   svg.innerHTML = p;
 }
 
+function renderWhere() {
+  const pool = filtered(false, false, false, true).filter(it => contOf(it));
+  const ORDER = ["Europe", "North America", "Asia", "Oceania", "Africa", "South America", "Not stated"];
+  const by = {}; for (const it of pool) { const c = contOf(it); by[c] = (by[c] || 0) + 1; }
+  let h = `<div class="wrow"><span class="wlabel">Where</span><button class="wpill" data-cont="" aria-pressed="${!st.continent}">Anywhere<i>${pool.length}</i></button>` +
+    ORDER.filter(c => by[c] || st.continent === c).map(c => `<button class="wpill" data-cont="${esc(c)}" aria-pressed="${st.continent === c}">${esc(c)}<i>${by[c] || 0}</i></button>`).join("") + "</div>";
+  if (st.continent && st.continent !== "Not stated") {
+    const cc = {}; for (const it of pool) if (contOf(it) === st.continent) { const k = countryOf(it); if (k) cc[k] = (cc[k] || 0) + 1; }
+    const names = Object.entries(cc).sort((a, b) => b[1] - a[1]);
+    if (names.length > 1 || st.country) h += `<div class="wrow"><span class="wlabel">Country</span><button class="wpill c" data-country="" aria-pressed="${!st.country}">All<i>${pool.filter(it => contOf(it) === st.continent).length}</i></button>` +
+      names.map(([n, c]) => `<button class="wpill c" data-country="${esc(n)}" aria-pressed="${st.country === n}">${esc(n)}<i>${c}</i></button>`).join("") + "</div>";
+  }
+  if (st.continent) h += '<div class="wnote">Papers have no location, so they are hidden while a place is selected.</div>';
+  $("where").innerHTML = h;
+}
+
 function renderMatcher() {
   const has = new Set(profile.skills.map(s => s.toLowerCase()));
   $("mpresets").innerHTML = PRESETS.map(p => `<button class="chip" data-preset="${esc(p)}" aria-pressed="${has.has(p.toLowerCase())}">${esc(p)}</button>`).join("");
@@ -679,13 +738,14 @@ function saveProfile() { write(STORE.profile, JSON.stringify(profile)); }
 
 function render() {
   renderMatcher();
+  renderWhere();
   renderStats();
   renderTree();
   const board = st.domain && st.kind === "all" && !st.q.trim();
   const overview = !st.domain && st.kind === "all" && !st.q.trim();
   const items = sorted(filtered(false));
   const page = items.slice(0, st.shown);
-  const filters = [st.domain && DOM[st.domain].name, st.sub, st.topic && `topic “${st.topic}”`, st.source, st.newOnly && "new this week", st.savedOnly && "saved"].filter(Boolean);
+  const filters = [st.continent, st.country, st.domain && DOM[st.domain].name, st.sub, st.topic && `topic “${st.topic}”`, st.source, st.newOnly && "new this week", st.savedOnly && "saved"].filter(Boolean);
   $("count").textContent = `${items.length} ${items.length === 1 ? "item" : "items"}${filters.length ? " · " + filters.join(" · ") : ""}`;
   $("dhead").innerHTML = ""; $("overview").innerHTML = ""; $("board").innerHTML = "";
   if (st.domain) renderDomainHead();
@@ -705,6 +765,10 @@ function reset() { st.shown = PAGE; render(); }
 
 $("stats").addEventListener("click", e => { const b = e.target.closest("[data-k]"); if (b) { st.kind = b.dataset.k; reset(); } });
 document.addEventListener("click", e => {
+  const wc = e.target.closest("[data-cont]");
+  if (wc) { st.continent = wc.dataset.cont; st.country = ""; reset(); return; }
+  const wy = e.target.closest("[data-country]");
+  if (wy) { st.country = wy.dataset.country; reset(); return; }
   const pr = e.target.closest("[data-preset]");
   if (pr) { const p = pr.dataset.preset, i = profile.skills.findIndex(s => s.toLowerCase() === p.toLowerCase()); i >= 0 ? profile.skills.splice(i, 1) : profile.skills.push(p); saveProfile(); render(); return; }
   const lv = e.target.closest("[data-level]");
