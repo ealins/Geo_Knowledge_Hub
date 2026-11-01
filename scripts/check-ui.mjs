@@ -11,7 +11,7 @@ try { ({ chromium } = require("playwright")); }
 catch { ({ chromium } = await import("playwright")); }
 
 const root = path.resolve(".");
-const MIME = { ".html": "text/html", ".json": "application/json", ".js": "text/javascript", ".css": "text/css" };
+const MIME = { ".html": "text/html", ".json": "application/json", ".js": "text/javascript", ".css": "text/css", ".svg": "image/svg+xml", ".png": "image/png", ".woff2": "font/woff2" };
 const server = http.createServer((req, res) => {
   const u = decodeURIComponent(req.url.split("?")[0]);
   const file = u.startsWith("/data/") ? path.join(root, u) : path.join(root, "site", u === "/" ? "index.html" : u);

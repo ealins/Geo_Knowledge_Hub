@@ -4,6 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Geo Radar: open deadlines in geodata</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="brand/apple-touch-icon.png">
+<meta name="theme-color" content="#0a131b">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Geo Radar">
+<meta property="og:title" content="Geo Radar: open deadlines in geodata">
+<meta property="og:description" content="Open positions, programmes, conferences and calls in photogrammetry, remote sensing and geoinformatics, plus the highest-impact new papers.">
+<meta property="og:image" content="https://geoacademic.app/brand/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="description" content="Open deadlines and high-impact papers in photogrammetry, remote sensing and geoinformatics, refreshed every two hours.">
 <style>
 @font-face{font-family:"Fraunces";src:url(fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-display:swap}
@@ -40,12 +50,15 @@ button{font:inherit;color:inherit}
 
 /* hero */
 .hero{position:relative;background:var(--hero);color:var(--hero-text);overflow:hidden;border-bottom:1px solid var(--line)}
-.hero svg.map{position:absolute;right:max(-120px,calc((100vw - 1760px) / 2 - 120px));top:-60px;width:820px;max-width:none;height:auto;fill:none;stroke:var(--contour);stroke-width:1;opacity:.55;pointer-events:none;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%);mask-image:linear-gradient(90deg,transparent 0,#000 45%)}
-.hero svg.map path.idx{stroke-width:1.5;opacity:.9}
+.hero svg.map{position:absolute;right:max(-120px,calc((100vw - 1760px) / 2 - 120px));top:-60px;width:820px;max-width:none;height:auto;fill:none;stroke:url(#hg);stroke-width:1;opacity:.75;pointer-events:none;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%);mask-image:linear-gradient(90deg,transparent 0,#000 45%)}
+.hero svg.map path.idx{stroke-width:1.5;opacity:.95}
+.hero svg.map .sweep{transform-origin:320px 180px;animation:sweep 16s linear infinite;stroke:none}
+.hero svg.map .sweep line{stroke:#5fe0c9;stroke-width:1.4;opacity:.8}
+@keyframes sweep{to{transform:rotate(360deg)}}
 .hero-in{position:relative;max-width:1760px;margin:0 auto;padding:22px var(--gx) 30px}
 .top{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.brand{font:600 14px/1 var(--sans);display:flex;align-items:center;gap:9px}
-.brand::before{content:"";width:9px;height:9px;border-radius:50%;background:#5fd3a0;box-shadow:0 0 0 4px rgba(95,211,160,.18),0 0 18px rgba(95,211,160,.6)}
+.brand{font:600 15px/1 var(--sans);display:flex;align-items:center;gap:10px}
+.brand img{width:30px;height:30px;display:block;border-radius:8px;box-shadow:0 4px 18px rgba(95,224,201,.25)}
 .theme{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:var(--hero-text);border-radius:999px;padding:5px 13px;cursor:pointer;font-size:12.5px}
 .theme:hover{background:rgba(255,255,255,.14)}
 h1{margin:34px 0 0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings:"opsz" 72;letter-spacing:-.012em}
@@ -253,7 +266,7 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
   .track .tick:nth-child(2) em{display:none}
   .track{padding-left:10px;padding-right:10px}
 }
-@media (prefers-reduced-motion:reduce){.dot{animation:none}}
+@media (prefers-reduced-motion:reduce){.dot{animation:none}.hero svg.map .sweep{animation:none}}
 </style>
 </head>
 <body>
@@ -261,7 +274,7 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
   <svg class="map" id="contours" viewBox="0 0 640 360" aria-hidden="true"></svg>
   <div class="hero-in">
     <div class="top">
-      <div class="brand">geoacademic.app</div>
+      <div class="brand"><img src="brand/mark.svg" width="30" height="30" alt="">geoacademic.app</div>
       <button class="theme" id="theme" type="button">Auto theme</button>
     </div>
     <h1>Geo Radar</h1>
@@ -692,7 +705,8 @@ function renderHero() {
 }
 
 function drawContours() {
-  const svg = $("contours"); let p = "";
+  const svg = $("contours");
+  let p = '<defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5fe0c9"/><stop offset=".6" stop-color="#6ea8ff"/><stop offset="1" stop-color="#c58bff"/></linearGradient><radialGradient id="sg" cx="320" cy="180" r="340" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5fe0c9" stop-opacity="0"/><stop offset="1" stop-color="#5fe0c9" stop-opacity=".42"/></radialGradient></defs>';
   for (let i = 0; i < 16; i++) {
     const r = 30 + i * 17, ph = i * 0.42; let d = "";
     for (let a = 0; a <= 64; a++) {
@@ -702,6 +716,7 @@ function drawContours() {
     }
     p += `<path d="${d}Z" style="animation-delay:${(i * 0.06).toFixed(2)}s"${i % 5 === 0 ? ' class="idx"' : ""}/>`;
   }
+  p += '<g class="sweep"><path d="M320 180 L660 180 A340 340 0 0 0 622 90 Z" fill="url(#sg)" transform="rotate(-30 320 180)"/><line x1="320" y1="180" x2="660" y2="180" transform="rotate(0 320 180)"/></g>';
   svg.innerHTML = p;
 }
 
