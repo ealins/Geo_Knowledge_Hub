@@ -465,8 +465,8 @@ function filtered(ignoreKind, ignoreDomain, ignoreSub, ignoreWhere) {
   return feed.items.filter(it =>
     (ignoreKind || st.kind === "all" || it.kind === st.kind) &&
     (!st.topic || (it.matched || []).includes(st.topic)) &&
-    (ignoreWhere || !st.continent || contOf(it) === st.continent) &&
-    (ignoreWhere || !st.country || countryOf(it) === st.country) &&
+    (ignoreWhere || !st.continent || !contOf(it) || contOf(it) === st.continent) &&
+    (ignoreWhere || !st.country || !contOf(it) || countryOf(it) === st.country) &&
     (ignoreDomain || !st.domain || it._d.has(st.domain)) &&
     (ignoreSub || ignoreDomain || !st.sub || it._s.has(st.domain + ":" + st.sub)) &&
     (!st.ptype || it.kind !== "job" || ptypeOf(it) === st.ptype) &&
@@ -751,7 +751,7 @@ function renderWhere() {
     h += `<div class="wrow"><span class="wlabel">Type</span><button class="wpill" data-pt="" aria-pressed="${!st.ptype}">Any<i>${base.length}</i></button>` +
       PTYPES.filter(k => bt[k] || st.ptype === k).map(k => `<button class="wpill" data-pt="${esc(k)}" aria-pressed="${st.ptype === k}">${esc(k)}<i>${bt[k] || 0}</i></button>`).join("") + "</div>";
   }
-  if (st.continent) h += '<div class="wnote">Papers have no location, so they are hidden while a place is selected.</div>';
+  if (st.continent && st.kind === "all") h += '<div class="wnote">The place filter applies to positions, programmes and events. Papers and news have no location and stay visible.</div>';
   $("where").innerHTML = h;
 }
 
