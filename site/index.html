@@ -339,10 +339,6 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
 
 <footer>
   <p id="meta"></p>
-  <details>
-    <summary>Sources and status</summary>
-    <div class="tablewrap" id="sources"></div>
-  </details>
   <p>Saved items stay in this browser only. Links open the original source.</p>
 </footer>
 <script>
@@ -865,10 +861,6 @@ Promise.all([
   $("source").innerHTML += names.map(n => `<option>${esc(n)}</option>`).join("");
   $("meta").textContent = `Updated ${new Date(feed.generated_at).toLocaleString()} · refreshed every 2 hours · ${feed.items.length} live items`;
   renderHero(); render();
-  const rows = Object.entries(status).sort().map(([id, x]) => `<tr><td>${esc(id)}</td>
-    <td class="${x.state === "ok" ? "ok" : "bad"}">${esc(x.state)}</td><td>${esc(x.last_checked ? new Date(x.last_checked).toLocaleString() : "")}</td>
-    <td>${x.items_matched ?? 0}</td><td>${esc(x.last_error || x.note || "")}</td></tr>`).join("");
-  $("sources").innerHTML = rows ? `<table><tr><th>Source</th><th>State</th><th>Checked</th><th>Matched</th><th>Note</th></tr>${rows}</table>` : "No sources yet.";
 }).catch(() => { $("count").textContent = "Feed not available yet."; });
 </script>
 </body>

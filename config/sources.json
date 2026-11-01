@@ -3,7 +3,7 @@
   "sources": [
     {
       "id": "openalex-photogrammetry",
-      "name": "OpenAlex: photogrammetry",
+      "name": "Papers: photogrammetry",
       "url": "https://api.openalex.org/works?search=photogrammetry&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
       "type": "openalex",
       "kind": "paper",
@@ -11,7 +11,7 @@
     },
     {
       "id": "openalex-remote-sensing",
-      "name": "OpenAlex: remote sensing",
+      "name": "Papers: remote sensing",
       "url": "https://api.openalex.org/works?search=%22remote%20sensing%22&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
       "type": "openalex",
       "kind": "paper",
@@ -19,7 +19,7 @@
     },
     {
       "id": "openalex-insar",
-      "name": "OpenAlex: InSAR",
+      "name": "Papers: InSAR",
       "url": "https://api.openalex.org/works?search=InSAR&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
       "type": "openalex",
       "kind": "paper",
@@ -27,7 +27,7 @@
     },
     {
       "id": "openalex-lidar",
-      "name": "OpenAlex: LiDAR point cloud",
+      "name": "Papers: LiDAR point cloud",
       "url": "https://api.openalex.org/works?search=lidar%20point%20cloud&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
       "type": "openalex",
       "kind": "paper",
@@ -35,7 +35,7 @@
     },
     {
       "id": "openalex-geoai",
-      "name": "OpenAlex: GeoAI / geoinformatics",
+      "name": "Papers: GeoAI / geoinformatics",
       "url": "https://api.openalex.org/works?search=geoinformatics&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
       "type": "openalex",
       "kind": "paper",
@@ -43,7 +43,7 @@
     },
     {
       "id": "openalex-citygml-bim",
-      "name": "OpenAlex: CityGML / BIM",
+      "name": "Papers: CityGML / BIM",
       "url": "https://api.openalex.org/works?search=CityGML&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
       "type": "openalex",
       "kind": "paper",
@@ -777,7 +777,7 @@
     },
     {
       "id": "discovered-programmes",
-      "name": "University departments (auto-discovered)",
+      "name": "University departments",
       "url": "https://geoacademic.app/data/programmes-discovered.json",
       "type": "discovered",
       "kind": "course",
@@ -861,7 +861,7 @@
     },
     {
       "id": "discovered-events",
-      "name": "Societies and organisations (auto-discovered)",
+      "name": "Societies and organisations",
       "url": "https://geoacademic.app/data/events-discovered.json",
       "type": "discovered-events",
       "kind": "event",
@@ -871,7 +871,7 @@
     },
     {
       "id": "curated",
-      "name": "Indeed, Exa and web search (curated daily)",
+      "name": "Curated openings",
       "url": "https://geoacademic.app/data/curated.json",
       "type": "curated",
       "kind": "auto",
@@ -999,7 +999,7 @@
     },
     {
       "id": "adzuna",
-      "name": "Adzuna job ads",
+      "name": "Job boards",
       "url": "https://geoacademic.app/data/adzuna.json",
       "type": "adzuna",
       "kind": "job",
@@ -1007,7 +1007,7 @@
     },
     {
       "id": "collected",
-      "name": "Career pages (browser-rendered)",
+      "name": "University and agency careers",
       "url": "https://geoacademic.app/api/collected",
       "type": "collected",
       "kind": "job",
@@ -1015,7 +1015,7 @@
     },
     {
       "id": "company-boards",
-      "name": "Company job boards",
+      "name": "Company careers",
       "url": "https://boards-api.greenhouse.io/",
       "type": "boards",
       "kind": "job",
