@@ -6,6 +6,8 @@ import puppeteer from "@cloudflare/puppeteer";
 import cfg from "../config/collector.json";
 
 const KEY = "collected";
+const AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
+const AI_MAX_PER_RUN = 120; // ~5 neurons per item, so far below the 10,000 neurons/day included allowance
 
 async function collect(env) {
   const pages = cfg.pages.slice(0, cfg.max_pages);
@@ -44,6 +46,48 @@ async function collect(env) {
   return out;
 }
 
+// Tag new positions, programmes and events once each (cached in KV). Never touches items already tagged.
+async function tagItems(env) {
+  const feed = await (await fetch("https://geoacademic.app/data/feed.json", { cf: { cacheTtl: 300 } })).json();
+  const todo = [];
+  for (const it of feed.items) {
+    if (!["job", "course", "event"].includes(it.kind)) continue;
+    if (await env.KV.get("ai:" + it.id)) continue;
+    todo.push(it);
+    if (todo.length >= AI_MAX_PER_RUN) break;
+  }
+  let done = 0;
+  for (const it of todo) {
+    try {
+      const prompt = `Classify this item for a geodata (photogrammetry, remote sensing, GIS, LiDAR, SAR, geodesy, GeoAI, BIM/CityGML) opportunity board.
+Title: ${it.title}
+Details: ${(it.summary || "").slice(0, 500)}
+Place: ${it.location || "unknown"}
+Reply with ONLY compact JSON: {"type":"phd|postdoc|student|internship|industry|other","relevance":0-10,"summary":"max 25 words, plain"}.
+relevance = how central geodata is to the work (10 core research, 0 unrelated such as sales or construction).`;
+      const r = await env.AI.run(AI_MODEL, { messages: [{ role: "user", content: prompt }], max_tokens: 120, temperature: 0 });
+      const m = String(r.response ?? "").match(/\{[\s\S]*\}/);
+      if (!m) continue;
+      const j = JSON.parse(m[0]);
+      const type = ["phd", "postdoc", "student", "internship", "industry", "other"].includes(j.type) ? j.type : "other";
+      const relevance = Math.max(0, Math.min(10, Number(j.relevance) || 0));
+      await env.KV.put("ai:" + it.id, JSON.stringify({ type, relevance, summary: String(j.summary || "").slice(0, 200) }), { expirationTtl: 60 * 60 * 24 * 90 });
+      done++;
+    } catch { /* skip item, retry next run */ }
+  }
+  return done;
+}
+
+async function aiMap(env) {
+  const out = {}; let cursor;
+  do {
+    const l = await env.KV.list({ prefix: "ai:", cursor, limit: 1000 });
+    await Promise.all(l.keys.map(async (k) => { const v = await env.KV.get(k.name); if (v) out[k.name.slice(3)] = JSON.parse(v); }));
+    cursor = l.list_complete ? undefined : l.cursor;
+  } while (cursor);
+  return out;
+}
+
 export default {
   async fetch(req, env) {
     const u = new URL(req.url);
@@ -51,9 +95,14 @@ export default {
       const body = (await env.KV.get(KEY)) || JSON.stringify({ fetched_at: null, pages: [] });
       return new Response(body, { headers: { "content-type": "application/json", "cache-control": "public, max-age=900", "access-control-allow-origin": "*" } });
     }
+    if (u.pathname === "/api/ai") {
+      return new Response(JSON.stringify(await aiMap(env)), { headers: { "content-type": "application/json", "cache-control": "public, max-age=900" } });
+    }
     return new Response("Not found", { status: 404 });
   },
-  async scheduled(_event, env, ctx) {
-    ctx.waitUntil(collect(env));
+  async scheduled(event, env, ctx) {
+    // "23 */12 * * *": render career pages, then tag. "47 */4 * * *": tag new items only.
+    const collectRun = event.cron.startsWith("23 ");
+    ctx.waitUntil((async () => { try { if (collectRun) await collect(env); } finally { await tagItems(env); } })());
   },
 };

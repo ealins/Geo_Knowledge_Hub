@@ -15,7 +15,8 @@
     "binding": "ASSETS",
     "run_worker_first": ["/api/*"]
   },
+  "ai": { "binding": "AI" },
   "browser": { "binding": "BROWSER" },
   "kv_namespaces": [{ "binding": "KV", "id": "6de3746626174d97894fe2b7fee638f7" }],
-  "triggers": { "crons": ["23 */12 * * *"] }
+  "triggers": { "crons": ["23 */12 * * *", "47 */4 * * *"] }
 }

@@ -24,6 +24,7 @@ const browser = await chromium.launch();
 const problems = [];
 for (const [name, width, height, scheme, hash = "", prof] of [["desktop", 1600, 1500, "light"], ["desktop-dark", 1280, 1250, "dark"], ["mobile", 390, 900, "light"], ["wide", 1920, 1100, "dark"], ["domain", 1920, 1500, "dark", "#d=rs"], ["domain-small", 1280, 1400, "light", "#d=lidar"], ["matcher", 1440, 1300, "light", "", { skills: ["Photogrammetry", "LiDAR", "GIS", "Remote sensing"], levels: ["PhD"], where: "Germany" }]]) {
   const page = await browser.newPage({ viewport: { width, height }, colorScheme: scheme });
+  await page.route("**/api/**", r => r.fulfill({ json: {} })); // the Worker API does not exist on the local test server
   if (prof) await page.addInitScript(p => localStorage.setItem("geo-radar-profile", p), JSON.stringify(prof));
   page.on("console", m => m.type() === "error" && problems.push(`${name}: console error: ${m.text()}`));
   page.on("pageerror", e => problems.push(`${name}: ${e.message}`));

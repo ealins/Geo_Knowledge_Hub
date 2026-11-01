@@ -450,8 +450,11 @@ const contOf = it => { const p = placeOf(it); return p ? p[0] : p === false ? ""
 const countryOf = it => { const p = placeOf(it); return p ? p[1] : ""; };
 
 const PTYPES = ["PhD", "Postdoc", "Student and thesis", "Internship", "Industry and other"];
+const AI_TYPES = { phd: "PhD", postdoc: "Postdoc", student: "Student and thesis", internship: "Internship", industry: "Industry and other", other: "Industry and other" };
+let AI = {};
 function ptypeOf(it) {
   if (it._t) return it._t;
+  const a = AI[it.id]; if (a && AI_TYPES[a.type]) return (it._t = AI_TYPES[a.type]);
   const x = (it.title + " " + (it.summary || "")).toLowerCase();
   const tt = it.title.toLowerCase();
   return (it._t = /postdoc|post-doc|post doc|postdoctoral/.test(x) ? "Postdoc"
@@ -469,6 +472,7 @@ function filtered(ignoreKind, ignoreDomain, ignoreSub, ignoreWhere) {
     (ignoreWhere || !st.country || !contOf(it) || countryOf(it) === st.country) &&
     (ignoreDomain || !st.domain || it._d.has(st.domain)) &&
     (ignoreSub || ignoreDomain || !st.sub || it._s.has(st.domain + ":" + st.sub)) &&
+    (!AI[it.id] || AI[it.id].relevance >= 3) &&
     (!st.ptype || it.kind !== "job" || ptypeOf(it) === st.ptype) &&
     (!st.source || it.source_name === st.source) &&
     (!st.newOnly || isNew(it)) &&
@@ -851,8 +855,10 @@ try { if (matchMedia("(max-width:860px)").matches) $("filters").open = false; } 
 Promise.all([
   fetch("data/feed.json", { cache: "no-store" }).then(r => r.json()),
   fetch("data/status.json", { cache: "no-store" }).then(r => r.json()).catch(() => ({})),
-]).then(([f, s]) => {
-  feed = f; status = s;
+  fetch("/api/ai").then(r => r.ok ? r.json() : {}).catch(() => ({})),
+]).then(([f, s, ai]) => {
+  feed = f; status = s; AI = ai && typeof ai === "object" ? ai : {};
+  feed.items.forEach(it => { const a = AI[it.id]; if (a && a.summary && !it.summary) it.summary = a.summary; });
   feed.items.forEach(classify);
   try { const m = location.hash.match(/d=([a-z]+)(?:&s=([^&]+))?/); if (m && DOM[m[1]]) { st.domain = m[1]; st.sub = m[2] ? decodeURIComponent(m[2]) : ""; } } catch {}
   const names = [...new Set(feed.items.map(i => i.source_name))].sort();
