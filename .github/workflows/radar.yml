@@ -7,7 +7,7 @@ on:
     - cron: "17 */2 * * *"
   push:
     branches: [main]
-    paths: ["config/**", "scripts/**", "site/**", "wrangler.jsonc", ".github/workflows/radar.yml"]
+    paths: ["config/**", "scripts/**", "site/**", "wrangler.jsonc", "worker/**", "package.json", ".github/workflows/radar.yml"]
 
 permissions:
   contents: write
@@ -25,6 +25,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Install Worker dependencies
+        run: npm install --no-audit --no-fund
 
       - name: Install headless browser for JavaScript-built pages
         run: |

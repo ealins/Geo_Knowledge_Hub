@@ -1,0 +1,25 @@
+{
+  "_note": "Career pages rendered in a real browser by the Cloudflare Worker (cron, every 12 h). Keep this list at 20 or fewer to stay inside the included Browser Rendering hours.",
+  "max_pages": 20,
+  "page_timeout_ms": 20000,
+  "pages": [
+    { "id": "esa", "name": "ESA careers", "url": "https://jobs.esa.int/" },
+    { "id": "ethz", "name": "ETH Zurich jobs", "url": "https://jobs.ethz.ch/" },
+    { "id": "tudelft", "name": "TU Delft vacancies", "url": "https://careers.tudelft.nl/" },
+    { "id": "dlr", "name": "DLR careers", "url": "https://jobs.dlr.de/" },
+    { "id": "tuwien", "name": "TU Wien jobs", "url": "https://jobs.tuwien.ac.at/" },
+    { "id": "tudresden", "name": "TU Dresden jobs", "url": "https://tu-dresden.de/karriere/stellenangebote" },
+    { "id": "tuberlin", "name": "TU Berlin jobs", "url": "https://www.jobs.tu-berlin.de/en/job-postings" },
+    { "id": "epfl", "name": "EPFL careers", "url": "https://careers.epfl.ch/" },
+    { "id": "aalto", "name": "Aalto jobs", "url": "https://www.aalto.fi/en/careers-at-aalto" },
+    { "id": "dtu", "name": "DTU vacancies", "url": "https://www.dtu.dk/english/about/job-and-career/vacant-positions" },
+    { "id": "kuleuven", "name": "KU Leuven jobs", "url": "https://www.kuleuven.be/personeel/jobsite/en" },
+    { "id": "ugent", "name": "Ghent University jobs", "url": "https://www.ugent.be/en/work" },
+    { "id": "wur", "name": "Wageningen vacancies", "url": "https://www.wur.nl/en/vacancies.htm" },
+    { "id": "uzh", "name": "University of Zurich jobs", "url": "https://www.uzh.ch/cmsssl/en/explore/work/jobs.html" },
+    { "id": "plus", "name": "University of Salzburg jobs", "url": "https://www.plus.ac.at/jobs/" },
+    { "id": "utwente", "name": "University of Twente vacancies", "url": "https://www.utwente.nl/en/organisation/careers/vacancies/" },
+    { "id": "lund", "name": "Lund University vacancies", "url": "https://www.lunduniversity.lu.se/vacancies" },
+    { "id": "utrecht", "name": "Utrecht University jobs", "url": "https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs" }
+  ]
+}

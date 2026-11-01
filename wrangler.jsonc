@@ -1,14 +1,21 @@
 {
-  // Static Worker: serves dist/ (built by scripts/build.mjs) with no server code.
+  // Worker for geoacademic.app: serves dist/ as static assets, plus a small API and a 12-hourly browser collector.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "geo-radar",
+  "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
   "routes": [
     { "pattern": "geoacademic.app", "custom_domain": true }
   ],
   "assets": {
     "directory": "./dist",
     "html_handling": "auto-trailing-slash",
-    "not_found_handling": "404-page"
-  }
+    "not_found_handling": "404-page",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "browser": { "binding": "BROWSER" },
+  "kv_namespaces": [{ "binding": "KV", "id": "6de3746626174d97894fe2b7fee638f7" }],
+  "triggers": { "crons": ["23 */12 * * *"] }
 }

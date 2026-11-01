@@ -1004,6 +1004,14 @@
       "type": "adzuna",
       "kind": "job",
       "enabled": true
+    },
+    {
+      "id": "collected",
+      "name": "Career pages (browser-rendered)",
+      "url": "https://geoacademic.app/api/collected",
+      "type": "collected",
+      "kind": "job",
+      "enabled": true
     }
   ]
 }

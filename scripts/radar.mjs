@@ -407,6 +407,16 @@ async function runSource(src, statusOut) {
       statusOut[src.id] = { state: "ok", last_checked: nowIso, last_success: nowIso, items_found: raw.length, items_matched: kept.length, consecutive_failures: 0, last_error: null, note: file.fetched_at ? `fetched ${file.fetched_at.slice(0, 10)}, ${file.calls} calls` : "no Adzuna data yet" };
       return kept;
     }
+    if (src.type === "collected") {
+      // Career pages rendered by the Cloudflare Worker (Browser Rendering, cron). Keep links whose text is strongly on topic.
+      const file = JSON.parse(await fetchText(src.url));
+      const raw = (file.pages ?? []).flatMap((p) => (p.links ?? []).map((l) => ({ title: l.t, link: l.h, date: "", summary: p.name, deadline: "", location: p.name, open_posting: true })));
+      const verified = raw.filter((r) => hasStrong(r.title).length && !/cookie|privacy|datenschutz|newsletter|sitemap|login|accessibility/i.test(r.title));
+      const kept = verified.map((r) => classify(r, src)).filter(Boolean);
+      const okPages = (file.pages ?? []).filter((p) => p.ok).length;
+      statusOut[src.id] = { state: file.fetched_at ? "ok" : "error", last_checked: nowIso, last_success: file.fetched_at ? nowIso : null, items_found: raw.length, items_matched: kept.length, consecutive_failures: 0, last_error: file.fetched_at ? null : "collector has not run yet", note: `${okPages}/${(file.pages ?? []).length} pages rendered${file.fetched_at ? ", snapshot " + file.fetched_at.slice(0, 16) : ""}` };
+      return kept;
+    }
     if (src.type === "curated") {
       // Items collected by the scheduled Claude task (Indeed, Exa, web search), read from data/curated.json.
       const file = await readJson(path.join(DATA_DIR, "curated.json"), { items: [] });
@@ -490,7 +500,7 @@ for (const it of fresh) {
 // Listing pages (html) show only what is currently open: if such a source was
 // read successfully and an item is no longer on it, the item is gone. Feeds
 // and APIs roll over quickly, so their items keep the per-kind window instead.
-const htmlOk = new Set(enabled.filter((s) => ["html", "jobsacuk", "euraxess", "adzuna", "page", "discovered", "discovered-events", "curated"].includes(s.type) && statusOut[s.id]?.state === "ok").map((s) => s.id));
+const htmlOk = new Set(enabled.filter((s) => ["html", "jobsacuk", "euraxess", "adzuna", "collected", "page", "discovered", "discovered-events", "curated"].includes(s.type) && statusOut[s.id]?.state === "ok").map((s) => s.id));
 const enabledIds = new Set(enabled.map((s) => s.id));
 for (const it of previous.items ?? []) {
   if (merged.has(it.id) || htmlOk.has(it.source) || !enabledIds.has(it.source)) continue;
