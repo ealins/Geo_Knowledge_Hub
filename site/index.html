@@ -368,7 +368,7 @@ const PAGE = 40;
 const NEEDS_DEADLINE = new Set(["job", "course", "event"]);
 const upcoming = it => it.kind === "event" && it.ends && Date.parse(it.ends) + 864e5 >= Date.now();
 const when = it => Date.parse(it.deadline || it.starts || 0) || 0;
-const st = { continent: "", country: "", domain: "", sub: "", kind: "all", topic: "", source: "", q: "", sort: "auto", newOnly: false, unlisted: false, savedOnly: false, shown: PAGE };
+const st = { continent: "", country: "", domain: "", sub: "", kind: "all", ptype: "", topic: "", source: "", q: "", sort: "auto", newOnly: false, unlisted: false, savedOnly: false, shown: PAGE };
 let feed = { items: [] }, status = {}, saved = new Set();
 
 const $ = id => document.getElementById(id);
@@ -449,6 +449,17 @@ function placeOf(it) {
 const contOf = it => { const p = placeOf(it); return p ? p[0] : p === false ? "" : "Not stated"; };
 const countryOf = it => { const p = placeOf(it); return p ? p[1] : ""; };
 
+const PTYPES = ["PhD", "Postdoc", "Student and thesis", "Internship", "Industry and other"];
+function ptypeOf(it) {
+  if (it._t) return it._t;
+  const x = (it.title + " " + (it.summary || "")).toLowerCase();
+  const tt = it.title.toLowerCase();
+  return (it._t = /postdoc|post-doc|post doc|postdoctoral/.test(x) ? "Postdoc"
+    : /\bph\.?d\b|doctoral|doktorand|promotion|dphil|research fellow.*phd|wissenschaftliche[rn]? mitarbeiter.*promo/.test(x) ? "PhD"
+    : /intern(ship)?\b|praktik|trainee/.test(tt) ? "Internship"
+    : /thesis|master'?s? (student|thesis)|abschlussarbeit|werkstudent|hiwi|student|studentische|bachelor|msc|master/.test(tt) ? "Student and thesis"
+    : "Industry and other");
+}
 function filtered(ignoreKind, ignoreDomain, ignoreSub, ignoreWhere) {
   const q = st.q.trim().toLowerCase();
   return feed.items.filter(it =>
@@ -458,6 +469,7 @@ function filtered(ignoreKind, ignoreDomain, ignoreSub, ignoreWhere) {
     (ignoreWhere || !st.country || countryOf(it) === st.country) &&
     (ignoreDomain || !st.domain || it._d.has(st.domain)) &&
     (ignoreSub || ignoreDomain || !st.sub || it._s.has(st.domain + ":" + st.sub)) &&
+    (!st.ptype || it.kind !== "job" || ptypeOf(it) === st.ptype) &&
     (!st.source || it.source_name === st.source) &&
     (!st.newOnly || isNew(it)) &&
     (!NEEDS_DEADLINE.has(it.kind) || st.unlisted || (it.deadline && Date.parse(it.deadline) >= Date.now()) || upcoming(it) || it.open_posting) &&
@@ -732,6 +744,13 @@ function renderWhere() {
     if (names.length > 1 || st.country) h += `<div class="wrow"><span class="wlabel">Country</span><button class="wpill c" data-country="" aria-pressed="${!st.country}">All<i>${pool.filter(it => contOf(it) === st.continent).length}</i></button>` +
       names.map(([n, c]) => `<button class="wpill c" data-country="${esc(n)}" aria-pressed="${st.country === n}">${esc(n)}<i>${c}</i></button>`).join("") + "</div>";
   }
+  if (st.kind === "job") {
+    const save = st.ptype; st.ptype = "";
+    const base = filtered(false, false, false, false).filter(it => it.kind === "job"); st.ptype = save;
+    const bt = {}; for (const it of base) { const k = ptypeOf(it); bt[k] = (bt[k] || 0) + 1; }
+    h += `<div class="wrow"><span class="wlabel">Type</span><button class="wpill" data-pt="" aria-pressed="${!st.ptype}">Any<i>${base.length}</i></button>` +
+      PTYPES.filter(k => bt[k] || st.ptype === k).map(k => `<button class="wpill" data-pt="${esc(k)}" aria-pressed="${st.ptype === k}">${esc(k)}<i>${bt[k] || 0}</i></button>`).join("") + "</div>";
+  }
   if (st.continent) h += '<div class="wnote">Papers have no location, so they are hidden while a place is selected.</div>';
   $("where").innerHTML = h;
 }
@@ -780,6 +799,8 @@ function reset() { st.shown = PAGE; render(); }
 
 $("stats").addEventListener("click", e => { const b = e.target.closest("[data-k]"); if (b) { st.kind = b.dataset.k; reset(); } });
 document.addEventListener("click", e => {
+  const wt = e.target.closest("[data-pt]");
+  if (wt) { st.ptype = wt.dataset.pt; st.shown = PAGE; render(); return; }
   const wc = e.target.closest("[data-cont]");
   if (wc) { st.continent = wc.dataset.cont; st.country = ""; reset(); return; }
   const wy = e.target.closest("[data-country]");

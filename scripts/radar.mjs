@@ -400,7 +400,9 @@ async function runSource(src, statusOut) {
       // Jobs fetched once a day by scripts/adzuna.mjs; loose keyword hits are verified like other boards.
       const file = await readJson(path.join(DATA_DIR, "adzuna.json"), { items: [] });
       const raw = file.items.map((j) => ({ title: j.title, link: j.url, date: j.posted, summary: `${j.org}. ${j.summary}`, deadline: "", location: j.location }));
-      const verified = raw.filter((r) => hasStrong(`${r.title} ${r.summary.slice(0, 400)}`).length);
+      // Drop roles that are not research/geodata work: apprenticeships, sales and account roles.
+      const NOISE = /ausbildung|auszubildende|azubi|apprentice|duales? studium|\bdual\b.*studium|werkstudent.*vertrieb|key account|account (manager|executive)|sales|vertrieb|außendienst|aussendienst|recruit/i;
+      const verified = raw.filter((r) => !NOISE.test(r.title) && hasStrong(`${r.title} ${r.summary.slice(0, 400)}`).length);
       const kept = verified.map((r) => classify(r, src)).filter(Boolean);
       statusOut[src.id] = { state: "ok", last_checked: nowIso, last_success: nowIso, items_found: raw.length, items_matched: kept.length, consecutive_failures: 0, last_error: null, note: file.fetched_at ? `fetched ${file.fetched_at.slice(0, 10)}, ${file.calls} calls` : "no Adzuna data yet" };
       return kept;

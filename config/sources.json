@@ -278,7 +278,7 @@
       "url": "https://www.jobs.uni-freiburg.de/",
       "type": "html",
       "kind": "job",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "awi-jobs",
@@ -366,7 +366,7 @@
       "url": "https://employment.ku.dk/all-vacancies/",
       "type": "html",
       "kind": "job",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "vito-jobs",
