@@ -321,6 +321,7 @@ function paperImpact(raw) {
   return { score: Math.round(score), topVenue };
 }
 
+const MEDICAL_TITLE = /\b(cancer|oncolog\w*|tumou?rs?|genetic\w*|genomic\w*|genome|proteins?|proteomic\w*|clinical|patients?|pharma\w*|drugs?|therap\w*|immun\w*|cardio\w*|neuro\w*|biomedical|embryo\w*|molecul\w*|microbio\w*|stem cells?|disease|medical|surgery|surgical|nursing|dental|psychiatr\w*|diabet\w*|virology|antibod\w*|biochem\w*|bioinformatic\w*)\b/i;
 function classify(raw, source) {
   const text = `${raw.title} ${raw.summary}`;
   const matched = domainTerms.filter((d) => d.re.test(text)).map((d) => d.term);
@@ -337,6 +338,8 @@ function classify(raw, source) {
     else { raw = { ...raw, deadline: "" }; closed = true; }
   }
   if (excludeRe && excludeRe.test(text)) return null;
+  // Medical and life-science roles are outside this field, whatever acronym or keyword pulled them in.
+  if (source.kind !== "paper" && MEDICAL_TITLE.test(raw.title)) return null;
   // Job pages also carry navigation and department links: require a position
   // word and a title of at least four words before accepting a listing.
   // Sources marked "trusted" list only items of their kind (e.g. an event calendar).
