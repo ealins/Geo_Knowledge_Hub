@@ -434,8 +434,11 @@ async function runSource(src, statusOut) {
       // Career pages rendered by the Cloudflare Worker (Browser Rendering, cron). Keep links whose text is strongly on topic.
       const file = JSON.parse(await fetchText(src.url));
       const raw = (file.pages ?? []).flatMap((p) => (p.links ?? []).map((l) => ({ title: l.t, link: l.h, date: "", summary: p.name, deadline: "", location: p.name, open_posting: true })));
-      const verified = raw.filter((r) => hasStrong(r.title).length && !/cookie|privacy|datenschutz|newsletter|sitemap|login|accessibility/i.test(r.title));
-      const kept = verified.map((r) => classify(r, src)).filter(Boolean);
+      // These pages list every discipline, so the title must look like a vacancy AND name a geodata topic.
+      const VACANCY = /\b(ph\.?d|postdoc|post-doctoral|postdoctoral|doctoral|doctorate|research associate|research assistant|researcher|scientist|engineer|lecturer|professor|fellow|position|vacancy|wissenschaftlich|developer|specialist|analyst)\b/i;
+      const TOPIC = /geodata|geo-?ai|\bgis\b|geoinformat|geospatial|geomatic|geodes|geodetic|geophysic|remote sensing|earth observation|lidar|photogramm|point cloud|\bmapping\b|cartograph|digital twin|\bsar\b|insar|gnss|hyperspectral|computer vision|spatial|glaciolog|physical geography|surveying|satellite|flood|debris|terrain|citygml|\bbim\b|3d (city|model|reconstruction)/i;
+      const verified = raw.filter((r) => VACANCY.test(r.title) && TOPIC.test(r.title));
+      const kept = verified.map((r) => classify(r, { ...src, on_topic: true, tag: "Career pages" })).filter(Boolean);
       const okPages = (file.pages ?? []).filter((p) => p.ok).length;
       statusOut[src.id] = { state: file.fetched_at ? "ok" : "error", last_checked: nowIso, last_success: file.fetched_at ? nowIso : null, items_found: raw.length, items_matched: kept.length, consecutive_failures: 0, last_error: file.fetched_at ? null : "collector has not run yet", note: `${okPages}/${(file.pages ?? []).length} pages rendered${file.fetched_at ? ", snapshot " + file.fetched_at.slice(0, 16) : ""}` };
       return kept;
