@@ -407,6 +407,29 @@ async function runSource(src, statusOut) {
       statusOut[src.id] = { state: "ok", last_checked: nowIso, last_success: nowIso, items_found: raw.length, items_matched: kept.length, consecutive_failures: 0, last_error: null, note: file.fetched_at ? `fetched ${file.fetched_at.slice(0, 10)}, ${file.calls} calls` : "no Adzuna data yet" };
       return kept;
     }
+    if (src.type === "boards") {
+      // Public ATS APIs (Greenhouse, Lever, Ashby, Workable): clean JSON, direct apply links, no deadlines.
+      const cfg = await readJson(path.join(ROOT, "config", "boards.json"), { boards: [] });
+      const inc = new RegExp(cfg.include, "i"), exc = new RegExp(cfg.exclude, "i");
+      const A = {
+        greenhouse: (s) => ({ url: `https://boards-api.greenhouse.io/v1/boards/${s}/jobs`, list: (j) => j.jobs, t: (x) => x.title, loc: (x) => x.location?.name, link: (x) => x.absolute_url, date: (x) => x.updated_at }),
+        lever: (s) => ({ url: `https://api.lever.co/v0/postings/${s}?mode=json`, list: (j) => j, t: (x) => x.text, loc: (x) => x.categories?.location, link: (x) => x.hostedUrl, date: (x) => (x.createdAt ? new Date(x.createdAt).toISOString() : "") }),
+        ashby: (s) => ({ url: `https://api.ashbyhq.com/posting-api/job-board/${s}`, list: (j) => j.jobs, t: (x) => x.title, loc: (x) => x.location, link: (x) => x.jobUrl, date: (x) => x.publishedAt }),
+        workable: (s) => ({ url: `https://apply.workable.com/api/v1/widget/accounts/${s}`, list: (j) => j.jobs, t: (x) => x.title, loc: (x) => [x.city, x.country].filter(Boolean).join(", "), link: (x) => x.url, date: (x) => x.published_on }),
+      };
+      const raw = []; let okBoards = 0; const bad = [];
+      for (const b of cfg.boards) {
+        const a = A[b.ats]?.(b.slug); if (!a) continue;
+        try {
+          const j = JSON.parse(await fetchText(a.url));
+          okBoards++;
+          for (const x of a.list(j) || []) { const title = a.t(x) || ""; if (inc.test(title) && !exc.test(title)) raw.push({ title: `${title} (${b.name})`, link: a.link(x), date: a.date(x) || "", summary: `${b.name}. ${a.loc(x) || ""}`, deadline: "", location: a.loc(x) || "", open_posting: true }); }
+        } catch (e) { bad.push(`${b.slug}: ${e.message}`); }
+      }
+      const kept = raw.map((r) => classify(r, src)).filter(Boolean);
+      statusOut[src.id] = { state: okBoards ? "ok" : "error", last_checked: nowIso, last_success: okBoards ? nowIso : null, items_found: raw.length, items_matched: kept.length, consecutive_failures: 0, last_error: okBoards ? null : bad.join("; ").slice(0, 200), note: `${okBoards}/${cfg.boards.length} boards${bad.length ? ", failed: " + bad.join("; ").slice(0, 120) : ""}` };
+      return kept;
+    }
     if (src.type === "collected") {
       // Career pages rendered by the Cloudflare Worker (Browser Rendering, cron). Keep links whose text is strongly on topic.
       const file = JSON.parse(await fetchText(src.url));
@@ -500,7 +523,7 @@ for (const it of fresh) {
 // Listing pages (html) show only what is currently open: if such a source was
 // read successfully and an item is no longer on it, the item is gone. Feeds
 // and APIs roll over quickly, so their items keep the per-kind window instead.
-const htmlOk = new Set(enabled.filter((s) => ["html", "jobsacuk", "euraxess", "adzuna", "collected", "page", "discovered", "discovered-events", "curated"].includes(s.type) && statusOut[s.id]?.state === "ok").map((s) => s.id));
+const htmlOk = new Set(enabled.filter((s) => ["html", "jobsacuk", "euraxess", "adzuna", "collected", "boards", "page", "discovered", "discovered-events", "curated"].includes(s.type) && statusOut[s.id]?.state === "ok").map((s) => s.id));
 const enabledIds = new Set(enabled.map((s) => s.id));
 for (const it of previous.items ?? []) {
   if (merged.has(it.id) || htmlOk.has(it.source) || !enabledIds.has(it.source)) continue;

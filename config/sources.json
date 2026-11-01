@@ -1012,6 +1012,14 @@
       "type": "collected",
       "kind": "job",
       "enabled": true
+    },
+    {
+      "id": "company-boards",
+      "name": "Company job boards",
+      "url": "https://boards-api.greenhouse.io/",
+      "type": "boards",
+      "kind": "job",
+      "enabled": true
     }
   ]
 }

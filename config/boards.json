@@ -1,0 +1,77 @@
+{
+  "_note": "Public company job boards (no auth). Slugs verified by scripts/ats-probe.mjs on 2026-11-01. Titles must match include and not match exclude.",
+  "include": "photogramm|remote sensing|earth observation|geospatial|geoinformat|geomatic|\\bgis\\b|lidar|point cloud|\\bsar\\b|insar|geodes|gnss|hyperspectral|computer vision|spatial ai|geometric|3d reconstruction|\\bslam\\b|digital twin|\\bmapping\\b|perception|satellite data|geodata",
+  "exclude": "technician|production|manufactur|sales|account|ts/sci|clearance|talent pool|finance|marketing|launch manager|recruit|legal|procurement|logistics|supply chain|warehouse",
+  "boards": [
+    {
+      "ats": "greenhouse",
+      "slug": "navvis",
+      "name": "NavVis"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "planetlabs",
+      "name": "Planet Labs"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "spire",
+      "name": "Spire Global"
+    },
+    {
+      "ats": "greenhouse",
+      "slug": "hawkeye360",
+      "name": "HawkEye 360"
+    },
+    {
+      "ats": "ashby",
+      "slug": "iceye",
+      "name": "ICEYE"
+    },
+    {
+      "ats": "ashby",
+      "slug": "skydio",
+      "name": "Skydio"
+    },
+    {
+      "ats": "ashby",
+      "slug": "mapbox",
+      "name": "Mapbox"
+    },
+    {
+      "ats": "lever",
+      "slug": "aeva",
+      "name": "Aeva"
+    },
+    {
+      "ats": "lever",
+      "slug": "outsight",
+      "name": "Outsight"
+    },
+    {
+      "ats": "workable",
+      "slug": "pix4d",
+      "name": "Pix4D"
+    },
+    {
+      "ats": "workable",
+      "slug": "flyability",
+      "name": "Flyability"
+    },
+    {
+      "ats": "workable",
+      "slug": "propeller",
+      "name": "Propeller Aero"
+    },
+    {
+      "ats": "workable",
+      "slug": "satellitevu",
+      "name": "SatelliteVu"
+    },
+    {
+      "ats": "workable",
+      "slug": "upstream",
+      "name": "Upstream"
+    }
+  ]
+}
