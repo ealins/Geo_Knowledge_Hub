@@ -262,5 +262,17 @@
   "ok": false,
   "terms": "",
   "at": "2026-10-30T17:06:01.352Z"
+ },
+ "https://www.jobs.ac.uk/job/DTM688/associate-professor-physical-ai-sensing": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-02T16:00:35.364Z"
+ },
+ "https://www.jobs.ac.uk/job/DTM654/research-fellow-in-outbreak-response": {
+  "v": 2,
+  "ok": true,
+  "terms": "geospatial",
+  "at": "2026-11-02T16:00:35.364Z"
  }
 }
