@@ -286,5 +286,11 @@
   "ok": false,
   "terms": "",
   "at": "2026-11-03T16:17:07.424Z"
+ },
+ "https://www.jobs.ac.uk/job/DTN353/research-associate": {
+  "v": 2,
+  "ok": true,
+  "terms": "geospatial",
+  "at": "2026-11-03T21:51:38.365Z"
  }
 }
