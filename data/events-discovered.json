@@ -1,8 +1,17 @@
 {
- "generated_at": "2026-11-02T12:40:15.912Z",
+ "generated_at": "2026-11-03T12:06:10.154Z",
  "organisations": 160,
- "count": 20,
+ "count": 22,
  "items": [
+  {
+   "title": "31st International Symposium – CIPA2027 Abu Dhabi",
+   "url": "https://www.cipaheritagedocumentation.org/31st-international-symposium-cipa2027-in-abu-dhabi-uae/",
+   "starts": "2027-11-13T00:00:00.000Z",
+   "ends": "2027-11-14T23:59:59.000Z",
+   "deadline": null,
+   "host": "cipaheritagedocumentation.org",
+   "discovered_at": "2026-11-03T12:06:10.154Z"
+  },
   {
    "title": "Doppel-Workshop: Optical 3D Metrology & LowCost3D",
    "url": "https://www.dgpf.de/cal/Eventdetail/242/114|136|113|101/doppel-workshop-optical-3d-metrology-lowcost3d.html",
@@ -10,7 +19,7 @@
    "ends": "2026-11-18T23:59:59.000Z",
    "deadline": null,
    "host": "dgpf.de",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "PCP27 - Workshop Point Cloud Processing",
@@ -19,7 +28,7 @@
    "ends": "2027-02-04T23:59:59.000Z",
    "deadline": null,
    "host": "dgpf.de",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "DGPF Jahrestagung 2027",
@@ -28,7 +37,7 @@
    "ends": "2027-05-19T23:59:59.000Z",
    "deadline": null,
    "host": "dgpf.de",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "Geomatics Day 2026",
@@ -37,16 +46,7 @@
    "ends": "2026-11-06T23:59:59.000Z",
    "deadline": null,
    "host": "geoinformatienederland.nl",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
-  },
-  {
-   "title": "Terugkijken: GIN webinar over 3DBAG, digital twins en 3D-visualisaties",
-   "url": "https://geoinformatienederland.nl/videos/terugkijken-gin-webinar-over-3dbag-digital-twins-en-3d-visualisaties",
-   "starts": "2026-11-02T00:00:00.000Z",
-   "ends": "2026-11-02T23:59:59.000Z",
-   "deadline": null,
-   "host": "geoinformatienederland.nl",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "Nationaal Congres Bodemdaling 2026",
@@ -55,7 +55,7 @@
    "ends": "2026-11-19T23:59:59.000Z",
    "deadline": null,
    "host": "geoinformatienederland.nl",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "GIN-webinar: veilig graven en betrouwbare ondergrondinformatie",
@@ -64,7 +64,7 @@
    "ends": "2026-11-26T23:59:59.000Z",
    "deadline": null,
    "host": "geoinformatienederland.nl",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "Geodesi- og hydrografidagene Sola 2026",
@@ -73,7 +73,7 @@
    "ends": "2026-11-09T23:59:59.000Z",
    "deadline": null,
    "host": "geoforum.no",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "Kartverket: Geonorge Brukerkonferanse 2026",
@@ -82,7 +82,7 @@
    "ends": "2026-11-10T23:59:59.000Z",
    "deadline": null,
    "host": "geoforum.no",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "Eksterne kurs og konferanser",
@@ -91,7 +91,7 @@
    "ends": "2026-11-10T23:59:59.000Z",
    "deadline": null,
    "host": "geoforum.no",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "Wavelength 2027: Early Careers Conference in Remote Sensing",
@@ -100,7 +100,7 @@
    "ends": "2027-04-09T23:59:59.000Z",
    "deadline": null,
    "host": "rspsoc.org.uk",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "Save the Date - 2027 ASPRS Fall Symposium",
@@ -109,7 +109,7 @@
    "ends": "2027-09-12T23:59:59.000Z",
    "deadline": null,
    "host": "asprs.org",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "EuroSDR GeoAI SIG | 2nd Workshop: Learning by Sharing: The European Model Catalogue & LLMs in Action",
@@ -118,7 +118,7 @@
    "ends": "2026-11-20T23:59:59.000Z",
    "deadline": null,
    "host": "eurosdr.net",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "EuroSDR Webinar – Securing Critical Geo and Geodetic Expertise in Europe",
@@ -127,7 +127,7 @@
    "ends": "2026-12-03T23:59:59.000Z",
    "deadline": null,
    "host": "eurosdr.net",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "EuroSDR Workshop | Addressing Key Challenges for NMCAs and 3D: From Wish List to Practice",
@@ -136,7 +136,16 @@
    "ends": "2027-01-21T23:59:59.000Z",
    "deadline": "2026-12-04T23:59:59.000Z",
    "host": "eurosdr.net",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
+  },
+  {
+   "title": "5th International Workshop on Point Cloud Processing",
+   "url": "http://www.eurosdr.net/workshops/5th-international-workshop-point-cloud-processing",
+   "starts": "2027-02-04T00:00:00.000Z",
+   "ends": "2027-02-05T23:59:59.000Z",
+   "deadline": null,
+   "host": "eurosdr.net",
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "EuroSDR workshop | Towards a Digital Commons for Education about Land and Its Transformation",
@@ -145,7 +154,7 @@
    "ends": "2027-02-15T23:59:59.000Z",
    "deadline": "2026-12-04T23:59:59.000Z",
    "host": "eurosdr.net",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "46th EARSeL Symposium and 50th General Assembly",
@@ -154,7 +163,16 @@
    "ends": "2027-06-04T23:59:59.000Z",
    "deadline": null,
    "host": "earsel.org",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
+  },
+  {
+   "title": "Joint i-SAIRAS & iSpaRo Conference 2026 3. November 2026 | 6. November 2026",
+   "url": "https://event.dlr.de/en/event/joint-i-sairas-isparo-conference-2026/",
+   "starts": "2026-11-03T00:00:00.000Z",
+   "ends": "2026-11-06T23:59:59.000Z",
+   "deadline": null,
+   "host": "dlr.de",
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "Trimble Dimensions User Conference 2026",
@@ -163,7 +181,7 @@
    "ends": "2026-11-09T23:59:59.000Z",
    "deadline": null,
    "host": "gim-international.com",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "FIG WORKING WEEK 2027",
@@ -172,7 +190,7 @@
    "ends": "2027-05-23T23:59:59.000Z",
    "deadline": null,
    "host": "gim-international.com",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   },
   {
    "title": "UF/FL-ASPRS Fall 2026 Geospatial Workshop November 3 - 4, 2026 Apopka, Florida, USA",
@@ -181,7 +199,7 @@
    "ends": "2026-11-04T23:59:59.000Z",
    "deadline": null,
    "host": "riegl.com",
-   "discovered_at": "2026-11-02T12:40:15.912Z"
+   "discovered_at": "2026-11-03T12:06:10.154Z"
   }
  ]
 }
