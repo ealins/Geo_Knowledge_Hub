@@ -274,5 +274,17 @@
   "ok": true,
   "terms": "geospatial",
   "at": "2026-11-02T16:00:35.364Z"
+ },
+ "https://www.jobs.ac.uk/job/DTN102/phd-studentship-in-the-landscape-archaeology-of-east-african-montane-systems": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-03T16:17:07.424Z"
+ },
+ "https://www.jobs.ac.uk/job/DTM026/research-associate-aviation-simulation-digital-twins-and-ai-systems-development": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-03T16:17:07.424Z"
  }
 }
