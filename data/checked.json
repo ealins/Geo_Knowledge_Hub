@@ -292,5 +292,11 @@
   "ok": true,
   "terms": "geospatial",
   "at": "2026-11-03T21:51:38.365Z"
+ },
+ "https://www.jobs.ac.uk/job/DTN699/research-fellow-in-circularity-and-sustainable-infrastructure": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-04T19:48:19.497Z"
  }
 }
