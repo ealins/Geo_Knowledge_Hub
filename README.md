@@ -112,8 +112,8 @@ wrangler.jsonc       Worker configuration (domain, bindings, cron)
 Requirements: **Node.js 20+**.
 
 ```bash
-git clone https://github.com/ealins/Geo_Knowlege_Hub.git
-cd Geo_Knowlege_Hub
+git clone https://github.com/ealins/Geo_Knowledge_Hub.git
+cd Geo_Knowledge_Hub
 npm install
 
 npm run fetch     # node scripts/radar.mjs  → updates data/feed.json
