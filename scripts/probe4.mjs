@@ -1,4 +1,5 @@
-import { writeFile } from "node:fs/promises";
+import { writeFile, mkdir } from "node:fs/promises";
+await mkdir("diagout", { recursive: true });
 const UA = "Mozilla/5.0 (compatible; GeoRadarProbe/1.0)";
 const out = [];
 const get = async (u, opt = {}) => { try { const r = await fetch(u, { headers: { "user-agent": UA, accept: "*/*" }, redirect: "follow", signal: AbortSignal.timeout(15000), ...opt }); return { s: r.status, t: await r.text(), ct: r.headers.get("content-type") || "" }; } catch (e) { return { s: 0, t: "", e: e.message }; } };
