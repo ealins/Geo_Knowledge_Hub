@@ -1,0 +1,49 @@
+gogeomatics-news {"state":"ok","last_checked":"2026-11-04T21:20:19.120Z","last_success":"2026-11-04T21:20:19.120Z","items_found":30,"items_matched":17,"consecutive_failures":0,"last_error":null}
+gislounge-news {"state":"ok","last_checked":"2026-11-04T21:20:19.120Z","last_success":"2026-11-04T21:20:19.120Z","items_found":10,"items_matched":1,"consecutive_failures":0,"last_error":null}
+eij-news {"state":"ok","last_checked":"2026-11-04T21:20:19.120Z","last_success":"2026-11-04T21:20:19.120Z","items_found":10,"items_matched":10,"consecutive_failures":0,"last_error":null}
+aag-news {"state":"ok","last_checked":"2026-11-04T21:20:19.120Z","last_success":"2026-11-04T21:20:19.120Z","items_found":10,"items_matched":0,"consecutive_failures":0,"last_error":null}
+nv5-news {"state":"ok","last_checked":"2026-11-04T21:20:19.120Z","last_success":"2026-11-04T21:20:19.120Z","items_found":10,"items_matched":3,"consecutive_failures":0,"last_error":null}
+gogeomatics-jobs {"state":"ok","last_checked":"2026-11-04T21:20:19.120Z","last_success":"2026-11-04T21:20:19.120Z","items_found":38,"items_matched":1,"consecutive_failures":0,"last_error":null}
+gisjobs-board {"state":"ok","last_checked":"2026-11-04T21:20:19.120Z","last_success":"2026-11-04T21:20:19.120Z","items_found":18,"items_matched":0,"consecutive_failures":0,"last_error":null}
+company-boards {"state":"ok","last_checked":"2026-11-04T21:20:19.120Z","last_success":"2026-11-04T21:20:19.120Z","items_found":24,"items_matched":9,"consecutive_failures":0,"last_error":null,"note":"18/18 boards"}
+eij-news | news |  | New Opportunity: GISCorps Executive Director, GIS and Humanitarian Programs | https://eijournal.com/news/business-2/new-opportunity-giscorps-executive-director-gis-and-humanitarian-programs
+eij-news | news |  | Binder Jetting of Graphite with Highly Engineered Geometry | https://eijournal.com/news/business-2/binder-jetting-of-graphite-with-highly-engineered-geometry
+eij-news | news |  | MTDG Launches Industrywide Survey to Shape a Trusted Drone Component Marketplace | https://eijournal.com/news/business-2/mtdg-launches-industrywide-survey-to-shape-a-trusted-drone-component-marketplace
+eij-news | news |  | Planning for space launches across shared airspace | https://eijournal.com/news/people-and-events/planning-for-space-launches-across-shared-airspace
+eij-news | news |  | Geo Week Opening Keynote Explores Digitally Preserving 90 Years of Fallingwater | https://eijournal.com/news/people-and-events/geo-week-opening-keynote-explores-digitally-preserving-90-years-of-fallingwater
+eij-news | news |  | Hydrosat Announces Nyktòs Program to Provide Tactical ISR for Sovereign Customers from New | https://eijournal.com/news/products-2/hydrosat-announces-nyktos-program-to-provide-tactical-isr-for-sovereign-customers-from-new-facility-in-europe
+eij-news | news |  | Sodex Innovations to Showcase Portfolio of Site Intelligence Systems for Construction and  | https://eijournal.com/news/people-and-events/sodex-innovations-to-showcase-portfolio-of-site-intelligence-systems-for-construction-and-aggregates-at-trimble-dimensions
+eij-news | news |  | Map of the Month: NIQ Purchasing Power, Europe 2026 | https://eijournal.com/news/products-2/map-of-the-month-niq-purchasing-power-europe-2026
+eij-news | news |  | Satellites Track Autumn’s Changing Colors From Space | https://eijournal.com/news/industry-insights-trends/satellites-track-autumns-changing-colors-from-space
+eij-news | news |  | Champi’s Eerie Eye Seen from Space | https://eijournal.com/slider-images/champis-eerie-eye-seen-from-space
+nv5-news | news |  | The Bottleneck Isn’t the Sensor: Why Speed to Mission Depends on the Whole GEOINT Pipeline | https://www.nv5.com/news/the-bottleneck-isnt-the-sensor-why-speed-to-mission-depends-on-the-whole-geoint-pipeline/
+nv5-news | news |  | NV5 and CCCCC Advance Caribbean Climate Resilience With High-Resolution Lidar | https://www.nv5.com/news/nv5-and-ccccc-advance-caribbean-climate-resilience-with-high-resolution-lidar/
+nv5-news | news |  | Mitigating Risk and Prioritizing Work for Distribution Vegetation Management with Lidar An | https://www.nv5.com/news/utility-vm-program/
+gislounge-news | news |  | Good Governance Needs a Strong Code of Conduct | https://www.geographyrealm.com/good-governance-code-of-conduct/
+gogeomatics-news | news |  | LiDAR CANEX Comes to Ottawa: Dr. Tim Webster to Chair Canada’s Commercial Lidar Expo, In P | https://gogeomatics.ca/lidar-canex-geoignite-2027-ottawa/
+gogeomatics-news | news |  | Canada’s New National Security Strategy Raises the Stakes for Geospatial Infrastructure | https://gogeomatics.ca/canadas-new-national-security-strategy-raises-the-stakes-for-geospatial-infrastructure/
+gogeomatics-news | news |  | Canadian Geospatial Digest – November 1, 2026 | https://gogeomatics.ca/canadian-geospatial-digest-november-1-2026/
+gogeomatics-news | news |  | International Geospatial Digest – November 1, 2026 | https://gogeomatics.ca/international-geospatial-digest-november-1-2026/
+gogeomatics-news | news |  | Metadata Summit 2026 Brings Global Data Standards Conversation to Ottawa | https://gogeomatics.ca/metadata-summit-2026-ottawa-media-sponsor/
+gogeomatics-news | news |  | Canada’s New PNT Framework: What It Gets Right and What Comes Next | https://gogeomatics.ca/canadas-new-pnt-framework-what-it-gets-right-and-what-comes-next/
+gogeomatics-news | news |  | CHCNAV Returns to GoGeomatics Expo 2026 as Silver Sponsor | https://gogeomatics.ca/chcnav-returns-gogeomatics-expo-2026/
+gogeomatics-news | news |  | Canada puts geodesy in its PNT resilience plan, backs Xona with $15 million | https://gogeomatics.ca/canada-pnt-framework-geodesy-xona-investment/
+gogeomatics-news | news |  | Pitch the Press 2026: Meet the Fast Pitch Presenters at GoGeomatics Expo | https://gogeomatics.ca/fast-pitches-2026-preview/
+gogeomatics-news | news |  | SAIT Returns as Gold Sponsor of GoGeomatics Expo 2026 | https://gogeomatics.ca/sait-gogeomatics-expo-2026-gold-sponsor/
+gogeomatics-news | news |  | 10 Canadian Geomatics and Geospatial Events to Put on Your Calendar | https://gogeomatics.ca/10-canadian-geomatics-geospatial-events-to-put-on-your-calendar/
+gogeomatics-news | news |  | Canadian Geospatial Digest – October 11, 2026 | https://gogeomatics.ca/canadian-geospatial-digest-october-11-2026/
+gogeomatics-news | news |  | International Geospatial Digest – October 11, 2026 | https://gogeomatics.ca/international-geospatial-digest-october-11-2026/
+gogeomatics-news | news |  | Drawing a city from two files: the long road to a digital twin of the territory | https://gogeomatics.ca/drawing-a-city-from-two-files-digital-twin/
+gogeomatics-news | news |  | Geo Week Keynote Examines “A Lake in Crisis: Mapping Utah’s Great Salt Lake” | https://gogeomatics.ca/geo-week-2027-keynote-great-salt-lake/
+gogeomatics-news | news |  | Brandt Joins GoGeomatics Expo 2026 as Gold Sponsor | https://gogeomatics.ca/brandt-gogeomatics-expo-2026-gold-sponsor/
+gogeomatics-news | news |  | Mount Royal University Returns as Gold Sponsor of GoGeomatics Expo 2026 | https://gogeomatics.ca/mount-royal-university-gogeomatics-expo-2026-gold-sponsor/
+gogeomatics-jobs | job |  | Assistant Professor – Urban Environmental Remote Sensing Toronto, Ontario | https://gogeomatics.ca/job/assistant-professor-urban-environmental-remote-sensing/
+company-boards | job | Denver, CO | Remote Sensing Data Scientist (Muon Space) | https://job-boards.greenhouse.io/muonspace/jobs/5255167007
+company-boards | job | Denver, CO | Senior Remote Sensing Data Scientist, Cal/Val (Muon Space) | https://job-boards.greenhouse.io/muonspace/jobs/5256146007
+company-boards | job | San Jose, CA | Senior Technical Program Manager, Earth Observation (Muon Space) | https://job-boards.greenhouse.io/muonspace/jobs/5234027007
+company-boards | job | Berlin, Germany | Satellite Data Processing Engineer (Planet Labs) | https://job-boards.greenhouse.io/planetlabs/jobs/8221300
+company-boards | job | Espoo | Senior Geospatial Software Engineer (ICEYE) | https://jobs.ashbyhq.com/iceye/4b5957fb-dd07-424f-b1b0-59bbd2864a0f
+company-boards | job | Espoo | SAR Training Specialist (ICEYE) | https://jobs.ashbyhq.com/iceye/6f4c8c5f-a335-4828-8826-e93e02700b34
+company-boards | job | Espoo | Geospatial Image Analyst (GEOINT) (ICEYE) | https://jobs.ashbyhq.com/iceye/83a8f02c-f829-4f49-994a-91fd6716de0a
+company-boards | job | Espoo | Engineering Team Lead (Geospatial Analytics) (ICEYE) | https://jobs.ashbyhq.com/iceye/e5082d17-b132-4106-b70d-2a08cdeeb405
+company-boards | job | Mountain View, CA | Systems Engineer, LiDAR Characterization (Aeva) | https://jobs.lever.co/aeva/bab05e15-d7ce-430a-a91c-e0f1a1034d62
