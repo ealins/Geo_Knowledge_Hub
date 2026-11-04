@@ -19,22 +19,23 @@
 @font-face{font-family:"Fraunces";src:url(fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-display:swap}
 @font-face{font-family:"Inter";src:url(fonts/inter.woff2) format("woff2");font-weight:100 900;font-display:swap}
 :root{color-scheme:light dark;
-  --bg:#f4f6f8; --surface:#ffffff; --raise:#ffffff; --hover:#eef2f6; --text:#0d1722; --muted:#566677; --faint:#8695a3; --line:rgba(13,23,34,.10); --track:rgba(13,23,34,.10);
+  --bg:#f4f6f8; --surface:#ffffff; --raise:#ffffff; --hover:#eef2f6; --text:#0d1722; --muted:#566677; --faint:#617080; --line:rgba(13,23,34,.10); --track:rgba(13,23,34,.10);
   --accent:#3b5bdb; --accent-soft:rgba(59,91,219,.10); --glow:rgba(59,91,219,.18);
   --hero:#0b1620; --hero-text:#eaf2f7; --hero-mute:#8fa5b4; --contour:#4d86a3;
-  --hot:#d6322b; --warm:#b86a00; --calm:#16824f; --ink:#0d1722; --event:#0b87a6;
-  --job:#c27a10; --paper:#3b5bdb; --course:#8a4fd1; --news:#566677;
+  --hot:#c42a23; --warm:#985700; --calm:#14794a; --ink:#0d1722; --event:#08788d;
+  --job:#9a5c00; --paper:#3b5bdb; --course:#8a4fd1; --news:#566677;
+  --h-job:#ffb454; --h-course:#cfa3ff; --h-event:#5cc8e8; --h-hot:#ff7a72; --h-warm:#ffc777; --h-calm:#5fd3a0;
   --serif:"Fraunces",Charter,Georgia,serif; --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#080c11; --surface:#0e141b; --raise:#131b24; --hover:#121a23; --text:#e7edf2; --muted:#8a99a6; --faint:#5f6e7b; --line:rgba(255,255,255,.08); --track:rgba(255,255,255,.09);
+  --bg:#080c11; --surface:#0e141b; --raise:#131b24; --hover:#121a23; --text:#e7edf2; --muted:#8a99a6; --faint:#7c8b98; --line:rgba(255,255,255,.08); --track:rgba(255,255,255,.09);
   --accent:#8aa4ff; --accent-soft:rgba(138,164,255,.12); --glow:rgba(138,164,255,.22);
   --hero:#0a131b; --contour:#2f627c;
   --hot:#ff7a72; --warm:#ffb454; --calm:#5fd3a0; --ink:#e7edf2; --event:#5cc8e8;
   --job:#ffb454; --paper:#8aa4ff; --course:#cfa3ff; --news:#8a99a6;
 }}
 :root[data-theme="dark"]{
-  --bg:#080c11; --surface:#0e141b; --raise:#131b24; --hover:#121a23; --text:#e7edf2; --muted:#8a99a6; --faint:#5f6e7b; --line:rgba(255,255,255,.08); --track:rgba(255,255,255,.09);
+  --bg:#080c11; --surface:#0e141b; --raise:#131b24; --hover:#121a23; --text:#e7edf2; --muted:#8a99a6; --faint:#7c8b98; --line:rgba(255,255,255,.08); --track:rgba(255,255,255,.09);
   --accent:#8aa4ff; --accent-soft:rgba(138,164,255,.12); --glow:rgba(138,164,255,.22);
   --hero:#0a131b; --contour:#2f627c;
   --hot:#ff7a72; --warm:#ffb454; --calm:#5fd3a0; --ink:#e7edf2; --event:#5cc8e8;
@@ -47,10 +48,12 @@ a{color:var(--accent)}
 button{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
 .sr{position:absolute;left:-9999px}
+.skip{position:absolute;left:12px;top:-80px;z-index:30;background:var(--surface);color:var(--text);padding:9px 16px;border-radius:10px;border:1px solid var(--line);font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
 
 /* hero */
 .hero{position:relative;background:var(--hero);color:var(--hero-text);overflow:hidden;border-bottom:1px solid var(--line)}
-.hero svg.map{position:absolute;right:max(-120px,calc((100vw - 1760px) / 2 - 120px));top:-60px;width:820px;max-width:none;height:auto;fill:none;stroke:url(#hg);stroke-width:1;opacity:.75;pointer-events:none;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%);mask-image:linear-gradient(90deg,transparent 0,#000 45%)}
+.hero svg.map{position:absolute;right:max(-120px,calc((100vw - 1760px) / 2 - 120px));top:-60px;width:820px;max-width:none;height:auto;fill:none;stroke:url(#hg);stroke-width:1;opacity:.34;pointer-events:none;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%);mask-image:linear-gradient(90deg,transparent 0,#000 45%)}
 .hero svg.map path.idx{stroke-width:1.5;opacity:.95}
 .hero svg.map .sweep{transform-origin:320px 180px;animation:sweep 16s linear infinite;stroke:none}
 .hero svg.map .sweep line{stroke:#5fe0c9;stroke-width:1.4;opacity:.8}
@@ -61,11 +64,61 @@ button{font:inherit;color:inherit}
 .brand img{width:30px;height:30px;display:block;border-radius:8px;box-shadow:0 4px 18px rgba(95,224,201,.25)}
 .theme{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:var(--hero-text);border-radius:999px;padding:5px 13px;cursor:pointer;font-size:12.5px}
 .theme:hover{background:rgba(255,255,255,.14)}
-h1{margin:34px 0 0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings:"opsz" 72;letter-spacing:-.012em}
+h1{margin:0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings:"opsz" 72;letter-spacing:-.012em}
 .sub{margin:10px 0 0;font:500 clamp(18px,2vw,26px)/1.3 var(--serif);font-variation-settings:"opsz" 36;color:var(--hero-text);max-width:34ch}
 .tagline{margin:10px 0 0;max-width:54ch;color:var(--hero-mute);font-size:15.5px}
 
-/* deadline timeline */
+/* hero: copy + deadline radar + closing-next list */
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,480px);grid-template-areas:"copy radar" "next radar";column-gap:clamp(28px,5vw,88px);align-items:start;margin-top:24px}
+.hero-copy{grid-area:copy}.radar{grid-area:radar}.next{grid-area:next}
+.hero-copy h1{margin-top:12px}
+.pulse{margin:22px 0 0;font-size:16px;color:var(--hero-text);max-width:52ch}
+.pulse b{font-weight:650;font-variant-numeric:tabular-nums}
+.radar{margin:0;position:relative;align-self:center}
+.radar svg{display:block;width:100%;height:auto;overflow:visible;font-family:var(--sans)}
+.radar .ring{fill:none;stroke:rgba(255,255,255,.14)}
+.radar .ring.r60{stroke:rgba(255,255,255,.26)}
+.radar .spoke{stroke:rgba(255,255,255,.07)}
+.radar .rl{fill:var(--hero-mute);font-size:10.5px}
+.radar .sl{fill:#c3d2dc;font-size:11.5px;font-weight:550}
+.radar .core{fill:rgba(255,255,255,.85)}
+.radar .blip{stroke:#0b1620;stroke-width:1.5;cursor:pointer;transition:r .12s}
+.radar a:hover .blip{r:8}
+.radar .rsweep{transform-origin:230px 230px;transform:rotate(360deg);animation:rsweep 2.8s cubic-bezier(.45,.05,.3,1) both}
+.radar .rsweep line{stroke:#5fe0c9;stroke-width:1.5}
+.radar .blip{opacity:1;animation:blipin .5s ease-out both;animation-delay:var(--d)}
+@keyframes rsweep{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@keyframes blipin{from{opacity:0}to{opacity:1}}
+.radar-cap{min-height:44px;margin:4px auto 0;max-width:46ch;text-align:center;font-size:13px;line-height:1.45;color:var(--hero-mute)}
+.radar-cap a{color:var(--hero-text)}
+.rlegend{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--hero-mute);margin-top:4px}
+.rlegend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;background:var(--c);vertical-align:-1px}
+.next{margin-top:26px;max-width:64ch}
+.next-h{margin:0 0 6px;font:600 14px var(--sans);color:var(--hero-text);letter-spacing:0}
+.next ol{list-style:none;margin:0;padding:0}
+.next li{display:grid;grid-template-columns:72px minmax(0,1fr);gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid rgba(255,255,255,.09)}
+.next .nd{font-weight:650;font-variant-numeric:tabular-nums;font-size:13.5px;color:var(--c)}
+.next a{color:var(--hero-text);text-decoration:none;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.next a:hover{text-decoration:underline;text-underline-offset:3px}
+.next .kd{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--k);margin-right:8px;vertical-align:1px}
+.next .none{color:var(--hero-mute);border-top:1px solid rgba(255,255,255,.09);padding:10px 0}
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr;grid-template-areas:"copy" "radar" "next"}
+  .radar{max-width:440px;width:100%;justify-self:center;margin-top:22px}
+}
+@media (prefers-reduced-motion:reduce){.radar .rsweep,.radar .blip{animation:none}}
+
+.radar [hidden]{display:none!important}
+.viz-tabs{display:flex;justify-content:center;gap:4px;margin:0 0 6px}
+.viz-tabs button{background:none;border:1px solid rgba(255,255,255,.14);color:var(--hero-mute);border-radius:999px;padding:5px 16px;cursor:pointer;font-size:13px}
+.viz-tabs button:hover{color:var(--hero-text);border-color:rgba(255,255,255,.3)}
+.viz-tabs button[aria-selected="true"]{background:var(--hero-text);color:var(--hero);border-color:var(--hero-text);font-weight:600}
+#globe{display:block;width:100%;max-width:480px;aspect-ratio:1;margin:0 auto;cursor:grab;touch-action:pan-y}
+#globe.drag{cursor:grabbing}
+#globe.hit{cursor:pointer}
+.radar-cap b{color:var(--hero-text);font-weight:650;font-variant-numeric:tabular-nums}
+
+/* (old) deadline timeline */
 .tl{margin-top:30px}
 .tl-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 22px;margin-bottom:10px}
 .tl-head b{font:500 34px/1 var(--serif);margin-right:8px;font-variant-numeric:tabular-nums}
@@ -158,7 +211,7 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 .col .row{grid-template-columns:44px 1fr;gap:11px;padding:13px 4px}
 .col .ring{width:42px;height:42px}.col .ring::before{inset:3.5px}.col .ring b{font-size:14px}.col .ring b.w{font-size:11px}
 .col .gauge span{font-size:10.5px}
-.col .row h2{font-size:14.5px}
+.col .row h3{font-size:14.5px}
 .col .meta{font-size:12.5px;gap:2px 10px}
 .col .foot{position:absolute;right:4px;top:10px;margin:0}
 .col .foot .term,.col .kind,.col .actions .act:first-child{display:none}
@@ -258,10 +311,10 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 .t-hot .ring{--c:var(--hot)} .t-warm .ring{--c:var(--warm)} .t-calm .ring{--c:var(--calm)} .t-ink .ring{--c:var(--paper)} .t-event .ring{--c:var(--event)}
 .t-hot span{color:var(--hot)} .t-warm span{color:var(--warm)}
 .body{min-width:0}
-.row h2{margin:0;font:600 16px/1.38 var(--sans);letter-spacing:-.014em}
-.row h2 a{color:var(--text);text-decoration:none}
-.row h2 a::after{content:"";position:absolute;inset:0}
-.row h2 a:hover{color:var(--accent)}
+.row h3{margin:0;font:600 16px/1.38 var(--sans);letter-spacing:-.014em}
+.row h3 a{color:var(--text);text-decoration:none}
+.row h3 a::after{content:"";position:absolute;inset:0}
+.row h3 a:hover{color:var(--accent)}
 .meta{display:flex;gap:2px 14px;flex-wrap:wrap;align-items:center;margin-top:5px;color:var(--muted);font-size:13px}
 .kind{font-weight:600;color:var(--k);display:inline-flex;align-items:center;gap:6px}
 .kind::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--k)}
@@ -269,9 +322,8 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 .src{color:var(--faint)}
 .new{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:0 8px;font-size:11.5px;font-weight:600}
 .foot{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;margin-top:8px;position:relative;z-index:1}
-.term{border:0;background:none;color:var(--faint);padding:0;font-size:12.5px;cursor:pointer}
-.term::before{content:"#"}
-.term:hover{color:var(--accent)}
+.term{border:1px solid var(--line);background:none;color:var(--muted);padding:1px 9px;border-radius:999px;font-size:12px;cursor:pointer}
+.term:hover{color:var(--accent);border-color:var(--accent)}
 .actions{margin-left:auto;display:flex;gap:6px;opacity:0;transition:opacity .12s}
 .row:hover .actions,.row:focus-within .actions,.act[aria-pressed="true"]{opacity:1}
 @media (hover:none){.actions{opacity:1}}
@@ -311,26 +363,41 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
 </style>
 </head>
 <body>
-<div class="hero">
+<a class="skip" href="#main">Skip to the listings</a>
+<header class="hero">
   <svg class="map" id="contours" viewBox="0 0 640 360" aria-hidden="true"></svg>
   <div class="hero-in">
     <div class="top">
       <div class="brand"><img src="brand/mark.svg" width="30" height="30" alt="">geoacademic.app</div>
-      <button class="theme" id="theme" type="button">Auto theme</button>
+      <button class="theme" id="theme" type="button" aria-label="Colour theme">Theme: auto</button>
     </div>
-    <h1>Geo Radar</h1>
-    <p class="sub">Open deadlines in photogrammetry, remote sensing and geoinformatics.</p>
-    <p class="tagline">PhD and postdoc positions, MSc programmes, conferences and calls you can still apply to, plus the highest-impact new papers. Expired items disappear automatically.</p>
-    <div class="tl">
-      <div class="tl-head" id="live"></div>
-      <div class="track" id="track" role="group" aria-label="Deadlines in the next 60 days"></div>
-      <div class="tl-note" id="tlnote" aria-live="polite"></div>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Geo Radar</h1>
+        <p class="sub">Open deadlines in photogrammetry, remote sensing and geoinformatics.</p>
+        <p class="tagline">PhD and postdoc positions, MSc programmes, conferences and calls you can still apply to, plus the highest-impact new papers. Anything past its deadline drops off on its own.</p>
+        <p class="pulse" id="pulse"></p>
+      </div>
+      <figure class="radar">
+        <div class="viz-tabs" role="tablist" aria-label="Choose the hero view">
+          <button role="tab" type="button" data-viz="globe" aria-selected="true" aria-controls="globe">Where</button>
+          <button role="tab" type="button" data-viz="radar" aria-selected="false" aria-controls="radar">When</button>
+        </div>
+        <canvas id="globe" role="img" aria-label="Globe with a pulse for every open position, programme and event that has a known place"></canvas>
+        <svg id="radar" hidden viewBox="-46 -6 552 472" role="img" aria-labelledby="radar-t"><title id="radar-t">Deadlines in the next 60 days, by field</title></svg>
+        <figcaption class="radar-cap" id="radarcap" aria-live="polite"></figcaption>
+      </figure>
+      <section class="next" aria-labelledby="next-h">
+        <h2 class="next-h" id="next-h">Closing next</h2>
+        <ol id="next"></ol>
+      </section>
     </div>
   </div>
-</div>
+</header>
 
 <nav class="tabs" aria-label="Filter by type"><div class="tabs-in" id="stats" role="group"></div></nav>
 
+<main id="main" tabindex="-1">
 <div class="wrap">
   <div class="layout">
     <aside>
@@ -378,10 +445,13 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
   </div>
 </div>
 
+</main>
 <footer>
   <p id="meta"></p>
   <p>Saved items stay in this browser only. Links open the original source.</p>
 </footer>
+<script src="vendor/d3-array.min.js"></script>
+<script src="vendor/d3-geo.min.js"></script>
 <script>
 const KINDS = [["all","All"],["job","Positions"],["paper","Papers"],["course","Programmes"],["event","Events"],["news","News"]];
 const STORE = { saved: "geo-radar-saved", theme: "geo-radar-theme", profile: "geo-radar-profile", group: "geo-radar-group" };
@@ -419,7 +489,7 @@ const write = (k, v) => { try { localStorage.setItem(k, v); } catch {} };
 function applyTheme(t) {
   if (t === "auto") document.documentElement.removeAttribute("data-theme");
   else document.documentElement.setAttribute("data-theme", t);
-  $("theme").textContent = t === "auto" ? "Auto theme" : t === "dark" ? "Dark" : "Light";
+  $("theme").textContent = "Theme: " + t;
 }
 
 const DOMAINS = [
@@ -624,7 +694,7 @@ function renderStats() {
   $("stats").innerHTML = KINDS.map(([k, label]) => {
     const items = k === "all" ? pool : pool.filter(i => i.kind === k);
     const fresh = items.filter(isNew).length;
-    return `<button class="tab" data-k="${k}" aria-pressed="${st.kind === k}"><span class="tab-n">${items.length}</span><span class="tab-l">${label}</span>${fresh ? `<span class="tab-new" title="${fresh} new this week">+${fresh}</span>` : ""}</button>`;
+    return `<button class="tab" data-k="${k}" aria-pressed="${st.kind === k}"><span class="tab-n">${items.length}</span><span class="tab-l">${label}</span>${fresh && fresh < items.length ? `<span class="tab-new" title="${fresh} new this week">${fresh} new</span>` : ""}</button>`;
   }).join("");
 }
 
@@ -681,7 +751,7 @@ function renderJobsOverview() {
     return `<button class="ptile" data-pt="${esc(tp)}" aria-pressed="${st.ptype === tp}">
       <span class="pn">${esc(tp)}</span><span class="pc">${its.length}<small>open</small></span>
       <span class="ps">${sc.map((c, i) => c ? `<i class="${SEC_CLASS[i]}" style="width:${(c / n * 100).toFixed(1)}%"></i>` : "").join("")}</span>
-      <span class="pl">${sc.map((c, i) => c ? `${c} ${["univ.", "research/public", "company"][i]}` : "").filter(Boolean).join(" · ") || "None right now"}</span></button>`;
+      <span class="pl">${sc.map((c, i) => c ? `${c} at ${["universities", "research centres or public bodies", "companies"][i]}` : "").filter(Boolean).join(", ") || "None open right now"}</span></button>`;
   }).join("");
   const rows = DOMAINS.map(d => ({ d, its: pool.filter(it => it._d.has(d.id)) })).filter(r => r.its.length);
   const cells = rows.flatMap(r => PTYPES.map(tp => r.its.filter(it => ptypeOf(it) === tp).length));
@@ -691,10 +761,10 @@ function renderJobsOverview() {
       PTYPES.map(tp => { const c = r.its.filter(it => ptypeOf(it) === tp).length;
         return `<td>${c ? `<button data-mxd="${r.d.id}" data-mxp="${esc(tp)}" style="--a:${(0.12 + 0.88 * c / max).toFixed(2)}" title="${c} ${esc(tp)} in ${esc(r.d.name)}">${c}</button>` : '<button class="z" style="--a:0" tabindex="-1">·</button>'}</td>`; }).join("") +
       `<td class="tot"><button data-mxd="${r.d.id}" data-mxp="" style="--a:0">${r.its.length}</button></td></tr>`).join("") + "</tbody></table>";
-  return `<h2 class="sect">Positions by type<small>${pool.length} open · tap to filter</small></h2>
+  return `<h2 class="sect">Positions by type<small>${pool.length} open. Tap a type to filter.</small></h2>
     <div class="slegend">${SECTORS.map((s, i) => `<span><i class="${SEC_CLASS[i]}"></i>${esc(s)}</span>`).join("")}</div>
     <div class="ptiles">${tiles}</div>
-    <h2 class="sect" style="margin-top:30px">Field × type<small>tap a number to see those positions</small></h2>
+    <h2 class="sect" style="margin-top:30px">Field × type<small>Tap a number to see those positions.</small></h2>
     <div class="tablewrap">${table}</div><p class="mxnote">A position can belong to more than one field.</p>`;
 }
 function groupBar() {
@@ -754,8 +824,8 @@ function details(it) {
   if (it.kind === "paper") {
     if (it.top_venue) bits.push('<span class="strong">Top venue</span>');
     if (it.venue) bits.push(`<span>${esc(it.venue)}</span>`);
-    bits.push(`<span>${it.cited_by ? "cited " + it.cited_by + " times" : "not yet cited"}</span>`);
-    if (it.fwci != null) bits.push(`<span>FWCI ${esc(it.fwci)}</span>`);
+    bits.push(`<span>${it.cited_by ? it.cited_by + (it.cited_by === 1 ? " citation" : " citations") : "Not cited yet"}</span>`);
+    if (it.fwci != null) bits.push(`<span title="Field-weighted citation impact: 1.0 is the world average for papers of the same field and age">FWCI ${esc(it.fwci)}</span>`);
   }
   if (it.apply_closed) bits.push("<span>Current intake closed</span>");
   if (it.location) bits.push(`<span>${esc(it.location)}</span>`);
@@ -771,13 +841,13 @@ function card(it) {
       <span>${esc(g.small)}</span>
     </div>
     <div class="body">
-      <h2><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a></h2>
+      <h3><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a></h3>
       <div class="meta">
-        <span class="kind">${esc(kindName)}</span>
+        ${st.kind === "all" ? `<span class="kind">${esc(kindName)}</span>` : ""}
         ${(() => { const m = matchScore(it); return m == null || m < 0.15 ? "" : `<span class="match${m < 0.5 ? " mid" : ""}">${Math.round(m * 100)}% match</span>`; })()}
         ${isNew(it) ? '<span class="new">New</span>' : ""}
         ${details(it)}
-        <span class="src">${esc(it.source_name)}</span>
+        ${/^Papers:/.test(it.source_name || "") ? "" : `<span class="src">${esc(it.source_name)}</span>`}
       </div>
       <div class="foot">
         ${(it.matched || []).filter(t => t !== "event").slice(0, 4).filter(t => t !== "event").map(t => `<button class="term" data-t="${esc(t)}">${esc(t)}</button>`).join("")}
@@ -803,36 +873,192 @@ function section(it) {
   return "Other";
 }
 
+// ---------- hero views: globe (where) and deadline radar (when) ----------
+const hero = { viz: "globe", radarIdle: null, globeIdle: null };
+function heroIdle() { (hero.viz === "globe" ? hero.globeIdle : hero.radarIdle)?.(); }
+function setViz(v) {
+  hero.viz = v; write("geo-radar-viz", v);
+  document.querySelectorAll(".viz-tabs [data-viz]").forEach(b => b.setAttribute("aria-selected", b.dataset.viz === v));
+  $("globe").toggleAttribute("hidden", v !== "globe"); $("radar").toggleAttribute("hidden", v !== "radar");
+  heroIdle(); globe.wake?.();
+}
+
+// Places: known cities and campuses first, else the country's centre with a little scatter (a placeholder, not an address).
+const CITY = [
+  [/berlin/, 52.52, 13.40], [/münchen|munich|garching|oberpfaffenhofen|wessling/, 48.14, 11.58], [/hamburg/, 53.55, 9.99], [/köln|cologne/, 50.94, 6.96], [/frankfurt/, 50.11, 8.68],
+  [/stuttgart/, 48.78, 9.18], [/karlsruhe/, 49.01, 8.40], [/darmstadt/, 49.87, 8.65], [/potsdam/, 52.39, 13.06], [/hannover|hanover/, 52.37, 9.73], [/braunschweig/, 52.27, 10.52],
+  [/dresden/, 51.05, 13.74], [/bonn/, 50.73, 7.10], [/münster/, 51.96, 7.63], [/freiburg/, 47.99, 7.85], [/heidelberg/, 49.40, 8.67], [/aachen/, 50.78, 6.08], [/bremen/, 53.08, 8.80],
+  [/kiel/, 54.32, 10.14], [/leipzig/, 51.34, 12.37], [/jena/, 50.93, 11.59], [/dortmund/, 51.51, 7.47], [/magdeburg/, 52.12, 11.63], [/wiesbaden/, 50.08, 8.24], [/bielefeld/, 52.02, 8.53],
+  [/osnabrück/, 52.28, 8.05], [/weimar/, 50.98, 11.33], [/bremerhaven/, 53.54, 8.58], [/leeds/, 53.80, -1.55], [/london/, 51.51, -0.13], [/edinburgh/, 55.95, -3.19], [/cardiff/, 51.48, -3.18],
+  [/manchester/, 53.48, -2.24], [/southampton/, 50.91, -1.40], [/exeter/, 50.72, -3.53], [/norwich/, 52.63, 1.30], [/oxford/, 51.75, -1.26], [/cambridge, uk|university of cambridge/, 52.21, 0.12],
+  [/glasgow/, 55.86, -4.25], [/nottingham/, 52.95, -1.15], [/bristol/, 51.45, -2.59], [/newcastle/, 54.98, -1.61], [/reading/, 51.45, -0.97], [/zürich|zurich|eth /, 47.38, 8.54],
+  [/lausanne|epfl/, 46.52, 6.57], [/bern\b/, 46.95, 7.45], [/basel/, 47.56, 7.59], [/geneva|genève/, 46.20, 6.14], [/wien|vienna|tu wien/, 48.21, 16.37], [/graz/, 47.07, 15.44],
+  [/salzburg/, 47.81, 13.06], [/innsbruck/, 47.27, 11.39], [/delft/, 52.01, 4.36], [/enschede|twente|\bitc\b/, 52.22, 6.89], [/rotterdam/, 51.92, 4.48], [/amsterdam/, 52.37, 4.90],
+  [/utrecht/, 52.09, 5.12], [/wageningen/, 51.97, 5.67], [/eindhoven/, 51.44, 5.47], [/'s-hertogenbosch/, 51.69, 5.30], [/assen/, 52.99, 6.56], [/groningen/, 53.22, 6.57],
+  [/espoo|aalto/, 60.21, 24.66], [/helsinki/, 60.17, 24.94], [/stockholm|\bkth\b/, 59.33, 18.07], [/uppsala|swedish university of agricultural/, 59.86, 17.64], [/lund\b/, 55.70, 13.19],
+  [/gothenburg|göteborg/, 57.71, 11.97], [/copenhagen|københavn|\bdtu\b|lyngby/, 55.68, 12.57], [/oslo/, 59.91, 10.75], [/trondheim|ntnu/, 63.43, 10.40], [/bergen/, 60.39, 5.32],
+  [/paris/, 48.86, 2.35], [/toulouse/, 43.60, 1.44], [/barcelona/, 41.39, 2.17], [/madrid/, 40.42, -3.70], [/milan/, 45.46, 9.19], [/rome|roma/, 41.90, 12.50], [/lisbon|lisboa/, 38.72, -9.14],
+  [/dublin/, 53.35, -6.26], [/brussels|bruxelles/, 50.85, 4.35], [/leuven/, 50.88, 4.70], [/ghent|gent\b/, 51.05, 3.72], [/warsaw|warszawa/, 52.23, 21.01], [/prague|praha/, 50.08, 14.44],
+  [/pennsylvania state|penn state|state college/, 40.80, -77.86], [/purdue|west lafayette/, 40.43, -86.91], [/university of arizona|tucson/, 32.23, -110.95], [/university of maine|orono/, 44.90, -68.67],
+  [/university of florida|gainesville/, 29.65, -82.32], [/university of maryland|college park/, 38.99, -76.94], [/british columbia|vancouver/, 49.26, -123.25], [/calgary/, 51.08, -114.13],
+  [/toronto/, 43.66, -79.40], [/boston|mit\b/, 42.36, -71.06], [/seattle/, 47.61, -122.33], [/denver|boulder/, 40.01, -105.27], [/blantyre/, -15.79, 35.01], [/nairobi/, -1.29, 36.82],
+  [/sydney/, -33.87, 151.21], [/melbourne/, -37.81, 144.96], [/brisbane/, -27.47, 153.03], [/auckland/, -36.85, 174.76], [/kathmandu/, 27.72, 85.32], [/beijing/, 39.90, 116.40],
+  [/wuhan/, 30.59, 114.31], [/tokyo/, 35.68, 139.69], [/singapore/, 1.35, 103.82],
+];
+const CENTROID = { "Germany": [51.2, 10.4], "United Kingdom": [53.5, -2.2], "Netherlands": [52.2, 5.5], "Switzerland": [46.8, 8.2], "Austria": [47.6, 14.1], "Sweden": [60.5, 15.5],
+  "Norway": [60.5, 9], "Finland": [62.5, 25.5], "Denmark": [56, 9.5], "Belgium": [50.6, 4.6], "France": [46.6, 2.4], "Spain": [40.3, -3.7], "Italy": [42.8, 12.5], "Poland": [52, 19.4],
+  "Portugal": [39.6, -8], "Ireland": [53.3, -8], "Iceland": [64.9, -18.6], "Czechia": [49.8, 15.5], "Hungary": [47.2, 19.4], "Greece": [39, 22], "Bulgaria": [42.7, 25.5], "Romania": [45.9, 25],
+  "Croatia": [45.1, 15.2], "Slovenia": [46.1, 14.8], "Slovakia": [48.7, 19.5], "Estonia": [58.6, 25], "Latvia": [56.9, 24.6], "Lithuania": [55.2, 23.9], "Luxembourg": [49.8, 6.1],
+  "Serbia": [44, 21], "Türkiye": [39, 35], "China": [33, 108], "India": [22, 79], "Japan": [36.5, 138.5], "South Korea": [36.5, 127.8], "Singapore": [1.35, 103.8], "Malaysia": [4, 102],
+  "Thailand": [15, 101], "Indonesia": [-2, 118], "Vietnam": [16, 107], "Philippines": [12.9, 122], "Pakistan": [30, 70], "Bangladesh": [23.7, 90.3], "Nepal": [28.2, 84], "Sri Lanka": [7.9, 80.7],
+  "Iran": [32.4, 53.7], "Israel": [31, 35], "Saudi Arabia": [24, 45], "United Arab Emirates": [24, 54], "Qatar": [25.3, 51.2], "Kazakhstan": [48, 67], "United States": [39.5, -97],
+  "Canada": [53, -100], "Mexico": [23.6, -102.5], "Brazil": [-12, -50], "Chile": [-33, -71], "Argentina": [-35, -64], "Colombia": [4.6, -74], "Peru": [-9.2, -75], "Ecuador": [-1.8, -78.2],
+  "South Africa": [-30.6, 24], "Nigeria": [9.1, 8.7], "Kenya": [0.2, 37.9], "Egypt": [26.8, 30.8], "Ghana": [7.9, -1], "Morocco": [31.8, -7.1], "Tanzania": [-6.4, 34.9], "Ethiopia": [9.1, 40.5],
+  "Rwanda": [-1.9, 29.9], "Uganda": [1.4, 32.3], "Senegal": [14.5, -14.5], "Tunisia": [34, 9.5], "Australia": [-25.3, 134], "New Zealand": [-41, 174], "Fiji": [-17.7, 178] };
+const SPREAD = { "United States": 7, "Canada": 6, "China": 6, "Australia": 6, "Brazil": 6, "India": 4, "Kazakhstan": 4, "Mexico": 3.5, "Argentina": 4, "Saudi Arabia": 3, "Iran": 3, "Germany": 1.6, "United Kingdom": 1.4, "France": 1.8, "Spain": 1.6, "Sweden": 1.8, "Norway": 1.6, "Finland": 1.6 };
+const hashN = (s, k) => { let h = 2166136261 ^ k; for (const c of s) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return ((h >>> 0) % 10000) / 5000 - 1; };
+function coordOf(it) {
+  if (it._ll !== undefined) return it._ll;
+  const p = placeOf(it); if (!p) return (it._ll = null);
+  const loc = (it.location || "").toLowerCase();
+  const city = CITY.find(([re]) => re.test(loc));
+  const [la, lo, s] = city ? [city[1], city[2], 0.18] : CENTROID[p[1]] ? [...CENTROID[p[1]], SPREAD[p[1]] || 1] : [null];
+  if (la == null) return (it._ll = null);
+  return (it._ll = [lo + hashN(it.id, 1) * s, la + hashN(it.id, 2) * s * 0.65]);
+}
+
+const globe = { pts: [], land: null, rot: [-12, -42, 0], wake: null };
+function renderGlobe(open) {
+  const cv = $("globe");
+  if (!window.d3?.geoOrthographic) { setViz("radar"); document.querySelector(".viz-tabs").hidden = true; return; }
+  const KC = { job: "#ffb454", course: "#cfa3ff", event: "#5cc8e8" }, KN = { job: "Position", course: "Programme", event: "Event" };
+  globe.pts = open.map(it => ({ it, ll: coordOf(it) })).filter(p => p.ll);
+  const countries = new Set(globe.pts.map(p => countryOf(p.it))).size;
+  const cap = $("radarcap");
+  const legend = `<div class="rlegend">${["job", "course", "event"].map(k => `<span><i style="--c:${KC[k]}"></i>${KN[k]}s ${globe.pts.filter(p => p.it.kind === k).length}</span>`).join("")}</div>`;
+  hero.globeIdle = () => cap.innerHTML = `Picking up <b>${globe.pts.length}</b> pulses in <b>${countries}</b> countries. Drag to turn the globe.${legend}`;
+  heroIdle();
+  if (globe.started) { globe.wake?.(); return; }
+  globe.started = true;
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const ctx = cv.getContext("2d");
+  const proj = d3.geoOrthographic().clipAngle(90).precision(0.6);
+  const path = d3.geoPath(proj, ctx), grat = d3.geoGraticule10();
+  let W = 0, dpr = 1, raf = 0, last = 0, visible = true, hover = null, drag = null, t0 = performance.now();
+  function size() { const w = cv.clientWidth || 440; dpr = Math.min(2, devicePixelRatio || 1); W = w; cv.width = w * dpr; cv.height = w * dpr; proj.scale(w / 2 - 6).translate([w / 2, w / 2]); }
+  function frame(now) {
+    raf = 0; const dt = Math.min(64, now - (last || now)); last = now;
+    if (!drag && !hover && !reduce) globe.rot[0] += dt * 0.004;
+    proj.rotate(globe.rot);
+    const c = W / 2, r = W / 2 - 6, sweep = reduce ? -Math.PI / 2 : ((now - t0) / 4200) * Math.PI * 2 - Math.PI / 2;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, W);
+    const g = ctx.createRadialGradient(c - r * 0.35, c - r * 0.4, r * 0.1, c, c, r);
+    g.addColorStop(0, "#16324a"); g.addColorStop(1, "#0a1722");
+    ctx.beginPath(); path({ type: "Sphere" }); ctx.fillStyle = g; ctx.fill();
+    ctx.beginPath(); path(grat); ctx.strokeStyle = "rgba(255,255,255,.06)"; ctx.lineWidth = 0.6; ctx.stroke();
+    if (globe.land) { ctx.beginPath(); path(globe.land); ctx.fillStyle = "rgba(143,186,206,.16)"; ctx.fill(); ctx.strokeStyle = "rgba(195,215,228,.30)"; ctx.lineWidth = 0.6; ctx.stroke(); }
+    if (!reduce) { // radar sweep across the visible face
+      ctx.save(); ctx.beginPath(); ctx.arc(c, c, r, 0, Math.PI * 2); ctx.clip();
+      const cg = ctx.createConicGradient ? ctx.createConicGradient(sweep - 0.9, c, c) : null;
+      if (cg) { cg.addColorStop(0, "rgba(95,224,201,0)"); cg.addColorStop(0.143, "rgba(95,224,201,.16)"); cg.addColorStop(0.1431, "rgba(95,224,201,0)"); cg.addColorStop(1, "rgba(95,224,201,0)");
+        ctx.fillStyle = cg; ctx.fillRect(0, 0, W, W); }
+      ctx.beginPath(); ctx.moveTo(c, c); ctx.lineTo(c + r * Math.cos(sweep), c + r * Math.sin(sweep)); ctx.strokeStyle = "rgba(95,224,201,.55)"; ctx.lineWidth = 1.2; ctx.stroke(); ctx.restore();
+    }
+    ctx.beginPath(); path({ type: "Sphere" }); ctx.strokeStyle = "rgba(95,224,201,.35)"; ctx.lineWidth = 1; ctx.stroke();
+    const center = [-globe.rot[0], -globe.rot[1]]; globe.vis = [];
+    for (const p of globe.pts) {
+      if (d3.geoDistance(p.ll, center) > Math.PI / 2 - 0.02) continue;
+      const [x, y] = proj(p.ll); globe.vis.push([x, y, p]);
+      const col = KC[p.it.kind];
+      if (!reduce) { // the sweep "picks up" each pulse as it passes
+        let d = (sweep - Math.atan2(y - c, x - c)) % (Math.PI * 2); if (d < 0) d += Math.PI * 2;
+        if (d < 1.6) { const k = 1 - d / 1.6; ctx.beginPath(); ctx.arc(x, y, 3 + 13 * (1 - k), 0, Math.PI * 2); ctx.strokeStyle = col; ctx.globalAlpha = k * 0.85; ctx.lineWidth = 1.2; ctx.stroke(); ctx.globalAlpha = 1; }
+      }
+      ctx.beginPath(); ctx.arc(x, y, p === hover ? 5 : 2.6, 0, Math.PI * 2); ctx.fillStyle = col; ctx.fill();
+      if (p === hover) { ctx.lineWidth = 2; ctx.strokeStyle = "#fff"; ctx.stroke(); }
+    }
+    if (!reduce && visible && !document.hidden && hero.viz === "globe") raf = requestAnimationFrame(frame);
+  }
+  const wake = () => { if (!raf && hero.viz === "globe") raf = requestAnimationFrame(frame); };
+  globe.wake = wake;
+  function pick(e) {
+    const b = cv.getBoundingClientRect(), x = e.clientX - b.left, y = e.clientY - b.top; let best = null, bd = 12;
+    for (const [px, py, p] of globe.vis || []) { const d = Math.hypot(px - x, py - y); if (d < bd) { bd = d; best = p; } }
+    return best;
+  }
+  cv.addEventListener("pointerdown", e => { drag = { x: e.clientX, y: e.clientY, r: [...globe.rot], moved: false }; cv.setPointerCapture(e.pointerId); cv.classList.add("drag"); });
+  cv.addEventListener("pointermove", e => {
+    if (drag) { const dx = e.clientX - drag.x, dy = e.clientY - drag.y; if (Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
+      globe.rot = [drag.r[0] + dx * 0.32, Math.max(-75, Math.min(75, drag.r[1] - dy * 0.32)), 0]; wake(); if (reduce) frame(performance.now()); return; }
+    const p = pick(e); if (p !== hover) { hover = p; cv.classList.toggle("hit", !!p);
+      if (p) { const d = p.it.deadline && Date.parse(p.it.deadline) >= Date.now() - 864e5 ? Math.max(0, dayLeft(p.it.deadline)) : null;
+        cap.innerHTML = `<a href="${esc(p.it.url)}" target="_blank" rel="noopener noreferrer">${esc(p.it.title.length > 110 ? p.it.title.slice(0, 108) + "…" : p.it.title)}</a><br>${KN[p.it.kind]} in ${esc(countryOf(p.it))}${d != null ? `, closes ${fmt(p.it.deadline)}` : p.it.open_posting ? ", open posting" : ""}`; }
+      else heroIdle();
+      wake(); if (reduce) frame(performance.now()); }
+  });
+  cv.addEventListener("pointerup", e => { const moved = drag?.moved; drag = null; cv.classList.remove("drag"); if (!moved) { const p = pick(e); if (p) window.open(p.it.url, "_blank", "noopener"); } });
+  cv.addEventListener("pointerleave", () => { if (!drag && hover) { hover = null; cv.classList.remove("hit"); heroIdle(); wake(); } });
+  new IntersectionObserver(es => { visible = es[0].isIntersecting; if (visible) wake(); }).observe(cv);
+  document.addEventListener("visibilitychange", wake);
+  addEventListener("resize", () => { size(); wake(); if (reduce) frame(performance.now()); });
+  size(); frame(performance.now());
+  fetch("vendor/land-110m.json").then(r => r.json()).then(j => { globe.land = j; frame(performance.now()); }).catch(() => {});
+}
+
 function renderHero() {
   const now = Date.now(), H = 60;
   const open = feed.items.filter(it => NEEDS_DEADLINE.has(it.kind) && ((it.deadline && Date.parse(it.deadline) >= now - 864e5) || it.open_posting || upcoming(it)));
   const dated = open.filter(it => it.deadline && Date.parse(it.deadline) >= now - 864e5)
     .map(it => ({ it, d: Math.max(0, (Date.parse(it.deadline) - now) / 864e5) }))
     .filter(x => x.d <= H).sort((a, b) => a.d - b.d);
-  const KC = { job: "var(--job)", course: "var(--course)", event: "var(--event)" };
-  const cnt = k => dated.filter(x => x.it.kind === k).length;
-  $("live").innerHTML = `<div><b>${open.length}</b>open right now</div><div class="lg">` +
-    [["job", "Positions"], ["course", "Programmes"], ["event", "Events"]].map(([k, l]) => `<span><i style="--c:${KC[k]}"></i>${l} ${cnt(k)}</span>`).join("") + "</div>";
-  const lanes = []; let html = "";
-  [[0, "Today"], [7, "1 week"], [14, "2 weeks"], [30, "1 month"], [60, "2 months"]].forEach(([d, l]) =>
-    html += `<div class="tick${d === 0 ? " now" : d === H ? " end" : ""}" style="left:calc(16px + (100% - 32px) * ${d / H})"><em>${l}</em></div>`);
-  dated.forEach((x, i) => {
-    const pos = x.d / H * 100; let lane = 0;
-    while (lanes[lane] !== undefined && pos - lanes[lane] < 1.5) lane++;
-    lanes[lane] = pos;
-    html += `<a class="dot" data-i="${i}" href="${esc(x.it.url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(x.it.title)}, ${fmt(x.it.deadline)}" style="--c:${KC[x.it.kind]};--d:${(i * 12 + 150)}ms;left:calc(16px + (100% - 32px) * ${x.d / H});top:${16 + lane * 15}px"></a>`;
+  const HK = { job: "var(--h-job)", course: "var(--h-course)", event: "var(--h-event)" };
+  const KN = { job: "Position", course: "Programme", event: "Event" };
+  const soon = dated.filter(x => x.d <= 14).length;
+  $("pulse").innerHTML = `<b>${open.length}</b> openings you can still apply to${soon ? `, and <b>${soon}</b> of them close within two weeks` : ""}.`;
+  const left = d => d <= 0 ? "Today" : d === 1 ? "1 day" : d + " days";
+  const urg = d => d <= 7 ? "var(--h-hot)" : d <= 30 ? "var(--h-warm)" : "var(--h-calm)";
+  const short = s => s.length > 110 ? s.slice(0, 108) + "…" : s;
+  $("next").innerHTML = dated.slice(0, 5).map(x => { const d = Math.max(0, dayLeft(x.it.deadline));
+    return `<li><span class="nd" style="--c:${urg(d)}">${left(d)}</span><a href="${esc(x.it.url)}" target="_blank" rel="noopener noreferrer"><i class="kd" style="--k:${HK[x.it.kind]}" aria-hidden="true"></i><span class="sr">${KN[x.it.kind]}: </span>${esc(short(x.it.title))}</a></li>`; }).join("")
+    || '<li class="none">No dated deadlines in the next 60 days.</li>';
+
+  // Polar deadline radar: distance from the centre is time left (sqrt scale, so the next weeks get room), each wedge is a field.
+  const C = 230, R = 168, R0 = 14, n = DOMAINS.length, span = 360 / n, SWEEP = 2.8;
+  const rad = d => R0 + (R - R0) * Math.sqrt(Math.min(d, H) / H);
+  const pt = (r, a) => [C + r * Math.sin(a * Math.PI / 180), C - r * Math.cos(a * Math.PI / 180)];
+  const LABEL = { photo: "Photogrammetry", lidar: "LiDAR", rs: "Remote sensing", sar: "SAR, InSAR", geodesy: "Geodesy, GNSS", gis: "GIS", geoai: "GeoAI", city: "3D city, BIM", general: "General" };
+  const hash = s => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
+  let g = `<defs><radialGradient id="rbg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#5fe0c9" stop-opacity=".10"/><stop offset="1" stop-color="#5fe0c9" stop-opacity="0"/></radialGradient>
+    <linearGradient id="rsg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5fe0c9" stop-opacity="0"/><stop offset="1" stop-color="#5fe0c9" stop-opacity=".32"/></linearGradient></defs>
+    <circle cx="${C}" cy="${C}" r="${R}" fill="url(#rbg)"/>`;
+  for (let i = 0; i < n; i++) { const [x, y] = pt(R, i * span); g += `<line class="spoke" x1="${C}" y1="${C}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}"/>`; }
+  [[7, "7 days"], [14, "2 weeks"], [30, "1 month"], [60, "2 months"]].forEach(([d, l]) => {
+    g += `<circle class="ring${d === 60 ? " r60" : ""}" cx="${C}" cy="${C}" r="${rad(d).toFixed(1)}"/><text class="rl" x="${C + 5}" y="${(C - rad(d) + 13).toFixed(1)}">${l}</text>`;
   });
-  const track = $("track");
-  track.style.setProperty("--h", (46 + Math.max(1, lanes.length) * 15) + "px");
-  track.innerHTML = html;
-  const note = $("tlnote");
-  const say = x => note.innerHTML = x ? `<a href="${esc(x.it.url)}" target="_blank" rel="noopener noreferrer">${esc(x.it.title.length > 100 ? x.it.title.slice(0, 98) + "…" : x.it.title)}</a>, closes ${fmt(x.it.deadline)}` : "";
-  const first = dated[0];
-  const idle = () => first ? (note.innerHTML = "Next to close: " + `<a href="${esc(first.it.url)}" target="_blank" rel="noopener noreferrer">${esc(first.it.title.length > 100 ? first.it.title.slice(0, 98) + "…" : first.it.title)}</a>, ${dayLeft(first.it.deadline) <= 0 ? "today" : "in " + dayLeft(first.it.deadline) + (dayLeft(first.it.deadline) === 1 ? " day" : " days")}`) : (note.textContent = "No dated deadlines in the next 60 days.");
+  DOMAINS.forEach((dm, i) => {
+    const a = i * span + span / 2, [x, y] = pt(R + 22, a);
+    const anchor = Math.abs(Math.sin(a * Math.PI / 180)) < 0.25 ? "middle" : Math.sin(a * Math.PI / 180) > 0 ? "start" : "end";
+    g += `<text class="sl" x="${x.toFixed(1)}" y="${(y + 4).toFixed(1)}" text-anchor="${anchor}">${esc(LABEL[dm.id] || dm.name)}</text>`;
+  });
+  const wedge = (() => { const [x1, y1] = pt(R, -38); return `M${C} ${C} L${x1.toFixed(1)} ${y1.toFixed(1)} A${R} ${R} 0 0 1 ${C} ${C - R} Z`; })();
+  g += `<g class="rsweep"><path d="${wedge}" fill="url(#rsg)" transform="rotate(0 ${C} ${C})"/><line x1="${C}" y1="${C}" x2="${C}" y2="${C - R}"/></g>`;
+  dated.forEach((x, i) => {
+    const si = DOMAINS.findIndex(d => d.id === fieldOf(x.it));
+    const a = si * span + span * (0.16 + 0.68 * ((hash(x.it.id) % 1000) / 1000));
+    const [px, py] = pt(rad(x.d), a);
+    g += `<a href="${esc(x.it.url)}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true" data-i="${i}"><circle class="blip" cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="5.5" fill="${HK[x.it.kind]}" style="--d:${(a / 360 * SWEEP).toFixed(2)}s"/></a>`;
+  });
+  g += `<circle class="core" cx="${C}" cy="${C}" r="2.5"/>`;
+  const svg = $("radar"); svg.innerHTML = svg.querySelector("title").outerHTML + g;
+  const cap = $("radarcap");
+  const legend = `<div class="rlegend">${["job", "course", "event"].map(k => `<span><i style="--c:${HK[k]}"></i>${KN[k]}s ${dated.filter(x => x.it.kind === k).length}</span>`).join("")}</div>`;
+  hero.radarIdle = () => cap.innerHTML = `Distance from the centre is time left; each wedge is a field.${legend}`;
+  const idle = () => heroIdle();
   idle();
-  track.addEventListener("mouseover", e => { const d = e.target.closest(".dot"); if (d) say(dated[+d.dataset.i]); });
-  track.addEventListener("focusin", e => { const d = e.target.closest(".dot"); if (d) say(dated[+d.dataset.i]); });
-  track.addEventListener("mouseleave", idle);
+  svg.addEventListener("mouseover", e => { const el = e.target.closest("[data-i]"); if (!el) return; const x = dated[+el.dataset.i];
+    cap.innerHTML = `<a href="${esc(x.it.url)}" target="_blank" rel="noopener noreferrer">${esc(short(x.it.title))}</a><br>${KN[x.it.kind]}, closes ${fmt(x.it.deadline)} (${left(Math.max(0, dayLeft(x.it.deadline))).toLowerCase()} left)`; });
+  svg.addEventListener("mouseleave", idle);
+  renderGlobe(open);
 }
 
 function drawContours() {
@@ -847,7 +1073,6 @@ function drawContours() {
     }
     p += `<path d="${d}Z" style="animation-delay:${(i * 0.06).toFixed(2)}s"${i % 5 === 0 ? ' class="idx"' : ""}/>`;
   }
-  p += '<g class="sweep"><path d="M320 180 L660 180 A340 340 0 0 0 622 90 Z" fill="url(#sg)" transform="rotate(-30 320 180)"/><line x1="320" y1="180" x2="660" y2="180" transform="rotate(0 320 180)"/></g>';
   svg.innerHTML = p;
 }
 
@@ -899,7 +1124,7 @@ function render() {
   const items = sorted(filtered(false));
   const page = items.slice(0, st.shown);
   const filters = [st.continent, st.country, st.domain && DOM[st.domain].name, st.sub, st.topic && `topic “${st.topic}”`, st.source, st.newOnly && "new this week", st.savedOnly && "saved"].filter(Boolean);
-  $("count").textContent = `${items.length} ${items.length === 1 ? "item" : "items"}${filters.length ? " · " + filters.join(" · ") : ""}`;
+  $("count").textContent = `${items.length} ${items.length === 1 ? "item" : "items"}${filters.length ? ", filtered by " + filters.join(", ") : ""}`;
   $("dhead").innerHTML = ""; $("overview").innerHTML = ""; $("board").innerHTML = "";
   if (st.domain) renderDomainHead();
   if (overview) renderOverview();
@@ -913,7 +1138,7 @@ function render() {
     for (const k of groupOrder(st.group, keys, count)) {
       const its = by[k], open = openGroups.has(st.group + ":" + k);
       const dc = st.group === "field" ? (DOMAINS.find(d => d.name === k) || {}).color : "";
-      gh += `<h3 class="group"${dc ? ` style="--dc:${dc}"` : ""}>${st.group === "field" ? '<i class="gdot"></i>' : ""}${esc(k)}<span>${its.length}</span></h3>` + (open ? its : its.slice(0, GROUP_N)).map(card).join("") +
+      gh += `<h2 class="group"${dc ? ` style="--dc:${dc}"` : ""}>${st.group === "field" ? '<i class="gdot"></i>' : ""}${esc(k)}<span>${its.length}</span></h2>` + (open ? its : its.slice(0, GROUP_N)).map(card).join("") +
         (its.length > GROUP_N ? `<button class="gmore" data-gopen="${esc(st.group + ":" + k)}">${open ? "Show fewer" : `Show all ${its.length}`}</button>` : "");
     }
     $("list").innerHTML = gh || '<div class="empty">Nothing matches these filters.</div>';
@@ -924,7 +1149,7 @@ function render() {
   let html = "", last = "";
   for (const it of page) {
     const g = st.sort === "seen" ? bucket(it) : st.sort === "auto" ? section(it) : "";
-    if (g && g !== last) { html += `<h3 class="group">${esc(g)}</h3>`; last = g; }
+    if (g && g !== last) { html += `<h2 class="group">${esc(g)}</h2>`; last = g; }
     html += card(it);
   }
   $("list").innerHTML = html || '<div class="empty">Nothing matches these filters.</div>';
@@ -935,6 +1160,8 @@ function reset() { st.shown = PAGE; render(); }
 
 $("stats").addEventListener("click", e => { const b = e.target.closest("[data-k]"); if (b) { st.kind = b.dataset.k; reset(); } });
 document.addEventListener("click", e => {
+  const vz = e.target.closest("[data-viz]");
+  if (vz) { setViz(vz.dataset.viz); return; }
   const wt = e.target.closest("[data-pt]");
   if (wt) { st.ptype = wt.classList.contains("ptile") && st.ptype === wt.dataset.pt ? "" : wt.dataset.pt; st.shown = PAGE; render(); return; }
   const mx = e.target.closest("[data-mxd]");
@@ -987,6 +1214,8 @@ document.addEventListener("keydown", e => {
 try { saved = new Set(JSON.parse(read(STORE.saved, "[]"))); } catch { saved = new Set(); }
 try { profile = { skills: [], levels: [], where: "", ...JSON.parse(read(STORE.profile, "{}")) }; } catch {}
 applyTheme(read(STORE.theme, "auto"));
+hero.viz = read("geo-radar-viz", "globe") === "radar" ? "radar" : "globe";
+try { $("globe").toggleAttribute("hidden", hero.viz !== "globe"); $("radar").toggleAttribute("hidden", hero.viz !== "radar"); document.querySelectorAll(".viz-tabs [data-viz]").forEach(b => b.setAttribute("aria-selected", b.dataset.viz === hero.viz)); } catch {}
 st.group = GROUPS.some(([k]) => k === read(STORE.group, "")) ? read(STORE.group, "") : "role";
 drawContours();
 try { if (matchMedia("(max-width:860px)").matches) $("filters").open = false; } catch {}
@@ -1002,7 +1231,7 @@ Promise.all([
   try { const m = location.hash.match(/d=([a-z]+)(?:&s=([^&]+))?/); if (m && DOM[m[1]]) { st.domain = m[1]; st.sub = m[2] ? decodeURIComponent(m[2]) : ""; } } catch {}
   const names = [...new Set(feed.items.map(i => i.source_name))].sort();
   $("source").innerHTML += names.map(n => `<option>${esc(n)}</option>`).join("");
-  $("meta").textContent = `Updated ${new Date(feed.generated_at).toLocaleString()} · refreshed every 2 hours · ${feed.items.length} live items`;
+  $("meta").textContent = `${feed.items.length} live items, last updated ${new Date(feed.generated_at).toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}. The radar refreshes every hour.`;
   renderHero(); render();
 }).catch(() => { $("count").textContent = "Feed not available yet."; });
 </script>
