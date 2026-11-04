@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: geo-radar-adzuna
@@ -37,3 +38,7 @@ jobs:
           git add data/adzuna.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes."; else
             git commit -m "adzuna: refresh jobs"; git pull --rebase -q; git push; fi
+      - name: Start the radar so the new jobs go live now
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run radar.yml --ref main

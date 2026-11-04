@@ -71,7 +71,7 @@ const baseOf = (host) => {
 let browserPromise = null;
 async function render(url) {
   const { chromium } = await import("playwright");
-  browserPromise ??= chromium.launch();
+  browserPromise ??= chromium.launch({ channel: "chrome" }).catch(() => chromium.launch());
   const page = await (await browserPromise).newPage({ userAgent: UA });
   try {
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30_000 });

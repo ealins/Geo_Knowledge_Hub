@@ -18,5 +18,5 @@
   "ai": { "binding": "AI" },
   "browser": { "binding": "BROWSER" },
   "kv_namespaces": [{ "binding": "KV", "id": "6de3746626174d97894fe2b7fee638f7" }],
-  "triggers": { "crons": ["23 */12 * * *", "47 */4 * * *"] }
+  "triggers": { "crons": ["5 * * * *"] }
 }

@@ -3,7 +3,7 @@ name: Geo Radar
 on:
   workflow_dispatch:
   schedule:
-    # Every 2 hours. Scheduled runs only fire from the default branch (main).
+    # Fallback only: GitHub skips or delays many scheduled runs. The Cloudflare Worker starts this workflow every hour.
     - cron: "17 */2 * * *"
   push:
     branches: [main]
@@ -29,10 +29,8 @@ jobs:
       - name: Install Worker dependencies
         run: npm install --no-audit --no-fund
 
-      - name: Install headless browser for JavaScript-built pages
-        run: |
-          npm install --no-save playwright@1.48.2
-          npx playwright install --with-deps chromium
+      - name: Install Playwright (drives the Chrome already on the runner)
+        run: npm install --no-save --no-audit --no-fund playwright@1.48.2
 
       - name: Fetch sources and update feed
         run: node scripts/radar.mjs

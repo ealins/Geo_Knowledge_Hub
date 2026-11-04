@@ -88,6 +88,20 @@ async function aiMap(env) {
   return out;
 }
 
+// Start a GitHub Actions workflow on time. Needs the Worker secret GH_TOKEN
+// (fine-grained token, this repository only, permission "Actions: read and write").
+const REPO = "ealins/Geo_Knowlege_Hub";
+async function dispatch(env, workflow) {
+  if (!env.GH_TOKEN) { console.log("GH_TOKEN not set; skipping", workflow); return false; }
+  const r = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${workflow}/dispatches`, {
+    method: "POST",
+    headers: { authorization: `Bearer ${env.GH_TOKEN}`, accept: "application/vnd.github+json", "x-github-api-version": "2022-11-28", "user-agent": "geo-radar-worker", "content-type": "application/json" },
+    body: JSON.stringify({ ref: "main" }),
+  });
+  console.log("dispatch", workflow, r.status);
+  return r.status === 204;
+}
+
 export default {
   async fetch(req, env) {
     const u = new URL(req.url);
@@ -101,8 +115,15 @@ export default {
     return new Response("Not found", { status: 404 });
   },
   async scheduled(event, env, ctx) {
-    // "23 */12 * * *": render career pages, then tag. "47 */4 * * *": tag new items only.
-    const collectRun = event.cron.startsWith("23 ");
-    ctx.waitUntil((async () => { try { if (collectRun) await collect(env); } finally { await tagItems(env); } })());
+    // One hourly cron (minute 5) drives everything, because GitHub's own scheduler skips or delays most runs.
+    const d = new Date(event.scheduledTime), h = d.getUTCHours(), dow = d.getUTCDay();
+    ctx.waitUntil((async () => {
+      if (h % 12 === 0) await collect(env).catch((e) => console.log("collect failed", e?.message)); // career pages twice a day, before the radar reads them
+      await dispatch(env, "radar.yml");
+      if (h === 4) await dispatch(env, "discover-events.yml");
+      if (h === 5) await dispatch(env, "adzuna.yml");
+      if (h === 3 && dow === 1) await dispatch(env, "discover.yml");
+      await tagItems(env).catch((e) => console.log("tagging failed", e?.message)); // new items only, capped per run
+    })());
   },
 };

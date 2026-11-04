@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: geo-radar-discover
@@ -22,16 +23,26 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 200
+      - name: Skip if already refreshed (the Worker starts this on time; GitHub's schedule is a late fallback)
+        id: guard
+        run: |
+          last=$(git log -1 --format=%ct -- data/programmes-discovered.json 2>/dev/null || echo 0)
+          age=$(( $(date +%s) - ${last:-0} ))
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$age" -lt 597600 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; echo "Refreshed $((age/3600)) h ago; skipping."; fi
       - uses: actions/setup-node@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           node-version: 22
-      - name: Install headless browser for JavaScript-built sites
-        run: |
-          npm install --no-save playwright@1.48.2
-          npx playwright install --with-deps chromium
+      - name: Install Playwright (drives the Chrome already on the runner)
+        if: steps.guard.outputs.skip != 'true'
+        run: npm install --no-save --no-audit --no-fund playwright@1.48.2
       - name: Find programmes at top universities
+        if: steps.guard.outputs.skip != 'true'
         run: node scripts/discover.mjs | tee discover.log
       - name: Commit result
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -45,3 +56,8 @@ jobs:
             git pull --rebase -q
             git push
           fi
+      - name: Start the radar so the new data goes live now
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run radar.yml --ref main

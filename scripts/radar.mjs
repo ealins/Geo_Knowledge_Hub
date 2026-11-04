@@ -76,7 +76,8 @@ const parseDate = (s) => {
 let browserPromise = null;
 async function renderPage(url) {
   const { chromium } = await import("playwright");
-  browserPromise ??= chromium.launch();
+  // On GitHub runners Google Chrome is preinstalled, so no browser download is needed; fall back to Playwright's own build.
+  browserPromise ??= chromium.launch({ channel: "chrome" }).catch(() => chromium.launch());
   const page = await (await browserPromise).newPage({ userAgent: UA });
   try {
     const res = await page.goto(url, { waitUntil: "networkidle", timeout: 45_000 });
