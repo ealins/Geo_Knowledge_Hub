@@ -473,7 +473,7 @@ async function runSource(src, statusOut) {
     // {since:N} in a URL becomes the date N days ago (YYYY-MM-DD), keeping API queries to recent work.
     const url = src.url.replace(/\{since:(\d+)\}/g, (_, d) => new Date(now.getTime() - Number(d) * 864e5).toISOString().slice(0, 10));
     const body = src.render ? await renderPage(url) : await fetchText(url, src.headers);
-    const raw =
+    const parsed =
       src.type === "rss" ? parseFeed(body)
       : src.type === "openalex" ? parseOpenAlex(body)
       : src.type === "arbeitsagentur" ? parseArbeitsagentur(body)
@@ -482,6 +482,8 @@ async function runSource(src, statusOut) {
       : src.type === "euraxess" ? await verifyAdverts(parseEuraxess(body))
       : src.type === "page" ? parsePage(body, src, url)
       : [...parseJsonLd(body, src), ...parseHtml(body, src)];
+    // A listing page that shows only current ads (open_posting): items stay open while they are on the page.
+    const raw = src.open_posting ? parsed.map((r) => ({ ...r, date: r.date || nowIso, open_posting: true })) : parsed;
     const kept = raw.map((r) => classify(r, src)).filter(Boolean);
     statusOut[src.id] = {
       state: "ok",

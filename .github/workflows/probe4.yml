@@ -11,7 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - run: node scripts/probe4.mjs
+      - run: mkdir -p diagout && SOURCES_FILE=config/test-sources.json node scripts/radar.mjs > diagout/radar.log 2>&1 || true
       - run: |
+          node -e '
+          const f=require("./data/feed.json"),s=require("./data/status.json");
+          const ids=["gogeomatics-news","gislounge-news","eij-news","aag-news","nv5-news","gogeomatics-jobs","gisjobs-board","company-boards"];
+          const o=[];for(const i of ids)o.push(i+" "+JSON.stringify(s[i]||null).slice(0,260));
+          for(const it of f.items.filter(x=>ids.includes(x.source)))o.push(it.source+" | "+it.kind+" | "+(it.location||"")+" | "+it.title.slice(0,90)+" | "+it.url);
+          require("fs").writeFileSync("diagout/result.txt",o.join("\n")+"\n");'
           git config user.name probe && git config user.email probe@users.noreply.github.com
-          git add diagout && git commit -m "probe4 output" && git push origin HEAD:probe4
+          git add -A diagout && git commit -qm "probe result" && git push origin HEAD:probe4

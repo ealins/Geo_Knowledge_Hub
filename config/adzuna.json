@@ -1,13 +1,18 @@
 {
-  "note": "Adzuna free tier: keep calls_per_day at or below 20 (limit 25). Each query is one call.",
-  "calls_per_day": 20,
+  "note": "Adzuna free tier: keep calls_per_day at or below 24 (limit 25). Each query is one call. The list is longer than one day's calls; the script takes a rotating window, so every query runs about every second day and results are kept for max_days_old.",
+  "calls_per_day": 24,
   "max_days_old": 30,
   "queries": [
+    ["us", "photogrammetry"], ["us", "remote sensing"], ["us", "LiDAR"], ["us", "geospatial"],
+    ["us", "GIS analyst"], ["us", "earth observation"], ["us", "geodesy"], ["us", "computer vision 3D"],
+    ["ca", "remote sensing"], ["ca", "geomatics"], ["ca", "GIS"], ["ca", "photogrammetry"], ["ca", "LiDAR"],
+    ["au", "remote sensing"], ["au", "geospatial"], ["au", "photogrammetry"],
     ["de", "Photogrammetrie"], ["de", "Fernerkundung"], ["de", "Geoinformatik"], ["de", "GIS"],
     ["de", "Geodäsie"], ["de", "LiDAR"], ["de", "Laserscanning"], ["de", "remote sensing"],
     ["de", "Vermessungsingenieur"], ["de", "BIM GIS"],
     ["gb", "photogrammetry"], ["gb", "remote sensing"], ["gb", "LiDAR"], ["gb", "geospatial"], ["gb", "earth observation"],
     ["nl", "remote sensing"], ["nl", "GIS"],
-    ["at", "Geoinformatik"], ["ch", "Geomatik"], ["ch", "Photogrammetrie"]
+    ["at", "Geoinformatik"], ["ch", "Geomatik"], ["ch", "Photogrammetrie"],
+    ["fr", "télédétection"], ["fr", "photogrammétrie"], ["in", "remote sensing GIS"], ["sg", "geospatial"]
   ]
 }
