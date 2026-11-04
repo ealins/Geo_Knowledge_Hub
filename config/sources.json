@@ -1114,6 +1114,52 @@
       "type": "rss",
       "kind": "news",
       "enabled": true
+    },
+    {
+      "enabled": true,
+      "id": "gogeomatics-news",
+      "name": "GoGeomatics Canada",
+      "url": "https://gogeomatics.ca/feed/",
+      "type": "rss",
+      "kind": "news",
+      "on_topic": true,
+      "tag": "geomatics Canada"
+    },
+    {
+      "enabled": true,
+      "id": "gislounge-news",
+      "name": "GIS Lounge",
+      "url": "https://www.gislounge.com/feed/",
+      "type": "rss",
+      "kind": "news",
+      "on_topic": true,
+      "tag": "GIS"
+    },
+    {
+      "enabled": true,
+      "id": "eij-news",
+      "name": "Earth Imaging Journal",
+      "url": "https://eijournal.com/feed",
+      "type": "rss",
+      "kind": "news",
+      "tag": "earth observation"
+    },
+    {
+      "enabled": true,
+      "id": "nv5-news",
+      "name": "NV5 Geospatial",
+      "url": "https://www.nv5.com/feed",
+      "type": "rss",
+      "kind": "news"
+    },
+    {
+      "enabled": true,
+      "id": "gogeomatics-jobs",
+      "name": "GoGeomatics job board",
+      "url": "https://www.gogeomatics.ca/jobs",
+      "type": "html",
+      "kind": "job",
+      "open_posting": true
     }
   ]
 }

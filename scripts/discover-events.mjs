@@ -51,6 +51,7 @@ async function seedHosts() {
       if (!hosts.has(h)) hosts.set(h, { url, onTopic });
     } catch {}
   };
+  for (const u of cfg.extra_hosts) add(u, true); // first, so the host cap never cuts them
   for (const [list, onTopic] of [[cfg.societies, true], [cfg.hubs, false]]) {
     for (const seed of list) {
       try {

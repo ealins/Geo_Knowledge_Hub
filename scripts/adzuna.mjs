@@ -12,9 +12,13 @@ if (!id || !key) { console.log("No Adzuna keys set; skipping."); process.exit(0)
 if ((prev.fetched_at || "").startsWith(today) && !process.argv.includes("--force")) { console.log("Already fetched today; skipping to save calls."); process.exit(0); }
 
 const cap = Math.min(cfg.calls_per_day ?? 20, 24);
+// Rotating window: the list is longer than one day's calls, so each query runs every few days.
+const all = cfg.queries;
+const start = (Math.floor(Date.now() / 864e5) * cap) % all.length;
+const todays = Array.from({ length: Math.min(cap, all.length) }, (_, i) => all[(start + i) % all.length]);
 const items = new Map();
 let calls = 0, failed = 0;
-for (const [country, what] of cfg.queries.slice(0, cap)) {
+for (const [country, what] of todays) {
   const u = new URL(`https://api.adzuna.com/v1/api/jobs/${country}/search/1`);
   u.search = new URLSearchParams({ app_id: id, app_key: key, results_per_page: "50", what_phrase: what, max_days_old: String(cfg.max_days_old ?? 30), "content-type": "application/json" });
   calls++;
