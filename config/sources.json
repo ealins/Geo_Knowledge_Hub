@@ -63,7 +63,7 @@
       "url": "https://earth.esa.int/eogateway/events",
       "type": "html",
       "kind": "news",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "esa-careers",
@@ -138,7 +138,7 @@
       "url": "https://www.isprs.org/news/",
       "type": "html",
       "kind": "news",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "ethz-jobs",
@@ -1019,6 +1019,100 @@
       "url": "https://boards-api.greenhouse.io/",
       "type": "boards",
       "kind": "job",
+      "enabled": true
+    },
+    {
+      "id": "gim-news",
+      "name": "GIM International",
+      "url": "https://www.gim-international.com/rss",
+      "type": "rss",
+      "kind": "news",
+      "enabled": true,
+      "on_topic": true,
+      "tag": "Geomatics"
+    },
+    {
+      "id": "lidarmag-news",
+      "name": "LiDAR Magazine",
+      "url": "https://lidarmag.com/feed/",
+      "type": "rss",
+      "kind": "news",
+      "enabled": true,
+      "on_topic": true,
+      "tag": "LiDAR"
+    },
+    {
+      "id": "xyht-news",
+      "name": "xyHt",
+      "url": "https://www.xyht.com/feed/",
+      "type": "rss",
+      "kind": "news",
+      "enabled": true,
+      "on_topic": true,
+      "tag": "Geomatics"
+    },
+    {
+      "id": "insidegnss-news",
+      "name": "Inside GNSS",
+      "url": "https://insidegnss.com/feed/",
+      "type": "rss",
+      "kind": "news",
+      "enabled": true,
+      "on_topic": true,
+      "tag": "GNSS"
+    },
+    {
+      "id": "spatialsource-news",
+      "name": "Spatial Source",
+      "url": "https://www.spatialsource.com.au/feed",
+      "type": "rss",
+      "kind": "news",
+      "enabled": true,
+      "on_topic": true,
+      "tag": "Geospatial"
+    },
+    {
+      "id": "esa-eo-news",
+      "name": "ESA: Observing the Earth",
+      "url": "https://www.esa.int/rssfeed/Our_Activities/Observing_the_Earth",
+      "type": "rss",
+      "kind": "news",
+      "enabled": true,
+      "on_topic": true,
+      "tag": "Earth observation"
+    },
+    {
+      "id": "nasa-eo-news",
+      "name": "NASA Earth Observatory",
+      "url": "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
+      "type": "rss",
+      "kind": "news",
+      "enabled": true,
+      "on_topic": true,
+      "tag": "Earth observation"
+    },
+    {
+      "id": "eumetsat-news",
+      "name": "EUMETSAT news",
+      "url": "https://www.eumetsat.int/rss.xml",
+      "type": "rss",
+      "kind": "news",
+      "enabled": true
+    },
+    {
+      "id": "eos-news",
+      "name": "Eos (AGU)",
+      "url": "https://eos.org/feed",
+      "type": "rss",
+      "kind": "news",
+      "enabled": true
+    },
+    {
+      "id": "mapscaping-news",
+      "name": "Mapscaping",
+      "url": "https://mapscaping.com/feed/",
+      "type": "rss",
+      "kind": "news",
       "enabled": true
     }
   ]

@@ -355,6 +355,8 @@ function classify(raw, source) {
     const hit = kindRes.find(([, re]) => re.test(text));
     if (hit) kind = hit[0];
   }
+  // News is only news while it is recent: drop stories published more than 30 days ago.
+  if (kind === "news" && raw.date && now.getTime() - Date.parse(raw.date) > 30 * 864e5) return null;
   let paper = {};
   if (kind === "paper") {
     const { score, topVenue } = paperImpact(raw);
