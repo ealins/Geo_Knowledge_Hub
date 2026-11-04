@@ -1,0 +1,230 @@
+{
+ "gpsworld": {
+  "status": 403,
+  "finalUrl": "https://www.gpsworld.com/feed/",
+  "items": 0,
+  "newest": null,
+  "last30d": 0,
+  "titles": []
+ },
+ "geospatialworld": {
+  "status": 403,
+  "finalUrl": "https://www.geospatialworld.net/feed/",
+  "items": 0,
+  "newest": null,
+  "last30d": 0,
+  "titles": []
+ },
+ "xyht": {
+  "status": 200,
+  "finalUrl": "https://www.xyht.com/feed/",
+  "items": 10,
+  "newest": "2026-11-03",
+  "last30d": 8,
+  "titles": [
+   "Topcon to Support Scientific Research and Preservation of the Basilica",
+   "GISCorps Seeks Executive Director to Build on Two Decades of Humanitar",
+   "The Flock and the Fleet: The Rise of Coordinated Multi-Platform Hydrog"
+  ]
+ },
+ "lidarmag": {
+  "status": 200,
+  "finalUrl": "https://lidarmag.com/feed/",
+  "items": 10,
+  "newest": "2026-11-03",
+  "last30d": 10,
+  "titles": [
+   "SimActive and Phase One Accelerate Large-Scale Defense Mapping",
+   "McKim &#038; Creed Selected by U.S. Army Corps of Engineers for New Je",
+   "Carrying Forward a Lifetime of Service"
+  ]
+ },
+ "directionsmag": {
+  "status": 404,
+  "finalUrl": "https://www.directionsmag.com/rss",
+  "items": 0,
+  "newest": null,
+  "last30d": 0,
+  "titles": []
+ },
+ "esa-observing-earth": {
+  "status": 200,
+  "finalUrl": "https://www.esa.int/rssfeed/Our_Activities/Observing_the_Earth",
+  "items": 15,
+  "newest": "2026-10-30",
+  "last30d": 10,
+  "titles": [
+   "Sentinel-6B enters service",
+   "Earth from Space: Champi’s eerie eye",
+   "Ice mission CRISTAL opens its wings"
+  ]
+ },
+ "insidegnss": {
+  "status": 200,
+  "finalUrl": "https://insidegnss.com/feed/",
+  "items": 10,
+  "newest": "2026-11-03",
+  "last30d": 10,
+  "titles": [
+   "Safran Launches StarSync&#x2122; U4, a New Generation of High-Accuracy",
+   "In Memoriam: Dr. Durk van Willigen",
+   "ESA Adds Four Galileo G2 Satellites, Funds Norwegian Work on Jamming a"
+  ]
+ },
+ "eos": {
+  "status": 200,
+  "finalUrl": "https://eos.org/feed",
+  "items": 15,
+  "newest": "2026-11-03",
+  "last30d": 15,
+  "titles": [
+   "Mapping Kīlauea’s Magma Reservoirs",
+   "Elephants Engineer Their Ecosystems in Life—and in Death",
+   "There Are No Small Parts, Only Small Organisms"
+  ]
+ },
+ "sentinelhub-medium": {
+  "status": 200,
+  "finalUrl": "https://medium.com/feed/sentinel-hub",
+  "items": 10,
+  "newest": "2024-07-30",
+  "last30d": 0,
+  "titles": [
+   "Transition guide from Sentinel Hub EO Browser to Copernicus Browser",
+   "Projecting Cloud Shadows from Clouds",
+   "Product Update: Subscriptions API Delivery to Sentinel Hub"
+  ]
+ },
+ "esri-news": {
+  "status": 200,
+  "finalUrl": "https://www.esri.com/about/newsroom/feed/",
+  "items": 0,
+  "newest": null,
+  "last30d": 0,
+  "titles": []
+ },
+ "copernicus-news": {
+  "status": 200,
+  "finalUrl": "https://www.copernicus.eu/en/rss.xml",
+  "items": 10,
+  "newest": "2026-05-04",
+  "last30d": 0,
+  "titles": [
+   "Understanding how Earth’s surface changes",
+   "Dead shrimp",
+   "Jotunheimen"
+  ]
+ },
+ "spatialsource": {
+  "status": 200,
+  "finalUrl": "https://www.spatialsource.com.au/feed/",
+  "items": 10,
+  "newest": "2026-11-03",
+  "last30d": 10,
+  "titles": [
+   "Help shape the future of global geodesy",
+   "Geoscience Australia announces new AUSPOS version",
+   "WA, Tasmania EISSI award recipients announced"
+  ]
+ },
+ "nasa-earth-observatory": {
+  "status": 200,
+  "finalUrl": "https://science.nasa.gov/feed/?science_org=19791%2C22453",
+  "items": 10,
+  "newest": "2026-11-03",
+  "last30d": 10,
+  "titles": [
+   "The Pacific&#8217;s Busy Storm Season",
+   "Pennsylvania’s Grand Canyon",
+   "Vega Island Frozen in Fright"
+  ]
+ },
+ "mapscaping": {
+  "status": 200,
+  "finalUrl": "https://mapscaping.com/feed/",
+  "items": 10,
+  "newest": "2026-11-04",
+  "last30d": 10,
+  "titles": [
+   "Free Deed Plotter: Plot Metes and Bounds on Satellite Imagery",
+   "Guam Waterfalls Map: All 7 Named Falls",
+   "District of Columbia Waterfalls Map: All 1 Named Falls"
+  ]
+ },
+ "planet-pulse": {
+  "status": 404,
+  "finalUrl": "https://www.planet.com/pulse/rss.xml",
+  "items": 0,
+  "newest": null,
+  "last30d": 0,
+  "titles": []
+ },
+ "gislounge": {
+  "status": 200,
+  "finalUrl": "https://www.geographyrealm.com/feed/",
+  "items": 10,
+  "newest": "2026-10-13",
+  "last30d": 1,
+  "titles": [
+   "Good Governance Needs a Strong Code of Conduct",
+   "Alaska&#8217;s Coastline is Longer Than All the Other 49 States Combin",
+   "Geography Facts about the World&#8217;s Continents"
+  ]
+ },
+ "eumetsat-news": {
+  "status": 200,
+  "finalUrl": "https://www.eumetsat.int/rss.xml",
+  "items": 10,
+  "newest": "2026-11-03",
+  "last30d": 10,
+  "titles": [
+   "IRS Mission Advisory Group (IRS-MAG) November 2025",
+   "CIMR Synergistic Global Ocean and Atmospheric Product",
+   "Sentinel-6B to track rising seas, predict storms and aid forecasts"
+  ]
+ },
+ "gim-international": {
+  "status": 200,
+  "finalUrl": "https://www.gim-international.com/rss/news.xml",
+  "items": 100,
+  "newest": "2026-11-03",
+  "last30d": 22,
+  "titles": [
+   "Investors back Mach9 with a significant Series A to bring AI to civil ",
+   "Airborne Lidar puts 8.5 billion Finnish trees on the map one crown at ",
+   "Leica targets surveying’s toughest spots with Captivate 2027"
+  ]
+ },
+ "dlr-news": {
+  "status": 500,
+  "finalUrl": "https://www.dlr.de/en/latest/news/@@rss",
+  "items": 0,
+  "newest": null,
+  "last30d": 0,
+  "titles": []
+ },
+ "usgs-news": {
+  "status": 404,
+  "finalUrl": "https://www.usgs.gov/news/rss",
+  "items": 0,
+  "newest": null,
+  "last30d": 0,
+  "titles": []
+ },
+ "geoweeknews": {
+  "status": 404,
+  "finalUrl": "https://www.geoweeknews.com/rss.xml",
+  "items": 0,
+  "newest": null,
+  "last30d": 0,
+  "titles": []
+ },
+ "geoawesome": {
+  "status": 200,
+  "finalUrl": "https://geoawesome.com/",
+  "items": 0,
+  "newest": null,
+  "last30d": 0,
+  "titles": []
+ }
+}
