@@ -200,6 +200,47 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 .match{border-radius:999px;padding:0 8px;font-size:11.5px;font-weight:700;background:color-mix(in srgb,var(--calm) 16%,transparent);color:var(--calm)}
 .match.mid{background:color-mix(in srgb,var(--warm) 16%,transparent);color:var(--warm)}
 
+/* positions: type tiles, field x type matrix, group bar */
+.ptiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(176px,1fr));gap:12px;margin:14px 0 6px}
+.ptile{display:flex;flex-direction:column;gap:6px;text-align:left;padding:14px 16px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--text);cursor:pointer;transition:border-color .15s,transform .15s}
+.ptile:hover{border-color:var(--job);transform:translateY(-1px)}
+.ptile[aria-pressed="true"]{border-color:var(--job);box-shadow:0 0 0 1px var(--job) inset;background:color-mix(in srgb,var(--job) 8%,var(--surface))}
+.ptile .pn{font-weight:600;font-size:14px}
+.ptile .pc{font:500 32px/1 var(--serif);font-variation-settings:"opsz" 60}
+.ptile .pc small{font:500 12px var(--sans);color:var(--faint);margin-left:6px}
+.ptile .ps{display:flex;height:6px;border-radius:99px;overflow:hidden;background:var(--track)}
+.ptile .ps i{display:block;height:100%}
+.ptile .pl{font-size:11.5px;color:var(--muted);line-height:1.45}
+.sec-u{background:var(--paper)} .sec-r{background:var(--course)} .sec-c{background:var(--job)}
+.slegend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:2px 0 4px}
+.slegend span{display:inline-flex;align-items:center;gap:6px} .slegend i{width:9px;height:9px;border-radius:3px;display:inline-block}
+.mx{width:100%;max-width:1000px;border-collapse:separate;border-spacing:3px;font-size:13px;min-width:600px}
+.mx th{font-weight:600;color:var(--muted);font-size:12px;padding:4px 6px;border:0;text-align:center;white-space:nowrap}
+.mx th.f{text-align:left;position:sticky;left:0;z-index:1;background:var(--bg);padding-right:10px}
+.mx td{min-width:58px}
+.mx th button,.mx td button{all:unset;cursor:pointer}
+.mx th.f button{display:inline-flex;align-items:center;gap:8px;color:var(--text);font-weight:500;font-size:13px}
+.mx th.f i{width:8px;height:8px;border-radius:50%;background:var(--dc);flex:none}
+.mx td{padding:0;border:0}
+.mx td button{display:block;width:100%;text-align:center;padding:8px 0;border-radius:8px;font-variant-numeric:tabular-nums;font-weight:600;color:var(--text);background:color-mix(in srgb,var(--job) calc(var(--a) * 60%),var(--surface));border:1px solid var(--line);box-sizing:border-box}
+.mx td button:hover{outline:2px solid var(--job);outline-offset:-1px}
+.mx td button.z{color:var(--faint);font-weight:400;cursor:default}
+.mx td.tot button{background:var(--surface);color:var(--muted)}
+@media (max-width:640px){
+  .ptiles{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .ptile{padding:12px 12px}
+  .ptile .pc{font-size:26px}
+  .mx th.f{max-width:132px;white-space:normal}
+  .mx th.f button{font-size:12px;line-height:1.25}
+  .mx{min-width:520px}
+  .mx td{min-width:50px}
+}
+.mxnote{font-size:12px;color:var(--faint);margin:6px 0 0}
+.gbar{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:26px 0 4px}
+.gmore{grid-column:1/-1;justify-self:start;margin:10px 0 4px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:6px 14px;cursor:pointer;font-size:13px}
+.gmore:hover{border-color:var(--job)}
+.group .gdot{width:9px;height:9px;border-radius:50%;background:var(--dc,var(--job));align-self:center;flex:none}
+
 /* list: dense rows */
 .group{font:500 21px/1.2 var(--serif);font-variation-settings:"opsz" 36;margin:34px 0 8px;display:flex;align-items:baseline;gap:10px;letter-spacing:-.005em}
 .group span{font:500 12.5px var(--sans);color:var(--faint)}
@@ -343,7 +384,7 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
 </footer>
 <script>
 const KINDS = [["all","All"],["job","Positions"],["paper","Papers"],["course","Programmes"],["event","Events"],["news","News"]];
-const STORE = { saved: "geo-radar-saved", theme: "geo-radar-theme", profile: "geo-radar-profile" };
+const STORE = { saved: "geo-radar-saved", theme: "geo-radar-theme", profile: "geo-radar-profile", group: "geo-radar-group" };
 const PRESETS = ["Photogrammetry", "LiDAR", "Point clouds", "Remote sensing", "SAR", "InSAR", "GIS", "Python", "Deep learning", "GNSS", "Geodesy", "CityGML", "BIM", "UAV", "Hyperspectral"];
 const LEVELS = [["PhD", /\bphd\b|doctoral|doktorand|promotion/], ["Postdoc", /postdoc|post-doc|research (associate|fellow)|wissenschaftliche/], ["Master or thesis", /\bmaster|\bmsc\b|thesis|abschlussarbeit/], ["Industry", /engineer|consultant|gmbh|\bag\b|specialist|fachkraft|developer|analyst|manager/], ["Internship", /intern|praktik|werkstudent|student assistant/]];
 let profile = { skills: [], levels: [], where: "" };
@@ -364,7 +405,7 @@ const PAGE = 40;
 const NEEDS_DEADLINE = new Set(["job", "course", "event"]);
 const upcoming = it => it.kind === "event" && it.ends && Date.parse(it.ends) + 864e5 >= Date.now();
 const when = it => Date.parse(it.deadline || it.starts || 0) || 0;
-const st = { continent: "", country: "", domain: "", sub: "", kind: "all", ptype: "", topic: "", source: "", q: "", sort: "auto", newOnly: false, unlisted: false, savedOnly: false, shown: PAGE };
+const st = { continent: "", country: "", domain: "", sub: "", kind: "all", ptype: "", group: "", topic: "", source: "", q: "", sort: "auto", newOnly: false, unlisted: false, savedOnly: false, shown: PAGE };
 let feed = { items: [] }, status = {}, saved = new Set();
 
 const $ = id => document.getElementById(id);
@@ -459,6 +500,52 @@ function ptypeOf(it) {
     : /thesis|master'?s? (student|thesis)|abschlussarbeit|werkstudent|hiwi|student|studentische|bachelor|msc|master/.test(tt) ? "Student and thesis"
     : "Industry and other");
 }
+// Sector: who is hiring. Aggregator names (job boards, curated) say nothing, so they are ignored.
+const SECTORS = ["University", "Research centre or public body", "Company"];
+const SEC_CLASS = ["sec-u", "sec-r", "sec-c"];
+const UNI_RE = /universit|universität|hochschule|\bcollege\b|institute of technology|\beth\b|epfl|\btu (berlin|wien|dresden|delft|darmstadt|münchen|munich)|\btum\b|\bkth\b|\bdtu\b|polytechn|école|jobs\.ac\.uk|\.ac\.uk|\.edu\b|\buni-|\buniv\b|faculty|fakultät/i;
+const CO_RE = /\b(gmbh|ag|ltd|limited|inc|llc|plc|kg|oy|b\.v\.|s\.a\.|sarl|corp|corporation)\b/i;
+const PUB_RE = /\bdlr\b|\bgfz\b|\bawi\b|\bufz\b|\besa\b|eumetsat|fraunhofer|helmholtz|max.planck|leibniz|institut\b|institute|research cent|forschungszentrum|\bagency\b|landesamt|bundesamt|ministr|\bbkg\b|usgs|\bjrc\b|\bvito\b|\btno\b|nasa|noaa|\bstadt\b|city of|municipal|behörde|landratsamt|landkreis|\bkreis\b|bundeswehr|government|council|deltares|met office|\bnerc\b|ggmbh/i;
+const AGG = /^(Job boards|Company careers|Curated openings|University and agency careers)$/;
+function sectorOf(it) {
+  if (it._sec) return it._sec;
+  const txt = [it.title, AGG.test(it.source_name || "") ? "" : it.source_name, it.url, (it.summary || "").slice(0, 160)].join(" ");
+  return (it._sec = UNI_RE.test(txt) ? SECTORS[0] : CO_RE.test(txt) && !/ggmbh/i.test(txt) ? SECTORS[2] : PUB_RE.test(txt) ? SECTORS[1] : SECTORS[2]);
+}
+// Role family from the title: splits the large industry group into kinds of work.
+const ROLES = [
+  ["Research and teaching", /\bph\.?d\b|doctoral|doktorand|postdoc|post-doc|research (associate|assistant|fellow|scientist)|researcher|lecturer|professor|wissenschaftliche|scientist|studentship/i],
+  ["Student, intern and trainee", /\bstudent|intern(ship)?\b|praktik|werkstudent|trainee|thesis|abschlussarbeit|ausbildung|azubi|anwärter|stagiair/i],
+  ["Remote sensing and photogrammetry", /remote sensing|fernerkundung|photogramm|lidar|point cloud|punktwolke|laserscan|satellit|earth observation|\bsar\b|insar|image analyst|bildanaly|computer vision|perception|hyperspectral|drohne|drone|\buav\b/i],
+  ["Surveying and geodesy", /vermess|surveyor|survey engineer|geodät|geodes|geodet|kataster|landmesser|gnss|geomatik|geomatics|geomatiker|liegenschaft/i],
+  ["Software and data engineering", /developer|entwickler|software|programm|data engineer|data scien|devops|backend|frontend|full.?stack|machine learning|\bai\b|database|datenbank|\bcloud\b|python|product engineer|\bsdk\b|architect/i],
+  ["Infrastructure and utilities", /netzausbau|\bnetz|leitungsdoku|kanal|tiefbau|wasserbau|bauingenieur|civil eng|infrastruktur|infrastructure|utilit|versorg|energie|energy|\bwind\b|gleis|\brail|\bbahn/i],
+  ["GIS and geodata", /\bgis\b|geoinformat|geodaten|geodata|kartograph|cartograph|spatial|geospatial|mapping|webgis|arcgis|qgis/i],
+  ["Management and coordination", /\blead\b|\bleiter|teamleit|abteilungsleit|projektleit|\bmanager|head of|koordinator|coordinator|director|referent/i],
+  ["Engineering and technical", /engineer|ingenieur|techniker|technician|\bcad\b|bauzeichner|technical/i],
+];
+const ROLE_NAMES = [...ROLES.map(r => r[0]), "Other"];
+function roleOf(it) { return it._r || (it._r = (ROLES.find(([, re]) => re.test(it.title)) || ["Other"])[0]); }
+const fieldOf = it => { for (const d of DOMAINS) if (it._d.has(d.id)) return d.id; return "general"; };
+const GROUPS = [["role", "Role"], ["type", "Type"], ["field", "Field"], ["sector", "Sector"], ["country", "Country"], ["time", "Deadline"]];
+const GROUP_N = 6;
+const openGroups = new Set();
+function groupKey(it, g) {
+  if (g === "role") return roleOf(it);
+  if (g === "type") return ptypeOf(it);
+  if (g === "field") return DOM[fieldOf(it)].name;
+  if (g === "sector") return sectorOf(it);
+  if (g === "country") return countryOf(it) || "Location not stated";
+  return "";
+}
+function groupOrder(g, keys, count) {
+  if (g === "role") return ROLE_NAMES.filter(k => keys.has(k));
+  if (g === "type") return PTYPES.filter(k => keys.has(k));
+  if (g === "sector") return SECTORS.filter(k => keys.has(k));
+  if (g === "field") return DOMAINS.map(d => d.name).filter(k => keys.has(k));
+  return [...keys].sort((a, b) => (a === "Location not stated") - (b === "Location not stated") || count[b] - count[a] || a.localeCompare(b));
+}
+
 function filtered(ignoreKind, ignoreDomain, ignoreSub, ignoreWhere) {
   const q = st.q.trim().toLowerCase();
   return feed.items.filter(it =>
@@ -558,7 +645,7 @@ function renderTree() {
 }
 
 function setDomain(id, sub) {
-  st.domain = id; st.sub = sub || ""; st.kind = "all"; st.shown = PAGE;
+  st.domain = id; st.sub = sub || ""; if (id || st.kind !== "job") st.kind = "all"; st.shown = PAGE;
   try { history.replaceState(null, "", id ? "#d=" + id + (sub ? "&s=" + encodeURIComponent(sub) : "") : location.pathname); } catch {}
   render(); window.scrollTo({ top: Math.max(0, document.querySelector(".tabs").offsetTop - 1), behavior: "smooth" });
 }
@@ -580,6 +667,38 @@ function renderOverview() {
     </button>`;
   }).join("");
   $("overview").innerHTML = `<h2 class="sect">Browse by domain<small>${pool.length} live items across ${DOMAINS.length - 1} fields</small></h2><div class="tiles">${tiles}</div><h2 class="sect" style="margin-top:34px">Everything, closing soonest first</h2>`;
+}
+
+function renderJobsOverview() {
+  const save = st.ptype; st.ptype = "";
+  const pool = filtered(false, true, true).filter(it => it.kind === "job");
+  st.ptype = save;
+  const SHORT = { "PhD": "PhD", "Postdoc": "Postdoc", "Student and thesis": "Student", "Internship": "Intern", "Industry and other": "Industry" };
+  const tiles = PTYPES.map(tp => {
+    const its = pool.filter(it => ptypeOf(it) === tp);
+    const sc = SECTORS.map(s => its.filter(it => sectorOf(it) === s).length);
+    const n = its.length || 1;
+    return `<button class="ptile" data-pt="${esc(tp)}" aria-pressed="${st.ptype === tp}">
+      <span class="pn">${esc(tp)}</span><span class="pc">${its.length}<small>open</small></span>
+      <span class="ps">${sc.map((c, i) => c ? `<i class="${SEC_CLASS[i]}" style="width:${(c / n * 100).toFixed(1)}%"></i>` : "").join("")}</span>
+      <span class="pl">${sc.map((c, i) => c ? `${c} ${["univ.", "research/public", "company"][i]}` : "").filter(Boolean).join(" · ") || "None right now"}</span></button>`;
+  }).join("");
+  const rows = DOMAINS.map(d => ({ d, its: pool.filter(it => it._d.has(d.id)) })).filter(r => r.its.length);
+  const cells = rows.flatMap(r => PTYPES.map(tp => r.its.filter(it => ptypeOf(it) === tp).length));
+  const max = Math.max(1, ...cells);
+  const table = `<table class="mx"><thead><tr><th class="f">Field</th>${PTYPES.map(tp => `<th><button data-mxd="" data-mxp="${esc(tp)}">${esc(SHORT[tp])}</button></th>`).join("")}<th>All</th></tr></thead><tbody>` +
+    rows.map(r => `<tr><th class="f" style="--dc:${r.d.color}"><button data-mxd="${r.d.id}" data-mxp=""><i></i>${esc(r.d.name)}</button></th>` +
+      PTYPES.map(tp => { const c = r.its.filter(it => ptypeOf(it) === tp).length;
+        return `<td>${c ? `<button data-mxd="${r.d.id}" data-mxp="${esc(tp)}" style="--a:${(0.12 + 0.88 * c / max).toFixed(2)}" title="${c} ${esc(tp)} in ${esc(r.d.name)}">${c}</button>` : '<button class="z" style="--a:0" tabindex="-1">·</button>'}</td>`; }).join("") +
+      `<td class="tot"><button data-mxd="${r.d.id}" data-mxp="" style="--a:0">${r.its.length}</button></td></tr>`).join("") + "</tbody></table>";
+  return `<h2 class="sect">Positions by type<small>${pool.length} open · tap to filter</small></h2>
+    <div class="slegend">${SECTORS.map((s, i) => `<span><i class="${SEC_CLASS[i]}"></i>${esc(s)}</span>`).join("")}</div>
+    <div class="ptiles">${tiles}</div>
+    <h2 class="sect" style="margin-top:30px">Field × type<small>tap a number to see those positions</small></h2>
+    <div class="tablewrap">${table}</div><p class="mxnote">A position can belong to more than one field.</p>`;
+}
+function groupBar() {
+  return `<div class="gbar"><span class="wlabel">Group by</span>${GROUPS.map(([k, l]) => `<button class="wpill" data-group="${k}" aria-pressed="${st.group === k}">${l}</button>`).join("")}</div>`;
 }
 
 function renderDomainHead() {
@@ -784,6 +903,23 @@ function render() {
   $("dhead").innerHTML = ""; $("overview").innerHTML = ""; $("board").innerHTML = "";
   if (st.domain) renderDomainHead();
   if (overview) renderOverview();
+  const jobsView = st.kind === "job" && !st.q.trim();
+  if (jobsView) $("overview").innerHTML = (!st.domain ? renderJobsOverview() : "") + groupBar();
+  if (st.kind === "job" && st.group !== "time") {
+    // Grouped positions: every group shows its first few, with "show all" per group.
+    const count = {}, keys = new Set(), by = {};
+    for (const it of items) { const k = groupKey(it, st.group); keys.add(k); count[k] = (count[k] || 0) + 1; (by[k] ||= []).push(it); }
+    let gh = "";
+    for (const k of groupOrder(st.group, keys, count)) {
+      const its = by[k], open = openGroups.has(st.group + ":" + k);
+      const dc = st.group === "field" ? (DOMAINS.find(d => d.name === k) || {}).color : "";
+      gh += `<h3 class="group"${dc ? ` style="--dc:${dc}"` : ""}>${st.group === "field" ? '<i class="gdot"></i>' : ""}${esc(k)}<span>${its.length}</span></h3>` + (open ? its : its.slice(0, GROUP_N)).map(card).join("") +
+        (its.length > GROUP_N ? `<button class="gmore" data-gopen="${esc(st.group + ":" + k)}">${open ? "Show fewer" : `Show all ${its.length}`}</button>` : "");
+    }
+    $("list").innerHTML = gh || '<div class="empty">Nothing matches these filters.</div>';
+    $("more").hidden = true;
+    return;
+  }
   if (board) { renderBoard(); $("list").innerHTML = ""; $("more").hidden = true; return; }
   let html = "", last = "";
   for (const it of page) {
@@ -800,7 +936,13 @@ function reset() { st.shown = PAGE; render(); }
 $("stats").addEventListener("click", e => { const b = e.target.closest("[data-k]"); if (b) { st.kind = b.dataset.k; reset(); } });
 document.addEventListener("click", e => {
   const wt = e.target.closest("[data-pt]");
-  if (wt) { st.ptype = wt.dataset.pt; st.shown = PAGE; render(); return; }
+  if (wt) { st.ptype = wt.classList.contains("ptile") && st.ptype === wt.dataset.pt ? "" : wt.dataset.pt; st.shown = PAGE; render(); return; }
+  const mx = e.target.closest("[data-mxd]");
+  if (mx) { st.domain = mx.dataset.mxd; st.sub = ""; st.ptype = mx.dataset.mxp; st.shown = PAGE; render(); window.scrollTo({ top: Math.max(0, $("count").getBoundingClientRect().top + scrollY - 70), behavior: "smooth" }); return; }
+  const gp = e.target.closest("[data-group]");
+  if (gp) { st.group = gp.dataset.group; write(STORE.group, st.group); st.shown = PAGE; render(); return; }
+  const go = e.target.closest("[data-gopen]");
+  if (go) { const k = go.dataset.gopen; openGroups.has(k) ? openGroups.delete(k) : openGroups.add(k); render(); return; }
   const wc = e.target.closest("[data-cont]");
   if (wc) { st.continent = wc.dataset.cont; st.country = ""; reset(); return; }
   const wy = e.target.closest("[data-country]");
@@ -845,6 +987,7 @@ document.addEventListener("keydown", e => {
 try { saved = new Set(JSON.parse(read(STORE.saved, "[]"))); } catch { saved = new Set(); }
 try { profile = { skills: [], levels: [], where: "", ...JSON.parse(read(STORE.profile, "{}")) }; } catch {}
 applyTheme(read(STORE.theme, "auto"));
+st.group = GROUPS.some(([k]) => k === read(STORE.group, "")) ? read(STORE.group, "") : "role";
 drawContours();
 try { if (matchMedia("(max-width:860px)").matches) $("filters").open = false; } catch {}
 
