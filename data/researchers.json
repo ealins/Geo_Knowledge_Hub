@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:23:43.465Z",
+ "generated_at": "2026-11-05T18:30:51.223Z",
  "since": 2016,
  "fields": [
   {
@@ -68,7 +68,79 @@
    },
    "recent": {
     "remote-sensing": 333
-   }
+   },
+   "collab": [
+    {
+     "id": "A5070378593",
+     "name": "Philippe Ciais",
+     "n": 208
+    },
+    {
+     "id": "A5016893899",
+     "name": "Josep Peñuelas",
+     "n": 121
+    },
+    {
+     "id": "A5100743067",
+     "name": "Xuhui Wang",
+     "n": 103
+    },
+    {
+     "id": "A5100419554",
+     "name": "Tao Wang",
+     "n": 102
+    },
+    {
+     "id": "A5001436451",
+     "name": "Shushi Peng",
+     "n": 87
+    },
+    {
+     "id": "A5013418538",
+     "name": "Ivan A. Janssens",
+     "n": 65
+    },
+    {
+     "id": "A5100784131",
+     "name": "Anping Chen",
+     "n": 52
+    },
+    {
+     "id": "A5044401413",
+     "name": "Xu Lian",
+     "n": 49
+    },
+    {
+     "id": "A5080879027",
+     "name": "Ranga B. Myneni",
+     "n": 39
+    },
+    {
+     "id": "A5032714629",
+     "name": "Yongshuo H. Fu",
+     "n": 38
+    },
+    {
+     "id": "A5000012464",
+     "name": "Zaichun Zhu",
+     "n": 33
+    },
+    {
+     "id": "A5001672947",
+     "name": "Jinzhi Ding",
+     "n": 32
+    },
+    {
+     "id": "A5028777562",
+     "name": "Hui Yang",
+     "n": 31
+    },
+    {
+     "id": "A5069058569",
+     "name": "Wenping Yuan",
+     "n": 31
+    }
+   ]
   },
   {
    "id": "A5023963030",
@@ -93,8 +165,80 @@
     "geoinformatics": 1
    },
    "recent": {
-    "geoinformatics": 365
-   }
+    "geoinformatics": 528
+   },
+   "collab": [
+    {
+     "id": "A5052350019",
+     "name": "Marta Cirach",
+     "n": 148
+    },
+    {
+     "id": "A5025394086",
+     "name": "Xavier Basagaña",
+     "n": 120
+    },
+    {
+     "id": "A5075679536",
+     "name": "Martine Vrijheid",
+     "n": 117
+    },
+    {
+     "id": "A5089795664",
+     "name": "David Rojas‐Rueda",
+     "n": 94
+    },
+    {
+     "id": "A5046359435",
+     "name": "Jordi Sunyer",
+     "n": 91
+    },
+    {
+     "id": "A5002894473",
+     "name": "Payam Dadvand",
+     "n": 88
+    },
+    {
+     "id": "A5022922658",
+     "name": "Regina Gražulevičienė",
+     "n": 88
+    },
+    {
+     "id": "A5082967060",
+     "name": "Natalie Mueller",
+     "n": 88
+    },
+    {
+     "id": "A5006914725",
+     "name": "Haneen Khreis",
+     "n": 74
+    },
+    {
+     "id": "A5026718570",
+     "name": "Rémy Slama",
+     "n": 74
+    },
+    {
+     "id": "A5008963782",
+     "name": "Cathryn C. Tonne",
+     "n": 72
+    },
+    {
+     "id": "A5037338303",
+     "name": "Mireia Gascón",
+     "n": 68
+    },
+    {
+     "id": "A5078076463",
+     "name": "Audrey J. de Nazelle",
+     "n": 68
+    },
+    {
+     "id": "A5083748988",
+     "name": "John Wright",
+     "n": 64
+    }
+   ]
   },
   {
    "id": "A5035372982",
@@ -123,7 +267,79 @@
    "recent": {
     "remote-sensing": 331,
     "lidar": 114
-   }
+   },
+   "collab": [
+    {
+     "id": "A5031087812",
+     "name": "Roberta E. Martin",
+     "n": 102
+    },
+    {
+     "id": "A5044965740",
+     "name": "David Knapp",
+     "n": 95
+    },
+    {
+     "id": "A5009425326",
+     "name": "Jiwei Li",
+     "n": 80
+    },
+    {
+     "id": "A5054838793",
+     "name": "Chris Roelfsema",
+     "n": 72
+    },
+    {
+     "id": "A5004573971",
+     "name": "Stuart Phinn",
+     "n": 70
+    },
+    {
+     "id": "A5086938444",
+     "name": "Mitchell Lyons",
+     "n": 69
+    },
+    {
+     "id": "A5062117667",
+     "name": "Nicholas Murray",
+     "n": 68
+    },
+    {
+     "id": "A5087098116",
+     "name": "Emma V. Kennedy",
+     "n": 66
+    },
+    {
+     "id": "A5002845490",
+     "name": "Kirk D. Larsen",
+     "n": 65
+    },
+    {
+     "id": "A5023771262",
+     "name": "Meredith Roe",
+     "n": 65
+    },
+    {
+     "id": "A5031691300",
+     "name": "Helen Fox",
+     "n": 65
+    },
+    {
+     "id": "A5058049043",
+     "name": "Éva Kovács",
+     "n": 65
+    },
+    {
+     "id": "A5075548686",
+     "name": "Rodney Borrego‐Acevedo",
+     "n": 65
+    },
+    {
+     "id": "A5088313331",
+     "name": "Kathryn Markey",
+     "n": 65
+    }
+   ]
   },
   {
    "id": "A5059040421",
@@ -158,7 +374,79 @@
     "lidar": 132,
     "geoai": 223,
     "city-bim": 46
-   }
+   },
+   "collab": [
+    {
+     "id": "A5029739578",
+     "name": "Abdullah M. Alamri",
+     "n": 103
+    },
+    {
+     "id": "A5084518207",
+     "name": "Shilpa Gite",
+     "n": 65
+    },
+    {
+     "id": "A5055762132",
+     "name": "Maher Ibrahim Sameen",
+     "n": 47
+    },
+    {
+     "id": "A5091457224",
+     "name": "Ratiranjan Jena",
+     "n": 39
+    },
+    {
+     "id": "A5076352077",
+     "name": "Dieu Tien Bui",
+     "n": 37
+    },
+    {
+     "id": "A5058731208",
+     "name": "Abhirup Dikshit",
+     "n": 31
+    },
+    {
+     "id": "A5033894707",
+     "name": "Subrata Chakraborty",
+     "n": 28
+    },
+    {
+     "id": "A5063208791",
+     "name": "Alireza Arabameri",
+     "n": 28
+    },
+    {
+     "id": "A5054757587",
+     "name": "Hossein Mojaddadi Rizeei",
+     "n": 25
+    },
+    {
+     "id": "A5055002169",
+     "name": "Bahareh Kalantar",
+     "n": 25
+    },
+    {
+     "id": "A5085075651",
+     "name": "Amin Beiranvand Pour",
+     "n": 25
+    },
+    {
+     "id": "A5045171576",
+     "name": "Chang-Wook Lee",
+     "n": 24
+    },
+    {
+     "id": "A5028417716",
+     "name": "Khairul Nizam Abdul Maulud",
+     "n": 22
+    },
+    {
+     "id": "A5061766375",
+     "name": "Abolfazl Abdollahi",
+     "n": 22
+    }
+   ]
   },
   {
    "id": "A5100673818",
@@ -187,7 +475,79 @@
    "recent": {
     "remote-sensing": 582,
     "geoai": 201
-   }
+   },
+   "collab": [
+    {
+     "id": "A5100754351",
+     "name": "Yanfei Zhong",
+     "n": 181
+    },
+    {
+     "id": "A5060042752",
+     "name": "Bo Du",
+     "n": 174
+    },
+    {
+     "id": "A5047576305",
+     "name": "Qiangqiang Yuan",
+     "n": 123
+    },
+    {
+     "id": "A5114374395",
+     "name": "Huanfeng Shen",
+     "n": 122
+    },
+    {
+     "id": "A5100385579",
+     "name": "Hongyan Zhang",
+     "n": 67
+    },
+    {
+     "id": "A5030713988",
+     "name": "Ailong Ma",
+     "n": 60
+    },
+    {
+     "id": "A5024278302",
+     "name": "Lefei Zhang",
+     "n": 53
+    },
+    {
+     "id": "A5073032922",
+     "name": "Gui-Song Xia",
+     "n": 49
+    },
+    {
+     "id": "A5100705638",
+     "name": "Chen Wu",
+     "n": 41
+    },
+    {
+     "id": "A5048117999",
+     "name": "Tongwen Li",
+     "n": 35
+    },
+    {
+     "id": "A5089770704",
+     "name": "Jie Li",
+     "n": 34
+    },
+    {
+     "id": "A5000877601",
+     "name": "Zhuo Zheng",
+     "n": 33
+    },
+    {
+     "id": "A5100352781",
+     "name": "Xinyu Wang",
+     "n": 32
+    },
+    {
+     "id": "A5000898259",
+     "name": "Pingxiang Li",
+     "n": 23
+    }
+   ]
   },
   {
    "id": "A5071721504",
@@ -213,7 +573,79 @@
    },
    "recent": {
     "remote-sensing": 300
-   }
+   },
+   "collab": [
+    {
+     "id": "A5081683556",
+     "name": "Mirco Migliavacca",
+     "n": 150
+    },
+    {
+     "id": "A5048012435",
+     "name": "Nuno Carvalhais",
+     "n": 105
+    },
+    {
+     "id": "A5035702282",
+     "name": "Miguel D. Mahecha",
+     "n": 98
+    },
+    {
+     "id": "A5053860456",
+     "name": "René Orth",
+     "n": 77
+    },
+    {
+     "id": "A5088518218",
+     "name": "Martin Jung",
+     "n": 72
+    },
+    {
+     "id": "A5013902636",
+     "name": "Tarek Sebastian El-Madany",
+     "n": 63
+    },
+    {
+     "id": "A5022416188",
+     "name": "Arnaud Carrara",
+     "n": 62
+    },
+    {
+     "id": "A5052018420",
+     "name": "Ana Bastos",
+     "n": 54
+    },
+    {
+     "id": "A5039052506",
+     "name": "Gustau Camps‐Valls",
+     "n": 53
+    },
+    {
+     "id": "A5037687266",
+     "name": "Jacob A. Nelson",
+     "n": 48
+    },
+    {
+     "id": "A5054048104",
+     "name": "Fabian Gans",
+     "n": 46
+    },
+    {
+     "id": "A5021746317",
+     "name": "Sujan Koirala",
+     "n": 45
+    },
+    {
+     "id": "A5061920991",
+     "name": "Óscar Pérez‐Priego",
+     "n": 40
+    },
+    {
+     "id": "A5079939742",
+     "name": "Alexander J. Winkler",
+     "n": 40
+    }
+   ]
   },
   {
    "id": "A5005152689",
@@ -238,8 +670,80 @@
     "geoinformatics": 2
    },
    "recent": {
-    "geoinformatics": 212
-   }
+    "geoinformatics": 376
+   },
+   "collab": [
+    {
+     "id": "A5005468345",
+     "name": "Jasper van Vliet",
+     "n": 43
+    },
+    {
+     "id": "A5070071167",
+     "name": "Žiga Malek",
+     "n": 40
+    },
+    {
+     "id": "A5044586436",
+     "name": "Catharina J.E. Schulp",
+     "n": 34
+    },
+    {
+     "id": "A5040807248",
+     "name": "Matthias Bürgi",
+     "n": 25
+    },
+    {
+     "id": "A5068687779",
+     "name": "Christian Levers",
+     "n": 23
+    },
+    {
+     "id": "A5034421939",
+     "name": "David O. Obura",
+     "n": 21
+    },
+    {
+     "id": "A5081719840",
+     "name": "Niels Debonne",
+     "n": 21
+    },
+    {
+     "id": "A5034529483",
+     "name": "Louise M. J. O’Connor",
+     "n": 19
+    },
+    {
+     "id": "A5053084195",
+     "name": "Emma H. van der Zanden",
+     "n": 18
+    },
+    {
+     "id": "A5070536855",
+     "name": "Vasco Diogo",
+     "n": 16
+    },
+    {
+     "id": "A5072813166",
+     "name": "Wilfried Thuiller",
+     "n": 16
+    },
+    {
+     "id": "A5030393296",
+     "name": "Fabrice DeClerck",
+     "n": 15
+    },
+    {
+     "id": "A5070229796",
+     "name": "Astrid J. A. Van Teeffelen",
+     "n": 15
+    },
+    {
+     "id": "A5003088508",
+     "name": "Julian Helfenstein",
+     "n": 14
+    }
+   ]
   },
   {
    "id": "A5063621337",
@@ -265,7 +769,79 @@
    },
    "recent": {
     "remote-sensing": 320
-   }
+   },
+   "collab": [
+    {
+     "id": "A5070378593",
+     "name": "Philippe Ciais",
+     "n": 166
+    },
+    {
+     "id": "A5006387896",
+     "name": "Pierre Friedlingstein",
+     "n": 150
+    },
+    {
+     "id": "A5025734197",
+     "name": "Sönke Zaehle",
+     "n": 90
+    },
+    {
+     "id": "A5054849631",
+     "name": "Julia Pongratz",
+     "n": 89
+    },
+    {
+     "id": "A5065467022",
+     "name": "Benjamin Poulter",
+     "n": 88
+    },
+    {
+     "id": "A5037913161",
+     "name": "Atul Kumar Jain",
+     "n": 84
+    },
+    {
+     "id": "A5052018420",
+     "name": "Ana Bastos",
+     "n": 81
+    },
+    {
+     "id": "A5056668241",
+     "name": "Michael O’Sullivan",
+     "n": 81
+    },
+    {
+     "id": "A5061518589",
+     "name": "Almut Arneth",
+     "n": 81
+    },
+    {
+     "id": "A5100771544",
+     "name": "Hanqin Tian",
+     "n": 76
+    },
+    {
+     "id": "A5088787051",
+     "name": "Etsushi Kato",
+     "n": 73
+    },
+    {
+     "id": "A5052087758",
+     "name": "Julia E. M. S. Nabel",
+     "n": 63
+    },
+    {
+     "id": "A5003540571",
+     "name": "Frédéric Chevallier",
+     "n": 58
+    },
+    {
+     "id": "A5047783540",
+     "name": "Danica Lombardozzi",
+     "n": 58
+    }
+   ]
   },
   {
    "id": "A5106124934",
@@ -294,7 +870,79 @@
    "recent": {
     "remote-sensing": 458,
     "geoai": 170
-   }
+   },
+   "collab": [
+    {
+     "id": "A5075013625",
+     "name": "Danfeng Hong",
+     "n": 112
+    },
+    {
+     "id": "A5050760333",
+     "name": "Mauro Dalla Mura",
+     "n": 64
+    },
+    {
+     "id": "A5043777501",
+     "name": "Gemine Vivone",
+     "n": 54
+    },
+    {
+     "id": "A5066378186",
+     "name": "Lianru Gao",
+     "n": 40
+    },
+    {
+     "id": "A5100389658",
+     "name": "Bing Zhang",
+     "n": 40
+    },
+    {
+     "id": "A5013885739",
+     "name": "Jing Tao Yao",
+     "n": 34
+    },
+    {
+     "id": "A5034435383",
+     "name": "Naoto Yokoya",
+     "n": 32
+    },
+    {
+     "id": "A5068384981",
+     "name": "Xiao Xiang Zhu",
+     "n": 26
+    },
+    {
+     "id": "A5054292278",
+     "name": "Antonio Plaza",
+     "n": 25
+    },
+    {
+     "id": "A5084552955",
+     "name": "Rocco Restaino",
+     "n": 23
+    },
+    {
+     "id": "A5102744301",
+     "name": "Yang Xu",
+     "n": 23
+    },
+    {
+     "id": "A5046811680",
+     "name": "Lucas Drumetz",
+     "n": 22
+    },
+    {
+     "id": "A5050630882",
+     "name": "Licheng Jiao",
+     "n": 22
+    },
+    {
+     "id": "A5100354331",
+     "name": "Chenyu Li",
+     "n": 22
+    }
+   ]
   },
   {
    "id": "A5054292278",
@@ -323,7 +971,79 @@
    "recent": {
     "remote-sensing": 546,
     "geoai": 124
-   }
+   },
+   "collab": [
+    {
+     "id": "A5100362041",
+     "name": "Jun Li",
+     "n": 144
+    },
+    {
+     "id": "A5010624980",
+     "name": "Javier Plaza",
+     "n": 91
+    },
+    {
+     "id": "A5039673511",
+     "name": "Juan Mario Haut",
+     "n": 76
+    },
+    {
+     "id": "A5046123228",
+     "name": "Mercedes Eugenia Paoletti",
+     "n": 74
+    },
+    {
+     "id": "A5037075182",
+     "name": "Bing Tu",
+     "n": 44
+    },
+    {
+     "id": "A5086443350",
+     "name": "Rubén Fernández-Beltrán",
+     "n": 36
+    },
+    {
+     "id": "A5063406632",
+     "name": "Tao Chen",
+     "n": 28
+    },
+    {
+     "id": "A5106124934",
+     "name": "Jocelyn Chanussot",
+     "n": 25
+    },
+    {
+     "id": "A5033046838",
+     "name": "Xuanwen Tao",
+     "n": 24
+    },
+    {
+     "id": "A5036534306",
+     "name": "Lianhui Liang",
+     "n": 22
+    },
+    {
+     "id": "A5040061834",
+     "name": "Lin He",
+     "n": 22
+    },
+    {
+     "id": "A5002395584",
+     "name": "Shaoquan Zhang",
+     "n": 21
+    },
+    {
+     "id": "A5050455072",
+     "name": "Xiang Dong Xu",
+     "n": 21
+    },
+    {
+     "id": "A5066378186",
+     "name": "Lianru Gao",
+     "n": 20
+    }
+   ]
   },
   {
    "id": "A5073807486",
@@ -352,7 +1072,79 @@
    "recent": {
     "remote-sensing": 322,
     "lidar": 141
-   }
+   },
+   "collab": [
+    {
+     "id": "A5100438109",
+     "name": "Tiejun Wang",
+     "n": 110
+    },
+    {
+     "id": "A5047127960",
+     "name": "Roshanak Darvishzadeh",
+     "n": 96
+    },
+    {
+     "id": "A5006620203",
+     "name": "Marco Heurich",
+     "n": 74
+    },
+    {
+     "id": "A5080012446",
+     "name": "T.A. Groen",
+     "n": 31
+    },
+    {
+     "id": "A5063580781",
+     "name": "Elnaz Neinavaz",
+     "n": 27
+    },
+    {
+     "id": "A5076080528",
+     "name": "Marc Paganini",
+     "n": 25
+    },
+    {
+     "id": "A5102028546",
+     "name": "Haidi  Jamal Abdullah",
+     "n": 23
+    },
+    {
+     "id": "A5037139982",
+     "name": "Anton Vrieling",
+     "n": 21
+    },
+    {
+     "id": "A5017159201",
+     "name": "Michael E. Schaepman",
+     "n": 20
+    },
+    {
+     "id": "A5103059558",
+     "name": "Abebe Mohammed Ali",
+     "n": 20
+    },
+    {
+     "id": "A5025016784",
+     "name": "Uta Heiden",
+     "n": 18
+    },
+    {
+     "id": "A5086695179",
+     "name": "Tawanda W. Gara",
+     "n": 16
+    },
+    {
+     "id": "A5103136778",
+     "name": "Andjin Siegenthaler",
+     "n": 16
+    },
+    {
+     "id": "A5078978732",
+     "name": "Stefanie Holzwarth",
+     "n": 15
+    }
+   ]
   },
   {
    "id": "A5051219165",
@@ -378,7 +1170,79 @@
    },
    "recent": {
     "lidar": 161
-   }
+   },
+   "collab": [
+    {
+     "id": "A5077764827",
+     "name": "Joanne C. White",
+     "n": 115
+    },
+    {
+     "id": "A5021319086",
+     "name": "Txomin Hermosilla",
+     "n": 84
+    },
+    {
+     "id": "A5050842469",
+     "name": "Nicholas C. Coops",
+     "n": 83
+    },
+    {
+     "id": "A5006928044",
+     "name": "Piotr Tompalski",
+     "n": 29
+    },
+    {
+     "id": "A5010118846",
+     "name": "Geordie W. Hobart",
+     "n": 18
+    },
+    {
+     "id": "A5033042071",
+     "name": "Juha M. Hyyppa",
+     "n": 15
+    },
+    {
+     "id": "A5047838080",
+     "name": "Mikko Vastaranta",
+     "n": 15
+    },
+    {
+     "id": "A5061837252",
+     "name": "Markus Holopainen",
+     "n": 13
+    },
+    {
+     "id": "A5070480244",
+     "name": "Christopher W. Bater",
+     "n": 12
+    },
+    {
+     "id": "A5078441718",
+     "name": "Ninni Saarinen",
+     "n": 12
+    },
+    {
+     "id": "A5080442084",
+     "name": "Jeffrey A. Cardille",
+     "n": 12
+    },
+    {
+     "id": "A5088706647",
+     "name": "Douglas K. Bolton",
+     "n": 10
+    },
+    {
+     "id": "A5086318321",
+     "name": "Curtis E. Woodcock",
+     "n": 9
+    },
+    {
+     "id": "A5033254735",
+     "name": "David P. Roy",
+     "n": 8
+    }
+   ]
   },
   {
    "id": "A5033017179",
@@ -407,7 +1271,79 @@
    "recent": {
     "remote-sensing": 630,
     "geoai": 140
-   }
+   },
+   "collab": [
+    {
+     "id": "A5067798266",
+     "name": "Yunsong Li",
+     "n": 98
+    },
+    {
+     "id": "A5100317994",
+     "name": "Wei Li",
+     "n": 91
+    },
+    {
+     "id": "A5100734649",
+     "name": "Jiaojiao Li",
+     "n": 55
+    },
+    {
+     "id": "A5015155189",
+     "name": "Heng-Chao Li",
+     "n": 52
+    },
+    {
+     "id": "A5019014062",
+     "name": "Hongjun Su",
+     "n": 46
+    },
+    {
+     "id": "A5050009113",
+     "name": "Weiwei Sun",
+     "n": 46
+    },
+    {
+     "id": "A5067207818",
+     "name": "Shaohui Mei",
+     "n": 46
+    },
+    {
+     "id": "A5057594828",
+     "name": "Rui Song",
+     "n": 40
+    },
+    {
+     "id": "A5029633264",
+     "name": "Junyu Dong",
+     "n": 35
+    },
+    {
+     "id": "A5067803447",
+     "name": "Ran Tao",
+     "n": 35
+    },
+    {
+     "id": "A5036030486",
+     "name": "Jiangtao Peng",
+     "n": 34
+    },
+    {
+     "id": "A5052163069",
+     "name": "Weiying Xie",
+     "n": 34
+    },
+    {
+     "id": "A5046668357",
+     "name": "Feng Gao",
+     "n": 32
+    },
+    {
+     "id": "A5044736869",
+     "name": "Jiahui Qu",
+     "n": 25
+    }
+   ]
   },
   {
    "id": "A5066754586",
@@ -433,7 +1369,79 @@
    },
    "recent": {
     "sar": 163
-   }
+   },
+   "collab": [
+    {
+     "id": "A5061832135",
+     "name": "Mariëtte Vreugdenhil",
+     "n": 79
+    },
+    {
+     "id": "A5058706932",
+     "name": "Sebastian Hahn",
+     "n": 64
+    },
+    {
+     "id": "A5033747033",
+     "name": "Bernhard Bauer-Marschallinger",
+     "n": 47
+    },
+    {
+     "id": "A5060137389",
+     "name": "Luca Brocca",
+     "n": 39
+    },
+    {
+     "id": "A5061910536",
+     "name": "Wouter Arnoud Dorigo",
+     "n": 33
+    },
+    {
+     "id": "A5069050731",
+     "name": "Isabella Pfeil",
+     "n": 28
+    },
+    {
+     "id": "A5110761204",
+     "name": "S.C. Dunne",
+     "n": 25
+    },
+    {
+     "id": "A5028417591",
+     "name": "Luca Ciabatta",
+     "n": 23
+    },
+    {
+     "id": "A5041403351",
+     "name": "Christian Massari",
+     "n": 23
+    },
+    {
+     "id": "A5012993980",
+     "name": "Claudio Navacchi",
+     "n": 21
+    },
+    {
+     "id": "A5032576809",
+     "name": "Christoph Reimer",
+     "n": 21
+    },
+    {
+     "id": "A5044607655",
+     "name": "Raphael Quast",
+     "n": 21
+    },
+    {
+     "id": "A5066427076",
+     "name": "Senmao Cao",
+     "n": 20
+    },
+    {
+     "id": "A5088054087",
+     "name": "Alexander Gruber",
+     "n": 20
+    }
+   ]
   },
   {
    "id": "A5006095323",
@@ -462,7 +1470,79 @@
    "recent": {
     "remote-sensing": 338,
     "geoai": 120
-   }
+   },
+   "collab": [
+    {
+     "id": "A5087668203",
+     "name": "Francesca Bovolo",
+     "n": 130
+    },
+    {
+     "id": "A5008344573",
+     "name": "Claudia Paris",
+     "n": 41
+    },
+    {
+     "id": "A5044918784",
+     "name": "Leonardo Carrer",
+     "n": 35
+    },
+    {
+     "id": "A5007028167",
+     "name": "Sanchari Thakur",
+     "n": 31
+    },
+    {
+     "id": "A5087126293",
+     "name": "Begüm Demir",
+     "n": 25
+    },
+    {
+     "id": "A5018193287",
+     "name": "Daniele Marinelli",
+     "n": 22
+    },
+    {
+     "id": "A5100684827",
+     "name": "Sicong Liu",
+     "n": 22
+    },
+    {
+     "id": "A5024342243",
+     "name": "Yady Tatiana Solano‐Correa",
+     "n": 19
+    },
+    {
+     "id": "A5059205128",
+     "name": "Elena Donini",
+     "n": 18
+    },
+    {
+     "id": "A5083424027",
+     "name": "Sudipan Saha",
+     "n": 17
+    },
+    {
+     "id": "A5014002590",
+     "name": "Claudia Notarnicola",
+     "n": 16
+    },
+    {
+     "id": "A5037405899",
+     "name": "Massimo Santoni",
+     "n": 16
+    },
+    {
+     "id": "A5028965348",
+     "name": "Christopher Gerekos",
+     "n": 15
+    },
+    {
+     "id": "A5088242752",
+     "name": "Lei Ding",
+     "n": 14
+    }
+   ]
   },
   {
    "id": "A5060042752",
@@ -491,7 +1571,79 @@
    "recent": {
     "remote-sensing": 319,
     "geoai": 136
-   }
+   },
+   "collab": [
+    {
+     "id": "A5100673818",
+     "name": "Liangpei Zhang",
+     "n": 174
+    },
+    {
+     "id": "A5074103823",
+     "name": "Dacheng Tao",
+     "n": 132
+    },
+    {
+     "id": "A5024278302",
+     "name": "Lefei Zhang",
+     "n": 111
+    },
+    {
+     "id": "A5008999954",
+     "name": "Mang Ye",
+     "n": 61
+    },
+    {
+     "id": "A5100705638",
+     "name": "Chen Wu",
+     "n": 59
+    },
+    {
+     "id": "A5026501335",
+     "name": "Juhua Liu",
+     "n": 49
+    },
+    {
+     "id": "A5086625735",
+     "name": "Zengmao Wang",
+     "n": 46
+    },
+    {
+     "id": "A5082564408",
+     "name": "Yongchao Xu",
+     "n": 40
+    },
+    {
+     "id": "A5039158745",
+     "name": "Yong Luo",
+     "n": 37
+    },
+    {
+     "id": "A5084097095",
+     "name": "Yanni Dong",
+     "n": 36
+    },
+    {
+     "id": "A5007475662",
+     "name": "Jia Xin Wu",
+     "n": 35
+    },
+    {
+     "id": "A5054256790",
+     "name": "Yuxiang Zhang",
+     "n": 31
+    },
+    {
+     "id": "A5074672983",
+     "name": "Yibing Zhan",
+     "n": 30
+    },
+    {
+     "id": "A5018298375",
+     "name": "Wenke Huang",
+     "n": 29
+    }
+   ]
   },
   {
    "id": "A5050842469",
@@ -520,7 +1672,79 @@
    "recent": {
     "photogrammetry": 109,
     "lidar": 352
-   }
+   },
+   "collab": [
+    {
+     "id": "A5077764827",
+     "name": "Joanne C. White",
+     "n": 104
+    },
+    {
+     "id": "A5051219165",
+     "name": "Michael A. Wulder",
+     "n": 83
+    },
+    {
+     "id": "A5021319086",
+     "name": "Txomin Hermosilla",
+     "n": 72
+    },
+    {
+     "id": "A5006928044",
+     "name": "Piotr Tompalski",
+     "n": 66
+    },
+    {
+     "id": "A5017189691",
+     "name": "Alexis Achim",
+     "n": 39
+    },
+    {
+     "id": "A5049217919",
+     "name": "Tristan R.H. Goodbody",
+     "n": 37
+    },
+    {
+     "id": "A5010745625",
+     "name": "Christopher Mulverhill",
+     "n": 31
+    },
+    {
+     "id": "A5088706647",
+     "name": "Douglas K. Bolton",
+     "n": 24
+    },
+    {
+     "id": "A5070480244",
+     "name": "Christopher W. Bater",
+     "n": 22
+    },
+    {
+     "id": "A5048596440",
+     "name": "Sarah E. Gergel",
+     "n": 16
+    },
+    {
+     "id": "A5091776722",
+     "name": "Gregory J. M. Rickbeil",
+     "n": 15
+    },
+    {
+     "id": "A5088190643",
+     "name": "Dominik Röeser",
+     "n": 14
+    },
+    {
+     "id": "A5102706845",
+     "name": "Gordon B. Stenhouse",
+     "n": 14
+    },
+    {
+     "id": "A5010118846",
+     "name": "Geordie W. Hobart",
+     "n": 13
+    }
+   ]
   },
   {
    "id": "A5089619012",
@@ -546,7 +1770,79 @@
    },
    "recent": {
     "lidar": 168
-   }
+   },
+   "collab": [
+    {
+     "id": "A5031032521",
+     "name": "Tommaso Jucker",
+     "n": 72
+    },
+    {
+     "id": "A5018160834",
+     "name": "Yadvinder Singh Malhi",
+     "n": 41
+    },
+    {
+     "id": "A5032473063",
+     "name": "Oliver L. Phillips",
+     "n": 37
+    },
+    {
+     "id": "A5044312224",
+     "name": "Simon L. Lewis",
+     "n": 37
+    },
+    {
+     "id": "A5031326045",
+     "name": "David F. R. P. Burslem",
+     "n": 35
+    },
+    {
+     "id": "A5004447568",
+     "name": "Anil Madhavapeddy",
+     "n": 34
+    },
+    {
+     "id": "A5081692824",
+     "name": "Toby Jackson",
+     "n": 32
+    },
+    {
+     "id": "A5090054353",
+     "name": "Srinivasan Keshav",
+     "n": 26
+    },
+    {
+     "id": "A5006900177",
+     "name": "Olivier Bouriaud",
+     "n": 25
+    },
+    {
+     "id": "A5029236422",
+     "name": "Bogdan Jaroszewicz",
+     "n": 25
+    },
+    {
+     "id": "A5040358269",
+     "name": "Tom Swinfield",
+     "n": 25
+    },
+    {
+     "id": "A5059282890",
+     "name": "Frans Bongers",
+     "n": 25
+    },
+    {
+     "id": "A5069732563",
+     "name": "Géraldine Derroire",
+     "n": 24
+    },
+    {
+     "id": "A5009824835",
+     "name": "Ted R. Feldpausch",
+     "n": 23
+    }
+   ]
   },
   {
    "id": "A5039052506",
@@ -572,7 +1868,79 @@
    },
    "recent": {
     "remote-sensing": 365
-   }
+   },
+   "collab": [
+    {
+     "id": "A5085480844",
+     "name": "Jordi Muñoz-Marı́",
+     "n": 76
+    },
+    {
+     "id": "A5071721504",
+     "name": "Markus Reichstein",
+     "n": 53
+    },
+    {
+     "id": "A5032528806",
+     "name": "María Piles",
+     "n": 52
+    },
+    {
+     "id": "A5028819728",
+     "name": "Álvaro Moreno‐Martínez",
+     "n": 47
+    },
+    {
+     "id": "A5012161331",
+     "name": "Adrián Pérez-Suay",
+     "n": 41
+    },
+    {
+     "id": "A5065281659",
+     "name": "Valero Laparra",
+     "n": 38
+    },
+    {
+     "id": "A5016290792",
+     "name": "Luca Martino",
+     "n": 35
+    },
+    {
+     "id": "A5035702282",
+     "name": "Miguel D. Mahecha",
+     "n": 30
+    },
+    {
+     "id": "A5047808140",
+     "name": "Manuel Campos‐Taberner",
+     "n": 30
+    },
+    {
+     "id": "A5032347395",
+     "name": "Gherardo Varando",
+     "n": 27
+    },
+    {
+     "id": "A5079448372",
+     "name": "Jochem Verrelst",
+     "n": 23
+    },
+    {
+     "id": "A5000820727",
+     "name": "Luis Gómez‐Chova",
+     "n": 22
+    },
+    {
+     "id": "A5015653124",
+     "name": "Miguel‐Ángel Fernández‐Torres",
+     "n": 22
+    },
+    {
+     "id": "A5079925438",
+     "name": "José E. Adsuara",
+     "n": 22
+    }
+   ]
   },
   {
    "id": "A5100354056",
@@ -598,7 +1966,79 @@
    },
    "recent": {
     "remote-sensing": 362
-   }
+   },
+   "collab": [
+    {
+     "id": "A5091837236",
+     "name": "Tao Che",
+     "n": 86
+    },
+    {
+     "id": "A5020478633",
+     "name": "Rui Jin",
+     "n": 79
+    },
+    {
+     "id": "A5040780405",
+     "name": "Mingguo Ma",
+     "n": 58
+    },
+    {
+     "id": "A5034894979",
+     "name": "Liangxu Wang",
+     "n": 49
+    },
+    {
+     "id": "A5115588996",
+     "name": "Ziwei Xu",
+     "n": 49
+    },
+    {
+     "id": "A5110555809",
+     "name": "Jianguang Wen",
+     "n": 48
+    },
+    {
+     "id": "A5009996442",
+     "name": "Xiaoli Hu",
+     "n": 45
+    },
+    {
+     "id": "A5058780924",
+     "name": "Kun Yang",
+     "n": 44
+    },
+    {
+     "id": "A5063912074",
+     "name": "Youhua Ran",
+     "n": 43
+    },
+    {
+     "id": "A5052420188",
+     "name": "Shaoming Liu",
+     "n": 42
+    },
+    {
+     "id": "A5112461780",
+     "name": "Qing Xiao",
+     "n": 41
+    },
+    {
+     "id": "A5069742060",
+     "name": "Donghai Zheng",
+     "n": 33
+    },
+    {
+     "id": "A5100394743",
+     "name": "Yingying Chen",
+     "n": 31
+    },
+    {
+     "id": "A5101525728",
+     "name": "Chunfeng Ma",
+     "n": 31
+    }
+   ]
   },
   {
    "id": "A5051538825",
@@ -624,7 +2064,79 @@
    },
    "recent": {
     "sar": 193
-   }
+   },
+   "collab": [
+    {
+     "id": "A5058475164",
+     "name": "Eric Jameson Fielding",
+     "n": 32
+    },
+    {
+     "id": "A5061987014",
+     "name": "Christopher W. Johnson",
+     "n": 24
+    },
+    {
+     "id": "A5014117389",
+     "name": "Kathryn Z. Materna",
+     "n": 23
+    },
+    {
+     "id": "A5100381672",
+     "name": "Kang Wang",
+     "n": 20
+    },
+    {
+     "id": "A5049579821",
+     "name": "Yuning Fu",
+     "n": 18
+    },
+    {
+     "id": "A5088356096",
+     "name": "Wenbin Xu",
+     "n": 16
+    },
+    {
+     "id": "A5031095419",
+     "name": "T. Taira",
+     "n": 14
+    },
+    {
+     "id": "A5040467269",
+     "name": "Baptiste Rousset",
+     "n": 13
+    },
+    {
+     "id": "A5068399193",
+     "name": "Estelle Chaussard",
+     "n": 13
+    },
+    {
+     "id": "A5041886956",
+     "name": "Manoochehr Shirzaei",
+     "n": 12
+    },
+    {
+     "id": "A5000498991",
+     "name": "Vineet Kumar Gahalaut",
+     "n": 11
+    },
+    {
+     "id": "A5033563191",
+     "name": "Mong‐Han Huang",
+     "n": 11
+    },
+    {
+     "id": "A5059036768",
+     "name": "Xie Hu",
+     "n": 11
+    },
+    {
+     "id": "A5018926854",
+     "name": "Asaf Inbal",
+     "n": 10
+    }
+   ]
   },
   {
    "id": "A5009185228",
@@ -649,8 +2161,80 @@
     "geoinformatics": 3
    },
    "recent": {
-    "geoinformatics": 256
-   }
+    "geoinformatics": 441
+   },
+   "collab": [
+    {
+     "id": "A5059550642",
+     "name": "Dong Liu",
+     "n": 48
+    },
+    {
+     "id": "A5039749587",
+     "name": "Zihan Kan",
+     "n": 46
+    },
+    {
+     "id": "A5082751210",
+     "name": "Yang Liu",
+     "n": 31
+    },
+    {
+     "id": "A5018658406",
+     "name": "Jianwei W. Huang",
+     "n": 25
+    },
+    {
+     "id": "A5045289553",
+     "name": "Yanwei Chai",
+     "n": 22
+    },
+    {
+     "id": "A5033427661",
+     "name": "Man Sing Wong",
+     "n": 21
+    },
+    {
+     "id": "A5086660190",
+     "name": "Suhong Zhou",
+     "n": 21
+    },
+    {
+     "id": "A5050709106",
+     "name": "Jiannan Cai",
+     "n": 17
+    },
+    {
+     "id": "A5001211130",
+     "name": "Jianying Wang",
+     "n": 16
+    },
+    {
+     "id": "A5023480764",
+     "name": "Changda Yu",
+     "n": 13
+    },
+    {
+     "id": "A5079634925",
+     "name": "Marco Helbich",
+     "n": 13
+    },
+    {
+     "id": "A5100456210",
+     "name": "Yan Zhang",
+     "n": 13
+    },
+    {
+     "id": "A5001469667",
+     "name": "Lap Ah Tse",
+     "n": 12
+    },
+    {
+     "id": "A5087894434",
+     "name": "Rui Zhu",
+     "n": 12
+    }
+   ]
   },
   {
    "id": "A5068384981",
@@ -688,7 +2272,79 @@
     "sar": 373,
     "geoai": 368,
     "city-bim": 91
-   }
+   },
+   "collab": [
+    {
+     "id": "A5024379450",
+     "name": "Lichao Mou",
+     "n": 157
+    },
+    {
+     "id": "A5061007704",
+     "name": "Yilei Shi",
+     "n": 109
+    },
+    {
+     "id": "A5100423138",
+     "name": "Yuanyuan Wang",
+     "n": 71
+    },
+    {
+     "id": "A5058601965",
+     "name": "Michael Schmitt",
+     "n": 64
+    },
+    {
+     "id": "A5022524675",
+     "name": "Zhitong Xiong",
+     "n": 56
+    },
+    {
+     "id": "A5083424027",
+     "name": "Sudipan Saha",
+     "n": 45
+    },
+    {
+     "id": "A5090543058",
+     "name": "Yuansheng Hua",
+     "n": 41
+    },
+    {
+     "id": "A5075013625",
+     "name": "Danfeng Hong",
+     "n": 37
+    },
+    {
+     "id": "A5016696735",
+     "name": "Jingliang Hu",
+     "n": 35
+    },
+    {
+     "id": "A5046449632",
+     "name": "Hannes Taubenböck",
+     "n": 31
+    },
+    {
+     "id": "A5083100048",
+     "name": "Konrad Heidler",
+     "n": 30
+    },
+    {
+     "id": "A5002459081",
+     "name": "Hamed Alemohammad",
+     "n": 29
+    },
+    {
+     "id": "A5072647192",
+     "name": "Chunping Qiu",
+     "n": 28
+    },
+    {
+     "id": "A5074919292",
+     "name": "Pedram Ghamisi",
+     "n": 28
+    }
+   ]
   },
   {
    "id": "A5000622487",
@@ -719,8 +2375,80 @@
    "recent": {
     "remote-sensing": 398,
     "geoai": 157,
-    "geoinformatics": 250
-   }
+    "geoinformatics": 375
+   },
+   "collab": [
+    {
+     "id": "A5005729523",
+     "name": "Qunming Wang",
+     "n": 70
+    },
+    {
+     "id": "A5039348214",
+     "name": "Xiaohua Tong",
+     "n": 24
+    },
+    {
+     "id": "A5074919292",
+     "name": "Pedram Ghamisi",
+     "n": 20
+    },
+    {
+     "id": "A5068216294",
+     "name": "Victor A. Alegana",
+     "n": 18
+    },
+    {
+     "id": "A5060314690",
+     "name": "Jadunandan Dash",
+     "n": 17
+    },
+    {
+     "id": "A5109011370",
+     "name": "Amir Hosein Mosavi",
+     "n": 15
+    },
+    {
+     "id": "A5009042729",
+     "name": "Sina Ardabili",
+     "n": 14
+    },
+    {
+     "id": "A5027113543",
+     "name": "Yong Ge",
+     "n": 14
+    },
+    {
+     "id": "A5051082265",
+     "name": "Uwe Reuter",
+     "n": 14
+    },
+    {
+     "id": "A5053864965",
+     "name": "Annamária R. Várkonyi-Kóczy",
+     "n": 14
+    },
+    {
+     "id": "A5065190539",
+     "name": "Timon Rabczuk",
+     "n": 14
+    },
+    {
+     "id": "A5070470699",
+     "name": "Yijie Tang",
+     "n": 12
+    },
+    {
+     "id": "A5101517889",
+     "name": "Huapeng Li",
+     "n": 12
+    },
+    {
+     "id": "A5026395399",
+     "name": "Andrew J. Tatem",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5088990923",
@@ -746,7 +2474,79 @@
    },
    "recent": {
     "city-bim": 66
-   }
+   },
+   "collab": [
+    {
+     "id": "A5091843751",
+     "name": "Kaiyu Sun",
+     "n": 42
+    },
+    {
+     "id": "A5100775481",
+     "name": "Zhe Wang",
+     "n": 36
+    },
+    {
+     "id": "A5062225796",
+     "name": "Han Li",
+     "n": 34
+    },
+    {
+     "id": "A5044218586",
+     "name": "Da Yan",
+     "n": 28
+    },
+    {
+     "id": "A5082259104",
+     "name": "Wanni Zhang",
+     "n": 26
+    },
+    {
+     "id": "A5059166857",
+     "name": "Jeetika Malik",
+     "n": 24
+    },
+    {
+     "id": "A5016911531",
+     "name": "Xuan Luo",
+     "n": 22
+    },
+    {
+     "id": "A5066811525",
+     "name": "Mary Ann Piette",
+     "n": 20
+    },
+    {
+     "id": "A5100758160",
+     "name": "Na Luo",
+     "n": 16
+    },
+    {
+     "id": "A5066123167",
+     "name": "Yixing Chen",
+     "n": 15
+    },
+    {
+     "id": "A5100349144",
+     "name": "Sang Hoon Lee",
+     "n": 14
+    },
+    {
+     "id": "A5101937094",
+     "name": "Max Wei",
+     "n": 14
+    },
+    {
+     "id": "A5024357919",
+     "name": "Alfonso Capozzoli",
+     "n": 11
+    },
+    {
+     "id": "A5100391654",
+     "name": "Wei Wang",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5033042071",
@@ -775,7 +2575,79 @@
    "recent": {
     "photogrammetry": 272,
     "lidar": 584
-   }
+   },
+   "collab": [
+    {
+     "id": "A5043014786",
+     "name": "Harri Kaartinen",
+     "n": 134
+    },
+    {
+     "id": "A5045584015",
+     "name": "Antero Kukko",
+     "n": 134
+    },
+    {
+     "id": "A5047838080",
+     "name": "Mikko Vastaranta",
+     "n": 92
+    },
+    {
+     "id": "A5061837252",
+     "name": "Markus Holopainen",
+     "n": 76
+    },
+    {
+     "id": "A5100374346",
+     "name": "Yuwei Chen",
+     "n": 65
+    },
+    {
+     "id": "A5011830111",
+     "name": "Ville Kankare",
+     "n": 63
+    },
+    {
+     "id": "A5078441718",
+     "name": "Ninni Saarinen",
+     "n": 60
+    },
+    {
+     "id": "A5011450440",
+     "name": "Teemu Hakala",
+     "n": 58
+    },
+    {
+     "id": "A5018804090",
+     "name": "Xiaowei Yu",
+     "n": 55
+    },
+    {
+     "id": "A5070189190",
+     "name": "Xinlian Liang",
+     "n": 54
+    },
+    {
+     "id": "A5020136472",
+     "name": "Hannu Hyyppä",
+     "n": 47
+    },
+    {
+     "id": "A5030143006",
+     "name": "Juho‐Pekka Virtanen",
+     "n": 46
+    },
+    {
+     "id": "A5061693398",
+     "name": "Matti Lehtomäki",
+     "n": 39
+    },
+    {
+     "id": "A5100754860",
+     "name": "Yunsheng Wang",
+     "n": 39
+    }
+   ]
   },
   {
    "id": "A5100317994",
@@ -804,7 +2676,79 @@
    "recent": {
     "remote-sensing": 346,
     "geoai": 120
-   }
+   },
+   "collab": [
+    {
+     "id": "A5067803447",
+     "name": "Ran Tao",
+     "n": 151
+    },
+    {
+     "id": "A5033017179",
+     "name": "Qian Du",
+     "n": 91
+    },
+    {
+     "id": "A5100442192",
+     "name": "Mengmeng Zhang",
+     "n": 88
+    },
+    {
+     "id": "A5033234889",
+     "name": "Yunhao Gao",
+     "n": 27
+    },
+    {
+     "id": "A5072245508",
+     "name": "Shou Feng",
+     "n": 22
+    },
+    {
+     "id": "A5065367615",
+     "name": "Xiang‐Gen Xia",
+     "n": 21
+    },
+    {
+     "id": "A5100339065",
+     "name": "Huan Liu",
+     "n": 21
+    },
+    {
+     "id": "A5100386304",
+     "name": "Lu Li",
+     "n": 21
+    },
+    {
+     "id": "A5054256790",
+     "name": "Yuxiang Zhang",
+     "n": 18
+    },
+    {
+     "id": "A5056288823",
+     "name": "Yuanyuan Gui",
+     "n": 17
+    },
+    {
+     "id": "A5100389786",
+     "name": "Na Liu‎",
+     "n": 17
+    },
+    {
+     "id": "A5101771199",
+     "name": "Chunhui Zhao",
+     "n": 17
+    },
+    {
+     "id": "A5015155189",
+     "name": "Heng-Chao Li",
+     "n": 16
+    },
+    {
+     "id": "A5001489670",
+     "name": "Xudong Zhao",
+     "n": 15
+    }
+   ]
   },
   {
    "id": "A5009116003",
@@ -830,7 +2774,79 @@
    },
    "recent": {
     "geoai": 142
-   }
+   },
+   "collab": [
+    {
+     "id": "A5053931437",
+     "name": "Ruyi Feng",
+     "n": 68
+    },
+    {
+     "id": "A5047516173",
+     "name": "Jining Yan",
+     "n": 66
+    },
+    {
+     "id": "A5100650398",
+     "name": "Weitao Chen",
+     "n": 50
+    },
+    {
+     "id": "A5100750908",
+     "name": "Wei Han",
+     "n": 45
+    },
+    {
+     "id": "A5015993565",
+     "name": "Albert Y. Zomaya",
+     "n": 39
+    },
+    {
+     "id": "A5006738935",
+     "name": "Xianju Li",
+     "n": 38
+    },
+    {
+     "id": "A5072670483",
+     "name": "Rajiv Kumar Ranjan",
+     "n": 31
+    },
+    {
+     "id": "A5100362041",
+     "name": "Jun Li",
+     "n": 31
+    },
+    {
+     "id": "A5023118644",
+     "name": "Xiaodao Chen",
+     "n": 23
+    },
+    {
+     "id": "A5031491139",
+     "name": "Xuwen Qin",
+     "n": 23
+    },
+    {
+     "id": "A5058213496",
+     "name": "Runyu Fan",
+     "n": 23
+    },
+    {
+     "id": "A5023925857",
+     "name": "Peng Liu",
+     "n": 22
+    },
+    {
+     "id": "A5024921706",
+     "name": "Lin Mu",
+     "n": 22
+    },
+    {
+     "id": "A5083980544",
+     "name": "Lunche Wang",
+     "n": 22
+    }
+   ]
   },
   {
    "id": "A5074919292",
@@ -859,7 +2875,79 @@
    "recent": {
     "remote-sensing": 354,
     "geoai": 162
-   }
+   },
+   "collab": [
+    {
+     "id": "A5067490750",
+     "name": "Richard Gloaguen",
+     "n": 67
+    },
+    {
+     "id": "A5042657950",
+     "name": "Behnood Rasti",
+     "n": 45
+    },
+    {
+     "id": "A5109011370",
+     "name": "Amir Hosein Mosavi",
+     "n": 39
+    },
+    {
+     "id": "A5011401698",
+     "name": "Puhong Duan",
+     "n": 36
+    },
+    {
+     "id": "A5068384981",
+     "name": "Xiao Xiang Zhu",
+     "n": 28
+    },
+    {
+     "id": "A5051082265",
+     "name": "Uwe Reuter",
+     "n": 27
+    },
+    {
+     "id": "A5065061505",
+     "name": "Leyuan Fang",
+     "n": 27
+    },
+    {
+     "id": "A5035508615",
+     "name": "Jón Atli Benediktsson",
+     "n": 25
+    },
+    {
+     "id": "A5027034650",
+     "name": "Yushi Chen",
+     "n": 23
+    },
+    {
+     "id": "A5009042729",
+     "name": "Sina Ardabili",
+     "n": 22
+    },
+    {
+     "id": "A5034435383",
+     "name": "Naoto Yokoya",
+     "n": 22
+    },
+    {
+     "id": "A5000622487",
+     "name": "Peter M. Atkinson",
+     "n": 20
+    },
+    {
+     "id": "A5012290972",
+     "name": "Sandra Lorenz",
+     "n": 20
+    },
+    {
+     "id": "A5089503857",
+     "name": "Omid Ghorbanzadeh",
+     "n": 20
+    }
+   ]
   },
   {
    "id": "A5012274844",
@@ -885,7 +2973,79 @@
    },
    "recent": {
     "sar": 379
-   }
+   },
+   "collab": [
+    {
+     "id": "A5034046477",
+     "name": "Federico Raspini",
+     "n": 69
+    },
+    {
+     "id": "A5051939305",
+     "name": "Giovanni Gigli",
+     "n": 66
+    },
+    {
+     "id": "A5006599950",
+     "name": "Veronica Tofani",
+     "n": 62
+    },
+    {
+     "id": "A5033431329",
+     "name": "Matteo Del Soldato",
+     "n": 51
+    },
+    {
+     "id": "A5048233148",
+     "name": "Silvia Bianchini",
+     "n": 51
+    },
+    {
+     "id": "A5009471635",
+     "name": "Samuele Segoni",
+     "n": 47
+    },
+    {
+     "id": "A5071000390",
+     "name": "Ascanio Rosi",
+     "n": 47
+    },
+    {
+     "id": "A5026730159",
+     "name": "Filippo Catani",
+     "n": 43
+    },
+    {
+     "id": "A5032252268",
+     "name": "Emanuele Intrieri",
+     "n": 43
+    },
+    {
+     "id": "A5046156580",
+     "name": "Federico Di Traglia",
+     "n": 41
+    },
+    {
+     "id": "A5046647871",
+     "name": "Teresa Nolesini",
+     "n": 41
+    },
+    {
+     "id": "A5009145626",
+     "name": "Luca Lombardi",
+     "n": 40
+    },
+    {
+     "id": "A5012599592",
+     "name": "Massimiliano Nocentini",
+     "n": 39
+    },
+    {
+     "id": "A5022483035",
+     "name": "William Frodella",
+     "n": 38
+    }
+   ]
   },
   {
    "id": "A5100613889",
@@ -914,7 +3074,79 @@
    "recent": {
     "lidar": 275,
     "geoai": 135
-   }
+   },
+   "collab": [
+    {
+     "id": "A5100416961",
+     "name": "Cheng Wang",
+     "n": 157
+    },
+    {
+     "id": "A5100374691",
+     "name": "Yiping Chen",
+     "n": 63
+    },
+    {
+     "id": "A5071340024",
+     "name": "José Marcato",
+     "n": 62
+    },
+    {
+     "id": "A5032270954",
+     "name": "Lingfei Ma",
+     "n": 58
+    },
+    {
+     "id": "A5047386824",
+     "name": "Chenglu Wen",
+     "n": 48
+    },
+    {
+     "id": "A5035056634",
+     "name": "Haiyan Guan",
+     "n": 47
+    },
+    {
+     "id": "A5065937604",
+     "name": "Yongtao Yu",
+     "n": 45
+    },
+    {
+     "id": "A5017880637",
+     "name": "Wesley Nunes Gonçalves",
+     "n": 44
+    },
+    {
+     "id": "A5049403375",
+     "name": "Hongjie He",
+     "n": 35
+    },
+    {
+     "id": "A5080492904",
+     "name": "Kyle Gao",
+     "n": 35
+    },
+    {
+     "id": "A5076765712",
+     "name": "Michael A. Chapman",
+     "n": 27
+    },
+    {
+     "id": "A5066301734",
+     "name": "Weiquan Liu",
+     "n": 26
+    },
+    {
+     "id": "A5100767934",
+     "name": "Ming Cheng",
+     "n": 26
+    },
+    {
+     "id": "A5002805753",
+     "name": "Yu Zang",
+     "n": 25
+    }
+   ]
   },
   {
    "id": "A5075013625",
@@ -940,7 +3172,79 @@
    },
    "recent": {
     "geoai": 159
-   }
+   },
+   "collab": [
+    {
+     "id": "A5106124934",
+     "name": "Jocelyn Chanussot",
+     "n": 112
+    },
+    {
+     "id": "A5100389658",
+     "name": "Bing Zhang",
+     "n": 46
+    },
+    {
+     "id": "A5013885739",
+     "name": "Jing Tao Yao",
+     "n": 43
+    },
+    {
+     "id": "A5068384981",
+     "name": "Xiao Xiang Zhu",
+     "n": 37
+    },
+    {
+     "id": "A5034435383",
+     "name": "Naoto Yokoya",
+     "n": 36
+    },
+    {
+     "id": "A5066378186",
+     "name": "Lianru Gao",
+     "n": 34
+    },
+    {
+     "id": "A5100354331",
+     "name": "Chenyu Li",
+     "n": 31
+    },
+    {
+     "id": "A5100761149",
+     "name": "Xin Wu",
+     "n": 25
+    },
+    {
+     "id": "A5101823681",
+     "name": "Man Zhou",
+     "n": 25
+    },
+    {
+     "id": "A5074919292",
+     "name": "Pedram Ghamisi",
+     "n": 19
+    },
+    {
+     "id": "A5043777501",
+     "name": "Gemine Vivone",
+     "n": 15
+    },
+    {
+     "id": "A5090470209",
+     "name": "Yao Ding",
+     "n": 15
+    },
+    {
+     "id": "A5054292278",
+     "name": "Antonio Plaza",
+     "n": 14
+    },
+    {
+     "id": "A5087427076",
+     "name": "Swalpa Kumar Roy",
+     "n": 13
+    }
+   ]
   },
   {
    "id": "A5073132582",
@@ -966,7 +3270,79 @@
    },
    "recent": {
     "sar": 183
-   }
+   },
+   "collab": [
+    {
+     "id": "A5069141729",
+     "name": "Alexis Aurelien Mouche",
+     "n": 92
+    },
+    {
+     "id": "A5075497720",
+     "name": "Ronan Fablet",
+     "n": 73
+    },
+    {
+     "id": "A5028207820",
+     "name": "Vladimir Kudryavtsev",
+     "n": 63
+    },
+    {
+     "id": "A5076659283",
+     "name": "Valentin Resseguier",
+     "n": 53
+    },
+    {
+     "id": "A5018721311",
+     "name": "Étienne Mémin",
+     "n": 52
+    },
+    {
+     "id": "A5009759418",
+     "name": "Lucile Gaultier",
+     "n": 43
+    },
+    {
+     "id": "A5023949381",
+     "name": "Elizaveta V. Zabolotskikh",
+     "n": 33
+    },
+    {
+     "id": "A5001012163",
+     "name": "Frédéric Nouguier",
+     "n": 30
+    },
+    {
+     "id": "A5041794907",
+     "name": "Fabrice Ardhuin",
+     "n": 30
+    },
+    {
+     "id": "A5056087611",
+     "name": "Justin Edward Stopa",
+     "n": 26
+    },
+    {
+     "id": "A5060836056",
+     "name": "Yves Quilfen",
+     "n": 26
+    },
+    {
+     "id": "A5030132191",
+     "name": "Said Ouala",
+     "n": 25
+    },
+    {
+     "id": "A5048210830",
+     "name": "Danièle Hauser",
+     "n": 24
+    },
+    {
+     "id": "A5055769454",
+     "name": "Craig James Donlon",
+     "n": 24
+    }
+   ]
   },
   {
    "id": "A5077764827",
@@ -992,7 +3368,79 @@
    },
    "recent": {
     "lidar": 229
-   }
+   },
+   "collab": [
+    {
+     "id": "A5051219165",
+     "name": "Michael A. Wulder",
+     "n": 115
+    },
+    {
+     "id": "A5050842469",
+     "name": "Nicholas C. Coops",
+     "n": 104
+    },
+    {
+     "id": "A5021319086",
+     "name": "Txomin Hermosilla",
+     "n": 73
+    },
+    {
+     "id": "A5006928044",
+     "name": "Piotr Tompalski",
+     "n": 43
+    },
+    {
+     "id": "A5010118846",
+     "name": "Geordie W. Hobart",
+     "n": 18
+    },
+    {
+     "id": "A5070480244",
+     "name": "Christopher W. Bater",
+     "n": 13
+    },
+    {
+     "id": "A5080442084",
+     "name": "Jeffrey A. Cardille",
+     "n": 12
+    },
+    {
+     "id": "A5010745625",
+     "name": "Christopher Mulverhill",
+     "n": 11
+    },
+    {
+     "id": "A5049217919",
+     "name": "Tristan R.H. Goodbody",
+     "n": 11
+    },
+    {
+     "id": "A5027618512",
+     "name": "Murray E Woods",
+     "n": 10
+    },
+    {
+     "id": "A5088706647",
+     "name": "Douglas K. Bolton",
+     "n": 10
+    },
+    {
+     "id": "A5033042071",
+     "name": "Juha M. Hyyppa",
+     "n": 9
+    },
+    {
+     "id": "A5047838080",
+     "name": "Mikko Vastaranta",
+     "n": 9
+    },
+    {
+     "id": "A5021251894",
+     "name": "Martin Queinnec",
+     "n": 8
+    }
+   ]
   },
   {
    "id": "A5100754351",
@@ -1018,7 +3466,79 @@
    },
    "recent": {
     "geoai": 121
-   }
+   },
+   "collab": [
+    {
+     "id": "A5100673818",
+     "name": "Liangpei Zhang",
+     "n": 181
+    },
+    {
+     "id": "A5030713988",
+     "name": "Ailong Ma",
+     "n": 145
+    },
+    {
+     "id": "A5100352781",
+     "name": "Xinyu Wang",
+     "n": 75
+    },
+    {
+     "id": "A5000877601",
+     "name": "Zhuo Zheng",
+     "n": 54
+    },
+    {
+     "id": "A5101423693",
+     "name": "Yuting Wan",
+     "n": 48
+    },
+    {
+     "id": "A5025736828",
+     "name": "Yinhe Liu",
+     "n": 40
+    },
+    {
+     "id": "A5062779308",
+     "name": "Junjue Wang",
+     "n": 38
+    },
+    {
+     "id": "A5041081010",
+     "name": "Ji Jun Zhao",
+     "n": 32
+    },
+    {
+     "id": "A5101916473",
+     "name": "Xin Yu Hu",
+     "n": 29
+    },
+    {
+     "id": "A5005874022",
+     "name": "Liqin Cao",
+     "n": 28
+    },
+    {
+     "id": "A5053931437",
+     "name": "Ruyi Feng",
+     "n": 23
+    },
+    {
+     "id": "A5079862010",
+     "name": "Qiqi Zhu",
+     "n": 22
+    },
+    {
+     "id": "A5080236734",
+     "name": "Da He",
+     "n": 21
+    },
+    {
+     "id": "A5011042925",
+     "name": "Xiaoyan Lu",
+     "n": 19
+    }
+   ]
   },
   {
    "id": "A5059663096",
@@ -1044,7 +3564,79 @@
    },
    "recent": {
     "geodesy": 188
-   }
+   },
+   "collab": [
+    {
+     "id": "A5055754150",
+     "name": "Amir Khodabandeh",
+     "n": 35
+    },
+    {
+     "id": "A5036908411",
+     "name": "Safoora Zaminpardaz",
+     "n": 30
+    },
+    {
+     "id": "A5039086149",
+     "name": "Christian C. J. M. Tiberius",
+     "n": 21
+    },
+    {
+     "id": "A5004592099",
+     "name": "Nandakumaran Nadarajah",
+     "n": 11
+    },
+    {
+     "id": "A5100403704",
+     "name": "Kan Wang",
+     "n": 11
+    },
+    {
+     "id": "A5043632581",
+     "name": "Dimitrios Psychas",
+     "n": 9
+    },
+    {
+     "id": "A5048931735",
+     "name": "Robert Odolinski",
+     "n": 9
+    },
+    {
+     "id": "A5042373941",
+     "name": "Sandra Verhagen",
+     "n": 8
+    },
+    {
+     "id": "A5101653926",
+     "name": "Baocheng Zhang",
+     "n": 8
+    },
+    {
+     "id": "A5103320696",
+     "name": "Sebastian Ciuban",
+     "n": 7
+    },
+    {
+     "id": "A5056383666",
+     "name": "Lotfi Massarweh",
+     "n": 6
+    },
+    {
+     "id": "A5073411803",
+     "name": "Chengyu Yin",
+     "n": 5
+    },
+    {
+     "id": "A5014632732",
+     "name": "Dennis Odijk",
+     "n": 3
+    },
+    {
+     "id": "A5021551478",
+     "name": "Pei Chen",
+     "n": 3
+    }
+   ]
   },
   {
    "id": "A5005595654",
@@ -1070,7 +3662,79 @@
    },
    "recent": {
     "sar": 220
-   }
+   },
+   "collab": [
+    {
+     "id": "A5028242808",
+     "name": "Mehrez Zribi",
+     "n": 226
+    },
+    {
+     "id": "A5035101441",
+     "name": "Hassan Bazzi",
+     "n": 65
+    },
+    {
+     "id": "A5033284277",
+     "name": "Mohammad El Hajj",
+     "n": 61
+    },
+    {
+     "id": "A5088075756",
+     "name": "Ibrahim Fayad",
+     "n": 47
+    },
+    {
+     "id": "A5080685651",
+     "name": "Frédéric Frappart",
+     "n": 35
+    },
+    {
+     "id": "A5034096626",
+     "name": "Zohra Lili‐Chabaane",
+     "n": 33
+    },
+    {
+     "id": "A5043940512",
+     "name": "Jean‐Pierre Wigneron",
+     "n": 32
+    },
+    {
+     "id": "A5076394373",
+     "name": "Dinh Ho Tong Minh",
+     "n": 31
+    },
+    {
+     "id": "A5021666736",
+     "name": "Emmanuelle Vaudour",
+     "n": 28
+    },
+    {
+     "id": "A5011283548",
+     "name": "Sami Najem",
+     "n": 21
+    },
+    {
+     "id": "A5001898964",
+     "name": "Clément Mallet",
+     "n": 20
+    },
+    {
+     "id": "A5027747484",
+     "name": "Emna Ayari",
+     "n": 19
+    },
+    {
+     "id": "A5103826371",
+     "name": "Safa Bousbih",
+     "n": 19
+    },
+    {
+     "id": "A5013623964",
+     "name": "Saeideh Maleki",
+     "n": 18
+    }
+   ]
   },
   {
    "id": "A5025841679",
@@ -1105,7 +3769,79 @@
     "lidar": 423,
     "geoai": 159,
     "city-bim": 173
-   }
+   },
+   "collab": [
+    {
+     "id": "A5020652744",
+     "name": "Elisa Mariarosaria Farella",
+     "n": 72
+    },
+    {
+     "id": "A5069958505",
+     "name": "Luca Morelli",
+     "n": 60
+    },
+    {
+     "id": "A5024347284",
+     "name": "Fabio Menna",
+     "n": 53
+    },
+    {
+     "id": "A5072508222",
+     "name": "Erica Nocerino",
+     "n": 49
+    },
+    {
+     "id": "A5022467960",
+     "name": "Simone Rigon",
+     "n": 41
+    },
+    {
+     "id": "A5000436623",
+     "name": "I. Toschi",
+     "n": 39
+    },
+    {
+     "id": "A5023445851",
+     "name": "Eleonora Grilli",
+     "n": 26
+    },
+    {
+     "id": "A5093091713",
+     "name": "Giulio Perda",
+     "n": 25
+    },
+    {
+     "id": "A5059785877",
+     "name": "Paweł Trybała",
+     "n": 23
+    },
+    {
+     "id": "A5011573559",
+     "name": "G. Mazzacca",
+     "n": 18
+    },
+    {
+     "id": "A5083945113",
+     "name": "Elisavet Konstantina Stathopoulou",
+     "n": 16
+    },
+    {
+     "id": "A5125718788",
+     "name": "Gianluca Bertolasi",
+     "n": 16
+    },
+    {
+     "id": "A5014284001",
+     "name": "Alessandro Torresani",
+     "n": 14
+    },
+    {
+     "id": "A5091851870",
+     "name": "Roberto Battisti",
+     "n": 14
+    }
+   ]
   },
   {
    "id": "A5073032922",
@@ -1134,7 +3870,79 @@
    "recent": {
     "photogrammetry": 155,
     "geoai": 126
-   }
+   },
+   "collab": [
+    {
+     "id": "A5069540177",
+     "name": "Wen Tao Yang",
+     "n": 66
+    },
+    {
+     "id": "A5100673818",
+     "name": "Liangpei Zhang",
+     "n": 49
+    },
+    {
+     "id": "A5048981711",
+     "name": "Nan Xue",
+     "n": 33
+    },
+    {
+     "id": "A5076179689",
+     "name": "Huai Yu",
+     "n": 26
+    },
+    {
+     "id": "A5070798635",
+     "name": "Jian Ding",
+     "n": 21
+    },
+    {
+     "id": "A5100736935",
+     "name": "Lei Yu",
+     "n": 18
+    },
+    {
+     "id": "A5065162054",
+     "name": "Fang Xu",
+     "n": 16
+    },
+    {
+     "id": "A5101849661",
+     "name": "Chang Xu",
+     "n": 15
+    },
+    {
+     "id": "A5039363991",
+     "name": "Xiang Bai",
+     "n": 13
+    },
+    {
+     "id": "A5063038804",
+     "name": "Qikai Lu",
+     "n": 13
+    },
+    {
+     "id": "A5057164374",
+     "name": "Jinwang Wang",
+     "n": 12
+    },
+    {
+     "id": "A5068384981",
+     "name": "Xiao Xiang Zhu",
+     "n": 12
+    },
+    {
+     "id": "A5003692319",
+     "name": "Haijian Zhang",
+     "n": 11
+    },
+    {
+     "id": "A5071887817",
+     "name": "Xingxing Weng",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5021408538",
@@ -1160,7 +3968,79 @@
    },
    "recent": {
     "sar": 401
-   }
+   },
+   "collab": [
+    {
+     "id": "A5076178410",
+     "name": "Guang‐Cai Sun",
+     "n": 170
+    },
+    {
+     "id": "A5008256662",
+     "name": "Yinghui Quan",
+     "n": 77
+    },
+    {
+     "id": "A5060268032",
+     "name": "Jianlai Chen",
+     "n": 46
+    },
+    {
+     "id": "A5003394377",
+     "name": "Wenkang Liu",
+     "n": 43
+    },
+    {
+     "id": "A5030096886",
+     "name": "Liang Guo",
+     "n": 43
+    },
+    {
+     "id": "A5062562412",
+     "name": "Hanwen Yu",
+     "n": 43
+    },
+    {
+     "id": "A5068336830",
+     "name": "Wei Feng",
+     "n": 40
+    },
+    {
+     "id": "A5044356445",
+     "name": "Yachao Li",
+     "n": 39
+    },
+    {
+     "id": "A5043211178",
+     "name": "Yuexin Gao",
+     "n": 34
+    },
+    {
+     "id": "A5044570096",
+     "name": "Gabriel Dauphin",
+     "n": 32
+    },
+    {
+     "id": "A5102927094",
+     "name": "Zheng Bao",
+     "n": 30
+    },
+    {
+     "id": "A5060130606",
+     "name": "Jixiang Fu",
+     "n": 22
+    },
+    {
+     "id": "A5101751749",
+     "name": "Zijing Zhang",
+     "n": 22
+    },
+    {
+     "id": "A5050028681",
+     "name": "Yi Liang",
+     "n": 21
+    }
+   ]
   },
   {
    "id": "A5005905514",
@@ -1186,7 +4066,79 @@
    },
    "recent": {
     "geoai": 225
-   }
+   },
+   "collab": [
+    {
+     "id": "A5112365916",
+     "name": "Kun Fu",
+     "n": 157
+    },
+    {
+     "id": "A5002110023",
+     "name": "Wenhui Diao",
+     "n": 134
+    },
+    {
+     "id": "A5057853630",
+     "name": "Guangluan Xu",
+     "n": 62
+    },
+    {
+     "id": "A5023538862",
+     "name": "Zhirui Wang",
+     "n": 47
+    },
+    {
+     "id": "A5100721586",
+     "name": "Wenkai Zhang",
+     "n": 46
+    },
+    {
+     "id": "A5100884860",
+     "name": "Menglong Yan",
+     "n": 43
+    },
+    {
+     "id": "A5006720439",
+     "name": "Hongfeng Yu",
+     "n": 42
+    },
+    {
+     "id": "A5001093841",
+     "name": "Hongqi Wang",
+     "n": 41
+    },
+    {
+     "id": "A5046600276",
+     "name": "Peijin Wang",
+     "n": 39
+    },
+    {
+     "id": "A5027079185",
+     "name": "Zhiyuan Yan",
+     "n": 34
+    },
+    {
+     "id": "A5053611461",
+     "name": "Kaiqiang Chen",
+     "n": 34
+    },
+    {
+     "id": "A5055032051",
+     "name": "Yingchao Feng",
+     "n": 34
+    },
+    {
+     "id": "A5100333738",
+     "name": "Yue Zhang",
+     "n": 33
+    },
+    {
+     "id": "A5101810352",
+     "name": "Zequn Zhang",
+     "n": 27
+    }
+   ]
   },
   {
    "id": "A5007427445",
@@ -1212,7 +4164,79 @@
    },
    "recent": {
     "sar": 445
-   }
+   },
+   "collab": [
+    {
+     "id": "A5100712234",
+     "name": "Chen Yu",
+     "n": 82
+    },
+    {
+     "id": "A5029357369",
+     "name": "Chuang Song",
+     "n": 55
+    },
+    {
+     "id": "A5020713851",
+     "name": "Guijun Yang",
+     "n": 40
+    },
+    {
+     "id": "A5077460951",
+     "name": "Keren Dai",
+     "n": 25
+    },
+    {
+     "id": "A5100432660",
+     "name": "Peng Li",
+     "n": 25
+    },
+    {
+     "id": "A5079820901",
+     "name": "Meiling Gao",
+     "n": 24
+    },
+    {
+     "id": "A5100725516",
+     "name": "Zhenjiang Liu",
+     "n": 23
+    },
+    {
+     "id": "A5004004882",
+     "name": "Jianbing Peng",
+     "n": 22
+    },
+    {
+     "id": "A5058097701",
+     "name": "Houjie Wang",
+     "n": 21
+    },
+    {
+     "id": "A5037778561",
+     "name": "Wu Zhu",
+     "n": 19
+    },
+    {
+     "id": "A5005698391",
+     "name": "Hao Frank Yang",
+     "n": 17
+    },
+    {
+     "id": "A5060039589",
+     "name": "Bingquan Han",
+     "n": 17
+    },
+    {
+     "id": "A5055352931",
+     "name": "Roberto Tomás",
+     "n": 15
+    },
+    {
+     "id": "A5102595865",
+     "name": "Jiantao Du",
+     "n": 15
+    }
+   ]
   },
   {
    "id": "A5080685651",
@@ -1238,7 +4262,79 @@
    },
    "recent": {
     "sar": 207
-   }
+   },
+   "collab": [
+    {
+     "id": "A5043940512",
+     "name": "Jean‐Pierre Wigneron",
+     "n": 108
+    },
+    {
+     "id": "A5111316078",
+     "name": "Luc Bourrel",
+     "n": 54
+    },
+    {
+     "id": "A5100335647",
+     "name": "Xiaojun Li",
+     "n": 53
+    },
+    {
+     "id": "A5086413296",
+     "name": "Lei Fan",
+     "n": 52
+    },
+    {
+     "id": "A5030042823",
+     "name": "Xiangzhuo Liu",
+     "n": 51
+    },
+    {
+     "id": "A5036762656",
+     "name": "Fabien Blarel",
+     "n": 50
+    },
+    {
+     "id": "A5107539831",
+     "name": "José Darrozes",
+     "n": 47
+    },
+    {
+     "id": "A5070378593",
+     "name": "Philippe Ciais",
+     "n": 43
+    },
+    {
+     "id": "A5041407349",
+     "name": "Fabrice Papa",
+     "n": 41
+    },
+    {
+     "id": "A5005595654",
+     "name": "Nicolas N. Baghdadi",
+     "n": 35
+    },
+    {
+     "id": "A5082519092",
+     "name": "Guillaume Ramillien",
+     "n": 35
+    },
+    {
+     "id": "A5070547487",
+     "name": "Mengjia Wang",
+     "n": 32
+    },
+    {
+     "id": "A5072310177",
+     "name": "Cassandra Normandin",
+     "n": 29
+    },
+    {
+     "id": "A5070096210",
+     "name": "Bertrand Ygorra",
+     "n": 27
+    }
+   ]
   },
   {
    "id": "A5035533740",
@@ -1264,7 +4360,79 @@
    },
    "recent": {
     "geodesy": 171
-   }
+   },
+   "collab": [
+    {
+     "id": "A5040896620",
+     "name": "Maximilian Semmling",
+     "n": 76
+    },
+    {
+     "id": "A5032894162",
+     "name": "Florian Zus",
+     "n": 74
+    },
+    {
+     "id": "A5112190765",
+     "name": "Galina Dick",
+     "n": 72
+    },
+    {
+     "id": "A5014145696",
+     "name": "Harald Schuh",
+     "n": 50
+    },
+    {
+     "id": "A5046444383",
+     "name": "Milad Asgarimehr",
+     "n": 45
+    },
+    {
+     "id": "A5021158847",
+     "name": "Benjamin Männel",
+     "n": 27
+    },
+    {
+     "id": "A5045434933",
+     "name": "Mainul Hoque",
+     "n": 26
+    },
+    {
+     "id": "A5046538240",
+     "name": "Wei Liu",
+     "n": 24
+    },
+    {
+     "id": "A5017352067",
+     "name": "Estel Cardellach",
+     "n": 23
+    },
+    {
+     "id": "A5052551639",
+     "name": "Markus Ramatschi",
+     "n": 23
+    },
+    {
+     "id": "A5060959314",
+     "name": "Georges Stienne",
+     "n": 23
+    },
+    {
+     "id": "A5021587155",
+     "name": "Yuan Chun Hu",
+     "n": 20
+    },
+    {
+     "id": "A5038052016",
+     "name": "Xintai Yuan",
+     "n": 20
+    },
+    {
+     "id": "A5061833277",
+     "name": "Maorong Ge",
+     "n": 20
+    }
+   ]
   },
   {
    "id": "A5044033108",
@@ -1290,7 +4458,79 @@
    },
    "recent": {
     "lidar": 210
-   }
+   },
+   "collab": [
+    {
+     "id": "A5004682321",
+     "name": "Kim Calders",
+     "n": 75
+    },
+    {
+     "id": "A5077589198",
+     "name": "Phil Wilkes",
+     "n": 47
+    },
+    {
+     "id": "A5060327845",
+     "name": "Andrew Burt",
+     "n": 46
+    },
+    {
+     "id": "A5018160834",
+     "name": "Yadvinder Singh Malhi",
+     "n": 42
+    },
+    {
+     "id": "A5064434837",
+     "name": "Niall Origo",
+     "n": 38
+    },
+    {
+     "id": "A5084516273",
+     "name": "Hans Verbeeck",
+     "n": 35
+    },
+    {
+     "id": "A5032473063",
+     "name": "Oliver L. Phillips",
+     "n": 30
+    },
+    {
+     "id": "A5002444514",
+     "name": "Louise Terryn",
+     "n": 24
+    },
+    {
+     "id": "A5103060749",
+     "name": "Timothy R. Baker",
+     "n": 24
+    },
+    {
+     "id": "A5040569791",
+     "name": "Gerardo Rafael FLORES LLAMPAZO",
+     "n": 23
+    },
+    {
+     "id": "A5086582240",
+     "name": "Joanne M. Nightingale",
+     "n": 23
+    },
+    {
+     "id": "A5005897108",
+     "name": "John David Armston",
+     "n": 22
+    },
+    {
+     "id": "A5009824835",
+     "name": "Ted R. Feldpausch",
+     "n": 22
+    },
+    {
+     "id": "A5069066103",
+     "name": "Alexander Frederick Shenkin",
+     "n": 21
+    }
+   ]
   },
   {
    "id": "A5052926185",
@@ -1316,7 +4556,79 @@
    },
    "recent": {
     "geodesy": 231
-   }
+   },
+   "collab": [
+    {
+     "id": "A5030512610",
+     "name": "Qingyun Yan",
+     "n": 37
+    },
+    {
+     "id": "A5032638794",
+     "name": "Xuerui Wu",
+     "n": 34
+    },
+    {
+     "id": "A5045006366",
+     "name": "Yan Min Jia",
+     "n": 30
+    },
+    {
+     "id": "A5001729466",
+     "name": "Andrés Calabia",
+     "n": 28
+    },
+    {
+     "id": "A5020478633",
+     "name": "Rui Jin",
+     "n": 21
+    },
+    {
+     "id": "A5021498363",
+     "name": "X. Liu",
+     "n": 17
+    },
+    {
+     "id": "A5017046908",
+     "name": "Ke Su",
+     "n": 16
+    },
+    {
+     "id": "A5090385470",
+     "name": "Weimin Huang",
+     "n": 15
+    },
+    {
+     "id": "A5004210927",
+     "name": "Zhenyang Hui",
+     "n": 13
+    },
+    {
+     "id": "A5067636339",
+     "name": "Liangliang Yuan",
+     "n": 13
+    },
+    {
+     "id": "A5074931339",
+     "name": "Zhounan Dong",
+     "n": 12
+    },
+    {
+     "id": "A5091756450",
+     "name": "Gökhan Gürbüz",
+     "n": 12
+    },
+    {
+     "id": "A5020765155",
+     "name": "Meisam Amani",
+     "n": 11
+    },
+    {
+     "id": "A5037031638",
+     "name": "Hui Qiu",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5010436195",
@@ -1342,7 +4654,79 @@
    },
    "recent": {
     "sar": 392
-   }
+   },
+   "collab": [
+    {
+     "id": "A5067826216",
+     "name": "Chaoying Zhao",
+     "n": 49
+    },
+    {
+     "id": "A5068130970",
+     "name": "Jin‐Woo Kim",
+     "n": 47
+    },
+    {
+     "id": "A5100609819",
+     "name": "Qin Zhang",
+     "n": 27
+    },
+    {
+     "id": "A5067881429",
+     "name": "Yufen Niu",
+     "n": 16
+    },
+    {
+     "id": "A5059036768",
+     "name": "Xie Hu",
+     "n": 15
+    },
+    {
+     "id": "A5100665946",
+     "name": "Lei Zhang",
+     "n": 15
+    },
+    {
+     "id": "A5008517057",
+     "name": "Xiaoli Ding",
+     "n": 13
+    },
+    {
+     "id": "A5009665920",
+     "name": "Yuankun Xu",
+     "n": 13
+    },
+    {
+     "id": "A5055090796",
+     "name": "Jinqi Zhao",
+     "n": 12
+    },
+    {
+     "id": "A5011484422",
+     "name": "Feifei Qu",
+     "n": 11
+    },
+    {
+     "id": "A5009593279",
+     "name": "Hongyu Liang",
+     "n": 10
+    },
+    {
+     "id": "A5037778561",
+     "name": "Wu Zhu",
+     "n": 10
+    },
+    {
+     "id": "A5062668796",
+     "name": "Wei Qu",
+     "n": 10
+    },
+    {
+     "id": "A5108690778",
+     "name": "Chengsheng Yang",
+     "n": 10
+    }
+   ]
   },
   {
    "id": "A5086428184",
@@ -1368,7 +4752,79 @@
    },
    "recent": {
     "photogrammetry": 151
-   }
+   },
+   "collab": [
+    {
+     "id": "A5029035818",
+     "name": "Claudio Persello",
+     "n": 35
+    },
+    {
+     "id": "A5014321482",
+     "name": "Michael Ying Yang",
+     "n": 34
+    },
+    {
+     "id": "A5013633154",
+     "name": "Francesco Nex",
+     "n": 32
+    },
+    {
+     "id": "A5059990087",
+     "name": "Sander Oude Elberink",
+     "n": 30
+    },
+    {
+     "id": "A5046864745",
+     "name": "M. Gerke",
+     "n": 22
+    },
+    {
+     "id": "A5014462963",
+     "name": "Norman Kerle",
+     "n": 19
+    },
+    {
+     "id": "A5078630837",
+     "name": "Caroline Margaux Gevaert",
+     "n": 18
+    },
+    {
+     "id": "A5150706423",
+     "name": "W. Jiao MSc",
+     "n": 12
+    },
+    {
+     "id": "A5035397566",
+     "name": "Richard Sliuzas",
+     "n": 11
+    },
+    {
+     "id": "A5150631988",
+     "name": "Hao Cheng",
+     "n": 10
+    },
+    {
+     "id": "A5025807163",
+     "name": "Ville Lehtola",
+     "n": 9
+    },
+    {
+     "id": "A5054712222",
+     "name": "Sophie Crommelinck",
+     "n": 9
+    },
+    {
+     "id": "A5008229163",
+     "name": "Michael Peter",
+     "n": 8
+    },
+    {
+     "id": "A5001059507",
+     "name": "Mila Koeva",
+     "n": 7
+    }
+   ]
   },
   {
    "id": "A5043014786",
@@ -1394,7 +4850,79 @@
    },
    "recent": {
     "lidar": 259
-   }
+   },
+   "collab": [
+    {
+     "id": "A5033042071",
+     "name": "Juha M. Hyyppa",
+     "n": 134
+    },
+    {
+     "id": "A5045584015",
+     "name": "Antero Kukko",
+     "n": 116
+    },
+    {
+     "id": "A5018804090",
+     "name": "Xiaowei Yu",
+     "n": 37
+    },
+    {
+     "id": "A5011450440",
+     "name": "Teemu Hakala",
+     "n": 35
+    },
+    {
+     "id": "A5061693398",
+     "name": "Matti Lehtomäki",
+     "n": 34
+    },
+    {
+     "id": "A5061837252",
+     "name": "Markus Holopainen",
+     "n": 29
+    },
+    {
+     "id": "A5020136472",
+     "name": "Hannu Hyyppä",
+     "n": 28
+    },
+    {
+     "id": "A5047838080",
+     "name": "Mikko Vastaranta",
+     "n": 28
+    },
+    {
+     "id": "A5070189190",
+     "name": "Xinlian Liang",
+     "n": 28
+    },
+    {
+     "id": "A5009027520",
+     "name": "Eric Hyyppä",
+     "n": 26
+    },
+    {
+     "id": "A5079762209",
+     "name": "Josef Taher",
+     "n": 26
+    },
+    {
+     "id": "A5060546924",
+     "name": "Anttoni Jaakkola",
+     "n": 25
+    },
+    {
+     "id": "A5084116684",
+     "name": "Heikki Hyyti",
+     "n": 24
+    },
+    {
+     "id": "A5030143006",
+     "name": "Juho‐Pekka Virtanen",
+     "n": 23
+    }
+   ]
   },
   {
    "id": "A5043626547",
@@ -1420,7 +4948,79 @@
    },
    "recent": {
     "geodesy": 141
-   }
+   },
+   "collab": [
+    {
+     "id": "A5087279614",
+     "name": "Peter Steigenberger",
+     "n": 71
+    },
+    {
+     "id": "A5024488095",
+     "name": "André Hauschild",
+     "n": 26
+    },
+    {
+     "id": "A5087026613",
+     "name": "Steffen Thoelert",
+     "n": 23
+    },
+    {
+     "id": "A5044034970",
+     "name": "Markus Markgraf",
+     "n": 10
+    },
+    {
+     "id": "A5060862931",
+     "name": "Stefan Hackel",
+     "n": 10
+    },
+    {
+     "id": "A5013044483",
+     "name": "Florian Kunzi",
+     "n": 9
+    },
+    {
+     "id": "A5027373059",
+     "name": "Urs Hugentobler",
+     "n": 9
+    },
+    {
+     "id": "A5072456620",
+     "name": "Adrian Jäggi",
+     "n": 9
+    },
+    {
+     "id": "A5019549039",
+     "name": "Daniel Arnold",
+     "n": 8
+    },
+    {
+     "id": "A5082833096",
+     "name": "Richard B. Langley",
+     "n": 8
+    },
+    {
+     "id": "A5000134861",
+     "name": "Bingbing Duan",
+     "n": 7
+    },
+    {
+     "id": "A5067107863",
+     "name": "Gerardo Allende-Alba",
+     "n": 7
+    },
+    {
+     "id": "A5012265681",
+     "name": "Rolf Dach",
+     "n": 6
+    },
+    {
+     "id": "A5038130359",
+     "name": "Franz Zangerl",
+     "n": 6
+    }
+   ]
   },
   {
    "id": "A5081275712",
@@ -1449,7 +5049,79 @@
    "recent": {
     "photogrammetry": 258,
     "lidar": 345
-   }
+   },
+   "collab": [
+    {
+     "id": "A5024904329",
+     "name": "Markus Hollaus",
+     "n": 61
+    },
+    {
+     "id": "A5017645389",
+     "name": "Camillo Ressl",
+     "n": 39
+    },
+    {
+     "id": "A5058420677",
+     "name": "Gottfried Mandlburger",
+     "n": 27
+    },
+    {
+     "id": "A5000789500",
+     "name": "Wilfried Karel",
+     "n": 20
+    },
+    {
+     "id": "A5006891946",
+     "name": "Livia Piermattei",
+     "n": 19
+    },
+    {
+     "id": "A5028336106",
+     "name": "Martin Wieser",
+     "n": 15
+    },
+    {
+     "id": "A5046424341",
+     "name": "Johannes Otepka",
+     "n": 15
+    },
+    {
+     "id": "A5103186281",
+     "name": "Sebastian Mikolka-Flöry",
+     "n": 15
+    },
+    {
+     "id": "A5036571552",
+     "name": "Milutin Milenković",
+     "n": 13
+    },
+    {
+     "id": "A5049056840",
+     "name": "Michael Becht",
+     "n": 12
+    },
+    {
+     "id": "A5053320484",
+     "name": "Tobias Heckmann",
+     "n": 12
+    },
+    {
+     "id": "A5013645315",
+     "name": "Florian Pöppl",
+     "n": 11
+    },
+    {
+     "id": "A5067742366",
+     "name": "Benjamin Wild",
+     "n": 11
+    },
+    {
+     "id": "A5003870232",
+     "name": "Di Wang",
+     "n": 10
+    }
+   ]
   },
   {
    "id": "A5010235735",
@@ -1468,17 +5140,86 @@
     "Smart Cities and Technologies"
    ],
    "fields": [
-    "city-bim",
-    "geoinformatics"
+    "city-bim"
    ],
    "rank": {
-    "city-bim": 3,
-    "geoinformatics": 7
+    "city-bim": 3
    },
    "recent": {
-    "city-bim": 218,
-    "geoinformatics": 195
-   }
+    "city-bim": 218
+   },
+   "collab": [
+    {
+     "id": "A5012278795",
+     "name": "Jantien Stoter",
+     "n": 37
+    },
+    {
+     "id": "A5041222092",
+     "name": "Xiucheng Liang",
+     "n": 25
+    },
+    {
+     "id": "A5026379314",
+     "name": "Rudi Maria Frans Anne Stouffs",
+     "n": 24
+    },
+    {
+     "id": "A5090158115",
+     "name": "Binyu Lei",
+     "n": 22
+    },
+    {
+     "id": "A5070342940",
+     "name": "Ken Arroyo Ohori",
+     "n": 21
+    },
+    {
+     "id": "A5045303713",
+     "name": "Clayton Miller",
+     "n": 20
+    },
+    {
+     "id": "A5005453560",
+     "name": "Matías Quintana",
+     "n": 17
+    },
+    {
+     "id": "A5004741098",
+     "name": "Francesca Noardo",
+     "n": 16
+    },
+    {
+     "id": "A5007673795",
+     "name": "Thomas Krijnen",
+     "n": 16
+    },
+    {
+     "id": "A5043913530",
+     "name": "Lars Harrie",
+     "n": 16
+    },
+    {
+     "id": "A5047673695",
+     "name": "Hugo Ledoux",
+     "n": 16
+    },
+    {
+     "id": "A5073620727",
+     "name": "Claire Ellul",
+     "n": 16
+    },
+    {
+     "id": "A5100714941",
+     "name": "Pengyuan Liu",
+     "n": 16
+    },
+    {
+     "id": "A5046307675",
+     "name": "Winston Yap",
+     "n": 15
+    }
+   ]
   },
   {
    "id": "A5014145696",
@@ -1504,7 +5245,79 @@
    },
    "recent": {
     "geodesy": 454
-   }
+   },
+   "collab": [
+    {
+     "id": "A5002889950",
+     "name": "Robert Heinkelmann",
+     "n": 137
+    },
+    {
+     "id": "A5061833277",
+     "name": "Maorong Ge",
+     "n": 101
+    },
+    {
+     "id": "A5018273558",
+     "name": "Susanne Glaser",
+     "n": 82
+    },
+    {
+     "id": "A5021158847",
+     "name": "Benjamin Männel",
+     "n": 76
+    },
+    {
+     "id": "A5065758639",
+     "name": "Kyriakos Balidakis",
+     "n": 70
+    },
+    {
+     "id": "A5035533740",
+     "name": "Jens Wickert",
+     "n": 50
+    },
+    {
+     "id": "A5055817452",
+     "name": "Tobias Nilsson",
+     "n": 46
+    },
+    {
+     "id": "A5056037777",
+     "name": "Jungang Wang",
+     "n": 37
+    },
+    {
+     "id": "A5006820358",
+     "name": "Santiago Belda",
+     "n": 34
+    },
+    {
+     "id": "A5067900255",
+     "name": "Mahdi M. Alizadeh",
+     "n": 34
+    },
+    {
+     "id": "A5048235524",
+     "name": "Sadegh Modiri",
+     "n": 32
+    },
+    {
+     "id": "A5079948646",
+     "name": "José Manuel Ferrándiz",
+     "n": 29
+    },
+    {
+     "id": "A5032713126",
+     "name": "María Karbon",
+     "n": 27
+    },
+    {
+     "id": "A5046221138",
+     "name": "Andreas Brack",
+     "n": 27
+    }
+   ]
   },
   {
    "id": "A5061833277",
@@ -1530,7 +5343,177 @@
    },
    "recent": {
     "geodesy": 208
-   }
+   },
+   "collab": [
+    {
+     "id": "A5014145696",
+     "name": "Harald Schuh",
+     "n": 101
+    },
+    {
+     "id": "A5056037777",
+     "name": "Jungang Wang",
+     "n": 35
+    },
+    {
+     "id": "A5035533740",
+     "name": "Jens Wickert",
+     "n": 20
+    },
+    {
+     "id": "A5100455189",
+     "name": "Pan Li",
+     "n": 19
+    },
+    {
+     "id": "A5002889950",
+     "name": "Robert Heinkelmann",
+     "n": 17
+    },
+    {
+     "id": "A5100661809",
+     "name": "Xingxing Li",
+     "n": 15
+    },
+    {
+     "id": "A5021158847",
+     "name": "Benjamin Männel",
+     "n": 13
+    },
+    {
+     "id": "A5065758639",
+     "name": "Kyriakos Balidakis",
+     "n": 13
+    },
+    {
+     "id": "A5011703339",
+     "name": "Xinghan Chen",
+     "n": 11
+    },
+    {
+     "id": "A5011934464",
+     "name": "Frank Neitzel",
+     "n": 11
+    },
+    {
+     "id": "A5035611673",
+     "name": "Bobin Cui",
+     "n": 11
+    },
+    {
+     "id": "A5043672492",
+     "name": "Longjiang Tang",
+     "n": 11
+    },
+    {
+     "id": "A5062353023",
+     "name": "Xinyuan Jiang",
+     "n": 11
+    },
+    {
+     "id": "A5112190765",
+     "name": "Galina Dick",
+     "n": 11
+    }
+   ]
+  },
+  {
+   "id": "A5012637418",
+   "name": "Hossein Azadi",
+   "orcid": "https://orcid.org/0000-0002-5108-1993",
+   "institution": "Ghent University",
+   "country": "BE",
+   "h_index": 54,
+   "cited_by": 11971,
+   "works": 476,
+   "expertise": [
+    "Agricultural Innovations and Practices",
+    "Land Use and Ecosystem Services",
+    "Agriculture, Land Use, Rural Development",
+    "Climate change impacts on agriculture",
+    "Conservation, Biodiversity, and Resource Management"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 7
+   },
+   "recent": {
+    "geoinformatics": 319
+   },
+   "collab": [
+    {
+     "id": "A5090791456",
+     "name": "Frank Witlox",
+     "n": 49
+    },
+    {
+     "id": "A5046611710",
+     "name": "Steven Van Passel",
+     "n": 40
+    },
+    {
+     "id": "A5028972991",
+     "name": "Alishir Kurban",
+     "n": 32
+    },
+    {
+     "id": "A5102717420",
+     "name": "Philippe Lebailly",
+     "n": 32
+    },
+    {
+     "id": "A5073639729",
+     "name": "Petr Sklenička",
+     "n": 31
+    },
+    {
+     "id": "A5005680915",
+     "name": "Fatemeh Taheri",
+     "n": 27
+    },
+    {
+     "id": "A5051704952",
+     "name": "Jürgen Scheffran",
+     "n": 26
+    },
+    {
+     "id": "A5080140092",
+     "name": "Ants‐Hannes Viira",
+     "n": 26
+    },
+    {
+     "id": "A5018770563",
+     "name": "Saghi Movahhed Moghaddam",
+     "n": 21
+    },
+    {
+     "id": "A5073112729",
+     "name": "Kristina Janečková",
+     "n": 21
+    },
+    {
+     "id": "A5076087193",
+     "name": "Imaneh Goli",
+     "n": 21
+    },
+    {
+     "id": "A5074704557",
+     "name": "Rando Värnik",
+     "n": 18
+    },
+    {
+     "id": "A5044386556",
+     "name": "Shahla Choobchian",
+     "n": 17
+    },
+    {
+     "id": "A5087270608",
+     "name": "Anwar Eziz",
+     "n": 16
+    }
+   ]
   },
   {
    "id": "A5029039359",
@@ -1556,7 +5539,79 @@
    },
    "recent": {
     "sar": 252
-   }
+   },
+   "collab": [
+    {
+     "id": "A5071442799",
+     "name": "Jun Hu",
+     "n": 54
+    },
+    {
+     "id": "A5017058983",
+     "name": "Jianjun Zhu",
+     "n": 52
+    },
+    {
+     "id": "A5059188698",
+     "name": "Guangcai Feng",
+     "n": 42
+    },
+    {
+     "id": "A5019950421",
+     "name": "Bing Xu",
+     "n": 24
+    },
+    {
+     "id": "A5061008079",
+     "name": "Jihong Liu",
+     "n": 22
+    },
+    {
+     "id": "A5090637514",
+     "name": "Lixin Wu",
+     "n": 18
+    },
+    {
+     "id": "A5088356096",
+     "name": "Wenbin Xu",
+     "n": 16
+    },
+    {
+     "id": "A5074072878",
+     "name": "Zefa Yang",
+     "n": 15
+    },
+    {
+     "id": "A5065299099",
+     "name": "Yunmeng Cao",
+     "n": 14
+    },
+    {
+     "id": "A5101500434",
+     "name": "Qian Sun",
+     "n": 14
+    },
+    {
+     "id": "A5008517057",
+     "name": "Xiaoli Ding",
+     "n": 12
+    },
+    {
+     "id": "A5030026085",
+     "name": "Meng Duan",
+     "n": 11
+    },
+    {
+     "id": "A5100743178",
+     "name": "Jia Li",
+     "n": 11
+    },
+    {
+     "id": "A5029527420",
+     "name": "Haiqiang Fu",
+     "n": 10
+    }
+   ]
   },
   {
    "id": "A5045584015",
@@ -1582,7 +5637,79 @@
    },
    "recent": {
     "lidar": 290
-   }
+   },
+   "collab": [
+    {
+     "id": "A5033042071",
+     "name": "Juha M. Hyyppa",
+     "n": 134
+    },
+    {
+     "id": "A5043014786",
+     "name": "Harri Kaartinen",
+     "n": 116
+    },
+    {
+     "id": "A5011450440",
+     "name": "Teemu Hakala",
+     "n": 36
+    },
+    {
+     "id": "A5061693398",
+     "name": "Matti Lehtomäki",
+     "n": 35
+    },
+    {
+     "id": "A5018804090",
+     "name": "Xiaowei Yu",
+     "n": 34
+    },
+    {
+     "id": "A5030143006",
+     "name": "Juho‐Pekka Virtanen",
+     "n": 31
+    },
+    {
+     "id": "A5060546924",
+     "name": "Anttoni Jaakkola",
+     "n": 29
+    },
+    {
+     "id": "A5020136472",
+     "name": "Hannu Hyyppä",
+     "n": 28
+    },
+    {
+     "id": "A5061837252",
+     "name": "Markus Holopainen",
+     "n": 28
+    },
+    {
+     "id": "A5047838080",
+     "name": "Mikko Vastaranta",
+     "n": 27
+    },
+    {
+     "id": "A5070189190",
+     "name": "Xinlian Liang",
+     "n": 27
+    },
+    {
+     "id": "A5023732621",
+     "name": "Matti Tapio Vaaja",
+     "n": 26
+    },
+    {
+     "id": "A5009027520",
+     "name": "Eric Hyyppä",
+     "n": 25
+    },
+    {
+     "id": "A5079762209",
+     "name": "Josef Taher",
+     "n": 24
+    }
+   ]
   },
   {
    "id": "A5100772177",
@@ -1608,7 +5735,79 @@
    },
    "recent": {
     "lidar": 252
-   }
+   },
+   "collab": [
+    {
+     "id": "A5070096266",
+     "name": "Zhen Dong",
+     "n": 106
+    },
+    {
+     "id": "A5025323734",
+     "name": "Fuxun Liang",
+     "n": 53
+    },
+    {
+     "id": "A5034194344",
+     "name": "Yuan Liu",
+     "n": 21
+    },
+    {
+     "id": "A5084233647",
+     "name": "Xiaoxin Mi",
+     "n": 20
+    },
+    {
+     "id": "A5035592893",
+     "name": "Weitong Wu",
+     "n": 19
+    },
+    {
+     "id": "A5007334941",
+     "name": "Ronggang Huang",
+     "n": 15
+    },
+    {
+     "id": "A5103170396",
+     "name": "Shangzhe Sun",
+     "n": 15
+    },
+    {
+     "id": "A5093307372",
+     "name": "Liuchun Li",
+     "n": 14
+    },
+    {
+     "id": "A5077549923",
+     "name": "Chi Chen",
+     "n": 12
+    },
+    {
+     "id": "A5113960734",
+     "name": "Wenxia Dai",
+     "n": 12
+    },
+    {
+     "id": "A5002619272",
+     "name": "Yangzi Cong",
+     "n": 11
+    },
+    {
+     "id": "A5047059705",
+     "name": "Zhiye Wang",
+     "n": 10
+    },
+    {
+     "id": "A5100672256",
+     "name": "Haiping Wang",
+     "n": 10
+    },
+    {
+     "id": "A5053039486",
+     "name": "Xianghong Zou",
+     "n": 9
+    }
+   ]
   },
   {
    "id": "A5075301188",
@@ -1634,7 +5833,79 @@
    },
    "recent": {
     "city-bim": 144
-   }
+   },
+   "collab": [
+    {
+     "id": "A5075661874",
+     "name": "Mohsen Kalantari",
+     "n": 76
+    },
+    {
+     "id": "A5074838698",
+     "name": "Behnam Atazadeh",
+     "n": 66
+    },
+    {
+     "id": "A5051966829",
+     "name": "Davood Shojaei",
+     "n": 36
+    },
+    {
+     "id": "A5100674347",
+     "name": "Yiqun Chen",
+     "n": 33
+    },
+    {
+     "id": "A5084711804",
+     "name": "Soheil Sabri",
+     "n": 32
+    },
+    {
+     "id": "A5084255329",
+     "name": "Jagannath Aryal",
+     "n": 21
+    },
+    {
+     "id": "A5041881618",
+     "name": "Hamed Olfat",
+     "n": 20
+    },
+    {
+     "id": "A5014354122",
+     "name": "Milad Haghani",
+     "n": 14
+    },
+    {
+     "id": "A5021264543",
+     "name": "Majid Sarvi",
+     "n": 13
+    },
+    {
+     "id": "A5044410813",
+     "name": "Russell George Thompson",
+     "n": 12
+    },
+    {
+     "id": "A5021492812",
+     "name": "Serene Ho",
+     "n": 10
+    },
+    {
+     "id": "A5007445923",
+     "name": "Bipul Neupane",
+     "n": 9
+    },
+    {
+     "id": "A5069592557",
+     "name": "Peyman Jafary",
+     "n": 9
+    },
+    {
+     "id": "A5077132751",
+     "name": "Sara Moridpour",
+     "n": 9
+    }
+   ]
   },
   {
    "id": "A5053008757",
@@ -1660,7 +5931,79 @@
    },
    "recent": {
     "photogrammetry": 180
-   }
+   },
+   "collab": [
+    {
+     "id": "A5040430485",
+     "name": "Ludwig Hoegner",
+     "n": 62
+    },
+    {
+     "id": "A5100419175",
+     "name": "Yusheng Xu",
+     "n": 52
+    },
+    {
+     "id": "A5030255169",
+     "name": "Marcus Hebel",
+     "n": 20
+    },
+    {
+     "id": "A5067646077",
+     "name": "Sebastian Tuttas",
+     "n": 19
+    },
+    {
+     "id": "A5100647649",
+     "name": "Wei Yao",
+     "n": 19
+    },
+    {
+     "id": "A5000041406",
+     "name": "Michael Arens",
+     "n": 15
+    },
+    {
+     "id": "A5032140742",
+     "name": "Rong Huang",
+     "n": 14
+    },
+    {
+     "id": "A5039348214",
+     "name": "Xiaohua Tong",
+     "n": 10
+    },
+    {
+     "id": "A5065349541",
+     "name": "Richard Boerner",
+     "n": 10
+    },
+    {
+     "id": "A5071722566",
+     "name": "Olaf Wysocki",
+     "n": 10
+    },
+    {
+     "id": "A5022977818",
+     "name": "Eckart Michaelsen",
+     "n": 9
+    },
+    {
+     "id": "A5025703498",
+     "name": "Joachim Gehrung",
+     "n": 9
+    },
+    {
+     "id": "A5008602593",
+     "name": "Björn Borgmann",
+     "n": 7
+    },
+    {
+     "id": "A5026782796",
+     "name": "Franz Quint",
+     "n": 7
+    }
+   ]
   },
   {
    "id": "A5100660972",
@@ -1686,33 +6029,79 @@
    },
    "recent": {
     "sar": 271
-   }
-  },
-  {
-   "id": "A5091474205",
-   "name": "Alexander Zipf",
-   "orcid": "https://orcid.org/0000-0003-4916-9838",
-   "institution": "Heidelberg University",
-   "country": "DE",
-   "h_index": 51,
-   "cited_by": 11660,
-   "works": 385,
-   "expertise": [
-    "Geographic Information Systems Studies",
-    "3D Modeling in Geospatial Applications",
-    "Automated Road and Building Extraction",
-    "Human Mobility and Location-Based Analysis",
-    "Data Management and Algorithms"
-   ],
-   "fields": [
-    "geoinformatics"
-   ],
-   "rank": {
-    "geoinformatics": 9
    },
-   "recent": {
-    "geoinformatics": 188
-   }
+   "collab": [
+    {
+     "id": "A5027924825",
+     "name": "Yulin Huang",
+     "n": 319
+    },
+    {
+     "id": "A5030746978",
+     "name": "Junjie Wu",
+     "n": 307
+    },
+    {
+     "id": "A5100343725",
+     "name": "Yin Zhang",
+     "n": 195
+    },
+    {
+     "id": "A5100735598",
+     "name": "Zhongyu Li",
+     "n": 175
+    },
+    {
+     "id": "A5100736674",
+     "name": "Yongchao Zhang",
+     "n": 121
+    },
+    {
+     "id": "A5027281041",
+     "name": "Deqing Mao",
+     "n": 98
+    },
+    {
+     "id": "A5013688635",
+     "name": "Jifang Pei",
+     "n": 95
+    },
+    {
+     "id": "A5100555952",
+     "name": "Haiguang Yang",
+     "n": 78
+    },
+    {
+     "id": "A5034477287",
+     "name": "Zhichao Sun",
+     "n": 70
+    },
+    {
+     "id": "A5082373387",
+     "name": "Wenchao Li",
+     "n": 70
+    },
+    {
+     "id": "A5032659310",
+     "name": "Hongyang An",
+     "n": 64
+    },
+    {
+     "id": "A5026843046",
+     "name": "Weibo Huo",
+     "n": 63
+    },
+    {
+     "id": "A5100782023",
+     "name": "Wei Pu",
+     "n": 50
+    },
+    {
+     "id": "A5016297588",
+     "name": "Qing Hui Yang",
+     "n": 31
+    }
+   ]
   },
   {
    "id": "A5086407273",
@@ -1738,7 +6127,79 @@
    },
    "recent": {
     "photogrammetry": 139
-   }
+   },
+   "collab": [
+    {
+     "id": "A5041043667",
+     "name": "Miguel Ángel Maté‐González",
+     "n": 61
+    },
+    {
+     "id": "A5025469590",
+     "name": "Cristina Sáez Blázquez",
+     "n": 54
+    },
+    {
+     "id": "A5088067587",
+     "name": "Pablo Rodríguez‐Gonzálvez",
+     "n": 50
+    },
+    {
+     "id": "A5079367441",
+     "name": "Luis Javier Sánchez-Aparicio",
+     "n": 43
+    },
+    {
+     "id": "A5060028608",
+     "name": "Ignacio Martín Nieto",
+     "n": 41
+    },
+    {
+     "id": "A5011690768",
+     "name": "José Yravedra",
+     "n": 38
+    },
+    {
+     "id": "A5030432306",
+     "name": "Lloyd A. Courtenay",
+     "n": 37
+    },
+    {
+     "id": "A5054952360",
+     "name": "David Hernández‐López",
+     "n": 37
+    },
+    {
+     "id": "A5059839733",
+     "name": "Arturo Farfán Martín",
+     "n": 37
+    },
+    {
+     "id": "A5057882277",
+     "name": "Susana Del Pozo",
+     "n": 30
+    },
+    {
+     "id": "A5082578952",
+     "name": "Julia Aramendi",
+     "n": 26
+    },
+    {
+     "id": "A5091178677",
+     "name": "S. Lagüela",
+     "n": 22
+    },
+    {
+     "id": "A5088875746",
+     "name": "Pedro Carrasco García",
+     "n": 19
+    },
+    {
+     "id": "A5036783840",
+     "name": "Manuel Rodríguez‐Martín",
+     "n": 17
+    }
+   ]
   },
   {
    "id": "A5004682321",
@@ -1764,7 +6225,79 @@
    },
    "recent": {
     "lidar": 279
-   }
+   },
+   "collab": [
+    {
+     "id": "A5084516273",
+     "name": "Hans Verbeeck",
+     "n": 80
+    },
+    {
+     "id": "A5044033108",
+     "name": "Mathias I. Disney",
+     "n": 75
+    },
+    {
+     "id": "A5002444514",
+     "name": "Louise Terryn",
+     "n": 49
+    },
+    {
+     "id": "A5064434837",
+     "name": "Niall Origo",
+     "n": 44
+    },
+    {
+     "id": "A5060327845",
+     "name": "Andrew Burt",
+     "n": 33
+    },
+    {
+     "id": "A5000715083",
+     "name": "Pieter De Frenne",
+     "n": 30
+    },
+    {
+     "id": "A5059612864",
+     "name": "Pasi Raumonen",
+     "n": 28
+    },
+    {
+     "id": "A5086582240",
+     "name": "Joanne M. Nightingale",
+     "n": 28
+    },
+    {
+     "id": "A5005897108",
+     "name": "John David Armston",
+     "n": 25
+    },
+    {
+     "id": "A5077589198",
+     "name": "Phil Wilkes",
+     "n": 24
+    },
+    {
+     "id": "A5020876339",
+     "name": "Sruthi M. Krishna Moorthy",
+     "n": 23
+    },
+    {
+     "id": "A5025403876",
+     "name": "Kris Verheyen",
+     "n": 22
+    },
+    {
+     "id": "A5029433840",
+     "name": "Harm M. Bartholomeus",
+     "n": 22
+    },
+    {
+     "id": "A5084380857",
+     "name": "Félicien Meunier",
+     "n": 21
+    }
+   ]
   },
   {
    "id": "A5065119769",
@@ -1790,7 +6323,79 @@
    },
    "recent": {
     "city-bim": 79
-   }
+   },
+   "collab": [
+    {
+     "id": "A5018983498",
+     "name": "Sara Shirowzhan",
+     "n": 74
+    },
+    {
+     "id": "A5049348625",
+     "name": "Faham Tahmasebinia",
+     "n": 33
+    },
+    {
+     "id": "A5083637324",
+     "name": "Fahim Ullah",
+     "n": 15
+    },
+    {
+     "id": "A5030590704",
+     "name": "Juan Sebastian Garzon Romero",
+     "n": 13
+    },
+    {
+     "id": "A5068641652",
+     "name": "Fernando Alonso-Marroquín",
+     "n": 11
+    },
+    {
+     "id": "A5075348477",
+     "name": "Steven Davis",
+     "n": 11
+    },
+    {
+     "id": "A5100338802",
+     "name": "Heng Li",
+     "n": 11
+    },
+    {
+     "id": "A5019433999",
+     "name": "Cynthia Wang",
+     "n": 10
+    },
+    {
+     "id": "A5135428919",
+     "name": "Kai Smith",
+     "n": 10
+    },
+    {
+     "id": "A5019599231",
+     "name": "Chang Liu",
+     "n": 8
+    },
+    {
+     "id": "A5029144226",
+     "name": "Michael J. Ostwald",
+     "n": 7
+    },
+    {
+     "id": "A5045344228",
+     "name": "Fathima Nishara Abdeen",
+     "n": 7
+    },
+    {
+     "id": "A5079435025",
+     "name": "Martin Loosemore",
+     "n": 7
+    },
+    {
+     "id": "A5091021468",
+     "name": "Reyhaneh Karimi",
+     "n": 7
+    }
+   ]
   },
   {
    "id": "A5100329153",
@@ -1816,7 +6421,79 @@
    },
    "recent": {
     "geodesy": 184
-   }
+   },
+   "collab": [
+    {
+     "id": "A5074114111",
+     "name": "Duojie Weng",
+     "n": 56
+    },
+    {
+     "id": "A5101775928",
+     "name": "Shengyue Ji",
+     "n": 27
+    },
+    {
+     "id": "A5100378845",
+     "name": "Yaxin Li",
+     "n": 24
+    },
+    {
+     "id": "A5025470306",
+     "name": "Xiaolong Mi",
+     "n": 21
+    },
+    {
+     "id": "A5101929678",
+     "name": "Jingxian Wang",
+     "n": 19
+    },
+    {
+     "id": "A5100445951",
+     "name": "Tong Zhu",
+     "n": 15
+    },
+    {
+     "id": "A5016452715",
+     "name": "Yiqun Han",
+     "n": 14
+    },
+    {
+     "id": "A5042726689",
+     "name": "Zhenjie Wang",
+     "n": 14
+    },
+    {
+     "id": "A5100735670",
+     "name": "Long Tang",
+     "n": 14
+    },
+    {
+     "id": "A5069565271",
+     "name": "Shengjun Tang",
+     "n": 12
+    },
+    {
+     "id": "A5009345143",
+     "name": "Walid Darwish",
+     "n": 11
+    },
+    {
+     "id": "A5052385763",
+     "name": "Junsheng Ding",
+     "n": 11
+    },
+    {
+     "id": "A5101489483",
+     "name": "Yang Yang",
+     "n": 11
+    },
+    {
+     "id": "A5032472429",
+     "name": "Xinghua Qiu",
+     "n": 10
+    }
+   ]
   },
   {
    "id": "A5047838080",
@@ -1842,7 +6519,79 @@
    },
    "recent": {
     "lidar": 292
-   }
+   },
+   "collab": [
+    {
+     "id": "A5033042071",
+     "name": "Juha M. Hyyppa",
+     "n": 92
+    },
+    {
+     "id": "A5078441718",
+     "name": "Ninni Saarinen",
+     "n": 75
+    },
+    {
+     "id": "A5012127436",
+     "name": "Tuomas Yrttimaa",
+     "n": 71
+    },
+    {
+     "id": "A5061837252",
+     "name": "Markus Holopainen",
+     "n": 69
+    },
+    {
+     "id": "A5011830111",
+     "name": "Ville Kankare",
+     "n": 64
+    },
+    {
+     "id": "A5054741445",
+     "name": "Samuli Junttila",
+     "n": 43
+    },
+    {
+     "id": "A5038657612",
+     "name": "Ville Luoma",
+     "n": 37
+    },
+    {
+     "id": "A5043014786",
+     "name": "Harri Kaartinen",
+     "n": 28
+    },
+    {
+     "id": "A5045584015",
+     "name": "Antero Kukko",
+     "n": 27
+    },
+    {
+     "id": "A5070189190",
+     "name": "Xinlian Liang",
+     "n": 24
+    },
+    {
+     "id": "A5010833142",
+     "name": "Eija Honkavaara",
+     "n": 21
+    },
+    {
+     "id": "A5089640099",
+     "name": "Jiri Pyörälä",
+     "n": 21
+    },
+    {
+     "id": "A5018804090",
+     "name": "Xiaowei Yu",
+     "n": 20
+    },
+    {
+     "id": "A5051219165",
+     "name": "Michael A. Wulder",
+     "n": 15
+    }
+   ]
   },
   {
    "id": "A5101705110",
@@ -1868,7 +6617,79 @@
    },
    "recent": {
     "geodesy": 147
-   }
+   },
+   "collab": [
+    {
+     "id": "A5055241681",
+     "name": "Qile Zhao",
+     "n": 35
+    },
+    {
+     "id": "A5005541527",
+     "name": "Xiaoji Niu",
+     "n": 26
+    },
+    {
+     "id": "A5028269176",
+     "name": "Rongxin Fang",
+     "n": 16
+    },
+    {
+     "id": "A5011391442",
+     "name": "Tisheng Zhang",
+     "n": 13
+    },
+    {
+     "id": "A5029114145",
+     "name": "Yuanming Shu",
+     "n": 12
+    },
+    {
+     "id": "A5037884145",
+     "name": "Tao Geng",
+     "n": 12
+    },
+    {
+     "id": "A5078410835",
+     "name": "Jianghui Geng",
+     "n": 12
+    },
+    {
+     "id": "A5100709710",
+     "name": "Chuang Shi",
+     "n": 12
+    },
+    {
+     "id": "A5006421210",
+     "name": "Wenfei Guo",
+     "n": 11
+    },
+    {
+     "id": "A5045616921",
+     "name": "Yidong Lou",
+     "n": 11
+    },
+    {
+     "id": "A5055049427",
+     "name": "Jinguang Jiang",
+     "n": 11
+    },
+    {
+     "id": "A5042746887",
+     "name": "Xin Yu Xie",
+     "n": 10
+    },
+    {
+     "id": "A5072031132",
+     "name": "Chi Guo",
+     "n": 10
+    },
+    {
+     "id": "A5083821023",
+     "name": "Peiliang Xu",
+     "n": 10
+    }
+   ]
   },
   {
    "id": "A5012278795",
@@ -1894,7 +6715,79 @@
    },
    "recent": {
     "city-bim": 256
-   }
+   },
+   "collab": [
+    {
+     "id": "A5070342940",
+     "name": "Ken Arroyo Ohori",
+     "n": 60
+    },
+    {
+     "id": "A5047673695",
+     "name": "Hugo Ledoux",
+     "n": 50
+    },
+    {
+     "id": "A5010235735",
+     "name": "Filip Biljecki",
+     "n": 37
+    },
+    {
+     "id": "A5004741098",
+     "name": "Francesca Noardo",
+     "n": 31
+    },
+    {
+     "id": "A5073620727",
+     "name": "Claire Ellul",
+     "n": 26
+    },
+    {
+     "id": "A5007673795",
+     "name": "Thomas Krijnen",
+     "n": 25
+    },
+    {
+     "id": "A5027616562",
+     "name": "Liangliang Nan",
+     "n": 23
+    },
+    {
+     "id": "A5043913530",
+     "name": "Lars Harrie",
+     "n": 22
+    },
+    {
+     "id": "A5000298644",
+     "name": "Giorgio Agugiaro",
+     "n": 18
+    },
+    {
+     "id": "A5016572093",
+     "name": "Kavisha Kumar",
+     "n": 16
+    },
+    {
+     "id": "A5053347927",
+     "name": "Ravi Peters",
+     "n": 15
+    },
+    {
+     "id": "A5068427631",
+     "name": "Stelios Vitalis",
+     "n": 15
+    },
+    {
+     "id": "A5026844810",
+     "name": "Anna Labetski",
+     "n": 14
+    },
+    {
+     "id": "A5070887627",
+     "name": "Balázs Dukai",
+     "n": 14
+    }
+   ]
   },
   {
    "id": "A5100330113",
@@ -1920,7 +6813,79 @@
    },
    "recent": {
     "geodesy": 161
-   }
+   },
+   "collab": [
+    {
+     "id": "A5002550938",
+     "name": "Xiaodong Ren",
+     "n": 50
+    },
+    {
+     "id": "A5100334114",
+     "name": "Fei Guo",
+     "n": 27
+    },
+    {
+     "id": "A5100661809",
+     "name": "Xingxing Li",
+     "n": 27
+    },
+    {
+     "id": "A5017475936",
+     "name": "Feng Zhu",
+     "n": 24
+    },
+    {
+     "id": "A5053240621",
+     "name": "Wanke Liu",
+     "n": 24
+    },
+    {
+     "id": "A5015764816",
+     "name": "Dengkui Mei",
+     "n": 19
+    },
+    {
+     "id": "A5015880880",
+     "name": "Mohamed Freeshah",
+     "n": 16
+    },
+    {
+     "id": "A5100338949",
+     "name": "Hang Liu",
+     "n": 16
+    },
+    {
+     "id": "A5026005771",
+     "name": "Lin Pan",
+     "n": 14
+    },
+    {
+     "id": "A5084881697",
+     "name": "Cuixian Lu",
+     "n": 12
+    },
+    {
+     "id": "A5100455189",
+     "name": "Pan Li",
+     "n": 12
+    },
+    {
+     "id": "A5014145696",
+     "name": "Harald Schuh",
+     "n": 11
+    },
+    {
+     "id": "A5062641275",
+     "name": "Xuan Le",
+     "n": 11
+    },
+    {
+     "id": "A5100443058",
+     "name": "Zhiyu Zhang",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5014080291",
@@ -1946,13 +6911,85 @@
    "rank": {
     "photogrammetry": 14,
     "city-bim": 1,
-    "geoinformatics": 6
+    "geoinformatics": 5
    },
    "recent": {
     "photogrammetry": 166,
     "city-bim": 281,
-    "geoinformatics": 291
-   }
+    "geoinformatics": 465
+   },
+   "collab": [
+    {
+     "id": "A5052758089",
+     "name": "Abdoulaye Diakité",
+     "n": 40
+    },
+    {
+     "id": "A5038248833",
+     "name": "Mitko Aleksandrov",
+     "n": 31
+    },
+    {
+     "id": "A5066041550",
+     "name": "Jinjin Yan",
+     "n": 28
+    },
+    {
+     "id": "A5109972324",
+     "name": "Peter J. M. van Oosterom",
+     "n": 21
+    },
+    {
+     "id": "A5038617326",
+     "name": "G. Sithole",
+     "n": 14
+    },
+    {
+     "id": "A5078630459",
+     "name": "Ben G. H. Gorte",
+     "n": 14
+    },
+    {
+     "id": "A5051271836",
+     "name": "Volker Coors",
+     "n": 13
+    },
+    {
+     "id": "A5056867139",
+     "name": "J. Barton",
+     "n": 12
+    },
+    {
+     "id": "A5006746248",
+     "name": "Robert Laurini",
+     "n": 11
+    },
+    {
+     "id": "A5031875443",
+     "name": "E. Verbree",
+     "n": 11
+    },
+    {
+     "id": "A5071786685",
+     "name": "Massimo Rumor",
+     "n": 11
+    },
+    {
+     "id": "A5073620727",
+     "name": "Claire Ellul",
+     "n": 11
+    },
+    {
+     "id": "A5100324261",
+     "name": "Liu Liu",
+     "n": 11
+    },
+    {
+     "id": "A5108708396",
+     "name": "Abdullah Alattas",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5084320319",
@@ -1978,7 +7015,79 @@
    },
    "recent": {
     "sar": 319
-   }
+   },
+   "collab": [
+    {
+     "id": "A5042549461",
+     "name": "Mahmud Haghshenas Haghighi",
+     "n": 77
+    },
+    {
+     "id": "A5089766675",
+     "name": "Sigrid Roessner",
+     "n": 28
+    },
+    {
+     "id": "A5009590516",
+     "name": "Zhuge Xia",
+     "n": 20
+    },
+    {
+     "id": "A5012755722",
+     "name": "Magdalena Stefanova Vassileva",
+     "n": 20
+    },
+    {
+     "id": "A5086419238",
+     "name": "Shagun Garg",
+     "n": 20
+    },
+    {
+     "id": "A5084104212",
+     "name": "Thomas R. Walter",
+     "n": 19
+    },
+    {
+     "id": "A5042203025",
+     "name": "Sanaz Vajedian",
+     "n": 13
+    },
+    {
+     "id": "A5057817303",
+     "name": "Wandi Wang",
+     "n": 13
+    },
+    {
+     "id": "A5055328435",
+     "name": "Hans‐Ulrich Wetzel",
+     "n": 12
+    },
+    {
+     "id": "A5060288545",
+     "name": "Tao Li",
+     "n": 12
+    },
+    {
+     "id": "A5066549347",
+     "name": "Sandro Martinis",
+     "n": 12
+    },
+    {
+     "id": "A5075957729",
+     "name": "Chao Zhou",
+     "n": 12
+    },
+    {
+     "id": "A5085272055",
+     "name": "Mimi Peng",
+     "n": 12
+    },
+    {
+     "id": "A5031879118",
+     "name": "Bahman Akbari",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5072456620",
@@ -2004,7 +7113,79 @@
    },
    "recent": {
     "geodesy": 207
-   }
+   },
+   "collab": [
+    {
+     "id": "A5019549039",
+     "name": "Daniel Arnold",
+     "n": 125
+    },
+    {
+     "id": "A5012265681",
+     "name": "Rolf Dach",
+     "n": 87
+    },
+    {
+     "id": "A5051337374",
+     "name": "Daniel Arnold",
+     "n": 52
+    },
+    {
+     "id": "A5001000638",
+     "name": "Martin Lasser",
+     "n": 44
+    },
+    {
+     "id": "A5087463864",
+     "name": "Arturo Villiger",
+     "n": 43
+    },
+    {
+     "id": "A5057046154",
+     "name": "Torsten Mayer‐Gürr",
+     "n": 39
+    },
+    {
+     "id": "A5068568420",
+     "name": "Lars Prange",
+     "n": 37
+    },
+    {
+     "id": "A5056362322",
+     "name": "Christoph Dahle",
+     "n": 34
+    },
+    {
+     "id": "A5016097845",
+     "name": "Andreas Kvas",
+     "n": 24
+    },
+    {
+     "id": "A5032359604",
+     "name": "Stefan Schaer",
+     "n": 24
+    },
+    {
+     "id": "A5041986536",
+     "name": "Gerhard Beutler",
+     "n": 24
+    },
+    {
+     "id": "A5052324851",
+     "name": "S. Bertone",
+     "n": 24
+    },
+    {
+     "id": "A5055469319",
+     "name": "Krzysztof Sośnica",
+     "n": 24
+    },
+    {
+     "id": "A5056115888",
+     "name": "Frank Flechtner",
+     "n": 23
+    }
+   ]
   },
   {
    "id": "A5010833142",
@@ -2030,7 +7211,79 @@
    },
    "recent": {
     "photogrammetry": 203
-   }
+   },
+   "collab": [
+    {
+     "id": "A5018473742",
+     "name": "Roope Näsi",
+     "n": 60
+    },
+    {
+     "id": "A5011450440",
+     "name": "Teemu Hakala",
+     "n": 53
+    },
+    {
+     "id": "A5062318076",
+     "name": "Raquel Alves de Oliveira",
+     "n": 43
+    },
+    {
+     "id": "A5033610179",
+     "name": "Antônio Maria Garcia Tommaselli",
+     "n": 42
+    },
+    {
+     "id": "A5037907825",
+     "name": "Niko Koivumäki",
+     "n": 39
+    },
+    {
+     "id": "A5112259914",
+     "name": "Niko Viljanen",
+     "n": 33
+    },
+    {
+     "id": "A5052882148",
+     "name": "Nilton Nobuhiro Imai",
+     "n": 25
+    },
+    {
+     "id": "A5014491014",
+     "name": "Juha M. Suomalainen",
+     "n": 22
+    },
+    {
+     "id": "A5086480276",
+     "name": "Lauri Markelin",
+     "n": 22
+    },
+    {
+     "id": "A5013773185",
+     "name": "Ilkka Pölönen",
+     "n": 21
+    },
+    {
+     "id": "A5033042071",
+     "name": "Juha M. Hyyppa",
+     "n": 21
+    },
+    {
+     "id": "A5047838080",
+     "name": "Mikko Vastaranta",
+     "n": 21
+    },
+    {
+     "id": "A5013945451",
+     "name": "Adilson Berveglieri",
+     "n": 18
+    },
+    {
+     "id": "A5045296703",
+     "name": "Jere Kaivosoja",
+     "n": 17
+    }
+   ]
   },
   {
    "id": "A5109972324",
@@ -2056,7 +7309,79 @@
    },
    "recent": {
     "city-bim": 87
-   }
+   },
+   "collab": [
+    {
+     "id": "A5003492819",
+     "name": "C. Lemmen",
+     "n": 54
+    },
+    {
+     "id": "A5010192424",
+     "name": "Martijn Meijers",
+     "n": 34
+    },
+    {
+     "id": "A5061535662",
+     "name": "Eftychia Kalogianni",
+     "n": 33
+    },
+    {
+     "id": "A5002486470",
+     "name": "Abdullah Kara",
+     "n": 30
+    },
+    {
+     "id": "A5073180350",
+     "name": "Efi Dimopoulou",
+     "n": 29
+    },
+    {
+     "id": "A5031875443",
+     "name": "E. Verbree",
+     "n": 27
+    },
+    {
+     "id": "A5111927328",
+     "name": "R. J. Thompson",
+     "n": 23
+    },
+    {
+     "id": "A5014080291",
+     "name": "Sisi Zlatanova",
+     "n": 21
+    },
+    {
+     "id": "A5008945180",
+     "name": "Agung Indrajit",
+     "n": 15
+    },
+    {
+     "id": "A5032313309",
+     "name": "Volkan Çağdaş",
+     "n": 14
+    },
+    {
+     "id": "A5108708396",
+     "name": "Abdullah Alattas",
+     "n": 14
+    },
+    {
+     "id": "A5024423181",
+     "name": "Erik Stubkjær",
+     "n": 12
+    },
+    {
+     "id": "A5112246076",
+     "name": "Hendrik D. Ploeger",
+     "n": 12
+    },
+    {
+     "id": "A5026584377",
+     "name": "Haicheng Liu",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5017058983",
@@ -2082,7 +7407,79 @@
    },
    "recent": {
     "sar": 344
-   }
+   },
+   "collab": [
+    {
+     "id": "A5029527420",
+     "name": "Haiqiang Fu",
+     "n": 111
+    },
+    {
+     "id": "A5029039359",
+     "name": "Zhiwei Li",
+     "n": 52
+    },
+    {
+     "id": "A5078501240",
+     "name": "Changcheng Wang",
+     "n": 45
+    },
+    {
+     "id": "A5082102192",
+     "name": "Qinghua Xie",
+     "n": 44
+    },
+    {
+     "id": "A5071442799",
+     "name": "Jun Hu",
+     "n": 42
+    },
+    {
+     "id": "A5068229249",
+     "name": "Juan Manuel Lopez-Sanchez",
+     "n": 23
+    },
+    {
+     "id": "A5059188698",
+     "name": "Guangcai Feng",
+     "n": 20
+    },
+    {
+     "id": "A5025878407",
+     "name": "Xing Peng",
+     "n": 18
+    },
+    {
+     "id": "A5074072878",
+     "name": "Zefa Yang",
+     "n": 17
+    },
+    {
+     "id": "A5087595508",
+     "name": "Yanzhou Xie",
+     "n": 16
+    },
+    {
+     "id": "A5013069605",
+     "name": "Peng Shen",
+     "n": 13
+    },
+    {
+     "id": "A5014580744",
+     "name": "Cui Zhou",
+     "n": 13
+    },
+    {
+     "id": "A5085897739",
+     "name": "Wentao Han",
+     "n": 12
+    },
+    {
+     "id": "A5093102714",
+     "name": "Huacan Hu",
+     "n": 12
+    }
+   ]
   },
   {
    "id": "A5055241681",
@@ -2108,7 +7505,79 @@
    },
    "recent": {
     "geodesy": 234
-   }
+   },
+   "collab": [
+    {
+     "id": "A5101705110",
+     "name": "Jingnan Liu",
+     "n": 35
+    },
+    {
+     "id": "A5076868082",
+     "name": "Jing Guo",
+     "n": 31
+    },
+    {
+     "id": "A5037884145",
+     "name": "Tao Geng",
+     "n": 28
+    },
+    {
+     "id": "A5042746887",
+     "name": "Xin Yu Xie",
+     "n": 28
+    },
+    {
+     "id": "A5081273726",
+     "name": "Kecai Jiang",
+     "n": 28
+    },
+    {
+     "id": "A5100338178",
+     "name": "Wenwen Li",
+     "n": 28
+    },
+    {
+     "id": "A5079646423",
+     "name": "Min Li",
+     "n": 22
+    },
+    {
+     "id": "A5100640454",
+     "name": "Zhigang Hu",
+     "n": 18
+    },
+    {
+     "id": "A5028269176",
+     "name": "Rongxin Fang",
+     "n": 17
+    },
+    {
+     "id": "A5101585122",
+     "name": "Qiang Zhang",
+     "n": 15
+    },
+    {
+     "id": "A5101659974",
+     "name": "Na Wei",
+     "n": 14
+    },
+    {
+     "id": "A5103168260",
+     "name": "Xiang Guo",
+     "n": 14
+    },
+    {
+     "id": "A5025289069",
+     "name": "Min Li",
+     "n": 13
+    },
+    {
+     "id": "A5104268367",
+     "name": "Yihao Jiang",
+     "n": 12
+    }
+   ]
   },
   {
    "id": "A5013877845",
@@ -2134,7 +7603,79 @@
    },
    "recent": {
     "geodesy": 190
-   }
+   },
+   "collab": [
+    {
+     "id": "A5075167104",
+     "name": "Alberto Garcıa Rigo",
+     "n": 61
+    },
+    {
+     "id": "A5073570252",
+     "name": "Andrzej Krankowski",
+     "n": 34
+    },
+    {
+     "id": "A5012706591",
+     "name": "Enric Monte",
+     "n": 33
+    },
+    {
+     "id": "A5042065508",
+     "name": "Germán Olivares",
+     "n": 30
+    },
+    {
+     "id": "A5100763889",
+     "name": "Heng Yang",
+     "n": 30
+    },
+    {
+     "id": "A5064723557",
+     "name": "David Roma-Dollase",
+     "n": 29
+    },
+    {
+     "id": "A5004881373",
+     "name": "Haixia Lyu",
+     "n": 24
+    },
+    {
+     "id": "A5077415248",
+     "name": "Victoria Graffigna",
+     "n": 24
+    },
+    {
+     "id": "A5027543111",
+     "name": "Fabricio S. Prol",
+     "n": 22
+    },
+    {
+     "id": "A5007297267",
+     "name": "Raül Orús Pérez",
+     "n": 21
+    },
+    {
+     "id": "A5045434933",
+     "name": "Mainul Hoque",
+     "n": 19
+    },
+    {
+     "id": "A5058104485",
+     "name": "Adam Froń",
+     "n": 19
+    },
+    {
+     "id": "A5026743856",
+     "name": "Ivan Galkin",
+     "n": 18
+    },
+    {
+     "id": "A5053102582",
+     "name": "Paweł Wielgosz",
+     "n": 18
+    }
+   ]
   },
   {
    "id": "A5035415910",
@@ -2160,7 +7701,79 @@
    },
    "recent": {
     "geodesy": 151
-   }
+   },
+   "collab": [
+    {
+     "id": "A5010638698",
+     "name": "Suqin Wu",
+     "n": 85
+    },
+    {
+     "id": "A5090158426",
+     "name": "Dongsheng Zhao",
+     "n": 41
+    },
+    {
+     "id": "A5100377908",
+     "name": "Xiaoming Wang",
+     "n": 33
+    },
+    {
+     "id": "A5100382387",
+     "name": "Wang Li",
+     "n": 33
+    },
+    {
+     "id": "A5009636834",
+     "name": "Peng Sun",
+     "n": 26
+    },
+    {
+     "id": "A5082554131",
+     "name": "Andong Hu",
+     "n": 22
+    },
+    {
+     "id": "A5103281102",
+     "name": "Longjiang Li",
+     "n": 20
+    },
+    {
+     "id": "A5007249101",
+     "name": "Craig Matthew Hancock",
+     "n": 18
+    },
+    {
+     "id": "A5103252655",
+     "name": "Dantong Zhu",
+     "n": 18
+    },
+    {
+     "id": "A5005947207",
+     "name": "Moufeng Wan",
+     "n": 17
+    },
+    {
+     "id": "A5020582029",
+     "name": "Robert J. Norman",
+     "n": 17
+    },
+    {
+     "id": "A5064989610",
+     "name": "Changyong Hé",
+     "n": 15
+    },
+    {
+     "id": "A5001054710",
+     "name": "Minghao Zhang",
+     "n": 14
+    },
+    {
+     "id": "A5102763740",
+     "name": "Jiaqi Shi",
+     "n": 14
+    }
+   ]
   },
   {
    "id": "A5100631497",
@@ -2186,7 +7799,79 @@
    },
    "recent": {
     "sar": 323
-   }
+   },
+   "collab": [
+    {
+     "id": "A5100388642",
+     "name": "Lu Zhang",
+     "n": 81
+    },
+    {
+     "id": "A5006999481",
+     "name": "Jie Dong",
+     "n": 44
+    },
+    {
+     "id": "A5018350056",
+     "name": "Timo Balz",
+     "n": 24
+    },
+    {
+     "id": "A5100749866",
+     "name": "Chu He",
+     "n": 23
+    },
+    {
+     "id": "A5061446848",
+     "name": "Xuguo Shi",
+     "n": 19
+    },
+    {
+     "id": "A5001021969",
+     "name": "Mengshi Yang",
+     "n": 17
+    },
+    {
+     "id": "A5031451234",
+     "name": "Stefano Tebaldini",
+     "n": 17
+    },
+    {
+     "id": "A5100574336",
+     "name": "Jianya Gong",
+     "n": 13
+    },
+    {
+     "id": "A5008632555",
+     "name": "Dehui Xiong",
+     "n": 12
+    },
+    {
+     "id": "A5037163470",
+     "name": "Yanghai Yu",
+     "n": 11
+    },
+    {
+     "id": "A5100618836",
+     "name": "Yian Wang",
+     "n": 11
+    },
+    {
+     "id": "A5059188698",
+     "name": "Guangcai Feng",
+     "n": 10
+    },
+    {
+     "id": "A5101711548",
+     "name": "Menghua Li",
+     "n": 9
+    },
+    {
+     "id": "A5024601090",
+     "name": "Hua Gao",
+     "n": 8
+    }
+   ]
   },
   {
    "id": "A5052287334",
@@ -2212,7 +7897,79 @@
    },
    "recent": {
     "sar": 276
-   }
+   },
+   "collab": [
+    {
+     "id": "A5044034363",
+     "name": "Oriol Monserrat",
+     "n": 101
+    },
+    {
+     "id": "A5043423907",
+     "name": "Anna Barra",
+     "n": 78
+    },
+    {
+     "id": "A5005635803",
+     "name": "María Cuevas-González",
+     "n": 53
+    },
+    {
+     "id": "A5071188889",
+     "name": "Bruno Crippa",
+     "n": 36
+    },
+    {
+     "id": "A5030842929",
+     "name": "Guido Luzi",
+     "n": 34
+    },
+    {
+     "id": "A5070700949",
+     "name": "Riccardo Palamà",
+     "n": 25
+    },
+    {
+     "id": "A5020556097",
+     "name": "José A. Navarro",
+     "n": 20
+    },
+    {
+     "id": "A5109366762",
+     "name": "Núria Devanthéry",
+     "n": 19
+    },
+    {
+     "id": "A5033593016",
+     "name": "Qi Gao",
+     "n": 15
+    },
+    {
+     "id": "A5048233148",
+     "name": "Silvia Bianchini",
+     "n": 15
+    },
+    {
+     "id": "A5088024779",
+     "name": "Marta Béjar‐Pizarro",
+     "n": 15
+    },
+    {
+     "id": "A5070988188",
+     "name": "M. Mróz",
+     "n": 14
+    },
+    {
+     "id": "A5086118159",
+     "name": "S. Mohammad Mirmazloumi",
+     "n": 12
+    },
+    {
+     "id": "A5028383128",
+     "name": "Yismaw Wassie",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5072289333",
@@ -2238,7 +7995,79 @@
    },
    "recent": {
     "geodesy": 221
-   }
+   },
+   "collab": [
+    {
+     "id": "A5038075494",
+     "name": "Qingzhi Zhao",
+     "n": 70
+    },
+    {
+     "id": "A5101660779",
+     "name": "Bao Zhang",
+     "n": 55
+    },
+    {
+     "id": "A5000194974",
+     "name": "Jian Kong",
+     "n": 48
+    },
+    {
+     "id": "A5082274844",
+     "name": "Chaoqian Xu",
+     "n": 47
+    },
+    {
+     "id": "A5053458962",
+     "name": "Wanqiang Yao",
+     "n": 40
+    },
+    {
+     "id": "A5010151704",
+     "name": "Xiongwei Ma",
+     "n": 31
+    },
+    {
+     "id": "A5043978941",
+     "name": "Peng Chen",
+     "n": 29
+    },
+    {
+     "id": "A5101526978",
+     "name": "Wenjie Peng",
+     "n": 27
+    },
+    {
+     "id": "A5102846355",
+     "name": "Zufeng Li",
+     "n": 26
+    },
+    {
+     "id": "A5016042156",
+     "name": "Changzhi Zhai",
+     "n": 19
+    },
+    {
+     "id": "A5100608792",
+     "name": "Qi Zhang",
+     "n": 19
+    },
+    {
+     "id": "A5100680715",
+     "name": "Junyu Li",
+     "n": 16
+    },
+    {
+     "id": "A5101610253",
+     "name": "Zheng Ping Du",
+     "n": 16
+    },
+    {
+     "id": "A5012399507",
+     "name": "Mingxian Hu",
+     "n": 14
+    }
+   ]
   },
   {
    "id": "A5059928575",
@@ -2264,7 +8093,79 @@
    },
    "recent": {
     "lidar": 256
-   }
+   },
+   "collab": [
+    {
+     "id": "A5013825187",
+     "name": "Sander E. Vos",
+     "n": 26
+    },
+    {
+     "id": "A5073592854",
+     "name": "Bernhard Höfle",
+     "n": 18
+    },
+    {
+     "id": "A5055284896",
+     "name": "Katharina Anders",
+     "n": 17
+    },
+    {
+     "id": "A5071094661",
+     "name": "Massimo Menenti",
+     "n": 16
+    },
+    {
+     "id": "A5071467252",
+     "name": "Linh Truong‐Hong",
+     "n": 16
+    },
+    {
+     "id": "A5055238227",
+     "name": "Mieke Kuschnerus",
+     "n": 15
+    },
+    {
+     "id": "A5056146313",
+     "name": "Adriaan van Natijne",
+     "n": 15
+    },
+    {
+     "id": "A5024638941",
+     "name": "Daan Cornelis Hulskemper",
+     "n": 14
+    },
+    {
+     "id": "A5073109128",
+     "name": "Thomas Zieher",
+     "n": 12
+    },
+    {
+     "id": "A5091080773",
+     "name": "Martin Rutzinger",
+     "n": 12
+    },
+    {
+     "id": "A5047838903",
+     "name": "Sierd de Vries",
+     "n": 11
+    },
+    {
+     "id": "A5017869669",
+     "name": "Felix Dahle",
+     "n": 10
+    },
+    {
+     "id": "A5035230077",
+     "name": "Bert Wouters",
+     "n": 10
+    },
+    {
+     "id": "A5043706379",
+     "name": "José A. Á. Antolínez",
+     "n": 10
+    }
+   ]
   },
   {
    "id": "A5101508917",
@@ -2290,7 +8191,79 @@
    },
    "recent": {
     "geodesy": 155
-   }
+   },
+   "collab": [
+    {
+     "id": "A5113179983",
+     "name": "Yilin Xie",
+     "n": 27
+    },
+    {
+     "id": "A5100736322",
+     "name": "Xiangdong An",
+     "n": 23
+    },
+    {
+     "id": "A5003507248",
+     "name": "Qusen Chen",
+     "n": 20
+    },
+    {
+     "id": "A5013417183",
+     "name": "Ruijie Xi",
+     "n": 18
+    },
+    {
+     "id": "A5019208828",
+     "name": "Weiping Jiang",
+     "n": 18
+    },
+    {
+     "id": "A5070109127",
+     "name": "Shuguo Pan",
+     "n": 18
+    },
+    {
+     "id": "A5065462530",
+     "name": "Panos A. Psimoulis",
+     "n": 17
+    },
+    {
+     "id": "A5005841076",
+     "name": "Yan Bao",
+     "n": 14
+    },
+    {
+     "id": "A5060460699",
+     "name": "Wang Gao",
+     "n": 14
+    },
+    {
+     "id": "A5079491511",
+     "name": "Liangliang Hu",
+     "n": 13
+    },
+    {
+     "id": "A5045776785",
+     "name": "Qiyi He",
+     "n": 11
+    },
+    {
+     "id": "A5084674829",
+     "name": "Fei Yang",
+     "n": 11
+    },
+    {
+     "id": "A5037709025",
+     "name": "Jiming Guo",
+     "n": 10
+    },
+    {
+     "id": "A5056945824",
+     "name": "Chengfa Gao",
+     "n": 9
+    }
+   ]
   },
   {
    "id": "A5013633154",
@@ -2316,7 +8289,79 @@
    },
    "recent": {
     "photogrammetry": 205
-   }
+   },
+   "collab": [
+    {
+     "id": "A5086428184",
+     "name": "George Vosselman",
+     "n": 32
+    },
+    {
+     "id": "A5014462963",
+     "name": "Norman Kerle",
+     "n": 29
+    },
+    {
+     "id": "A5046864745",
+     "name": "M. Gerke",
+     "n": 21
+    },
+    {
+     "id": "A5014321482",
+     "name": "Michael Ying Yang",
+     "n": 19
+    },
+    {
+     "id": "A5025841679",
+     "name": "Fabio Remondino",
+     "n": 12
+    },
+    {
+     "id": "A5036503865",
+     "name": "Diogo Duarte",
+     "n": 11
+    },
+    {
+     "id": "A5045252539",
+     "name": "Jiuming Liu",
+     "n": 9
+    },
+    {
+     "id": "A5001059507",
+     "name": "Mila Koeva",
+     "n": 8
+    },
+    {
+     "id": "A5052229489",
+     "name": "Bashar Saleem Abbas Alsadik",
+     "n": 7
+    },
+    {
+     "id": "A5083712572",
+     "name": "Claudia Stöcker",
+     "n": 7
+    },
+    {
+     "id": "A5048173223",
+     "name": "Rohan Bennett",
+     "n": 6
+    },
+    {
+     "id": "A5002557849",
+     "name": "Sofia Tilon",
+     "n": 5
+    },
+    {
+     "id": "A5026386009",
+     "name": "Francesco Ioli",
+     "n": 5
+    },
+    {
+     "id": "A5037157287",
+     "name": "Anand Vetrivel",
+     "n": 5
+    }
+   ]
   },
   {
    "id": "A5101531305",
@@ -2342,7 +8387,79 @@
    },
    "recent": {
     "geodesy": 188
-   }
+   },
+   "collab": [
+    {
+     "id": "A5101653926",
+     "name": "Baocheng Zhang",
+     "n": 51
+    },
+    {
+     "id": "A5079646423",
+     "name": "Min Li",
+     "n": 29
+    },
+    {
+     "id": "A5004619366",
+     "name": "Zishen Li",
+     "n": 24
+    },
+    {
+     "id": "A5101994539",
+     "name": "Ningbo Wang",
+     "n": 23
+    },
+    {
+     "id": "A5041047438",
+     "name": "Xingliang Huo",
+     "n": 19
+    },
+    {
+     "id": "A5019269034",
+     "name": "Bingfeng Tan",
+     "n": 17
+    },
+    {
+     "id": "A5076957833",
+     "name": "Wenwu Ding",
+     "n": 16
+    },
+    {
+     "id": "A5108666470",
+     "name": "OU Jikun",
+     "n": 13
+    },
+    {
+     "id": "A5025470306",
+     "name": "Xiaolong Mi",
+     "n": 11
+    },
+    {
+     "id": "A5085288896",
+     "name": "Jiuping Zha",
+     "n": 11
+    },
+    {
+     "id": "A5100718696",
+     "name": "Hongxing Zhang",
+     "n": 11
+    },
+    {
+     "id": "A5009172468",
+     "name": "Qingsong Ai",
+     "n": 10
+    },
+    {
+     "id": "A5101536815",
+     "name": "Yongchang Chen",
+     "n": 9
+    },
+    {
+     "id": "A5064737650",
+     "name": "Teng Liu",
+     "n": 8
+    }
+   ]
   },
   {
    "id": "A5044034363",
@@ -2368,7 +8485,79 @@
    },
    "recent": {
     "sar": 294
-   }
+   },
+   "collab": [
+    {
+     "id": "A5052287334",
+     "name": "Michele Crosetto",
+     "n": 101
+    },
+    {
+     "id": "A5043423907",
+     "name": "Anna Barra",
+     "n": 100
+    },
+    {
+     "id": "A5071188889",
+     "name": "Bruno Crippa",
+     "n": 44
+    },
+    {
+     "id": "A5005635803",
+     "name": "María Cuevas-González",
+     "n": 43
+    },
+    {
+     "id": "A5036492225",
+     "name": "Rosa María Mateos",
+     "n": 40
+    },
+    {
+     "id": "A5088024779",
+     "name": "Marta Béjar‐Pizarro",
+     "n": 39
+    },
+    {
+     "id": "A5085262121",
+     "name": "Jorge Pedro Galvé",
+     "n": 36
+    },
+    {
+     "id": "A5053830730",
+     "name": "Roberto Sarro",
+     "n": 33
+    },
+    {
+     "id": "A5070700949",
+     "name": "Riccardo Palamà",
+     "n": 29
+    },
+    {
+     "id": "A5084888028",
+     "name": "José Miguel Azañón",
+     "n": 27
+    },
+    {
+     "id": "A5076790076",
+     "name": "Gerardo Herrera",
+     "n": 25
+    },
+    {
+     "id": "A5057604128",
+     "name": "Cristina Reyes‐Carmona",
+     "n": 22
+    },
+    {
+     "id": "A5075007266",
+     "name": "Pablo Ezquerro",
+     "n": 21
+    },
+    {
+     "id": "A5109366762",
+     "name": "Núria Devanthéry",
+     "n": 19
+    }
+   ]
   },
   {
    "id": "A5047673695",
@@ -2394,7 +8583,79 @@
    },
    "recent": {
     "city-bim": 127
-   }
+   },
+   "collab": [
+    {
+     "id": "A5012278795",
+     "name": "Jantien Stoter",
+     "n": 50
+    },
+    {
+     "id": "A5070342940",
+     "name": "Ken Arroyo Ohori",
+     "n": 18
+    },
+    {
+     "id": "A5010235735",
+     "name": "Filip Biljecki",
+     "n": 16
+    },
+    {
+     "id": "A5016572093",
+     "name": "Kavisha Kumar",
+     "n": 15
+    },
+    {
+     "id": "A5026844810",
+     "name": "Anna Labetski",
+     "n": 12
+    },
+    {
+     "id": "A5053347927",
+     "name": "Ravi Peters",
+     "n": 10
+    },
+    {
+     "id": "A5027616562",
+     "name": "Liangliang Nan",
+     "n": 9
+    },
+    {
+     "id": "A5070887627",
+     "name": "Balázs Dukai",
+     "n": 9
+    },
+    {
+     "id": "A5056869027",
+     "name": "Weixiao Gao",
+     "n": 6
+    },
+    {
+     "id": "A5030726184",
+     "name": "Maarten Pronk",
+     "n": 5
+    },
+    {
+     "id": "A5040909905",
+     "name": "Tom Commandeur",
+     "n": 5
+    },
+    {
+     "id": "A5068427631",
+     "name": "Stelios Vitalis",
+     "n": 5
+    },
+    {
+     "id": "A5007673795",
+     "name": "Thomas Krijnen",
+     "n": 4
+    },
+    {
+     "id": "A5030375187",
+     "name": "Clara García‐Sánchez",
+     "n": 4
+    }
+   ]
   },
   {
    "id": "A5067826216",
@@ -2420,7 +8681,79 @@
    },
    "recent": {
     "sar": 337
-   }
+   },
+   "collab": [
+    {
+     "id": "A5010436195",
+     "name": "Zhong Lu",
+     "n": 49
+    },
+    {
+     "id": "A5100609819",
+     "name": "Qin Zhang",
+     "n": 48
+    },
+    {
+     "id": "A5029123372",
+     "name": "Baohang Wang",
+     "n": 31
+    },
+    {
+     "id": "A5108690778",
+     "name": "Chengsheng Yang",
+     "n": 31
+    },
+    {
+     "id": "A5068274693",
+     "name": "Xiaojie Liu",
+     "n": 26
+    },
+    {
+     "id": "A5106406596",
+     "name": "Guang-Rong Li",
+     "n": 20
+    },
+    {
+     "id": "A5030223441",
+     "name": "Liquan Chen",
+     "n": 15
+    },
+    {
+     "id": "A5037778561",
+     "name": "Wu Zhu",
+     "n": 15
+    },
+    {
+     "id": "A5103166386",
+     "name": "Hengyi Chen",
+     "n": 13
+    },
+    {
+     "id": "A5112151724",
+     "name": "Ya Kang",
+     "n": 13
+    },
+    {
+     "id": "A5047360636",
+     "name": "Jianqi Lou",
+     "n": 12
+    },
+    {
+     "id": "A5007427445",
+     "name": "Zhenhong Li",
+     "n": 11
+    },
+    {
+     "id": "A5051677194",
+     "name": "Liye Yang",
+     "n": 11
+    },
+    {
+     "id": "A5055352931",
+     "name": "Roberto Tomás",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5026452327",
@@ -2446,7 +8779,79 @@
    },
    "recent": {
     "photogrammetry": 193
-   }
+   },
+   "collab": [
+    {
+     "id": "A5032699264",
+     "name": "Arnadi Murtiyoso",
+     "n": 45
+    },
+    {
+     "id": "A5112403335",
+     "name": "Mathieu Koehl",
+     "n": 28
+    },
+    {
+     "id": "A5065796714",
+     "name": "Tania Landes",
+     "n": 27
+    },
+    {
+     "id": "A5102087964",
+     "name": "Samuel Guillemin",
+     "n": 22
+    },
+    {
+     "id": "A5081183599",
+     "name": "H. Macher",
+     "n": 12
+    },
+    {
+     "id": "A5078959268",
+     "name": "Eugenio Pellis",
+     "n": 10
+    },
+    {
+     "id": "A5090711074",
+     "name": "Andrea Masiero",
+     "n": 10
+    },
+    {
+     "id": "A5029626288",
+     "name": "Michele Betti",
+     "n": 9
+    },
+    {
+     "id": "A5043085560",
+     "name": "Albane Burens-Carozza",
+     "n": 9
+    },
+    {
+     "id": "A5005132838",
+     "name": "Deni Suwardhi",
+     "n": 8
+    },
+    {
+     "id": "A5021912694",
+     "name": "Laurent Carozza",
+     "n": 8
+    },
+    {
+     "id": "A5025482164",
+     "name": "Grazia Tucci",
+     "n": 8
+    },
+    {
+     "id": "A5041882028",
+     "name": "Emmanuel Moisan",
+     "n": 8
+    },
+    {
+     "id": "A5067556699",
+     "name": "Xiucheng Yang",
+     "n": 8
+    }
+   ]
   },
   {
    "id": "A5035617766",
@@ -2472,7 +8877,79 @@
    },
    "recent": {
     "city-bim": 208
-   }
+   },
+   "collab": [
+    {
+     "id": "A5044789342",
+     "name": "Andreas Donaubauer",
+     "n": 33
+    },
+    {
+     "id": "A5050532348",
+     "name": "Bruno Willenborg",
+     "n": 17
+    },
+    {
+     "id": "A5014205953",
+     "name": "Christof Beil",
+     "n": 15
+    },
+    {
+     "id": "A5054882011",
+     "name": "Ihab Hamzi Hijazi",
+     "n": 15
+    },
+    {
+     "id": "A5072591298",
+     "name": "Benedikt Schwab",
+     "n": 14
+    },
+    {
+     "id": "A5039645027",
+     "name": "Kanishk Chaturvedi",
+     "n": 13
+    },
+    {
+     "id": "A5059009922",
+     "name": "Tatjana Kutzner",
+     "n": 9
+    },
+    {
+     "id": "A5079755356",
+     "name": "André Borrmann",
+     "n": 9
+    },
+    {
+     "id": "A5053952312",
+     "name": "Thomas Machl",
+     "n": 8
+    },
+    {
+     "id": "A5071722566",
+     "name": "Olaf Wysocki",
+     "n": 8
+    },
+    {
+     "id": "A5082730351",
+     "name": "Son H. Nguyen",
+     "n": 8
+    },
+    {
+     "id": "A5000085993",
+     "name": "Jörg Blankenbach",
+     "n": 7
+    },
+    {
+     "id": "A5034029851",
+     "name": "Zhihang Yao",
+     "n": 7
+    },
+    {
+     "id": "A5042313180",
+     "name": "Mandana Moshrefzadeh",
+     "n": 7
+    }
+   ]
   },
   {
    "id": "A5055469319",
@@ -2498,7 +8975,79 @@
    },
    "recent": {
     "geodesy": 291
-   }
+   },
+   "collab": [
+    {
+     "id": "A5049804504",
+     "name": "Radosław Zajdel",
+     "n": 89
+    },
+    {
+     "id": "A5055460479",
+     "name": "Grzegorz Bury",
+     "n": 51
+    },
+    {
+     "id": "A5039835642",
+     "name": "Dariusz Strugarek",
+     "n": 32
+    },
+    {
+     "id": "A5063966698",
+     "name": "Kamil Kaźmierski",
+     "n": 29
+    },
+    {
+     "id": "A5072456620",
+     "name": "Adrian Jäggi",
+     "n": 24
+    },
+    {
+     "id": "A5008442022",
+     "name": "Filip Gałdyn",
+     "n": 22
+    },
+    {
+     "id": "A5027451219",
+     "name": "Mateusz Drożdżewski",
+     "n": 17
+    },
+    {
+     "id": "A5059022601",
+     "name": "Tomasz Hadaś",
+     "n": 14
+    },
+    {
+     "id": "A5000918888",
+     "name": "Marcin Mikoś",
+     "n": 13
+    },
+    {
+     "id": "A5004149770",
+     "name": "Adrian Nowak",
+     "n": 13
+    },
+    {
+     "id": "A5012265681",
+     "name": "Rolf Dach",
+     "n": 13
+    },
+    {
+     "id": "A5017474258",
+     "name": "Tomasz Kur",
+     "n": 13
+    },
+    {
+     "id": "A5029937101",
+     "name": "Joanna Najder",
+     "n": 13
+    },
+    {
+     "id": "A5070287209",
+     "name": "A. Fienga",
+     "n": 11
+    }
+   ]
   },
   {
    "id": "A5019208828",
@@ -2524,7 +9073,79 @@
    },
    "recent": {
     "geodesy": 182
-   }
+   },
+   "collab": [
+    {
+     "id": "A5003507248",
+     "name": "Qusen Chen",
+     "n": 51
+    },
+    {
+     "id": "A5114585232",
+     "name": "Hua Chen",
+     "n": 43
+    },
+    {
+     "id": "A5101485635",
+     "name": "Zhao Li",
+     "n": 37
+    },
+    {
+     "id": "A5013417183",
+     "name": "Ruijie Xi",
+     "n": 25
+    },
+    {
+     "id": "A5033900636",
+     "name": "Taoyong Jin",
+     "n": 22
+    },
+    {
+     "id": "A5064770530",
+     "name": "Peng Yuan",
+     "n": 20
+    },
+    {
+     "id": "A5101508917",
+     "name": "Xiaolin Meng",
+     "n": 18
+    },
+    {
+     "id": "A5100736322",
+     "name": "Xiangdong An",
+     "n": 17
+    },
+    {
+     "id": "A5101774210",
+     "name": "Xingyu Zhou",
+     "n": 17
+    },
+    {
+     "id": "A5073716904",
+     "name": "Jian Wang",
+     "n": 16
+    },
+    {
+     "id": "A5084560640",
+     "name": "Tianjun Liu",
+     "n": 16
+    },
+    {
+     "id": "A5011552248",
+     "name": "Hao Ding",
+     "n": 15
+    },
+    {
+     "id": "A5015863790",
+     "name": "Xuexi Liu",
+     "n": 12
+    },
+    {
+     "id": "A5033158269",
+     "name": "Ran Lu",
+     "n": 12
+    }
+   ]
   },
   {
    "id": "A5024347284",
@@ -2550,7 +9171,79 @@
    },
    "recent": {
     "photogrammetry": 198
-   }
+   },
+   "collab": [
+    {
+     "id": "A5072508222",
+     "name": "Erica Nocerino",
+     "n": 72
+    },
+    {
+     "id": "A5025841679",
+     "name": "Fabio Remondino",
+     "n": 53
+    },
+    {
+     "id": "A5081669578",
+     "name": "Alessio Calantropio",
+     "n": 12
+    },
+    {
+     "id": "A5069958505",
+     "name": "Luca Morelli",
+     "n": 8
+    },
+    {
+     "id": "A5000436623",
+     "name": "I. Toschi",
+     "n": 7
+    },
+    {
+     "id": "A5020652744",
+     "name": "Elisa Mariarosaria Farella",
+     "n": 7
+    },
+    {
+     "id": "A5047595231",
+     "name": "Filiberto Chiabrando",
+     "n": 7
+    },
+    {
+     "id": "A5079422839",
+     "name": "Ali Reza Karami",
+     "n": 7
+    },
+    {
+     "id": "A5084469890",
+     "name": "Pierre Drap",
+     "n": 7
+    },
+    {
+     "id": "A5088067587",
+     "name": "Pablo Rodríguez‐Gonzálvez",
+     "n": 7
+    },
+    {
+     "id": "A5003093607",
+     "name": "Alessandro Capra",
+     "n": 6
+    },
+    {
+     "id": "A5014284001",
+     "name": "Alessandro Torresani",
+     "n": 6
+    },
+    {
+     "id": "A5046775950",
+     "name": "Andrea Maria Lingua",
+     "n": 6
+    },
+    {
+     "id": "A5091851870",
+     "name": "Roberto Battisti",
+     "n": 6
+    }
+   ]
   },
   {
    "id": "A5017812815",
@@ -2576,7 +9269,79 @@
    },
    "recent": {
     "photogrammetry": 178
-   }
+   },
+   "collab": [
+    {
+     "id": "A5053649093",
+     "name": "Hessah Albanwan",
+     "n": 16
+    },
+    {
+     "id": "A5100731553",
+     "name": "Shuang Song",
+     "n": 16
+    },
+    {
+     "id": "A5065515283",
+     "name": "Xu Huang",
+     "n": 14
+    },
+    {
+     "id": "A5001114751",
+     "name": "Changlin Xiao",
+     "n": 10
+    },
+    {
+     "id": "A5025841679",
+     "name": "Fabio Remondino",
+     "n": 10
+    },
+    {
+     "id": "A5036203586",
+     "name": "Ningli Xu",
+     "n": 10
+    },
+    {
+     "id": "A5049717335",
+     "name": "Debao Huang",
+     "n": 9
+    },
+    {
+     "id": "A5011629374",
+     "name": "Xiao Ling",
+     "n": 8
+    },
+    {
+     "id": "A5087435409",
+     "name": "Shengxi Gui",
+     "n": 7
+    },
+    {
+     "id": "A5037331136",
+     "name": "Mazlan Hashim",
+     "n": 5
+    },
+    {
+     "id": "A5041898685",
+     "name": "Halil Sezen",
+     "n": 5
+    },
+    {
+     "id": "A5086977054",
+     "name": "Mostafa Elhashash",
+     "n": 5
+    },
+    {
+     "id": "A5100938838",
+     "name": "Xiaohu Lu",
+     "n": 5
+    },
+    {
+     "id": "A5130981050",
+     "name": "Deyan Deng",
+     "n": 5
+    }
+   ]
   },
   {
    "id": "A5018958751",
@@ -2598,11 +9363,83 @@
     "geoinformatics"
    ],
    "rank": {
-    "geoinformatics": 5
+    "geoinformatics": 6
    },
    "recent": {
-    "geoinformatics": 386
-   }
+    "geoinformatics": 525
+   },
+   "collab": [
+    {
+     "id": "A5028622003",
+     "name": "Per Lindh",
+     "n": 22
+    },
+    {
+     "id": "A5046265328",
+     "name": "Olivier Debeir",
+     "n": 15
+    },
+    {
+     "id": "A5000553406",
+     "name": "Alexey L. Piskarev",
+     "n": 6
+    },
+    {
+     "id": "A5084951002",
+     "name": "Abdullah Can Zülfikar",
+     "n": 6
+    },
+    {
+     "id": "A5065073996",
+     "name": "Wasiliy Lemenkov",
+     "n": 3
+    },
+    {
+     "id": "A5054013936",
+     "name": "Thomas Lecocq",
+     "n": 2
+    },
+    {
+     "id": "A5085819678",
+     "name": "Raphael S. M. De Plaen",
+     "n": 2
+    },
+    {
+     "id": "A5007622910",
+     "name": "Mirnes Bojić",
+     "n": 1
+    },
+    {
+     "id": "A5011869411",
+     "name": "Marine De Carlo",
+     "n": 1
+    },
+    {
+     "id": "A5012940252",
+     "name": "Soonvilerth Phonesaly",
+     "n": 1
+    },
+    {
+     "id": "A5015300716",
+     "name": "Daniela Dalmonech",
+     "n": 1
+    },
+    {
+     "id": "A5019364350",
+     "name": "Mithad Kozličić",
+     "n": 1
+    },
+    {
+     "id": "A5025101009",
+     "name": "Daniele Castagneri",
+     "n": 1
+    },
+    {
+     "id": "A5031523852",
+     "name": "Alessio Collalti",
+     "n": 1
+    }
+   ]
   },
   {
    "id": "A5046775950",
@@ -2628,7 +9465,79 @@
    },
    "recent": {
     "photogrammetry": 228
-   }
+   },
+   "collab": [
+    {
+     "id": "A5047595231",
+     "name": "Filiberto Chiabrando",
+     "n": 68
+    },
+    {
+     "id": "A5012814618",
+     "name": "Francesca Matrone",
+     "n": 65
+    },
+    {
+     "id": "A5027373248",
+     "name": "Paolo Felice Maschio",
+     "n": 42
+    },
+    {
+     "id": "A5008869795",
+     "name": "Irene Aicardi",
+     "n": 23
+    },
+    {
+     "id": "A5004741098",
+     "name": "Francesca Noardo",
+     "n": 21
+    },
+    {
+     "id": "A5028271065",
+     "name": "Elisabetta Colucci",
+     "n": 21
+    },
+    {
+     "id": "A5097605185",
+     "name": "Valeria Longhi",
+     "n": 20
+    },
+    {
+     "id": "A5017075999",
+     "name": "Marco Piras",
+     "n": 17
+    },
+    {
+     "id": "A5090556314",
+     "name": "Nives Grasso",
+     "n": 17
+    },
+    {
+     "id": "A5071940355",
+     "name": "Antonia Teresa Spano",
+     "n": 16
+    },
+    {
+     "id": "A5097659921",
+     "name": "Francesca Gallitto",
+     "n": 16
+    },
+    {
+     "id": "A5049804007",
+     "name": "Pietro Bolli",
+     "n": 14
+    },
+    {
+     "id": "A5054778990",
+     "name": "Giuseppe Virone",
+     "n": 14
+    },
+    {
+     "id": "A5088854386",
+     "name": "Fabio Paonessa",
+     "n": 14
+    }
+   ]
   },
   {
    "id": "A5047595231",
@@ -2654,7 +9563,79 @@
    },
    "recent": {
     "photogrammetry": 294
-   }
+   },
+   "collab": [
+    {
+     "id": "A5046775950",
+     "name": "Andrea Maria Lingua",
+     "n": 68
+    },
+    {
+     "id": "A5023118066",
+     "name": "L. Teppati Losè",
+     "n": 46
+    },
+    {
+     "id": "A5071940355",
+     "name": "Antonia Teresa Spano",
+     "n": 42
+    },
+    {
+     "id": "A5004046467",
+     "name": "Giulia Sammartano",
+     "n": 36
+    },
+    {
+     "id": "A5049964339",
+     "name": "Alessandra Spreafico",
+     "n": 36
+    },
+    {
+     "id": "A5081669578",
+     "name": "Alessio Calantropio",
+     "n": 31
+    },
+    {
+     "id": "A5027373248",
+     "name": "Paolo Felice Maschio",
+     "n": 30
+    },
+    {
+     "id": "A5012814618",
+     "name": "Francesca Matrone",
+     "n": 29
+    },
+    {
+     "id": "A5032170129",
+     "name": "Beatrice Tanduo",
+     "n": 21
+    },
+    {
+     "id": "A5097605185",
+     "name": "Valeria Longhi",
+     "n": 18
+    },
+    {
+     "id": "A5068787916",
+     "name": "Giacomo Patrucco",
+     "n": 17
+    },
+    {
+     "id": "A5028271065",
+     "name": "Elisabetta Colucci",
+     "n": 15
+    },
+    {
+     "id": "A5097659921",
+     "name": "Francesca Gallitto",
+     "n": 15
+    },
+    {
+     "id": "A5103882542",
+     "name": "Spanò Antonia",
+     "n": 14
+    }
+   ]
   },
   {
    "id": "A5075778487",
@@ -2679,8 +9660,80 @@
     "geoinformatics": 8
    },
    "recent": {
-    "geoinformatics": 264
-   }
+    "geoinformatics": 359
+   },
+   "collab": [
+    {
+     "id": "A5085312464",
+     "name": "Daniele Oxoli",
+     "n": 55
+    },
+    {
+     "id": "A5055523051",
+     "name": "Marco Minghini",
+     "n": 41
+    },
+    {
+     "id": "A5013048060",
+     "name": "C. E. Kilsedar",
+     "n": 34
+    },
+    {
+     "id": "A5024586652",
+     "name": "Vasil Yordanov",
+     "n": 32
+    },
+    {
+     "id": "A5040804556",
+     "name": "Gorica Bratić",
+     "n": 25
+    },
+    {
+     "id": "A5067800707",
+     "name": "Alberto Vavassori",
+     "n": 25
+    },
+    {
+     "id": "A5111677650",
+     "name": "Monia Elisa Molinari",
+     "n": 25
+    },
+    {
+     "id": "A5031619465",
+     "name": "Daniela Carrión",
+     "n": 15
+    },
+    {
+     "id": "A5065395591",
+     "name": "Jesus Rodrigo Cedeno Jimenez",
+     "n": 13
+    },
+    {
+     "id": "A5090656548",
+     "name": "Giorgio Zamboni",
+     "n": 13
+    },
+    {
+     "id": "A5015515154",
+     "name": "Enrico Gianluca Caiani",
+     "n": 11
+    },
+    {
+     "id": "A5074639965",
+     "name": "Gabriele Prestifilippo",
+     "n": 11
+    },
+    {
+     "id": "A5018410747",
+     "name": "Xuan Quang Truong",
+     "n": 10
+    },
+    {
+     "id": "A5022548675",
+     "name": "Mayra Zurbarán",
+     "n": 10
+    }
+   ]
   },
   {
    "id": "A5001059507",
@@ -2706,7 +9759,79 @@
    },
    "recent": {
     "city-bim": 139
-   }
+   },
+   "collab": [
+    {
+     "id": "A5048173223",
+     "name": "Rohan Bennett",
+     "n": 34
+    },
+    {
+     "id": "A5024154632",
+     "name": "Jaap A. Zevenbergen",
+     "n": 25
+    },
+    {
+     "id": "A5083712572",
+     "name": "Claudia Stöcker",
+     "n": 19
+    },
+    {
+     "id": "A5029035818",
+     "name": "Claudio Persello",
+     "n": 17
+    },
+    {
+     "id": "A5054712222",
+     "name": "Sophie Crommelinck",
+     "n": 16
+    },
+    {
+     "id": "A5003492819",
+     "name": "C. Lemmen",
+     "n": 15
+    },
+    {
+     "id": "A5030350916",
+     "name": "Pirouz Nourian",
+     "n": 13
+    },
+    {
+     "id": "A5059871347",
+     "name": "Monika Kuffer",
+     "n": 12
+    },
+    {
+     "id": "A5029184628",
+     "name": "Gerhard Navratil",
+     "n": 10
+    },
+    {
+     "id": "A5046864745",
+     "name": "M. Gerke",
+     "n": 9
+    },
+    {
+     "id": "A5094200269",
+     "name": "Iván Cárdenas-León",
+     "n": 9
+    },
+    {
+     "id": "A5000298644",
+     "name": "Giorgio Agugiaro",
+     "n": 8
+    },
+    {
+     "id": "A5013633154",
+     "name": "Francesco Nex",
+     "n": 8
+    },
+    {
+     "id": "A5000566262",
+     "name": "Malumbo Chaka Chipofya",
+     "n": 7
+    }
+   ]
   },
   {
    "id": "A5051271836",
@@ -2732,7 +9857,79 @@
    },
    "recent": {
     "city-bim": 123
-   }
+   },
+   "collab": [
+    {
+     "id": "A5044446109",
+     "name": "Rushikesh Padsala",
+     "n": 21
+    },
+    {
+     "id": "A5024772283",
+     "name": "Thunyathep Santhanavanich",
+     "n": 19
+    },
+    {
+     "id": "A5014080291",
+     "name": "Sisi Zlatanova",
+     "n": 13
+    },
+    {
+     "id": "A5073620727",
+     "name": "Claire Ellul",
+     "n": 13
+    },
+    {
+     "id": "A5006746248",
+     "name": "Robert Laurini",
+     "n": 11
+    },
+    {
+     "id": "A5071786685",
+     "name": "Massimo Rumor",
+     "n": 11
+    },
+    {
+     "id": "A5063379981",
+     "name": "S. Harbola",
+     "n": 9
+    },
+    {
+     "id": "A5090729525",
+     "name": "Athanasios Koukofikis",
+     "n": 9
+    },
+    {
+     "id": "A5056062813",
+     "name": "Preston Rodrigues",
+     "n": 7
+    },
+    {
+     "id": "A5004029104",
+     "name": "Parag Wate",
+     "n": 6
+    },
+    {
+     "id": "A5009185338",
+     "name": "Muhammad Alfakhori",
+     "n": 6
+    },
+    {
+     "id": "A5014683530",
+     "name": "Bastian Schröter",
+     "n": 6
+    },
+    {
+     "id": "A5024753703",
+     "name": "Patrick Würstle",
+     "n": 6
+    },
+    {
+     "id": "A5067735583",
+     "name": "Ursula Eicker",
+     "n": 6
+    }
+   ]
   },
   {
    "id": "A5049319155",
@@ -2758,7 +9955,79 @@
    },
    "recent": {
     "city-bim": 121
-   }
+   },
+   "collab": [
+    {
+     "id": "A5036617218",
+     "name": "Florent Poux",
+     "n": 41
+    },
+    {
+     "id": "A5025337981",
+     "name": "Pierre Hallot",
+     "n": 30
+    },
+    {
+     "id": "A5072219045",
+     "name": "Rafika Hajji",
+     "n": 28
+    },
+    {
+     "id": "A5028619553",
+     "name": "Gilles‐Antoine Nys",
+     "n": 23
+    },
+    {
+     "id": "A5040279376",
+     "name": "Romain Neuville",
+     "n": 19
+    },
+    {
+     "id": "A5092600568",
+     "name": "Imane Jeddoub",
+     "n": 19
+    },
+    {
+     "id": "A5053239225",
+     "name": "Abderrazzaq Kharroubi",
+     "n": 16
+    },
+    {
+     "id": "A5017830465",
+     "name": "Jean-Paul Kasprzyk",
+     "n": 15
+    },
+    {
+     "id": "A5056927449",
+     "name": "Andrea Luczfalvy Jancsó",
+     "n": 15
+    },
+    {
+     "id": "A5057655138",
+     "name": "Zouhair Ballouch",
+     "n": 12
+    },
+    {
+     "id": "A5083750127",
+     "name": "Benoît Jonlet",
+     "n": 12
+    },
+    {
+     "id": "A5082221332",
+     "name": "Muriel van RUYMBEKE",
+     "n": 9
+    },
+    {
+     "id": "A5093964800",
+     "name": "Anass Yarroudh",
+     "n": 7
+    },
+    {
+     "id": "A5024685592",
+     "name": "J. Pouliot",
+     "n": 5
+    }
+   ]
   },
   {
    "id": "A5070342940",
@@ -2784,7 +10053,79 @@
    },
    "recent": {
     "city-bim": 114
-   }
+   },
+   "collab": [
+    {
+     "id": "A5012278795",
+     "name": "Jantien Stoter",
+     "n": 60
+    },
+    {
+     "id": "A5004741098",
+     "name": "Francesca Noardo",
+     "n": 26
+    },
+    {
+     "id": "A5007673795",
+     "name": "Thomas Krijnen",
+     "n": 25
+    },
+    {
+     "id": "A5010235735",
+     "name": "Filip Biljecki",
+     "n": 21
+    },
+    {
+     "id": "A5043913530",
+     "name": "Lars Harrie",
+     "n": 19
+    },
+    {
+     "id": "A5047673695",
+     "name": "Hugo Ledoux",
+     "n": 18
+    },
+    {
+     "id": "A5073620727",
+     "name": "Claire Ellul",
+     "n": 18
+    },
+    {
+     "id": "A5000298644",
+     "name": "Giorgio Agugiaro",
+     "n": 11
+    },
+    {
+     "id": "A5068427631",
+     "name": "Stelios Vitalis",
+     "n": 11
+    },
+    {
+     "id": "A5026844810",
+     "name": "Anna Labetski",
+     "n": 9
+    },
+    {
+     "id": "A5032999798",
+     "name": "Jasper van der Vaart",
+     "n": 7
+    },
+    {
+     "id": "A5016572093",
+     "name": "Kavisha Kumar",
+     "n": 5
+    },
+    {
+     "id": "A5093963097",
+     "name": "Amir Hakim",
+     "n": 5
+    },
+    {
+     "id": "A5052758089",
+     "name": "Abdoulaye Diakité",
+     "n": 4
+    }
+   ]
   },
   {
    "id": "A5032699264",
@@ -2810,7 +10151,79 @@
    },
    "recent": {
     "photogrammetry": 224
-   }
+   },
+   "collab": [
+    {
+     "id": "A5026452327",
+     "name": "Pierre Grussenmeyer",
+     "n": 45
+    },
+    {
+     "id": "A5005132838",
+     "name": "Deni Suwardhi",
+     "n": 24
+    },
+    {
+     "id": "A5047134145",
+     "name": "Verena Christiane Griess",
+     "n": 14
+    },
+    {
+     "id": "A5025841679",
+     "name": "Fabio Remondino",
+     "n": 11
+    },
+    {
+     "id": "A5065796714",
+     "name": "Tania Landes",
+     "n": 11
+    },
+    {
+     "id": "A5046086422",
+     "name": "Cyprien Raymi Fol",
+     "n": 10
+    },
+    {
+     "id": "A5081183599",
+     "name": "H. Macher",
+     "n": 8
+    },
+    {
+     "id": "A5078997789",
+     "name": "Niclas Börlin",
+     "n": 7
+    },
+    {
+     "id": "A5112403335",
+     "name": "Mathieu Koehl",
+     "n": 6
+    },
+    {
+     "id": "A5000940026",
+     "name": "Nataliia Rehush",
+     "n": 5
+    },
+    {
+     "id": "A5012242202",
+     "name": "Agung Budi Harto",
+     "n": 5
+    },
+    {
+     "id": "A5042817857",
+     "name": "Shafarina Wahyu Trisyanti",
+     "n": 5
+    },
+    {
+     "id": "A5070149104",
+     "name": "Syed Saad",
+     "n": 5
+    },
+    {
+     "id": "A5074607384",
+     "name": "Ratri Widyastuti",
+     "n": 5
+    }
+   ]
   },
   {
    "id": "A5000298644",
@@ -2836,7 +10249,79 @@
    },
    "recent": {
     "city-bim": 130
-   }
+   },
+   "collab": [
+    {
+     "id": "A5054380651",
+     "name": "C. León-Sánchez",
+     "n": 20
+    },
+    {
+     "id": "A5012278795",
+     "name": "Jantien Stoter",
+     "n": 18
+    },
+    {
+     "id": "A5070342940",
+     "name": "Ken Arroyo Ohori",
+     "n": 11
+    },
+    {
+     "id": "A5001059507",
+     "name": "Mila Koeva",
+     "n": 8
+    },
+    {
+     "id": "A5014080291",
+     "name": "Sisi Zlatanova",
+     "n": 7
+    },
+    {
+     "id": "A5025841679",
+     "name": "Fabio Remondino",
+     "n": 5
+    },
+    {
+     "id": "A5031481665",
+     "name": "Lucía Díaz-Vilariño",
+     "n": 5
+    },
+    {
+     "id": "A5001898964",
+     "name": "Clément Mallet",
+     "n": 4
+    },
+    {
+     "id": "A5003580485",
+     "name": "Kourosh Khoshelham",
+     "n": 4
+    },
+    {
+     "id": "A5007954216",
+     "name": "Dev Raj Paudyal",
+     "n": 4
+    },
+    {
+     "id": "A5010235735",
+     "name": "Filip Biljecki",
+     "n": 4
+    },
+    {
+     "id": "A5013945499",
+     "name": "Christopher James Pettit",
+     "n": 4
+    },
+    {
+     "id": "A5017698445",
+     "name": "Arzu Çöltekin",
+     "n": 4
+    },
+    {
+     "id": "A5017763361",
+     "name": "Mir Abolfazl Mostafavi",
+     "n": 4
+    }
+   ]
   },
   {
    "id": "A5062866557",
@@ -2862,7 +10347,79 @@
    },
    "recent": {
     "city-bim": 126
-   }
+   },
+   "collab": [
+    {
+     "id": "A5070596621",
+     "name": "Ivin Amri Musliman",
+     "n": 17
+    },
+    {
+     "id": "A5035991351",
+     "name": "Gürcan Büyüksali̇h",
+     "n": 15
+    },
+    {
+     "id": "A5069605331",
+     "name": "H. Rashidan",
+     "n": 14
+    },
+    {
+     "id": "A5028419468",
+     "name": "Ainn Zamzuri",
+     "n": 12
+    },
+    {
+     "id": "A5011424735",
+     "name": "Suhaibah Azri",
+     "n": 10
+    },
+    {
+     "id": "A5046120119",
+     "name": "Ali Jamali",
+     "n": 10
+    },
+    {
+     "id": "A5048882757",
+     "name": "Hairi Karim",
+     "n": 10
+    },
+    {
+     "id": "A5062092871",
+     "name": "Uznir Ujang",
+     "n": 10
+    },
+    {
+     "id": "A5091577555",
+     "name": "Mohd Izzat Hassan",
+     "n": 10
+    },
+    {
+     "id": "A5110808285",
+     "name": "M. J. Sani",
+     "n": 8
+    },
+    {
+     "id": "A5045073378",
+     "name": "François Anton",
+     "n": 7
+    },
+    {
+     "id": "A5107860337",
+     "name": "Darka Mioc",
+     "n": 7
+    },
+    {
+     "id": "A5110645638",
+     "name": "Muhammad Imzan Hassan",
+     "n": 7
+    },
+    {
+     "id": "A5109972324",
+     "name": "Peter J. M. van Oosterom",
+     "n": 6
+    }
+   ]
   }
  ]
 }
