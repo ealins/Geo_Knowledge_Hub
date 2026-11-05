@@ -85,6 +85,36 @@ for (const f of cfg.fields) {
 
 const researchers = [...people.values()].sort((a, b) => b.h_index - a.h_index);
 if (researchers.length < 20) { console.log(`Only ${researchers.length} researchers (failed queries: ${failed}); keeping previous file.`); process.exit(0); }
+
+// Job titles are not in OpenAlex. ORCID's public API lists self-reported employments (title, department).
+const norm = (t) => String(t || "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter((w) => w.length > 3);
+async function orcidPosition(p) {
+  const id = String(p.orcid || "").replace(/^https?:\/\/orcid\.org\//, "");
+  if (!id) return null;
+  const j = await json(`https://pub.orcid.org/v3.0/${id}/employments`);
+  const items = (j.group || []).flatMap((g) => g["employment-summary"] || [])
+    .filter((e) => !e["end-date"] && e["role-title"])
+    .map((e) => ({
+      title: String(e["role-title"]).trim(), dept: String(e["department-name"] || "").trim(),
+      org: e.organization?.name || "", start: Number(e["start-date"]?.year?.value || 0),
+    }));
+  if (!items.length) return null;
+  const want = new Set(norm(p.institution));
+  const overlap = (e) => norm(e.org).filter((w) => want.has(w)).length;
+  items.sort((a, b) => overlap(b) - overlap(a) || b.start - a.start);
+  const e = items[0];
+  if (want.size && overlap(e) === 0) return null; // title belongs to a different employer
+  return { position: e.title.slice(0, 80), department: e.dept.slice(0, 100) };
+}
+let withPos = 0;
+for (const p of researchers) {
+  try {
+    const pos = await orcidPosition(p);
+    if (pos) { Object.assign(p, pos); withPos++; }
+  } catch { /* ORCID record private or unreachable: no position shown */ }
+  await new Promise((r) => setTimeout(r, 120));
+}
+console.log(`positions found for ${withPos} of ${researchers.length}`);
 await mkdir("data", { recursive: true });
 await writeFile(OUT, JSON.stringify({
   generated_at: new Date().toISOString(),
