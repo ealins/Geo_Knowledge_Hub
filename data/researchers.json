@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:19:12.833Z",
+ "generated_at": "2026-11-05T17:20:44.634Z",
  "since": 2016,
  "fields": [
   {
@@ -45,61 +45,6 @@
  ],
  "researchers": [
   {
-   "id": "A5086852785",
-   "name": "Karl John Friston",
-   "orcid": "https://orcid.org/0000-0001-7984-8909",
-   "institution": "Wellcome Centre for Human Neuroimaging",
-   "country": "GB",
-   "h_index": 257,
-   "cited_by": 298625,
-   "works": 2090,
-   "expertise": [
-    "Functional Brain Connectivity Studies",
-    "Neural dynamics and brain function",
-    "Embodied and Extended Cognition",
-    "Neural and Behavioral Psychology Studies",
-    "Advanced Neuroimaging Techniques and Applications"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 3
-   },
-   "recent": {
-    "photogrammetry": 139
-   }
-  },
-  {
-   "id": "A5031889135",
-   "name": "Simon Iain Hay",
-   "orcid": "https://orcid.org/0000-0002-0611-7272",
-   "institution": "University of Washington",
-   "country": "US",
-   "h_index": 246,
-   "cited_by": 464249,
-   "works": 946,
-   "expertise": [
-    "Malaria Research and Control",
-    "Mosquito-borne diseases and control",
-    "Global Health and Epidemiology",
-    "Insurance, Mortality, Demography, Risk Management",
-    "Vector-borne infectious diseases"
-   ],
-   "fields": [
-    "geoai",
-    "geoinformatics"
-   ],
-   "rank": {
-    "geoai": 7,
-    "geoinformatics": 1
-   },
-   "recent": {
-    "geoai": 71,
-    "geoinformatics": 317
-   }
-  },
-  {
    "id": "A5000033522",
    "name": "Shilong L. Piao",
    "orcid": "https://orcid.org/0000-0001-8057-2292",
@@ -123,188 +68,6 @@
    },
    "recent": {
     "remote-sensing": 333
-   }
-  },
-  {
-   "id": "A5043083140",
-   "name": "Anton M. Koekemoer",
-   "orcid": "https://orcid.org/0000-0002-6610-2048",
-   "institution": "Space Telescope Science Institute",
-   "country": "US",
-   "h_index": 167,
-   "cited_by": 110808,
-   "works": 2142,
-   "expertise": [
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Stellar, planetary, and galactic studies",
-    "Astrophysics and Star Formation Studies",
-    "Astrophysical Phenomena and Observations",
-    "Astronomy and Astrophysical Research"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 3
-   },
-   "recent": {
-    "geodesy": 377
-   }
-  },
-  {
-   "id": "A5072189850",
-   "name": "Josep Maria Guerrero",
-   "orcid": "https://orcid.org/0000-0001-5236-4592",
-   "institution": "Universidad de Valladolid",
-   "country": "ES",
-   "h_index": 161,
-   "cited_by": 124915,
-   "works": 2067,
-   "expertise": [
-    "Microgrid Control and Optimization",
-    "Multilevel Inverters and Converters",
-    "Power Quality and Harmonics",
-    "Advanced DC-DC Converters",
-    "Smart Grid Energy Management"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 12
-   },
-   "recent": {
-    "geodesy": 259
-   }
-  },
-  {
-   "id": "A5024983697",
-   "name": "A. C. Fabian",
-   "orcid": "https://orcid.org/0000-0002-9378-4072",
-   "institution": "University of Cambridge",
-   "country": "GB",
-   "h_index": 154,
-   "cited_by": 110949,
-   "works": 2473,
-   "expertise": [
-    "Astrophysical Phenomena and Observations",
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Astrophysics and Cosmic Phenomena",
-    "Stellar, planetary, and galactic studies",
-    "Pulsars and Gravitational Waves Research"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 16
-   },
-   "recent": {
-    "photogrammetry": 122
-   }
-  },
-  {
-   "id": "A5100773343",
-   "name": "Xuemin Shen",
-   "orcid": "https://orcid.org/0000-0002-4140-287X",
-   "institution": "University of Waterloo",
-   "country": "CA",
-   "h_index": 152,
-   "cited_by": 101656,
-   "works": 2248,
-   "expertise": [
-    "Vehicular Ad Hoc Networks (VANETs)",
-    "Advanced Wireless Network Optimization",
-    "IoT and Edge/Fog Computing",
-    "Wireless Networks and Protocols",
-    "Mobile Ad Hoc Networks"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
-    "city-bim": 9
-   },
-   "recent": {
-    "city-bim": 60
-   }
-  },
-  {
-   "id": "A5000937401",
-   "name": "Dinggang G. Shen",
-   "orcid": "https://orcid.org/0000-0002-7934-5698",
-   "institution": "University of North Carolina at Chapel Hill",
-   "country": "US",
-   "h_index": 151,
-   "cited_by": 96159,
-   "works": 2031,
-   "expertise": [
-    "Medical Image Segmentation Techniques",
-    "Functional Brain Connectivity Studies",
-    "Advanced MRI Techniques and Applications",
-    "Dementia and Cognitive Impairment Research",
-    "Brain Tumor Detection and Classification"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 6
-   },
-   "recent": {
-    "photogrammetry": 166
-   }
-  },
-  {
-   "id": "A5087713906",
-   "name": "Ben L. Feringa",
-   "orcid": "https://orcid.org/0000-0003-0588-8435",
-   "institution": "East China University of Science and Technology",
-   "country": "CN",
-   "h_index": 151,
-   "cited_by": 100098,
-   "works": 2168,
-   "expertise": [
-    "Asymmetric Synthesis and Catalysis",
-    "Supramolecular Chemistry and Complexes",
-    "Photochromic and Fluorescence Chemistry",
-    "Crystal structures of chemical compounds",
-    "Crystallography and molecular interactions"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 10
-   },
-   "recent": {
-    "photogrammetry": 135
-   }
-  },
-  {
-   "id": "A5032850756",
-   "name": "Vince D. Calhoun",
-   "orcid": "https://orcid.org/0000-0001-9058-0747",
-   "institution": "Georgia Institute of Technology",
-   "country": "US",
-   "h_index": 149,
-   "cited_by": 108765,
-   "works": 2169,
-   "expertise": [
-    "Functional Brain Connectivity Studies",
-    "Schizophrenia research and treatment",
-    "Advanced MRI Techniques and Applications",
-    "Advanced Neuroimaging Techniques and Applications",
-    "Mental Health Research Topics"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 2
-   },
-   "recent": {
-    "photogrammetry": 251
    }
   },
   {
@@ -363,8 +126,8 @@
     "remote-sensing": 4,
     "lidar": 11,
     "geoai": 2,
-    "city-bim": 15,
-    "geoinformatics": 2
+    "city-bim": 10,
+    "geoinformatics": 1
    },
    "recent": {
     "remote-sensing": 443,
@@ -372,32 +135,6 @@
     "geoai": 223,
     "city-bim": 46,
     "geoinformatics": 376
-   }
-  },
-  {
-   "id": "A5063161579",
-   "name": "K. Honscheid",
-   "orcid": "https://orcid.org/0000-0002-6550-2023",
-   "institution": "Fermi National Accelerator Laboratory",
-   "country": "US",
-   "h_index": 147,
-   "cited_by": 133489,
-   "works": 2305,
-   "expertise": [
-    "Particle physics theoretical and experimental studies",
-    "Quantum Chromodynamics and Particle Interactions",
-    "Particle Detector Development and Performance",
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Cosmology and Gravitation Theories"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 7
-   },
-   "recent": {
-    "geodesy": 334
    }
   },
   {
@@ -430,90 +167,6 @@
    }
   },
   {
-   "id": "A5091266202",
-   "name": "Dusit Tao Niyato",
-   "orcid": "https://orcid.org/0000-0002-7442-7416",
-   "institution": "Nanyang Technological University",
-   "country": "SG",
-   "h_index": 144,
-   "cited_by": 104210,
-   "works": 2425,
-   "expertise": [
-    "IoT and Edge/Fog Computing",
-    "Advanced Wireless Communication Technologies",
-    "Wireless Communication Security Techniques",
-    "UAV Applications and Optimization",
-    "Advanced Wireless Network Optimization"
-   ],
-   "fields": [
-    "geoai",
-    "city-bim"
-   ],
-   "rank": {
-    "geoai": 4,
-    "city-bim": 2
-   },
-   "recent": {
-    "geoai": 150,
-    "city-bim": 131
-   }
-  },
-  {
-   "id": "A5004437377",
-   "name": "Alessandra Buonanno",
-   "orcid": "https://orcid.org/0000-0002-5433-1409",
-   "institution": "Max Planck Institute for Gravitational Physics",
-   "country": "DE",
-   "h_index": 143,
-   "cited_by": 133491,
-   "works": 701,
-   "expertise": [
-    "Pulsars and Gravitational Waves Research",
-    "Astrophysical Phenomena and Observations",
-    "Gamma-ray bursts and supernovae",
-    "Black Holes and Theoretical Physics",
-    "Cosmology and Gravitation Theories"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 13
-   },
-   "recent": {
-    "geodesy": 282
-   }
-  },
-  {
-   "id": "A5001753424",
-   "name": "Will J. Percival",
-   "orcid": "https://orcid.org/0000-0002-0644-5727",
-   "institution": "Centre National de la Recherche Scientifique",
-   "country": "FR",
-   "h_index": 140,
-   "cited_by": 100249,
-   "works": 1175,
-   "expertise": [
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Cosmology and Gravitation Theories",
-    "Stellar, planetary, and galactic studies",
-    "Dark Matter and Cosmic Phenomena",
-    "Astronomy and Astrophysical Research"
-   ],
-   "fields": [
-    "photogrammetry",
-    "geodesy"
-   ],
-   "rank": {
-    "photogrammetry": 7,
-    "geodesy": 5
-   },
-   "recent": {
-    "photogrammetry": 149,
-    "geodesy": 366
-   }
-  },
-  {
    "id": "A5071721504",
    "name": "Markus Reichstein",
    "orcid": "https://orcid.org/0000-0001-5736-1112",
@@ -537,168 +190,6 @@
    },
    "recent": {
     "remote-sensing": 300
-   }
-  },
-  {
-   "id": "A5087654538",
-   "name": "Stéphane Udry",
-   "orcid": "https://orcid.org/0000-0001-7576-6236",
-   "institution": "University of Geneva",
-   "country": "CH",
-   "h_index": 138,
-   "cited_by": 83196,
-   "works": 2427,
-   "expertise": [
-    "Stellar, planetary, and galactic studies",
-    "Astronomy and Astrophysical Research",
-    "Galaxies: Formation, Evolution, Phenomena",
-    "History and Developments in Astronomy",
-    "Astro and Planetary Science"
-   ],
-   "fields": [
-    "photogrammetry",
-    "geodesy"
-   ],
-   "rank": {
-    "photogrammetry": 5,
-    "geodesy": 2
-   },
-   "recent": {
-    "photogrammetry": 185,
-    "geodesy": 486
-   }
-  },
-  {
-   "id": "A5048800312",
-   "name": "Franco Nori",
-   "orcid": "https://orcid.org/0000-0003-3682-7432",
-   "institution": "University of Michigan",
-   "country": "US",
-   "h_index": 138,
-   "cited_by": 98782,
-   "works": 1325,
-   "expertise": [
-    "Quantum Information and Cryptography",
-    "Quantum Mechanics and Applications",
-    "Mechanical and Optical Resonators",
-    "Quantum optics and atomic interactions",
-    "Physics of Superconductivity and Magnetism"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 13
-   },
-   "recent": {
-    "photogrammetry": 137
-   }
-  },
-  {
-   "id": "A5022799398",
-   "name": "David W. Latham",
-   "orcid": "https://orcid.org/0000-0001-9911-7388",
-   "institution": "Smithsonian Institution",
-   "country": "US",
-   "h_index": 135,
-   "cited_by": 84242,
-   "works": 2092,
-   "expertise": [
-    "Stellar, planetary, and galactic studies",
-    "Astronomy and Astrophysical Research",
-    "History and Developments in Astronomy",
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Astro and Planetary Science"
-   ],
-   "fields": [
-    "photogrammetry",
-    "geodesy"
-   ],
-   "rank": {
-    "photogrammetry": 4,
-    "geodesy": 1
-   },
-   "recent": {
-    "photogrammetry": 193,
-    "geodesy": 495
-   }
-  },
-  {
-   "id": "A5080861685",
-   "name": "Ángel Rubio",
-   "orcid": "https://orcid.org/0000-0003-2060-3151",
-   "institution": "University of the Basque Country",
-   "country": "ES",
-   "h_index": 134,
-   "cited_by": 75712,
-   "works": 1447,
-   "expertise": [
-    "Advanced Chemical Physics Studies",
-    "Laser-Matter Interactions and Applications",
-    "Graphene research and applications",
-    "2D Materials and Applications",
-    "Spectroscopy and Quantum Chemical Studies"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 9
-   },
-   "recent": {
-    "photogrammetry": 151
-   }
-  },
-  {
-   "id": "A5057916222",
-   "name": "Mohsen Guizani",
-   "orcid": "https://orcid.org/0000-0002-8972-8094",
-   "institution": "Mohamed bin Zayed University of Artificial Intelligence",
-   "country": "AE",
-   "h_index": 132,
-   "cited_by": 89172,
-   "works": 1857,
-   "expertise": [
-    "IoT and Edge/Fog Computing",
-    "Vehicular Ad Hoc Networks (VANETs)",
-    "Blockchain Technology Applications and Security",
-    "Privacy-Preserving Technologies in Data",
-    "Software-Defined Networks and 5G"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
-    "city-bim": 12
-   },
-   "recent": {
-    "city-bim": 54
-   }
-  },
-  {
-   "id": "A5083193286",
-   "name": "Mohamed‐Slim Alouini",
-   "orcid": "https://orcid.org/0000-0003-4827-1793",
-   "institution": "King Abdullah University of Science and Technology",
-   "country": "SA",
-   "h_index": 128,
-   "cited_by": 101734,
-   "works": 2413,
-   "expertise": [
-    "Advanced Wireless Communication Techniques",
-    "Optical Wireless Communication Technologies",
-    "Wireless Communication Networks Research",
-    "Advanced MIMO Systems Optimization",
-    "Cooperative Communication and Network Coding"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
-    "city-bim": 10
-   },
-   "recent": {
-    "city-bim": 67
    }
   },
   {
@@ -749,248 +240,11 @@
    ],
    "rank": {
     "remote-sensing": 6,
-    "geoai": 5
+    "geoai": 4
    },
    "recent": {
     "remote-sensing": 458,
     "geoai": 170
-   }
-  },
-  {
-   "id": "A5056145687",
-   "name": "Merouane Abdelkader Debbah",
-   "orcid": "https://orcid.org/0000-0001-8941-8080",
-   "institution": "Centre National de la Recherche Scientifique",
-   "country": "FR",
-   "h_index": 121,
-   "cited_by": 75767,
-   "works": 1658,
-   "expertise": [
-    "Advanced MIMO Systems Optimization",
-    "Advanced Wireless Communication Technologies",
-    "Millimeter-Wave Propagation and Modeling",
-    "Advanced Wireless Communication Techniques",
-    "Wireless Communication Networks Research"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
-    "city-bim": 13
-   },
-   "recent": {
-    "city-bim": 57
-   }
-  },
-  {
-   "id": "A5079346398",
-   "name": "R. Miquel",
-   "orcid": "https://orcid.org/0000-0002-6610-4836",
-   "institution": "University of Siena",
-   "country": "IT",
-   "h_index": 121,
-   "cited_by": 97343,
-   "works": 1557,
-   "expertise": [
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Cosmology and Gravitation Theories",
-    "Stellar, planetary, and galactic studies",
-    "Particle physics theoretical and experimental studies",
-    "Dark Matter and Cosmic Phenomena"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 6
-   },
-   "recent": {
-    "geodesy": 393
-   }
-  },
-  {
-   "id": "A5066010665",
-   "name": "Detlef Lohse",
-   "orcid": "https://orcid.org/0000-0003-4138-2255",
-   "institution": "Max Planck Society",
-   "country": "DE",
-   "h_index": 119,
-   "cited_by": 56267,
-   "works": 1432,
-   "expertise": [
-    "Fluid Dynamics and Turbulent Flows",
-    "Fluid Dynamics and Heat Transfer",
-    "Fluid Dynamics and Thin Films",
-    "Minerals Flotation and Separation Techniques",
-    "Particle Dynamics in Fluid Flows"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 12
-   },
-   "recent": {
-    "photogrammetry": 157
-   }
-  },
-  {
-   "id": "A5011635269",
-   "name": "J. García-Bellido",
-   "orcid": "https://orcid.org/0000-0002-9370-8360",
-   "institution": "University of Stuttgart",
-   "country": "DE",
-   "h_index": 119,
-   "cited_by": 65797,
-   "works": 1110,
-   "expertise": [
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Cosmology and Gravitation Theories",
-    "Dark Matter and Cosmic Phenomena",
-    "Stellar, planetary, and galactic studies",
-    "Astrophysical Phenomena and Observations"
-   ],
-   "fields": [
-    "photogrammetry",
-    "geodesy"
-   ],
-   "rank": {
-    "photogrammetry": 14,
-    "geodesy": 4
-   },
-   "recent": {
-    "photogrammetry": 153,
-    "geodesy": 421
-   }
-  },
-  {
-   "id": "A5065467022",
-   "name": "Benjamin Poulter",
-   "orcid": "https://orcid.org/0000-0002-9493-8600",
-   "institution": "California Institute of Technology",
-   "country": "US",
-   "h_index": 115,
-   "cited_by": 77192,
-   "works": 861,
-   "expertise": [
-    "Plant Water Relations and Carbon Dynamics",
-    "Atmospheric and Environmental Gas Dynamics",
-    "Climate variability and models",
-    "Soil Carbon and Nitrogen Dynamics",
-    "Peatlands and Wetlands Ecology"
-   ],
-   "fields": [
-    "remote-sensing"
-   ],
-   "rank": {
-    "remote-sensing": 15
-   },
-   "recent": {
-    "remote-sensing": 304
-   }
-  },
-  {
-   "id": "A5073332770",
-   "name": "Nuno C. Santos",
-   "orcid": "https://orcid.org/0000-0003-4422-2919",
-   "institution": "University of Lisbon",
-   "country": "PT",
-   "h_index": 114,
-   "cited_by": 49397,
-   "works": 1709,
-   "expertise": [
-    "Stellar, planetary, and galactic studies",
-    "Astronomy and Astrophysical Research",
-    "Astro and Planetary Science",
-    "Galaxies: Formation, Evolution, Phenomena",
-    "History and Developments in Astronomy"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 15
-   },
-   "recent": {
-    "geodesy": 326
-   }
-  },
-  {
-   "id": "A5062809181",
-   "name": "Ralf Stephan Klessen",
-   "orcid": "https://orcid.org/0000-0002-0560-3172",
-   "institution": "Harvard University",
-   "country": "US",
-   "h_index": 113,
-   "cited_by": 46512,
-   "works": 1202,
-   "expertise": [
-    "Astrophysics and Star Formation Studies",
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Stellar, planetary, and galactic studies",
-    "Astrophysical Phenomena and Observations",
-    "Astrophysics and Cosmic Phenomena"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 15
-   },
-   "recent": {
-    "photogrammetry": 155
-   }
-  },
-  {
-   "id": "A5041366168",
-   "name": "Sara Seager",
-   "orcid": "https://orcid.org/0000-0002-6892-6948",
-   "institution": "Massachusetts Institute of Technology",
-   "country": "US",
-   "h_index": 113,
-   "cited_by": 58902,
-   "works": 1579,
-   "expertise": [
-    "Stellar, planetary, and galactic studies",
-    "Astronomy and Astrophysical Research",
-    "Astro and Planetary Science",
-    "History and Developments in Astronomy",
-    "Space Science and Extraterrestrial Life"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 11
-   },
-   "recent": {
-    "geodesy": 379
-   }
-  },
-  {
-   "id": "A5058373808",
-   "name": "Jonathan Tennyson",
-   "orcid": "https://orcid.org/0000-0002-4994-5238",
-   "institution": "Centre National de la Recherche Scientifique",
-   "country": "FR",
-   "h_index": 109,
-   "cited_by": 72594,
-   "works": 1843,
-   "expertise": [
-    "Spectroscopy and Laser Applications",
-    "Molecular Spectroscopy and Structure",
-    "Advanced Chemical Physics Studies",
-    "Stellar, planetary, and galactic studies",
-    "Atomic and Molecular Physics"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 11
-   },
-   "recent": {
-    "photogrammetry": 170
    }
   },
   {
@@ -1015,66 +269,11 @@
    ],
    "rank": {
     "remote-sensing": 5,
-    "geoai": 13
+    "geoai": 11
    },
    "recent": {
     "remote-sensing": 546,
     "geoai": 124
-   }
-  },
-  {
-   "id": "A5062801348",
-   "name": "ENRIQUE GAZTAÑAGA",
-   "orcid": "https://orcid.org/0000-0001-9632-0815",
-   "institution": "Institute of Space Sciences",
-   "country": "ES",
-   "h_index": 107,
-   "cited_by": 63612,
-   "works": 1301,
-   "expertise": [
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Cosmology and Gravitation Theories",
-    "Stellar, planetary, and galactic studies",
-    "Dark Matter and Cosmic Phenomena",
-    "Astronomy and Astrophysical Research"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 10
-   },
-   "recent": {
-    "geodesy": 403
-   }
-  },
-  {
-   "id": "A5112525386",
-   "name": "Joshua N. Winn",
-   "orcid": "https://orcid.org/0000-0002-4265-047X",
-   "institution": "Princeton University",
-   "country": "US",
-   "h_index": 106,
-   "cited_by": 60668,
-   "works": 1386,
-   "expertise": [
-    "Stellar, planetary, and galactic studies",
-    "Astronomy and Astrophysical Research",
-    "Astro and Planetary Science",
-    "History and Developments in Astronomy",
-    "Galaxies: Formation, Evolution, Phenomena"
-   ],
-   "fields": [
-    "photogrammetry",
-    "geodesy"
-   ],
-   "rank": {
-    "photogrammetry": 18,
-    "geodesy": 8
-   },
-   "recent": {
-    "photogrammetry": 149,
-    "geodesy": 409
    }
   },
   {
@@ -1098,7 +297,7 @@
     "lidar"
    ],
    "rank": {
-    "remote-sensing": 16,
+    "remote-sensing": 15,
     "lidar": 18
    },
    "recent": {
@@ -1133,32 +332,6 @@
    }
   },
   {
-   "id": "A5027821782",
-   "name": "Gregory Tarlé",
-   "orcid": "https://orcid.org/0000-0003-1704-0781",
-   "institution": "California Institute of Technology",
-   "country": "US",
-   "h_index": 105,
-   "cited_by": 56290,
-   "works": 1082,
-   "expertise": [
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Cosmology and Gravitation Theories",
-    "Dark Matter and Cosmic Phenomena",
-    "Stellar, planetary, and galactic studies",
-    "Astrophysics and Cosmic Phenomena"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 14
-   },
-   "recent": {
-    "geodesy": 347
-   }
-  },
-  {
    "id": "A5033017179",
    "name": "Qian Du",
    "orcid": "https://orcid.org/0000-0001-8354-7500",
@@ -1180,7 +353,7 @@
    ],
    "rank": {
     "remote-sensing": 3,
-    "geoai": 8
+    "geoai": 6
    },
    "recent": {
     "remote-sensing": 630,
@@ -1235,37 +408,11 @@
    ],
    "rank": {
     "remote-sensing": 14,
-    "geoai": 15
+    "geoai": 13
    },
    "recent": {
     "remote-sensing": 338,
     "geoai": 120
-   }
-  },
-  {
-   "id": "A5055636814",
-   "name": "Eusebio Sanchez",
-   "orcid": "https://orcid.org/0000-0002-9646-8198",
-   "institution": "University of Illinois Urbana-Champaign",
-   "country": "US",
-   "h_index": 101,
-   "cited_by": 54460,
-   "works": 1076,
-   "expertise": [
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Cosmology and Gravitation Theories",
-    "Dark Matter and Cosmic Phenomena",
-    "Particle physics theoretical and experimental studies",
-    "Stellar, planetary, and galactic studies"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 18
-   },
-   "recent": {
-    "geodesy": 330
    }
   },
   {
@@ -1289,8 +436,8 @@
     "geoai"
    ],
    "rank": {
-    "remote-sensing": 18,
-    "geoai": 11
+    "remote-sensing": 16,
+    "geoai": 9
    },
    "recent": {
     "remote-sensing": 319,
@@ -1314,39 +461,16 @@
     "Forest Management and Policy"
    ],
    "fields": [
+    "photogrammetry",
     "lidar"
    ],
    "rank": {
+    "photogrammetry": 11,
     "lidar": 2
    },
    "recent": {
+    "photogrammetry": 109,
     "lidar": 352
-   }
-  },
-  {
-   "id": "A5088359901",
-   "name": "Keivan Guadalupe Stassun",
-   "orcid": "https://orcid.org/0000-0002-3481-9052",
-   "institution": "Vanderbilt University",
-   "country": "US",
-   "h_index": 99,
-   "cited_by": 53693,
-   "works": 1577,
-   "expertise": [
-    "Stellar, planetary, and galactic studies",
-    "Astronomy and Astrophysical Research",
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Astrophysics and Star Formation Studies",
-    "Astro and Planetary Science"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 9
-   },
-   "recent": {
-    "geodesy": 429
    }
   },
   {
@@ -1454,58 +578,6 @@
    }
   },
   {
-   "id": "A5010551501",
-   "name": "J. Carretero",
-   "orcid": "https://orcid.org/0000-0002-3130-0204",
-   "institution": "Universitat Autònoma de Barcelona",
-   "country": "ES",
-   "h_index": 93,
-   "cited_by": 38455,
-   "works": 1103,
-   "expertise": [
-    "Galaxies: Formation, Evolution, Phenomena",
-    "Cosmology and Gravitation Theories",
-    "Stellar, planetary, and galactic studies",
-    "Astronomy and Astrophysical Research",
-    "Dark Matter and Cosmic Phenomena"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 16
-   },
-   "recent": {
-    "geodesy": 375
-   }
-  },
-  {
-   "id": "A5042376064",
-   "name": "Lijing Shao",
-   "orcid": "https://orcid.org/0000-0002-1334-8853",
-   "institution": "Universidad de Guadalajara",
-   "country": "MX",
-   "h_index": 93,
-   "cited_by": 76079,
-   "works": 516,
-   "expertise": [
-    "Pulsars and Gravitational Waves Research",
-    "Astrophysical Phenomena and Observations",
-    "Gamma-ray bursts and supernovae",
-    "Cosmology and Gravitation Theories",
-    "Astrophysics and Cosmic Phenomena"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 17
-   },
-   "recent": {
-    "geodesy": 362
-   }
-  },
-  {
    "id": "A5068384981",
    "name": "Xiao Xiang Zhu",
    "orcid": "https://orcid.org/0000-0001-5530-3613",
@@ -1529,14 +601,14 @@
     "city-bim"
    ],
    "rank": {
-    "photogrammetry": 17,
+    "photogrammetry": 3,
     "remote-sensing": 2,
     "sar": 1,
     "geoai": 1,
-    "city-bim": 8
+    "city-bim": 7
    },
    "recent": {
-    "photogrammetry": 171,
+    "photogrammetry": 225,
     "remote-sensing": 731,
     "sar": 373,
     "geoai": 368,
@@ -1565,7 +637,7 @@
    ],
    "rank": {
     "remote-sensing": 11,
-    "geoai": 9
+    "geoai": 7
    },
    "recent": {
     "remote-sensing": 398,
@@ -1592,7 +664,7 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 16
+    "city-bim": 11
    },
    "recent": {
     "city-bim": 66
@@ -1615,12 +687,15 @@
     "Forest Management and Policy"
    ],
    "fields": [
+    "photogrammetry",
     "lidar"
    ],
    "rank": {
+    "photogrammetry": 2,
     "lidar": 1
    },
    "recent": {
+    "photogrammetry": 272,
     "lidar": 584
    }
   },
@@ -1641,39 +716,16 @@
     "Domain Adaptation and Few-Shot Learning"
    ],
    "fields": [
+    "remote-sensing",
     "geoai"
    ],
    "rank": {
-    "geoai": 18
+    "remote-sensing": 17,
+    "geoai": 16
    },
    "recent": {
+    "remote-sensing": 346,
     "geoai": 120
-   }
-  },
-  {
-   "id": "A5020877559",
-   "name": "James L. Burch",
-   "orcid": "https://orcid.org/0000-0003-0452-8403",
-   "institution": "Southwest Research Institute",
-   "country": "US",
-   "h_index": 84,
-   "cited_by": 34108,
-   "works": 1413,
-   "expertise": [
-    "Ionosphere and magnetosphere dynamics",
-    "Solar and Space Plasma Dynamics",
-    "Plasma Diagnostics and Applications",
-    "Magnetic confinement fusion research",
-    "Dust and Plasma Wave Phenomena"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 8
-   },
-   "recent": {
-    "photogrammetry": 212
    }
   },
   {
@@ -1696,10 +748,39 @@
     "geoai"
    ],
    "rank": {
-    "geoai": 14
+    "geoai": 12
    },
    "recent": {
     "geoai": 142
+   }
+  },
+  {
+   "id": "A5074919292",
+   "name": "Pedram Ghamisi",
+   "orcid": "https://orcid.org/0000-0003-1203-741X",
+   "institution": "University of Antwerp",
+   "country": "BE",
+   "h_index": 82,
+   "cited_by": 30802,
+   "works": 403,
+   "expertise": [
+    "Remote-Sensing Image Classification",
+    "Advanced Neural Network Applications",
+    "Advanced Image Fusion Techniques",
+    "Remote Sensing and Land Use",
+    "Spectroscopy and Chemometric Analyses"
+   ],
+   "fields": [
+    "remote-sensing",
+    "geoai"
+   ],
+   "rank": {
+    "remote-sensing": 18,
+    "geoai": 8
+   },
+   "recent": {
+    "remote-sensing": 354,
+    "geoai": 162
    }
   },
   {
@@ -1729,32 +810,6 @@
    }
   },
   {
-   "id": "A5074919292",
-   "name": "Pedram Ghamisi",
-   "orcid": "https://orcid.org/0000-0003-1203-741X",
-   "institution": "University of Antwerp",
-   "country": "BE",
-   "h_index": 82,
-   "cited_by": 30802,
-   "works": 403,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Advanced Neural Network Applications",
-    "Advanced Image Fusion Techniques",
-    "Remote Sensing and Land Use",
-    "Spectroscopy and Chemometric Analyses"
-   ],
-   "fields": [
-    "geoai"
-   ],
-   "rank": {
-    "geoai": 10
-   },
-   "recent": {
-    "geoai": 162
-   }
-  },
-  {
    "id": "A5100613889",
    "name": "Jonathan Li",
    "orcid": "https://orcid.org/0000-0001-7899-0049",
@@ -1776,37 +831,11 @@
    ],
    "rank": {
     "lidar": 5,
-    "geoai": 17
+    "geoai": 15
    },
    "recent": {
     "lidar": 275,
     "geoai": 135
-   }
-  },
-  {
-   "id": "A5070829177",
-   "name": "Nadhir Abbas Al-Ansari",
-   "orcid": "https://orcid.org/0000-0002-6790-2653",
-   "institution": "Luleå University of Technology",
-   "country": "SE",
-   "h_index": 79,
-   "cited_by": 26802,
-   "works": 946,
-   "expertise": [
-    "Hydrology and Watershed Management Studies",
-    "Hydrological Forecasting Using AI",
-    "Water resources management and optimization",
-    "Dam Engineering and Safety",
-    "Groundwater and Watershed Analysis"
-   ],
-   "fields": [
-    "remote-sensing"
-   ],
-   "rank": {
-    "remote-sensing": 17
-   },
-   "recent": {
-    "remote-sensing": 379
    }
   },
   {
@@ -1829,7 +858,7 @@
     "geoai"
    ],
    "rank": {
-    "geoai": 12
+    "geoai": 10
    },
    "recent": {
     "geoai": 159
@@ -1888,29 +917,55 @@
    }
   },
   {
-   "id": "A5084704941",
-   "name": "Wopke van der Werf",
-   "orcid": "https://orcid.org/0000-0002-5506-4699",
-   "institution": "Wageningen University & Research",
-   "country": "NL",
+   "id": "A5100754351",
+   "name": "Yanfei Zhong",
+   "orcid": "https://orcid.org/0000-0001-9446-5850",
+   "institution": "Wuhan University",
+   "country": "CN",
    "h_index": 74,
-   "cited_by": 22282,
-   "works": 998,
+   "cited_by": 19337,
+   "works": 550,
    "expertise": [
-    "Agricultural safety and regulations",
-    "Insect-Plant Interactions and Control",
-    "Insect behavior and control techniques",
-    "Agronomic Practices and Intercropping Systems",
-    "Phytoplasmas and Hemiptera pathogens"
+    "Remote-Sensing Image Classification",
+    "Remote Sensing and Land Use",
+    "Advanced Neural Network Applications",
+    "Advanced Image Fusion Techniques",
+    "Automated Road and Building Extraction"
    ],
    "fields": [
-    "geoinformatics"
+    "geoai"
    ],
    "rank": {
-    "geoinformatics": 3
+    "geoai": 17
    },
    "recent": {
-    "geoinformatics": 311
+    "geoai": 121
+   }
+  },
+  {
+   "id": "A5059663096",
+   "name": "Peter J. G. Teunissen",
+   "orcid": "https://orcid.org/0000-0003-4143-6006",
+   "institution": "Hong Kong Polytechnic University",
+   "country": "HK",
+   "h_index": 73,
+   "cited_by": 20046,
+   "works": 458,
+   "expertise": [
+    "Statistical and numerical algorithms",
+    "GNSS positioning and interference",
+    "Inertial Sensor and Navigation",
+    "Geodetic Measurements and Engineering Structures",
+    "Geophysics and Gravity Measurements"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 4
+   },
+   "recent": {
+    "geodesy": 188
    }
   },
   {
@@ -1941,7 +996,7 @@
   },
   {
    "id": "A5025841679",
-   "name": "Fabio Remondino A",
+   "name": "Fabio Remondino",
    "orcid": "https://orcid.org/0000-0001-6097-5342",
    "institution": "Fondazione Bruno Kessler",
    "country": "IT",
@@ -1964,14 +1019,43 @@
    "rank": {
     "photogrammetry": 1,
     "lidar": 3,
-    "geoai": 16,
-    "city-bim": 5
+    "geoai": 14,
+    "city-bim": 4
    },
    "recent": {
-    "photogrammetry": 557,
+    "photogrammetry": 558,
     "lidar": 423,
     "geoai": 159,
     "city-bim": 173
+   }
+  },
+  {
+   "id": "A5073032922",
+   "name": "Gui-Song Xia",
+   "orcid": "https://orcid.org/0000-0001-7660-6090",
+   "institution": "Wuhan University",
+   "country": "CN",
+   "h_index": 66,
+   "cited_by": 33352,
+   "works": 400,
+   "expertise": [
+    "Advanced Neural Network Applications",
+    "Remote-Sensing Image Classification",
+    "Advanced Image and Video Retrieval Techniques",
+    "Domain Adaptation and Few-Shot Learning",
+    "Image Retrieval and Classification Techniques"
+   ],
+   "fields": [
+    "photogrammetry",
+    "geoai"
+   ],
+   "rank": {
+    "photogrammetry": 7,
+    "geoai": 18
+   },
+   "recent": {
+    "photogrammetry": 155,
+    "geoai": 126
    }
   },
   {
@@ -2020,7 +1104,7 @@
     "geoai"
    ],
    "rank": {
-    "geoai": 6
+    "geoai": 5
    },
    "recent": {
     "geoai": 225
@@ -2079,6 +1163,32 @@
    }
   },
   {
+   "id": "A5035533740",
+   "name": "Jens Wickert",
+   "orcid": "https://orcid.org/0000-0002-7379-5276",
+   "institution": "University of Luxembourg",
+   "country": "LU",
+   "h_index": 64,
+   "cited_by": 13974,
+   "works": 683,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Ionosphere and magnetosphere dynamics",
+    "Geophysics and Gravity Measurements",
+    "Meteorological Phenomena and Simulations",
+    "Atmospheric Ozone and Climate"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 9
+   },
+   "recent": {
+    "geodesy": 171
+   }
+  },
+  {
    "id": "A5044033108",
    "name": "Mathias I. Disney",
    "orcid": "https://orcid.org/0000-0002-2407-4026",
@@ -2102,6 +1212,32 @@
    },
    "recent": {
     "lidar": 210
+   }
+  },
+  {
+   "id": "A5052926185",
+   "name": "Shuanggen Jin",
+   "orcid": "https://orcid.org/0000-0002-5108-4828",
+   "institution": "Anhui University",
+   "country": "CN",
+   "h_index": 62,
+   "cited_by": 12561,
+   "works": 676,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Geophysics and Gravity Measurements",
+    "Ionosphere and magnetosphere dynamics",
+    "Soil Moisture and Remote Sensing",
+    "earthquake and tectonic studies"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 2
+   },
+   "recent": {
+    "geodesy": 231
    }
   },
   {
@@ -2131,6 +1267,32 @@
    }
   },
   {
+   "id": "A5086428184",
+   "name": "George Vosselman",
+   "orcid": "https://orcid.org/0000-0001-8813-8028",
+   "institution": "International Institute for Geo-Information Science and Earth Observation",
+   "country": "NL",
+   "h_index": 60,
+   "cited_by": 14253,
+   "works": 352,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Automated Road and Building Extraction",
+    "3D Modeling in Geospatial Applications",
+    "Remote Sensing and LiDAR Applications",
+    "Advanced Neural Network Applications"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 12
+   },
+   "recent": {
+    "photogrammetry": 151
+   }
+  },
+  {
    "id": "A5043014786",
    "name": "Harri Kaartinen",
    "orcid": "https://orcid.org/0000-0002-4796-3942",
@@ -2157,6 +1319,32 @@
    }
   },
   {
+   "id": "A5043626547",
+   "name": "Oliver Montenbruck",
+   "orcid": "https://orcid.org/0000-0003-4783-745X",
+   "institution": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+   "country": "DE",
+   "h_index": 58,
+   "cited_by": 14584,
+   "works": 621,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Space Satellite Systems and Control",
+    "Spacecraft Dynamics and Control",
+    "Geophysics and Gravity Measurements",
+    "Statistical and numerical algorithms"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 14
+   },
+   "recent": {
+    "geodesy": 141
+   }
+  },
+  {
    "id": "A5081275712",
    "name": "Norbert Pfeifer",
    "orcid": "https://orcid.org/0000-0002-2348-7929",
@@ -2173,12 +1361,15 @@
     "Remote-Sensing Image Classification"
    ],
    "fields": [
+    "photogrammetry",
     "lidar"
    ],
    "rank": {
+    "photogrammetry": 4,
     "lidar": 4
    },
    "recent": {
+    "photogrammetry": 258,
     "lidar": 345
    }
   },
@@ -2202,10 +1393,62 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 4
+    "city-bim": 3
    },
    "recent": {
     "city-bim": 218
+   }
+  },
+  {
+   "id": "A5014145696",
+   "name": "Harald Schuh",
+   "orcid": "https://orcid.org/0000-0001-5443-0370",
+   "institution": "GFZ Helmholtz Centre for Geosciences",
+   "country": "DE",
+   "h_index": 55,
+   "cited_by": 14670,
+   "works": 1207,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Geophysics and Gravity Measurements",
+    "Statistical and numerical algorithms",
+    "Geophysics and Sensor Technology",
+    "Ionosphere and magnetosphere dynamics"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 1
+   },
+   "recent": {
+    "geodesy": 454
+   }
+  },
+  {
+   "id": "A5061833277",
+   "name": "Maorong Ge",
+   "orcid": "https://orcid.org/0000-0001-5679-1153",
+   "institution": "Chinese Academy of Sciences",
+   "country": "CN",
+   "h_index": 55,
+   "cited_by": 11053,
+   "works": 320,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Statistical and numerical algorithms",
+    "Geophysics and Gravity Measurements",
+    "earthquake and tectonic studies",
+    "Ionosphere and magnetosphere dynamics"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 5
+   },
+   "recent": {
+    "geodesy": 208
    }
   },
   {
@@ -2306,10 +1549,36 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 7
+    "city-bim": 6
    },
    "recent": {
     "city-bim": 144
+   }
+  },
+  {
+   "id": "A5053008757",
+   "name": "Uwe Stilla",
+   "orcid": "https://orcid.org/0000-0002-1184-0924",
+   "institution": "",
+   "country": "",
+   "h_index": 51,
+   "cited_by": 11836,
+   "works": 501,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Automated Road and Building Extraction",
+    "Synthetic Aperture Radar (SAR) Applications and Techniques",
+    "Satellite Image Processing and Photogrammetry",
+    "Remote Sensing and LiDAR Applications"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 9
+   },
+   "recent": {
+    "photogrammetry": 180
    }
   },
   {
@@ -2339,6 +1608,32 @@
    }
   },
   {
+   "id": "A5086407273",
+   "name": "Diego González‐Aguilera",
+   "orcid": "https://orcid.org/0000-0002-8949-4216",
+   "institution": "Universidad de Salamanca",
+   "country": "ES",
+   "h_index": 50,
+   "cited_by": 8393,
+   "works": 376,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "3D Modeling in Geospatial Applications",
+    "Geodetic Measurements and Engineering Structures",
+    "Pleistocene-Era Hominins and Archaeology",
+    "Satellite Image Processing and Photogrammetry"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 18
+   },
+   "recent": {
+    "photogrammetry": 139
+   }
+  },
+  {
    "id": "A5004682321",
    "name": "Kim Calders",
    "orcid": "https://orcid.org/0000-0002-4562-2538",
@@ -2362,6 +1657,58 @@
    },
    "recent": {
     "lidar": 279
+   }
+  },
+  {
+   "id": "A5065119769",
+   "name": "Samad M. E. Sepasgozar",
+   "orcid": "https://orcid.org/0000-0003-2568-3111",
+   "institution": "UNSW Sydney",
+   "country": "AU",
+   "h_index": 50,
+   "cited_by": 9183,
+   "works": 233,
+   "expertise": [
+    "BIM and Construction Integration",
+    "Construction Project Management and Performance",
+    "Technology Adoption and User Behaviour",
+    "3D Modeling in Geospatial Applications",
+    "Digital Transformation in Industry"
+   ],
+   "fields": [
+    "city-bim"
+   ],
+   "rank": {
+    "city-bim": 18
+   },
+   "recent": {
+    "city-bim": 79
+   }
+  },
+  {
+   "id": "A5100329153",
+   "name": "Wu Chen",
+   "orcid": "https://orcid.org/0000-0002-1787-5191",
+   "institution": "Beijing Institute of Technology",
+   "country": "CN",
+   "h_index": 50,
+   "cited_by": 9381,
+   "works": 731,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Inertial Sensor and Navigation",
+    "Statistical and numerical algorithms",
+    "Geophysics and Gravity Measurements",
+    "Ionosphere and magnetosphere dynamics"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 10
+   },
+   "recent": {
+    "geodesy": 184
    }
   },
   {
@@ -2391,6 +1738,32 @@
    }
   },
   {
+   "id": "A5101705110",
+   "name": "Jingnan Liu",
+   "orcid": "https://orcid.org/0000-0003-2614-9113",
+   "institution": "Wuhan University",
+   "country": "CN",
+   "h_index": 49,
+   "cited_by": 8741,
+   "works": 312,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Statistical and numerical algorithms",
+    "Inertial Sensor and Navigation",
+    "Geophysics and Gravity Measurements",
+    "earthquake and tectonic studies"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 16
+   },
+   "recent": {
+    "geodesy": 147
+   }
+  },
+  {
    "id": "A5012278795",
    "name": "Jantien Stoter",
    "orcid": "https://orcid.org/0000-0002-1393-7279",
@@ -2410,10 +1783,65 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 3
+    "city-bim": 2
    },
    "recent": {
     "city-bim": 256
+   }
+  },
+  {
+   "id": "A5100330113",
+   "name": "Xiaohong Zhang",
+   "orcid": "https://orcid.org/0000-0002-2763-2548",
+   "institution": "Hunan Institute of Science and Technology",
+   "country": "CN",
+   "h_index": 47,
+   "cited_by": 7630,
+   "works": 327,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Statistical and numerical algorithms",
+    "Ionosphere and magnetosphere dynamics",
+    "Inertial Sensor and Navigation",
+    "Earthquake Detection and Analysis"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 13
+   },
+   "recent": {
+    "geodesy": 161
+   }
+  },
+  {
+   "id": "A5014080291",
+   "name": "Sisi Zlatanova",
+   "orcid": "https://orcid.org/0000-0002-8766-0487",
+   "institution": "UNSW Sydney",
+   "country": "AU",
+   "h_index": 46,
+   "cited_by": 9930,
+   "works": 633,
+   "expertise": [
+    "3D Modeling in Geospatial Applications",
+    "Geographic Information Systems Studies",
+    "3D Surveying and Cultural Heritage",
+    "Urban Design and Spatial Analysis",
+    "Disaster Management and Resilience"
+   ],
+   "fields": [
+    "photogrammetry",
+    "city-bim"
+   ],
+   "rank": {
+    "photogrammetry": 14,
+    "city-bim": 1
+   },
+   "recent": {
+    "photogrammetry": 166,
+    "city-bim": 281
    }
   },
   {
@@ -2443,29 +1871,81 @@
    }
   },
   {
-   "id": "A5014080291",
-   "name": "Sisi Zlatanova B",
-   "orcid": "https://orcid.org/0000-0002-8766-0487",
-   "institution": "UNSW Sydney",
-   "country": "AU",
+   "id": "A5072456620",
+   "name": "Adrian Jäggi",
+   "orcid": "https://orcid.org/0000-0002-5624-3410",
+   "institution": "University of Bern",
+   "country": "CH",
    "h_index": 46,
-   "cited_by": 9930,
-   "works": 633,
+   "cited_by": 8107,
+   "works": 586,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Geophysics and Gravity Measurements",
+    "Statistical and numerical algorithms",
+    "Space Satellite Systems and Control",
+    "Spacecraft Dynamics and Control"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 8
+   },
+   "recent": {
+    "geodesy": 207
+   }
+  },
+  {
+   "id": "A5010833142",
+   "name": "Eija Honkavaara",
+   "orcid": "https://orcid.org/0000-0002-7236-2145",
+   "institution": "Finnish Geospatial Research Institute",
+   "country": "FI",
+   "h_index": 45,
+   "cited_by": 8648,
+   "works": 284,
+   "expertise": [
+    "Remote Sensing and LiDAR Applications",
+    "3D Surveying and Cultural Heritage",
+    "Satellite Image Processing and Photogrammetry",
+    "Remote Sensing in Agriculture",
+    "Remote-Sensing Image Classification"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 6
+   },
+   "recent": {
+    "photogrammetry": 203
+   }
+  },
+  {
+   "id": "A5109972324",
+   "name": "Peter J. M. van Oosterom",
+   "orcid": "https://orcid.org/0000-0003-3874-4737",
+   "institution": "Delft University of Technology",
+   "country": "NL",
+   "h_index": 44,
+   "cited_by": 8466,
+   "works": 668,
    "expertise": [
     "3D Modeling in Geospatial Applications",
     "Geographic Information Systems Studies",
+    "Data Management and Algorithms",
     "3D Surveying and Cultural Heritage",
-    "Urban Design and Spatial Analysis",
-    "Disaster Management and Resilience"
+    "Land Use and Management"
    ],
    "fields": [
     "city-bim"
    ],
    "rank": {
-    "city-bim": 1
+    "city-bim": 16
    },
    "recent": {
-    "city-bim": 281
+    "city-bim": 87
    }
   },
   {
@@ -2492,6 +1972,84 @@
    },
    "recent": {
     "sar": 344
+   }
+  },
+  {
+   "id": "A5055241681",
+   "name": "Qile Zhao",
+   "orcid": "https://orcid.org/0000-0003-3957-6376",
+   "institution": "Wuhan University",
+   "country": "CN",
+   "h_index": 43,
+   "cited_by": 7094,
+   "works": 279,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Statistical and numerical algorithms",
+    "Geophysics and Gravity Measurements",
+    "Space Satellite Systems and Control",
+    "Ionosphere and magnetosphere dynamics"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 6
+   },
+   "recent": {
+    "geodesy": 234
+   }
+  },
+  {
+   "id": "A5013877845",
+   "name": "Manuel Hernández Pajares",
+   "orcid": "https://orcid.org/0000-0002-9687-5850",
+   "institution": "Institut d'Estudis Espacials de Catalunya",
+   "country": "ES",
+   "h_index": 43,
+   "cited_by": 8290,
+   "works": 477,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Ionosphere and magnetosphere dynamics",
+    "Earthquake Detection and Analysis",
+    "Statistical and numerical algorithms",
+    "Solar and Space Plasma Dynamics"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 11
+   },
+   "recent": {
+    "geodesy": 190
+   }
+  },
+  {
+   "id": "A5035415910",
+   "name": "K. F. Zhang",
+   "orcid": "https://orcid.org/0000-0001-9376-1148",
+   "institution": "Kunming University of Science and Technology",
+   "country": "CN",
+   "h_index": 43,
+   "cited_by": 7230,
+   "works": 412,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Ionosphere and magnetosphere dynamics",
+    "Geophysics and Gravity Measurements",
+    "Meteorological Phenomena and Simulations",
+    "Earthquake Detection and Analysis"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 18
+   },
+   "recent": {
+    "geodesy": 151
    }
   },
   {
@@ -2547,6 +2105,32 @@
    }
   },
   {
+   "id": "A5072289333",
+   "name": "Yibin Yao",
+   "orcid": "https://orcid.org/0000-0002-7723-4601",
+   "institution": "Xi'an University of Science and Technology",
+   "country": "CN",
+   "h_index": 42,
+   "cited_by": 6932,
+   "works": 414,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Ionosphere and magnetosphere dynamics",
+    "Geophysics and Gravity Measurements",
+    "Statistical and numerical algorithms",
+    "Earthquake Detection and Analysis"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 7
+   },
+   "recent": {
+    "geodesy": 221
+   }
+  },
+  {
    "id": "A5059928575",
    "name": "Roderik Lindenbergh",
    "orcid": "https://orcid.org/0000-0001-8655-5266",
@@ -2570,6 +2154,84 @@
    },
    "recent": {
     "lidar": 256
+   }
+  },
+  {
+   "id": "A5101508917",
+   "name": "Xiaolin Meng",
+   "orcid": "https://orcid.org/0000-0003-2440-8054",
+   "institution": "Shanghai Jiao Tong University",
+   "country": "CN",
+   "h_index": 41,
+   "cited_by": 6294,
+   "works": 307,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Geodetic Measurements and Engineering Structures",
+    "Structural Health Monitoring Techniques",
+    "Statistical and numerical algorithms",
+    "Inertial Sensor and Navigation"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 17
+   },
+   "recent": {
+    "geodesy": 155
+   }
+  },
+  {
+   "id": "A5013633154",
+   "name": "Francesco Nex",
+   "orcid": "https://orcid.org/0000-0002-5712-6902",
+   "institution": "International Institute for Geo-Information Science and Earth Observation",
+   "country": "NL",
+   "h_index": 40,
+   "cited_by": 9716,
+   "works": 197,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Satellite Image Processing and Photogrammetry",
+    "Advanced Vision and Imaging",
+    "Robotics and Sensor-Based Localization",
+    "Remote-Sensing Image Classification"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 8
+   },
+   "recent": {
+    "photogrammetry": 205
+   }
+  },
+  {
+   "id": "A5101531305",
+   "name": "Yunbin Yuan",
+   "orcid": "https://orcid.org/0000-0001-5653-5950",
+   "institution": "Innovation Academy for Precision Measurement Science and Technology, CAS",
+   "country": "CN",
+   "h_index": 40,
+   "cited_by": 6029,
+   "works": 230,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Statistical and numerical algorithms",
+    "Ionosphere and magnetosphere dynamics",
+    "Geophysics and Gravity Measurements",
+    "Earthquake Detection and Analysis"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 12
+   },
+   "recent": {
+    "geodesy": 188
    }
   },
   {
@@ -2618,7 +2280,7 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 11
+    "city-bim": 8
    },
    "recent": {
     "city-bim": 127
@@ -2651,6 +2313,32 @@
    }
   },
   {
+   "id": "A5026452327",
+   "name": "Pierre Grussenmeyer",
+   "orcid": "https://orcid.org/0000-0002-7292-2755",
+   "institution": "Centre National de la Recherche Scientifique",
+   "country": "FR",
+   "h_index": 35,
+   "cited_by": 5525,
+   "works": 373,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "3D Modeling in Geospatial Applications",
+    "Image Processing and 3D Reconstruction",
+    "Satellite Image Processing and Photogrammetry",
+    "3D Shape Modeling and Analysis"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 13
+   },
+   "recent": {
+    "photogrammetry": 193
+   }
+  },
+  {
    "id": "A5035617766",
    "name": "Thomas H. Kolbe",
    "orcid": "https://orcid.org/0000-0003-1456-0423",
@@ -2670,36 +2358,114 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 6
+    "city-bim": 5
    },
    "recent": {
     "city-bim": 208
    }
   },
   {
-   "id": "A5040132433",
-   "name": "Roel P. J. Potting",
-   "orcid": "https://orcid.org/0000-0001-8331-9997",
-   "institution": "",
-   "country": "",
-   "h_index": 30,
-   "cited_by": 4288,
-   "works": 419,
+   "id": "A5055469319",
+   "name": "Krzysztof Sośnica",
+   "orcid": "https://orcid.org/0000-0001-6181-1307",
+   "institution": "Wrocław University of Environmental and Life Sciences",
+   "country": "PL",
+   "h_index": 34,
+   "cited_by": 3284,
+   "works": 371,
    "expertise": [
-    "Agricultural safety and regulations",
-    "Insect behavior and control techniques",
-    "Phytoplasmas and Hemiptera pathogens",
-    "Forest Insect Ecology and Management",
-    "Plant Pathogens and Fungal Diseases"
+    "GNSS positioning and interference",
+    "Geophysics and Gravity Measurements",
+    "Statistical and numerical algorithms",
+    "Space Satellite Systems and Control",
+    "Geophysics and Sensor Technology"
    ],
    "fields": [
-    "geoinformatics"
+    "geodesy"
    ],
    "rank": {
-    "geoinformatics": 6
+    "geodesy": 3
    },
    "recent": {
-    "geoinformatics": 307
+    "geodesy": 291
+   }
+  },
+  {
+   "id": "A5019208828",
+   "name": "Weiping Jiang",
+   "orcid": "https://orcid.org/0000-0002-3267-9682",
+   "institution": "Central South University",
+   "country": "CN",
+   "h_index": 33,
+   "cited_by": 4271,
+   "works": 292,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Geophysics and Gravity Measurements",
+    "Statistical and numerical algorithms",
+    "Geodetic Measurements and Engineering Structures",
+    "earthquake and tectonic studies"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 15
+   },
+   "recent": {
+    "geodesy": 182
+   }
+  },
+  {
+   "id": "A5024347284",
+   "name": "Fabio Menna",
+   "orcid": "https://orcid.org/0000-0002-5365-8813",
+   "institution": "University of Sassari",
+   "country": "IT",
+   "h_index": 32,
+   "cited_by": 4576,
+   "works": 149,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Satellite Image Processing and Photogrammetry",
+    "Optical measurement and interference techniques",
+    "Image Processing and 3D Reconstruction",
+    "Underwater Vehicles and Communication Systems"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 15
+   },
+   "recent": {
+    "photogrammetry": 198
+   }
+  },
+  {
+   "id": "A5017812815",
+   "name": "Rongjun Qin",
+   "orcid": "https://orcid.org/0000-0002-5896-1379",
+   "institution": "The Ohio State University",
+   "country": "US",
+   "h_index": 32,
+   "cited_by": 4522,
+   "works": 179,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Satellite Image Processing and Photogrammetry",
+    "Advanced Vision and Imaging",
+    "Remote-Sensing Image Classification",
+    "Remote Sensing and Land Use"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 17
+   },
+   "recent": {
+    "photogrammetry": 178
    }
   },
   {
@@ -2722,10 +2488,62 @@
     "geoinformatics"
    ],
    "rank": {
-    "geoinformatics": 5
+    "geoinformatics": 2
    },
    "recent": {
     "geoinformatics": 354
+   }
+  },
+  {
+   "id": "A5046775950",
+   "name": "Andrea Maria Lingua",
+   "orcid": "https://orcid.org/0000-0002-5930-2711",
+   "institution": "Politecnico di Torino",
+   "country": "IT",
+   "h_index": 28,
+   "cited_by": 3769,
+   "works": 376,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Satellite Image Processing and Photogrammetry",
+    "Geodetic Measurements and Engineering Structures",
+    "3D Modeling in Geospatial Applications",
+    "Robotics and Sensor-Based Localization"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 10
+   },
+   "recent": {
+    "photogrammetry": 228
+   }
+  },
+  {
+   "id": "A5047595231",
+   "name": "Filiberto Chiabrando",
+   "orcid": "https://orcid.org/0000-0002-4982-5236",
+   "institution": "Politecnico di Torino",
+   "country": "IT",
+   "h_index": 27,
+   "cited_by": 3314,
+   "works": 329,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Geodetic Measurements and Engineering Structures",
+    "3D Modeling in Geospatial Applications",
+    "Archaeological Research and Protection",
+    "Satellite Image Processing and Photogrammetry"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 5
+   },
+   "recent": {
+    "photogrammetry": 294
    }
   },
   {
@@ -2748,7 +2566,7 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 14
+    "city-bim": 9
    },
    "recent": {
     "city-bim": 139
@@ -2774,7 +2592,7 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 17
+    "city-bim": 12
    },
    "recent": {
     "city-bim": 123
@@ -2800,36 +2618,114 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 18
+    "city-bim": 13
    },
    "recent": {
     "city-bim": 121
    }
   },
   {
-   "id": "A5085563970",
-   "name": "Loso Judijanto",
-   "orcid": "https://orcid.org/0009-0007-7766-0647",
-   "institution": "Musamus Merauke University",
-   "country": "ID",
-   "h_index": 20,
-   "cited_by": 3629,
-   "works": 1906,
+   "id": "A5070342940",
+   "name": "Ken Arroyo Ohori",
+   "orcid": "https://orcid.org/0000-0002-9863-0152",
+   "institution": "University of Padua",
+   "country": "IT",
+   "h_index": 24,
+   "cited_by": 1769,
+   "works": 114,
    "expertise": [
-    "scientometrics and bibliometrics research",
-    "Oil Palm Production and Sustainability",
-    "Environmental Sustainability in Business",
-    "Islamic Finance and Banking Studies",
-    "Entrepreneurship Studies and Influences"
+    "3D Modeling in Geospatial Applications",
+    "Geographic Information Systems Studies",
+    "3D Surveying and Cultural Heritage",
+    "BIM and Construction Integration",
+    "Computational Geometry and Mesh Generation"
    ],
    "fields": [
-    "geoinformatics"
+    "city-bim"
    ],
    "rank": {
-    "geoinformatics": 4
+    "city-bim": 17
    },
    "recent": {
-    "geoinformatics": 469
+    "city-bim": 114
+   }
+  },
+  {
+   "id": "A5032699264",
+   "name": "Arnadi Murtiyoso",
+   "orcid": "https://orcid.org/0000-0002-3310-8937",
+   "institution": "Centre National de la Recherche Scientifique",
+   "country": "FR",
+   "h_index": 22,
+   "cited_by": 1697,
+   "works": 112,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "3D Shape Modeling and Analysis",
+    "3D Modeling in Geospatial Applications",
+    "Remote Sensing and LiDAR Applications",
+    "Image Processing and 3D Reconstruction"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 16
+   },
+   "recent": {
+    "photogrammetry": 224
+   }
+  },
+  {
+   "id": "A5000298644",
+   "name": "Giorgio Agugiaro",
+   "orcid": "https://orcid.org/0000-0002-2611-4650",
+   "institution": "Delft University of Technology",
+   "country": "NL",
+   "h_index": 20,
+   "cited_by": 1289,
+   "works": 133,
+   "expertise": [
+    "3D Modeling in Geospatial Applications",
+    "3D Surveying and Cultural Heritage",
+    "Geographic Information Systems Studies",
+    "Building Energy and Comfort Optimization",
+    "Smart Cities and Technologies"
+   ],
+   "fields": [
+    "city-bim"
+   ],
+   "rank": {
+    "city-bim": 14
+   },
+   "recent": {
+    "city-bim": 130
+   }
+  },
+  {
+   "id": "A5062866557",
+   "name": "Alias Abdul Rahman",
+   "orcid": "https://orcid.org/0000-0001-5263-8266",
+   "institution": "University of Technology Malaysia",
+   "country": "MY",
+   "h_index": 20,
+   "cited_by": 1849,
+   "works": 228,
+   "expertise": [
+    "3D Modeling in Geospatial Applications",
+    "Geographic Information Systems Studies",
+    "3D Surveying and Cultural Heritage",
+    "Geological Modeling and Analysis",
+    "Data Management and Algorithms"
+   ],
+   "fields": [
+    "city-bim"
+   ],
+   "rank": {
+    "city-bim": 15
+   },
+   "recent": {
+    "city-bim": 126
    }
   }
  ]
