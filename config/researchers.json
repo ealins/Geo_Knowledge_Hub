@@ -87,10 +87,11 @@
       "name": "Geoinformatics and spatial analysis",
       "blurb": "Spatial data infrastructure, geospatial analysis, mapping and GIS science.",
       "queries": [
-        "geoinformatics",
-        "spatial data infrastructure",
-        "geospatial analysis",
-        "geographic information science"
+        "geographic information system",
+        "GIS spatial analysis",
+        "volunteered geographic information",
+        "spatial data quality",
+        "geospatial data science"
       ]
     }
   ]

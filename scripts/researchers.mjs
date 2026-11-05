@@ -14,6 +14,13 @@ const GEO = /remote sensing|photogramm|lidar|laser scan|point cloud|synthetic ap
 const isGeo = (a) => (a.topics || []).slice(0, 8).some((t) => GEO.test(t.display_name || ""));
 // OpenAlex sometimes appends a disambiguating initial ("Fabio Remondino A").
 const cleanName = (n) => n.replace(/^(.+\S{3,}) [A-Z]$/, "$1");
+// The most recent affiliation by year; falls back to OpenAlex's last known institution.
+function currentInstitution(a) {
+  const best = (a.affiliations || []).map((x) => ({ x, last: Math.max(0, ...(x.years || [])), n: (x.years || []).length }))
+    .sort((p, q) => q.last - p.last || q.n - p.n)[0]?.x?.institution;
+  const li = a.last_known_institutions?.[0];
+  return { name: best?.display_name || li?.display_name || "", country: best?.country_code || li?.country_code || "" };
+}
 const idOf = (u) => String(u).replace("https://openalex.org/", "");
 
 async function activeAuthors(query) {
@@ -27,7 +34,7 @@ async function details(ids) {
   const out = new Map();
   for (let i = 0; i < ids.length; i += 50) {
     const chunk = ids.slice(i, i + 50);
-    const u = `${API}/authors?filter=openalex:${chunk.join("|")}&per_page=50&select=id,display_name,orcid,works_count,cited_by_count,summary_stats,last_known_institutions,topics`;
+    const u = `${API}/authors?filter=openalex:${chunk.join("|")}&per_page=50&select=id,display_name,orcid,works_count,cited_by_count,summary_stats,last_known_institutions,affiliations,topics`;
     const j = await json(u);
     for (const a of j.results || []) out.set(idOf(a.id), a);
     await new Promise((r) => setTimeout(r, 250));
@@ -64,8 +71,8 @@ for (const f of cfg.fields) {
   ranked.slice(0, cfg.per_field).forEach((r, i) => {
     const p = people.get(r.id) || {
       id: r.id, name: cleanName(r.a.display_name), orcid: r.a.orcid || "",
-      institution: r.a.last_known_institutions?.[0]?.display_name || "",
-      country: r.a.last_known_institutions?.[0]?.country_code || "",
+      institution: currentInstitution(r.a).name,
+      country: currentInstitution(r.a).country,
       h_index: r.h, cited_by: r.a.cited_by_count || 0, works: r.a.works_count || 0,
       expertise: (r.a.topics || []).slice(0, 5).map((t) => t.display_name),
       fields: [], rank: {},
