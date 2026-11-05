@@ -1,0 +1,45 @@
+name: Researchers
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekly, Monday 03:41 UTC. Rankings move slowly.
+    - cron: "41 3 * * 1"
+  push:
+    branches: [main]
+    paths: ["scripts/researchers.mjs", "config/researchers.json", ".github/workflows/researchers.yml"]
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: geo-radar-researchers
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Rank researchers (OpenAlex)
+        run: node scripts/researchers.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/researchers.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "researchers: refresh"
+            git pull --rebase origin main
+            git push
+            gh workflow run radar.yml --ref main || true
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
