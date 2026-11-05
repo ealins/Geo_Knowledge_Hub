@@ -84,3 +84,7 @@ h1{margin:0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings
 .tl-note{margin-top:9px;min-height:22px;font-size:13.5px;color:var(--hero-mute)}
 .tl-note a{color:var(--hero-text)}
 
+@media(max-width:560px){
+  .radar{max-width:300px;margin-top:12px}
+  #globe{max-width:300px}
+}
