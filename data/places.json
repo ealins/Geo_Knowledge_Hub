@@ -1199,6 +1199,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:53.923Z"
  },
+ "city|normanton|GB": {
+  "lat": 53.7,
+  "lon": -1.41667,
+  "city": "Normanton",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T19:45:29.414Z"
+ },
  "city|north london|GB": {
   "lat": 51.55317,
   "lon": -0.12257,
