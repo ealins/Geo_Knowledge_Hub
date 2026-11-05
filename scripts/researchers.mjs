@@ -65,6 +65,7 @@ for (const f of cfg.fields) {
     const a = info.get(id); if (!a) continue;
     const h = a.summary_stats?.h_index ?? 0;
     if (h < cfg.min_h_index || (a.works_count || 0) > cfg.max_works || !isGeo(a)) continue;
+    if (f.topic_filter && !(a.topics || []).slice(0, 3).some((t) => new RegExp(f.topic_filter, "i").test(t.display_name || ""))) continue;
     ranked.push({ id, a, n, h, score: n * (1 + h / 40) });
   }
   ranked.sort((x, y) => y.score - x.score);

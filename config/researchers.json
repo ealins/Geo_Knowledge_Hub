@@ -92,7 +92,8 @@
         "volunteered geographic information",
         "spatial data quality",
         "geospatial data science"
-      ]
+      ],
+      "topic_filter": "geographic information|GIS|geospatial|spatial|geovisual|cartograph|OpenStreetMap|volunteered|urban|3D city|land use|remote sensing"
     }
   ]
 }
