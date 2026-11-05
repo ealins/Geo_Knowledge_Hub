@@ -4,7 +4,7 @@ function heroIdle() { (hero.viz === "globe" ? hero.globeIdle : hero.radarIdle)?.
 function setViz(v) {
   hero.viz = v; write("geo-radar-viz", v);
   document.querySelectorAll(".viz-tabs [data-viz]").forEach(b => b.setAttribute("aria-selected", b.dataset.viz === v));
-  $("globe").toggleAttribute("hidden", v !== "globe"); $("radar").toggleAttribute("hidden", v !== "radar");
+  $("gbox").toggleAttribute("hidden", v !== "globe"); $("radar").toggleAttribute("hidden", v !== "radar");
   heroIdle(); globe.wake?.();
 }
 
@@ -53,7 +53,7 @@ function coordOf(it) {
   return (it._ll = [lo + hashN(it.id, 1) * s, la + hashN(it.id, 2) * s * 0.65]);
 }
 
-const globe = { pts: [], land: null, rot: [-12, -42, 0], wake: null };
+const globe = { pts: [], land: null, rot: [-12, -42, 0], wake: null, zoom: 1 };
 function renderGlobe(open) {
   const cv = $("globe");
   if (!window.d3?.geoOrthographic) { setViz("radar"); document.querySelector(".viz-tabs").hidden = true; return; }
@@ -71,12 +71,12 @@ function renderGlobe(open) {
   const proj = d3.geoOrthographic().clipAngle(90).precision(0.6);
   const path = d3.geoPath(proj, ctx), grat = d3.geoGraticule10();
   let W = 0, dpr = 1, raf = 0, last = 0, visible = true, hover = null, drag = null, t0 = performance.now();
-  function size() { const w = cv.clientWidth || 440; dpr = Math.min(2, devicePixelRatio || 1); W = w; cv.width = w * dpr; cv.height = w * dpr; proj.scale(w / 2 - 6).translate([w / 2, w / 2]); }
+  function size() { const w = cv.clientWidth || 440; dpr = Math.min(2, devicePixelRatio || 1); W = w; cv.width = w * dpr; cv.height = w * dpr; proj.scale((w / 2 - 6) * globe.zoom).translate([w / 2, w / 2]); }
   function frame(now) {
     raf = 0; const dt = Math.min(64, now - (last || now)); last = now;
     if (!drag && !hover && !reduce) globe.rot[0] += dt * 0.004;
     proj.rotate(globe.rot);
-    const c = W / 2, r = W / 2 - 6, sweep = reduce ? -Math.PI / 2 : ((now - t0) / 4200) * Math.PI * 2 - Math.PI / 2;
+    const c = W / 2, r = (W / 2 - 6) * globe.zoom, sweep = reduce ? -Math.PI / 2 : ((now - t0) / 4200) * Math.PI * 2 - Math.PI / 2;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, W);
     const g = ctx.createRadialGradient(c - r * 0.35, c - r * 0.4, r * 0.1, c, c, r);
     g.addColorStop(0, "#16324a"); g.addColorStop(1, "#0a1722");
@@ -112,10 +112,24 @@ function renderGlobe(open) {
     for (const [px, py, p] of globe.vis || []) { const d = Math.hypot(px - x, py - y); if (d < bd) { bd = d; best = p; } }
     return best;
   }
-  cv.addEventListener("pointerdown", e => { drag = { x: e.clientX, y: e.clientY, r: [...globe.rot], moved: false }; cv.setPointerCapture(e.pointerId); cv.classList.add("drag"); });
+  let lastZoom = 0;
+  const setZoom = z => { lastZoom = performance.now(); globe.zoom = Math.max(1, Math.min(8, z)); size(); cv.style.touchAction = globe.zoom > 1 ? "none" : "";
+    $("gzreset").hidden = globe.zoom === 1; $("gzin").disabled = globe.zoom >= 8; $("gzout").disabled = globe.zoom <= 1; wake(); if (reduce) frame(performance.now()); };
+  $("gzin").onclick = () => setZoom(globe.zoom * 1.6); $("gzout").onclick = () => setZoom(globe.zoom / 1.6);
+  $("gzreset").onclick = () => { globe.rot[1] = -30; setZoom(1); };
+  $("gzout").disabled = true;
+  cv.addEventListener("wheel", e => { if (!(e.ctrlKey || e.metaKey || globe.zoom > 1)) return; e.preventDefault(); setZoom(globe.zoom * (e.deltaY < 0 ? 1.15 : 1 / 1.15)); }, { passive: false });
+  const ptrs = new Map(); let pinch0 = null;
+  cv.addEventListener("pointerdown", e => { ptrs.set(e.pointerId, [e.clientX, e.clientY]); if (ptrs.size === 2) { const [a, b] = [...ptrs.values()]; pinch0 = { d: Math.hypot(a[0] - b[0], a[1] - b[1]), z: globe.zoom }; drag = null; } });
+  cv.addEventListener("pointermove", e => { if (!ptrs.has(e.pointerId)) return; ptrs.set(e.pointerId, [e.clientX, e.clientY]);
+    if (pinch0 && ptrs.size === 2) { const [a, b] = [...ptrs.values()]; setZoom(pinch0.z * Math.hypot(a[0] - b[0], a[1] - b[1]) / pinch0.d); } });
+  const endPtr = e => { ptrs.delete(e.pointerId); if (ptrs.size < 2) pinch0 = null; };
+  cv.addEventListener("pointerup", endPtr); cv.addEventListener("pointercancel", endPtr);
+  cv.addEventListener("pointerdown", e => { if (pinch0) return; drag = { x: e.clientX, y: e.clientY, r: [...globe.rot], moved: false }; cv.setPointerCapture(e.pointerId); cv.classList.add("drag"); });
   cv.addEventListener("pointermove", e => {
+    if (pinch0) return;
     if (drag) { const dx = e.clientX - drag.x, dy = e.clientY - drag.y; if (Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
-      globe.rot = [drag.r[0] + dx * 0.32, Math.max(-75, Math.min(75, drag.r[1] - dy * 0.32)), 0]; wake(); if (reduce) frame(performance.now()); return; }
+      const k = 0.32 / Math.sqrt(globe.zoom); globe.rot = [drag.r[0] + dx * k, Math.max(-75, Math.min(75, drag.r[1] - dy * k)), 0]; wake(); if (reduce) frame(performance.now()); return; }
     const p = pick(e); if (p !== hover) { hover = p; cv.classList.toggle("hit", !!p);
       if (p && p.sup) cap.innerHTML = `Supported by <b>${esc(p.sup.name)}</b>, ${esc(p.sup.city)}. Thank you.`;
       else if (p) { const d = p.it.deadline && Date.parse(p.it.deadline) >= Date.now() - 864e5 ? Math.max(0, dayLeft(p.it.deadline)) : null;
@@ -123,7 +137,7 @@ function renderGlobe(open) {
       else heroIdle();
       wake(); if (reduce) frame(performance.now()); }
   });
-  cv.addEventListener("pointerup", e => { const moved = drag?.moved; drag = null; cv.classList.remove("drag"); if (!moved) { const p = pick(e); const u = p && (p.sup ? p.sup.url : p.it.url); if (u) window.open(u, "_blank", "noopener"); } });
+  cv.addEventListener("pointerup", e => { const moved = drag?.moved; drag = null; cv.classList.remove("drag"); if (!moved && performance.now() - lastZoom > 500) { const p = pick(e); const u = p && (p.sup ? p.sup.url : p.it.url); if (u) window.open(u, "_blank", "noopener"); } });
   cv.addEventListener("pointerleave", () => { if (!drag && hover) { hover = null; cv.classList.remove("hit"); heroIdle(); wake(); } });
   new IntersectionObserver(es => { visible = es[0].isIntersecting; if (visible) wake(); }).observe(cv);
   document.addEventListener("visibilitychange", wake);

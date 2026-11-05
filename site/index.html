@@ -41,7 +41,14 @@
           <button role="tab" type="button" data-viz="globe" aria-selected="true" aria-controls="globe">Where</button>
           <button role="tab" type="button" data-viz="radar" aria-selected="false" aria-controls="radar">When</button>
         </div>
-        <canvas id="globe" role="img" aria-label="Globe with a pulse for every open position, programme and event that has a known place"></canvas>
+        <div id="gbox" class="gbox">
+          <canvas id="globe" role="img" aria-label="Globe with a pulse for every open position, programme and event that has a known place"></canvas>
+          <div class="gzoom" role="group" aria-label="Zoom the globe">
+            <button type="button" id="gzin" aria-label="Zoom in">+</button>
+            <button type="button" id="gzout" aria-label="Zoom out">&minus;</button>
+            <button type="button" id="gzreset" aria-label="Reset view" hidden>Reset</button>
+          </div>
+        </div>
         <svg id="radar" hidden viewBox="-46 -6 552 472" role="img" aria-labelledby="radar-t"><title id="radar-t">Deadlines in the next 60 days, by field</title></svg>
         <figcaption class="radar-cap" id="radarcap" aria-live="polite"></figcaption>
       </figure>

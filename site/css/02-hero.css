@@ -88,3 +88,12 @@ h1{margin:0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings
   .radar{max-width:300px;margin-top:12px}
   #globe{max-width:300px}
 }
+
+.gbox{position:relative;max-width:780px;margin:0 auto}
+.gbox[hidden]{display:none!important}
+.gzoom{position:absolute;right:6px;bottom:6px;display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.gzoom button{min-width:44px;height:44px;border-radius:12px;border:1px solid rgba(255,255,255,.22);background:rgba(10,23,34,.72);color:var(--hero-text);font:600 22px/1 var(--sans);cursor:pointer;backdrop-filter:blur(6px);touch-action:manipulation}
+.gzoom button:hover:not(:disabled){border-color:rgba(255,255,255,.5)}
+.gzoom button:disabled{opacity:.35;cursor:default}
+.gzoom #gzreset{font-size:12.5px;font-weight:500;padding:0 12px;height:34px;min-width:0}
+.gzoom #gzreset[hidden]{display:none}

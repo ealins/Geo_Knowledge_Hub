@@ -55,7 +55,7 @@ try { saved = new Set(JSON.parse(read(STORE.saved, "[]"))); } catch { saved = ne
 try { profile = { skills: [], levels: [], where: "", ...JSON.parse(read(STORE.profile, "{}")) }; } catch {}
 applyTheme(read(STORE.theme, "auto"));
 hero.viz = read("geo-radar-viz", "globe") === "radar" ? "radar" : "globe";
-try { $("globe").toggleAttribute("hidden", hero.viz !== "globe"); $("radar").toggleAttribute("hidden", hero.viz !== "radar"); document.querySelectorAll(".viz-tabs [data-viz]").forEach(b => b.setAttribute("aria-selected", b.dataset.viz === hero.viz)); } catch {}
+try { $("gbox").toggleAttribute("hidden", hero.viz !== "globe"); $("radar").toggleAttribute("hidden", hero.viz !== "radar"); document.querySelectorAll(".viz-tabs [data-viz]").forEach(b => b.setAttribute("aria-selected", b.dataset.viz === hero.viz)); } catch {}
 st.group = GROUPS.some(([k]) => k === read(STORE.group, "")) ? read(STORE.group, "") : "role";
 drawCloud();
 let cloudT = 0; addEventListener("resize", () => { clearTimeout(cloudT); cloudT = setTimeout(drawCloud, 150); });
