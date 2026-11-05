@@ -9,6 +9,11 @@ const cfg = JSON.parse(await readFile("config/researchers.json", "utf8"));
 const OUT = "data/researchers.json";
 const API = "https://api.openalex.org";
 const json = async (u) => JSON.parse(await fetchText(u));
+// An author must work on geodata: at least one of their main research topics has to match.
+const GEO = /remote sensing|photogramm|lidar|laser scan|point cloud|synthetic aperture|\bSAR\b|radar|geodes|GNSS|\bGPS\b|geospatial|geograph|\bGIS\b|spatial|surveying|earth observation|satellite|hyperspectral|multispectral|land (use|cover)|landslide|terrain|\bcity\b|urban|building information|\bBIM\b|cartograph|geoinformat|image (classification|fusion|segmentation)|change detection|altimetry|sea level|gravity|tectonic|geophys|navigation|positioning|3D model|digital twin/i;
+const isGeo = (a) => (a.topics || []).slice(0, 8).some((t) => GEO.test(t.display_name || ""));
+// OpenAlex sometimes appends a disambiguating initial ("Fabio Remondino A").
+const cleanName = (n) => n.replace(/^(.+\S{3,}) [A-Z]$/, "$1");
 const idOf = (u) => String(u).replace("https://openalex.org/", "");
 
 async function activeAuthors(query) {
@@ -52,13 +57,13 @@ for (const f of cfg.fields) {
   for (const [id, n] of byField[f.id]) {
     const a = info.get(id); if (!a) continue;
     const h = a.summary_stats?.h_index ?? 0;
-    if (h < cfg.min_h_index || (a.works_count || 0) > cfg.max_works) continue;
+    if (h < cfg.min_h_index || (a.works_count || 0) > cfg.max_works || !isGeo(a)) continue;
     ranked.push({ id, a, n, h, score: n * (1 + h / 40) });
   }
   ranked.sort((x, y) => y.score - x.score);
   ranked.slice(0, cfg.per_field).forEach((r, i) => {
     const p = people.get(r.id) || {
-      id: r.id, name: r.a.display_name, orcid: r.a.orcid || "",
+      id: r.id, name: cleanName(r.a.display_name), orcid: r.a.orcid || "",
       institution: r.a.last_known_institutions?.[0]?.display_name || "",
       country: r.a.last_known_institutions?.[0]?.country_code || "",
       h_index: r.h, cited_by: r.a.cited_by_count || 0, works: r.a.works_count || 0,

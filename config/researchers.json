@@ -5,21 +5,93 @@
   "min_h_index": 12,
   "max_works": 2500,
   "fields": [
-    { "id": "photogrammetry", "name": "Photogrammetry and 3D reconstruction", "blurb": "Image-based measurement, structure from motion, dense matching, UAV mapping.",
-      "queries": ["photogrammetry", "structure from motion", "dense image matching", "bundle adjustment"] },
-    { "id": "remote-sensing", "name": "Remote sensing and Earth observation", "blurb": "Satellite and airborne imaging, land cover, hyperspectral, Sentinel and Landsat.",
-      "queries": ["remote sensing", "earth observation satellite", "hyperspectral imaging", "land cover classification"] },
-    { "id": "sar", "name": "SAR and InSAR", "blurb": "Radar imaging, interferometry, deformation and surface change monitoring.",
-      "queries": ["synthetic aperture radar", "InSAR", "SAR interferometry", "radar remote sensing"] },
-    { "id": "lidar", "name": "LiDAR and point clouds", "blurb": "Airborne, mobile and terrestrial laser scanning and point cloud processing.",
-      "queries": ["LiDAR point cloud", "airborne laser scanning", "terrestrial laser scanning", "point cloud segmentation"] },
-    { "id": "geoai", "name": "GeoAI and machine learning", "blurb": "Deep learning for imagery and spatial data, geospatial foundation models.",
-      "queries": ["GeoAI", "deep learning remote sensing", "geospatial foundation model", "semantic segmentation aerial imagery"] },
-    { "id": "city-bim", "name": "3D city models, BIM and digital twins", "blurb": "CityGML, IFC, BIM-GIS integration, urban digital twins.",
-      "queries": ["CityGML", "3D city model", "BIM GIS integration", "urban digital twin"] },
-    { "id": "geodesy", "name": "Geodesy and GNSS", "blurb": "Positioning, reference frames, gravity field and sea level.",
-      "queries": ["geodesy", "GNSS positioning", "gravity field", "reference frame"] },
-    { "id": "geoinformatics", "name": "Geoinformatics and spatial analysis", "blurb": "Spatial data infrastructure, geospatial analysis, mapping and GIS science.",
-      "queries": ["geoinformatics", "spatial data infrastructure", "geospatial analysis", "geographic information science"] }
+    {
+      "id": "photogrammetry",
+      "name": "Photogrammetry and 3D reconstruction",
+      "blurb": "Image-based measurement, structure from motion, dense matching, UAV mapping.",
+      "queries": [
+        "photogrammetry",
+        "structure from motion photogrammetry",
+        "dense image matching",
+        "UAV photogrammetry"
+      ]
+    },
+    {
+      "id": "remote-sensing",
+      "name": "Remote sensing and Earth observation",
+      "blurb": "Satellite and airborne imaging, land cover, hyperspectral, Sentinel and Landsat.",
+      "queries": [
+        "remote sensing",
+        "earth observation satellite",
+        "hyperspectral imaging",
+        "land cover classification"
+      ]
+    },
+    {
+      "id": "sar",
+      "name": "SAR and InSAR",
+      "blurb": "Radar imaging, interferometry, deformation and surface change monitoring.",
+      "queries": [
+        "synthetic aperture radar",
+        "InSAR",
+        "SAR interferometry",
+        "radar remote sensing"
+      ]
+    },
+    {
+      "id": "lidar",
+      "name": "LiDAR and point clouds",
+      "blurb": "Airborne, mobile and terrestrial laser scanning and point cloud processing.",
+      "queries": [
+        "LiDAR point cloud",
+        "airborne laser scanning",
+        "terrestrial laser scanning",
+        "point cloud segmentation"
+      ]
+    },
+    {
+      "id": "geoai",
+      "name": "GeoAI and machine learning",
+      "blurb": "Deep learning for imagery and spatial data, geospatial foundation models.",
+      "queries": [
+        "GeoAI",
+        "deep learning remote sensing",
+        "geospatial foundation model",
+        "semantic segmentation aerial imagery"
+      ]
+    },
+    {
+      "id": "city-bim",
+      "name": "3D city models, BIM and digital twins",
+      "blurb": "CityGML, IFC, BIM-GIS integration, urban digital twins.",
+      "queries": [
+        "CityGML",
+        "3D city model",
+        "BIM GIS integration",
+        "urban digital twin"
+      ]
+    },
+    {
+      "id": "geodesy",
+      "name": "Geodesy and GNSS",
+      "blurb": "Positioning, reference frames, gravity field and sea level.",
+      "queries": [
+        "geodesy",
+        "GNSS positioning",
+        "satellite geodesy",
+        "geodetic reference frame"
+      ]
+    },
+    {
+      "id": "geoinformatics",
+      "name": "Geoinformatics and spatial analysis",
+      "blurb": "Spatial data infrastructure, geospatial analysis, mapping and GIS science.",
+      "queries": [
+        "geoinformatics",
+        "spatial data infrastructure",
+        "geospatial analysis",
+        "geographic information science"
+      ]
+    }
   ]
 }
