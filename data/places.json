@@ -1,0 +1,1390 @@
+{
+ "city|'s-hertogenbosch|NL": {
+  "lat": 51.69917,
+  "lon": 5.30417,
+  "city": "'s-Hertogenbosch",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.208Z"
+ },
+ "city|aag.org|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:50.236Z"
+ },
+ "city|aarau|CH": {
+  "lat": 47.39254,
+  "lon": 8.04422,
+  "city": "Aarau",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.526Z"
+ },
+ "city|albena bulgaria|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:57.449Z"
+ },
+ "city|alsfeld|DE": {
+  "lat": 50.75185,
+  "lon": 9.27082,
+  "city": "Alsfeld",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.291Z"
+ },
+ "city|altendorf|DE": {
+  "lat": 49.4055,
+  "lon": 12.28151,
+  "city": "Altendorf",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.389Z"
+ },
+ "city|amersfoort|NL": {
+  "lat": 52.155,
+  "lon": 5.3875,
+  "city": "Amersfoort",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:53.923Z"
+ },
+ "city|amsterdam|NL": {
+  "lat": 52.37403,
+  "lon": 4.88969,
+  "city": "Amsterdam",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.213Z"
+ },
+ "city|annaberg-buchholz|DE": {
+  "lat": 50.57953,
+  "lon": 13.00627,
+  "city": "Annaberg-Buchholz",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:46.425Z"
+ },
+ "city|asprs.org|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:56.263Z"
+ },
+ "city|assen|NL": {
+  "lat": 52.99667,
+  "lon": 6.5625,
+  "city": "Assen",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.231Z"
+ },
+ "city|basel|CH": {
+  "lat": 47.55839,
+  "lon": 7.57327,
+  "city": "Basel",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.078Z"
+ },
+ "city|bayreuth|DE": {
+  "lat": 49.94782,
+  "lon": 11.57893,
+  "city": "Bayreuth",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.001Z"
+ },
+ "city|beijing china|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:56.584Z"
+ },
+ "city|belle isle|GB": {
+  "lat": 53.76475,
+  "lon": -1.53036,
+  "city": "Belle Isle",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.471Z"
+ },
+ "city|bergheim|DE": {
+  "lat": 50.95572,
+  "lon": 6.63986,
+  "city": "Bergheim",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.114Z"
+ },
+ "city|berlin|": {
+  "lat": 52.52437,
+  "lon": 13.41053,
+  "city": "Berlin",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.802Z"
+ },
+ "city|berlin|DE": {
+  "lat": 52.52437,
+  "lon": 13.41053,
+  "city": "Berlin",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.297Z"
+ },
+ "city|bern|CH": {
+  "lat": 46.94809,
+  "lon": 7.44744,
+  "city": "Bern",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.059Z"
+ },
+ "city|bielefeld|DE": {
+  "lat": 52.03333,
+  "lon": 8.53333,
+  "city": "Bielefeld",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.314Z"
+ },
+ "city|bingen|DE": {
+  "lat": 48.11127,
+  "lon": 9.27238,
+  "city": "Bingen",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.389Z"
+ },
+ "city|birmingham|": {
+  "lat": 52.48142,
+  "lon": -1.89983,
+  "city": "Birmingham",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.971Z"
+ },
+ "city|blantyre|GB": {
+  "lat": 55.79634,
+  "lon": -4.09485,
+  "city": "Blantyre",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:53.011Z"
+ },
+ "city|bonn germany|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:56.858Z"
+ },
+ "city|braunschweig germany|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:56.566Z"
+ },
+ "city|bremgarten|CH": {
+  "lat": 47.35109,
+  "lon": 8.34214,
+  "city": "Bremgarten",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.054Z"
+ },
+ "city|bristol|GB": {
+  "lat": 51.45523,
+  "lon": -2.59665,
+  "city": "Bristol",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:53.626Z"
+ },
+ "city|buckinghamshire|GB": {
+  "miss": true,
+  "t": "2026-11-05T00:35:49.941Z"
+ },
+ "city|bützow|DE": {
+  "lat": 53.84133,
+  "lon": 11.98145,
+  "city": "Bützow",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.001Z"
+ },
+ "city|calenberger neustadt|DE": {
+  "lat": 52.37077,
+  "lon": 9.72863,
+  "city": "Calenberger Neustadt",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.647Z"
+ },
+ "city|cambridge|GB": {
+  "lat": 52.2,
+  "lon": 0.11667,
+  "city": "Cambridge",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:52.722Z"
+ },
+ "city|cardiff|GB": {
+  "lat": 51.48,
+  "lon": -3.18,
+  "city": "Cardiff",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.785Z"
+ },
+ "city|cartogis.org|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:50.526Z"
+ },
+ "city|central london|GB": {
+  "miss": true,
+  "t": "2026-11-05T00:35:49.961Z"
+ },
+ "city|chur|CH": {
+  "lat": 46.84986,
+  "lon": 9.53287,
+  "city": "Chur",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.058Z"
+ },
+ "city|cipaheritagedocumentation.org|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:51.429Z"
+ },
+ "city|darmstadt|DE": {
+  "lat": 49.87167,
+  "lon": 8.65027,
+  "city": "Darmstadt",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:46.710Z"
+ },
+ "city|datteln|DE": {
+  "lat": 51.65598,
+  "lon": 7.3453,
+  "city": "Datteln",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.584Z"
+ },
+ "city|de berg|NL": {
+  "lat": 52.80333,
+  "lon": 6.10139,
+  "city": "De Berg",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.213Z"
+ },
+ "city|delft the netherlands|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:57.152Z"
+ },
+ "city|delft university of technology|NL": {
+  "miss": true,
+  "t": "2026-11-05T00:35:59.125Z"
+ },
+ "city|delft|NL": {
+  "lat": 52.00667,
+  "lon": 4.35556,
+  "city": "Delft",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:53.918Z"
+ },
+ "city|denver|US": {
+  "lat": 39.73915,
+  "lon": -104.9847,
+  "city": "Denver",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:35:50.843Z"
+ },
+ "city|didcot|GB": {
+  "lat": 51.60928,
+  "lon": -1.24214,
+  "city": "Didcot",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.407Z"
+ },
+ "city|döbeln|DE": {
+  "lat": 51.1221,
+  "lon": 13.11027,
+  "city": "Döbeln",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.936Z"
+ },
+ "city|dortmund|DE": {
+  "lat": 51.51494,
+  "lon": 7.466,
+  "city": "Dortmund",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:46.053Z"
+ },
+ "city|dresden|DE": {
+  "lat": 51.05089,
+  "lon": 13.73832,
+  "city": "Dresden",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.295Z"
+ },
+ "city|düsseldorf|DE": {
+  "lat": 51.22319,
+  "lon": 6.77927,
+  "city": "Düsseldorf",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:50.824Z"
+ },
+ "city|earsel.org|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:56.269Z"
+ },
+ "city|earthobservations.org|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:50.820Z"
+ },
+ "city|edinburgh|GB": {
+  "lat": 55.95206,
+  "lon": -3.19648,
+  "city": "Edinburgh",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.466Z"
+ },
+ "city|egnach|CH": {
+  "lat": 47.54268,
+  "lon": 9.38048,
+  "city": "Egnach",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:51.705Z"
+ },
+ "city|enschede|": {
+  "lat": 52.21833,
+  "lon": 6.89583,
+  "city": "Enschede",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:36:01.178Z"
+ },
+ "city|eratosthenes.org.cy|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:51.136Z"
+ },
+ "city|esip.org|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:50.531Z"
+ },
+ "city|espoo|": {
+  "lat": 60.2052,
+  "lon": 24.6522,
+  "city": "Espoo",
+  "cc": "FI",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.802Z"
+ },
+ "city|exeter|": {
+  "lat": 50.7236,
+  "lon": -3.52751,
+  "city": "Exeter",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:36:01.834Z"
+ },
+ "city|faridabad india|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:56.853Z"
+ },
+ "city|frankfurt am main|DE": {
+  "lat": 50.11552,
+  "lon": 8.68417,
+  "city": "Frankfurt am Main",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.648Z"
+ },
+ "city|freiburg im breisgau|DE": {
+  "lat": 47.9959,
+  "lon": 7.85222,
+  "city": "Freiburg im Breisgau",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:46.726Z"
+ },
+ "city|frieze hill|GB": {
+  "lat": 51.02181,
+  "lon": -3.11584,
+  "city": "Frieze Hill",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.470Z"
+ },
+ "city|geo-week.com|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:50.236Z"
+ },
+ "city|geoforum.no|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:52.718Z"
+ },
+ "city|geoinformatienederland.nl|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:55.976Z"
+ },
+ "city|gim-international.com|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:55.994Z"
+ },
+ "city|glasgow|": {
+  "lat": 55.86515,
+  "lon": -4.25763,
+  "city": "Glasgow",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:45.610Z"
+ },
+ "city|gogeomatics.ca|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:50.548Z"
+ },
+ "city|göppingen|": {
+  "lat": 48.70354,
+  "lon": 9.65209,
+  "city": "Göppingen",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.700Z"
+ },
+ "city|gorinchem|NL": {
+  "lat": 51.83652,
+  "lon": 4.97243,
+  "city": "Gorinchem",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.503Z"
+ },
+ "city|gremmendorf|DE": {
+  "lat": 51.92892,
+  "lon": 7.67421,
+  "city": "Gremmendorf",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:46.432Z"
+ },
+ "city|groningen|NL": {
+  "lat": 53.21917,
+  "lon": 6.56667,
+  "city": "Groningen",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:52.722Z"
+ },
+ "city|guys cliffe|GB": {
+  "lat": 52.29638,
+  "lon": -1.57675,
+  "city": "Guys Cliffe",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:53.621Z"
+ },
+ "city|hafencity|DE": {
+  "lat": 53.54156,
+  "lon": 9.99328,
+  "city": "HafenCity",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.876Z"
+ },
+ "city|handschuhsheim|DE": {
+  "lat": 49.42705,
+  "lon": 8.68468,
+  "city": "Handschuhsheim",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.881Z"
+ },
+ "city|hannover|DE": {
+  "lat": 52.37052,
+  "lon": 9.73322,
+  "city": "Hanover",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:46.076Z"
+ },
+ "city|havant|GB": {
+  "lat": 50.8567,
+  "lon": -0.98559,
+  "city": "Havant",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:51.412Z"
+ },
+ "city|heidenheim an der brenz|DE": {
+  "lat": 48.67798,
+  "lon": 10.15162,
+  "city": "Heidenheim",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:50.255Z"
+ },
+ "city|hertfordshire|GB": {
+  "miss": true,
+  "t": "2026-11-05T00:35:53.645Z"
+ },
+ "city|herzberg am harz|": {
+  "lat": 51.65546,
+  "lon": 10.33938,
+  "city": "Herzberg am Harz",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.682Z"
+ },
+ "city|hft stuttgart|DE": {
+  "miss": true,
+  "t": "2026-11-05T00:36:01.154Z"
+ },
+ "city|horgen|CH": {
+  "lat": 47.25983,
+  "lon": 8.59778,
+  "city": "Horgen",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.508Z"
+ },
+ "city|iag-aig.org|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:50.530Z"
+ },
+ "city|itzehoe|DE": {
+  "lat": 53.92099,
+  "lon": 9.51529,
+  "city": "Itzehoe",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.642Z"
+ },
+ "city|jena|DE": {
+  "lat": 50.92878,
+  "lon": 11.5899,
+  "city": "Jena",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.819Z"
+ },
+ "city|karabük türkiye|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:56.567Z"
+ },
+ "city|karlsruhe institute of technology|DE": {
+  "miss": true,
+  "t": "2026-11-05T00:35:59.687Z"
+ },
+ "city|köln|DE": {
+  "lat": 50.93333,
+  "lon": 6.95,
+  "city": "Cologne",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:46.704Z"
+ },
+ "city|konya türkiye|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:57.471Z"
+ },
+ "city|kreuzberg|DE": {
+  "lat": 52.49973,
+  "lon": 13.40338,
+  "city": "Kreuzberg",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.095Z"
+ },
+ "city|leavesden|GB": {
+  "lat": 51.69482,
+  "lon": -0.40718,
+  "city": "Leavesden Green",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.177Z"
+ },
+ "city|leeds|GB": {
+  "lat": 53.79648,
+  "lon": -1.54785,
+  "city": "Leeds",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.762Z"
+ },
+ "city|leeuwarden|NL": {
+  "lat": 53.20271,
+  "lon": 5.80973,
+  "city": "Leeuwarden",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.767Z"
+ },
+ "city|lehrte|DE": {
+  "lat": 52.37193,
+  "lon": 9.97919,
+  "city": "Lehrte",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.796Z"
+ },
+ "city|leipzig|DE": {
+  "lat": 51.33962,
+  "lon": 12.37129,
+  "city": "Leipzig",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:54.508Z"
+ },
+ "city|liestal|CH": {
+  "lat": 47.48455,
+  "lon": 7.73446,
+  "city": "Liestal",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:51.723Z"
+ },
+ "city|limerick|": {
+  "lat": 52.66472,
+  "lon": -8.62306,
+  "city": "Limerick",
+  "cc": "IE",
+  "src": "city",
+  "t": "2026-11-05T00:36:01.519Z"
+ },
+ "city|london|": {
+  "lat": 51.50853,
+  "lon": -0.12574,
+  "city": "London",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:36:01.510Z"
+ },
+ "city|london|GB": {
+  "lat": 51.50853,
+  "lon": -0.12574,
+  "city": "London",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.195Z"
+ },
+ "city|ludwigsvorstadt-isarvorstadt|DE": {
+  "miss": true,
+  "t": "2026-11-05T00:35:55.094Z"
+ },
+ "city|magdeburg|DE": {
+  "lat": 52.13129,
+  "lon": 11.63189,
+  "city": "Magdeburg",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:46.709Z"
+ },
+ "city|mountain view|US": {
+  "lat": 35.86841,
+  "lon": -92.11765,
+  "city": "Mountain View",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.089Z"
+ },
+ "city|münchen|DE": {
+  "lat": 48.13743,
+  "lon": 11.57549,
+  "city": "Munich",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.607Z"
+ },
+ "city|münster|DE": {
+  "lat": 51.96236,
+  "lon": 7.62571,
+  "city": "Münster",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.665Z"
+ },
+ "city|muttenz|CH": {
+  "lat": 47.52271,
+  "lon": 7.64511,
+  "city": "Muttenz",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.353Z"
+ },
+ "city|nijeveen|NL": {
+  "lat": 52.73333,
+  "lon": 6.16806,
+  "city": "Nijeveen",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:53.923Z"
+ },
+ "city|north london|GB": {
+  "lat": 51.55317,
+  "lon": -0.12257,
+  "city": "North London",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.489Z"
+ },
+ "city|norwich|": {
+  "lat": 52.62783,
+  "lon": 1.29834,
+  "city": "Norwich",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:36:01.859Z"
+ },
+ "city|nottingham|GB": {
+  "lat": 52.9536,
+  "lon": -1.15047,
+  "city": "Nottingham",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.172Z"
+ },
+ "city|oxford|": {
+  "lat": 51.75222,
+  "lon": -1.25596,
+  "city": "Oxford",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:51.992Z"
+ },
+ "city|pennsylvania state university|US": {
+  "lat": 40.71201,
+  "lon": -77.88278,
+  "city": "Pennsylvania State University Recreation Are",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:36:00.298Z"
+ },
+ "city|peterborough|GB": {
+  "lat": 52.57364,
+  "lon": -0.24777,
+  "city": "Peterborough",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:53.626Z"
+ },
+ "city|peterstal|DE": {
+  "lat": 49.44281,
+  "lon": 8.75237,
+  "city": "Peterstal",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.384Z"
+ },
+ "city|portsmouth|GB": {
+  "lat": 50.79899,
+  "lon": -1.09125,
+  "city": "Portsmouth",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.942Z"
+ },
+ "city|potsdam|": {
+  "lat": 52.39886,
+  "lon": 13.06566,
+  "city": "Potsdam",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:56.292Z"
+ },
+ "city|potsdam|DE": {
+  "lat": 52.39886,
+  "lon": 13.06566,
+  "city": "Potsdam",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.902Z"
+ },
+ "city|purdue university west lafayette|US": {
+  "miss": true,
+  "t": "2026-11-05T00:35:58.828Z"
+ },
+ "city|radolfzell am bodensee|DE": {
+  "miss": true,
+  "t": "2026-11-05T00:35:46.996Z"
+ },
+ "city|ravensburg|DE": {
+  "lat": 47.78198,
+  "lon": 9.61062,
+  "city": "Ravensburg",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:51.113Z"
+ },
+ "city|riederich|DE": {
+  "lat": 48.56029,
+  "lon": 9.26883,
+  "city": "Riederich",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:52.740Z"
+ },
+ "city|rome italy|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:57.444Z"
+ },
+ "city|rspsoc.org.uk|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:55.976Z"
+ },
+ "city|sachsenhausen|DE": {
+  "lat": 51.24338,
+  "lon": 9.00973,
+  "city": "Sachsenhausen",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.589Z"
+ },
+ "city|salt lake city|": {
+  "lat": 40.76078,
+  "lon": -111.89105,
+  "city": "Salt Lake City",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:35:57.152Z"
+ },
+ "city|san jose|US": {
+  "lat": 37.33939,
+  "lon": -121.89496,
+  "city": "San Jose",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:35:50.825Z"
+ },
+ "city|sankt gallen|CH": {
+  "lat": 47.42391,
+  "lon": 9.37477,
+  "city": "St. Gallen",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:50.231Z"
+ },
+ "city|st paul's|GB": {
+  "lat": 51.51466,
+  "lon": -0.09832,
+  "city": "St Paul's",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:51.699Z"
+ },
+ "city|stirling|": {
+  "lat": 56.11903,
+  "lon": -3.93682,
+  "city": "Stirling",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:51.406Z"
+ },
+ "city|stuttgart germany|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:57.173Z"
+ },
+ "city|stuttgart|": {
+  "lat": 48.78232,
+  "lon": 9.17702,
+  "city": "Stuttgart",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:55.676Z"
+ },
+ "city|suva fiji islands|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:56.876Z"
+ },
+ "city|swedish university of agricultural sciences|SE": {
+  "miss": true,
+  "t": "2026-11-05T00:35:58.536Z"
+ },
+ "city|tainan chinese taipei|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:57.148Z"
+ },
+ "city|tu wien|AT": {
+  "miss": true,
+  "t": "2026-11-05T00:36:00.275Z"
+ },
+ "city|universitat autònoma de barcelona|ES": {
+  "miss": true,
+  "t": "2026-11-05T00:35:58.804Z"
+ },
+ "city|university of arizona|US": {
+  "lat": 33.0741,
+  "lon": -111.98262,
+  "city": "U of A Maricopa Ag Center Airport",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:35:58.512Z"
+ },
+ "city|university of bristol|GB": {
+  "miss": true,
+  "t": "2026-11-05T00:36:00.568Z"
+ },
+ "city|university of british columbia|CA": {
+  "lat": 49.26418,
+  "lon": -123.239,
+  "city": "University of British Columbia",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-05T00:35:57.741Z"
+ },
+ "city|university of calgary|CA": {
+  "miss": true,
+  "t": "2026-11-05T00:36:00.884Z"
+ },
+ "city|university of california|US": {
+  "lat": 32.88477,
+  "lon": -117.2342,
+  "city": "University of California San Diego Park",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:36:00.005Z"
+ },
+ "city|university of copenhagen|DK": {
+  "miss": true,
+  "t": "2026-11-05T00:36:00.592Z"
+ },
+ "city|university of exeter|GB": {
+  "miss": true,
+  "t": "2026-11-05T00:35:59.981Z"
+ },
+ "city|university of florida|US": {
+  "lat": 29.64413,
+  "lon": -82.35288,
+  "city": "University of Florida Heliport",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:35:59.393Z"
+ },
+ "city|university of maine|US": {
+  "lat": 44.8984,
+  "lon": -68.67253,
+  "city": "University of Maine at Orono Historic District",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:35:51.118Z"
+ },
+ "city|university of maryland|US": {
+  "lat": 39.29037,
+  "lon": -76.62529,
+  "city": "University Of Maryland",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-05T00:35:59.418Z"
+ },
+ "city|university of milan|IT": {
+  "miss": true,
+  "t": "2026-11-05T00:35:59.097Z"
+ },
+ "city|university of potsdam|DE": {
+  "miss": true,
+  "t": "2026-11-05T00:36:00.860Z"
+ },
+ "city|university of southampton|GB": {
+  "miss": true,
+  "t": "2026-11-05T00:35:52.016Z"
+ },
+ "city|university of twente|NL": {
+  "miss": true,
+  "t": "2026-11-05T00:35:45.780Z"
+ },
+ "city|university of wisconsin–madison|US": {
+  "miss": true,
+  "t": "2026-11-05T00:35:59.712Z"
+ },
+ "city|uster|CH": {
+  "lat": 47.34713,
+  "lon": 8.72091,
+  "city": "Uster",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.348Z"
+ },
+ "city|venlo|NL": {
+  "lat": 51.37,
+  "lon": 6.16806,
+  "city": "Venlo",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.767Z"
+ },
+ "city|vienna austria|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:56.858Z"
+ },
+ "city|vienna|": {
+  "lat": 48.20849,
+  "lon": 16.37208,
+  "city": "Vienna",
+  "cc": "AT",
+  "src": "city",
+  "t": "2026-11-05T00:35:56.561Z"
+ },
+ "city|voorhout|NL": {
+  "lat": 52.22167,
+  "lon": 4.48472,
+  "city": "Voorhout",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-05T00:35:53.938Z"
+ },
+ "city|wageningen university & research|NL": {
+  "miss": true,
+  "t": "2026-11-05T00:35:57.765Z"
+ },
+ "city|warsaw poland|": {
+  "miss": true,
+  "t": "2026-11-05T00:35:57.449Z"
+ },
+ "city|weimar|DE": {
+  "lat": 50.9803,
+  "lon": 11.32903,
+  "city": "Weimar",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.590Z"
+ },
+ "city|west hampstead|GB": {
+  "lat": 51.54904,
+  "lon": -0.19141,
+  "city": "West Hampstead",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T00:35:48.177Z"
+ },
+ "city|wiesbaden|DE": {
+  "lat": 50.08601,
+  "lon": 8.24435,
+  "city": "Wiesbaden",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-05T00:35:47.020Z"
+ },
+ "city|zürich|CH": {
+  "lat": 47.36667,
+  "lon": 8.55,
+  "city": "Zurich",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-05T00:35:49.372Z"
+ },
+ "ror|birmingham city university|": {
+  "lat": 52.48142,
+  "lon": -1.89983,
+  "city": "Birmingham",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:35:55.664Z"
+ },
+ "ror|delft university of technology|NL": {
+  "lat": 52.00667,
+  "lon": 4.35556,
+  "city": "Delft",
+  "cc": "NL",
+  "src": "ror",
+  "t": "2026-11-05T00:35:59.091Z"
+ },
+ "ror|eth zurich jobs|": {
+  "lat": 47.36667,
+  "lon": 8.55,
+  "city": "Zurich",
+  "cc": "CH",
+  "src": "ror",
+  "t": "2026-11-05T00:35:53.001Z"
+ },
+ "ror|eth zürich|CH": {
+  "lat": 47.36667,
+  "lon": 8.55,
+  "city": "Zurich",
+  "cc": "CH",
+  "src": "ror",
+  "t": "2026-11-05T00:35:51.688Z"
+ },
+ "ror|fachhochschule nordwestschweiz fhnw|CH": {
+  "lat": 47.47899,
+  "lon": 8.21842,
+  "city": "Windisch",
+  "cc": "CH",
+  "src": "ror",
+  "t": "2026-11-05T00:35:49.336Z"
+ },
+ "ror|gfz helmholtz centre for geosciences|": {
+  "lat": 52.39886,
+  "lon": 13.06566,
+  "city": "Potsdam",
+  "cc": "DE",
+  "src": "ror",
+  "t": "2026-11-05T00:35:56.251Z"
+ },
+ "ror|gfz helmholtz-zentrum für geoforschung|DE": {
+  "lat": 52.39886,
+  "lon": 13.06566,
+  "city": "Potsdam",
+  "cc": "DE",
+  "src": "ror",
+  "t": "2026-11-05T00:35:47.865Z"
+ },
+ "ror|hft stuttgart|DE": {
+  "miss": true,
+  "t": "2026-11-05T00:36:01.138Z"
+ },
+ "ror|karlsruhe institute of technology|DE": {
+  "lat": 49.00937,
+  "lon": 8.40444,
+  "city": "Karlsruhe",
+  "cc": "DE",
+  "src": "ror",
+  "t": "2026-11-05T00:35:59.675Z"
+ },
+ "ror|lund university vacancies|": {
+  "lat": 55.70584,
+  "lon": 13.19321,
+  "city": "Lund",
+  "cc": "SE",
+  "src": "ror",
+  "t": "2026-11-05T00:35:53.352Z"
+ },
+ "ror|pennsylvania state university|US": {
+  "lat": 40.79339,
+  "lon": -77.86,
+  "city": "State College",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-05T00:36:00.268Z"
+ },
+ "ror|purdue university west lafayette|US": {
+  "lat": 40.42587,
+  "lon": -86.90807,
+  "city": "West Lafayette",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-05T00:35:58.796Z"
+ },
+ "ror|swedish university of agricultural sciences|SE": {
+  "lat": 59.85882,
+  "lon": 17.63889,
+  "city": "Uppsala",
+  "cc": "SE",
+  "src": "ror",
+  "t": "2026-11-05T00:35:58.504Z"
+ },
+ "ror|tu delft vacancies|": {
+  "lat": 52.00667,
+  "lon": 4.35556,
+  "city": "Delft",
+  "cc": "NL",
+  "src": "ror",
+  "t": "2026-11-05T00:35:52.996Z"
+ },
+ "ror|tu wien|AT": {
+  "lat": 48.20849,
+  "lon": 16.37208,
+  "city": "Vienna",
+  "cc": "AT",
+  "src": "ror",
+  "t": "2026-11-05T00:36:00.264Z"
+ },
+ "ror|universitat autònoma de barcelona|ES": {
+  "lat": 41.49109,
+  "lon": 2.14079,
+  "city": "Cerdanyola del Vallès",
+  "cc": "ES",
+  "src": "ror",
+  "t": "2026-11-05T00:35:58.793Z"
+ },
+ "ror|university college dublin|": {
+  "lat": 53.33306,
+  "lon": -6.24889,
+  "city": "Dublin",
+  "cc": "IE",
+  "src": "ror",
+  "t": "2026-11-05T00:36:01.909Z"
+ },
+ "ror|university of arizona|US": {
+  "lat": 32.22174,
+  "lon": -110.92648,
+  "city": "Tucson",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-05T00:35:58.500Z"
+ },
+ "ror|university of bristol|GB": {
+  "lat": 51.45523,
+  "lon": -2.59665,
+  "city": "Bristol",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:36:00.557Z"
+ },
+ "ror|university of british columbia|CA": {
+  "lat": 49.24966,
+  "lon": -123.11934,
+  "city": "Vancouver",
+  "cc": "CA",
+  "src": "ror",
+  "t": "2026-11-05T00:35:57.728Z"
+ },
+ "ror|university of calgary|CA": {
+  "lat": 51.05011,
+  "lon": -114.08529,
+  "city": "Calgary",
+  "cc": "CA",
+  "src": "ror",
+  "t": "2026-11-05T00:36:00.852Z"
+ },
+ "ror|university of california, los angeles|US": {
+  "lat": 34.05223,
+  "lon": -118.24368,
+  "city": "Los Angeles",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-05T00:35:59.974Z"
+ },
+ "ror|university of copenhagen|DK": {
+  "miss": true,
+  "t": "2026-11-05T00:36:00.561Z"
+ },
+ "ror|university of east anglia|": {
+  "lat": 52.62783,
+  "lon": 1.29834,
+  "city": "Norwich",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:36:02.093Z"
+ },
+ "ror|university of exeter|": {
+  "lat": 50.7236,
+  "lon": -3.52751,
+  "city": "Exeter",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:36:01.482Z"
+ },
+ "ror|university of exeter|GB": {
+  "lat": 50.7236,
+  "lon": -3.52751,
+  "city": "Exeter",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:35:59.969Z"
+ },
+ "ror|university of florida|US": {
+  "lat": 29.65163,
+  "lon": -82.32483,
+  "city": "Gainesville",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-05T00:35:59.382Z"
+ },
+ "ror|university of glasgow|": {
+  "lat": 55.86515,
+  "lon": -4.25763,
+  "city": "Glasgow",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:35:45.656Z"
+ },
+ "ror|university of limerick|": {
+  "lat": 52.66472,
+  "lon": -8.62306,
+  "city": "Limerick",
+  "cc": "IE",
+  "src": "ror",
+  "t": "2026-11-05T00:36:01.565Z"
+ },
+ "ror|university of maine|US": {
+  "lat": 44.88312,
+  "lon": -68.67198,
+  "city": "Orono",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-05T00:35:51.100Z"
+ },
+ "ror|university of maryland, college park|US": {
+  "lat": 38.98067,
+  "lon": -76.93692,
+  "city": "College Park",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-05T00:35:59.386Z"
+ },
+ "ror|university of milan|IT": {
+  "lat": 45.46427,
+  "lon": 9.18951,
+  "city": "Milan",
+  "cc": "IT",
+  "src": "ror",
+  "t": "2026-11-05T00:35:59.086Z"
+ },
+ "ror|university of oxford|": {
+  "lat": 51.75222,
+  "lon": -1.25596,
+  "city": "Oxford",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:35:51.980Z"
+ },
+ "ror|university of potsdam|DE": {
+  "lat": 52.39886,
+  "lon": 13.06566,
+  "city": "Potsdam",
+  "cc": "DE",
+  "src": "ror",
+  "t": "2026-11-05T00:36:00.849Z"
+ },
+ "ror|university of southampton|GB": {
+  "lat": 50.90395,
+  "lon": -1.40428,
+  "city": "Southampton",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:35:52.447Z"
+ },
+ "ror|university of stirling|": {
+  "lat": 56.11903,
+  "lon": -3.93682,
+  "city": "Stirling",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:35:51.394Z"
+ },
+ "ror|university of twente|NL": {
+  "lat": 52.21833,
+  "lon": 6.89583,
+  "city": "Enschede",
+  "cc": "NL",
+  "src": "ror",
+  "t": "2026-11-05T00:35:45.622Z"
+ },
+ "ror|university of west london|": {
+  "lat": 51.50853,
+  "lon": -0.12574,
+  "city": "London",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T00:36:01.223Z"
+ },
+ "ror|university of wisconsin–madison|US": {
+  "lat": 43.07305,
+  "lon": -89.40123,
+  "city": "Madison",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-05T00:35:59.680Z"
+ },
+ "ror|wageningen university & research|NL": {
+  "lat": 51.97,
+  "lon": 5.66667,
+  "city": "Wageningen",
+  "cc": "NL",
+  "src": "ror",
+  "t": "2026-11-05T00:35:58.243Z"
+ }
+}
