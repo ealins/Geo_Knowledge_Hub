@@ -7,6 +7,7 @@ import cfg from "../config/collector.json";
 
 const KEY = "collected";
 const AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
+const diag = {}; // last cron run: what happened and why (read at /api/diag)
 const AI_MAX_PER_RUN = 120; // ~5 neurons per item, so far below the 10,000 neurons/day included allowance
 
 async function collect(env) {
@@ -57,6 +58,7 @@ async function tagItems(env) {
     if (todo.length >= AI_MAX_PER_RUN) break;
   }
   let done = 0;
+  const dg = (diag.tag = { todo: todo.length, ok: 0, nojson: 0, err: 0, firstErr: "" });
   for (const it of todo) {
     try {
       const prompt = `Classify this item for a geodata (photogrammetry, remote sensing, GIS, LiDAR, SAR, geodesy, GeoAI, BIM/CityGML) opportunity board.
@@ -67,13 +69,13 @@ Reply with ONLY compact JSON: {"type":"phd|postdoc|student|internship|industry|o
 relevance = how central geodata is to the work (10 core research, 0 unrelated such as sales or construction).`;
       const r = await env.AI.run(AI_MODEL, { messages: [{ role: "user", content: prompt }], max_tokens: 120, temperature: 0 });
       const m = String(r.response ?? "").match(/\{[\s\S]*\}/);
-      if (!m) continue;
+      if (!m) { dg.nojson++; continue; }
       const j = JSON.parse(m[0]);
       const type = ["phd", "postdoc", "student", "internship", "industry", "other"].includes(j.type) ? j.type : "other";
       const relevance = Math.max(0, Math.min(10, Number(j.relevance) || 0));
       await env.KV.put("ai:" + it.id, JSON.stringify({ type, relevance, summary: String(j.summary || "").slice(0, 200) }), { expirationTtl: 60 * 60 * 24 * 90 });
-      done++;
-    } catch { /* skip item, retry next run */ }
+      done++; dg.ok++;
+    } catch (e) { dg.err++; dg.firstErr ||= String(e?.message || e).slice(0, 200); /* skip item, retry next run */ }
   }
   return done;
 }
@@ -112,20 +114,21 @@ async function enrichProgrammes(env) {
     if (todo.length >= PROG_MAX_PER_RUN) break;
   }
   let done = 0;
+  const pg = (diag.prog = { todo: todo.length, ok: 0, robots: 0, notok: 0, nojson: 0, empty: 0, err: 0, firstErr: "", firstStatus: 0 });
   for (let i = 0; i < todo.length; i += 4) {
     await Promise.all(todo.slice(i, i + 4).map(async (it) => {
       const none = () => env.KV.put("prog:" + it.id, JSON.stringify({ none: 1 }), { expirationTtl: 60 * 60 * 24 * 3 });
       try {
-        if (!(await robotsOk(it.url))) return none();
+        if (!(await robotsOk(it.url))) { pg.robots++; return none(); }
         const r = await fetch(it.url, { headers: { "user-agent": UA, accept: "text/html" }, signal: AbortSignal.timeout(8000) });
-        if (!r.ok || !/html/i.test(r.headers.get("content-type") || "")) return none();
+        if (!r.ok || !/html/i.test(r.headers.get("content-type") || "")) { pg.notok++; pg.firstStatus ||= r.status; return none(); }
         const facts = pageFacts((await r.text()).slice(0, 600000));
         const prompt = `Read this university programme page text and extract facts. Use ONLY what the text states; if a fact is not stated, use null. Do not guess.
 Text: ${facts}
 Reply with ONLY compact JSON: {"degree":"MSc|BSc|PhD|Certificate|Other","language":"teaching language e.g. English, German, English and German","duration":"e.g. 2 years","ects":number of ECTS credits or null,"tuition":"short, e.g. No tuition fees, EUR 1,500 per semester"}`;
         const a = await env.AI.run(AI_MODEL, { messages: [{ role: "user", content: prompt }], max_tokens: 140, temperature: 0 });
         const m = String(a.response ?? "").match(/\{[\s\S]*\}/);
-        if (!m) return none();
+        if (!m) { pg.nojson++; return none(); }
         const j = JSON.parse(m[0]);
         const ects = Number(j.ects);
         const out = {
@@ -133,10 +136,10 @@ Reply with ONLY compact JSON: {"degree":"MSc|BSc|PhD|Certificate|Other","languag
           language: clip(j.language, 30), duration: clip(j.duration, 20), tuition: clip(j.tuition, 40),
           ects: ects >= 10 && ects <= 400 ? Math.round(ects) : 0,
         };
-        if (!out.degree && !out.language && !out.duration && !out.tuition && !out.ects) return none();
+        if (!out.degree && !out.language && !out.duration && !out.tuition && !out.ects) { pg.empty++; return none(); }
         await env.KV.put("prog:" + it.id, JSON.stringify(out), { expirationTtl: 60 * 60 * 24 * 45 });
-        done++;
-      } catch { /* retry next run */ }
+        done++; pg.ok++;
+      } catch (e) { pg.err++; pg.firstErr ||= String(e?.message || e).slice(0, 200); /* retry next run */ }
     }));
   }
   return done;
@@ -154,15 +157,16 @@ async function aiMap(env, prefix = "ai:") {
 
 // Start a GitHub Actions workflow on time. Needs the Worker secret GH_TOKEN
 // (fine-grained token, this repository only, permission "Actions: read and write").
-const REPO = "ealins/Geo_Knowlege_Hub";
+const REPO = "ealins/Geo_Knowledge_Hub"; // the repository was renamed; a POST to the old name is not redirected
 async function dispatch(env, workflow) {
-  if (!env.GH_TOKEN) { console.log("GH_TOKEN not set; skipping", workflow); return false; }
+  if (!env.GH_TOKEN) { console.log("GH_TOKEN not set; skipping", workflow); (diag.dispatch ||= {})[workflow] = "no GH_TOKEN"; return false; }
   const r = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${workflow}/dispatches`, {
     method: "POST",
     headers: { authorization: `Bearer ${env.GH_TOKEN}`, accept: "application/vnd.github+json", "x-github-api-version": "2022-11-28", "user-agent": "geo-radar-worker", "content-type": "application/json" },
     body: JSON.stringify({ ref: "main" }),
   });
   console.log("dispatch", workflow, r.status);
+  (diag.dispatch ||= {})[workflow] = r.status;
   return r.status === 204;
 }
 
@@ -175,6 +179,9 @@ export default {
     }
     if (u.pathname === "/api/ai") {
       return new Response(JSON.stringify(await aiMap(env)), { headers: { "content-type": "application/json", "cache-control": "public, max-age=900" } });
+    }
+    if (u.pathname === "/api/diag") {
+      return new Response((await env.KV.get("diag:last")) || "{}", { headers: { "content-type": "application/json", "cache-control": "no-store" } });
     }
     if (u.pathname === "/api/prog") {
       return new Response(JSON.stringify(await aiMap(env, "prog:")), { headers: { "content-type": "application/json", "cache-control": "public, max-age=900" } });
@@ -190,8 +197,10 @@ export default {
       if (h === 4) await dispatch(env, "discover-events.yml");
       if (h === 5) await dispatch(env, "adzuna.yml");
       if (h === 3 && dow === 1) await dispatch(env, "discover.yml");
-      await tagItems(env).catch((e) => console.log("tagging failed", e?.message)); // new items only, capped per run
-      await enrichProgrammes(env).catch((e) => console.log("programme facts failed", e?.message)); // new programmes only, capped per run
+      await tagItems(env).catch((e) => { diag.tagFatal = String(e?.message || e).slice(0, 200); console.log("tagging failed", e?.message); }); // new items only, capped per run
+      await enrichProgrammes(env).catch((e) => { diag.progFatal = String(e?.message || e).slice(0, 200); console.log("programme facts failed", e?.message); }); // new programmes only, capped per run
+      diag.at = new Date().toISOString();
+      await env.KV.put("diag:last", JSON.stringify(diag)).catch(() => {});
     })());
   },
 };
