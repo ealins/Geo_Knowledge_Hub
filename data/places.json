@@ -39,6 +39,14 @@
   "miss": true,
   "t": "2026-11-05T00:35:57.449Z"
  },
+ "city|alberta|CA": {
+  "lat": 53.66684,
+  "lon": -114.35208,
+  "city": "Alberta Beach",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-05T19:43:08.531Z"
+ },
  "city|alsfeld|DE": {
   "lat": 50.75185,
   "lon": 9.27082,
@@ -315,6 +323,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:36.746Z"
  },
+ "city|cambridge|": {
+  "lat": 52.2,
+  "lon": 0.11667,
+  "city": "Cambridge",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-05T19:43:08.532Z"
+ },
  "city|cambridge|GB": {
   "lat": 52.2,
   "lon": 0.11667,
@@ -402,6 +418,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T13:30:39.509Z"
+ },
+ "city|concord|CA": {
+  "lat": 43.80011,
+  "lon": -79.48291,
+  "city": "Concord",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-05T19:43:08.840Z"
  },
  "city|copsale|GB": {
   "lat": 51.0113,
@@ -687,6 +711,10 @@
   "src": "city",
   "t": "2026-11-05T00:35:48.470Z"
  },
+ "city|geelong region|AU": {
+  "miss": true,
+  "t": "2026-11-05T19:43:09.293Z"
+ },
  "city|geo-week.com|": {
   "miss": true,
   "t": "2026-11-05T00:35:50.236Z"
@@ -714,6 +742,10 @@
  "city|gogeomatics.ca|": {
   "miss": true,
   "t": "2026-11-05T00:35:50.548Z"
+ },
+ "city|gold coast region|AU": {
+  "miss": true,
+  "t": "2026-11-05T19:43:09.292Z"
  },
  "city|göppingen|": {
   "lat": 48.70354,
@@ -1635,6 +1667,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:49.348Z"
  },
+ "city|vaughan|CA": {
+  "lat": 43.8361,
+  "lon": -79.49827,
+  "city": "Vaughan",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-05T19:43:08.840Z"
+ },
  "city|venlo|NL": {
   "lat": 51.37,
   "lon": 6.16806,
@@ -1987,6 +2027,14 @@
   "src": "ror",
   "t": "2026-11-05T00:35:59.974Z"
  },
+ "ror|university of cambridge|": {
+  "lat": 52.2,
+  "lon": 0.11667,
+  "city": "Cambridge",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-05T19:43:08.435Z"
+ },
  "ror|university of copenhagen|DK": {
   "miss": true,
   "t": "2026-11-05T00:36:00.561Z"
@@ -2062,6 +2110,14 @@
   "cc": "IT",
   "src": "ror",
   "t": "2026-11-05T00:35:59.086Z"
+ },
+ "ror|university of ottawa|CA": {
+  "lat": 45.41117,
+  "lon": -75.69812,
+  "city": "Ottawa",
+  "cc": "CA",
+  "src": "ror",
+  "t": "2026-11-05T19:43:08.507Z"
  },
  "ror|university of oxford|": {
   "lat": 51.75222,
