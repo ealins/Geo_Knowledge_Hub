@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:20:44.634Z",
+ "generated_at": "2026-11-05T17:22:00.552Z",
  "since": 2016,
  "fields": [
   {
@@ -48,7 +48,7 @@
    "id": "A5000033522",
    "name": "Shilong L. Piao",
    "orcid": "https://orcid.org/0000-0001-8057-2292",
-   "institution": "Chinese Academy of Sciences",
+   "institution": "Peking University",
    "country": "CN",
    "h_index": 174,
    "cited_by": 127172,
@@ -68,6 +68,32 @@
    },
    "recent": {
     "remote-sensing": 333
+   }
+  },
+  {
+   "id": "A5023963030",
+   "name": "Mark J Nieuwenhuijsen",
+   "orcid": "https://orcid.org/0000-0001-9461-7981",
+   "institution": "Barcelona Biomedical Research Park",
+   "country": "ES",
+   "h_index": 153,
+   "cited_by": 89755,
+   "works": 1352,
+   "expertise": [
+    "Air Quality and Health Impacts",
+    "Urban Green Space and Health",
+    "Urban Transport and Accessibility",
+    "Environmental Justice and Health Disparities",
+    "Health, Environment, Cognitive Aging"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 2
+   },
+   "recent": {
+    "geoinformatics": 365
    }
   },
   {
@@ -134,7 +160,7 @@
     "lidar": 132,
     "geoai": 223,
     "city-bim": 46,
-    "geoinformatics": 376
+    "geoinformatics": 740
    }
   },
   {
@@ -170,8 +196,8 @@
    "id": "A5071721504",
    "name": "Markus Reichstein",
    "orcid": "https://orcid.org/0000-0001-5736-1112",
-   "institution": "Amazon (United States)",
-   "country": "US",
+   "institution": "Max Planck Institute for Biogeochemistry",
+   "country": "DE",
    "h_index": 140,
    "cited_by": 101859,
    "works": 920,
@@ -193,11 +219,63 @@
    }
   },
   {
+   "id": "A5005152689",
+   "name": "Peter H. Verburg",
+   "orcid": "https://orcid.org/0000-0002-6977-7104",
+   "institution": "Vrije Universiteit Amsterdam",
+   "country": "NL",
+   "h_index": 131,
+   "cited_by": 60260,
+   "works": 729,
+   "expertise": [
+    "Land Use and Ecosystem Services",
+    "Agriculture, Land Use, Rural Development",
+    "Conservation, Biodiversity, and Resource Management",
+    "Remote Sensing and Land Use",
+    "Environmental Changes in China"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 6
+   },
+   "recent": {
+    "geoinformatics": 212
+   }
+  },
+  {
+   "id": "A5088421096",
+   "name": "Jens‐Christian Svenning",
+   "orcid": "https://orcid.org/0000-0002-3415-0862",
+   "institution": "Aarhus University",
+   "country": "DK",
+   "h_index": 128,
+   "cited_by": 64372,
+   "works": 993,
+   "expertise": [
+    "Ecology and Vegetation Dynamics Studies",
+    "Species Distribution and Climate Change",
+    "Botany and Plant Ecology Studies",
+    "Wildlife Ecology and Conservation",
+    "Land Use and Ecosystem Services"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 3
+   },
+   "recent": {
+    "geoinformatics": 251
+   }
+  },
+  {
    "id": "A5063621337",
    "name": "Stephen A. Sitch",
    "orcid": "https://orcid.org/0000-0003-1821-8561",
-   "institution": "Peking University",
-   "country": "CN",
+   "institution": "University of Exeter",
+   "country": "GB",
    "h_index": 126,
    "cited_by": 96973,
    "works": 645,
@@ -245,6 +323,32 @@
    "recent": {
     "remote-sensing": 458,
     "geoai": 170
+   }
+  },
+  {
+   "id": "A5029962482",
+   "name": "Nico Eisenhauer",
+   "orcid": "https://orcid.org/0000-0002-0371-6720",
+   "institution": "German Centre for Integrative Biodiversity Research",
+   "country": "DE",
+   "h_index": 112,
+   "cited_by": 48719,
+   "works": 1223,
+   "expertise": [
+    "Ecology and Vegetation Dynamics Studies",
+    "Soil Carbon and Nitrogen Dynamics",
+    "Mycorrhizal Fungi and Plant Interactions",
+    "Invertebrate Taxonomy and Ecology",
+    "Land Use and Ecosystem Services"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 4
+   },
+   "recent": {
+    "geoinformatics": 259
    }
   },
   {
@@ -335,8 +439,8 @@
    "id": "A5033017179",
    "name": "Qian Du",
    "orcid": "https://orcid.org/0000-0001-8354-7500",
-   "institution": "Henan Mechanical and Electrical Vocational College",
-   "country": "CN",
+   "institution": "Mississippi State University",
+   "country": "US",
    "h_index": 104,
    "cited_by": 44373,
    "works": 873,
@@ -419,7 +523,7 @@
    "id": "A5060042752",
    "name": "Bo Du",
    "orcid": "https://orcid.org/0000-0002-0059-8458",
-   "institution": "Guangdong Medical College",
+   "institution": "Wuhan University",
    "country": "CN",
    "h_index": 100,
    "cited_by": 38223,
@@ -529,7 +633,7 @@
    "id": "A5100354056",
    "name": "Xin Li",
    "orcid": "https://orcid.org/0000-0003-2999-9818",
-   "institution": "Xi'an University of Science and Technology",
+   "institution": "Chinese Academy of Sciences",
    "country": "CN",
    "h_index": 94,
    "cited_by": 37327,
@@ -555,8 +659,8 @@
    "id": "A5051538825",
    "name": "Roland Bürgmann",
    "orcid": "https://orcid.org/0000-0002-3560-044X",
-   "institution": "Chinese Academy of Sciences",
-   "country": "CN",
+   "institution": "University of California, Berkeley",
+   "country": "US",
    "h_index": 93,
    "cited_by": 28500,
    "works": 798,
@@ -578,11 +682,37 @@
    }
   },
   {
+   "id": "A5009185228",
+   "name": "Mei‐Po Kwan",
+   "orcid": "https://orcid.org/0000-0001-8602-9258",
+   "institution": "Chinese University of Hong Kong",
+   "country": "HK",
+   "h_index": 93,
+   "cited_by": 32164,
+   "works": 697,
+   "expertise": [
+    "Urban Transport and Accessibility",
+    "Human Mobility and Location-Based Analysis",
+    "Urban Green Space and Health",
+    "Transportation Planning and Optimization",
+    "Environmental Justice and Health Disparities"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 8
+   },
+   "recent": {
+    "geoinformatics": 256
+   }
+  },
+  {
    "id": "A5068384981",
    "name": "Xiao Xiang Zhu",
    "orcid": "https://orcid.org/0000-0001-5530-3613",
-   "institution": "European Space Agency",
-   "country": "FR",
+   "institution": "Technical University of Munich",
+   "country": "DE",
    "h_index": 90,
    "cited_by": 38479,
    "works": 1069,
@@ -598,29 +728,32 @@
     "remote-sensing",
     "sar",
     "geoai",
-    "city-bim"
+    "city-bim",
+    "geoinformatics"
    ],
    "rank": {
     "photogrammetry": 3,
     "remote-sensing": 2,
     "sar": 1,
     "geoai": 1,
-    "city-bim": 7
+    "city-bim": 7,
+    "geoinformatics": 5
    },
    "recent": {
     "photogrammetry": 225,
     "remote-sensing": 731,
     "sar": 373,
     "geoai": 368,
-    "city-bim": 91
+    "city-bim": 91,
+    "geoinformatics": 283
    }
   },
   {
    "id": "A5000622487",
    "name": "Peter M. Atkinson",
    "orcid": "https://orcid.org/0000-0002-5489-6880",
-   "institution": "Tongji University",
-   "country": "CN",
+   "institution": "University of Southampton",
+   "country": "GB",
    "h_index": 88,
    "cited_by": 33144,
    "works": 852,
@@ -633,15 +766,18 @@
    ],
    "fields": [
     "remote-sensing",
-    "geoai"
+    "geoai",
+    "geoinformatics"
    ],
    "rank": {
     "remote-sensing": 11,
-    "geoai": 7
+    "geoai": 7,
+    "geoinformatics": 9
    },
    "recent": {
     "remote-sensing": 398,
-    "geoai": 157
+    "geoai": 157,
+    "geoinformatics": 250
    }
   },
   {
@@ -703,7 +839,7 @@
    "id": "A5100317994",
    "name": "Wei Li",
    "orcid": "https://orcid.org/0000-0001-7015-7335",
-   "institution": "Jiangnan University",
+   "institution": "Beijing Institute of Technology",
    "country": "CN",
    "h_index": 85,
    "cited_by": 30531,
@@ -732,7 +868,7 @@
    "id": "A5009116003",
    "name": "Lizhe Wang",
    "orcid": "https://orcid.org/0000-0003-2766-0845",
-   "institution": "Chinese Academy of Sciences",
+   "institution": "China University of Geosciences",
    "country": "CN",
    "h_index": 83,
    "cited_by": 26402,
@@ -758,8 +894,8 @@
    "id": "A5074919292",
    "name": "Pedram Ghamisi",
    "orcid": "https://orcid.org/0000-0003-1203-741X",
-   "institution": "University of Antwerp",
-   "country": "BE",
+   "institution": "University of Iceland",
+   "country": "IS",
    "h_index": 82,
    "cited_by": 30802,
    "works": 403,
@@ -787,7 +923,7 @@
    "id": "A5012274844",
    "name": "Nicola Casagli",
    "orcid": "https://orcid.org/0000-0002-8684-7848",
-   "institution": "National Institute of Oceanography and Applied Geophysics",
+   "institution": "University of Florence",
    "country": "IT",
    "h_index": 82,
    "cited_by": 23100,
@@ -839,10 +975,36 @@
    }
   },
   {
+   "id": "A5016154330",
+   "name": "Symeon Chatzinotas",
+   "orcid": "https://orcid.org/0000-0001-5122-0001",
+   "institution": "University of Luxembourg",
+   "country": "LU",
+   "h_index": 81,
+   "cited_by": 30668,
+   "works": 1292,
+   "expertise": [
+    "Satellite Communication Systems",
+    "Advanced Wireless Communication Technologies",
+    "Advanced MIMO Systems Optimization",
+    "Advanced Wireless Network Optimization",
+    "Millimeter-Wave Propagation and Modeling"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 7
+   },
+   "recent": {
+    "geoinformatics": 296
+   }
+  },
+  {
    "id": "A5075013625",
    "name": "Danfeng Hong",
    "orcid": "https://orcid.org/0000-0002-3212-9584",
-   "institution": "Tongji University",
+   "institution": "Chinese Academy of Sciences",
    "country": "CN",
    "h_index": 79,
    "cited_by": 28175,
@@ -868,7 +1030,7 @@
    "id": "A5073132582",
    "name": "Bertrand Chapron",
    "orcid": "https://orcid.org/0000-0001-6088-8775",
-   "institution": "Centre National de la Recherche Scientifique",
+   "institution": "Ifremer",
    "country": "FR",
    "h_index": 75,
    "cited_by": 21391,
@@ -946,8 +1108,8 @@
    "id": "A5059663096",
    "name": "Peter J. G. Teunissen",
    "orcid": "https://orcid.org/0000-0003-4143-6006",
-   "institution": "Hong Kong Polytechnic University",
-   "country": "HK",
+   "institution": "Delft University of Technology",
+   "country": "NL",
    "h_index": 73,
    "cited_by": 20046,
    "works": 458,
@@ -972,7 +1134,7 @@
    "id": "A5005595654",
    "name": "Nicolas N. Baghdadi",
    "orcid": "https://orcid.org/0000-0002-9461-4120",
-   "institution": "Centre National de la Recherche Scientifique",
+   "institution": "Territoires, Environnement, Télédétection et Information Spatiale",
    "country": "FR",
    "h_index": 69,
    "cited_by": 13981,
@@ -1014,19 +1176,22 @@
     "photogrammetry",
     "lidar",
     "geoai",
-    "city-bim"
+    "city-bim",
+    "geoinformatics"
    ],
    "rank": {
     "photogrammetry": 1,
     "lidar": 3,
     "geoai": 14,
-    "city-bim": 4
+    "city-bim": 4,
+    "geoinformatics": 12
    },
    "recent": {
     "photogrammetry": 558,
     "lidar": 423,
     "geoai": 159,
-    "city-bim": 173
+    "city-bim": 173,
+    "geoinformatics": 225
    }
   },
   {
@@ -1114,7 +1279,7 @@
    "id": "A5007427445",
    "name": "Zhenhong Li",
    "orcid": "https://orcid.org/0000-0002-8054-7449",
-   "institution": "Ministry of Natural Resources",
+   "institution": "Chang'an University",
    "country": "CN",
    "h_index": 64,
    "cited_by": 16219,
@@ -1140,7 +1305,7 @@
    "id": "A5080685651",
    "name": "Frédéric Frappart",
    "orcid": "https://orcid.org/0000-0002-4661-8274",
-   "institution": "Université de Bordeaux",
+   "institution": "Interaction Sol Plante Atmosphère",
    "country": "FR",
    "h_index": 64,
    "cited_by": 14045,
@@ -1166,8 +1331,8 @@
    "id": "A5035533740",
    "name": "Jens Wickert",
    "orcid": "https://orcid.org/0000-0002-7379-5276",
-   "institution": "University of Luxembourg",
-   "country": "LU",
+   "institution": "GFZ Helmholtz Centre for Geosciences",
+   "country": "DE",
    "h_index": 64,
    "cited_by": 13974,
    "works": 683,
@@ -1192,7 +1357,7 @@
    "id": "A5044033108",
    "name": "Mathias I. Disney",
    "orcid": "https://orcid.org/0000-0002-2407-4026",
-   "institution": "National Centre for Earth Observation",
+   "institution": "University College London",
    "country": "GB",
    "h_index": 63,
    "cited_by": 16121,
@@ -1218,7 +1383,7 @@
    "id": "A5052926185",
    "name": "Shuanggen Jin",
    "orcid": "https://orcid.org/0000-0002-5108-4828",
-   "institution": "Anhui University",
+   "institution": "Chinese Academy of Sciences",
    "country": "CN",
    "h_index": 62,
    "cited_by": 12561,
@@ -1390,13 +1555,16 @@
     "Smart Cities and Technologies"
    ],
    "fields": [
-    "city-bim"
+    "city-bim",
+    "geoinformatics"
    ],
    "rank": {
-    "city-bim": 3
+    "city-bim": 3,
+    "geoinformatics": 13
    },
    "recent": {
-    "city-bim": 218
+    "city-bim": 218,
+    "geoinformatics": 195
    }
   },
   {
@@ -1429,8 +1597,8 @@
    "id": "A5061833277",
    "name": "Maorong Ge",
    "orcid": "https://orcid.org/0000-0001-5679-1153",
-   "institution": "Chinese Academy of Sciences",
-   "country": "CN",
+   "institution": "Technische Universität Berlin",
+   "country": "DE",
    "h_index": 55,
    "cited_by": 11053,
    "works": 320,
@@ -1507,7 +1675,7 @@
    "id": "A5100772177",
    "name": "Bisheng Yang",
    "orcid": "https://orcid.org/0000-0001-7736-0803",
-   "institution": "Nanchang University",
+   "institution": "Wuhan University",
    "country": "CN",
    "h_index": 52,
    "cited_by": 8930,
@@ -1559,8 +1727,8 @@
    "id": "A5053008757",
    "name": "Uwe Stilla",
    "orcid": "https://orcid.org/0000-0002-1184-0924",
-   "institution": "",
-   "country": "",
+   "institution": "Technical University of Munich",
+   "country": "DE",
    "h_index": 51,
    "cited_by": 11836,
    "works": 501,
@@ -1605,6 +1773,32 @@
    },
    "recent": {
     "sar": 271
+   }
+  },
+  {
+   "id": "A5091474205",
+   "name": "Alexander Zipf",
+   "orcid": "https://orcid.org/0000-0003-4916-9838",
+   "institution": "Heidelberg University",
+   "country": "DE",
+   "h_index": 51,
+   "cited_by": 11660,
+   "works": 385,
+   "expertise": [
+    "Geographic Information Systems Studies",
+    "3D Modeling in Geospatial Applications",
+    "Automated Road and Building Extraction",
+    "Human Mobility and Location-Based Analysis",
+    "Data Management and Algorithms"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 15
+   },
+   "recent": {
+    "geoinformatics": 188
    }
   },
   {
@@ -1689,8 +1883,8 @@
    "id": "A5100329153",
    "name": "Wu Chen",
    "orcid": "https://orcid.org/0000-0002-1787-5191",
-   "institution": "Beijing Institute of Technology",
-   "country": "CN",
+   "institution": "Hong Kong Polytechnic University",
+   "country": "HK",
    "h_index": 50,
    "cited_by": 9381,
    "works": 731,
@@ -1793,7 +1987,7 @@
    "id": "A5100330113",
    "name": "Xiaohong Zhang",
    "orcid": "https://orcid.org/0000-0002-2763-2548",
-   "institution": "Hunan Institute of Science and Technology",
+   "institution": "Wuhan University",
    "country": "CN",
    "h_index": 47,
    "cited_by": 7630,
@@ -1833,22 +2027,25 @@
    ],
    "fields": [
     "photogrammetry",
-    "city-bim"
+    "city-bim",
+    "geoinformatics"
    ],
    "rank": {
     "photogrammetry": 14,
-    "city-bim": 1
+    "city-bim": 1,
+    "geoinformatics": 11
    },
    "recent": {
     "photogrammetry": 166,
-    "city-bim": 281
+    "city-bim": 281,
+    "geoinformatics": 291
    }
   },
   {
    "id": "A5084320319",
    "name": "Mahdi Motagh",
    "orcid": "https://orcid.org/0000-0001-7434-3696",
-   "institution": "Leibniz University Hannover",
+   "institution": "GFZ Helmholtz Centre for Geosciences",
    "country": "DE",
    "h_index": 46,
    "cited_by": 6949,
@@ -2004,7 +2201,7 @@
    "id": "A5013877845",
    "name": "Manuel Hernández Pajares",
    "orcid": "https://orcid.org/0000-0002-9687-5850",
-   "institution": "Institut d'Estudis Espacials de Catalunya",
+   "institution": "Universitat Politècnica de Catalunya",
    "country": "ES",
    "h_index": 43,
    "cited_by": 8290,
@@ -2030,8 +2227,8 @@
    "id": "A5035415910",
    "name": "K. F. Zhang",
    "orcid": "https://orcid.org/0000-0001-9376-1148",
-   "institution": "Kunming University of Science and Technology",
-   "country": "CN",
+   "institution": "RMIT University",
+   "country": "AU",
    "h_index": 43,
    "cited_by": 7230,
    "works": 412,
@@ -2108,7 +2305,7 @@
    "id": "A5072289333",
    "name": "Yibin Yao",
    "orcid": "https://orcid.org/0000-0002-7723-4601",
-   "institution": "Xi'an University of Science and Technology",
+   "institution": "Wuhan University",
    "country": "CN",
    "h_index": 42,
    "cited_by": 6932,
@@ -2160,7 +2357,7 @@
    "id": "A5101508917",
    "name": "Xiaolin Meng",
    "orcid": "https://orcid.org/0000-0003-2440-8054",
-   "institution": "Shanghai Jiao Tong University",
+   "institution": "United Imaging Healthcare (China)",
    "country": "CN",
    "h_index": 41,
    "cited_by": 6294,
@@ -2316,7 +2513,7 @@
    "id": "A5026452327",
    "name": "Pierre Grussenmeyer",
    "orcid": "https://orcid.org/0000-0002-7292-2755",
-   "institution": "Centre National de la Recherche Scientifique",
+   "institution": "Institut National des Sciences Appliquées de Strasbourg",
    "country": "FR",
    "h_index": 35,
    "cited_by": 5525,
@@ -2394,7 +2591,7 @@
    "id": "A5019208828",
    "name": "Weiping Jiang",
    "orcid": "https://orcid.org/0000-0002-3267-9682",
-   "institution": "Central South University",
+   "institution": "Wuhan University",
    "country": "CN",
    "h_index": 33,
    "cited_by": 4271,
@@ -2420,7 +2617,7 @@
    "id": "A5024347284",
    "name": "Fabio Menna",
    "orcid": "https://orcid.org/0000-0002-5365-8813",
-   "institution": "University of Sassari",
+   "institution": "Parthenope University of Naples",
    "country": "IT",
    "h_index": 32,
    "cited_by": 4576,
@@ -2488,10 +2685,10 @@
     "geoinformatics"
    ],
    "rank": {
-    "geoinformatics": 2
+    "geoinformatics": 10
    },
    "recent": {
-    "geoinformatics": 354
+    "geoinformatics": 386
    }
   },
   {
@@ -2544,6 +2741,32 @@
    },
    "recent": {
     "photogrammetry": 294
+   }
+  },
+  {
+   "id": "A5075778487",
+   "name": "Maria Antonia Brovelli",
+   "orcid": "https://orcid.org/0000-0003-3161-5561",
+   "institution": "Politecnico di Milano",
+   "country": "IT",
+   "h_index": 27,
+   "cited_by": 3859,
+   "works": 462,
+   "expertise": [
+    "Geographic Information Systems Studies",
+    "3D Modeling in Geospatial Applications",
+    "Remote-Sensing Image Classification",
+    "Remote Sensing and Land Use",
+    "Environmental Monitoring and Data Management"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 14
+   },
+   "recent": {
+    "geoinformatics": 264
    }
   },
   {
@@ -2628,8 +2851,8 @@
    "id": "A5070342940",
    "name": "Ken Arroyo Ohori",
    "orcid": "https://orcid.org/0000-0002-9863-0152",
-   "institution": "University of Padua",
-   "country": "IT",
+   "institution": "Delft University of Technology",
+   "country": "NL",
    "h_index": 24,
    "cited_by": 1769,
    "works": 114,
@@ -2654,7 +2877,7 @@
    "id": "A5032699264",
    "name": "Arnadi Murtiyoso",
    "orcid": "https://orcid.org/0000-0002-3310-8937",
-   "institution": "Centre National de la Recherche Scientifique",
+   "institution": "Institut National des Sciences Appliquées de Strasbourg",
    "country": "FR",
    "h_index": 22,
    "cited_by": 1697,
