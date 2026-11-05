@@ -1,0 +1,23 @@
+name: Site check
+
+on:
+  pull_request:
+    paths: ["site/**", "scripts/build.mjs", "scripts/smoke.mjs", "data/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-save playwright@1.49.1
+      - run: npx playwright install --with-deps chromium
+      - name: Build and click through the site
+        run: node scripts/smoke.mjs

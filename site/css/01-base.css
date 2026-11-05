@@ -1,0 +1,35 @@
+@font-face{font-family:"Fraunces";src:url(fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Inter";src:url(fonts/inter.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{color-scheme:light dark;
+  --bg:#d5e3e2; --surface:#ecf3f2; --raise:#f3f8f7; --hover:#dce9e8; --text:#0a1c25; --muted:#38505b; --faint:#4d636d; --line:rgba(10,28,37,.17); --track:rgba(10,28,37,.14);
+  --accent:#2c4fb8; --accent-soft:rgba(44,79,184,.12); --glow:rgba(44,79,184,.2);
+  --hero:#0b1620; --hero-text:#eaf2f7; --hero-mute:#8fa5b4; --contour:#4d86a3;
+  --hot:#b3261e; --warm:#8a5000; --calm:#11693f; --ink:#0a1c25; --event:#066a7e;
+  --job:#8a5000; --paper:#2c4fb8; --course:#7a3fc4; --news:#38505b; --funding:#a8326f; --resource:#3f6f12;
+  --h-job:#ffb454; --h-course:#cfa3ff; --h-event:#5cc8e8; --h-hot:#ff7a72; --h-warm:#ffc777; --h-calm:#5fd3a0;
+  --serif:"Fraunces",Charter,Georgia,serif; --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#080c11; --surface:#0e141b; --raise:#131b24; --hover:#121a23; --text:#e7edf2; --muted:#8a99a6; --faint:#7c8b98; --line:rgba(255,255,255,.08); --track:rgba(255,255,255,.09);
+  --accent:#8aa4ff; --accent-soft:rgba(138,164,255,.12); --glow:rgba(138,164,255,.22);
+  --hero:#0a131b; --contour:#2f627c;
+  --hot:#ff7a72; --warm:#ffb454; --calm:#5fd3a0; --ink:#e7edf2; --event:#5cc8e8;
+  --job:#ffb454; --paper:#8aa4ff; --course:#cfa3ff; --news:#8a99a6; --funding:#ff8fc7; --resource:#b4e062;
+}}
+:root[data-theme="dark"]{
+  --bg:#080c11; --surface:#0e141b; --raise:#131b24; --hover:#121a23; --text:#e7edf2; --muted:#8a99a6; --faint:#7c8b98; --line:rgba(255,255,255,.08); --track:rgba(255,255,255,.09);
+  --accent:#8aa4ff; --accent-soft:rgba(138,164,255,.12); --glow:rgba(138,164,255,.22);
+  --hero:#0a131b; --contour:#2f627c;
+  --hot:#ff7a72; --warm:#ffb454; --calm:#5fd3a0; --ink:#e7edf2; --event:#5cc8e8;
+  --job:#ffb454; --paper:#8aa4ff; --course:#cfa3ff; --news:#8a99a6; --funding:#ff8fc7; --resource:#b4e062;
+}
+*{box-sizing:border-box}
+:root{--gx:clamp(20px,4.5vw,72px)}
+body{margin:0;background:var(--bg);color:var(--text);font:14.5px/1.55 var(--sans);letter-spacing:-.006em;-webkit-font-smoothing:antialiased;font-feature-settings:"cv11","ss03"}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.sr{position:absolute;left:-9999px}
+.skip{position:absolute;left:12px;top:-80px;z-index:30;background:var(--surface);color:var(--text);padding:9px 16px;border-radius:10px;border:1px solid var(--line);font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
+
