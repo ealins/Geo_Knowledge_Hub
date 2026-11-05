@@ -99,8 +99,11 @@ const norm = (t) => String(t || "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").sp
 async function orcidPosition(p) {
   const id = String(p.orcid || "").replace(/^https?:\/\/orcid\.org\//, "");
   if (!id) return null;
+  orcidTried++;
   const j = await json(`https://pub.orcid.org/v3.0/${id}/employments`);
-  const items = (j.group || []).flatMap((g) => g["employment-summary"] || [])
+  // v3.0 shape: affiliation-group[].summaries[]["employment-summary"]; older shape: group[]["employment-summary"][]
+  const sums = [...(j["affiliation-group"] || []).flatMap((g) => (g.summaries || []).map((x) => x["employment-summary"])), ...(j.group || []).flatMap((g) => g["employment-summary"] || [])].filter(Boolean);
+  const items = sums
     .filter((e) => !e["end-date"] && e["role-title"])
     .map((e) => ({
       title: String(e["role-title"]).trim(), dept: String(e["department-name"] || "").trim(),
@@ -111,8 +114,9 @@ async function orcidPosition(p) {
   const overlap = (e) => norm(e.org).filter((w) => want.has(w)).length;
   items.sort((a, b) => overlap(b) - overlap(a) || b.start - a.start);
   const e = items[0];
-  if (want.size && overlap(e) === 0) return null; // title belongs to a different employer
-  return { position: e.title.slice(0, 80), department: e.dept.slice(0, 100) };
+  // Different spelling of the same university (or a second employer): keep the title but name the organisation.
+  const t = want.size && overlap(e) === 0 && e.org ? `${e.title}, ${e.org}` : e.title;
+  return { position: t.slice(0, 90), department: e.dept.slice(0, 100) };
 }
 
 // Co-author network: for each researcher, the people they publish with most since cfg.since (OpenAlex, one call each).
@@ -128,7 +132,7 @@ for (const p of researchers) {
   await new Promise((r) => setTimeout(r, 120));
 }
 console.log(`co-author networks for ${withCollab} of ${researchers.length}`);
-let withPos = 0, orcidFail = 0;
+let withPos = 0, orcidFail = 0, orcidTried = 0;
 for (const p of researchers) {
   try {
     const pos = await orcidPosition(p);
@@ -136,7 +140,7 @@ for (const p of researchers) {
   } catch (e) { orcidFail++; if (orcidFail <= 3) console.log("orcid:", e.message); }
   await new Promise((r) => setTimeout(r, 120));
 }
-console.log(`positions found for ${withPos} of ${researchers.length} (orcid errors: ${orcidFail})`);
+console.log(`positions found for ${withPos} of ${researchers.length} (with ORCID id: ${orcidTried}, errors: ${orcidFail})`);
 await mkdir("data", { recursive: true });
 await writeFile(OUT, JSON.stringify({
   generated_at: new Date().toISOString(),
