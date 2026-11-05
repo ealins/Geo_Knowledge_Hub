@@ -71,7 +71,7 @@ h1{margin:0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings
 .tagline{margin:10px 0 0;max-width:54ch;color:var(--hero-mute);font-size:15.5px}
 
 /* hero: copy + deadline radar + closing-next list */
-.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,480px);grid-template-areas:"copy radar" "next radar";column-gap:clamp(28px,5vw,88px);align-items:start;margin-top:24px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,min(50vw,780px));grid-template-areas:"copy radar" "next radar";column-gap:clamp(28px,5vw,88px);align-items:start;margin-top:24px}
 .hero-copy{grid-area:copy}.radar{grid-area:radar}.next{grid-area:next}
 .hero-copy h1{margin-top:12px}
 .pulse{margin:22px 0 0;font-size:16px;color:var(--hero-text);max-width:52ch}
@@ -91,7 +91,7 @@ h1{margin:0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings
 .radar .blip{opacity:1;animation:blipin .5s ease-out both;animation-delay:var(--d)}
 @keyframes rsweep{from{transform:rotate(0)}to{transform:rotate(360deg)}}
 @keyframes blipin{from{opacity:0}to{opacity:1}}
-.radar-cap{min-height:44px;margin:4px auto 0;max-width:46ch;text-align:center;font-size:13px;line-height:1.45;color:var(--hero-mute)}
+.radar-cap{min-height:44px;margin:14px auto 0;max-width:46ch;text-align:center;font-size:13px;line-height:1.45;color:var(--hero-mute)}
 .radar-cap a{color:var(--hero-text)}
 .rlegend{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--hero-mute);margin-top:4px}
 .rlegend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;background:var(--c);vertical-align:-1px}
@@ -107,6 +107,7 @@ h1{margin:0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings
 @media (max-width:900px){
   .hero-grid{grid-template-columns:1fr;grid-template-areas:"copy" "radar" "next"}
   .radar{max-width:440px;width:100%;justify-self:center;margin-top:22px}
+  #globe{max-width:440px}
 }
 @media (prefers-reduced-motion:reduce){.radar .rsweep,.radar .blip{animation:none}}
 
@@ -115,7 +116,7 @@ h1{margin:0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings
 .viz-tabs button{background:none;border:1px solid rgba(255,255,255,.14);color:var(--hero-mute);border-radius:999px;padding:5px 16px;cursor:pointer;font-size:13px}
 .viz-tabs button:hover{color:var(--hero-text);border-color:rgba(255,255,255,.3)}
 .viz-tabs button[aria-selected="true"]{background:var(--hero-text);color:var(--hero);border-color:var(--hero-text);font-weight:600}
-#globe{display:block;width:100%;max-width:480px;aspect-ratio:1;margin:0 auto;cursor:grab;touch-action:pan-y}
+#globe{display:block;width:100%;max-width:780px;aspect-ratio:1;margin:0 auto;cursor:grab;touch-action:pan-y}
 #globe.drag{cursor:grabbing}
 #globe.hit{cursor:pointer}
 .radar-cap b{color:var(--hero-text);font-weight:650;font-variant-numeric:tabular-nums}
@@ -1009,7 +1010,7 @@ function renderGlobe(open) {
         let d = (sweep - Math.atan2(y - c, x - c)) % (Math.PI * 2); if (d < 0) d += Math.PI * 2;
         if (d < 1.6) { const k = 1 - d / 1.6; ctx.beginPath(); ctx.arc(x, y, 3 + 13 * (1 - k), 0, Math.PI * 2); ctx.strokeStyle = col; ctx.globalAlpha = k * 0.85; ctx.lineWidth = 1.2; ctx.stroke(); ctx.globalAlpha = 1; }
       }
-      ctx.beginPath(); ctx.arc(x, y, p === hover ? 5 : 2.6, 0, Math.PI * 2); ctx.fillStyle = col; ctx.fill();
+      ctx.beginPath(); ctx.arc(x, y, (p === hover ? 5 : 2.6) * Math.max(1, Math.sqrt(W / 480)), 0, Math.PI * 2); ctx.fillStyle = col; ctx.fill();
       if (p === hover) { ctx.lineWidth = 2; ctx.strokeStyle = "#fff"; ctx.stroke(); }
     }
     if (!reduce && visible && !document.hidden && hero.viz === "globe") raf = requestAnimationFrame(frame);
