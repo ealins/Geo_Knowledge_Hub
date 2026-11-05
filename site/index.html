@@ -140,7 +140,8 @@ h1{margin:0;font:500 clamp(44px,7vw,96px)/1 var(--serif);font-variation-settings
 
 /* tabs */
 .tabs{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px) saturate(1.4);-webkit-backdrop-filter:blur(14px) saturate(1.4);border-bottom:1px solid var(--line)}
-.tabs-in{max-width:1760px;margin:0 auto;padding:10px var(--gx);display:flex;gap:4px;overflow-x:auto}
+.tabs-in{max-width:1760px;margin:0 auto;padding:10px var(--gx);display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.tabs-in::-webkit-scrollbar,.wrow::-webkit-scrollbar{display:none}
 .tab{background:none;border:1px solid transparent;border-radius:999px;padding:6px 13px;cursor:pointer;display:flex;align-items:center;gap:8px;white-space:nowrap;color:var(--muted);font-size:13.5px}
 .tab:hover{color:var(--text);background:var(--hover)}
 .tab[aria-pressed="true"]{background:var(--text);color:var(--bg);font-weight:600}
@@ -195,7 +196,10 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 .tk{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12.5px;color:var(--muted)}
 .tk span::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;background:var(--k)}
 .tnext{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.tnext b{color:var(--hot);font-weight:600}
+.tnext b{color:var(--hot);font-weight:600;background:color-mix(in srgb,var(--hot) 12%,transparent);border-radius:999px;padding:1px 8px;margin-right:2px}
+.tile:focus-visible,.tab:focus-visible,.wpill:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tile{transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}.tile:hover{box-shadow:0 10px 28px -14px var(--dc)}
+@media(prefers-reduced-motion:reduce){.tile{transition:none}.tile:hover{transform:none}}
 .dhead{margin:6px 0 4px}
 .back{background:none;border:0;color:var(--accent);cursor:pointer;padding:0;font-size:13.5px}
 .back:hover{text-decoration:underline}
@@ -226,6 +230,7 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 /* where */
 .where{margin:12px 0 2px;display:flex;flex-direction:column;gap:8px}
 .wrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+@media(max-width:720px){.wrow,.tabs-in{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}.wrow>*{flex:none}.wlabel{flex:none}}
 .wlabel{font-size:12.5px;color:var(--faint);margin-right:4px}
 .wpill{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;padding:5px 13px;cursor:pointer;font-size:13px;display:inline-flex;gap:7px;align-items:baseline}
 .wpill:hover{border-color:var(--accent);color:var(--text)}
@@ -742,7 +747,7 @@ function renderOverview() {
     return `<button class="tile" data-dom="${d.id}" style="--dc:${d.color}">
       <span class="tn">${esc(d.name)}</span><span class="tb">${esc(d.blurb)}</span>
       <span class="tbig"><b>${open}</b>open now</span>
-      <span class="tk">${[["job", "Positions"], ["course", "Programmes"], ["event", "Events"], ["paper", "Papers"]].map(([k, l]) => by(k) ? `<span style="--k:var(--${k})">${by(k)} ${l.toLowerCase()}</span>` : "").join("")}</span>
+      <span class="tk">${[["job", "Positions"], ["course", "Programmes"], ["event", "Events"], ["paper", "Papers"]].map(([k, l]) => by(k) ? `<span style="--k:var(--${k})">${by(k)} ${by(k) === 1 ? ({ job: "position", course: "programme", event: "event", paper: "paper" })[k] : l.toLowerCase()}</span>` : "").join("")}</span>
       ${nxt ? `<span class="tnext"><b>${days === 0 ? "Today" : days + (days === 1 ? " day" : " days")}</b> · ${esc(nxt.title)}</span>` : '<span class="tnext">No dated deadline right now</span>'}
     </button>`;
   }).join("");
@@ -1026,7 +1031,7 @@ function renderHero() {
   const HK = { job: "var(--h-job)", course: "var(--h-course)", event: "var(--h-event)" };
   const KN = { job: "Position", course: "Programme", event: "Event" };
   const soon = dated.filter(x => x.d <= 14).length;
-  $("pulse").innerHTML = `<b>${open.length}</b> openings you can still apply to${soon ? `, and <b>${soon}</b> of them close within two weeks` : ""}.`;
+  $("pulse").innerHTML = `<b>${open.length}</b> open positions, programmes and events${soon ? `. <b>${soon}</b> close within two weeks` : ""}.`;
   const left = d => d <= 0 ? "Today" : d === 1 ? "1 day" : d + " days";
   const urg = d => d <= 7 ? "var(--h-hot)" : d <= 30 ? "var(--h-warm)" : "var(--h-calm)";
   const short = s => s.length > 110 ? s.slice(0, 108) + "…" : s;
@@ -1151,7 +1156,8 @@ function render() {
   const items = sorted(filtered(false));
   const page = items.slice(0, st.shown);
   const filters = [st.continent, st.country, st.domain && DOM[st.domain].name, st.sub, st.topic && `topic “${st.topic}”`, st.source, st.newOnly && "new this week", st.savedOnly && "saved"].filter(Boolean);
-  $("count").textContent = `${items.length} ${items.length === 1 ? "item" : "items"}${filters.length ? ", filtered by " + filters.join(", ") : ""}`;
+  const nOpen = items.filter(i => NEEDS_DEADLINE.has(i.kind)).length;
+  $("count").textContent = `${items.length} ${items.length === 1 ? "item" : "items"}${st.kind === "all" && nOpen && nOpen < items.length ? ` (${nOpen} to apply for, the rest papers and news)` : ""}${filters.length ? ", filtered by " + filters.join(", ") : ""}`;
   $("dhead").innerHTML = ""; $("overview").innerHTML = ""; $("board").innerHTML = "";
   if (st.domain) renderDomainHead();
   if (overview) renderOverview();
