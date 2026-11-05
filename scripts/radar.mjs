@@ -125,6 +125,41 @@ function parseOpenAlex(body) {
   }));
 }
 
+
+// ---------- datasets, tools and funding (documented public APIs) ----------
+function parseZenodo(body) {
+  return (JSON.parse(body).hits?.hits || []).map((h) => {
+    const m = h.metadata || {};
+    return { title: clean(m.title || ""), link: h.links?.self_html || h.links?.html || "", date: m.publication_date || h.created || "",
+      summary: clean([...(m.keywords || []), m.description || ""].join(". ")).slice(0, 300), location: m.resource_type?.title || "" };
+  });
+}
+function parseGithub(body) {
+  return (JSON.parse(body).items || []).map((x) => ({ title: `${x.full_name}${x.description ? ": " + clean(x.description) : ""}`.slice(0, 160), link: x.html_url, date: x.pushed_at || "",
+    summary: [...(x.topics || []).slice(0, 8), `${x.stargazers_count} stars`].join(", "), location: x.language || "" }));
+}
+function parseHf(body) {
+  return (JSON.parse(body) || []).filter((d) => (d.downloads ?? 0) >= 200).map((d) => ({ title: d.id, link: `https://huggingface.co/datasets/${d.id}`, date: d.lastModified || d.createdAt || "",
+    summary: [...(d.tags || []).filter((t) => !t.includes(":")).slice(0, 8), `${d.downloads} downloads`].join(", ") }));
+}
+// EU Funding and Tenders portal search (POST with a JSON query part). Open and forthcoming calls only.
+async function fetchSedia(url) {
+  const form = new FormData();
+  form.append("query", new Blob([JSON.stringify({ bool: { must: [{ terms: { type: ["1", "2", "8"] } }, { terms: { status: ["31094501", "31094502"] } }] } })], { type: "application/json" }));
+  form.append("languages", new Blob([JSON.stringify(["en"])], { type: "application/json" }));
+  const res = await fetch(url, { method: "POST", body: form, headers: { "user-agent": UA }, signal: AbortSignal.timeout(30_000) });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.text();
+}
+function parseSedia(body) {
+  const first = (v) => (Array.isArray(v) ? v[0] : v) || "";
+  return (JSON.parse(body).results || []).map((x) => {
+    const m = x.metadata || {}, id = first(m.identifier) || first(m.callIdentifier);
+    return { title: clean(first(m.title) || x.summary || ""), link: id ? `https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/${encodeURIComponent(id)}` : "",
+      date: first(m.startDate) || "", deadline: first(m.deadlineDate) || "", summary: clean(first(m.descriptionByte) || first(m.description) || x.content || "").slice(0, 300) };
+  }).filter((x) => x.title && x.link);
+}
+
 // German Federal Employment Agency job search API (public, documented on bund.dev).
 function parseArbeitsagentur(body) {
   const data = JSON.parse(body);
@@ -359,7 +394,8 @@ function classify(raw, source) {
   // News is only news while it is recent: drop stories published more than 30 days ago.
   if (kind === "news" && raw.date && now.getTime() - Date.parse(raw.date) > 30 * 864e5) return null;
   let paper = {};
-  if (kind === "paper") {
+  if (kind === "paper" && source.call) paper = { call: true };
+  else if (kind === "paper") {
     const { score, topVenue } = paperImpact(raw);
     if (score < minImpact) return null;
     paper = { impact: score, top_venue: topVenue, cited_by: raw.cited ?? 0, fwci: raw.fwci != null ? Math.round(raw.fwci * 10) / 10 : null, venue: raw.venue || null };
@@ -470,13 +506,18 @@ async function runSource(src, statusOut) {
       statusOut[src.id] = { state: "ok", last_checked: nowIso, last_success: nowIso, items_found: raw.length, items_matched: kept.length, consecutive_failures: 0, last_error: null };
       return kept;
     }
-    if (!(await robotsAllows(src.url.replace(/\{since:\d+\}/g, "")))) throw new Error("disallowed by robots.txt");
+    if (!src.api && !(await robotsAllows(src.url.replace(/\{since:\d+\}/g, "")))) throw new Error("disallowed by robots.txt");
     // {since:N} in a URL becomes the date N days ago (YYYY-MM-DD), keeping API queries to recent work.
     const url = src.url.replace(/\{since:(\d+)\}/g, (_, d) => new Date(now.getTime() - Number(d) * 864e5).toISOString().slice(0, 10));
-    const body = src.render ? await renderPage(url) : await fetchText(url, src.headers);
+    const body = src.type === "sedia" ? await fetchSedia(url) : src.render ? await renderPage(url) : await fetchText(url, src.api ? { accept: "application/json", ...src.headers } : src.headers);
+    if (src.api && !src.headers) { /* APIs answer JSON */ }
     const parsed =
       src.type === "rss" ? parseFeed(body)
       : src.type === "openalex" ? parseOpenAlex(body)
+      : src.type === "zenodo" ? parseZenodo(body)
+      : src.type === "github" ? parseGithub(body)
+      : src.type === "hf" ? parseHf(body)
+      : src.type === "sedia" ? parseSedia(body)
       : src.type === "arbeitsagentur" ? parseArbeitsagentur(body)
       : src.type === "isprs-calendar" ? parseIsprsCalendar(body, src)
       : src.type === "jobsacuk" ? await verifyAdverts(parseJobsAc(body, src))
@@ -544,10 +585,11 @@ for (const it of previous.items ?? []) {
 // Open status: positions, programmes and events rarely state a deadline in the
 // listing, so read each item's own page (robots.txt respected) for one. Results
 // are cached on the item and rechecked every few days; at most 80 pages per run.
-const ENRICH_KINDS = new Set(["job", "course", "event"]);
+const ENRICH_KINDS = new Set(["job", "course", "event", "funding"]);
+const isCall = (i) => i.kind === "paper" && i.call;
 const RECHECK_MS = 3 * 864e5;
 const todo = [...merged.values()].filter(
-  (i) => ENRICH_KINDS.has(i.kind) && !i.deadline && !i.apply_closed && !i.open_posting && (!i.deadline_checked || now.getTime() - Date.parse(i.deadline_checked) > RECHECK_MS),
+  (i) => (ENRICH_KINDS.has(i.kind) || isCall(i)) && !i.deadline && !i.apply_closed && !i.open_posting && (!i.deadline_checked || now.getTime() - Date.parse(i.deadline_checked) > RECHECK_MS),
 ).slice(0, 80);
 for (let n = 0; n < todo.length; n += 8) {
   await Promise.all(
@@ -570,7 +612,8 @@ for (let n = 0; n < todo.length; n += 8) {
 const items = [...merged.values()]
   .map((i) => (i.kind === "event" && i.starts && i.deadline && Date.parse(i.deadline) > Date.parse(i.starts) ? { ...i, deadline: null } : i))
   .filter(isLive)
-  .filter((i) => i.kind !== "paper" || (i.impact ?? 0) >= minImpact)
+  .filter((i) => i.kind !== "paper" || i.call || (i.impact ?? 0) >= minImpact)
+  .filter((i) => !(i.call && !i.deadline)) // a call for papers is only listed once its deadline is known
   .filter((i) => !(i.kind === "event" && i.ends && Date.parse(i.ends) + 864e5 < now.getTime()))
   .filter((i) => !i.deadline || Date.parse(i.deadline) >= now.getTime() || (i.kind === "event" && i.ends))
   .sort((a, b) => b.first_seen.localeCompare(a.first_seen));

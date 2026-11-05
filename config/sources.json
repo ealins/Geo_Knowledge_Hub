@@ -1160,6 +1160,286 @@
       "type": "html",
       "kind": "job",
       "open_posting": true
+    },
+    {
+      "id": "openalex-infrastructure",
+      "name": "Papers: infrastructure monitoring",
+      "url": "https://api.openalex.org/works?search=%22infrastructure%20monitoring%22%20remote%20sensing&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
+      "type": "openalex",
+      "kind": "paper",
+      "enabled": true
+    },
+    {
+      "id": "openalex-urban-planning",
+      "name": "Papers: urban planning and GIS",
+      "url": "https://api.openalex.org/works?search=%22urban%20planning%22%20GIS&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
+      "type": "openalex",
+      "kind": "paper",
+      "enabled": true
+    },
+    {
+      "id": "openalex-environment-climate",
+      "name": "Papers: environment and climate monitoring",
+      "url": "https://api.openalex.org/works?search=%22environmental%20monitoring%22%20satellite&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
+      "type": "openalex",
+      "kind": "paper",
+      "enabled": true
+    },
+    {
+      "id": "openalex-agriculture",
+      "name": "Papers: precision agriculture",
+      "url": "https://api.openalex.org/works?search=%22precision%20agriculture%22%20remote%20sensing&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
+      "type": "openalex",
+      "kind": "paper",
+      "enabled": true
+    },
+    {
+      "id": "openalex-disaster",
+      "name": "Papers: disaster response",
+      "url": "https://api.openalex.org/works?search=%22disaster%22%20remote%20sensing%20flood%20landslide&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
+      "type": "openalex",
+      "kind": "paper",
+      "enabled": true
+    },
+    {
+      "id": "openalex-archaeology",
+      "name": "Papers: archaeology",
+      "url": "https://api.openalex.org/works?search=archaeology%20lidar%20remote%20sensing&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
+      "type": "openalex",
+      "kind": "paper",
+      "enabled": true
+    },
+    {
+      "id": "openalex-surveying",
+      "name": "Papers: surveying and cadastre",
+      "url": "https://api.openalex.org/works?search=surveying%20cadastre%20%22land%20administration%22&filter=from_publication_date:{since:60},to_publication_date:{since:0}&sort=cited_by_count:desc&per-page=100",
+      "type": "openalex",
+      "kind": "paper",
+      "enabled": true
+    },
+    {
+      "id": "zenodo-eo-datasets",
+      "name": "Zenodo: Earth observation datasets",
+      "url": "https://zenodo.org/api/records?q=%22remote%20sensing%22%20OR%20%22earth%20observation%22%20OR%20lidar%20OR%20photogrammetry&type=dataset&sort=mostrecent&size=50",
+      "type": "zenodo",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "zenodo-geo-software",
+      "name": "Zenodo: geospatial software",
+      "url": "https://zenodo.org/api/records?q=geospatial%20OR%20%22point%20cloud%22%20OR%20photogrammetry&type=software&sort=mostrecent&size=40",
+      "type": "zenodo",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "github-remote-sensing",
+      "name": "GitHub: remote-sensing",
+      "url": "https://api.github.com/search/repositories?q=topic:remote-sensing+stars:%3E150+pushed:%3E{since:60}&sort=updated&per_page=30",
+      "type": "github",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "github-photogrammetry",
+      "name": "GitHub: photogrammetry",
+      "url": "https://api.github.com/search/repositories?q=topic:photogrammetry+stars:%3E150+pushed:%3E{since:60}&sort=updated&per_page=30",
+      "type": "github",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "github-lidar",
+      "name": "GitHub: lidar",
+      "url": "https://api.github.com/search/repositories?q=topic:lidar+stars:%3E150+pushed:%3E{since:60}&sort=updated&per_page=30",
+      "type": "github",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "github-point-cloud",
+      "name": "GitHub: point-cloud",
+      "url": "https://api.github.com/search/repositories?q=topic:point-cloud+stars:%3E150+pushed:%3E{since:60}&sort=updated&per_page=30",
+      "type": "github",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "github-gis",
+      "name": "GitHub: gis",
+      "url": "https://api.github.com/search/repositories?q=topic:gis+stars:%3E150+pushed:%3E{since:60}&sort=updated&per_page=30",
+      "type": "github",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "github-geospatial",
+      "name": "GitHub: geospatial",
+      "url": "https://api.github.com/search/repositories?q=topic:geospatial+stars:%3E150+pushed:%3E{since:60}&sort=updated&per_page=30",
+      "type": "github",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "github-earth-observation",
+      "name": "GitHub: earth-observation",
+      "url": "https://api.github.com/search/repositories?q=topic:earth-observation+stars:%3E150+pushed:%3E{since:60}&sort=updated&per_page=30",
+      "type": "github",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "hf-remote-sensing",
+      "name": "Hugging Face datasets",
+      "url": "https://huggingface.co/api/datasets?search=remote%20sensing&sort=createdAt&direction=-1&limit=40",
+      "type": "hf",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "hf-satellite-imagery",
+      "name": "Hugging Face datasets",
+      "url": "https://huggingface.co/api/datasets?search=satellite%20imagery&sort=createdAt&direction=-1&limit=40",
+      "type": "hf",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "hf-lidar",
+      "name": "Hugging Face datasets",
+      "url": "https://huggingface.co/api/datasets?search=lidar&sort=createdAt&direction=-1&limit=40",
+      "type": "hf",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "hf-geospatial",
+      "name": "Hugging Face datasets",
+      "url": "https://huggingface.co/api/datasets?search=geospatial&sort=createdAt&direction=-1&limit=40",
+      "type": "hf",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "hf-sentinel",
+      "name": "Hugging Face datasets",
+      "url": "https://huggingface.co/api/datasets?search=sentinel&sort=createdAt&direction=-1&limit=40",
+      "type": "hf",
+      "kind": "resource",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "eu-funding-earth-observation",
+      "name": "EU Funding and Tenders",
+      "url": "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=earth%20observation&pageSize=50&pageNumber=1",
+      "type": "sedia",
+      "kind": "funding",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "eu-funding-geospatial",
+      "name": "EU Funding and Tenders",
+      "url": "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=geospatial&pageSize=50&pageNumber=1",
+      "type": "sedia",
+      "kind": "funding",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "eu-funding-remote-sensing",
+      "name": "EU Funding and Tenders",
+      "url": "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=remote%20sensing&pageSize=50&pageNumber=1",
+      "type": "sedia",
+      "kind": "funding",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "eu-funding-copernicus",
+      "name": "EU Funding and Tenders",
+      "url": "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=copernicus&pageSize=50&pageNumber=1",
+      "type": "sedia",
+      "kind": "funding",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "eu-funding-climate-monitoring",
+      "name": "EU Funding and Tenders",
+      "url": "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=climate%20monitoring&pageSize=50&pageNumber=1",
+      "type": "sedia",
+      "kind": "funding",
+      "api": true,
+      "enabled": true
+    },
+    {
+      "id": "challenge-grss-dfc",
+      "name": "IEEE GRSS Data Fusion Contest",
+      "url": "https://www.grss-ieee.org/community/technical-committees/data-fusion/",
+      "type": "html",
+      "kind": "event",
+      "on_topic": true,
+      "tag": "Challenge",
+      "enabled": true
+    },
+    {
+      "id": "challenge-ai4eo",
+      "name": "AI4EO challenges",
+      "url": "https://platform.ai4eo.eu/",
+      "type": "html",
+      "kind": "event",
+      "on_topic": true,
+      "tag": "Challenge",
+      "enabled": true
+    },
+    {
+      "id": "calls-mdpi-remotesensing",
+      "name": "MDPI special issues (remotesensing)",
+      "url": "https://www.mdpi.com/journal/remotesensing/special_issues",
+      "type": "html",
+      "kind": "paper",
+      "call": true,
+      "on_topic": true,
+      "tag": "Call for papers",
+      "enabled": true
+    },
+    {
+      "id": "calls-mdpi-ijgi",
+      "name": "MDPI special issues (ijgi)",
+      "url": "https://www.mdpi.com/journal/ijgi/special_issues",
+      "type": "html",
+      "kind": "paper",
+      "call": true,
+      "on_topic": true,
+      "tag": "Call for papers",
+      "enabled": true
+    },
+    {
+      "id": "calls-mdpi-land",
+      "name": "MDPI special issues (land)",
+      "url": "https://www.mdpi.com/journal/land/special_issues",
+      "type": "html",
+      "kind": "paper",
+      "call": true,
+      "on_topic": true,
+      "tag": "Call for papers",
+      "enabled": true
     }
   ]
 }

@@ -25,7 +25,7 @@
   --accent:#2c4fb8; --accent-soft:rgba(44,79,184,.12); --glow:rgba(44,79,184,.2);
   --hero:#0b1620; --hero-text:#eaf2f7; --hero-mute:#8fa5b4; --contour:#4d86a3;
   --hot:#b3261e; --warm:#8a5000; --calm:#11693f; --ink:#0a1c25; --event:#066a7e;
-  --job:#8a5000; --paper:#2c4fb8; --course:#7a3fc4; --news:#38505b;
+  --job:#8a5000; --paper:#2c4fb8; --course:#7a3fc4; --news:#38505b; --funding:#a8326f; --resource:#3f6f12;
   --h-job:#ffb454; --h-course:#cfa3ff; --h-event:#5cc8e8; --h-hot:#ff7a72; --h-warm:#ffc777; --h-calm:#5fd3a0;
   --serif:"Fraunces",Charter,Georgia,serif; --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
@@ -34,14 +34,14 @@
   --accent:#8aa4ff; --accent-soft:rgba(138,164,255,.12); --glow:rgba(138,164,255,.22);
   --hero:#0a131b; --contour:#2f627c;
   --hot:#ff7a72; --warm:#ffb454; --calm:#5fd3a0; --ink:#e7edf2; --event:#5cc8e8;
-  --job:#ffb454; --paper:#8aa4ff; --course:#cfa3ff; --news:#8a99a6;
+  --job:#ffb454; --paper:#8aa4ff; --course:#cfa3ff; --news:#8a99a6; --funding:#ff8fc7; --resource:#b4e062;
 }}
 :root[data-theme="dark"]{
   --bg:#080c11; --surface:#0e141b; --raise:#131b24; --hover:#121a23; --text:#e7edf2; --muted:#8a99a6; --faint:#7c8b98; --line:rgba(255,255,255,.08); --track:rgba(255,255,255,.09);
   --accent:#8aa4ff; --accent-soft:rgba(138,164,255,.12); --glow:rgba(138,164,255,.22);
   --hero:#0a131b; --contour:#2f627c;
   --hot:#ff7a72; --warm:#ffb454; --calm:#5fd3a0; --ink:#e7edf2; --event:#5cc8e8;
-  --job:#ffb454; --paper:#8aa4ff; --course:#cfa3ff; --news:#8a99a6;
+  --job:#ffb454; --paper:#8aa4ff; --course:#cfa3ff; --news:#8a99a6; --funding:#ff8fc7; --resource:#b4e062;
 }
 *{box-sizing:border-box}
 :root{--gx:clamp(20px,4.5vw,72px)}
@@ -519,7 +519,7 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
 <script src="vendor/d3-array.min.js"></script>
 <script src="vendor/d3-geo.min.js"></script>
 <script>
-const KINDS = [["all","All"],["job","Positions"],["paper","Papers"],["course","Programmes"],["event","Events"],["news","News"]];
+const KINDS = [["all","All"],["job","Positions"],["paper","Papers"],["course","Programmes"],["event","Events"],["funding","Funding"],["resource","Resources"],["news","News"]];
 const STORE = { saved: "geo-radar-saved", theme: "geo-radar-theme", profile: "geo-radar-profile", group: "geo-radar-group" };
 const PRESETS = ["Photogrammetry", "LiDAR", "Point clouds", "Remote sensing", "SAR", "InSAR", "GIS", "Python", "Deep learning", "GNSS", "Geodesy", "CityGML", "BIM", "UAV", "Hyperspectral"];
 const LEVELS = [["PhD", /\bphd\b|doctoral|doktorand|promotion/], ["Postdoc", /postdoc|post-doc|research (associate|fellow)|wissenschaftliche/], ["Master or thesis", /\bmaster|\bmsc\b|thesis|abschlussarbeit/], ["Industry", /engineer|consultant|gmbh|\bag\b|specialist|fachkraft|developer|analyst|manager/], ["Internship", /intern|praktik|werkstudent|student assistant/]];
@@ -538,7 +538,8 @@ function matchScore(it) {
   return Math.max(0, Math.min(1, score));
 }
 const PAGE = 40;
-const NEEDS_DEADLINE = new Set(["job", "course", "event"]);
+const NEEDS_DEADLINE = new Set(["job", "course", "event", "funding"]);
+const isCall = it => it.kind === "paper" && it.call;
 const upcoming = it => it.kind === "event" && it.ends && Date.parse(it.ends) + 864e5 >= Date.now();
 const when = it => Date.parse(it.deadline || it.starts || 0) || 0;
 let PEOPLE = null;
@@ -584,6 +585,24 @@ const DOMAINS = [
   { id: "city", name: "3D city models and BIM", color: "#9aa7ff", blurb: "CityGML, IFC, BIM, digital twins and urban information models.",
     re: /citygml|\bifc\b|\bbim\b|digital twin|3d city|city model|smart city|building information|\blod ?\d|cityjson/,
     subs: [["CityGML and 3D city models", /citygml|cityjson|3d city|city model|\blod/], ["BIM and IFC", /\bbim\b|\bifc\b|building information/], ["Digital twins and urban", /digital twin|smart city|urban/]] },
+  { id: "infra", name: "Infrastructure and surveying", color: "#e0925a", blurb: "Structural and deformation monitoring, surveying, cadastre and land administration.",
+    re: /infrastructure|structural health|deformation monitoring|surveying|cadastr|land administration|land registry|bridge|railway|road network|hydrograph|topograph/,
+    subs: [["Monitoring", /monitoring|deformation|structural/], ["Surveying and cadastre", /surveying|cadastr|land admin/], ["Roads, rail, bridges", /road|rail|bridge/]] },
+  { id: "urban", name: "Urban planning and smart cities", color: "#6fc3d8", blurb: "Spatial planning, urban analytics, land use and smart-city data.",
+    re: /urban plan|spatial plan|urban analytic|land use|smart cit|urban heat|urban growth|urban morpholog|mobility/,
+    subs: [["Planning", /plan/], ["Urban analytics", /analytic|growth|morpholog|heat/], ["Mobility", /mobility|transport/]] },
+  { id: "env", name: "Environment and climate", color: "#5fb98a", blurb: "Climate and environmental monitoring, ecosystems, water and coasts from space and air.",
+    re: /climate|environmental monitor|ecosystem|biodiversity|carbon|water (quality|resources)|coastal|glacier|ice sheet|sea level|forest inventory|deforestation|wetland/,
+    subs: [["Climate", /climate|carbon|sea level|ice|glacier/], ["Ecosystems and forests", /ecosystem|biodiversity|forest|wetland|deforest/], ["Water and coasts", /water|coastal|wetland|sea level/]] },
+  { id: "agri", name: "Agriculture and forestry", color: "#b7c94a", blurb: "Crop and soil monitoring, precision agriculture and forest mapping.",
+    re: /agricultur|crop|precision farming|soil moisture|irrigation|yield|vegetation index|forestry|forest monitor|orchard/,
+    subs: [["Crops and yield", /crop|yield|irrigation|orchard/], ["Soil and vegetation", /soil|vegetation index|ndvi/], ["Forestry", /forest/]] },
+  { id: "disaster", name: "Disaster response", color: "#f0716b", blurb: "Floods, landslides, earthquakes, fires and emergency mapping.",
+    re: /disaster|flood|landslide|earthquake|wildfire|volcan|emergency mapping|humanitarian|hazard|tsunami|drought/,
+    subs: [["Floods and drought", /flood|drought/], ["Landslides and earthquakes", /landslide|earthquake|volcan|tsunami/], ["Emergency and humanitarian", /emergency|humanitarian|response/], ["Fires", /wildfire|fire/]] },
+  { id: "archaeo", name: "Archaeology and heritage", color: "#c9a27a", blurb: "Remote sensing, LiDAR and 3D documentation of archaeological and cultural heritage sites.",
+    re: /archaeolog|cultural heritage|heritage|historic building|excavation/,
+    subs: [["Archaeological prospection", /archaeolog|prospection|excavation/], ["Heritage documentation", /heritage|documentation|historic/]] },
   { id: "general", name: "General geospatial and societies", color: "#9aa8b5", blurb: "Conferences, societies and openings that span several fields.", re: /$^/, subs: [] },
 ];
 const DOM = Object.fromEntries(DOMAINS.map(d => [d.id, d]));
@@ -619,7 +638,7 @@ function placeOf(it) {
     if (!r && /^(adzuna)/.test(it.source || "")) r = null;
     if (!r) { try { const tld = new URL(it.url).hostname.split(".").pop(); if (TLD[tld]) r = PLACE.get(TLD[tld].toLowerCase()); } catch {} }
   }
-  return (it._p = r || (it.kind === "paper" || it.kind === "news" ? false : null));
+  return (it._p = r || (["paper", "news", "resource", "funding"].includes(it.kind) ? false : null));
 }
 const contOf = it => { const p = placeOf(it); return p ? p[0] : p === false ? "" : "Not stated"; };
 const countryOf = it => { const p = placeOf(it); return p ? p[1] : ""; };
@@ -714,7 +733,7 @@ function sorted(items) {
   if (st.sort === "auto") {
     const rank = it => SECTIONS.indexOf(section(it));
     return items.sort((a, b) => rank(a) - rank(b)
-      || (a.kind === "paper" && b.kind === "paper" ? (b.impact || 0) - (a.impact || 0)
+      || (a.kind === "paper" && b.kind === "paper" && !a.call && !b.call ? (b.impact || 0) - (a.impact || 0)
         : a.open_posting && !a.deadline ? d(b, "published") - d(a, "published")
         : NEEDS_DEADLINE.has(a.kind) ? when(a) - when(b) : d(b, "first_seen") - d(a, "first_seen")));
   }
@@ -749,19 +768,19 @@ function eventLabel(it) {
 }
 
 function openLabel(it) {
-  if (it.kind === "paper") return it.impact ? paperLabel(it) : "";
+  if (it.kind === "paper" && !it.call) return it.impact ? paperLabel(it) : "";
   if (it.kind === "event") return eventLabel(it);
   if (it.deadline) {
     const days = Math.ceil((Date.parse(it.deadline) - Date.now()) / 864e5);
     const left = days <= 0 ? "closes today" : days === 1 ? "1 day left" : days + " days left";
-    return `<span class="deadline">Open · ${esc(left)} · deadline ${fmt(it.deadline)}</span>`;
+    return `<span class="deadline">${it.call ? "Call for papers" : "Open"} · ${esc(left)} · deadline ${fmt(it.deadline)}</span>`;
   }
   if (it.open_posting) {
     const days = Math.max(0, Math.floor((Date.now() - Date.parse(it.published || it.first_seen)) / 864e5));
     return `<span class="deadline">Open posting · posted ${days === 0 ? "today" : days === 1 ? "1 day ago" : days + " days ago"} · no closing date</span>`;
   }
   if (it.apply_closed) return '<span class="muted-tag">Current intake closed</span>';
-  return ["job", "course", "event"].includes(it.kind) ? '<span class="muted-tag">Deadline not listed</span>' : "";
+  return ["job", "course", "event", "funding"].includes(it.kind) ? '<span class="muted-tag">Deadline not listed</span>' : "";
 }
 
 function renderStats() {
@@ -873,7 +892,7 @@ function dayLeft(iso) { return Math.ceil((Date.parse(iso) - Date.now()) / 864e5)
 function tone(d) { return d <= 7 ? "hot" : d <= 30 ? "warm" : "calm"; }
 
 function gauge(it) {
-  if (it.kind === "paper") {
+  if (it.kind === "paper" && !it.call) {
     const v = Math.round(it.impact || 0);
     return { big: v || "–", small: v ? "impact" : "new", frac: Math.min(1, v / 100), tone: "ink" };
   }
@@ -895,9 +914,10 @@ function gauge(it) {
 
 function details(it) {
   const bits = [];
-  if (it.kind !== "paper" && it.deadline && Date.parse(it.deadline) >= Date.now() - 864e5) bits.push(`<span class="strong">${it.kind === "event" ? "Call closes" : "Apply by"} ${fmt(it.deadline)}</span>`);
+  if ((it.kind !== "paper" || it.call) && it.deadline && Date.parse(it.deadline) >= Date.now() - 864e5) bits.push(`<span class="strong">${it.kind === "event" || it.call ? "Call closes" : it.kind === "funding" ? "Apply by" : "Apply by"} ${fmt(it.deadline)}</span>`);
+  if (it.call) bits.push("<span>Call for papers</span>");
   if (it.kind === "event" && it.starts) bits.push(`<span class="strong">${it.ends && it.ends !== it.starts ? fmt(it.starts) + " to " + fmt(it.ends) : fmt(it.starts)}</span>`);
-  if (it.kind === "paper") {
+  if (it.kind === "paper" && !it.call) {
     if (it.top_venue) bits.push('<span class="strong">Top venue</span>');
     if (it.venue) bits.push(`<span>${esc(it.venue)}</span>`);
     bits.push(`<span>${it.cited_by ? it.cited_by + (it.cited_by === 1 ? " citation" : " citations") : "Not cited yet"}</span>`);
@@ -937,9 +957,10 @@ function card(it) {
   </article>`;
 }
 
-const SECTIONS = ["Closing within a week", "Closing within a month", "Open for longer", "Upcoming events", "Open postings without a closing date", "Papers with the most impact", "Recent papers", "News", "Other"];
+const SECTIONS = ["Closing within a week", "Closing within a month", "Open for longer", "Upcoming events", "Open postings without a closing date", "Papers with the most impact", "Recent papers", "Open data and tools", "News", "Other"];
 function section(it) {
-  if (it.kind === "paper") return (it.impact || 0) >= 50 ? "Papers with the most impact" : "Recent papers";
+  if (it.kind === "paper" && !it.call) return (it.impact || 0) >= 50 ? "Papers with the most impact" : "Recent papers";
+  if (it.kind === "resource") return "Open data and tools";
   if (it.kind === "news") return "News";
   if (it.deadline && Date.parse(it.deadline) >= Date.now() - 864e5) {
     const d = dayLeft(it.deadline);
