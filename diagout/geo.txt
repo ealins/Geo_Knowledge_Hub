@@ -1,0 +1,18 @@
+{"job":[195,140],"course":[77,57],"event":[69,2]}
+job | Manchester, Hybrid | Research Associate (Socially Responsible Earth Obs -> 53.481,-2.2374,Manchester,GB
+job | Altstadt, Weimar, DE | Sachbearbeiter (m/w/d) technische Dokumentation (G -> 51.0438,14.0676,Altstadt,DE
+job | Cranford, Hounslow, GB | Senior Utility Surveyor -> 51.477,-0.4134,Cranford,GB
+job | Freiburg im Breisgau, Baden-Württemberg, DE | Mitarbeiter (m/w/d) geoSERVICE-Hotline – 50 % -> 47.9959,7.8522,Freiburg im Breisgau,DE
+job | Cardiff, Cardiff County, GB | Product Engineer II – ArcGIS Arcade -> 51.48,-3.18,Cardiff,GB
+job | Heidenheim an der Brenz, Heidenheim (Kreis), DE | Teamleiter Dokumentation / Vermessung (m/w/d) -> 48.678,10.1516,Heidenheim,DE
+course | University of Maine, US | Online Graduate Certificate in Geographic Informat -> 44.8831,-68.672,Orono,US
+job | Zürich, CH | Programmkoordinator:in -> 47.3667,8.55,Zurich,CH
+job | TU Delft vacancies | PhD Position Energy Data Sharing for City-Level Po -> 52.0067,4.3556,Delft,NL
+job | Voorhout, Teylingen, NL | Thermo-Mechanical Engineer -> 52.2217,4.4847,Voorhout,NL
+job | Leipzig, Leipzig (Kreis), DE | GIS Entwickler (*) in Leipzig -> 51.3396,12.3713,Leipzig,DE
+job | London, UK, GB | 3D Computer Vision Research Engineer, Geospatial V -> 51.5085,-0.1257,London,GB
+job | Göppingen, Germany | Vorbereitungsdienst im gehobenen vermessungstechni -> 48.7035,9.6521,Göppingen,DE
+course | Swedish University of Agricultural Sciences, SE | GIS och skoglig fj&#xE4;rranalys -> 59.8588,17.6389,Uppsala,SE
+course | University of Maryland, College Park, US | Geospatial Data Science -> 39.2904,-76.6253,University Of Maryland,US
+course | University of California, Los Angeles, US | MAGIST - UCLA Master of Applied Geospatial Informa -> 37.8044,-122.2708,Oakland,US
+course | Pennsylvania State University, US | Graduate Certificate in Geospatial Programming and -> 40.7934,-77.86,State College,US
