@@ -106,6 +106,20 @@ async function orcidPosition(p) {
   if (want.size && overlap(e) === 0) return null; // title belongs to a different employer
   return { position: e.title.slice(0, 80), department: e.dept.slice(0, 100) };
 }
+
+// Co-author network: for each researcher, the people they publish with most since cfg.since (OpenAlex, one call each).
+let withCollab = 0;
+for (const p of researchers) {
+  try {
+    const f = `author.id:${p.id},from_publication_date:${cfg.since}-01-01`;
+    const j = await json(`${API}/works?filter=${f}&group_by=authorships.author.id&per_page=40`);
+    p.collab = (j.group_by || []).filter((g) => g.key && g.key !== "unknown" && idOf(g.key) !== p.id)
+      .slice(0, 14).map((g) => ({ id: idOf(g.key), name: cleanName(g.key_display_name || ""), n: g.count }));
+    if (p.collab.length) withCollab++;
+  } catch { /* leave without network */ }
+  await new Promise((r) => setTimeout(r, 120));
+}
+console.log(`co-author networks for ${withCollab} of ${researchers.length}`);
 let withPos = 0;
 for (const p of researchers) {
   try {
