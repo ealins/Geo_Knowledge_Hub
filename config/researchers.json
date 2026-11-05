@@ -91,9 +91,14 @@
         "GIS spatial analysis",
         "volunteered geographic information",
         "spatial data quality",
-        "geospatial data science"
+        "geospatial data science",
+        "OpenStreetMap",
+        "geographic information science",
+        "spatial data infrastructure",
+        "urban analytics GIS"
       ],
-      "topic_filter": "geographic information|GIS|geospatial|spatial|geovisual|cartograph|OpenStreetMap|volunteered|urban|3D city|land use|remote sensing"
+      "topic_filter": "geographic information|GIS|geospatial|spatial|geovisual|cartograph|OpenStreetMap|volunteered|urban|3D city|land use|remote sensing",
+      "min_people": 5
     }
   ]
 }

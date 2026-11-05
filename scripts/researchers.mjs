@@ -90,7 +90,7 @@ for (const f of cfg.fields) {
 }
 
 const researchers = [...people.values()].sort((a, b) => b.h_index - a.h_index);
-const thin = cfg.fields.filter((f) => researchers.filter((r) => r.fields.includes(f.id)).length < 10).map((f) => f.id);
+const thin = cfg.fields.filter((f) => researchers.filter((r) => r.fields.includes(f.id)).length < (f.min_people ?? 10)).map((f) => f.id);
 if (thin.length) { console.log(`Fields with fewer than 10 people (${thin.join(", ")}); looks like a degraded run, keeping previous file.`); process.exit(0); }
 if (researchers.length < 20) { console.log(`Only ${researchers.length} researchers (failed queries: ${failed}); keeping previous file.`); process.exit(0); }
 
