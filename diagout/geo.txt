@@ -1,18 +1,18 @@
-{"job":[195,140],"course":[77,57],"event":[69,2]}
+{"job":[195,142],"course":[77,57],"event":[69,2]}
 job | Manchester, Hybrid | Research Associate (Socially Responsible Earth Obs -> 53.481,-2.2374,Manchester,GB
-job | Altstadt, Weimar, DE | Sachbearbeiter (m/w/d) technische Dokumentation (G -> 51.0438,14.0676,Altstadt,DE
+job | Altstadt, Weimar, DE | Sachbearbeiter (m/w/d) technische Dokumentation (G -> 50.9803,11.329,Weimar,DE
 job | Cranford, Hounslow, GB | Senior Utility Surveyor -> 51.477,-0.4134,Cranford,GB
 job | Freiburg im Breisgau, Baden-Württemberg, DE | Mitarbeiter (m/w/d) geoSERVICE-Hotline – 50 % -> 47.9959,7.8522,Freiburg im Breisgau,DE
 job | Cardiff, Cardiff County, GB | Product Engineer II – ArcGIS Arcade -> 51.48,-3.18,Cardiff,GB
 job | Heidenheim an der Brenz, Heidenheim (Kreis), DE | Teamleiter Dokumentation / Vermessung (m/w/d) -> 48.678,10.1516,Heidenheim,DE
-course | University of Maine, US | Online Graduate Certificate in Geographic Informat -> 44.8831,-68.672,Orono,US
-job | Zürich, CH | Programmkoordinator:in -> 47.3667,8.55,Zurich,CH
-job | TU Delft vacancies | PhD Position Energy Data Sharing for City-Level Po -> 52.0067,4.3556,Delft,NL
-job | Voorhout, Teylingen, NL | Thermo-Mechanical Engineer -> 52.2217,4.4847,Voorhout,NL
-job | Leipzig, Leipzig (Kreis), DE | GIS Entwickler (*) in Leipzig -> 51.3396,12.3713,Leipzig,DE
-job | London, UK, GB | 3D Computer Vision Research Engineer, Geospatial V -> 51.5085,-0.1257,London,GB
-job | Göppingen, Germany | Vorbereitungsdienst im gehobenen vermessungstechni -> 48.7035,9.6521,Göppingen,DE
-course | Swedish University of Agricultural Sciences, SE | GIS och skoglig fj&#xE4;rranalys -> 59.8588,17.6389,Uppsala,SE
-course | University of Maryland, College Park, US | Geospatial Data Science -> 39.2904,-76.6253,University Of Maryland,US
-course | University of California, Los Angeles, US | MAGIST - UCLA Master of Applied Geospatial Informa -> 37.8044,-122.2708,Oakland,US
-course | Pennsylvania State University, US | Graduate Certificate in Geospatial Programming and -> 40.7934,-77.86,State College,US
+job | Edinburgh, Scotland, GB | GIS Solution Architect -> 55.9521,-3.1965,Edinburgh,GB
+job | Sachsenhausen, Frankfurt am Main, DE | Geodät als Wissenschaftlicher Mitarbeiter (m/w/d) -> 51.2434,9.0097,Sachsenhausen,DE
+job | ETH Zurich jobs | Doctoral Student in Glaciology and Glacial Hazards -> 47.3667,8.55,Zurich,CH
+job | Peterborough, Eastern England, GB | Earth Observation Specialist -> 52.5736,-0.2478,Peterborough,GB
+job | Horgen, CH | Projektleiter/-in Baubewilligungen 100% -> 47.2598,8.5978,Horgen,CH
+job | Espoo | Engineering Team Lead (Geospatial Analytics) (ICEY -> 60.2052,24.6522,Espoo,FI
+job | Bingen, Sigmaringen (Kreis), DE | (Senior) Layout Engineer (f/m/d) -> 48.1113,9.2724,Bingen,DE
+course | University of Arizona, US | Geographic Information Systems Technology -> 32.2217,-110.9265,Tucson,US
+course | University of Florida, US | Geomatics -> 29.6516,-82.3248,Gainesville,US
+course | Purdue University West Lafayette, US | Online Master of Science in Applied Geospatial Ana -> 40.4259,-86.9081,West Lafayette,US
+course | Pennsylvania State University, US | Postbaccalaureate Certificate in Geographic Inform -> 40.7934,-77.86,State College,US
