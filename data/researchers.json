@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T18:30:51.223Z",
+ "generated_at": "2026-11-05T18:41:56.998Z",
  "since": 2016,
  "fields": [
   {
@@ -238,7 +238,9 @@
      "name": "John Wright",
      "n": 64
     }
-   ]
+   ],
+   "position": "Senior Researcher",
+   "department": "Air pollution and urban environment"
   },
   {
    "id": "A5035372982",
@@ -339,7 +341,9 @@
      "name": "Kathryn Markey",
      "n": 65
     }
-   ]
+   ],
+   "position": "Director",
+   "department": "Center for Global Discovery and Conservation Science"
   },
   {
    "id": "A5059040421",
@@ -446,7 +450,9 @@
      "name": "Abolfazl Abdollahi",
      "n": 22
     }
-   ]
+   ],
+   "position": "Distinguished Professor",
+   "department": "Faculty of Engineering & Information Technology"
   },
   {
    "id": "A5100673818",
@@ -743,7 +749,9 @@
      "name": "Julian Helfenstein",
      "n": 14
     }
-   ]
+   ],
+   "position": "Full Professor",
+   "department": "Institute for Environmental Studies"
   },
   {
    "id": "A5063621337",
@@ -942,7 +950,9 @@
      "name": "Chenyu Li",
      "n": 22
     }
-   ]
+   ],
+   "position": "Research Director",
+   "department": ""
   },
   {
    "id": "A5054292278",
@@ -1043,7 +1053,9 @@
      "name": "Lianru Gao",
      "n": 20
     }
-   ]
+   ],
+   "position": "Full Professor",
+   "department": "Department of Technology of Computers and Communications"
   },
   {
    "id": "A5073807486",
@@ -1144,7 +1156,9 @@
      "name": "Stefanie Holzwarth",
      "n": 15
     }
-   ]
+   ],
+   "position": "Professor, University of Twente",
+   "department": "ITC"
   },
   {
    "id": "A5051219165",
@@ -1242,7 +1256,9 @@
      "name": "David P. Roy",
      "n": 8
     }
-   ]
+   ],
+   "position": "Senior Research Scientist, Natural Resources Canada",
+   "department": "Canadian Forest Service"
   },
   {
    "id": "A5033017179",
@@ -1343,7 +1359,9 @@
      "name": "Jiahui Qu",
      "n": 25
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "Electrical and Computer Engineering"
   },
   {
    "id": "A5066754586",
@@ -1441,7 +1459,9 @@
      "name": "Alexander Gruber",
      "n": 20
     }
-   ]
+   ],
+   "position": "Prof. for remote sensing",
+   "department": "Department of Geodesy and Geoinformation"
   },
   {
    "id": "A5006095323",
@@ -1744,7 +1764,9 @@
      "name": "Geordie W. Hobart",
      "n": 13
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "Forest Resources Management"
   },
   {
    "id": "A5089619012",
@@ -1842,7 +1864,9 @@
      "name": "Ted R. Feldpausch",
      "n": 23
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "Plant Sciences and Conservation Research Institute"
   },
   {
    "id": "A5039052506",
@@ -2136,7 +2160,9 @@
      "name": "Asaf Inbal",
      "n": 10
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "Earth and Planetary Science"
   },
   {
    "id": "A5009185228",
@@ -2234,7 +2260,9 @@
      "name": "Rui Zhu",
      "n": 12
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "Department of Geography and Resource Management"
   },
   {
    "id": "A5068384981",
@@ -2344,7 +2372,9 @@
      "name": "Pedram Ghamisi",
      "n": 28
     }
-   ]
+   ],
+   "position": "Head/Prof. Dr.",
+   "department": "Chair of Data Science in Earth Observation"
   },
   {
    "id": "A5000622487",
@@ -2546,7 +2576,9 @@
      "name": "Wei Wang",
      "n": 11
     }
-   ]
+   ],
+   "position": "Senior Scientist",
+   "department": "Building and Industrial Energy Systems Division"
   },
   {
    "id": "A5033042071",
@@ -2647,7 +2679,9 @@
      "name": "Yunsheng Wang",
      "n": 39
     }
-   ]
+   ],
+   "position": "Prof., Head of department, FGI, National Land Survey of Finland",
+   "department": "Dept of RS and Photogrammetry"
   },
   {
    "id": "A5100317994",
@@ -2748,7 +2782,9 @@
      "name": "Xudong Zhao",
      "n": 15
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "School of Information and Electronics"
   },
   {
    "id": "A5009116003",
@@ -2846,7 +2882,9 @@
      "name": "Lunche Wang",
      "n": 22
     }
-   ]
+   ],
+   "position": "Professor, Tsinghua Shenzhen International Graduate School",
+   "department": ""
   },
   {
    "id": "A5074919292",
@@ -3045,7 +3083,9 @@
      "name": "William Frodella",
      "n": 38
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "Earth Sciences"
   },
   {
    "id": "A5100613889",
@@ -3146,7 +3186,9 @@
      "name": "Yu Zang",
      "n": 25
     }
-   ]
+   ],
+   "position": "Cross-appointed Professor (2017-2025) and Adjunct Professor (since 2026)",
+   "department": "Department of Systems Design Engineering"
   },
   {
    "id": "A5075013625",
@@ -3244,7 +3286,9 @@
      "name": "Swalpa Kumar Roy",
      "n": 13
     }
-   ]
+   ],
+   "position": "Professor, Southeast University",
+   "department": ""
   },
   {
    "id": "A5073132582",
@@ -3440,7 +3484,9 @@
      "name": "Martin Queinnec",
      "n": 8
     }
-   ]
+   ],
+   "position": "Research Scientist",
+   "department": "Natural Resources Canada"
   },
   {
    "id": "A5100754351",
@@ -3841,7 +3887,9 @@
      "name": "Roberto Battisti",
      "n": 14
     }
-   ]
+   ],
+   "position": "head of research unit",
+   "department": "3D Optical Metrology - 3DOM"
   },
   {
    "id": "A5073032922",
@@ -4040,7 +4088,9 @@
      "name": "Yi Liang",
      "n": 21
     }
-   ]
+   ],
+   "position": "Prof.",
+   "department": "National Laboratory of Radar Signal Processing"
   },
   {
    "id": "A5005905514",
@@ -4138,7 +4188,9 @@
      "name": "Zequn Zhang",
      "n": 27
     }
-   ]
+   ],
+   "position": "Director",
+   "department": "Aerospace Information Research Institute"
   },
   {
    "id": "A5007427445",
@@ -4236,7 +4288,9 @@
      "name": "Jiantao Du",
      "n": 15
     }
-   ]
+   ],
+   "position": "Professor of Imaging Geodesy",
+   "department": ""
   },
   {
    "id": "A5080685651",
@@ -4334,7 +4388,9 @@
      "name": "Bertrand Ygorra",
      "n": 27
     }
-   ]
+   ],
+   "position": "Directeur de recherche, Institut National de Recherche pour l'Agriculture l'Alimentation e",
+   "department": "ISPA"
   },
   {
    "id": "A5035533740",
@@ -4628,7 +4684,9 @@
      "name": "Hui Qiu",
      "n": 11
     }
-   ]
+   ],
+   "position": "Vice-President & Professor, Henan Polytechnic University",
+   "department": ""
   },
   {
    "id": "A5010436195",
@@ -4824,7 +4882,9 @@
      "name": "Mila Koeva",
      "n": 7
     }
-   ]
+   ],
+   "position": "Professor, University of Twente",
+   "department": "Department of Earth Observation Science"
   },
   {
    "id": "A5043014786",
@@ -4922,7 +4982,9 @@
      "name": "Juho‐Pekka Virtanen",
      "n": 23
     }
-   ]
+   ],
+   "position": "Research Professor",
+   "department": "Remote Sensing and Photogrammetry"
   },
   {
    "id": "A5043626547",
@@ -5121,7 +5183,9 @@
      "name": "Di Wang",
      "n": 10
     }
-   ]
+   ],
+   "position": "Professor of Photogrammetry",
+   "department": "Department of Geodesy and Geoinformation"
   },
   {
    "id": "A5010235735",
@@ -5317,7 +5381,9 @@
      "name": "Andreas Brack",
      "n": 27
     }
-   ]
+   ],
+   "position": "Professor and Chair of Satellite Geodesy, Technische Universität Berlin",
+   "department": "Institute of Geodesy and Geoinformation Science"
   },
   {
    "id": "A5061833277",
@@ -5709,7 +5775,9 @@
      "name": "Josef Taher",
      "n": 24
     }
-   ]
+   ],
+   "position": "Research Professor",
+   "department": "Remote Sensing and Photogrammetry"
   },
   {
    "id": "A5100772177",
@@ -5807,7 +5875,9 @@
      "name": "Xianghong Zou",
      "n": 9
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "State Key Laboratory of Information Engineering in  Surveying, Mapping and Remote Sensing"
   },
   {
    "id": "A5075301188",
@@ -6003,7 +6073,9 @@
      "name": "Franz Quint",
      "n": 7
     }
-   ]
+   ],
+   "position": "Head",
+   "department": "Photogrammetry & Remote Sensing"
   },
   {
    "id": "A5100660972",
@@ -6591,7 +6663,9 @@
      "name": "Michael A. Wulder",
      "n": 15
     }
-   ]
+   ],
+   "position": "Associate Professor",
+   "department": "School of Forest Sciences"
   },
   {
    "id": "A5101705110",
@@ -6989,7 +7063,9 @@
      "name": "Abdullah Alattas",
      "n": 11
     }
-   ]
+   ],
+   "position": "Professor, University of New South Wales",
+   "department": "GRID, School of Built Environment"
   },
   {
    "id": "A5084320319",
@@ -7283,7 +7359,9 @@
      "name": "Jere Kaivosoja",
      "n": 17
     }
-   ]
+   ],
+   "position": "Research Manager",
+   "department": "Remote Sensing and Photogrammetry"
   },
   {
    "id": "A5109972324",
@@ -7577,7 +7655,9 @@
      "name": "Yihao Jiang",
      "n": 12
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "GNSS Research Center"
   },
   {
    "id": "A5013877845",
@@ -7675,7 +7755,9 @@
      "name": "Paweł Wielgosz",
      "n": 18
     }
-   ]
+   ],
+   "position": "Full Tenured Professor",
+   "department": "Mathematics"
   },
   {
    "id": "A5035415910",
@@ -7773,7 +7855,9 @@
      "name": "Jiaqi Shi",
      "n": 14
     }
-   ]
+   ],
+   "position": "Honorary professor",
+   "department": "School of Science"
   },
   {
    "id": "A5100631497",
@@ -7871,7 +7955,9 @@
      "name": "Hua Gao",
      "n": 8
     }
-   ]
+   ],
+   "position": "Prof.",
+   "department": "LIESMARS"
   },
   {
    "id": "A5052287334",
@@ -7969,7 +8055,9 @@
      "name": "Yismaw Wassie",
      "n": 11
     }
-   ]
+   ],
+   "position": "Head of Geomatics Division",
+   "department": ""
   },
   {
    "id": "A5072289333",
@@ -8557,7 +8645,9 @@
      "name": "Núria Devanthéry",
      "n": 19
     }
-   ]
+   ],
+   "position": "Senior Researcher",
+   "department": "Geomatics Division-Remote Sensing"
   },
   {
    "id": "A5047673695",
@@ -8655,7 +8745,9 @@
      "name": "Clara García‐Sánchez",
      "n": 4
     }
-   ]
+   ],
+   "position": "associate-professor 3D geoinformation",
+   "department": ""
   },
   {
    "id": "A5067826216",
@@ -8753,7 +8845,9 @@
      "name": "Roberto Tomás",
      "n": 11
     }
-   ]
+   ],
+   "position": "Professor",
+   "department": "School of Geological Engineering and Geomatics"
   },
   {
    "id": "A5026452327",
@@ -8949,7 +9043,9 @@
      "name": "Mandana Moshrefzadeh",
      "n": 7
     }
-   ]
+   ],
+   "position": "Full Professor, Technische Universität München",
+   "department": "Chair of Geoinformatics, Department of Aerospace and Geodesy"
   },
   {
    "id": "A5055469319",
@@ -9047,7 +9143,9 @@
      "name": "A. Fienga",
      "n": 11
     }
-   ]
+   ],
+   "position": "President of the Discipline Council for Civil Engineering and Transport",
+   "department": "Institute of Geodesy and Geoinformatics"
   },
   {
    "id": "A5019208828",
@@ -9243,7 +9341,9 @@
      "name": "Roberto Battisti",
      "n": 6
     }
-   ]
+   ],
+   "position": "Researcher, Università degli Studi di Sassari",
+   "department": "Department of Chemical, Physical, Mathematical and Natural Sciences Department of Chemical, Physical"
   },
   {
    "id": "A5017812815",
@@ -9341,7 +9441,9 @@
      "name": "Deyan Deng",
      "n": 5
     }
-   ]
+   ],
+   "position": "Full Professor",
+   "department": ""
   },
   {
    "id": "A5018958751",
@@ -9439,7 +9541,9 @@
      "name": "Alessio Collalti",
      "n": 1
     }
-   ]
+   ],
+   "position": "Researcher, Istanbul Technical University",
+   "department": "Institute of Earthquake Engineering and Disaster Management"
   },
   {
    "id": "A5046775950",
@@ -9537,7 +9641,9 @@
      "name": "Fabio Paonessa",
      "n": 14
     }
-   ]
+   ],
+   "position": "Docenti di ruolo di Ia fascia",
+   "department": "Dipartimento di Ingegneria dell'Ambiente, del Territorio e delle Infrastrutture"
   },
   {
    "id": "A5047595231",
@@ -9635,7 +9741,9 @@
      "name": "Spanò Antonia",
      "n": 14
     }
-   ]
+   ],
+   "position": "Docenti di ruolo di IIa fascia",
+   "department": "Dipartimento di Architettura e Design"
   },
   {
    "id": "A5075778487",
@@ -9733,7 +9841,9 @@
      "name": "Mayra Zurbarán",
      "n": 10
     }
-   ]
+   ],
+   "position": "Docenti di ruolo di Ia fascia",
+   "department": "DIPARTIMENTO DI INGEGNERIA CIVILE E AMBIENTALE"
   },
   {
    "id": "A5001059507",
@@ -9831,7 +9941,9 @@
      "name": "Malumbo Chaka Chipofya",
      "n": 7
     }
-   ]
+   ],
+   "position": "Associate Professor, University of Twente",
+   "department": "Urban and Regional Planning and Geo-information Management"
   },
   {
    "id": "A5051271836",
@@ -10125,7 +10237,9 @@
      "name": "Abdoulaye Diakité",
      "n": 4
     }
-   ]
+   ],
+   "position": "Researcher",
+   "department": "3D Geoinformation"
   },
   {
    "id": "A5032699264",
@@ -10223,7 +10337,9 @@
      "name": "Ratri Widyastuti",
      "n": 5
     }
-   ]
+   ],
+   "position": "Junior Professor",
+   "department": "Surveying and Geomatics"
   },
   {
    "id": "A5000298644",
