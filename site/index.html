@@ -1284,7 +1284,7 @@ document.addEventListener("click", e => { const b = e.target.closest("[data-pf]"
 const PAY = { revolut: "https://revolut.me/ealins", paypal: "https://www.paypal.com/donate/?business=QJ7QV7SEW87WU&currency_code=EUR&item_name=Geo+Radar+pulse" };
 $("support").addEventListener("click", () => {
   let d = $("spdlg"); if (!d) { d = document.createElement("dialog"); d.id = "spdlg"; document.body.appendChild(d); d.addEventListener("click", e => { if (e.target === d) d.close(); }); }
-  d.innerHTML = `<h3>Sponsor a pulse</h3><p>Geo Radar is free and runs on about $5 a month. A €5 support (or more) adds your own gold pulse to the globe, with your name and city.</p>
+  d.innerHTML = `<h3>Sponsor a pulse</h3><p>Geo Radar is free for everyone. Support it with any amount you like and your own gold pulse lights up on the globe, with your name and city.</p>
     <form id="spform"><label for="spn">Name or lab</label><input id="spn" maxlength="60" required autocomplete="off">
     <label for="spc">City, country</label><input id="spc" maxlength="60" required autocomplete="off">
     <label for="spu">Link (optional)</label><input id="spu" type="url" maxlength="200" placeholder="https://" autocomplete="off">
