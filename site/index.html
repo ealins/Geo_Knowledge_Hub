@@ -286,7 +286,10 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 .wnote{font-size:12.5px;color:var(--faint)}
 
 /* matcher */
-.matcher{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:6px}
+.ftile{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+.ftile h3{margin:0 0 10px!important;color:var(--text)!important;font:600 14px var(--sans)!important}
+.ftile select{width:100%}.ftile .check{display:flex;margin:6px 0}.ftile .check:last-child{margin-bottom:0}
+.matcher{margin-bottom:12px!important;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:6px}
 .matcher h3{margin:0 0 4px!important;color:var(--text)!important;font:600 14px var(--sans)!important}
 .matcher p.mh{margin:0 0 10px;color:var(--muted);font-size:12.5px;line-height:1.45}
 .matcher input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--text);font:inherit;font-size:13px;margin-bottom:8px}
@@ -468,17 +471,17 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
         <div class="mrow"><span class="mlabel" style="margin:0">Best matches</span><button class="mclear" id="mclear" type="button">Clear</button></div>
         <div class="mtop" id="mtop"></div>
       </section>
-      <h3>Domains</h3>
-      <nav class="tree" id="tree" aria-label="Domains"></nav>
-      <h3>Source</h3>
-      <label class="sr" for="source">Source</label><select id="source"><option value="">All sources</option></select>
-      <h3>Show</h3>
+      <section class="ftile"><h3>Domains</h3>
+      <nav class="tree" id="tree" aria-label="Domains"></nav></section>
+      <section class="ftile"><h3>Source</h3>
+      <label class="sr" for="source">Source</label><select id="source"><option value="">All sources</option></select></section>
+      <section class="ftile"><h3>Show</h3>
       <label class="check"><input type="checkbox" id="newOnly"> New this week only</label>
       <label class="check"><input type="checkbox" id="unlisted"> Include items without a listed deadline</label>
-      <label class="check"><input type="checkbox" id="savedOnly"> Saved only</label>
-      <h3>Order</h3>
+      <label class="check"><input type="checkbox" id="savedOnly"> Saved only</label></section>
+      <section class="ftile"><h3>Order</h3>
       <label class="sr" for="sort">Sort</label>
-      <select id="sort"><option value="auto">Best first</option><option value="match">Best match for me</option><option value="seen">Recently found</option><option value="published">Publication date</option><option value="title">Title A to Z</option></select>
+      <select id="sort"><option value="auto">Best first</option><option value="match">Best match for me</option><option value="seen">Recently found</option><option value="published">Publication date</option><option value="title">Title A to Z</option></select></section>
      </details>
     </aside>
 
