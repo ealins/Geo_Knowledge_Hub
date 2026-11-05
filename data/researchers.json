@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:22:00.552Z",
+ "generated_at": "2026-11-05T17:23:43.465Z",
  "since": 2016,
  "fields": [
   {
@@ -90,7 +90,7 @@
     "geoinformatics"
    ],
    "rank": {
-    "geoinformatics": 2
+    "geoinformatics": 1
    },
    "recent": {
     "geoinformatics": 365
@@ -145,22 +145,19 @@
     "remote-sensing",
     "lidar",
     "geoai",
-    "city-bim",
-    "geoinformatics"
+    "city-bim"
    ],
    "rank": {
     "remote-sensing": 4,
     "lidar": 11,
     "geoai": 2,
-    "city-bim": 10,
-    "geoinformatics": 1
+    "city-bim": 10
    },
    "recent": {
     "remote-sensing": 443,
     "lidar": 132,
     "geoai": 223,
-    "city-bim": 46,
-    "geoinformatics": 740
+    "city-bim": 46
    }
   },
   {
@@ -238,36 +235,10 @@
     "geoinformatics"
    ],
    "rank": {
-    "geoinformatics": 6
+    "geoinformatics": 2
    },
    "recent": {
     "geoinformatics": 212
-   }
-  },
-  {
-   "id": "A5088421096",
-   "name": "Jens‐Christian Svenning",
-   "orcid": "https://orcid.org/0000-0002-3415-0862",
-   "institution": "Aarhus University",
-   "country": "DK",
-   "h_index": 128,
-   "cited_by": 64372,
-   "works": 993,
-   "expertise": [
-    "Ecology and Vegetation Dynamics Studies",
-    "Species Distribution and Climate Change",
-    "Botany and Plant Ecology Studies",
-    "Wildlife Ecology and Conservation",
-    "Land Use and Ecosystem Services"
-   ],
-   "fields": [
-    "geoinformatics"
-   ],
-   "rank": {
-    "geoinformatics": 3
-   },
-   "recent": {
-    "geoinformatics": 251
    }
   },
   {
@@ -323,32 +294,6 @@
    "recent": {
     "remote-sensing": 458,
     "geoai": 170
-   }
-  },
-  {
-   "id": "A5029962482",
-   "name": "Nico Eisenhauer",
-   "orcid": "https://orcid.org/0000-0002-0371-6720",
-   "institution": "German Centre for Integrative Biodiversity Research",
-   "country": "DE",
-   "h_index": 112,
-   "cited_by": 48719,
-   "works": 1223,
-   "expertise": [
-    "Ecology and Vegetation Dynamics Studies",
-    "Soil Carbon and Nitrogen Dynamics",
-    "Mycorrhizal Fungi and Plant Interactions",
-    "Invertebrate Taxonomy and Ecology",
-    "Land Use and Ecosystem Services"
-   ],
-   "fields": [
-    "geoinformatics"
-   ],
-   "rank": {
-    "geoinformatics": 4
-   },
-   "recent": {
-    "geoinformatics": 259
    }
   },
   {
@@ -701,7 +646,7 @@
     "geoinformatics"
    ],
    "rank": {
-    "geoinformatics": 8
+    "geoinformatics": 3
    },
    "recent": {
     "geoinformatics": 256
@@ -728,24 +673,21 @@
     "remote-sensing",
     "sar",
     "geoai",
-    "city-bim",
-    "geoinformatics"
+    "city-bim"
    ],
    "rank": {
     "photogrammetry": 3,
     "remote-sensing": 2,
     "sar": 1,
     "geoai": 1,
-    "city-bim": 7,
-    "geoinformatics": 5
+    "city-bim": 7
    },
    "recent": {
     "photogrammetry": 225,
     "remote-sensing": 731,
     "sar": 373,
     "geoai": 368,
-    "city-bim": 91,
-    "geoinformatics": 283
+    "city-bim": 91
    }
   },
   {
@@ -772,7 +714,7 @@
    "rank": {
     "remote-sensing": 11,
     "geoai": 7,
-    "geoinformatics": 9
+    "geoinformatics": 4
    },
    "recent": {
     "remote-sensing": 398,
@@ -975,32 +917,6 @@
    }
   },
   {
-   "id": "A5016154330",
-   "name": "Symeon Chatzinotas",
-   "orcid": "https://orcid.org/0000-0001-5122-0001",
-   "institution": "University of Luxembourg",
-   "country": "LU",
-   "h_index": 81,
-   "cited_by": 30668,
-   "works": 1292,
-   "expertise": [
-    "Satellite Communication Systems",
-    "Advanced Wireless Communication Technologies",
-    "Advanced MIMO Systems Optimization",
-    "Advanced Wireless Network Optimization",
-    "Millimeter-Wave Propagation and Modeling"
-   ],
-   "fields": [
-    "geoinformatics"
-   ],
-   "rank": {
-    "geoinformatics": 7
-   },
-   "recent": {
-    "geoinformatics": 296
-   }
-  },
-  {
    "id": "A5075013625",
    "name": "Danfeng Hong",
    "orcid": "https://orcid.org/0000-0002-3212-9584",
@@ -1176,22 +1092,19 @@
     "photogrammetry",
     "lidar",
     "geoai",
-    "city-bim",
-    "geoinformatics"
+    "city-bim"
    ],
    "rank": {
     "photogrammetry": 1,
     "lidar": 3,
     "geoai": 14,
-    "city-bim": 4,
-    "geoinformatics": 12
+    "city-bim": 4
    },
    "recent": {
     "photogrammetry": 558,
     "lidar": 423,
     "geoai": 159,
-    "city-bim": 173,
-    "geoinformatics": 225
+    "city-bim": 173
    }
   },
   {
@@ -1560,7 +1473,7 @@
    ],
    "rank": {
     "city-bim": 3,
-    "geoinformatics": 13
+    "geoinformatics": 7
    },
    "recent": {
     "city-bim": 218,
@@ -1795,7 +1708,7 @@
     "geoinformatics"
    ],
    "rank": {
-    "geoinformatics": 15
+    "geoinformatics": 9
    },
    "recent": {
     "geoinformatics": 188
@@ -2033,7 +1946,7 @@
    "rank": {
     "photogrammetry": 14,
     "city-bim": 1,
-    "geoinformatics": 11
+    "geoinformatics": 6
    },
    "recent": {
     "photogrammetry": 166,
@@ -2685,7 +2598,7 @@
     "geoinformatics"
    ],
    "rank": {
-    "geoinformatics": 10
+    "geoinformatics": 5
    },
    "recent": {
     "geoinformatics": 386
@@ -2763,7 +2676,7 @@
     "geoinformatics"
    ],
    "rank": {
-    "geoinformatics": 14
+    "geoinformatics": 8
    },
    "recent": {
     "geoinformatics": 264
