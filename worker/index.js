@@ -180,6 +180,22 @@ export default {
     if (u.pathname === "/api/ai") {
       return new Response(JSON.stringify(await aiMap(env)), { headers: { "content-type": "application/json", "cache-control": "public, max-age=900" } });
     }
+    if (u.pathname === "/api/pulse" && req.method === "POST") {
+      // "Put your lab on the map": stores a pending claim (name, city, optional link) under a short code. No payment data ever touches this site.
+      const J = (o, s = 200) => new Response(JSON.stringify(o), { status: s, headers: { "content-type": "application/json", "cache-control": "no-store" } });
+      let b; try { if (+req.headers.get("content-length") > 2000) return J({ error: "too large" }, 413); b = await req.json(); } catch { return J({ error: "bad request" }, 400); }
+      if (b.hp) return J({ code: "GR-XXXXX" }); // honeypot: pretend success to bots
+      const clean = (s, n) => String(s || "").replace(/[\u0000-\u001f<>]/g, "").trim().slice(0, n);
+      const name = clean(b.name, 60), city = clean(b.city, 60); let url = clean(b.url, 200);
+      if (!name || !city) return J({ error: "name and city are required" }, 400);
+      if (url && !/^https:\/\//i.test(url)) url = "";
+      const ip = req.headers.get("cf-connecting-ip") || "x", rk = `rl:${ip}:${new Date().toISOString().slice(0, 13)}`;
+      const n = +((await env.KV.get(rk)) || 0); if (n >= 3) return J({ error: "slow down" }, 429);
+      await env.KV.put(rk, String(n + 1), { expirationTtl: 3700 });
+      const A = "ABCDEFGHJKMNPQRSTUVWXYZ23456789", r = crypto.getRandomValues(new Uint8Array(5)), code = "GR-" + [...r].map((x) => A[x % A.length]).join("");
+      await env.KV.put(`sponsor:${code}`, JSON.stringify({ name, city, url, at: new Date().toISOString() }), { expirationTtl: 60 * 86400 });
+      return J({ code });
+    }
     if (u.pathname === "/api/diag") {
       return new Response((await env.KV.get("diag:last")) || "{}", { headers: { "content-type": "application/json", "cache-control": "no-store" } });
     }

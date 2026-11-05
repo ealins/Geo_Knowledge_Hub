@@ -250,6 +250,17 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 #netsvg .nn text{font-size:11.5px;fill:var(--text);paint-order:stroke;stroke:var(--surface);stroke-width:3px}
 #netsvg .nn:hover circle,#netsvg .nn:focus circle{stroke:var(--text)}
 .netnote{padding:0 20px 16px;font-size:12.5px;color:var(--faint)}
+.support{border-color:#e0a63a;color:#e0a63a;font-weight:600}.support:hover{background:rgba(224,166,58,.12)}
+#spdlg{border:1px solid var(--line);border-radius:16px;padding:22px;background:var(--surface);color:var(--text);width:min(460px,94vw)}
+#spdlg::backdrop{background:rgba(5,10,16,.62)}
+#spdlg h3{margin:0 0 6px;font:600 21px/1.2 var(--serif)}#spdlg p{margin:0 0 12px;font-size:13.5px;color:var(--muted);line-height:1.5}
+#spdlg label{display:block;font-size:12.5px;color:var(--muted);margin:10px 0 4px}
+#spdlg input{width:100%;box-sizing:border-box;font:inherit;padding:9px 11px;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--text)}
+#spdlg .hp{position:absolute;left:-9999px}
+.spbtns{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px}
+.spbtn{font:inherit;font-weight:600;font-size:14px;line-height:1.2;white-space:nowrap;flex:0 0 auto;height:auto;min-height:0;padding:10px 18px;border-radius:999px;border:0;cursor:pointer;text-decoration:none;display:inline-block}
+.spbtn.spgo{background:#e0a63a;color:#1a1204}.spbtn.spalt{background:var(--accent-soft);color:var(--accent)}
+.spcode{font:700 22px/1 var(--sans);letter-spacing:.08em;background:var(--bg);border:1px dashed #e0a63a;border-radius:10px;padding:12px;text-align:center;margin:8px 0}
 .prole{margin:2px 0 2px;font-size:13px;font-weight:600;color:var(--accent)}
 .pexp{margin:0;font-size:12.5px;color:var(--faint);line-height:1.45}
 .pstats{display:flex;flex-wrap:wrap;gap:2px 14px;font-size:12.5px;color:var(--muted)}
@@ -407,6 +418,7 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
   <div class="hero-in">
     <div class="top">
       <div class="brand"><img src="brand/mark.svg" width="30" height="30" alt="">geoacademic.app</div>
+      <button class="theme support" id="support" type="button">Put your lab on the map</button>
       <button class="theme" id="theme" type="button" aria-label="Colour theme">Theme: auto</button>
     </div>
     <div class="hero-grid">
@@ -981,11 +993,11 @@ function renderGlobe(open) {
   const cv = $("globe");
   if (!window.d3?.geoOrthographic) { setViz("radar"); document.querySelector(".viz-tabs").hidden = true; return; }
   const KC = { job: "#ffb454", course: "#cfa3ff", event: "#5cc8e8" }, KN = { job: "Position", course: "Programme", event: "Event" };
-  globe.pts = open.map(it => ({ it, ll: coordOf(it) })).filter(p => p.ll);
-  const countries = new Set(globe.pts.map(p => countryOf(p.it))).size;
+  globe.pts = open.map(it => ({ it, ll: coordOf(it) })).filter(p => p.ll).concat((globe.sup || []).map(s => ({ sup: s, ll: [s.lon, s.lat] })));
+  const countries = new Set(globe.pts.filter(p => p.it).map(p => countryOf(p.it))).size;
   const cap = $("radarcap");
-  const legend = `<div class="rlegend">${["job", "course", "event"].map(k => `<span><i style="--c:${KC[k]}"></i>${KN[k]}s ${globe.pts.filter(p => p.it.kind === k).length}</span>`).join("")}</div>`;
-  hero.globeIdle = () => cap.innerHTML = `Picking up <b>${globe.pts.length}</b> pulses in <b>${countries}</b> countries. Drag to turn the globe.${legend}`;
+  const legend = `<div class="rlegend">${["job", "course", "event"].map(k => `<span><i style="--c:${KC[k]}"></i>${KN[k]}s ${globe.pts.filter(p => p.it && p.it.kind === k).length}</span>`).join("")}</div>`;
+  hero.globeIdle = () => cap.innerHTML = `Picking up <b>${globe.pts.filter(p => p.it).length}</b> pulses in <b>${countries}</b> countries. Drag to turn the globe.${legend}`;
   heroIdle();
   if (globe.started) { globe.wake?.(); return; }
   globe.started = true;
@@ -1018,12 +1030,12 @@ function renderGlobe(open) {
     for (const p of globe.pts) {
       if (d3.geoDistance(p.ll, center) > Math.PI / 2 - 0.02) continue;
       const [x, y] = proj(p.ll); globe.vis.push([x, y, p]);
-      const col = KC[p.it.kind];
+      const col = p.sup ? "#ffc247" : KC[p.it.kind];
       if (!reduce) { // the sweep "picks up" each pulse as it passes
         let d = (sweep - Math.atan2(y - c, x - c)) % (Math.PI * 2); if (d < 0) d += Math.PI * 2;
         if (d < 1.6) { const k = 1 - d / 1.6; ctx.beginPath(); ctx.arc(x, y, 3 + 13 * (1 - k), 0, Math.PI * 2); ctx.strokeStyle = col; ctx.globalAlpha = k * 0.85; ctx.lineWidth = 1.2; ctx.stroke(); ctx.globalAlpha = 1; }
       }
-      ctx.beginPath(); ctx.arc(x, y, (p === hover ? 5 : 2.6) * Math.max(1, Math.sqrt(W / 480)), 0, Math.PI * 2); ctx.fillStyle = col; ctx.fill();
+      ctx.beginPath(); ctx.arc(x, y, (p === hover ? 5 : p.sup ? 3.8 : 2.6) * Math.max(1, Math.sqrt(W / 480)), 0, Math.PI * 2); ctx.fillStyle = col; ctx.fill();
       if (p === hover) { ctx.lineWidth = 2; ctx.strokeStyle = "#fff"; ctx.stroke(); }
     }
     if (!reduce && visible && !document.hidden && hero.viz === "globe") raf = requestAnimationFrame(frame);
@@ -1040,17 +1052,19 @@ function renderGlobe(open) {
     if (drag) { const dx = e.clientX - drag.x, dy = e.clientY - drag.y; if (Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
       globe.rot = [drag.r[0] + dx * 0.32, Math.max(-75, Math.min(75, drag.r[1] - dy * 0.32)), 0]; wake(); if (reduce) frame(performance.now()); return; }
     const p = pick(e); if (p !== hover) { hover = p; cv.classList.toggle("hit", !!p);
-      if (p) { const d = p.it.deadline && Date.parse(p.it.deadline) >= Date.now() - 864e5 ? Math.max(0, dayLeft(p.it.deadline)) : null;
+      if (p && p.sup) cap.innerHTML = `Supported by <b>${esc(p.sup.name)}</b>, ${esc(p.sup.city)}. Thank you.`;
+      else if (p) { const d = p.it.deadline && Date.parse(p.it.deadline) >= Date.now() - 864e5 ? Math.max(0, dayLeft(p.it.deadline)) : null;
         cap.innerHTML = `<a href="${esc(p.it.url)}" target="_blank" rel="noopener noreferrer">${esc(p.it.title.length > 110 ? p.it.title.slice(0, 108) + "…" : p.it.title)}</a><br>${KN[p.it.kind]} in ${esc(countryOf(p.it))}${d != null ? `, closes ${fmt(p.it.deadline)}` : p.it.open_posting ? ", open posting" : ""}`; }
       else heroIdle();
       wake(); if (reduce) frame(performance.now()); }
   });
-  cv.addEventListener("pointerup", e => { const moved = drag?.moved; drag = null; cv.classList.remove("drag"); if (!moved) { const p = pick(e); if (p) window.open(p.it.url, "_blank", "noopener"); } });
+  cv.addEventListener("pointerup", e => { const moved = drag?.moved; drag = null; cv.classList.remove("drag"); if (!moved) { const p = pick(e); const u = p && (p.sup ? p.sup.url : p.it.url); if (u) window.open(u, "_blank", "noopener"); } });
   cv.addEventListener("pointerleave", () => { if (!drag && hover) { hover = null; cv.classList.remove("hit"); heroIdle(); wake(); } });
   new IntersectionObserver(es => { visible = es[0].isIntersecting; if (visible) wake(); }).observe(cv);
   document.addEventListener("visibilitychange", wake);
   addEventListener("resize", () => { size(); wake(); if (reduce) frame(performance.now()); });
   size(); frame(performance.now());
+  fetch("data/supporters.json").then(r => r.ok ? r.json() : null).then(j => { const s = (j?.supporters || []).filter(x => Number.isFinite(x.lat) && Number.isFinite(x.lon) && x.name); globe.sup = s; if (s.length) { globe.pts = globe.pts.filter(p => p.it).concat(s.map(x => ({ sup: x, ll: [x.lon, x.lat] }))); frame(performance.now()); } }).catch(() => {});
   fetch("vendor/land-110m.json").then(r => r.json()).then(j => { globe.land = j; frame(performance.now()); }).catch(() => {});
 }
 
@@ -1260,6 +1274,31 @@ function render() {
 function reset() { st.shown = PAGE; render(); }
 
 document.addEventListener("click", e => { const b = e.target.closest("[data-pf]"); if (b) { st.pfield = b.dataset.pf; if (st.kind !== "people") st.kind = "people"; render(); } });
+
+// ---------- "Put your lab on the map": sponsor a pulse ----------
+// Payment happens on Revolut / PayPal's own pages; this site never sees card data. The claim only stores name, city and a code.
+const PAY = { revolut: "https://revolut.me/ealins", paypal: "https://www.paypal.com/donate/?business=QJ7QV7SEW87WU&currency_code=EUR&item_name=Geo+Radar+pulse" };
+$("support").addEventListener("click", () => {
+  let d = $("spdlg"); if (!d) { d = document.createElement("dialog"); d.id = "spdlg"; document.body.appendChild(d); d.addEventListener("click", e => { if (e.target === d) d.close(); }); }
+  d.innerHTML = `<h3>Put your lab on the map</h3><p>Geo Radar is free and runs on about $5 a month. A €5 support (or more) adds your own gold pulse to the globe, with your name and city.</p>
+    <form id="spform"><label for="spn">Name or lab</label><input id="spn" maxlength="60" required autocomplete="off">
+    <label for="spc">City, country</label><input id="spc" maxlength="60" required autocomplete="off">
+    <label for="spu">Link (optional)</label><input id="spu" type="url" maxlength="200" placeholder="https://" autocomplete="off">
+    <input class="hp" id="sph" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="spbtns"><button class="spbtn spgo" type="submit">Continue</button><button class="spbtn spalt" type="button" id="spx">Cancel</button></div></form>`;
+  $("spx").onclick = () => d.close();
+  $("spform").onsubmit = async e => {
+    e.preventDefault(); const btn = e.submitter; btn.disabled = true;
+    try {
+      const r = await fetch("/api/pulse", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ name: $("spn").value, city: $("spc").value, url: $("spu").value, hp: $("sph").value }) });
+      const j = await r.json(); if (!r.ok) throw new Error(j.error || "failed");
+      d.innerHTML = `<h3>Almost there</h3><p>Pay on either page below and put this code in the payment note, so I can match it to your pulse. I add new pulses by hand, usually within a day or two.</p>
+        <div class="spcode">${esc(j.code)}</div><div class="spbtns"><a class="spbtn spgo" href="${PAY.revolut}" target="_blank" rel="noopener noreferrer">Pay with Revolut</a><a class="spbtn spalt" href="${PAY.paypal}" target="_blank" rel="noopener noreferrer">Pay with PayPal</a><button class="spbtn spalt" type="button" id="spx2">Close</button></div>`;
+      $("spx2").onclick = () => d.close();
+    } catch (err) { btn.disabled = false; alert("Could not save the claim. Please try again later."); }
+  };
+  d.showModal();
+});
 
 // ---------- co-author network (ego graph from the OpenAlex data in researchers.json) ----------
 function openNet(id) {
