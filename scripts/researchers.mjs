@@ -132,15 +132,24 @@ for (const p of researchers) {
   await new Promise((r) => setTimeout(r, 120));
 }
 console.log(`co-author networks for ${withCollab} of ${researchers.length}`);
-let withPos = 0, orcidFail = 0, orcidTried = 0;
+// Personal or lab web pages the researcher chose to list publicly on their own ORCID record (https only). No email addresses are collected.
+async function orcidLinks(p) {
+  const id = String(p.orcid || "").replace(/^https?:\/\/orcid\.org\//, "");
+  if (!id) return [];
+  const j = await json(`https://pub.orcid.org/v3.0/${id}/researcher-urls`);
+  return (j["researcher-url"] || []).map((x) => ({ name: String(x["url-name"] || "").trim().slice(0, 40), url: String(x.url?.value || "").trim() }))
+    .filter((x) => /^https:\/\//i.test(x.url) && x.url.length < 200).slice(0, 3);
+}
+let withPos = 0, orcidFail = 0, orcidTried = 0, withLinks = 0;
 for (const p of researchers) {
   try {
     const pos = await orcidPosition(p);
     if (pos) { Object.assign(p, pos); withPos++; }
+    const links = await orcidLinks(p); if (links.length) { p.links = links; withLinks++; }
   } catch (e) { orcidFail++; if (orcidFail <= 3) console.log("orcid:", e.message); }
   await new Promise((r) => setTimeout(r, 120));
 }
-console.log(`positions found for ${withPos} of ${researchers.length} (with ORCID id: ${orcidTried}, errors: ${orcidFail})`);
+console.log(`positions found for ${withPos} of ${researchers.length} (web links for ${withLinks}, with ORCID id: ${orcidTried}, errors: ${orcidFail})`);
 await mkdir("data", { recursive: true });
 await writeFile(OUT, JSON.stringify({
   generated_at: new Date().toISOString(),

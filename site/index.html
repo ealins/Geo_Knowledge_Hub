@@ -238,8 +238,18 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 .pfields{display:flex;flex-wrap:wrap;gap:4px}
 .pf{border:1px solid color-mix(in srgb,hsl(var(--ph) 60% 50%) 40%,transparent);background:none;color:var(--muted);border-radius:999px;padding:1px 9px;font-size:11.5px;cursor:pointer}
 .pf:hover{color:var(--text);border-color:hsl(var(--ph) 60% 50%)}
+.person[data-prof]{cursor:pointer}.person[data-prof]:hover{border-color:var(--faint)}.person[data-prof]:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .pnet{font:inherit;font-size:13px;color:var(--accent);background:var(--accent-soft);border:0;border-radius:999px;padding:3px 12px;cursor:pointer}
 .pnet:hover{filter:brightness(1.1)}
+#pdlg{border:1px solid var(--line);border-radius:16px;padding:22px;background:var(--surface);color:var(--text);width:min(560px,94vw);max-height:92vh;overflow:auto}
+#pdlg::backdrop{background:rgba(5,10,16,.62)}
+#pdlg h3{margin:0;font:600 22px/1.2 var(--serif)}#pdlg .pr{margin:4px 0 0;color:var(--accent);font-weight:600;font-size:14px}#pdlg .pi{margin:2px 0 0;color:var(--muted);font-size:13.5px}
+.pmet{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}
+.pmet div{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px 12px}.pmet b{display:block;font:650 22px/1.1 var(--sans);font-variant-numeric:tabular-nums}.pmet span{font-size:12px;color:var(--muted)}
+#pdlg h4{margin:14px 0 6px;font:600 13px var(--sans);color:var(--faint)}
+#pdlg .pl{display:flex;flex-wrap:wrap;gap:8px}#pdlg .pl a,#pdlg .pl button{font:inherit;font-size:13.5px;color:var(--accent);background:var(--accent-soft);border:0;border-radius:999px;padding:7px 14px;text-decoration:none;cursor:pointer}
+#pdlg .pnote{font-size:12px;color:var(--faint);margin:14px 0 0;line-height:1.5}
+#pdlg .pclose{float:right;font:inherit;background:none;border:1px solid var(--line);border-radius:999px;color:var(--muted);padding:4px 12px;cursor:pointer}
 #netdlg{border:1px solid var(--line);border-radius:16px;padding:0;background:var(--surface);color:var(--text);width:min(920px,94vw);max-height:92vh;overflow:auto}
 #netdlg::backdrop{background:rgba(5,10,16,.62)}
 .nethead{display:flex;justify-content:space-between;align-items:start;gap:12px;padding:18px 20px 0}
@@ -1217,7 +1227,7 @@ function renderPeople() {
   const cards = ppl.map(r => {
     const f0 = st.pfield || r.fields[0], ini = r.name.split(/\s+/).filter(Boolean).map(w => w[0]).slice(0, 2).join("").toUpperCase();
     const where = [r.institution, REGION && r.country ? REGION.of(r.country) : r.country].filter(Boolean).join(", ");
-    return `<article class="person" style="--ph:${hue(f0)}">
+    return `<article class="person" tabindex="0" data-prof="${esc(r.id)}" style="--ph:${hue(f0)}">
       <div class="pav" aria-hidden="true">${esc(ini)}</div>
       <div class="pbody">
         <h3>${esc(r.name)}</h3>
@@ -1306,6 +1316,29 @@ $("support").addEventListener("click", () => {
   };
   d.showModal();
 });
+
+// ---------- researcher profile (metrics and links live here, not on the cards) ----------
+function openProfile(id) {
+  const P = PEOPLE, r = P.researchers.find(x => x.id === id); if (!r) return;
+  let d = $("pdlg"); if (!d) { d = document.createElement("dialog"); d.id = "pdlg"; document.body.appendChild(d); d.addEventListener("click", e => { if (e.target === d) d.close(); }); }
+  const fIdxOf = f => P.fields.findIndex(x => x.id === f) * 47 + 215;
+  const fn = Object.fromEntries(P.fields.map(f => [f.id, f.name.split(" and ")[0]]));
+  const where = [r.institution, r.country && REGION ? REGION.of(r.country) : r.country].filter(Boolean).join(", ");
+  const links = [...(r.links || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${esc(l.name || "Website")}</a>`),
+    `<a href="https://openalex.org/${esc(r.id)}" target="_blank" rel="noopener noreferrer">Publications</a>`,
+    r.orcid ? `<a href="${esc(r.orcid)}" target="_blank" rel="noopener noreferrer">ORCID</a>` : "",
+    r.collab?.length ? `<button type="button" data-net="${esc(r.id)}" id="pnetbtn">Co-author network</button>` : ""].join("");
+  d.innerHTML = `<button class="pclose" type="button" id="pclose">Close</button><h3>${esc(r.name)}</h3>${r.position ? `<p class="pr">${esc(r.position)}</p>` : ""}<p class="pi">${esc([r.department, where].filter(Boolean).join(", "))}</p>
+    <div class="pmet"><div><b>${r.h_index}</b><span>h-index</span></div><div><b>${compact(r.cited_by)}</b><span>citations</span></div><div><b>${compact(r.works)}</b><span>works</span></div></div>
+    <h4>Fields</h4><div class="pl">${r.fields.map(f => `<span class="pf" style="--ph:${fIdxOf(f)}">${esc(fn[f])}</span>`).join("")}</div>
+    <h4>Expertise</h4><p class="pi" style="color:var(--text)">${r.expertise.map(esc).join(" · ")}</p>
+    <h4>Find them</h4><div class="pl">${links}</div>
+    <p class="pnote">Metrics come from OpenAlex and are indicators, not a ranking. Job titles and web links come from the researcher's own public ORCID record. To contact them, use the institution page or ORCID: this site does not collect email addresses.</p>`;
+  $("pclose").onclick = () => d.close();
+  if (!d.open) d.showModal();
+}
+document.addEventListener("click", e => { if (e.target.closest("a,button")) return; const c = e.target.closest("[data-prof]"); if (c) openProfile(c.dataset.prof); });
+document.addEventListener("keydown", e => { if (e.key === "Enter" && e.target.matches?.("[data-prof]")) openProfile(e.target.dataset.prof); });
 
 // ---------- co-author network (ego graph from the OpenAlex data in researchers.json) ----------
 function openNet(id) {
