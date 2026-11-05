@@ -892,6 +892,7 @@ function dayLeft(iso) { return Math.ceil((Date.parse(iso) - Date.now()) / 864e5)
 function tone(d) { return d <= 7 ? "hot" : d <= 30 ? "warm" : "calm"; }
 
 function gauge(it) {
+  if (it.kind === "resource") return { big: "Open", small: "data or tool", frac: 0, tone: "calm" };
   if (it.kind === "paper" && !it.call) {
     const v = Math.round(it.impact || 0);
     return { big: v || "–", small: v ? "impact" : "new", frac: Math.min(1, v / 100), tone: "ink" };

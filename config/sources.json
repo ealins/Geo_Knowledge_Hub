@@ -1220,7 +1220,7 @@
     {
       "id": "zenodo-eo-datasets",
       "name": "Zenodo: Earth observation datasets",
-      "url": "https://zenodo.org/api/records?q=%22remote%20sensing%22%20OR%20%22earth%20observation%22%20OR%20lidar%20OR%20photogrammetry&type=dataset&sort=mostrecent&size=50",
+      "url": "https://zenodo.org/api/records?q=%22remote%20sensing%22%20OR%20%22earth%20observation%22%20OR%20lidar%20OR%20photogrammetry&type=dataset&sort=mostrecent&size=25",
       "type": "zenodo",
       "kind": "resource",
       "api": true,
@@ -1229,7 +1229,7 @@
     {
       "id": "zenodo-geo-software",
       "name": "Zenodo: geospatial software",
-      "url": "https://zenodo.org/api/records?q=geospatial%20OR%20%22point%20cloud%22%20OR%20photogrammetry&type=software&sort=mostrecent&size=40",
+      "url": "https://zenodo.org/api/records?q=geospatial%20OR%20%22point%20cloud%22%20OR%20photogrammetry&type=software&sort=mostrecent&size=25",
       "type": "zenodo",
       "kind": "resource",
       "api": true,
@@ -1396,7 +1396,8 @@
       "kind": "event",
       "on_topic": true,
       "tag": "Challenge",
-      "enabled": true
+      "enabled": false,
+      "_note": "disabled: site blocks automated access or page not found"
     },
     {
       "id": "challenge-ai4eo",
@@ -1406,7 +1407,8 @@
       "kind": "event",
       "on_topic": true,
       "tag": "Challenge",
-      "enabled": true
+      "enabled": false,
+      "_note": "disabled: site blocks automated access or page not found"
     },
     {
       "id": "calls-mdpi-remotesensing",
@@ -1417,7 +1419,8 @@
       "call": true,
       "on_topic": true,
       "tag": "Call for papers",
-      "enabled": true
+      "enabled": false,
+      "_note": "disabled: site blocks automated access or page not found"
     },
     {
       "id": "calls-mdpi-ijgi",
@@ -1428,7 +1431,8 @@
       "call": true,
       "on_topic": true,
       "tag": "Call for papers",
-      "enabled": true
+      "enabled": false,
+      "_note": "disabled: site blocks automated access or page not found"
     },
     {
       "id": "calls-mdpi-land",
@@ -1439,7 +1443,8 @@
       "call": true,
       "on_topic": true,
       "tag": "Call for papers",
-      "enabled": true
+      "enabled": false,
+      "_note": "disabled: site blocks automated access or page not found"
     }
   ]
 }

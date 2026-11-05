@@ -21,7 +21,10 @@
     "https://a-a-r-s.org/",
     "https://www.selper.org/",
     "https://earthobservations.org/",
-    "https://www.iag-aig.org/"
+    "https://www.iag-aig.org/",
+    "https://www.grss-ieee.org/",
+    "https://platform.ai4eo.eu/",
+    "https://zindi.africa/"
   ],
   "skip_hosts": [
     "facebook.com",
