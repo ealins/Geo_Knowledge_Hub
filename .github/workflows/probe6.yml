@@ -1,0 +1,23 @@
+name: probe6
+on:
+  push:
+    branches: [probe6]
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: |
+          mkdir -p diagout
+          node scripts/geocode.mjs > diagout/geo.log 2>&1 || true
+          node -e '
+          const f=require("./data/feed.json").items;const g=f.filter(i=>i.geo);
+          const by={};for(const i of f.filter(x=>["job","course","event"].includes(x.kind))){by[i.kind]=by[i.kind]||[0,0];by[i.kind][0]++;if(i.geo)by[i.kind][1]++}
+          const o=[JSON.stringify(by)];for(const i of g.filter((x,n)=>n%12===0))o.push(i.kind+" | "+i.location+" | "+i.title.slice(0,50)+" -> "+i.geo.join(","));
+          require("fs").writeFileSync("diagout/geo.txt",o.join("\n")+"\n")'
+          git config user.name probe && git config user.email probe@users.noreply.github.com
+          git add diagout && git commit -qm result && git push origin HEAD:probe6
