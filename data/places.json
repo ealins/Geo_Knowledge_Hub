@@ -435,6 +435,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:46.710Z"
  },
+ "city|dartmouth|CA": {
+  "lat": 44.67134,
+  "lon": -63.57719,
+  "city": "Dartmouth",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-05T17:01:30.848Z"
+ },
  "city|datteln|DE": {
   "lat": 51.65598,
   "lon": 7.3453,
@@ -646,6 +654,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:37.304Z"
+ },
+ "city|fort mcmurray|CA": {
+  "lat": 56.72676,
+  "lon": -111.38103,
+  "city": "Fort McMurray",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-05T17:01:30.847Z"
  },
  "city|frankfurt am main|DE": {
   "lat": 50.11552,
@@ -1283,6 +1299,10 @@
   "src": "city",
   "t": "2026-11-05T00:35:51.113Z"
  },
+ "city|red deer county|CA": {
+  "miss": true,
+  "t": "2026-11-05T17:01:30.849Z"
+ },
  "city|redcliffe|GB": {
   "lat": 51.48688,
   "lon": -0.18738,
@@ -1386,6 +1406,14 @@
  "city|simcoe region|CA": {
   "miss": true,
   "t": "2026-11-05T13:30:37.298Z"
+ },
+ "city|simcoe|CA": {
+  "lat": 42.8334,
+  "lon": -80.29967,
+  "city": "Simcoe",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-05T17:01:30.848Z"
  },
  "city|sinsheim|DE": {
   "lat": 49.2529,
@@ -1650,6 +1678,10 @@
  "city|warsaw poland|": {
   "miss": true,
   "t": "2026-11-05T00:35:57.449Z"
+ },
+ "city|waterloo region|CA": {
+  "miss": true,
+  "t": "2026-11-05T17:01:31.104Z"
  },
  "city|waterloo|CA": {
   "lat": 43.4668,
