@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T17:23:43.465Z",
+ "generated_at": "2026-11-05T18:05:31.901Z",
  "since": 2016,
  "fields": [
   {
@@ -45,29 +45,29 @@
  ],
  "researchers": [
   {
-   "id": "A5000033522",
-   "name": "Shilong L. Piao",
-   "orcid": "https://orcid.org/0000-0001-8057-2292",
-   "institution": "Peking University",
-   "country": "CN",
-   "h_index": 174,
-   "cited_by": 127172,
-   "works": 906,
+   "id": "A5018160834",
+   "name": "Yadvinder Singh Malhi",
+   "orcid": "https://orcid.org/0000-0002-3503-4783",
+   "institution": "University of Oxford",
+   "country": "GB",
+   "h_index": 155,
+   "cited_by": 90831,
+   "works": 849,
    "expertise": [
+    "Forest ecology and management",
     "Plant Water Relations and Carbon Dynamics",
-    "Climate variability and models",
-    "Remote Sensing in Agriculture",
+    "Ecology and Vegetation Dynamics Studies",
     "Soil Carbon and Nitrogen Dynamics",
-    "Atmospheric and Environmental Gas Dynamics"
+    "Remote Sensing and LiDAR Applications"
    ],
    "fields": [
-    "remote-sensing"
+    "lidar"
    ],
    "rank": {
-    "remote-sensing": 7
+    "lidar": 11
    },
    "recent": {
-    "remote-sensing": 333
+    "lidar": 37
    }
   },
   {
@@ -93,7 +93,7 @@
     "geoinformatics": 1
    },
    "recent": {
-    "geoinformatics": 365
+    "geoinformatics": 230
    }
   },
   {
@@ -113,16 +113,13 @@
     "Forest ecology and management"
    ],
    "fields": [
-    "remote-sensing",
-    "lidar"
+    "geoai"
    ],
    "rank": {
-    "remote-sensing": 8,
-    "lidar": 16
+    "geoai": 3
    },
    "recent": {
-    "remote-sensing": 331,
-    "lidar": 114
+    "geoai": 36
    }
   },
   {
@@ -142,187 +139,91 @@
     "Remote-Sensing Image Classification"
    ],
    "fields": [
-    "remote-sensing",
-    "lidar",
-    "geoai",
-    "city-bim"
-   ],
-   "rank": {
-    "remote-sensing": 4,
-    "lidar": 11,
-    "geoai": 2,
-    "city-bim": 10
-   },
-   "recent": {
-    "remote-sensing": 443,
-    "lidar": 132,
-    "geoai": 223,
-    "city-bim": 46
-   }
-  },
-  {
-   "id": "A5100673818",
-   "name": "Liangpei Zhang",
-   "orcid": "https://orcid.org/0000-0001-6890-3650",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 146,
-   "cited_by": 78611,
-   "works": 1120,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Remote Sensing and Land Use",
-    "Advanced Image Fusion Techniques",
-    "Advanced Neural Network Applications",
-    "Satellite Image Processing and Photogrammetry"
-   ],
-   "fields": [
-    "remote-sensing",
     "geoai"
    ],
    "rank": {
-    "remote-sensing": 1,
-    "geoai": 3
+    "geoai": 1
    },
    "recent": {
-    "remote-sensing": 582,
-    "geoai": 201
+    "geoai": 68
    }
   },
   {
-   "id": "A5071721504",
-   "name": "Markus Reichstein",
-   "orcid": "https://orcid.org/0000-0001-5736-1112",
-   "institution": "Max Planck Institute for Biogeochemistry",
-   "country": "DE",
-   "h_index": 140,
-   "cited_by": 101859,
-   "works": 920,
+   "id": "A5088421096",
+   "name": "Jens‐Christian Svenning",
+   "orcid": "https://orcid.org/0000-0002-3415-0862",
+   "institution": "Aarhus University",
+   "country": "DK",
+   "h_index": 128,
+   "cited_by": 64372,
+   "works": 993,
    "expertise": [
-    "Plant Water Relations and Carbon Dynamics",
-    "Soil Carbon and Nitrogen Dynamics",
-    "Remote Sensing in Agriculture",
-    "Climate variability and models",
-    "Atmospheric and Environmental Gas Dynamics"
+    "Ecology and Vegetation Dynamics Studies",
+    "Species Distribution and Climate Change",
+    "Botany and Plant Ecology Studies",
+    "Wildlife Ecology and Conservation",
+    "Land Use and Ecosystem Services"
    ],
    "fields": [
-    "remote-sensing"
+    "geoai"
    ],
    "rank": {
-    "remote-sensing": 9
+    "geoai": 2
    },
    "recent": {
-    "remote-sensing": 300
+    "geoai": 45
    }
   },
   {
-   "id": "A5005152689",
-   "name": "Peter H. Verburg",
-   "orcid": "https://orcid.org/0000-0002-6977-7104",
-   "institution": "Vrije Universiteit Amsterdam",
-   "country": "NL",
-   "h_index": 131,
-   "cited_by": 60260,
-   "works": 729,
-   "expertise": [
-    "Land Use and Ecosystem Services",
-    "Agriculture, Land Use, Rural Development",
-    "Conservation, Biodiversity, and Resource Management",
-    "Remote Sensing and Land Use",
-    "Environmental Changes in China"
-   ],
-   "fields": [
-    "geoinformatics"
-   ],
-   "rank": {
-    "geoinformatics": 2
-   },
-   "recent": {
-    "geoinformatics": 212
-   }
-  },
-  {
-   "id": "A5063621337",
-   "name": "Stephen A. Sitch",
-   "orcid": "https://orcid.org/0000-0003-1821-8561",
-   "institution": "University of Exeter",
+   "id": "A5032473063",
+   "name": "Oliver L. Phillips",
+   "orcid": "https://orcid.org/0000-0002-8993-6168",
+   "institution": "University of Leeds",
    "country": "GB",
-   "h_index": 126,
-   "cited_by": 96973,
-   "works": 645,
+   "h_index": 127,
+   "cited_by": 80815,
+   "works": 618,
    "expertise": [
+    "Forest ecology and management",
+    "Ecology and Vegetation Dynamics Studies",
     "Plant Water Relations and Carbon Dynamics",
-    "Climate variability and models",
-    "Atmospheric and Environmental Gas Dynamics",
-    "Soil Carbon and Nitrogen Dynamics",
-    "Remote Sensing in Agriculture"
+    "Remote Sensing and LiDAR Applications",
+    "Botany and Plant Ecology Studies"
    ],
    "fields": [
-    "remote-sensing"
-   ],
-   "rank": {
-    "remote-sensing": 10
-   },
-   "recent": {
-    "remote-sensing": 320
-   }
-  },
-  {
-   "id": "A5106124934",
-   "name": "Jocelyn Chanussot",
-   "orcid": "https://orcid.org/0000-0003-4817-2875",
-   "institution": "Institut polytechnique de Grenoble",
-   "country": "FR",
-   "h_index": 121,
-   "cited_by": 65085,
-   "works": 1032,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Advanced Image Fusion Techniques",
-    "Spectroscopy and Chemometric Analyses",
-    "Satellite Image Processing and Photogrammetry",
-    "Remote Sensing and Land Use"
-   ],
-   "fields": [
-    "remote-sensing",
     "geoai"
    ],
    "rank": {
-    "remote-sensing": 6,
     "geoai": 4
    },
    "recent": {
-    "remote-sensing": 458,
-    "geoai": 170
+    "geoai": 37
    }
   },
   {
-   "id": "A5054292278",
-   "name": "Antonio Plaza",
-   "orcid": "https://orcid.org/0000-0002-9613-1659",
-   "institution": "Universidad de Extremadura",
-   "country": "ES",
-   "h_index": 107,
-   "cited_by": 59820,
-   "works": 912,
+   "id": "A5052324110",
+   "name": "Jérôme Chave",
+   "orcid": "https://orcid.org/0000-0002-7766-1347",
+   "institution": "Centre National de la Recherche Scientifique",
+   "country": "FR",
+   "h_index": 112,
+   "cited_by": 62827,
+   "works": 659,
    "expertise": [
-    "Remote-Sensing Image Classification",
-    "Advanced Image Fusion Techniques",
-    "Spectroscopy and Chemometric Analyses",
-    "Geochemistry and Geologic Mapping",
-    "Advanced Neural Network Applications"
+    "Forest ecology and management",
+    "Ecology and Vegetation Dynamics Studies",
+    "Remote Sensing and LiDAR Applications",
+    "Plant Water Relations and Carbon Dynamics",
+    "Remote Sensing in Agriculture"
    ],
    "fields": [
-    "remote-sensing",
-    "geoai"
+    "lidar"
    ],
    "rank": {
-    "remote-sensing": 5,
-    "geoai": 11
+    "lidar": 18
    },
    "recent": {
-    "remote-sensing": 546,
-    "geoai": 124
+    "lidar": 37
    }
   },
   {
@@ -342,155 +243,65 @@
     "Species Distribution and Climate Change"
    ],
    "fields": [
-    "remote-sensing",
     "lidar"
    ],
    "rank": {
-    "remote-sensing": 15,
-    "lidar": 18
+    "lidar": 17
    },
    "recent": {
-    "remote-sensing": 322,
-    "lidar": 141
+    "lidar": 39
    }
   },
   {
-   "id": "A5051219165",
-   "name": "Michael A. Wulder",
-   "orcid": "https://orcid.org/0000-0002-6942-1896",
-   "institution": "Canadian Forest Service",
-   "country": "CA",
-   "h_index": 105,
-   "cited_by": 49541,
-   "works": 599,
-   "expertise": [
-    "Remote Sensing in Agriculture",
-    "Remote Sensing and LiDAR Applications",
-    "Remote-Sensing Image Classification",
-    "Forest ecology and management",
-    "Remote Sensing and Land Use"
-   ],
-   "fields": [
-    "lidar"
-   ],
-   "rank": {
-    "lidar": 12
-   },
-   "recent": {
-    "lidar": 161
-   }
-  },
-  {
-   "id": "A5033017179",
-   "name": "Qian Du",
-   "orcid": "https://orcid.org/0000-0001-8354-7500",
-   "institution": "Mississippi State University",
-   "country": "US",
-   "h_index": 104,
-   "cited_by": 44373,
-   "works": 873,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Spectroscopy and Chemometric Analyses",
-    "Advanced Image Fusion Techniques",
-    "Advanced Neural Network Applications",
-    "Face and Expression Recognition"
-   ],
-   "fields": [
-    "remote-sensing",
-    "geoai"
-   ],
-   "rank": {
-    "remote-sensing": 3,
-    "geoai": 6
-   },
-   "recent": {
-    "remote-sensing": 630,
-    "geoai": 140
-   }
-  },
-  {
-   "id": "A5066754586",
-   "name": "Wolfgang Wagner",
-   "orcid": "https://orcid.org/0000-0001-7704-6857",
-   "institution": "TU Wien",
-   "country": "AT",
-   "h_index": 104,
-   "cited_by": 49907,
-   "works": 828,
-   "expertise": [
-    "Soil Moisture and Remote Sensing",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Soil Geostatistics and Mapping",
-    "Geophysics and Gravity Measurements",
-    "Hydrology and Watershed Management Studies"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 13
-   },
-   "recent": {
-    "sar": 163
-   }
-  },
-  {
-   "id": "A5006095323",
-   "name": "Lorenzo Bruzzone",
-   "orcid": "https://orcid.org/0000-0002-6036-459X",
-   "institution": "University of Trento",
-   "country": "IT",
+   "id": "A5003307854",
+   "name": "Michael Batty",
+   "orcid": "https://orcid.org/0000-0002-9931-1305",
+   "institution": "University College London",
+   "country": "GB",
    "h_index": 101,
-   "cited_by": 50205,
-   "works": 955,
+   "cited_by": 40041,
+   "works": 990,
    "expertise": [
-    "Remote-Sensing Image Classification",
-    "Remote Sensing and Land Use",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Remote Sensing in Agriculture",
-    "Advanced Image Fusion Techniques"
+    "Urban Design and Spatial Analysis",
+    "Agglomeration and Urban Systems",
+    "Urban Planning and Governance",
+    "Smart Cities and Technologies",
+    "Geographic Information Systems Studies"
    ],
    "fields": [
-    "remote-sensing",
-    "geoai"
+    "city-bim"
    ],
    "rank": {
-    "remote-sensing": 14,
-    "geoai": 13
+    "city-bim": 12
    },
    "recent": {
-    "remote-sensing": 338,
-    "geoai": 120
+    "city-bim": 16
    }
   },
   {
-   "id": "A5060042752",
-   "name": "Bo Du",
-   "orcid": "https://orcid.org/0000-0002-0059-8458",
-   "institution": "Wuhan University",
+   "id": "A5108044017",
+   "name": "Zhihan Lv",
+   "orcid": "https://orcid.org/0000-0001-8164-1405",
+   "institution": "Qingdao University",
    "country": "CN",
    "h_index": 100,
-   "cited_by": 38223,
-   "works": 1079,
+   "cited_by": 29301,
+   "works": 646,
    "expertise": [
+    "IoT and Edge/Fog Computing",
+    "Internet of Things and AI",
     "Advanced Neural Network Applications",
-    "Remote-Sensing Image Classification",
-    "Domain Adaptation and Few-Shot Learning",
-    "Multimodal Machine Learning Applications",
-    "Advanced Image Fusion Techniques"
+    "3D Modeling in Geospatial Applications",
+    "Digital Transformation in Industry"
    ],
    "fields": [
-    "remote-sensing",
-    "geoai"
+    "city-bim"
    ],
    "rank": {
-    "remote-sensing": 16,
-    "geoai": 9
+    "city-bim": 4
    },
    "recent": {
-    "remote-sensing": 319,
-    "geoai": 136
+    "city-bim": 25
    }
   },
   {
@@ -510,16 +321,13 @@
     "Forest Management and Policy"
    ],
    "fields": [
-    "photogrammetry",
     "lidar"
    ],
    "rank": {
-    "photogrammetry": 11,
-    "lidar": 2
+    "lidar": 4
    },
    "recent": {
-    "photogrammetry": 109,
-    "lidar": 352
+    "lidar": 65
    }
   },
   {
@@ -542,88 +350,36 @@
     "lidar"
    ],
    "rank": {
-    "lidar": 14
+    "lidar": 13
    },
    "recent": {
-    "lidar": 168
+    "lidar": 48
    }
   },
   {
-   "id": "A5039052506",
-   "name": "Gustau Camps‐Valls",
-   "orcid": "https://orcid.org/0000-0003-1683-2138",
-   "institution": "Universitat de València",
-   "country": "ES",
-   "h_index": 94,
-   "cited_by": 44889,
-   "works": 727,
+   "id": "A5030872735",
+   "name": "Hans Pretzsch",
+   "orcid": "https://orcid.org/0000-0002-4958-1868",
+   "institution": "Technical University of Munich",
+   "country": "DE",
+   "h_index": 95,
+   "cited_by": 32100,
+   "works": 586,
    "expertise": [
-    "Remote-Sensing Image Classification",
-    "Remote Sensing in Agriculture",
-    "Remote Sensing and Land Use",
-    "Meteorological Phenomena and Simulations",
-    "Gaussian Processes and Bayesian Inference"
+    "Forest ecology and management",
+    "Forest Management and Policy",
+    "Remote Sensing and LiDAR Applications",
+    "Plant Water Relations and Carbon Dynamics",
+    "Ecology and Vegetation Dynamics Studies"
    ],
    "fields": [
-    "remote-sensing"
+    "lidar"
    ],
    "rank": {
-    "remote-sensing": 12
+    "lidar": 5
    },
    "recent": {
-    "remote-sensing": 365
-   }
-  },
-  {
-   "id": "A5100354056",
-   "name": "Xin Li",
-   "orcid": "https://orcid.org/0000-0003-2999-9818",
-   "institution": "Chinese Academy of Sciences",
-   "country": "CN",
-   "h_index": 94,
-   "cited_by": 37327,
-   "works": 1287,
-   "expertise": [
-    "Soil Moisture and Remote Sensing",
-    "Meteorological Phenomena and Simulations",
-    "Hydrology and Watershed Management Studies",
-    "Cryospheric studies and observations",
-    "Plant Water Relations and Carbon Dynamics"
-   ],
-   "fields": [
-    "remote-sensing"
-   ],
-   "rank": {
-    "remote-sensing": 13
-   },
-   "recent": {
-    "remote-sensing": 362
-   }
-  },
-  {
-   "id": "A5051538825",
-   "name": "Roland Bürgmann",
-   "orcid": "https://orcid.org/0000-0002-3560-044X",
-   "institution": "University of California, Berkeley",
-   "country": "US",
-   "h_index": 93,
-   "cited_by": 28500,
-   "works": 798,
-   "expertise": [
-    "earthquake and tectonic studies",
-    "Earthquake and Disaster Impact Studies",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Geological and Geophysical Studies",
-    "Earthquake Detection and Analysis"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 9
-   },
-   "recent": {
-    "sar": 193
+    "lidar": 66
    }
   },
   {
@@ -643,13 +399,13 @@
     "Environmental Justice and Health Disparities"
    ],
    "fields": [
-    "geoinformatics"
+    "geoai"
    ],
    "rank": {
-    "geoinformatics": 3
+    "geoai": 9
    },
    "recent": {
-    "geoinformatics": 256
+    "geoai": 35
    }
   },
   {
@@ -669,25 +425,42 @@
     "Advanced SAR Imaging Techniques"
    ],
    "fields": [
-    "photogrammetry",
-    "remote-sensing",
-    "sar",
     "geoai",
     "city-bim"
    ],
    "rank": {
-    "photogrammetry": 3,
-    "remote-sensing": 2,
-    "sar": 1,
-    "geoai": 1,
-    "city-bim": 7
+    "geoai": 6,
+    "city-bim": 10
    },
    "recent": {
-    "photogrammetry": 225,
-    "remote-sensing": 731,
-    "sar": 373,
-    "geoai": 368,
-    "city-bim": 91
+    "geoai": 41,
+    "city-bim": 18
+   }
+  },
+  {
+   "id": "A5059261666",
+   "name": "Tan Yiğitcanlar",
+   "orcid": "https://orcid.org/0000-0001-7262-7118",
+   "institution": "Queensland University of Technology",
+   "country": "AU",
+   "h_index": 89,
+   "cited_by": 27826,
+   "works": 905,
+   "expertise": [
+    "Smart Cities and Technologies",
+    "Urban Planning and Governance",
+    "Cultural Industries and Urban Development",
+    "E-Government and Public Services",
+    "Transportation Planning and Optimization"
+   ],
+   "fields": [
+    "city-bim"
+   ],
+   "rank": {
+    "city-bim": 3
+   },
+   "recent": {
+    "city-bim": 28
    }
   },
   {
@@ -707,45 +480,13 @@
     "Satellite Image Processing and Photogrammetry"
    ],
    "fields": [
-    "remote-sensing",
-    "geoai",
-    "geoinformatics"
+    "geoai"
    ],
    "rank": {
-    "remote-sensing": 11,
-    "geoai": 7,
-    "geoinformatics": 4
+    "geoai": 10
    },
    "recent": {
-    "remote-sensing": 398,
-    "geoai": 157,
-    "geoinformatics": 250
-   }
-  },
-  {
-   "id": "A5088990923",
-   "name": "Tianzhen Hong",
-   "orcid": "https://orcid.org/0000-0003-1886-9137",
-   "institution": "Lawrence Berkeley National Laboratory",
-   "country": "US",
-   "h_index": 88,
-   "cited_by": 24681,
-   "works": 378,
-   "expertise": [
-    "Building Energy and Comfort Optimization",
-    "Building energy efficiency and sustainability",
-    "Smart Grid Energy Management",
-    "Integrated Energy Systems Optimization",
-    "Urban Heat Island Mitigation"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
-    "city-bim": 11
-   },
-   "recent": {
-    "city-bim": 66
+    "geoai": 34
    }
   },
   {
@@ -765,155 +506,16 @@
     "Forest Management and Policy"
    ],
    "fields": [
-    "photogrammetry",
-    "lidar"
-   ],
-   "rank": {
-    "photogrammetry": 2,
-    "lidar": 1
-   },
-   "recent": {
-    "photogrammetry": 272,
-    "lidar": 584
-   }
-  },
-  {
-   "id": "A5100317994",
-   "name": "Wei Li",
-   "orcid": "https://orcid.org/0000-0001-7015-7335",
-   "institution": "Beijing Institute of Technology",
-   "country": "CN",
-   "h_index": 85,
-   "cited_by": 30531,
-   "works": 944,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Advanced Neural Network Applications",
-    "Advanced Image Fusion Techniques",
-    "Spectroscopy and Chemometric Analyses",
-    "Domain Adaptation and Few-Shot Learning"
-   ],
-   "fields": [
-    "remote-sensing",
-    "geoai"
-   ],
-   "rank": {
-    "remote-sensing": 17,
-    "geoai": 16
-   },
-   "recent": {
-    "remote-sensing": 346,
-    "geoai": 120
-   }
-  },
-  {
-   "id": "A5009116003",
-   "name": "Lizhe Wang",
-   "orcid": "https://orcid.org/0000-0003-2766-0845",
-   "institution": "China University of Geosciences",
-   "country": "CN",
-   "h_index": 83,
-   "cited_by": 26402,
-   "works": 791,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Cloud Computing and Resource Management",
-    "Distributed and Parallel Computing Systems",
-    "Remote Sensing and Land Use",
-    "Advanced Neural Network Applications"
-   ],
-   "fields": [
-    "geoai"
-   ],
-   "rank": {
-    "geoai": 12
-   },
-   "recent": {
-    "geoai": 142
-   }
-  },
-  {
-   "id": "A5074919292",
-   "name": "Pedram Ghamisi",
-   "orcid": "https://orcid.org/0000-0003-1203-741X",
-   "institution": "University of Iceland",
-   "country": "IS",
-   "h_index": 82,
-   "cited_by": 30802,
-   "works": 403,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Advanced Neural Network Applications",
-    "Advanced Image Fusion Techniques",
-    "Remote Sensing and Land Use",
-    "Spectroscopy and Chemometric Analyses"
-   ],
-   "fields": [
-    "remote-sensing",
-    "geoai"
-   ],
-   "rank": {
-    "remote-sensing": 18,
-    "geoai": 8
-   },
-   "recent": {
-    "remote-sensing": 354,
-    "geoai": 162
-   }
-  },
-  {
-   "id": "A5012274844",
-   "name": "Nicola Casagli",
-   "orcid": "https://orcid.org/0000-0002-8684-7848",
-   "institution": "University of Florence",
-   "country": "IT",
-   "h_index": 82,
-   "cited_by": 23100,
-   "works": 800,
-   "expertise": [
-    "Landslides and related hazards",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Flood Risk Assessment and Management",
-    "Tree Root and Stability Studies",
-    "Geotechnical Engineering and Analysis"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 3
-   },
-   "recent": {
-    "sar": 379
-   }
-  },
-  {
-   "id": "A5100613889",
-   "name": "Jonathan Li",
-   "orcid": "https://orcid.org/0000-0001-7899-0049",
-   "institution": "University of Waterloo",
-   "country": "CA",
-   "h_index": 81,
-   "cited_by": 26646,
-   "works": 743,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Advanced Neural Network Applications",
-    "Remote-Sensing Image Classification",
-    "Automated Road and Building Extraction",
-    "3D Shape Modeling and Analysis"
-   ],
-   "fields": [
     "lidar",
     "geoai"
    ],
    "rank": {
-    "lidar": 5,
-    "geoai": 15
+    "lidar": 1,
+    "geoai": 7
    },
    "recent": {
-    "lidar": 275,
-    "geoai": 135
+    "lidar": 161,
+    "geoai": 39
    }
   },
   {
@@ -936,140 +538,88 @@
     "geoai"
    ],
    "rank": {
-    "geoai": 10
+    "geoai": 16
    },
    "recent": {
-    "geoai": 159
+    "geoai": 31
    }
   },
   {
-   "id": "A5073132582",
-   "name": "Bertrand Chapron",
-   "orcid": "https://orcid.org/0000-0001-6088-8775",
-   "institution": "Ifremer",
-   "country": "FR",
-   "h_index": 75,
-   "cited_by": 21391,
-   "works": 959,
-   "expertise": [
-    "Ocean Waves and Remote Sensing",
-    "Oceanographic and Atmospheric Processes",
-    "Coastal and Marine Dynamics",
-    "Meteorological Phenomena and Simulations",
-    "Soil Moisture and Remote Sensing"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 18
-   },
-   "recent": {
-    "sar": 183
-   }
-  },
-  {
-   "id": "A5077764827",
-   "name": "Joanne C. White",
-   "orcid": "https://orcid.org/0000-0003-4674-0373",
-   "institution": "Canadian Forest Service",
-   "country": "CA",
+   "id": "A5017454897",
+   "name": "Paula Moraga",
+   "orcid": "https://orcid.org/0000-0001-5266-0201",
+   "institution": "King Abdullah University of Science and Technology",
+   "country": "SA",
    "h_index": 74,
-   "cited_by": 25165,
-   "works": 342,
+   "cited_by": 146987,
+   "works": 225,
    "expertise": [
-    "Remote Sensing and LiDAR Applications",
-    "Remote Sensing in Agriculture",
-    "Forest ecology and management",
-    "Remote-Sensing Image Classification",
-    "Forest Management and Policy"
-   ],
-   "fields": [
-    "lidar"
-   ],
-   "rank": {
-    "lidar": 7
-   },
-   "recent": {
-    "lidar": 229
-   }
-  },
-  {
-   "id": "A5100754351",
-   "name": "Yanfei Zhong",
-   "orcid": "https://orcid.org/0000-0001-9446-5850",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 74,
-   "cited_by": 19337,
-   "works": 550,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Remote Sensing and Land Use",
-    "Advanced Neural Network Applications",
-    "Advanced Image Fusion Techniques",
-    "Automated Road and Building Extraction"
+    "Spatial and Panel Data Analysis",
+    "Data-Driven Disease Surveillance",
+    "Global Health and Epidemiology",
+    "Insurance, Mortality, Demography, Risk Management",
+    "Global Cancer Incidence and Screening"
    ],
    "fields": [
     "geoai"
    ],
    "rank": {
-    "geoai": 17
+    "geoai": 18
    },
    "recent": {
-    "geoai": 121
+    "geoai": 30
    }
   },
   {
-   "id": "A5059663096",
-   "name": "Peter J. G. Teunissen",
-   "orcid": "https://orcid.org/0000-0003-4143-6006",
-   "institution": "Delft University of Technology",
-   "country": "NL",
+   "id": "A5033860704",
+   "name": "Henk Wymeersch",
+   "orcid": "https://orcid.org/0000-0002-1298-6159",
+   "institution": "Chalmers University of Technology",
+   "country": "SE",
    "h_index": 73,
-   "cited_by": 20046,
-   "works": 458,
+   "cited_by": 24185,
+   "works": 848,
    "expertise": [
-    "Statistical and numerical algorithms",
-    "GNSS positioning and interference",
-    "Inertial Sensor and Navigation",
-    "Geodetic Measurements and Engineering Structures",
-    "Geophysics and Gravity Measurements"
+    "Indoor and Outdoor Localization Technologies",
+    "Radar Systems and Signal Processing",
+    "Millimeter-Wave Propagation and Modeling",
+    "Advanced Wireless Communication Technologies",
+    "Advanced Wireless Communication Techniques"
    ],
    "fields": [
-    "geodesy"
+    "city-bim"
    ],
    "rank": {
-    "geodesy": 4
+    "city-bim": 15
    },
    "recent": {
-    "geodesy": 188
+    "city-bim": 18
    }
   },
   {
-   "id": "A5005595654",
-   "name": "Nicolas N. Baghdadi",
-   "orcid": "https://orcid.org/0000-0002-9461-4120",
-   "institution": "Territoires, Environnement, Télédétection et Information Spatiale",
-   "country": "FR",
-   "h_index": 69,
-   "cited_by": 13981,
-   "works": 704,
+   "id": "A5084516273",
+   "name": "Hans Verbeeck",
+   "orcid": "https://orcid.org/0000-0003-1490-0168",
+   "institution": "Ghent University",
+   "country": "BE",
+   "h_index": 67,
+   "cited_by": 21220,
+   "works": 523,
    "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Soil Moisture and Remote Sensing",
-    "Remote Sensing in Agriculture",
-    "Soil Geostatistics and Mapping",
-    "Remote Sensing and LiDAR Applications"
+    "Forest ecology and management",
+    "Plant Water Relations and Carbon Dynamics",
+    "Remote Sensing and LiDAR Applications",
+    "Ecology and Vegetation Dynamics Studies",
+    "Soil Carbon and Nitrogen Dynamics"
    ],
    "fields": [
-    "sar"
+    "lidar"
    ],
    "rank": {
-    "sar": 12
+    "lidar": 12
    },
    "recent": {
-    "sar": 220
+    "lidar": 64
    }
   },
   {
@@ -1089,77 +639,16 @@
     "3D Shape Modeling and Analysis"
    ],
    "fields": [
-    "photogrammetry",
     "lidar",
-    "geoai",
     "city-bim"
    ],
    "rank": {
-    "photogrammetry": 1,
-    "lidar": 3,
-    "geoai": 14,
-    "city-bim": 4
+    "lidar": 2,
+    "city-bim": 5
    },
    "recent": {
-    "photogrammetry": 558,
-    "lidar": 423,
-    "geoai": 159,
-    "city-bim": 173
-   }
-  },
-  {
-   "id": "A5073032922",
-   "name": "Gui-Song Xia",
-   "orcid": "https://orcid.org/0000-0001-7660-6090",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 66,
-   "cited_by": 33352,
-   "works": 400,
-   "expertise": [
-    "Advanced Neural Network Applications",
-    "Remote-Sensing Image Classification",
-    "Advanced Image and Video Retrieval Techniques",
-    "Domain Adaptation and Few-Shot Learning",
-    "Image Retrieval and Classification Techniques"
-   ],
-   "fields": [
-    "photogrammetry",
-    "geoai"
-   ],
-   "rank": {
-    "photogrammetry": 7,
-    "geoai": 18
-   },
-   "recent": {
-    "photogrammetry": 155,
-    "geoai": 126
-   }
-  },
-  {
-   "id": "A5021408538",
-   "name": "Mengdao Xing",
-   "orcid": "https://orcid.org/0000-0002-4084-0915",
-   "institution": "Xidian University",
-   "country": "CN",
-   "h_index": 66,
-   "cited_by": 16847,
-   "works": 891,
-   "expertise": [
-    "Advanced SAR Imaging Techniques",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Satellite Image Processing and Photogrammetry",
-    "Image and Signal Denoising Methods",
-    "Radar Systems and Signal Processing"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 4
-   },
-   "recent": {
-    "sar": 401
+    "lidar": 109,
+    "city-bim": 30
    }
   },
   {
@@ -1182,88 +671,36 @@
     "geoai"
    ],
    "rank": {
-    "geoai": 5
+    "geoai": 13
    },
    "recent": {
-    "geoai": 225
+    "geoai": 38
    }
   },
   {
-   "id": "A5007427445",
-   "name": "Zhenhong Li",
-   "orcid": "https://orcid.org/0000-0002-8054-7449",
-   "institution": "Chang'an University",
-   "country": "CN",
-   "h_index": 64,
-   "cited_by": 16219,
-   "works": 542,
+   "id": "A5072302612",
+   "name": "Yacine Rezgui",
+   "orcid": "https://orcid.org/0000-0002-5711-8400",
+   "institution": "Cardiff University",
+   "country": "GB",
+   "h_index": 65,
+   "cited_by": 16184,
+   "works": 454,
    "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "earthquake and tectonic studies",
-    "Landslides and related hazards",
-    "Soil Moisture and Remote Sensing",
-    "GNSS positioning and interference"
+    "BIM and Construction Integration",
+    "Building Energy and Comfort Optimization",
+    "Smart Grid Energy Management",
+    "Construction Management and Sustainability",
+    "Integrated Energy Systems Optimization"
    ],
    "fields": [
-    "sar"
+    "city-bim"
    ],
    "rank": {
-    "sar": 2
+    "city-bim": 13
    },
    "recent": {
-    "sar": 445
-   }
-  },
-  {
-   "id": "A5080685651",
-   "name": "Frédéric Frappart",
-   "orcid": "https://orcid.org/0000-0002-4661-8274",
-   "institution": "Interaction Sol Plante Atmosphère",
-   "country": "FR",
-   "h_index": 64,
-   "cited_by": 14045,
-   "works": 488,
-   "expertise": [
-    "Soil Moisture and Remote Sensing",
-    "Geophysics and Gravity Measurements",
-    "Hydrology and Watershed Management Studies",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Ocean Waves and Remote Sensing"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 17
-   },
-   "recent": {
-    "sar": 207
-   }
-  },
-  {
-   "id": "A5035533740",
-   "name": "Jens Wickert",
-   "orcid": "https://orcid.org/0000-0002-7379-5276",
-   "institution": "GFZ Helmholtz Centre for Geosciences",
-   "country": "DE",
-   "h_index": 64,
-   "cited_by": 13974,
-   "works": 683,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Ionosphere and magnetosphere dynamics",
-    "Geophysics and Gravity Measurements",
-    "Meteorological Phenomena and Simulations",
-    "Atmospheric Ozone and Climate"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 9
-   },
-   "recent": {
-    "geodesy": 171
+    "city-bim": 20
    }
   },
   {
@@ -1286,88 +723,39 @@
     "lidar"
    ],
    "rank": {
-    "lidar": 15
+    "lidar": 10
    },
    "recent": {
-    "lidar": 210
+    "lidar": 72
    }
   },
   {
-   "id": "A5052926185",
-   "name": "Shuanggen Jin",
-   "orcid": "https://orcid.org/0000-0002-5108-4828",
-   "institution": "Chinese Academy of Sciences",
-   "country": "CN",
-   "h_index": 62,
-   "cited_by": 12561,
-   "works": 676,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Geophysics and Gravity Measurements",
-    "Ionosphere and magnetosphere dynamics",
-    "Soil Moisture and Remote Sensing",
-    "earthquake and tectonic studies"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 2
-   },
-   "recent": {
-    "geodesy": 231
-   }
-  },
-  {
-   "id": "A5010436195",
-   "name": "Zhong Lu",
-   "orcid": "https://orcid.org/0000-0001-9181-1818",
-   "institution": "Southern Methodist University",
+   "id": "A5088393129",
+   "name": "Xinyue Ye",
+   "orcid": "https://orcid.org/0000-0001-8838-9476",
+   "institution": "Texas A&M University",
    "country": "US",
-   "h_index": 61,
-   "cited_by": 14101,
-   "works": 438,
+   "h_index": 63,
+   "cited_by": 14713,
+   "works": 505,
    "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "earthquake and tectonic studies",
-    "Landslides and related hazards",
-    "Advanced SAR Imaging Techniques",
-    "Soil Moisture and Remote Sensing"
+    "Geographic Information Systems Studies",
+    "Human Mobility and Location-Based Analysis",
+    "Urban Design and Spatial Analysis",
+    "Agglomeration and Urban Systems",
+    "Spatial and Panel Data Analysis"
    ],
    "fields": [
-    "sar"
+    "geoai",
+    "city-bim"
    ],
    "rank": {
-    "sar": 5
+    "geoai": 8,
+    "city-bim": 11
    },
    "recent": {
-    "sar": 392
-   }
-  },
-  {
-   "id": "A5086428184",
-   "name": "George Vosselman",
-   "orcid": "https://orcid.org/0000-0001-8813-8028",
-   "institution": "International Institute for Geo-Information Science and Earth Observation",
-   "country": "NL",
-   "h_index": 60,
-   "cited_by": 14253,
-   "works": 352,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Automated Road and Building Extraction",
-    "3D Modeling in Geospatial Applications",
-    "Remote Sensing and LiDAR Applications",
-    "Advanced Neural Network Applications"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 12
-   },
-   "recent": {
-    "photogrammetry": 151
+    "geoai": 46,
+    "city-bim": 22
    }
   },
   {
@@ -1393,33 +781,33 @@
     "lidar": 9
    },
    "recent": {
-    "lidar": 259
+    "lidar": 76
    }
   },
   {
-   "id": "A5043626547",
-   "name": "Oliver Montenbruck",
-   "orcid": "https://orcid.org/0000-0003-4783-745X",
-   "institution": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
-   "country": "DE",
-   "h_index": 58,
-   "cited_by": 14584,
-   "works": 621,
+   "id": "A5009407093",
+   "name": "Ioannis Brilakis",
+   "orcid": "https://orcid.org/0000-0003-1829-2083",
+   "institution": "University of Cambridge",
+   "country": "GB",
+   "h_index": 59,
+   "cited_by": 13805,
+   "works": 459,
    "expertise": [
-    "GNSS positioning and interference",
-    "Space Satellite Systems and Control",
-    "Spacecraft Dynamics and Control",
-    "Geophysics and Gravity Measurements",
-    "Statistical and numerical algorithms"
+    "BIM and Construction Integration",
+    "Infrastructure Maintenance and Monitoring",
+    "3D Surveying and Cultural Heritage",
+    "3D Modeling in Geospatial Applications",
+    "Structural Health Monitoring Techniques"
    ],
    "fields": [
-    "geodesy"
+    "city-bim"
    ],
    "rank": {
-    "geodesy": 14
+    "city-bim": 6
    },
    "recent": {
-    "geodesy": 141
+    "city-bim": 30
    }
   },
   {
@@ -1439,16 +827,13 @@
     "Remote-Sensing Image Classification"
    ],
    "fields": [
-    "photogrammetry",
     "lidar"
    ],
    "rank": {
-    "photogrammetry": 4,
-    "lidar": 4
+    "lidar": 6
    },
    "recent": {
-    "photogrammetry": 258,
-    "lidar": 345
+    "lidar": 88
    }
   },
   {
@@ -1468,94 +853,42 @@
     "Smart Cities and Technologies"
    ],
    "fields": [
-    "city-bim",
-    "geoinformatics"
+    "geoai",
+    "city-bim"
    ],
    "rank": {
-    "city-bim": 3,
-    "geoinformatics": 7
+    "geoai": 5,
+    "city-bim": 2
    },
    "recent": {
-    "city-bim": 218,
-    "geoinformatics": 195
+    "geoai": 62,
+    "city-bim": 41
    }
   },
   {
-   "id": "A5014145696",
-   "name": "Harald Schuh",
-   "orcid": "https://orcid.org/0000-0001-5443-0370",
-   "institution": "GFZ Helmholtz Centre for Geosciences",
-   "country": "DE",
-   "h_index": 55,
-   "cited_by": 14670,
-   "works": 1207,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Geophysics and Gravity Measurements",
-    "Statistical and numerical algorithms",
-    "Geophysics and Sensor Technology",
-    "Ionosphere and magnetosphere dynamics"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 1
-   },
-   "recent": {
-    "geodesy": 454
-   }
-  },
-  {
-   "id": "A5061833277",
-   "name": "Maorong Ge",
-   "orcid": "https://orcid.org/0000-0001-5679-1153",
-   "institution": "Technische Universität Berlin",
-   "country": "DE",
-   "h_index": 55,
-   "cited_by": 11053,
-   "works": 320,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Statistical and numerical algorithms",
-    "Geophysics and Gravity Measurements",
-    "earthquake and tectonic studies",
-    "Ionosphere and magnetosphere dynamics"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 5
-   },
-   "recent": {
-    "geodesy": 208
-   }
-  },
-  {
-   "id": "A5029039359",
-   "name": "Zhiwei Li",
-   "orcid": "https://orcid.org/0000-0003-4575-5258",
-   "institution": "Central South University",
+   "id": "A5084901503",
+   "name": "Nengcheng Chen",
+   "orcid": "https://orcid.org/0000-0002-3521-9972",
+   "institution": "Wuhan University",
    "country": "CN",
-   "h_index": 52,
-   "cited_by": 12127,
-   "works": 533,
+   "h_index": 53,
+   "cited_by": 10035,
+   "works": 393,
    "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Advanced SAR Imaging Techniques",
+    "Environmental Monitoring and Data Management",
+    "Geographic Information Systems Studies",
     "Soil Moisture and Remote Sensing",
-    "earthquake and tectonic studies",
-    "Satellite Image Processing and Photogrammetry"
+    "Remote Sensing in Agriculture",
+    "Service-Oriented Architecture and Web Services"
    ],
    "fields": [
-    "sar"
+    "geoai"
    ],
    "rank": {
-    "sar": 14
+    "geoai": 17
    },
    "recent": {
-    "sar": 252
+    "geoai": 37
    }
   },
   {
@@ -1578,36 +911,10 @@
     "lidar"
    ],
    "rank": {
-    "lidar": 6
+    "lidar": 8
    },
    "recent": {
-    "lidar": 290
-   }
-  },
-  {
-   "id": "A5100772177",
-   "name": "Bisheng Yang",
-   "orcid": "https://orcid.org/0000-0001-7736-0803",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 52,
-   "cited_by": 8930,
-   "works": 296,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "3D Shape Modeling and Analysis",
-    "Robotics and Sensor-Based Localization",
-    "Remote Sensing and LiDAR Applications",
-    "3D Modeling in Geospatial Applications"
-   ],
-   "fields": [
-    "lidar"
-   ],
-   "rank": {
-    "lidar": 13
-   },
-   "recent": {
-    "lidar": 252
+    "lidar": 82
    }
   },
   {
@@ -1630,114 +937,10 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 6
+    "city-bim": 7
    },
    "recent": {
-    "city-bim": 144
-   }
-  },
-  {
-   "id": "A5053008757",
-   "name": "Uwe Stilla",
-   "orcid": "https://orcid.org/0000-0002-1184-0924",
-   "institution": "Technical University of Munich",
-   "country": "DE",
-   "h_index": 51,
-   "cited_by": 11836,
-   "works": 501,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Automated Road and Building Extraction",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Satellite Image Processing and Photogrammetry",
-    "Remote Sensing and LiDAR Applications"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 9
-   },
-   "recent": {
-    "photogrammetry": 180
-   }
-  },
-  {
-   "id": "A5100660972",
-   "name": "Jianyu Yang",
-   "orcid": "https://orcid.org/0000-0002-4726-8384",
-   "institution": "University of Electronic Science and Technology of China",
-   "country": "CN",
-   "h_index": 51,
-   "cited_by": 10860,
-   "works": 1020,
-   "expertise": [
-    "Advanced SAR Imaging Techniques",
-    "Radar Systems and Signal Processing",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Image and Signal Denoising Methods",
-    "Direction-of-Arrival Estimation Techniques"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 11
-   },
-   "recent": {
-    "sar": 271
-   }
-  },
-  {
-   "id": "A5091474205",
-   "name": "Alexander Zipf",
-   "orcid": "https://orcid.org/0000-0003-4916-9838",
-   "institution": "Heidelberg University",
-   "country": "DE",
-   "h_index": 51,
-   "cited_by": 11660,
-   "works": 385,
-   "expertise": [
-    "Geographic Information Systems Studies",
-    "3D Modeling in Geospatial Applications",
-    "Automated Road and Building Extraction",
-    "Human Mobility and Location-Based Analysis",
-    "Data Management and Algorithms"
-   ],
-   "fields": [
-    "geoinformatics"
-   ],
-   "rank": {
-    "geoinformatics": 9
-   },
-   "recent": {
-    "geoinformatics": 188
-   }
-  },
-  {
-   "id": "A5086407273",
-   "name": "Diego González‐Aguilera",
-   "orcid": "https://orcid.org/0000-0002-8949-4216",
-   "institution": "Universidad de Salamanca",
-   "country": "ES",
-   "h_index": 50,
-   "cited_by": 8393,
-   "works": 376,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "3D Modeling in Geospatial Applications",
-    "Geodetic Measurements and Engineering Structures",
-    "Pleistocene-Era Hominins and Archaeology",
-    "Satellite Image Processing and Photogrammetry"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 18
-   },
-   "recent": {
-    "photogrammetry": 139
+    "city-bim": 28
    }
   },
   {
@@ -1760,10 +963,10 @@
     "lidar"
    ],
    "rank": {
-    "lidar": 10
+    "lidar": 3
    },
    "recent": {
-    "lidar": 279
+    "lidar": 106
    }
   },
   {
@@ -1786,36 +989,10 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 18
+    "city-bim": 9
    },
    "recent": {
-    "city-bim": 79
-   }
-  },
-  {
-   "id": "A5100329153",
-   "name": "Wu Chen",
-   "orcid": "https://orcid.org/0000-0002-1787-5191",
-   "institution": "Hong Kong Polytechnic University",
-   "country": "HK",
-   "h_index": 50,
-   "cited_by": 9381,
-   "works": 731,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Inertial Sensor and Navigation",
-    "Statistical and numerical algorithms",
-    "Geophysics and Gravity Measurements",
-    "Ionosphere and magnetosphere dynamics"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 10
-   },
-   "recent": {
-    "geodesy": 184
+    "city-bim": 26
    }
   },
   {
@@ -1838,36 +1015,10 @@
     "lidar"
    ],
    "rank": {
-    "lidar": 8
+    "lidar": 7
    },
    "recent": {
-    "lidar": 292
-   }
-  },
-  {
-   "id": "A5101705110",
-   "name": "Jingnan Liu",
-   "orcid": "https://orcid.org/0000-0003-2614-9113",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 49,
-   "cited_by": 8741,
-   "works": 312,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Statistical and numerical algorithms",
-    "Inertial Sensor and Navigation",
-    "Geophysics and Gravity Measurements",
-    "earthquake and tectonic studies"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 16
-   },
-   "recent": {
-    "geodesy": 147
+    "lidar": 87
    }
   },
   {
@@ -1887,39 +1038,65 @@
     "Underground infrastructure and sustainability"
    ],
    "fields": [
-    "city-bim"
+    "geoai"
    ],
    "rank": {
-    "city-bim": 2
+    "geoai": 11
    },
    "recent": {
-    "city-bim": 256
+    "geoai": 49
    }
   },
   {
-   "id": "A5100330113",
-   "name": "Xiaohong Zhang",
-   "orcid": "https://orcid.org/0000-0002-2763-2548",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 47,
-   "cited_by": 7630,
-   "works": 327,
+   "id": "A5100338179",
+   "name": "Wenwen Li",
+   "orcid": "https://orcid.org/0000-0003-2237-9499",
+   "institution": "Arizona State University",
+   "country": "US",
+   "h_index": 48,
+   "cited_by": 8043,
+   "works": 398,
    "expertise": [
-    "GNSS positioning and interference",
-    "Statistical and numerical algorithms",
-    "Ionosphere and magnetosphere dynamics",
-    "Inertial Sensor and Navigation",
-    "Earthquake Detection and Analysis"
+    "Geographic Information Systems Studies",
+    "Remote-Sensing Image Classification",
+    "Advanced Neural Network Applications",
+    "Semantic Web and Ontologies",
+    "Spatial and Panel Data Analysis"
    ],
    "fields": [
-    "geodesy"
+    "geoai"
    ],
    "rank": {
-    "geodesy": 13
+    "geoai": 14
    },
    "recent": {
-    "geodesy": 161
+    "geoai": 43
+   }
+  },
+  {
+   "id": "A5070189190",
+   "name": "Xinlian Liang",
+   "orcid": "https://orcid.org/0000-0002-1585-2340",
+   "institution": "Wuhan University",
+   "country": "CN",
+   "h_index": 46,
+   "cited_by": 8196,
+   "works": 164,
+   "expertise": [
+    "Remote Sensing and LiDAR Applications",
+    "3D Surveying and Cultural Heritage",
+    "Forest ecology and management",
+    "Remote-Sensing Image Classification",
+    "Robotics and Sensor-Based Localization"
+   ],
+   "fields": [
+    "lidar"
+   ],
+   "rank": {
+    "lidar": 14
+   },
+   "recent": {
+    "lidar": 73
    }
   },
   {
@@ -1939,305 +1116,42 @@
     "Disaster Management and Resilience"
    ],
    "fields": [
-    "photogrammetry",
-    "city-bim",
-    "geoinformatics"
+    "geoai",
+    "city-bim"
    ],
    "rank": {
-    "photogrammetry": 14,
-    "city-bim": 1,
-    "geoinformatics": 6
+    "geoai": 15,
+    "city-bim": 1
    },
    "recent": {
-    "photogrammetry": 166,
-    "city-bim": 281,
-    "geoinformatics": 291
+    "geoai": 44,
+    "city-bim": 47
    }
   },
   {
-   "id": "A5084320319",
-   "name": "Mahdi Motagh",
-   "orcid": "https://orcid.org/0000-0001-7434-3696",
-   "institution": "GFZ Helmholtz Centre for Geosciences",
-   "country": "DE",
-   "h_index": 46,
-   "cited_by": 6949,
-   "works": 457,
+   "id": "A5017641533",
+   "name": "Maxwell Fordjour Antwi‐Afari",
+   "orcid": "https://orcid.org/0000-0002-6812-7839",
+   "institution": "Aston University",
+   "country": "GB",
+   "h_index": 43,
+   "cited_by": 5656,
+   "works": 187,
    "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "earthquake and tectonic studies",
-    "Landslides and related hazards",
-    "Soil Moisture and Remote Sensing",
-    "Flood Risk Assessment and Management"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 7
-   },
-   "recent": {
-    "sar": 319
-   }
-  },
-  {
-   "id": "A5072456620",
-   "name": "Adrian Jäggi",
-   "orcid": "https://orcid.org/0000-0002-5624-3410",
-   "institution": "University of Bern",
-   "country": "CH",
-   "h_index": 46,
-   "cited_by": 8107,
-   "works": 586,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Geophysics and Gravity Measurements",
-    "Statistical and numerical algorithms",
-    "Space Satellite Systems and Control",
-    "Spacecraft Dynamics and Control"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 8
-   },
-   "recent": {
-    "geodesy": 207
-   }
-  },
-  {
-   "id": "A5010833142",
-   "name": "Eija Honkavaara",
-   "orcid": "https://orcid.org/0000-0002-7236-2145",
-   "institution": "Finnish Geospatial Research Institute",
-   "country": "FI",
-   "h_index": 45,
-   "cited_by": 8648,
-   "works": 284,
-   "expertise": [
-    "Remote Sensing and LiDAR Applications",
-    "3D Surveying and Cultural Heritage",
-    "Satellite Image Processing and Photogrammetry",
-    "Remote Sensing in Agriculture",
-    "Remote-Sensing Image Classification"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 6
-   },
-   "recent": {
-    "photogrammetry": 203
-   }
-  },
-  {
-   "id": "A5109972324",
-   "name": "Peter J. M. van Oosterom",
-   "orcid": "https://orcid.org/0000-0003-3874-4737",
-   "institution": "Delft University of Technology",
-   "country": "NL",
-   "h_index": 44,
-   "cited_by": 8466,
-   "works": 668,
-   "expertise": [
-    "3D Modeling in Geospatial Applications",
-    "Geographic Information Systems Studies",
-    "Data Management and Algorithms",
-    "3D Surveying and Cultural Heritage",
-    "Land Use and Management"
+    "BIM and Construction Integration",
+    "Occupational Health and Safety Research",
+    "Construction Project Management and Performance",
+    "Ergonomics and Musculoskeletal Disorders",
+    "Context-Aware Activity Recognition Systems"
    ],
    "fields": [
     "city-bim"
    ],
    "rank": {
-    "city-bim": 16
+    "city-bim": 14
    },
    "recent": {
-    "city-bim": 87
-   }
-  },
-  {
-   "id": "A5017058983",
-   "name": "Jianjun Zhu",
-   "orcid": "https://orcid.org/0000-0001-7185-6429",
-   "institution": "Central South University",
-   "country": "CN",
-   "h_index": 43,
-   "cited_by": 7508,
-   "works": 617,
-   "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Soil Moisture and Remote Sensing",
-    "Remote Sensing and LiDAR Applications",
-    "Advanced SAR Imaging Techniques",
-    "Satellite Image Processing and Photogrammetry"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 6
-   },
-   "recent": {
-    "sar": 344
-   }
-  },
-  {
-   "id": "A5055241681",
-   "name": "Qile Zhao",
-   "orcid": "https://orcid.org/0000-0003-3957-6376",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 43,
-   "cited_by": 7094,
-   "works": 279,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Statistical and numerical algorithms",
-    "Geophysics and Gravity Measurements",
-    "Space Satellite Systems and Control",
-    "Ionosphere and magnetosphere dynamics"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 6
-   },
-   "recent": {
-    "geodesy": 234
-   }
-  },
-  {
-   "id": "A5013877845",
-   "name": "Manuel Hernández Pajares",
-   "orcid": "https://orcid.org/0000-0002-9687-5850",
-   "institution": "Universitat Politècnica de Catalunya",
-   "country": "ES",
-   "h_index": 43,
-   "cited_by": 8290,
-   "works": 477,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Ionosphere and magnetosphere dynamics",
-    "Earthquake Detection and Analysis",
-    "Statistical and numerical algorithms",
-    "Solar and Space Plasma Dynamics"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 11
-   },
-   "recent": {
-    "geodesy": 190
-   }
-  },
-  {
-   "id": "A5035415910",
-   "name": "K. F. Zhang",
-   "orcid": "https://orcid.org/0000-0001-9376-1148",
-   "institution": "RMIT University",
-   "country": "AU",
-   "h_index": 43,
-   "cited_by": 7230,
-   "works": 412,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Ionosphere and magnetosphere dynamics",
-    "Geophysics and Gravity Measurements",
-    "Meteorological Phenomena and Simulations",
-    "Earthquake Detection and Analysis"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 18
-   },
-   "recent": {
-    "geodesy": 151
-   }
-  },
-  {
-   "id": "A5100631497",
-   "name": "Mingsheng Liao",
-   "orcid": "https://orcid.org/0000-0001-9556-4287",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 42,
-   "cited_by": 5752,
-   "works": 376,
-   "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Advanced SAR Imaging Techniques",
-    "Soil Moisture and Remote Sensing",
-    "Remote-Sensing Image Classification",
-    "Satellite Image Processing and Photogrammetry"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 8
-   },
-   "recent": {
-    "sar": 323
-   }
-  },
-  {
-   "id": "A5052287334",
-   "name": "Michele Crosetto",
-   "orcid": "https://orcid.org/0000-0001-8545-5490",
-   "institution": "Centre Tecnologic de Telecomunicacions de Catalunya",
-   "country": "ES",
-   "h_index": 42,
-   "cited_by": 7645,
-   "works": 328,
-   "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Soil Moisture and Remote Sensing",
-    "Landslides and related hazards",
-    "Flood Risk Assessment and Management",
-    "Advanced SAR Imaging Techniques"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 16
-   },
-   "recent": {
-    "sar": 276
-   }
-  },
-  {
-   "id": "A5072289333",
-   "name": "Yibin Yao",
-   "orcid": "https://orcid.org/0000-0002-7723-4601",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 42,
-   "cited_by": 6932,
-   "works": 414,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Ionosphere and magnetosphere dynamics",
-    "Geophysics and Gravity Measurements",
-    "Statistical and numerical algorithms",
-    "Earthquake Detection and Analysis"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 7
-   },
-   "recent": {
-    "geodesy": 221
+    "city-bim": 25
    }
   },
   {
@@ -2260,192 +1174,36 @@
     "lidar"
    ],
    "rank": {
-    "lidar": 17
+    "lidar": 16
    },
    "recent": {
-    "lidar": 256
+    "lidar": 70
    }
   },
   {
-   "id": "A5101508917",
-   "name": "Xiaolin Meng",
-   "orcid": "https://orcid.org/0000-0003-2440-8054",
-   "institution": "United Imaging Healthcare (China)",
-   "country": "CN",
-   "h_index": 41,
-   "cited_by": 6294,
-   "works": 307,
+   "id": "A5023193869",
+   "name": "Dominik Seidel",
+   "orcid": "https://orcid.org/0000-0003-4131-9424",
+   "institution": "University of Göttingen",
+   "country": "DE",
+   "h_index": 39,
+   "cited_by": 5361,
+   "works": 182,
    "expertise": [
-    "GNSS positioning and interference",
-    "Geodetic Measurements and Engineering Structures",
-    "Structural Health Monitoring Techniques",
-    "Statistical and numerical algorithms",
-    "Inertial Sensor and Navigation"
+    "Forest ecology and management",
+    "Remote Sensing and LiDAR Applications",
+    "Ecology and Vegetation Dynamics Studies",
+    "Forest Management and Policy",
+    "Plant Water Relations and Carbon Dynamics"
    ],
    "fields": [
-    "geodesy"
+    "lidar"
    ],
    "rank": {
-    "geodesy": 17
+    "lidar": 15
    },
    "recent": {
-    "geodesy": 155
-   }
-  },
-  {
-   "id": "A5013633154",
-   "name": "Francesco Nex",
-   "orcid": "https://orcid.org/0000-0002-5712-6902",
-   "institution": "International Institute for Geo-Information Science and Earth Observation",
-   "country": "NL",
-   "h_index": 40,
-   "cited_by": 9716,
-   "works": 197,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Satellite Image Processing and Photogrammetry",
-    "Advanced Vision and Imaging",
-    "Robotics and Sensor-Based Localization",
-    "Remote-Sensing Image Classification"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 8
-   },
-   "recent": {
-    "photogrammetry": 205
-   }
-  },
-  {
-   "id": "A5101531305",
-   "name": "Yunbin Yuan",
-   "orcid": "https://orcid.org/0000-0001-5653-5950",
-   "institution": "Innovation Academy for Precision Measurement Science and Technology, CAS",
-   "country": "CN",
-   "h_index": 40,
-   "cited_by": 6029,
-   "works": 230,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Statistical and numerical algorithms",
-    "Ionosphere and magnetosphere dynamics",
-    "Geophysics and Gravity Measurements",
-    "Earthquake Detection and Analysis"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 12
-   },
-   "recent": {
-    "geodesy": 188
-   }
-  },
-  {
-   "id": "A5044034363",
-   "name": "Oriol Monserrat",
-   "orcid": "https://orcid.org/0000-0003-2505-6855",
-   "institution": "Centre Tecnologic de Telecomunicacions de Catalunya",
-   "country": "ES",
-   "h_index": 38,
-   "cited_by": 6525,
-   "works": 301,
-   "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Landslides and related hazards",
-    "Flood Risk Assessment and Management",
-    "Soil Moisture and Remote Sensing",
-    "Advanced SAR Imaging Techniques"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 15
-   },
-   "recent": {
-    "sar": 294
-   }
-  },
-  {
-   "id": "A5047673695",
-   "name": "Hugo Ledoux",
-   "orcid": "https://orcid.org/0000-0002-1251-8654",
-   "institution": "Delft University of Technology",
-   "country": "NL",
-   "h_index": 37,
-   "cited_by": 5628,
-   "works": 187,
-   "expertise": [
-    "3D Modeling in Geospatial Applications",
-    "Geographic Information Systems Studies",
-    "3D Surveying and Cultural Heritage",
-    "Computational Geometry and Mesh Generation",
-    "Data Management and Algorithms"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
-    "city-bim": 8
-   },
-   "recent": {
-    "city-bim": 127
-   }
-  },
-  {
-   "id": "A5067826216",
-   "name": "Chaoying Zhao",
-   "orcid": "https://orcid.org/0000-0002-5730-9602",
-   "institution": "Chang'an University",
-   "country": "CN",
-   "h_index": 36,
-   "cited_by": 4772,
-   "works": 198,
-   "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Landslides and related hazards",
-    "Soil Moisture and Remote Sensing",
-    "earthquake and tectonic studies",
-    "Earthquake Detection and Analysis"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 10
-   },
-   "recent": {
-    "sar": 337
-   }
-  },
-  {
-   "id": "A5026452327",
-   "name": "Pierre Grussenmeyer",
-   "orcid": "https://orcid.org/0000-0002-7292-2755",
-   "institution": "Institut National des Sciences Appliquées de Strasbourg",
-   "country": "FR",
-   "h_index": 35,
-   "cited_by": 5525,
-   "works": 373,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "3D Modeling in Geospatial Applications",
-    "Image Processing and 3D Reconstruction",
-    "Satellite Image Processing and Photogrammetry",
-    "3D Shape Modeling and Analysis"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 13
-   },
-   "recent": {
-    "photogrammetry": 193
+    "lidar": 76
    }
   },
   {
@@ -2468,114 +1226,10 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 5
+    "city-bim": 8
    },
    "recent": {
-    "city-bim": 208
-   }
-  },
-  {
-   "id": "A5055469319",
-   "name": "Krzysztof Sośnica",
-   "orcid": "https://orcid.org/0000-0001-6181-1307",
-   "institution": "Wrocław University of Environmental and Life Sciences",
-   "country": "PL",
-   "h_index": 34,
-   "cited_by": 3284,
-   "works": 371,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Geophysics and Gravity Measurements",
-    "Statistical and numerical algorithms",
-    "Space Satellite Systems and Control",
-    "Geophysics and Sensor Technology"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 3
-   },
-   "recent": {
-    "geodesy": 291
-   }
-  },
-  {
-   "id": "A5019208828",
-   "name": "Weiping Jiang",
-   "orcid": "https://orcid.org/0000-0002-3267-9682",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 33,
-   "cited_by": 4271,
-   "works": 292,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Geophysics and Gravity Measurements",
-    "Statistical and numerical algorithms",
-    "Geodetic Measurements and Engineering Structures",
-    "earthquake and tectonic studies"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 15
-   },
-   "recent": {
-    "geodesy": 182
-   }
-  },
-  {
-   "id": "A5024347284",
-   "name": "Fabio Menna",
-   "orcid": "https://orcid.org/0000-0002-5365-8813",
-   "institution": "Parthenope University of Naples",
-   "country": "IT",
-   "h_index": 32,
-   "cited_by": 4576,
-   "works": 149,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Satellite Image Processing and Photogrammetry",
-    "Optical measurement and interference techniques",
-    "Image Processing and 3D Reconstruction",
-    "Underwater Vehicles and Communication Systems"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 15
-   },
-   "recent": {
-    "photogrammetry": 198
-   }
-  },
-  {
-   "id": "A5017812815",
-   "name": "Rongjun Qin",
-   "orcid": "https://orcid.org/0000-0002-5896-1379",
-   "institution": "The Ohio State University",
-   "country": "US",
-   "h_index": 32,
-   "cited_by": 4522,
-   "works": 179,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Satellite Image Processing and Photogrammetry",
-    "Advanced Vision and Imaging",
-    "Remote-Sensing Image Classification",
-    "Remote Sensing and Land Use"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 17
-   },
-   "recent": {
-    "photogrammetry": 178
+    "city-bim": 34
    }
   },
   {
@@ -2595,91 +1249,13 @@
     "earthquake and tectonic studies"
    ],
    "fields": [
-    "geoinformatics"
+    "geoai"
    ],
    "rank": {
-    "geoinformatics": 5
+    "geoai": 12
    },
    "recent": {
-    "geoinformatics": 386
-   }
-  },
-  {
-   "id": "A5046775950",
-   "name": "Andrea Maria Lingua",
-   "orcid": "https://orcid.org/0000-0002-5930-2711",
-   "institution": "Politecnico di Torino",
-   "country": "IT",
-   "h_index": 28,
-   "cited_by": 3769,
-   "works": 376,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Satellite Image Processing and Photogrammetry",
-    "Geodetic Measurements and Engineering Structures",
-    "3D Modeling in Geospatial Applications",
-    "Robotics and Sensor-Based Localization"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 10
-   },
-   "recent": {
-    "photogrammetry": 228
-   }
-  },
-  {
-   "id": "A5047595231",
-   "name": "Filiberto Chiabrando",
-   "orcid": "https://orcid.org/0000-0002-4982-5236",
-   "institution": "Politecnico di Torino",
-   "country": "IT",
-   "h_index": 27,
-   "cited_by": 3314,
-   "works": 329,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Geodetic Measurements and Engineering Structures",
-    "3D Modeling in Geospatial Applications",
-    "Archaeological Research and Protection",
-    "Satellite Image Processing and Photogrammetry"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 5
-   },
-   "recent": {
-    "photogrammetry": 294
-   }
-  },
-  {
-   "id": "A5075778487",
-   "name": "Maria Antonia Brovelli",
-   "orcid": "https://orcid.org/0000-0003-3161-5561",
-   "institution": "Politecnico di Milano",
-   "country": "IT",
-   "h_index": 27,
-   "cited_by": 3859,
-   "works": 462,
-   "expertise": [
-    "Geographic Information Systems Studies",
-    "3D Modeling in Geospatial Applications",
-    "Remote-Sensing Image Classification",
-    "Remote Sensing and Land Use",
-    "Environmental Monitoring and Data Management"
-   ],
-   "fields": [
-    "geoinformatics"
-   ],
-   "rank": {
-    "geoinformatics": 8
-   },
-   "recent": {
-    "geoinformatics": 264
+    "geoai": 61
    }
   },
   {
@@ -2702,36 +1278,10 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 9
+    "city-bim": 16
    },
    "recent": {
-    "city-bim": 139
-   }
-  },
-  {
-   "id": "A5051271836",
-   "name": "Volker Coors",
-   "orcid": "https://orcid.org/0000-0002-0413-8977",
-   "institution": "Stuttgart Technical University of Applied Sciences",
-   "country": "DE",
-   "h_index": 25,
-   "cited_by": 2992,
-   "works": 221,
-   "expertise": [
-    "3D Modeling in Geospatial Applications",
-    "Geographic Information Systems Studies",
-    "3D Surveying and Cultural Heritage",
-    "Smart Cities and Technologies",
-    "Integrated Energy Systems Optimization"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
-    "city-bim": 12
-   },
-   "recent": {
-    "city-bim": 123
+    "city-bim": 27
    }
   },
   {
@@ -2754,114 +1304,36 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 13
-   },
-   "recent": {
-    "city-bim": 121
-   }
-  },
-  {
-   "id": "A5070342940",
-   "name": "Ken Arroyo Ohori",
-   "orcid": "https://orcid.org/0000-0002-9863-0152",
-   "institution": "Delft University of Technology",
-   "country": "NL",
-   "h_index": 24,
-   "cited_by": 1769,
-   "works": 114,
-   "expertise": [
-    "3D Modeling in Geospatial Applications",
-    "Geographic Information Systems Studies",
-    "3D Surveying and Cultural Heritage",
-    "BIM and Construction Integration",
-    "Computational Geometry and Mesh Generation"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
     "city-bim": 17
    },
    "recent": {
-    "city-bim": 114
+    "city-bim": 25
    }
   },
   {
-   "id": "A5032699264",
-   "name": "Arnadi Murtiyoso",
-   "orcid": "https://orcid.org/0000-0002-3310-8937",
-   "institution": "Institut National des Sciences Appliquées de Strasbourg",
-   "country": "FR",
-   "h_index": 22,
-   "cited_by": 1697,
-   "works": 112,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "3D Shape Modeling and Analysis",
-    "3D Modeling in Geospatial Applications",
-    "Remote Sensing and LiDAR Applications",
-    "Image Processing and 3D Reconstruction"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 16
-   },
-   "recent": {
-    "photogrammetry": 224
-   }
-  },
-  {
-   "id": "A5000298644",
-   "name": "Giorgio Agugiaro",
-   "orcid": "https://orcid.org/0000-0002-2611-4650",
-   "institution": "Delft University of Technology",
-   "country": "NL",
-   "h_index": 20,
-   "cited_by": 1289,
-   "works": 133,
+   "id": "A5044278053",
+   "name": "Dessislava Petrova‐Antonova",
+   "orcid": "https://orcid.org/0000-0002-9920-8877",
+   "institution": "Sofia University \"St. Kliment Ohridski\"",
+   "country": "BG",
+   "h_index": 15,
+   "cited_by": 937,
+   "works": 163,
    "expertise": [
     "3D Modeling in Geospatial Applications",
-    "3D Surveying and Cultural Heritage",
-    "Geographic Information Systems Studies",
-    "Building Energy and Comfort Optimization",
-    "Smart Cities and Technologies"
+    "Service-Oriented Architecture and Web Services",
+    "Urban Heat Island Mitigation",
+    "Smart Cities and Technologies",
+    "Urban Design and Spatial Analysis"
    ],
    "fields": [
     "city-bim"
    ],
    "rank": {
-    "city-bim": 14
+    "city-bim": 18
    },
    "recent": {
-    "city-bim": 130
-   }
-  },
-  {
-   "id": "A5062866557",
-   "name": "Alias Abdul Rahman",
-   "orcid": "https://orcid.org/0000-0001-5263-8266",
-   "institution": "University of Technology Malaysia",
-   "country": "MY",
-   "h_index": 20,
-   "cited_by": 1849,
-   "works": 228,
-   "expertise": [
-    "3D Modeling in Geospatial Applications",
-    "Geographic Information Systems Studies",
-    "3D Surveying and Cultural Heritage",
-    "Geological Modeling and Analysis",
-    "Data Management and Algorithms"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
-    "city-bim": 15
-   },
-   "recent": {
-    "city-bim": 126
+    "city-bim": 29
    }
   }
  ]
