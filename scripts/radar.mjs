@@ -46,6 +46,7 @@ const kindRes = Object.entries(domain.kinds).map(([kind, words]) => [kind, wordR
 // ---------- text helpers ----------
 const decode = (s) =>
   s
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")

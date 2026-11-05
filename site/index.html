@@ -315,6 +315,7 @@ input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 
 .row h3 a{color:var(--text);text-decoration:none}
 .row h3 a::after{content:"";position:absolute;inset:0}
 .row h3 a:hover{color:var(--accent)}
+.pc{border:1px solid var(--line,#2a3342);border-radius:999px;padding:0 8px;font-size:12px;line-height:20px;color:var(--ink,inherit)}
 .meta{display:flex;gap:2px 14px;flex-wrap:wrap;align-items:center;margin-top:5px;color:var(--muted);font-size:13px}
 .kind{font-weight:600;color:var(--k);display:inline-flex;align-items:center;gap:6px}
 .kind::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--k)}
@@ -547,6 +548,7 @@ function placeOf(it) {
     for (const part of [...parts].reverse()) { if (PLACE.has(part)) { r = PLACE.get(part); break; } }
     if (!r) { const words = loc.split(/[\s,]+/).filter(Boolean); for (let n = 3; n >= 1 && !r; n--) for (let i = 0; i + n <= words.length && !r; i++) { const g = words.slice(i, i + n).join(" "); if (g.length > 2 && PLACE.has(g)) r = PLACE.get(g); } }
     if (!r && /^jobsac/.test(it.source || "")) r = PLACE.get("united kingdom");
+    if (!r && it.geo?.[3]) r = PLACE.get(String(it.geo[3]).toLowerCase()) || null;
     if (!r && /^(adzuna)/.test(it.source || "")) r = null;
     if (!r) { try { const tld = new URL(it.url).hostname.split(".").pop(); if (TLD[tld]) r = PLACE.get(TLD[tld].toLowerCase()); } catch {} }
   }
@@ -558,6 +560,13 @@ const countryOf = it => { const p = placeOf(it); return p ? p[1] : ""; };
 const PTYPES = ["PhD", "Postdoc", "Student and thesis", "Internship", "Industry and other"];
 const AI_TYPES = { phd: "PhD", postdoc: "Postdoc", student: "Student and thesis", internship: "Internship", industry: "Industry and other", other: "Industry and other" };
 let AI = {};
+let PROG = {};
+// Facts read from each programme's own page (degree, language, duration, ECTS, tuition), only when the page states them.
+function progChips(it) {
+  const p = it.kind === "course" && PROG[it.id]; if (!p || p.none) return "";
+  const c = [p.degree, p.language, p.duration, p.ects ? p.ects + " ECTS" : "", p.tuition].filter(Boolean);
+  return c.map(x => `<span class="pc">${esc(x)}</span>`).join("");
+}
 function ptypeOf(it) {
   if (it._t) return it._t;
   const a = AI[it.id]; if (a && AI_TYPES[a.type]) return (it._t = AI_TYPES[a.type]);
@@ -827,6 +836,7 @@ function details(it) {
     if (it.fwci != null) bits.push(`<span title="Field-weighted citation impact: 1.0 is the world average for papers of the same field and age">FWCI ${esc(it.fwci)}</span>`);
   }
   if (it.apply_closed) bits.push("<span>Current intake closed</span>");
+  bits.push(progChips(it));
   if (it.location) bits.push(`<span>${esc(it.location)}</span>`);
   return bits.join("");
 }
@@ -919,6 +929,7 @@ const hashN = (s, k) => { let h = 2166136261 ^ k; for (const c of s) h = Math.im
 function coordOf(it) {
   if (it._ll !== undefined) return it._ll;
   const p = placeOf(it); if (!p) return (it._ll = null);
+  if (Array.isArray(it.geo) && it.geo[0] != null) return (it._ll = [it.geo[1] + hashN(it.id, 1) * 0.05, it.geo[0] + hashN(it.id, 2) * 0.035]); // institution or city from the geocoder
   const loc = (it.location || "").toLowerCase();
   const city = CITY.find(([re]) => re.test(loc));
   const [la, lo, s] = city ? [city[1], city[2], 0.18] : CENTROID[p[1]] ? [...CENTROID[p[1]], SPREAD[p[1]] || 1] : [null];
@@ -1239,8 +1250,9 @@ Promise.all([
   fetch("data/feed.json", { cache: "no-store" }).then(r => r.json()),
   fetch("data/status.json", { cache: "no-store" }).then(r => r.json()).catch(() => ({})),
   fetch("/api/ai").then(r => r.ok ? r.json() : {}).catch(() => ({})),
-]).then(([f, s, ai]) => {
-  feed = f; status = s; AI = ai && typeof ai === "object" ? ai : {};
+  fetch("/api/prog").then(r => r.ok ? r.json() : {}).catch(() => ({})),
+]).then(([f, s, ai, prog]) => {
+  feed = f; status = s; AI = ai && typeof ai === "object" ? ai : {}; PROG = prog && typeof prog === "object" ? prog : {};
   feed.items.forEach(it => { const a = AI[it.id]; if (a && a.summary && !it.summary) it.summary = a.summary; });
   feed.items.forEach(classify);
   try { const m = location.hash.match(/d=([a-z]+)(?:&s=([^&]+))?/); if (m && DOM[m[1]]) { st.domain = m[1]; st.sub = m[2] ? decodeURIComponent(m[2]) : ""; } } catch {}
