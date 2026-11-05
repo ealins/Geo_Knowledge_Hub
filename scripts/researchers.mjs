@@ -8,7 +8,13 @@ import { fetchText } from "./net.mjs";
 const cfg = JSON.parse(await readFile("config/researchers.json", "utf8"));
 const OUT = "data/researchers.json";
 const API = "https://api.openalex.org";
-const json = async (u) => JSON.parse(await fetchText(u));
+// Retries with growing pauses: OpenAlex answers 429/5xx when it is hit too fast.
+const json = async (u, headers = {}) => {
+  for (let i = 0; ; i++) {
+    try { return JSON.parse(await fetchText(u, { accept: "application/json", ...headers })); }
+    catch (e) { if (i >= 4 || !/HTTP (429|5\d\d)/.test(e.message)) throw e; await new Promise((r) => setTimeout(r, 2500 * 2 ** i)); }
+  }
+};
 // An author must work on geodata: at least one of their main research topics has to match.
 const GEO = /remote sensing|photogramm|lidar|laser scan|point cloud|synthetic aperture|\bSAR\b|radar|geodes|GNSS|\bGPS\b|geospatial|geograph|\bGIS\b|spatial|surveying|earth observation|satellite|hyperspectral|multispectral|land (use|cover)|landslide|terrain|\bcity\b|urban|building information|\bBIM\b|cartograph|geoinformat|image (classification|fusion|segmentation)|change detection|altimetry|sea level|gravity|tectonic|geophys|navigation|positioning|3D model|digital twin/i;
 const isGeo = (a) => (a.topics || []).slice(0, 8).some((t) => GEO.test(t.display_name || ""));
@@ -84,6 +90,8 @@ for (const f of cfg.fields) {
 }
 
 const researchers = [...people.values()].sort((a, b) => b.h_index - a.h_index);
+const thin = cfg.fields.filter((f) => researchers.filter((r) => r.fields.includes(f.id)).length < 10).map((f) => f.id);
+if (thin.length) { console.log(`Fields with fewer than 10 people (${thin.join(", ")}); looks like a degraded run, keeping previous file.`); process.exit(0); }
 if (researchers.length < 20) { console.log(`Only ${researchers.length} researchers (failed queries: ${failed}); keeping previous file.`); process.exit(0); }
 
 // Job titles are not in OpenAlex. ORCID's public API lists self-reported employments (title, department).
@@ -120,15 +128,15 @@ for (const p of researchers) {
   await new Promise((r) => setTimeout(r, 120));
 }
 console.log(`co-author networks for ${withCollab} of ${researchers.length}`);
-let withPos = 0;
+let withPos = 0, orcidFail = 0;
 for (const p of researchers) {
   try {
     const pos = await orcidPosition(p);
     if (pos) { Object.assign(p, pos); withPos++; }
-  } catch { /* ORCID record private or unreachable: no position shown */ }
+  } catch (e) { orcidFail++; if (orcidFail <= 3) console.log("orcid:", e.message); }
   await new Promise((r) => setTimeout(r, 120));
 }
-console.log(`positions found for ${withPos} of ${researchers.length}`);
+console.log(`positions found for ${withPos} of ${researchers.length} (orcid errors: ${orcidFail})`);
 await mkdir("data", { recursive: true });
 await writeFile(OUT, JSON.stringify({
   generated_at: new Date().toISOString(),
