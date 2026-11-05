@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T18:41:56.998Z",
+ "generated_at": "2026-11-05T19:20:18.370Z",
  "since": 2016,
  "fields": [
   {
@@ -343,7 +343,13 @@
     }
    ],
    "position": "Director",
-   "department": "Center for Global Discovery and Conservation Science"
+   "department": "Center for Global Discovery and Conservation Science",
+   "links": [
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Greg_Asner"
+    }
+   ]
   },
   {
    "id": "A5059040421",
@@ -751,7 +757,13 @@
     }
    ],
    "position": "Full Professor",
-   "department": "Institute for Environmental Studies"
+   "department": "Institute for Environmental Studies",
+   "links": [
+    {
+     "name": "Vrije Universiteit Amsterdam profile pag",
+     "url": "https://research.vu.nl/en/persons/a3b89a0a-0420-4188-9d44-41db88a2cfa3"
+    }
+   ]
   },
   {
    "id": "A5063621337",
@@ -952,7 +964,21 @@
     }
    ],
    "position": "Research Director",
-   "department": ""
+   "department": "",
+   "links": [
+    {
+     "name": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=6owK2OQAAAAJ&hl=fr"
+    },
+    {
+     "name": "Linked In",
+     "url": "https://www.linkedin.com/in/jocelyn-chanussot-31877030"
+    },
+    {
+     "name": "DBLP",
+     "url": "https://dblp.uni-trier.de/pid/97/2816.html"
+    }
+   ]
   },
   {
    "id": "A5054292278",
@@ -1258,7 +1284,13 @@
     }
    ],
    "position": "Senior Research Scientist, Natural Resources Canada",
-   "department": "Canadian Forest Service"
+   "department": "Canadian Forest Service",
+   "links": [
+    {
+     "name": "Mendeley profile",
+     "url": "https://www.mendeley.com/profiles/michael-wulder/"
+    }
+   ]
   },
   {
    "id": "A5033017179",
@@ -1461,7 +1493,17 @@
     }
    ],
    "position": "Prof. for remote sensing",
-   "department": "Department of Geodesy and Geoinformation"
+   "department": "Department of Geodesy and Geoinformation",
+   "links": [
+    {
+     "name": "Google Scholar profile",
+     "url": "https://scholar.google.at/citations?user=YmHALxIAAAAJ&hl=de"
+    },
+    {
+     "name": "Publons profile",
+     "url": "https://publons.com/researcher/3176080/wolfgang-wagner/"
+    }
+   ]
   },
   {
    "id": "A5006095323",
@@ -2374,7 +2416,13 @@
     }
    ],
    "position": "Head/Prof. Dr.",
-   "department": "Chair of Data Science in Earth Observation"
+   "department": "Chair of Data Science in Earth Observation",
+   "links": [
+    {
+     "name": "my group",
+     "url": "https://www.asg.ed.tum.de/sipeo/home/"
+    }
+   ]
   },
   {
    "id": "A5000622487",
@@ -2478,6 +2526,12 @@
      "name": "Andrew J. Tatem",
      "n": 11
     }
+   ],
+   "links": [
+    {
+     "name": "Lancaster University profile page",
+     "url": "https://research.lancaster-university.uk/en/persons/021a08bd-c20c-4c80-a737-1ac0ee5e52f0"
+    }
    ]
   },
   {
@@ -2578,7 +2632,13 @@
     }
    ],
    "position": "Senior Scientist",
-   "department": "Building and Industrial Energy Systems Division"
+   "department": "Building and Industrial Energy Systems Division",
+   "links": [
+    {
+     "name": "LBNL",
+     "url": "https://eta.lbl.gov/people/tianzhen-hong"
+    }
+   ]
   },
   {
    "id": "A5033042071",
@@ -3188,7 +3248,13 @@
     }
    ],
    "position": "Cross-appointed Professor (2017-2025) and Adjunct Professor (since 2026)",
-   "department": "Department of Systems Design Engineering"
+   "department": "Department of Systems Design Engineering",
+   "links": [
+    {
+     "name": "",
+     "url": "https://uwaterloo.ca/geospatial-sensing/"
+    }
+   ]
   },
   {
    "id": "A5075013625",
@@ -3288,7 +3354,13 @@
     }
    ],
    "position": "Professor, Southeast University",
-   "department": ""
+   "department": "",
+   "links": [
+    {
+     "name": "Homepage",
+     "url": "https://sites.google.com/view/danfeng-hong"
+    }
+   ]
   },
   {
    "id": "A5073132582",
@@ -3385,6 +3457,12 @@
      "id": "A5055769454",
      "name": "Craig James Donlon",
      "n": 24
+    }
+   ],
+   "links": [
+    {
+     "name": "Ifremer's home page",
+     "url": "https://annuaire.ifremer.fr/cv/15870/"
     }
    ]
   },
@@ -3486,7 +3564,13 @@
     }
    ],
    "position": "Research Scientist",
-   "department": "Natural Resources Canada"
+   "department": "Natural Resources Canada",
+   "links": [
+    {
+     "name": "ResearchGate",
+     "url": "https://www.researchgate.net/profile/Joanne_White2/?ev=hdr_xprf"
+    }
+   ]
   },
   {
    "id": "A5100754351",
@@ -4784,6 +4868,12 @@
      "name": "Chengsheng Yang",
      "n": 10
     }
+   ],
+   "links": [
+    {
+     "name": "",
+     "url": "https://smu.edu/dedman/lu"
+    }
    ]
   },
   {
@@ -4884,7 +4974,13 @@
     }
    ],
    "position": "Professor, University of Twente",
-   "department": "Department of Earth Observation Science"
+   "department": "Department of Earth Observation Science",
+   "links": [
+    {
+     "name": "University of Twente profile page",
+     "url": "https://research.utwente.nl/en/persons/9bfbca67-bc20-4433-81de-48f903b3f086"
+    }
+   ]
   },
   {
    "id": "A5043014786",
@@ -4984,7 +5080,13 @@
     }
    ],
    "position": "Research Professor",
-   "department": "Remote Sensing and Photogrammetry"
+   "department": "Remote Sensing and Photogrammetry",
+   "links": [
+    {
+     "name": "Finnish Freshwater Competence Centre",
+     "url": "https://www.freshwatercompetencecentre.com/"
+    }
+   ]
   },
   {
    "id": "A5043626547",
@@ -5185,7 +5287,13 @@
     }
    ],
    "position": "Professor of Photogrammetry",
-   "department": "Department of Geodesy and Geoinformation"
+   "department": "Department of Geodesy and Geoinformation",
+   "links": [
+    {
+     "name": "Google scholar citations",
+     "url": "https://scholar.google.at/citations?user=-HuwYEMAAAAJ"
+    }
+   ]
   },
   {
    "id": "A5010235735",
@@ -5282,6 +5390,12 @@
      "id": "A5046307675",
      "name": "Winston Yap",
      "n": 15
+    }
+   ],
+   "links": [
+    {
+     "name": "Personal website",
+     "url": "https://filipbiljecki.com"
     }
    ]
   },
@@ -6665,7 +6779,17 @@
     }
    ],
    "position": "Associate Professor",
-   "department": "School of Forest Sciences"
+   "department": "School of Forest Sciences",
+   "links": [
+    {
+     "name": "My Scholar-profile",
+     "url": "https://scholar.google.fi/citations?user=C7BO2rkAAAAJ&hl=en&oi=ao"
+    },
+    {
+     "name": "University of Helsinki profile page",
+     "url": "https://researchportal.helsinki.fi/en/persons/98c3065b-5d0e-44ea-b0cc-3e58b556c903"
+    }
+   ]
   },
   {
    "id": "A5101705110",
@@ -6860,6 +6984,12 @@
      "id": "A5070887627",
      "name": "Balázs Dukai",
      "n": 14
+    }
+   ],
+   "links": [
+    {
+     "name": "Delft University of Technology profile p",
+     "url": "https://research.tudelft.nl/en/persons/1f6b45c5-44ba-4745-a730-d5d3e627e3db"
     }
    ]
   },
@@ -7162,6 +7292,16 @@
      "id": "A5031879118",
      "name": "Bahman Akbari",
      "n": 11
+    }
+   ],
+   "links": [
+    {
+     "name": "",
+     "url": "https://www.gfz.de/en/staff/mahdi-motagh/"
+    },
+    {
+     "name": "",
+     "url": "https://www.ipi.uni-hannover.de/de/motagh/"
     }
    ]
   },
@@ -7757,7 +7897,13 @@
     }
    ],
    "position": "Full Tenured Professor",
-   "department": "Mathematics"
+   "department": "Mathematics",
+   "links": [
+    {
+     "name": "Scholar Google personal web site",
+     "url": "https://scholar.google.com/citations?user=Tm-DcsMAAAAJ&hl=en"
+    }
+   ]
   },
   {
    "id": "A5035415910",
@@ -8253,6 +8399,12 @@
      "name": "José A. Á. Antolínez",
      "n": 10
     }
+   ],
+   "links": [
+    {
+     "name": "Delft University of Technology profile p",
+     "url": "https://research.tudelft.nl/en/persons/273ddb1b-3fcd-4235-a68f-580645bb9252"
+    }
    ]
   },
   {
@@ -8448,6 +8600,12 @@
      "id": "A5037157287",
      "name": "Anand Vetrivel",
      "n": 5
+    }
+   ],
+   "links": [
+    {
+     "name": "University of Twente profile page",
+     "url": "https://research.utwente.nl/en/persons/c35a14a0-066e-460c-99d9-768d41ef4f11"
     }
    ]
   },
@@ -8647,7 +8805,13 @@
     }
    ],
    "position": "Senior Researcher",
-   "department": "Geomatics Division-Remote Sensing"
+   "department": "Geomatics Division-Remote Sensing",
+   "links": [
+    {
+     "name": "ResearchGate",
+     "url": "https://www.researchgate.net/profile/O_Monserrat"
+    }
+   ]
   },
   {
    "id": "A5047673695",
@@ -8747,7 +8911,21 @@
     }
    ],
    "position": "associate-professor 3D geoinformation",
-   "department": ""
+   "department": "",
+   "links": [
+    {
+     "name": "🏠 https://3d.bk.tudelft.nl/hledoux",
+     "url": "https://3d.bk.tudelft.nl/hledoux"
+    },
+    {
+     "name": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=NWmgjlMAAAAJ&hl=en"
+    },
+    {
+     "name": "Delft University of Technology profile p",
+     "url": "https://research.tudelft.nl/en/persons/51e8cf2f-0266-421f-970f-71466b50d886"
+    }
+   ]
   },
   {
    "id": "A5067826216",
@@ -9045,7 +9223,21 @@
     }
    ],
    "position": "Full Professor, Technische Universität München",
-   "department": "Chair of Geoinformatics, Department of Aerospace and Geodesy"
+   "department": "Chair of Geoinformatics, Department of Aerospace and Geodesy",
+   "links": [
+    {
+     "name": "Personal Homepage",
+     "url": "https://www.asg.ed.tum.de/en/gis/our-team/staff/prof-thomas-h-kolbe/"
+    },
+    {
+     "name": "Publications",
+     "url": "https://www.asg.ed.tum.de/en/gis/our-team/staff/prof-thomas-h-kolbe/#c449"
+    },
+    {
+     "name": "Google Scholar Account",
+     "url": "https://scholar.google.com/citations?user=fHuIr30AAAAJ&hl=de"
+    }
+   ]
   },
   {
    "id": "A5055469319",
@@ -9145,7 +9337,13 @@
     }
    ],
    "position": "President of the Discipline Council for Civil Engineering and Transport",
-   "department": "Institute of Geodesy and Geoinformatics"
+   "department": "Institute of Geodesy and Geoinformatics",
+   "links": [
+    {
+     "name": "SpaceOS",
+     "url": "https://spaceos.igig.upwr.edu.pl/"
+    }
+   ]
   },
   {
    "id": "A5019208828",
@@ -9543,7 +9741,21 @@
     }
    ],
    "position": "Researcher, Istanbul Technical University",
-   "department": "Institute of Earthquake Engineering and Disaster Management"
+   "department": "Institute of Earthquake Engineering and Disaster Management",
+   "links": [
+    {
+     "name": "GitHub",
+     "url": "https://github.com/paulinelemenkova"
+    },
+    {
+     "name": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=As7apVQAAAAJ&hl=en"
+    },
+    {
+     "name": "Bibliothèque de l'Université libre de Br",
+     "url": "https://difusion.ulb.ac.be/vufind/Author/Home?author=Lemenkova, Polina"
+    }
+   ]
   },
   {
    "id": "A5046775950",
@@ -9643,7 +9855,17 @@
     }
    ],
    "position": "Docenti di ruolo di Ia fascia",
-   "department": "Dipartimento di Ingegneria dell'Ambiente, del Territorio e delle Infrastrutture"
+   "department": "Dipartimento di Ingegneria dell'Ambiente, del Territorio e delle Infrastrutture",
+   "links": [
+    {
+     "name": "researchGateId",
+     "url": "https://www.researchgate.net/profile/Andrea_LINGUA"
+    },
+    {
+     "name": "scholarId",
+     "url": "https://scholar.google.com/citations?user=cJQihaAAAAAJ&hl=it"
+    }
+   ]
   },
   {
    "id": "A5047595231",
@@ -9743,7 +9965,13 @@
     }
    ],
    "position": "Docenti di ruolo di IIa fascia",
-   "department": "Dipartimento di Architettura e Design"
+   "department": "Dipartimento di Architettura e Design",
+   "links": [
+    {
+     "name": "scholarId",
+     "url": "https://scholar.google.it/citations?user=cR3w8I0AAAAJ&hl=it"
+    }
+   ]
   },
   {
    "id": "A5075778487",
@@ -9943,7 +10171,21 @@
     }
    ],
    "position": "Associate Professor, University of Twente",
-   "department": "Urban and Regional Planning and Geo-information Management"
+   "department": "Urban and Regional Planning and Geo-information Management",
+   "links": [
+    {
+     "name": "personal webpage",
+     "url": "https://sites.google.com/view/milakoeva/mila-koeva"
+    },
+    {
+     "name": "ut (itc) web page",
+     "url": "https://research.utwente.nl/en/persons/mila-koeva"
+    },
+    {
+     "name": "mendeley",
+     "url": "https://www.mendeley.com/profiles/mila-koeva/"
+    }
+   ]
   },
   {
    "id": "A5051271836",
@@ -10339,7 +10581,17 @@
     }
    ],
    "position": "Junior Professor",
-   "department": "Surveying and Geomatics"
+   "department": "Surveying and Geomatics",
+   "links": [
+    {
+     "name": "Research group website",
+     "url": "https://form.ethz.ch/"
+    },
+    {
+     "name": "Personal website",
+     "url": "https://murtiad.github.io/"
+    }
+   ]
   },
   {
    "id": "A5000298644",
@@ -10436,6 +10688,12 @@
      "id": "A5017763361",
      "name": "Mir Abolfazl Mostafavi",
      "n": 4
+    }
+   ],
+   "links": [
+    {
+     "name": "Delft University of Technology profile p",
+     "url": "https://research.tudelft.nl/en/persons/1e5e67d1-609f-43ca-8cae-9a6ff3e33a8e"
     }
    ]
   },
