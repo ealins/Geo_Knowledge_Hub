@@ -1209,7 +1209,8 @@ function renderPeople() {
   const hue = id => fIdx[id] * 47 + 215;
   let ppl = P.researchers.filter(r => (!st.pfield || r.fields.includes(st.pfield)) &&
     (!q || [r.name, r.position || "", r.institution, r.country, REGION?.of(r.country) || "", ...r.expertise].join(" ").toLowerCase().includes(q)));
-  ppl = st.pfield ? ppl.sort((a, b) => a.rank[st.pfield] - b.rank[st.pfield]) : ppl;
+  const sur = n => n.trim().split(/\s+/).pop().toLowerCase();
+  ppl = ppl.sort((a, b) => sur(a.name).localeCompare(sur(b.name)) || a.name.localeCompare(b.name)); // alphabetical by surname: no implied ranking
   const chips = `<div class="wrow"><span class="wlabel">Field</span><button class="wpill" data-pf="" aria-pressed="${!st.pfield}">All fields<i>${P.researchers.length}</i></button>` +
     P.fields.map(f => `<button class="wpill" data-pf="${f.id}" aria-pressed="${st.pfield === f.id}">${esc(f.name.split(" and ")[0])}<i>${P.researchers.filter(r => r.fields.includes(f.id)).length}</i></button>`).join("") + "</div>";
   const fb = st.pfield && P.fields.find(f => f.id === st.pfield);
@@ -1224,11 +1225,10 @@ function renderPeople() {
         <p class="pinst">${esc(where) || "Institution not listed"}</p>
         <div class="pfields">${r.fields.map(id => `<button class="pf" data-pf="${id}" style="--ph:${hue(id)}">${esc(P.fields[fIdx[id]].name.split(" and ")[0])}</button>`).join("")}</div>
         <p class="pexp">${r.expertise.map(esc).join(" · ")}</p>
-        <div class="pstats"><span><b>${r.h_index}</b> h-index</span><span><b>${compact(r.cited_by)}</b> citations</span>${st.pfield ? `<span><b>${r.recent[st.pfield]}</b> papers since ${P.since}</span>` : ""}</div>
         <div class="plinks">${r.collab?.length ? `<button class="pnet" data-net="${esc(r.id)}">Network</button>` : ""}<a href="https://openalex.org/${esc(r.id)}" target="_blank" rel="noopener noreferrer">Publications</a>${r.orcid ? `<a href="${esc(r.orcid)}" target="_blank" rel="noopener noreferrer">ORCID</a>` : ""}</div>
       </div></article>`;
   }).join("");
-  $("overview").innerHTML = `<h2 class="sect">Leading researchers<small>${fb ? esc(fb.blurb) : "Who publishes the most influential recent work in each field."}</small></h2>${chips}` +
+  $("overview").innerHTML = `<h2 class="sect">Researchers<small>${fb ? esc(fb.blurb) : "Researchers active in each field, listed alphabetically."}</small></h2>${chips}` +
     (cards ? `<div class="people">${cards}</div>` : '<div class="empty">No researchers match.</div>') +
     `<p class="mxnote">Ranked from OpenAlex by papers since ${P.since} and h-index. Public scholarly data only. Authors can be merged or split in OpenAlex, so check the profile. Updated ${new Date(P.generated_at).toLocaleDateString([], { dateStyle: "medium" })}.</p>`;
   $("count").textContent = `${ppl.length} researcher${ppl.length === 1 ? "" : "s"}${st.pfield ? " in " + P.fields[fIdx[st.pfield]].name : ""}`;
