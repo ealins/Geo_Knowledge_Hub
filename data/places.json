@@ -47,6 +47,10 @@
   "src": "city",
   "t": "2026-11-05T19:43:08.531Z"
  },
+ "city|alpes-de-haute-provence|FR": {
+  "miss": true,
+  "t": "2026-11-06T13:13:56.196Z"
+ },
  "city|alsfeld|DE": {
   "lat": 50.75185,
   "lon": 9.27082,
@@ -79,6 +83,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:54.213Z"
  },
+ "city|anaconda|US": {
+  "lat": 46.12854,
+  "lon": -112.94226,
+  "city": "Anaconda",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.067Z"
+ },
  "city|annaberg-buchholz|DE": {
   "lat": 50.57953,
   "lon": 13.00627,
@@ -98,6 +110,22 @@
   "cc": "NL",
   "src": "city",
   "t": "2026-11-05T00:35:54.231Z"
+ },
+ "city|bacon county|US": {
+  "lat": 31.53604,
+  "lon": -82.50652,
+  "city": "Bacon County Airport",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.478Z"
+ },
+ "city|bangor|US": {
+  "lat": 44.79884,
+  "lon": -68.77265,
+  "city": "Bangor",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.350Z"
  },
  "city|barangaroo|AU": {
   "lat": -33.86031,
@@ -183,6 +211,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:49.059Z"
  },
+ "city|bethesda|US": {
+  "lat": 38.98067,
+  "lon": -77.10026,
+  "city": "Bethesda",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:01.447Z"
+ },
  "city|bettenhausen|DE": {
   "lat": 50.5558,
   "lon": 10.2856,
@@ -214,6 +250,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T00:35:55.971Z"
+ },
+ "city|bismarck|US": {
+  "lat": 46.80833,
+  "lon": -100.78374,
+  "city": "Bismarck",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.644Z"
  },
  "city|blantyre|GB": {
   "lat": 55.79634,
@@ -255,6 +299,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:49.054Z"
  },
+ "city|briar meadow|US": {
+  "lat": 29.72967,
+  "lon": -95.50383,
+  "city": "Briar Meadow Park",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.932Z"
+ },
  "city|brisbane cbd|AU": {
   "lat": -27.47134,
   "lon": 153.02736,
@@ -287,9 +339,21 @@
   "src": "city",
   "t": "2026-11-05T00:35:53.626Z"
  },
+ "city|british columbia|CA": {
+  "miss": true,
+  "t": "2026-11-06T13:14:04.799Z"
+ },
  "city|buckinghamshire|GB": {
   "miss": true,
   "t": "2026-11-05T00:35:49.941Z"
+ },
+ "city|buda|US": {
+  "lat": 30.08521,
+  "lon": -97.84028,
+  "city": "Buda",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:01.139Z"
  },
  "city|burnaby|CA": {
   "lat": 49.26636,
@@ -339,6 +403,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:52.722Z"
  },
+ "city|campbell|US": {
+  "lat": 37.28717,
+  "lon": -121.94996,
+  "city": "Campbell",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.640Z"
+ },
  "city|canberra region|AU": {
   "miss": true,
   "t": "2026-11-05T13:30:38.406Z"
@@ -375,6 +447,30 @@
   "miss": true,
   "t": "2026-11-05T00:35:49.961Z"
  },
+ "city|chamberlayne|US": {
+  "lat": 37.62653,
+  "lon": -77.42859,
+  "city": "Chamberlayne",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.933Z"
+ },
+ "city|chantilly|US": {
+  "lat": 38.89428,
+  "lon": -77.4311,
+  "city": "Chantilly",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.355Z"
+ },
+ "city|charleston air force base|US": {
+  "lat": 32.89721,
+  "lon": -80.04596,
+  "city": "Charleston AFB",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.259Z"
+ },
  "city|chur|CH": {
   "lat": 46.84986,
   "lon": 9.53287,
@@ -382,6 +478,14 @@
   "cc": "CH",
   "src": "city",
   "t": "2026-11-05T00:35:49.058Z"
+ },
+ "city|cincinnati|US": {
+  "lat": 39.12711,
+  "lon": -84.51439,
+  "city": "Cincinnati",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.840Z"
  },
  "city|cipaheritagedocumentation.org|": {
   "miss": true,
@@ -418,6 +522,30 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T13:30:39.509Z"
+ },
+ "city|college park|US": {
+  "lat": 38.98067,
+  "lon": -76.93692,
+  "city": "College Park",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.354Z"
+ },
+ "city|colorado springs|US": {
+  "lat": 38.83388,
+  "lon": -104.82136,
+  "city": "Colorado Springs",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.839Z"
+ },
+ "city|colorado|US": {
+  "lat": 38.83388,
+  "lon": -104.82136,
+  "city": "Colorado Springs",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:59.942Z"
  },
  "city|concord|CA": {
   "lat": 43.80011,
@@ -466,6 +594,10 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T17:01:30.848Z"
+ },
+ "city|darwin region|AU": {
+  "miss": true,
+  "t": "2026-11-06T13:14:04.797Z"
  },
  "city|datteln|DE": {
   "lat": 51.65598,
@@ -555,6 +687,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.188Z"
  },
+ "city|durham|US": {
+  "lat": 35.99403,
+  "lon": -78.89862,
+  "city": "Durham",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.224Z"
+ },
  "city|düsseldorf|DE": {
   "lat": 51.22319,
   "lon": 6.77927,
@@ -606,6 +746,14 @@
   "cc": "CH",
   "src": "city",
   "t": "2026-11-05T00:35:51.705Z"
+ },
+ "city|el segundo|US": {
+  "lat": 33.91918,
+  "lon": -118.41647,
+  "city": "El Segundo",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.645Z"
  },
  "city|ellerslie|CA": {
   "lat": 53.42876,
@@ -659,6 +807,22 @@
   "src": "city",
   "t": "2026-11-05T00:36:01.834Z"
  },
+ "city|fairborn|US": {
+  "lat": 39.82089,
+  "lon": -84.01938,
+  "city": "Fairborn",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.356Z"
+ },
+ "city|fairfax|US": {
+  "lat": 38.84622,
+  "lon": -77.30637,
+  "city": "Fairfax",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:01.440Z"
+ },
  "city|faridabad india|": {
   "miss": true,
   "t": "2026-11-05T00:35:56.853Z"
@@ -671,6 +835,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:33.243Z"
  },
+ "city|fort bragg|US": {
+  "lat": 35.139,
+  "lon": -79.00603,
+  "city": "Fort Bragg",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:01.736Z"
+ },
  "city|fort erie|CA": {
   "lat": 42.90012,
   "lon": -78.93286,
@@ -679,6 +851,10 @@
   "src": "city",
   "t": "2026-11-05T13:30:37.304Z"
  },
+ "city|fort george g meade|US": {
+  "miss": true,
+  "t": "2026-11-06T13:14:01.737Z"
+ },
  "city|fort mcmurray|CA": {
   "lat": 56.72676,
   "lon": -111.38103,
@@ -686,6 +862,22 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T17:01:30.847Z"
+ },
+ "city|fort shafter|US": {
+  "lat": 21.34411,
+  "lon": -157.88628,
+  "city": "Fort Shafter",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:04.160Z"
+ },
+ "city|fountainebleau|US": {
+  "lat": 25.77288,
+  "lon": -80.34783,
+  "city": "Fountainbleau",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.351Z"
  },
  "city|frankfurt am main|DE": {
   "lat": 50.11552,
@@ -710,6 +902,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T00:35:48.470Z"
+ },
+ "city|fry|US": {
+  "lat": 44.01646,
+  "lon": -70.98062,
+  "city": "Fryeburg",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.353Z"
  },
  "city|geelong region|AU": {
   "miss": true,
@@ -762,6 +962,22 @@
   "cc": "NL",
   "src": "city",
   "t": "2026-11-05T00:35:54.503Z"
+ },
+ "city|grand central|US": {
+  "lat": 40.84426,
+  "lon": -75.26407,
+  "city": "Grand Central",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:01.736Z"
+ },
+ "city|grand junction|US": {
+  "lat": 39.06387,
+  "lon": -108.55065,
+  "city": "Grand Junction",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.643Z"
  },
  "city|greater vancouver|CA": {
   "miss": true,
@@ -843,6 +1059,10 @@
   "src": "city",
   "t": "2026-11-05T00:35:50.255Z"
  },
+ "city|hérault|FR": {
+  "miss": true,
+  "t": "2026-11-06T13:13:56.894Z"
+ },
  "city|hertfordshire|GB": {
   "miss": true,
   "t": "2026-11-05T00:35:53.645Z"
@@ -859,6 +1079,22 @@
   "miss": true,
   "t": "2026-11-05T00:36:01.154Z"
  },
+ "city|highland park|US": {
+  "lat": 42.18169,
+  "lon": -87.80034,
+  "city": "Highland Park",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.477Z"
+ },
+ "city|hill air force base|US": {
+  "lat": 41.11118,
+  "lon": -111.97712,
+  "city": "Hill Air Force Base",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.643Z"
+ },
  "city|horgen|CH": {
   "lat": 47.25983,
   "lon": 8.59778,
@@ -866,6 +1102,22 @@
   "cc": "CH",
   "src": "city",
   "t": "2026-11-05T00:35:54.508Z"
+ },
+ "city|houston lake|US": {
+  "lat": 39.19278,
+  "lon": -94.62023,
+  "city": "Houston Lake",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.259Z"
+ },
+ "city|houston|US": {
+  "lat": 29.76328,
+  "lon": -95.36327,
+  "city": "Houston",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.934Z"
  },
  "city|hunslet|GB": {
   "lat": 53.7755,
@@ -886,6 +1138,14 @@
  "city|iag-aig.org|": {
   "miss": true,
   "t": "2026-11-05T00:35:50.530Z"
+ },
+ "city|international|US": {
+  "lat": 48.60105,
+  "lon": -93.41098,
+  "city": "International Falls",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:01.132Z"
  },
  "city|iqaluit|CA": {
   "lat": 63.74697,
@@ -927,6 +1187,14 @@
   "miss": true,
   "t": "2026-11-05T00:35:59.687Z"
  },
+ "city|kogarah|AU": {
+  "lat": -33.9681,
+  "lon": 151.13564,
+  "city": "Kogarah",
+  "cc": "AU",
+  "src": "city",
+  "t": "2026-11-06T13:14:04.798Z"
+ },
  "city|köln|DE": {
   "lat": 50.93333,
   "lon": 6.95,
@@ -947,6 +1215,22 @@
   "src": "city",
   "t": "2026-11-05T00:35:55.095Z"
  },
+ "city|l'union|FR": {
+  "lat": 43.66042,
+  "lon": 1.48264,
+  "city": "L'Union",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-06T13:13:56.200Z"
+ },
+ "city|la porte|US": {
+  "lat": 29.66578,
+  "lon": -95.01937,
+  "city": "La Porte",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.870Z"
+ },
  "city|la prairie|CA": {
   "lat": 45.41678,
   "lon": -73.49917,
@@ -954,6 +1238,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:37.293Z"
+ },
+ "city|lafayette|US": {
+  "lat": 30.22409,
+  "lon": -92.01984,
+  "city": "Lafayette",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:59.942Z"
  },
  "city|lagos|": {
   "lat": 6.45407,
@@ -978,6 +1270,22 @@
   "cc": "AU",
   "src": "city",
   "t": "2026-11-05T13:30:38.672Z"
+ },
+ "city|lawrencetown|CA": {
+  "lat": 44.6596,
+  "lon": -63.36732,
+  "city": "Lawrencetown",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-06T13:14:04.160Z"
+ },
+ "city|le havre|FR": {
+  "lat": 49.49346,
+  "lon": 0.10785,
+  "city": "Le Havre",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.184Z"
  },
  "city|leavesden|GB": {
   "lat": 51.69482,
@@ -1011,6 +1319,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:54.796Z"
  },
+ "city|leicester|": {
+  "lat": 52.6386,
+  "lon": -1.13169,
+  "city": "Leicester",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-06T13:13:56.202Z"
+ },
  "city|leipzig|DE": {
   "lat": 51.33962,
   "lon": 12.37129,
@@ -1018,6 +1334,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:35:54.508Z"
+ },
+ "city|lexington|US": {
+  "lat": 37.98869,
+  "lon": -84.47772,
+  "city": "Lexington",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.517Z"
  },
  "city|liestal|CH": {
   "lat": 47.48455,
@@ -1035,6 +1359,18 @@
   "src": "city",
   "t": "2026-11-05T00:36:01.519Z"
  },
+ "city|littleton|US": {
+  "lat": 39.61332,
+  "lon": -105.01665,
+  "city": "Littleton",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.518Z"
+ },
+ "city|loch alpine|US": {
+  "miss": true,
+  "t": "2026-11-06T13:13:58.354Z"
+ },
  "city|london|": {
   "lat": 51.50853,
   "lon": -0.12574,
@@ -1051,9 +1387,33 @@
   "src": "city",
   "t": "2026-11-05T00:35:48.195Z"
  },
+ "city|los angeles|US": {
+  "lat": 34.05223,
+  "lon": -118.24368,
+  "city": "Los Angeles",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.872Z"
+ },
  "city|ludwigsvorstadt-isarvorstadt|DE": {
   "miss": true,
   "t": "2026-11-05T00:35:55.094Z"
+ },
+ "city|lumber bridge|US": {
+  "lat": 34.8885,
+  "lon": -79.07225,
+  "city": "Lumber Bridge",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.064Z"
+ },
+ "city|lyon|FR": {
+  "lat": 45.74906,
+  "lon": 4.84789,
+  "city": "Lyon",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-06T13:13:56.497Z"
  },
  "city|magdeburg|DE": {
   "lat": 52.13129,
@@ -1111,6 +1471,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:38.126Z"
  },
+ "city|merrimack|US": {
+  "lat": 42.86509,
+  "lon": -71.4934,
+  "city": "Merrimack",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.549Z"
+ },
  "city|milton|CA": {
   "lat": 43.51681,
   "lon": -79.88294,
@@ -1118,6 +1486,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:33.829Z"
+ },
+ "city|milton|US": {
+  "lat": 30.63241,
+  "lon": -87.03969,
+  "city": "Milton",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.223Z"
  },
  "city|mississauga|CA": {
   "lat": 43.5789,
@@ -1134,6 +1510,22 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:37.021Z"
+ },
+ "city|montgomery|US": {
+  "lat": 32.36681,
+  "lon": -86.29997,
+  "city": "Montgomery",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.770Z"
+ },
+ "city|monticello|US": {
+  "lat": 33.629,
+  "lon": -91.79096,
+  "city": "Monticello",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.641Z"
  },
  "city|montréal|CA": {
   "lat": 45.50884,
@@ -1191,9 +1583,25 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.822Z"
  },
+ "city|nashville|US": {
+  "lat": 36.16589,
+  "lon": -86.78444,
+  "city": "Nashville",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.352Z"
+ },
  "city|naughton|CA": {
   "miss": true,
   "t": "2026-11-05T13:30:33.536Z"
+ },
+ "city|new york city|US": {
+  "lat": 40.71427,
+  "lon": -74.00597,
+  "city": "New York",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.548Z"
  },
  "city|nijeveen|NL": {
   "lat": 52.73333,
@@ -1211,6 +1619,30 @@
   "src": "city",
   "t": "2026-11-05T19:45:29.414Z"
  },
+ "city|north carolina|US": {
+  "lat": 35.63347,
+  "lon": -79.75948,
+  "city": "North Carolina Zoological Park",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:01.152Z"
+ },
+ "city|north college park|US": {
+  "lat": 47.69861,
+  "lon": -122.33694,
+  "city": "North College Park",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.646Z"
+ },
+ "city|north logan|US": {
+  "lat": 41.76937,
+  "lon": -111.80467,
+  "city": "North Logan",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:59.633Z"
+ },
  "city|north london|GB": {
   "lat": 51.55317,
   "lon": -0.12257,
@@ -1218,6 +1650,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T00:35:48.489Z"
+ },
+ "city|north springfield|US": {
+  "lat": 37.21533,
+  "lon": -93.29824,
+  "city": "Springfield",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.768Z"
  },
  "city|norwich|": {
   "lat": 52.62783,
@@ -1251,6 +1691,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:51.992Z"
  },
+ "city|palm beach gardens|US": {
+  "lat": 26.82339,
+  "lon": -80.13865,
+  "city": "Palm Beach Gardens",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.769Z"
+ },
  "city|palmerston area|AU": {
   "miss": true,
   "t": "2026-11-05T13:30:38.122Z"
@@ -1271,6 +1719,14 @@
   "src": "city",
   "t": "2026-11-05T00:36:00.298Z"
  },
+ "city|pensacola|US": {
+  "lat": 30.42131,
+  "lon": -87.21691,
+  "city": "Pensacola",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.839Z"
+ },
  "city|perth|AU": {
   "lat": -31.95224,
   "lon": 115.8614,
@@ -1278,6 +1734,14 @@
   "cc": "AU",
   "src": "city",
   "t": "2026-11-05T13:30:38.402Z"
+ },
+ "city|pessac|FR": {
+  "lat": 44.80565,
+  "lon": -0.6324,
+  "city": "Pessac",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.186Z"
  },
  "city|peterborough|GB": {
   "lat": 52.57364,
@@ -1303,6 +1767,46 @@
   "src": "city",
   "t": "2026-11-05T13:30:38.399Z"
  },
+ "city|pimmit|US": {
+  "lat": 38.91289,
+  "lon": -77.20081,
+  "city": "Pimmit Hills",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.063Z"
+ },
+ "city|pittsburgh|US": {
+  "lat": 40.44062,
+  "lon": -79.99589,
+  "city": "Pittsburgh",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.838Z"
+ },
+ "city|ploemeur|FR": {
+  "lat": 47.73512,
+  "lon": -3.42952,
+  "city": "Ploemeur",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-06T13:13:56.493Z"
+ },
+ "city|pomona|US": {
+  "lat": 34.05529,
+  "lon": -117.75228,
+  "city": "Pomona",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:59.941Z"
+ },
+ "city|ponderosa|US": {
+  "lat": 35.66003,
+  "lon": -106.66753,
+  "city": "Ponderosa",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.058Z"
+ },
  "city|portsmouth|GB": {
   "lat": 50.79899,
   "lon": -1.09125,
@@ -1327,6 +1831,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:47.902Z"
  },
+ "city|prestonwood|US": {
+  "lat": 32.77013,
+  "lon": -97.14362,
+  "city": "Prestonwood Lake Dam",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.872Z"
+ },
  "city|purdue university west lafayette|US": {
   "miss": true,
   "t": "2026-11-05T00:35:58.828Z"
@@ -1334,6 +1846,14 @@
  "city|radolfzell am bodensee|DE": {
   "miss": true,
   "t": "2026-11-05T00:35:46.996Z"
+ },
+ "city|raleigh|US": {
+  "lat": 35.7721,
+  "lon": -78.63861,
+  "city": "Raleigh",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.932Z"
  },
  "city|ravensburg|DE": {
   "lat": 47.78198,
@@ -1355,6 +1875,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:39.504Z"
  },
+ "city|redlands|US": {
+  "lat": 34.05557,
+  "lon": -117.18254,
+  "city": "Redlands",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.065Z"
+ },
  "city|regina region|CA": {
   "miss": true,
   "t": "2026-11-05T13:30:37.847Z"
@@ -1366,6 +1894,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:36.753Z"
+ },
+ "city|reston|US": {
+  "lat": 38.96872,
+  "lon": -77.3411,
+  "city": "Reston",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:01.140Z"
  },
  "city|reykjavík|": {
   "lat": 64.13548,
@@ -1399,6 +1935,22 @@
   "src": "city",
   "t": "2026-11-05T00:35:47.589Z"
  },
+ "city|saint louis|US": {
+  "lat": 43.40836,
+  "lon": -84.60667,
+  "city": "Saint Louis",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.767Z"
+ },
+ "city|salon-de-provence|FR": {
+  "lat": 43.64229,
+  "lon": 5.09478,
+  "city": "Salon-de-Provence",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-06T13:13:56.496Z"
+ },
  "city|salt lake city|": {
   "lat": 40.76078,
   "lon": -111.89105,
@@ -1415,6 +1967,22 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.529Z"
  },
+ "city|san diego|US": {
+  "lat": 32.71571,
+  "lon": -117.16472,
+  "city": "San Diego",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.479Z"
+ },
+ "city|san francisco|US": {
+  "lat": 37.77493,
+  "lon": -122.41942,
+  "city": "San Francisco",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.548Z"
+ },
  "city|san jose|US": {
   "lat": 37.33939,
   "lon": -121.89496,
@@ -1422,6 +1990,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-05T00:35:50.825Z"
+ },
+ "city|san luis obispo|US": {
+  "lat": 35.28275,
+  "lon": -120.65962,
+  "city": "San Luis Obispo",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.186Z"
  },
  "city|sankt gallen|CH": {
   "lat": 47.42391,
@@ -1438,6 +2014,30 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:36.751Z"
+ },
+ "city|sauget|US": {
+  "lat": 38.59644,
+  "lon": -90.18483,
+  "city": "Sauget",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.872Z"
+ },
+ "city|savage|US": {
+  "lat": 44.77913,
+  "lon": -93.33634,
+  "city": "Savage",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:02.062Z"
+ },
+ "city|seattle|US": {
+  "lat": 47.60621,
+  "lon": -122.33207,
+  "city": "Seattle",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.518Z"
  },
  "city|sherwood park|CA": {
   "lat": 53.51684,
@@ -1459,6 +2059,14 @@
   "src": "city",
   "t": "2026-11-05T17:01:30.848Z"
  },
+ "city|singapore|SG": {
+  "lat": 1.28967,
+  "lon": 103.85007,
+  "city": "Singapore",
+  "cc": "SG",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.187Z"
+ },
  "city|sinsheim|DE": {
   "lat": 49.2529,
   "lon": 8.87867,
@@ -1466,6 +2074,22 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T13:30:39.226Z"
+ },
+ "city|sioux falls|US": {
+  "lat": 43.54369,
+  "lon": -96.72796,
+  "city": "Sioux Falls",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.061Z"
+ },
+ "city|southglenn|US": {
+  "lat": 39.58721,
+  "lon": -104.95276,
+  "city": "Southglenn",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.223Z"
  },
  "city|st paul's|GB": {
   "lat": 51.51466,
@@ -1482,6 +2106,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:37.580Z"
+ },
+ "city|state farm|US": {
+  "lat": 40.45559,
+  "lon": -88.99035,
+  "city": "State Farm Park",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:03.225Z"
  },
  "city|stirling|": {
   "lat": 56.11903,
@@ -1715,6 +2347,18 @@
   "src": "city",
   "t": "2026-11-05T00:35:56.561Z"
  },
+ "city|vienna|US": {
+  "lat": 32.09156,
+  "lon": -83.79545,
+  "city": "Vienna",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:01.440Z"
+ },
+ "city|village of los ranchos|US": {
+  "miss": true,
+  "t": "2026-11-06T13:13:59.633Z"
+ },
  "city|voorhout|NL": {
   "lat": 52.22167,
   "lon": 4.48472,
@@ -1730,6 +2374,14 @@
  "city|warsaw poland|": {
   "miss": true,
   "t": "2026-11-05T00:35:57.449Z"
+ },
+ "city|washington|US": {
+  "lat": 38.89511,
+  "lon": -77.03637,
+  "city": "Washington D.C.",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.981Z"
  },
  "city|waterloo region|CA": {
   "miss": true,
@@ -1759,6 +2411,18 @@
   "src": "city",
   "t": "2026-11-05T00:35:47.590Z"
  },
+ "city|west bethesda|US": {
+  "miss": true,
+  "t": "2026-11-06T13:14:01.447Z"
+ },
+ "city|west carrollton|US": {
+  "lat": 39.79895,
+  "lon": -82.701,
+  "city": "Carroll",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:58.064Z"
+ },
  "city|west hampstead|GB": {
   "lat": 51.54904,
   "lon": -0.19141,
@@ -1766,6 +2430,30 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T00:35:48.177Z"
+ },
+ "city|west palm beach|US": {
+  "lat": 26.71534,
+  "lon": -80.05337,
+  "city": "West Palm Beach",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.257Z"
+ },
+ "city|west springfield|US": {
+  "lat": 42.10704,
+  "lon": -72.62037,
+  "city": "West Springfield",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:13:57.478Z"
+ },
+ "city|white settlement|US": {
+  "lat": 32.75957,
+  "lon": -97.45835,
+  "city": "White Settlement",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.549Z"
  },
  "city|whitecourt|CA": {
   "lat": 54.15015,
@@ -1798,6 +2486,18 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:33.828Z"
+ },
+ "city|woodinville|US": {
+  "lat": 47.75427,
+  "lon": -122.16346,
+  "city": "Woodinville",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-06T13:14:00.258Z"
+ },
+ "city|wpafb|US": {
+  "miss": true,
+  "t": "2026-11-06T13:13:58.981Z"
  },
  "city|xi’an|": {
   "lat": 34.25833,
@@ -1843,6 +2543,14 @@
   "src": "ror",
   "t": "2026-11-05T00:35:55.664Z"
  },
+ "ror|california institute of technology jet propulsion laboratory|US": {
+  "lat": 34.14778,
+  "lon": -118.14452,
+  "city": "Pasadena",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-06T13:13:59.063Z"
+ },
  "ror|cardiff university|": {
   "lat": 51.48,
   "lon": -3.18,
@@ -1850,6 +2558,14 @@
   "cc": "GB",
   "src": "ror",
   "t": "2026-11-05T00:55:33.897Z"
+ },
+ "ror|colorado school of mines|US": {
+  "lat": 39.75554,
+  "lon": -105.2211,
+  "city": "Golden",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-06T13:13:59.967Z"
  },
  "ror|delft university of technology|NL": {
   "lat": 52.00667,
@@ -1919,6 +2635,14 @@
   "src": "ror",
   "t": "2026-11-05T00:55:34.238Z"
  },
+ "ror|louisiana state university|US": {
+  "lat": 30.44332,
+  "lon": -91.18747,
+  "city": "Baton Rouge",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-06T13:13:59.603Z"
+ },
  "ror|lund university vacancies|": {
   "lat": 55.70584,
   "lon": 13.19321,
@@ -1926,6 +2650,26 @@
   "cc": "SE",
   "src": "ror",
   "t": "2026-11-05T00:35:53.352Z"
+ },
+ "ror|mit lincoln laboratory|US": {
+  "lat": 42.44732,
+  "lon": -71.2245,
+  "city": "Lexington",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-06T13:14:03.581Z"
+ },
+ "ror|nbc universal|US": {
+  "miss": true,
+  "t": "2026-11-06T13:14:01.769Z"
+ },
+ "ror|nova scotia community college|CA": {
+  "lat": 44.64269,
+  "lon": -63.57688,
+  "city": "Halifax",
+  "cc": "CA",
+  "src": "ror",
+  "t": "2026-11-06T13:14:04.508Z"
  },
  "ror|pennsylvania state university|US": {
   "lat": 40.79339,
@@ -1942,6 +2686,22 @@
   "cc": "US",
   "src": "ror",
   "t": "2026-11-05T00:35:58.796Z"
+ },
+ "ror|riverside research institute|US": {
+  "lat": 40.71427,
+  "lon": -74.00597,
+  "city": "New York",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-06T13:13:58.690Z"
+ },
+ "ror|sandia national laboratories|US": {
+  "lat": 35.08449,
+  "lon": -106.65114,
+  "city": "Albuquerque",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-06T13:13:59.345Z"
  },
  "ror|swedish university of agricultural sciences|SE": {
   "lat": 59.85882,
@@ -2091,6 +2851,22 @@
   "src": "ror",
   "t": "2026-11-05T00:35:45.656Z"
  },
+ "ror|university of hawaii|US": {
+  "lat": 21.30694,
+  "lon": -157.85833,
+  "city": "Honolulu",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-06T13:14:04.382Z"
+ },
+ "ror|university of leicester|": {
+  "lat": 52.6386,
+  "lon": -1.13169,
+  "city": "Leicester",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-06T13:13:56.152Z"
+ },
  "ror|university of limerick|": {
   "lat": 52.66472,
   "lon": -8.62306,
@@ -2186,6 +2962,14 @@
   "cc": "US",
   "src": "ror",
   "t": "2026-11-05T00:35:59.680Z"
+ },
+ "ror|utah state university|US": {
+  "lat": 41.73549,
+  "lon": -111.83439,
+  "city": "Logan",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-06T13:13:59.652Z"
  },
  "ror|wageningen university & research|NL": {
   "lat": 51.97,
