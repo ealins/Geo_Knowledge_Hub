@@ -304,5 +304,11 @@
   "ok": true,
   "terms": "geospatial",
   "at": "2026-11-06T13:12:47.397Z"
+ },
+ "https://www.jobs.ac.uk/job/DTO577/research-associate-in-ai-for-environmental-forecasting-sentinel-project": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-06T21:31:22.576Z"
  }
 }
