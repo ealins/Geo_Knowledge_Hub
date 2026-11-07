@@ -319,6 +319,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.188Z"
  },
+ "city|bothfeld|DE": {
+  "lat": 52.41732,
+  "lon": 9.79612,
+  "city": "Bothfeld",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-07T16:29:05.023Z"
+ },
  "city|braunschweig germany|": {
   "miss": true,
   "t": "2026-11-05T00:35:56.566Z"
@@ -374,6 +382,14 @@
  "city|british columbia|CA": {
   "miss": true,
   "t": "2026-11-06T13:14:04.799Z"
+ },
+ "city|brühl|DE": {
+  "lat": 50.82928,
+  "lon": 6.90499,
+  "city": "Brühl",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-07T16:29:05.023Z"
  },
  "city|buckinghamshire|GB": {
   "miss": true,
@@ -771,6 +787,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:50.824Z"
  },
+ "city|dwergte|DE": {
+  "lat": 52.88412,
+  "lon": 7.91013,
+  "city": "Dwergte",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-07T16:29:05.023Z"
+ },
  "city|earsel.org|": {
   "miss": true,
   "t": "2026-11-05T00:35:56.269Z"
@@ -1142,6 +1166,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:37.848Z"
+ },
+ "city|heidelberg|DE": {
+  "lat": 49.40768,
+  "lon": 8.69079,
+  "city": "Heidelberg",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-07T16:29:05.022Z"
  },
  "city|heidenheim an der brenz|DE": {
   "lat": 48.67798,
@@ -2366,6 +2398,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-05T00:55:34.528Z"
+ },
+ "city|taunton|GB": {
+  "lat": 51.01494,
+  "lon": -3.10293,
+  "city": "Taunton",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-07T16:29:05.276Z"
  },
  "city|the city|GB": {
   "lat": 51.66052,
