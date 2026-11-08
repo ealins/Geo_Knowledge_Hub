@@ -191,6 +191,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:49.078Z"
  },
+ "city|baton rouge|US": {
+  "lat": 30.44332,
+  "lon": -91.18747,
+  "city": "Baton Rouge",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:03.169Z"
+ },
  "city|bayreuth|DE": {
   "lat": 49.94782,
   "lon": 11.57893,
@@ -1395,6 +1403,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.529Z"
  },
+ "city|lake magdalene|US": {
+  "lat": 28.07418,
+  "lon": -82.47176,
+  "city": "Lake Magdalene",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:02.906Z"
+ },
  "city|langley|CA": {
   "lat": 49.10107,
   "lon": -122.65883,
@@ -1827,6 +1843,14 @@
   "src": "city",
   "t": "2026-11-06T15:58:00.255Z"
  },
+ "city|northlake|US": {
+  "lat": 41.91725,
+  "lon": -87.89562,
+  "city": "Northlake",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:03.166Z"
+ },
  "city|norwich|": {
   "lat": 52.62783,
   "lon": 1.29834,
@@ -1935,6 +1959,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:55.384Z"
  },
+ "city|phoenix|US": {
+  "lat": 33.44838,
+  "lon": -112.07404,
+  "city": "Phoenix",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:02.909Z"
+ },
  "city|pialligo|AU": {
   "lat": -35.32005,
   "lon": 149.20695,
@@ -2014,6 +2046,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:03.872Z"
+ },
+ "city|prince rupert|CA": {
+  "lat": 54.31507,
+  "lon": -130.32098,
+  "city": "Prince Rupert",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-08T12:11:03.770Z"
  },
  "city|purdue university west lafayette|US": {
   "miss": true,
@@ -2095,6 +2135,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.820Z"
  },
+ "city|richmond|US": {
+  "lat": 37.55376,
+  "lon": -77.46026,
+  "city": "Richmond",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:02.647Z"
+ },
  "city|riederich|DE": {
   "lat": 48.56029,
   "lon": 9.26883,
@@ -2134,6 +2182,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:13:57.767Z"
+ },
+ "city|saint paul|US": {
+  "lat": 44.94441,
+  "lon": -93.09327,
+  "city": "Saint Paul",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:02.908Z"
  },
  "city|salon-de-provence|FR": {
   "lat": 43.64229,
@@ -2307,6 +2363,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:03.223Z"
  },
+ "city|springfield|US": {
+  "lat": 37.21533,
+  "lon": -93.29824,
+  "city": "Springfield",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:02.909Z"
+ },
  "city|st columbans|US": {
   "miss": true,
   "t": "2026-11-06T15:58:00.255Z"
@@ -2399,6 +2463,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.528Z"
  },
+ "city|tarrytown|US": {
+  "lat": 41.07621,
+  "lon": -73.85875,
+  "city": "Tarrytown",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:02.651Z"
+ },
  "city|taunton|GB": {
   "lat": 51.01494,
   "lon": -3.10293,
@@ -2406,6 +2478,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-07T16:29:05.276Z"
+ },
+ "city|the acreage|US": {
+  "lat": 26.79404,
+  "lon": -80.26749,
+  "city": "The Acreage",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:02.648Z"
  },
  "city|the city|GB": {
   "lat": 51.66052,
@@ -2438,6 +2518,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:33.834Z"
+ },
+ "city|trammells|US": {
+  "lat": 29.53468,
+  "lon": -95.53744,
+  "city": "Trammels",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:02.646Z"
  },
  "city|tu wien|AT": {
   "miss": true,
@@ -2615,6 +2703,14 @@
   "miss": true,
   "t": "2026-11-05T00:35:57.765Z"
  },
+ "city|wahiawa|US": {
+  "lat": 21.50279,
+  "lon": -158.02464,
+  "city": "Wahiawa",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T12:11:03.168Z"
+ },
  "city|warsaw poland|": {
   "miss": true,
   "t": "2026-11-05T00:35:57.449Z"
@@ -2767,6 +2863,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.822Z"
  },
+ "city|yaletown|CA": {
+  "lat": 49.27608,
+  "lon": -123.11772,
+  "city": "Yaletown",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-08T12:11:03.771Z"
+ },
  "city|zell am main|DE": {
   "lat": 49.81214,
   "lon": 9.86962,
@@ -2834,6 +2938,14 @@
   "cc": "US",
   "src": "ror",
   "t": "2026-11-06T13:13:59.967Z"
+ },
+ "ror|colorado state university|US": {
+  "lat": 40.58526,
+  "lon": -105.08442,
+  "city": "Fort Collins",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-08T12:11:03.515Z"
  },
  "ror|delft university of technology|NL": {
   "lat": 52.00667,
