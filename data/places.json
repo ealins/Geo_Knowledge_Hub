@@ -355,6 +355,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:02.932Z"
  },
+ "city|brink-hafen|DE": {
+  "lat": 52.42103,
+  "lon": 9.72204,
+  "city": "Brink-Hafen",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-08T16:43:52.808Z"
+ },
  "city|brisbane cbd|AU": {
   "lat": -27.47134,
   "lon": 153.02736,
@@ -646,6 +654,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T15:57:59.997Z"
+ },
+ "city|custom house|US": {
+  "lat": 36.60302,
+  "lon": -121.89412,
+  "city": "Custom House Plaza",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T16:43:52.811Z"
  },
  "city|darmstadt|": {
   "lat": 49.87167,
@@ -2635,6 +2651,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:49.348Z"
  },
+ "city|vancouver|CA": {
+  "lat": 49.24966,
+  "lon": -123.11934,
+  "city": "Vancouver",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-08T16:43:52.809Z"
+ },
  "city|vaughan|CA": {
   "lat": 43.8361,
   "lon": -79.49827,
@@ -2690,6 +2714,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-07T11:57:07.594Z"
+ },
+ "city|virginia beach|US": {
+  "lat": 36.85293,
+  "lon": -75.97799,
+  "city": "Virginia Beach",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-08T16:43:52.810Z"
  },
  "city|voorhout|NL": {
   "lat": 52.22167,
