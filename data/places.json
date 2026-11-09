@@ -2099,6 +2099,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:51.113Z"
  },
+ "city|reading|": {
+  "lat": 51.45625,
+  "lon": -0.97113,
+  "city": "Reading",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-09T12:11:41.923Z"
+ },
  "city|reading|GB": {
   "lat": 51.45625,
   "lon": -0.97113,
@@ -3338,6 +3346,14 @@
   "cc": "DE",
   "src": "ror",
   "t": "2026-11-05T00:36:00.849Z"
+ },
+ "ror|university of reading|": {
+  "lat": 51.45625,
+  "lon": -0.97113,
+  "city": "Reading",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-09T12:11:41.789Z"
  },
  "ror|university of southampton|GB": {
   "lat": 50.90395,
