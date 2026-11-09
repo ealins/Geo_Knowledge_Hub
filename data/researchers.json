@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T19:20:18.370Z",
+ "generated_at": "2026-11-09T12:10:24.469Z",
  "since": 2016,
  "fields": [
   {
@@ -50,9 +50,9 @@
    "orcid": "https://orcid.org/0000-0001-8057-2292",
    "institution": "Peking University",
    "country": "CN",
-   "h_index": 174,
-   "cited_by": 127172,
-   "works": 906,
+   "h_index": 175,
+   "cited_by": 129614,
+   "works": 907,
    "expertise": [
     "Plant Water Relations and Carbon Dynamics",
     "Climate variability and models",
@@ -148,9 +148,9 @@
    "orcid": "https://orcid.org/0000-0001-9461-7981",
    "institution": "Barcelona Biomedical Research Park",
    "country": "ES",
-   "h_index": 153,
-   "cited_by": 89755,
-   "works": 1352,
+   "h_index": 156,
+   "cited_by": 94783,
+   "works": 1356,
    "expertise": [
     "Air Quality and Health Impacts",
     "Urban Green Space and Health",
@@ -165,7 +165,7 @@
     "geoinformatics": 1
    },
    "recent": {
-    "geoinformatics": 528
+    "geoinformatics": 522
    },
    "collab": [
     {
@@ -248,8 +248,8 @@
    "orcid": "https://orcid.org/0000-0001-7893-6421",
    "institution": "Arizona State University",
    "country": "US",
-   "h_index": 149,
-   "cited_by": 96777,
+   "h_index": 150,
+   "cited_by": 100328,
    "works": 1154,
    "expertise": [
     "Remote Sensing in Agriculture",
@@ -357,8 +357,8 @@
    "orcid": "https://orcid.org/0000-0001-9863-2054",
    "institution": "University of Technology Sydney",
    "country": "AU",
-   "h_index": 148,
-   "cited_by": 78439,
+   "h_index": 149,
+   "cited_by": 79980,
    "works": 1052,
    "expertise": [
     "Landslides and related hazards",
@@ -466,9 +466,9 @@
    "orcid": "https://orcid.org/0000-0001-6890-3650",
    "institution": "Wuhan University",
    "country": "CN",
-   "h_index": 146,
-   "cited_by": 78611,
-   "works": 1120,
+   "h_index": 148,
+   "cited_by": 80934,
+   "works": 1123,
    "expertise": [
     "Remote-Sensing Image Classification",
     "Remote Sensing and Land Use",
@@ -485,7 +485,7 @@
     "geoai": 3
    },
    "recent": {
-    "remote-sensing": 582,
+    "remote-sensing": 581,
     "geoai": 201
    },
    "collab": [
@@ -502,7 +502,7 @@
     {
      "id": "A5047576305",
      "name": "Qiangqiang Yuan",
-     "n": 123
+     "n": 124
     },
     {
      "id": "A5114374395",
@@ -542,7 +542,7 @@
     {
      "id": "A5089770704",
      "name": "Jie Li",
-     "n": 34
+     "n": 35
     },
     {
      "id": "A5000877601",
@@ -567,9 +567,9 @@
    "orcid": "https://orcid.org/0000-0001-5736-1112",
    "institution": "Max Planck Institute for Biogeochemistry",
    "country": "DE",
-   "h_index": 140,
-   "cited_by": 101859,
-   "works": 920,
+   "h_index": 143,
+   "cited_by": 105298,
+   "works": 922,
    "expertise": [
     "Plant Water Relations and Carbon Dynamics",
     "Soil Carbon and Nitrogen Dynamics",
@@ -584,7 +584,7 @@
     "remote-sensing": 9
    },
    "recent": {
-    "remote-sensing": 300
+    "remote-sensing": 303
    },
    "collab": [
     {
@@ -623,14 +623,14 @@
      "n": 62
     },
     {
-     "id": "A5052018420",
-     "name": "Ana Bastos",
+     "id": "A5039052506",
+     "name": "Gustau Camps‐Valls",
      "n": 54
     },
     {
-     "id": "A5039052506",
-     "name": "Gustau Camps‐Valls",
-     "n": 53
+     "id": "A5052018420",
+     "name": "Ana Bastos",
+     "n": 54
     },
     {
      "id": "A5037687266",
@@ -665,8 +665,8 @@
    "orcid": "https://orcid.org/0000-0002-6977-7104",
    "institution": "Vrije Universiteit Amsterdam",
    "country": "NL",
-   "h_index": 131,
-   "cited_by": 60260,
+   "h_index": 135,
+   "cited_by": 63516,
    "works": 729,
    "expertise": [
     "Land Use and Ecosystem Services",
@@ -771,9 +771,9 @@
    "orcid": "https://orcid.org/0000-0003-1821-8561",
    "institution": "University of Exeter",
    "country": "GB",
-   "h_index": 126,
-   "cited_by": 96973,
-   "works": 645,
+   "h_index": 129,
+   "cited_by": 100485,
+   "works": 646,
    "expertise": [
     "Plant Water Relations and Carbon Dynamics",
     "Climate variability and models",
@@ -869,8 +869,8 @@
    "orcid": "https://orcid.org/0000-0003-4817-2875",
    "institution": "Institut polytechnique de Grenoble",
    "country": "FR",
-   "h_index": 121,
-   "cited_by": 65085,
+   "h_index": 123,
+   "cited_by": 67739,
    "works": 1032,
    "expertise": [
     "Remote-Sensing Image Classification",
@@ -986,9 +986,9 @@
    "orcid": "https://orcid.org/0000-0002-9613-1659",
    "institution": "Universidad de Extremadura",
    "country": "ES",
-   "h_index": 107,
-   "cited_by": 59820,
-   "works": 912,
+   "h_index": 110,
+   "cited_by": 61587,
+   "works": 915,
    "expertise": [
     "Remote-Sensing Image Classification",
     "Advanced Image Fusion Techniques",
@@ -1005,8 +1005,8 @@
     "geoai": 11
    },
    "recent": {
-    "remote-sensing": 546,
-    "geoai": 124
+    "remote-sensing": 552,
+    "geoai": 125
    },
    "collab": [
     {
@@ -1089,8 +1089,8 @@
    "orcid": "https://orcid.org/0000-0002-7446-8429",
    "institution": "International Institute for Geo-Information Science and Earth Observation",
    "country": "NL",
-   "h_index": 105,
-   "cited_by": 48615,
+   "h_index": 107,
+   "cited_by": 50229,
    "works": 805,
    "expertise": [
     "Remote Sensing in Agriculture",
@@ -1100,16 +1100,13 @@
     "Species Distribution and Climate Change"
    ],
    "fields": [
-    "remote-sensing",
-    "lidar"
+    "remote-sensing"
    ],
    "rank": {
-    "remote-sensing": 15,
-    "lidar": 18
+    "remote-sensing": 15
    },
    "recent": {
-    "remote-sensing": 322,
-    "lidar": 141
+    "remote-sensing": 322
    },
    "collab": [
     {
@@ -1192,8 +1189,8 @@
    "orcid": "https://orcid.org/0000-0002-6942-1896",
    "institution": "Canadian Forest Service",
    "country": "CA",
-   "h_index": 105,
-   "cited_by": 49541,
+   "h_index": 106,
+   "cited_by": 51797,
    "works": 599,
    "expertise": [
     "Remote Sensing in Agriculture",
@@ -1298,8 +1295,8 @@
    "orcid": "https://orcid.org/0000-0001-8354-7500",
    "institution": "Mississippi State University",
    "country": "US",
-   "h_index": 104,
-   "cited_by": 44373,
+   "h_index": 105,
+   "cited_by": 45463,
    "works": 873,
    "expertise": [
     "Remote-Sensing Image Classification",
@@ -1314,7 +1311,7 @@
    ],
    "rank": {
     "remote-sensing": 3,
-    "geoai": 6
+    "geoai": 7
    },
    "recent": {
     "remote-sensing": 630,
@@ -1401,8 +1398,8 @@
    "orcid": "https://orcid.org/0000-0001-7704-6857",
    "institution": "TU Wien",
    "country": "AT",
-   "h_index": 104,
-   "cited_by": 49907,
+   "h_index": 105,
+   "cited_by": 51784,
    "works": 828,
    "expertise": [
     "Soil Moisture and Remote Sensing",
@@ -1418,7 +1415,7 @@
     "sar": 13
    },
    "recent": {
-    "sar": 163
+    "sar": 165
    },
    "collab": [
     {
@@ -1511,8 +1508,8 @@
    "orcid": "https://orcid.org/0000-0002-6036-459X",
    "institution": "University of Trento",
    "country": "IT",
-   "h_index": 101,
-   "cited_by": 50205,
+   "h_index": 103,
+   "cited_by": 51599,
    "works": 955,
    "expertise": [
     "Remote-Sensing Image Classification",
@@ -1612,8 +1609,8 @@
    "orcid": "https://orcid.org/0000-0002-0059-8458",
    "institution": "Wuhan University",
    "country": "CN",
-   "h_index": 100,
-   "cited_by": 38223,
+   "h_index": 103,
+   "cited_by": 40921,
    "works": 1079,
    "expertise": [
     "Advanced Neural Network Applications",
@@ -1628,7 +1625,7 @@
    ],
    "rank": {
     "remote-sensing": 16,
-    "geoai": 9
+    "geoai": 10
    },
    "recent": {
     "remote-sensing": 319,
@@ -1663,7 +1660,7 @@
     {
      "id": "A5026501335",
      "name": "Juhua Liu",
-     "n": 49
+     "n": 48
     },
     {
      "id": "A5086625735",
@@ -1713,8 +1710,8 @@
    "orcid": "https://orcid.org/0000-0002-0151-9037",
    "institution": "University of British Columbia",
    "country": "CA",
-   "h_index": 99,
-   "cited_by": 41843,
+   "h_index": 101,
+   "cited_by": 43876,
    "works": 812,
    "expertise": [
     "Remote Sensing and LiDAR Applications",
@@ -1728,7 +1725,7 @@
     "lidar"
    ],
    "rank": {
-    "photogrammetry": 11,
+    "photogrammetry": 12,
     "lidar": 2
    },
    "recent": {
@@ -1811,13 +1808,111 @@
    "department": "Forest Resources Management"
   },
   {
+   "id": "A5039052506",
+   "name": "Gustau Camps‐Valls",
+   "orcid": "https://orcid.org/0000-0003-1683-2138",
+   "institution": "Universitat de València",
+   "country": "ES",
+   "h_index": 98,
+   "cited_by": 46866,
+   "works": 728,
+   "expertise": [
+    "Remote-Sensing Image Classification",
+    "Remote Sensing in Agriculture",
+    "Meteorological Phenomena and Simulations",
+    "Remote Sensing and Land Use",
+    "Gaussian Processes and Bayesian Inference"
+   ],
+   "fields": [
+    "remote-sensing"
+   ],
+   "rank": {
+    "remote-sensing": 12
+   },
+   "recent": {
+    "remote-sensing": 364
+   },
+   "collab": [
+    {
+     "id": "A5085480844",
+     "name": "Jordi Muñoz-Marı́",
+     "n": 76
+    },
+    {
+     "id": "A5071721504",
+     "name": "Markus Reichstein",
+     "n": 54
+    },
+    {
+     "id": "A5032528806",
+     "name": "María Piles",
+     "n": 52
+    },
+    {
+     "id": "A5028819728",
+     "name": "Álvaro Moreno‐Martínez",
+     "n": 47
+    },
+    {
+     "id": "A5012161331",
+     "name": "Adrián Pérez-Suay",
+     "n": 41
+    },
+    {
+     "id": "A5065281659",
+     "name": "Valero Laparra",
+     "n": 38
+    },
+    {
+     "id": "A5016290792",
+     "name": "Luca Martino",
+     "n": 35
+    },
+    {
+     "id": "A5035702282",
+     "name": "Miguel D. Mahecha",
+     "n": 30
+    },
+    {
+     "id": "A5047808140",
+     "name": "Manuel Campos‐Taberner",
+     "n": 30
+    },
+    {
+     "id": "A5032347395",
+     "name": "Gherardo Varando",
+     "n": 27
+    },
+    {
+     "id": "A5079448372",
+     "name": "Jochem Verrelst",
+     "n": 23
+    },
+    {
+     "id": "A5000820727",
+     "name": "Luis Gómez‐Chova",
+     "n": 22
+    },
+    {
+     "id": "A5015653124",
+     "name": "Miguel‐Ángel Fernández‐Torres",
+     "n": 22
+    },
+    {
+     "id": "A5079925438",
+     "name": "José E. Adsuara",
+     "n": 22
+    }
+   ]
+  },
+  {
    "id": "A5089619012",
    "name": "David A. Coomes",
    "orcid": "https://orcid.org/0000-0002-8261-2582",
    "institution": "University of Cambridge",
    "country": "GB",
-   "h_index": 96,
-   "cited_by": 44259,
+   "h_index": 98,
+   "cited_by": 46066,
    "works": 454,
    "expertise": [
     "Ecology and Vegetation Dynamics Studies",
@@ -1830,7 +1925,7 @@
     "lidar"
    ],
    "rank": {
-    "lidar": 14
+    "lidar": 13
    },
    "recent": {
     "lidar": 168
@@ -1911,112 +2006,14 @@
    "department": "Plant Sciences and Conservation Research Institute"
   },
   {
-   "id": "A5039052506",
-   "name": "Gustau Camps‐Valls",
-   "orcid": "https://orcid.org/0000-0003-1683-2138",
-   "institution": "Universitat de València",
-   "country": "ES",
-   "h_index": 94,
-   "cited_by": 44889,
-   "works": 727,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Remote Sensing in Agriculture",
-    "Remote Sensing and Land Use",
-    "Meteorological Phenomena and Simulations",
-    "Gaussian Processes and Bayesian Inference"
-   ],
-   "fields": [
-    "remote-sensing"
-   ],
-   "rank": {
-    "remote-sensing": 12
-   },
-   "recent": {
-    "remote-sensing": 365
-   },
-   "collab": [
-    {
-     "id": "A5085480844",
-     "name": "Jordi Muñoz-Marı́",
-     "n": 76
-    },
-    {
-     "id": "A5071721504",
-     "name": "Markus Reichstein",
-     "n": 53
-    },
-    {
-     "id": "A5032528806",
-     "name": "María Piles",
-     "n": 52
-    },
-    {
-     "id": "A5028819728",
-     "name": "Álvaro Moreno‐Martínez",
-     "n": 47
-    },
-    {
-     "id": "A5012161331",
-     "name": "Adrián Pérez-Suay",
-     "n": 41
-    },
-    {
-     "id": "A5065281659",
-     "name": "Valero Laparra",
-     "n": 38
-    },
-    {
-     "id": "A5016290792",
-     "name": "Luca Martino",
-     "n": 35
-    },
-    {
-     "id": "A5035702282",
-     "name": "Miguel D. Mahecha",
-     "n": 30
-    },
-    {
-     "id": "A5047808140",
-     "name": "Manuel Campos‐Taberner",
-     "n": 30
-    },
-    {
-     "id": "A5032347395",
-     "name": "Gherardo Varando",
-     "n": 27
-    },
-    {
-     "id": "A5079448372",
-     "name": "Jochem Verrelst",
-     "n": 23
-    },
-    {
-     "id": "A5000820727",
-     "name": "Luis Gómez‐Chova",
-     "n": 22
-    },
-    {
-     "id": "A5015653124",
-     "name": "Miguel‐Ángel Fernández‐Torres",
-     "n": 22
-    },
-    {
-     "id": "A5079925438",
-     "name": "José E. Adsuara",
-     "n": 22
-    }
-   ]
-  },
-  {
    "id": "A5100354056",
    "name": "Xin Li",
    "orcid": "https://orcid.org/0000-0003-2999-9818",
    "institution": "Chinese Academy of Sciences",
    "country": "CN",
-   "h_index": 94,
-   "cited_by": 37327,
-   "works": 1287,
+   "h_index": 95,
+   "cited_by": 38094,
+   "works": 1286,
    "expertise": [
     "Soil Moisture and Remote Sensing",
     "Meteorological Phenomena and Simulations",
@@ -2031,7 +2028,7 @@
     "remote-sensing": 13
    },
    "recent": {
-    "remote-sensing": 362
+    "remote-sensing": 361
    },
    "collab": [
     {
@@ -2112,9 +2109,9 @@
    "orcid": "https://orcid.org/0000-0002-3560-044X",
    "institution": "University of California, Berkeley",
    "country": "US",
-   "h_index": 93,
-   "cited_by": 28500,
-   "works": 798,
+   "h_index": 95,
+   "cited_by": 29394,
+   "works": 797,
    "expertise": [
     "earthquake and tectonic studies",
     "Earthquake and Disaster Impact Studies",
@@ -2123,13 +2120,16 @@
     "Earthquake Detection and Analysis"
    ],
    "fields": [
-    "sar"
+    "sar",
+    "geodesy"
    ],
    "rank": {
-    "sar": 9
+    "sar": 9,
+    "geodesy": 17
    },
    "recent": {
-    "sar": 193
+    "sar": 193,
+    "geodesy": 94
    },
    "collab": [
     {
@@ -2207,13 +2207,131 @@
    "department": "Earth and Planetary Science"
   },
   {
+   "id": "A5068384981",
+   "name": "Xiao Xiang Zhu",
+   "orcid": "https://orcid.org/0000-0001-5530-3613",
+   "institution": "Technical University of Munich",
+   "country": "DE",
+   "h_index": 94,
+   "cited_by": 41307,
+   "works": 1071,
+   "expertise": [
+    "Remote-Sensing Image Classification",
+    "Advanced Neural Network Applications",
+    "Synthetic Aperture Radar (SAR) Applications and Techniques",
+    "Automated Road and Building Extraction",
+    "Advanced SAR Imaging Techniques"
+   ],
+   "fields": [
+    "photogrammetry",
+    "remote-sensing",
+    "sar",
+    "geoai",
+    "city-bim"
+   ],
+   "rank": {
+    "photogrammetry": 3,
+    "remote-sensing": 2,
+    "sar": 1,
+    "geoai": 1,
+    "city-bim": 7
+   },
+   "recent": {
+    "photogrammetry": 225,
+    "remote-sensing": 731,
+    "sar": 373,
+    "geoai": 367,
+    "city-bim": 91
+   },
+   "collab": [
+    {
+     "id": "A5024379450",
+     "name": "Lichao Mou",
+     "n": 157
+    },
+    {
+     "id": "A5061007704",
+     "name": "Yilei Shi",
+     "n": 109
+    },
+    {
+     "id": "A5100423138",
+     "name": "Yuanyuan Wang",
+     "n": 71
+    },
+    {
+     "id": "A5058601965",
+     "name": "Michael Schmitt",
+     "n": 64
+    },
+    {
+     "id": "A5022524675",
+     "name": "Zhitong Xiong",
+     "n": 56
+    },
+    {
+     "id": "A5083424027",
+     "name": "Sudipan Saha",
+     "n": 45
+    },
+    {
+     "id": "A5090543058",
+     "name": "Yuansheng Hua",
+     "n": 41
+    },
+    {
+     "id": "A5075013625",
+     "name": "Danfeng Hong",
+     "n": 37
+    },
+    {
+     "id": "A5016696735",
+     "name": "Jingliang Hu",
+     "n": 35
+    },
+    {
+     "id": "A5046449632",
+     "name": "Hannes Taubenböck",
+     "n": 31
+    },
+    {
+     "id": "A5083100048",
+     "name": "Konrad Heidler",
+     "n": 30
+    },
+    {
+     "id": "A5002459081",
+     "name": "Hamed Alemohammad",
+     "n": 29
+    },
+    {
+     "id": "A5072647192",
+     "name": "Chunping Qiu",
+     "n": 28
+    },
+    {
+     "id": "A5074919292",
+     "name": "Pedram Ghamisi",
+     "n": 28
+    }
+   ],
+   "position": "Head/Prof. Dr.",
+   "department": "Chair of Data Science in Earth Observation",
+   "links": [
+    {
+     "name": "my group",
+     "url": "https://www.asg.ed.tum.de/sipeo/home/"
+    }
+   ]
+  },
+  {
    "id": "A5009185228",
    "name": "Mei‐Po Kwan",
    "orcid": "https://orcid.org/0000-0001-8602-9258",
    "institution": "Chinese University of Hong Kong",
    "country": "HK",
    "h_index": 93,
-   "cited_by": 32164,
+   "cited_by": 33373,
    "works": 697,
    "expertise": [
     "Urban Transport and Accessibility",
@@ -2307,131 +2425,13 @@
    "department": "Department of Geography and Resource Management"
   },
   {
-   "id": "A5068384981",
-   "name": "Xiao Xiang Zhu",
-   "orcid": "https://orcid.org/0000-0001-5530-3613",
-   "institution": "Technical University of Munich",
-   "country": "DE",
-   "h_index": 90,
-   "cited_by": 38479,
-   "works": 1069,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Advanced Neural Network Applications",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Automated Road and Building Extraction",
-    "Advanced SAR Imaging Techniques"
-   ],
-   "fields": [
-    "photogrammetry",
-    "remote-sensing",
-    "sar",
-    "geoai",
-    "city-bim"
-   ],
-   "rank": {
-    "photogrammetry": 3,
-    "remote-sensing": 2,
-    "sar": 1,
-    "geoai": 1,
-    "city-bim": 7
-   },
-   "recent": {
-    "photogrammetry": 225,
-    "remote-sensing": 731,
-    "sar": 373,
-    "geoai": 368,
-    "city-bim": 91
-   },
-   "collab": [
-    {
-     "id": "A5024379450",
-     "name": "Lichao Mou",
-     "n": 157
-    },
-    {
-     "id": "A5061007704",
-     "name": "Yilei Shi",
-     "n": 109
-    },
-    {
-     "id": "A5100423138",
-     "name": "Yuanyuan Wang",
-     "n": 71
-    },
-    {
-     "id": "A5058601965",
-     "name": "Michael Schmitt",
-     "n": 64
-    },
-    {
-     "id": "A5022524675",
-     "name": "Zhitong Xiong",
-     "n": 56
-    },
-    {
-     "id": "A5083424027",
-     "name": "Sudipan Saha",
-     "n": 45
-    },
-    {
-     "id": "A5090543058",
-     "name": "Yuansheng Hua",
-     "n": 41
-    },
-    {
-     "id": "A5075013625",
-     "name": "Danfeng Hong",
-     "n": 37
-    },
-    {
-     "id": "A5016696735",
-     "name": "Jingliang Hu",
-     "n": 35
-    },
-    {
-     "id": "A5046449632",
-     "name": "Hannes Taubenböck",
-     "n": 31
-    },
-    {
-     "id": "A5083100048",
-     "name": "Konrad Heidler",
-     "n": 30
-    },
-    {
-     "id": "A5002459081",
-     "name": "Hamed Alemohammad",
-     "n": 29
-    },
-    {
-     "id": "A5072647192",
-     "name": "Chunping Qiu",
-     "n": 28
-    },
-    {
-     "id": "A5074919292",
-     "name": "Pedram Ghamisi",
-     "n": 28
-    }
-   ],
-   "position": "Head/Prof. Dr.",
-   "department": "Chair of Data Science in Earth Observation",
-   "links": [
-    {
-     "name": "my group",
-     "url": "https://www.asg.ed.tum.de/sipeo/home/"
-    }
-   ]
-  },
-  {
    "id": "A5000622487",
    "name": "Peter M. Atkinson",
    "orcid": "https://orcid.org/0000-0002-5489-6880",
    "institution": "University of Southampton",
    "country": "GB",
-   "h_index": 88,
-   "cited_by": 33144,
+   "h_index": 91,
+   "cited_by": 34301,
    "works": 852,
    "expertise": [
     "Remote-Sensing Image Classification",
@@ -2447,7 +2447,7 @@
    ],
    "rank": {
     "remote-sensing": 11,
-    "geoai": 7,
+    "geoai": 6,
     "geoinformatics": 4
    },
    "recent": {
@@ -2540,8 +2540,8 @@
    "orcid": "https://orcid.org/0000-0003-1886-9137",
    "institution": "Lawrence Berkeley National Laboratory",
    "country": "US",
-   "h_index": 88,
-   "cited_by": 24681,
+   "h_index": 90,
+   "cited_by": 25903,
    "works": 378,
    "expertise": [
     "Building Energy and Comfort Optimization",
@@ -2641,117 +2641,14 @@
    ]
   },
   {
-   "id": "A5033042071",
-   "name": "Juha M. Hyyppa",
-   "orcid": "https://orcid.org/0000-0001-5360-4017",
-   "institution": "Finnish Geospatial Research Institute",
-   "country": "FI",
-   "h_index": 85,
-   "cited_by": 28301,
-   "works": 792,
-   "expertise": [
-    "Remote Sensing and LiDAR Applications",
-    "3D Surveying and Cultural Heritage",
-    "Forest ecology and management",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Forest Management and Policy"
-   ],
-   "fields": [
-    "photogrammetry",
-    "lidar"
-   ],
-   "rank": {
-    "photogrammetry": 2,
-    "lidar": 1
-   },
-   "recent": {
-    "photogrammetry": 272,
-    "lidar": 584
-   },
-   "collab": [
-    {
-     "id": "A5043014786",
-     "name": "Harri Kaartinen",
-     "n": 134
-    },
-    {
-     "id": "A5045584015",
-     "name": "Antero Kukko",
-     "n": 134
-    },
-    {
-     "id": "A5047838080",
-     "name": "Mikko Vastaranta",
-     "n": 92
-    },
-    {
-     "id": "A5061837252",
-     "name": "Markus Holopainen",
-     "n": 76
-    },
-    {
-     "id": "A5100374346",
-     "name": "Yuwei Chen",
-     "n": 65
-    },
-    {
-     "id": "A5011830111",
-     "name": "Ville Kankare",
-     "n": 63
-    },
-    {
-     "id": "A5078441718",
-     "name": "Ninni Saarinen",
-     "n": 60
-    },
-    {
-     "id": "A5011450440",
-     "name": "Teemu Hakala",
-     "n": 58
-    },
-    {
-     "id": "A5018804090",
-     "name": "Xiaowei Yu",
-     "n": 55
-    },
-    {
-     "id": "A5070189190",
-     "name": "Xinlian Liang",
-     "n": 54
-    },
-    {
-     "id": "A5020136472",
-     "name": "Hannu Hyyppä",
-     "n": 47
-    },
-    {
-     "id": "A5030143006",
-     "name": "Juho‐Pekka Virtanen",
-     "n": 46
-    },
-    {
-     "id": "A5061693398",
-     "name": "Matti Lehtomäki",
-     "n": 39
-    },
-    {
-     "id": "A5100754860",
-     "name": "Yunsheng Wang",
-     "n": 39
-    }
-   ],
-   "position": "Prof., Head of department, FGI, National Land Survey of Finland",
-   "department": "Dept of RS and Photogrammetry"
-  },
-  {
    "id": "A5100317994",
    "name": "Wei Li",
    "orcid": "https://orcid.org/0000-0001-7015-7335",
    "institution": "Beijing Institute of Technology",
    "country": "CN",
-   "h_index": 85,
-   "cited_by": 30531,
-   "works": 944,
+   "h_index": 87,
+   "cited_by": 32044,
+   "works": 945,
    "expertise": [
     "Remote-Sensing Image Classification",
     "Advanced Neural Network Applications",
@@ -2764,11 +2661,11 @@
     "geoai"
    ],
    "rank": {
-    "remote-sensing": 17,
+    "remote-sensing": 18,
     "geoai": 16
    },
    "recent": {
-    "remote-sensing": 346,
+    "remote-sensing": 347,
     "geoai": 120
    },
    "collab": [
@@ -2785,12 +2682,12 @@
     {
      "id": "A5100442192",
      "name": "Mengmeng Zhang",
-     "n": 88
+     "n": 89
     },
     {
      "id": "A5033234889",
      "name": "Yunhao Gao",
-     "n": 27
+     "n": 28
     },
     {
      "id": "A5072245508",
@@ -2847,14 +2744,221 @@
    "department": "School of Information and Electronics"
   },
   {
+   "id": "A5033042071",
+   "name": "Juha M. Hyyppa",
+   "orcid": "https://orcid.org/0000-0001-5360-4017",
+   "institution": "Finnish Geospatial Research Institute",
+   "country": "FI",
+   "h_index": 86,
+   "cited_by": 29633,
+   "works": 793,
+   "expertise": [
+    "Remote Sensing and LiDAR Applications",
+    "3D Surveying and Cultural Heritage",
+    "Forest ecology and management",
+    "Synthetic Aperture Radar (SAR) Applications and Techniques",
+    "Forest Management and Policy"
+   ],
+   "fields": [
+    "photogrammetry",
+    "lidar",
+    "geodesy"
+   ],
+   "rank": {
+    "photogrammetry": 2,
+    "lidar": 1,
+    "geodesy": 18
+   },
+   "recent": {
+    "photogrammetry": 274,
+    "lidar": 587,
+    "geodesy": 100
+   },
+   "collab": [
+    {
+     "id": "A5043014786",
+     "name": "Harri Kaartinen",
+     "n": 135
+    },
+    {
+     "id": "A5045584015",
+     "name": "Antero Kukko",
+     "n": 135
+    },
+    {
+     "id": "A5047838080",
+     "name": "Mikko Vastaranta",
+     "n": 92
+    },
+    {
+     "id": "A5061837252",
+     "name": "Markus Holopainen",
+     "n": 76
+    },
+    {
+     "id": "A5100374346",
+     "name": "Yuwei Chen",
+     "n": 65
+    },
+    {
+     "id": "A5011830111",
+     "name": "Ville Kankare",
+     "n": 64
+    },
+    {
+     "id": "A5078441718",
+     "name": "Ninni Saarinen",
+     "n": 60
+    },
+    {
+     "id": "A5011450440",
+     "name": "Teemu Hakala",
+     "n": 58
+    },
+    {
+     "id": "A5018804090",
+     "name": "Xiaowei Yu",
+     "n": 55
+    },
+    {
+     "id": "A5070189190",
+     "name": "Xinlian Liang",
+     "n": 54
+    },
+    {
+     "id": "A5020136472",
+     "name": "Hannu Hyyppä",
+     "n": 47
+    },
+    {
+     "id": "A5030143006",
+     "name": "Juho‐Pekka Virtanen",
+     "n": 46
+    },
+    {
+     "id": "A5061693398",
+     "name": "Matti Lehtomäki",
+     "n": 39
+    },
+    {
+     "id": "A5100754860",
+     "name": "Yunsheng Wang",
+     "n": 39
+    }
+   ],
+   "position": "Prof., Head of department, FGI, National Land Survey of Finland",
+   "department": "Dept of RS and Photogrammetry"
+  },
+  {
+   "id": "A5074919292",
+   "name": "Pedram Ghamisi",
+   "orcid": "https://orcid.org/0000-0003-1203-741X",
+   "institution": "University of Iceland",
+   "country": "IS",
+   "h_index": 85,
+   "cited_by": 31876,
+   "works": 402,
+   "expertise": [
+    "Remote-Sensing Image Classification",
+    "Advanced Neural Network Applications",
+    "Advanced Image Fusion Techniques",
+    "Remote Sensing and Land Use",
+    "Spectroscopy and Chemometric Analyses"
+   ],
+   "fields": [
+    "remote-sensing",
+    "geoai"
+   ],
+   "rank": {
+    "remote-sensing": 17,
+    "geoai": 8
+   },
+   "recent": {
+    "remote-sensing": 354,
+    "geoai": 162
+   },
+   "collab": [
+    {
+     "id": "A5067490750",
+     "name": "Richard Gloaguen",
+     "n": 67
+    },
+    {
+     "id": "A5042657950",
+     "name": "Behnood Rasti",
+     "n": 45
+    },
+    {
+     "id": "A5109011370",
+     "name": "Amir Hosein Mosavi",
+     "n": 38
+    },
+    {
+     "id": "A5011401698",
+     "name": "Puhong Duan",
+     "n": 35
+    },
+    {
+     "id": "A5068384981",
+     "name": "Xiao Xiang Zhu",
+     "n": 28
+    },
+    {
+     "id": "A5051082265",
+     "name": "Uwe Reuter",
+     "n": 27
+    },
+    {
+     "id": "A5065061505",
+     "name": "Leyuan Fang",
+     "n": 27
+    },
+    {
+     "id": "A5035508615",
+     "name": "Jón Atli Benediktsson",
+     "n": 25
+    },
+    {
+     "id": "A5027034650",
+     "name": "Yushi Chen",
+     "n": 23
+    },
+    {
+     "id": "A5034435383",
+     "name": "Naoto Yokoya",
+     "n": 22
+    },
+    {
+     "id": "A5009042729",
+     "name": "Sina Ardabili",
+     "n": 21
+    },
+    {
+     "id": "A5000622487",
+     "name": "Peter M. Atkinson",
+     "n": 20
+    },
+    {
+     "id": "A5012290972",
+     "name": "Sandra Lorenz",
+     "n": 20
+    },
+    {
+     "id": "A5089503857",
+     "name": "Omid Ghorbanzadeh",
+     "n": 20
+    }
+   ]
+  },
+  {
    "id": "A5009116003",
    "name": "Lizhe Wang",
    "orcid": "https://orcid.org/0000-0003-2766-0845",
    "institution": "China University of Geosciences",
    "country": "CN",
-   "h_index": 83,
-   "cited_by": 26402,
-   "works": 791,
+   "h_index": 85,
+   "cited_by": 27130,
+   "works": 793,
    "expertise": [
     "Remote-Sensing Image Classification",
     "Cloud Computing and Resource Management",
@@ -2947,115 +3051,14 @@
    "department": ""
   },
   {
-   "id": "A5074919292",
-   "name": "Pedram Ghamisi",
-   "orcid": "https://orcid.org/0000-0003-1203-741X",
-   "institution": "University of Iceland",
-   "country": "IS",
-   "h_index": 82,
-   "cited_by": 30802,
-   "works": 403,
-   "expertise": [
-    "Remote-Sensing Image Classification",
-    "Advanced Neural Network Applications",
-    "Advanced Image Fusion Techniques",
-    "Remote Sensing and Land Use",
-    "Spectroscopy and Chemometric Analyses"
-   ],
-   "fields": [
-    "remote-sensing",
-    "geoai"
-   ],
-   "rank": {
-    "remote-sensing": 18,
-    "geoai": 8
-   },
-   "recent": {
-    "remote-sensing": 354,
-    "geoai": 162
-   },
-   "collab": [
-    {
-     "id": "A5067490750",
-     "name": "Richard Gloaguen",
-     "n": 67
-    },
-    {
-     "id": "A5042657950",
-     "name": "Behnood Rasti",
-     "n": 45
-    },
-    {
-     "id": "A5109011370",
-     "name": "Amir Hosein Mosavi",
-     "n": 39
-    },
-    {
-     "id": "A5011401698",
-     "name": "Puhong Duan",
-     "n": 36
-    },
-    {
-     "id": "A5068384981",
-     "name": "Xiao Xiang Zhu",
-     "n": 28
-    },
-    {
-     "id": "A5051082265",
-     "name": "Uwe Reuter",
-     "n": 27
-    },
-    {
-     "id": "A5065061505",
-     "name": "Leyuan Fang",
-     "n": 27
-    },
-    {
-     "id": "A5035508615",
-     "name": "Jón Atli Benediktsson",
-     "n": 25
-    },
-    {
-     "id": "A5027034650",
-     "name": "Yushi Chen",
-     "n": 23
-    },
-    {
-     "id": "A5009042729",
-     "name": "Sina Ardabili",
-     "n": 22
-    },
-    {
-     "id": "A5034435383",
-     "name": "Naoto Yokoya",
-     "n": 22
-    },
-    {
-     "id": "A5000622487",
-     "name": "Peter M. Atkinson",
-     "n": 20
-    },
-    {
-     "id": "A5012290972",
-     "name": "Sandra Lorenz",
-     "n": 20
-    },
-    {
-     "id": "A5089503857",
-     "name": "Omid Ghorbanzadeh",
-     "n": 20
-    }
-   ]
-  },
-  {
    "id": "A5012274844",
    "name": "Nicola Casagli",
    "orcid": "https://orcid.org/0000-0002-8684-7848",
    "institution": "University of Florence",
    "country": "IT",
-   "h_index": 82,
-   "cited_by": 23100,
-   "works": 800,
+   "h_index": 84,
+   "cited_by": 23638,
+   "works": 803,
    "expertise": [
     "Landslides and related hazards",
     "Synthetic Aperture Radar (SAR) Applications and Techniques",
@@ -3067,10 +3070,10 @@
     "sar"
    ],
    "rank": {
-    "sar": 3
+    "sar": 2
    },
    "recent": {
-    "sar": 379
+    "sar": 378
    },
    "collab": [
     {
@@ -3153,9 +3156,9 @@
    "orcid": "https://orcid.org/0000-0001-7899-0049",
    "institution": "University of Waterloo",
    "country": "CA",
-   "h_index": 81,
-   "cited_by": 26646,
-   "works": 743,
+   "h_index": 84,
+   "cited_by": 27918,
+   "works": 744,
    "expertise": [
     "3D Surveying and Cultural Heritage",
     "Advanced Neural Network Applications",
@@ -3168,7 +3171,7 @@
     "geoai"
    ],
    "rank": {
-    "lidar": 5,
+    "lidar": 4,
     "geoai": 15
    },
    "recent": {
@@ -3257,14 +3260,114 @@
    ]
   },
   {
+   "id": "A5034250940",
+   "name": "Erik Næsset",
+   "orcid": "https://orcid.org/0000-0002-2460-5843",
+   "institution": "Norwegian University of Life Sciences",
+   "country": "NO",
+   "h_index": 82,
+   "cited_by": 25364,
+   "works": 380,
+   "expertise": [
+    "Remote Sensing and LiDAR Applications",
+    "Forest ecology and management",
+    "Forest Management and Policy",
+    "Remote Sensing in Agriculture",
+    "Remote-Sensing Image Classification"
+   ],
+   "fields": [
+    "lidar"
+   ],
+   "rank": {
+    "lidar": 18
+   },
+   "recent": {
+    "lidar": 171
+   },
+   "collab": [
+    {
+     "id": "A5073215366",
+     "name": "Terje Gobakken",
+     "n": 129
+    },
+    {
+     "id": "A5074132804",
+     "name": "Hans Ole Ørka",
+     "n": 47
+    },
+    {
+     "id": "A5036310182",
+     "name": "Ole Martin Bollandsås",
+     "n": 37
+    },
+    {
+     "id": "A5018412035",
+     "name": "Ronald Edward McRoberts",
+     "n": 35
+    },
+    {
+     "id": "A5040115327",
+     "name": "Göran Ståhl",
+     "n": 21
+    },
+    {
+     "id": "A5040480498",
+     "name": "Svetlana Saarela",
+     "n": 21
+    },
+    {
+     "id": "A5055675691",
+     "name": "Michele Dalponte",
+     "n": 17
+    },
+    {
+     "id": "A5085507280",
+     "name": "Liviu Theodor Ene",
+     "n": 15
+    },
+    {
+     "id": "A5055005635",
+     "name": "Eliakimu Mnkondo Zahabu",
+     "n": 14
+    },
+    {
+     "id": "A5038989511",
+     "name": "Lennart Noordermeer",
+     "n": 13
+    },
+    {
+     "id": "A5089367824",
+     "name": "Gherardo Chirici",
+     "n": 10
+    },
+    {
+     "id": "A5000739434",
+     "name": "Sean P. Healey",
+     "n": 9
+    },
+    {
+     "id": "A5075301550",
+     "name": "Johannes Breidenbach",
+     "n": 9
+    },
+    {
+     "id": "A5076936224",
+     "name": "Endre Hofstad Hansen",
+     "n": 9
+    }
+   ],
+   "position": "Professor",
+   "department": "Faculty of Environmental Sciences and Natural Resource Management"
+  },
+  {
    "id": "A5075013625",
    "name": "Danfeng Hong",
    "orcid": "https://orcid.org/0000-0002-3212-9584",
    "institution": "Chinese Academy of Sciences",
    "country": "CN",
-   "h_index": 79,
-   "cited_by": 28175,
-   "works": 328,
+   "h_index": 81,
+   "cited_by": 29494,
+   "works": 331,
    "expertise": [
     "Remote-Sensing Image Classification",
     "Advanced Image Fusion Techniques",
@@ -3276,10 +3379,10 @@
     "geoai"
    ],
    "rank": {
-    "geoai": 10
+    "geoai": 9
    },
    "recent": {
-    "geoai": 159
+    "geoai": 161
    },
    "collab": [
     {
@@ -3338,14 +3441,14 @@
      "n": 15
     },
     {
-     "id": "A5090470209",
-     "name": "Yao Ding",
+     "id": "A5054292278",
+     "name": "Antonio Plaza",
      "n": 15
     },
     {
-     "id": "A5054292278",
-     "name": "Antonio Plaza",
-     "n": 14
+     "id": "A5090470209",
+     "name": "Yao Ding",
+     "n": 15
     },
     {
      "id": "A5087427076",
@@ -3363,117 +3466,13 @@
    ]
   },
   {
-   "id": "A5073132582",
-   "name": "Bertrand Chapron",
-   "orcid": "https://orcid.org/0000-0001-6088-8775",
-   "institution": "Ifremer",
-   "country": "FR",
-   "h_index": 75,
-   "cited_by": 21391,
-   "works": 959,
-   "expertise": [
-    "Ocean Waves and Remote Sensing",
-    "Oceanographic and Atmospheric Processes",
-    "Coastal and Marine Dynamics",
-    "Meteorological Phenomena and Simulations",
-    "Soil Moisture and Remote Sensing"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 18
-   },
-   "recent": {
-    "sar": 183
-   },
-   "collab": [
-    {
-     "id": "A5069141729",
-     "name": "Alexis Aurelien Mouche",
-     "n": 92
-    },
-    {
-     "id": "A5075497720",
-     "name": "Ronan Fablet",
-     "n": 73
-    },
-    {
-     "id": "A5028207820",
-     "name": "Vladimir Kudryavtsev",
-     "n": 63
-    },
-    {
-     "id": "A5076659283",
-     "name": "Valentin Resseguier",
-     "n": 53
-    },
-    {
-     "id": "A5018721311",
-     "name": "Étienne Mémin",
-     "n": 52
-    },
-    {
-     "id": "A5009759418",
-     "name": "Lucile Gaultier",
-     "n": 43
-    },
-    {
-     "id": "A5023949381",
-     "name": "Elizaveta V. Zabolotskikh",
-     "n": 33
-    },
-    {
-     "id": "A5001012163",
-     "name": "Frédéric Nouguier",
-     "n": 30
-    },
-    {
-     "id": "A5041794907",
-     "name": "Fabrice Ardhuin",
-     "n": 30
-    },
-    {
-     "id": "A5056087611",
-     "name": "Justin Edward Stopa",
-     "n": 26
-    },
-    {
-     "id": "A5060836056",
-     "name": "Yves Quilfen",
-     "n": 26
-    },
-    {
-     "id": "A5030132191",
-     "name": "Said Ouala",
-     "n": 25
-    },
-    {
-     "id": "A5048210830",
-     "name": "Danièle Hauser",
-     "n": 24
-    },
-    {
-     "id": "A5055769454",
-     "name": "Craig James Donlon",
-     "n": 24
-    }
-   ],
-   "links": [
-    {
-     "name": "Ifremer's home page",
-     "url": "https://annuaire.ifremer.fr/cv/15870/"
-    }
-   ]
-  },
-  {
    "id": "A5077764827",
    "name": "Joanne C. White",
    "orcid": "https://orcid.org/0000-0003-4674-0373",
    "institution": "Canadian Forest Service",
    "country": "CA",
-   "h_index": 74,
-   "cited_by": 25165,
+   "h_index": 76,
+   "cited_by": 26496,
    "works": 342,
    "expertise": [
     "Remote Sensing and LiDAR Applications",
@@ -3578,9 +3577,9 @@
    "orcid": "https://orcid.org/0000-0001-9446-5850",
    "institution": "Wuhan University",
    "country": "CN",
-   "h_index": 74,
-   "cited_by": 19337,
-   "works": 550,
+   "h_index": 76,
+   "cited_by": 20089,
+   "works": 551,
    "expertise": [
     "Remote-Sensing Image Classification",
     "Remote Sensing and Land Use",
@@ -3676,8 +3675,8 @@
    "orcid": "https://orcid.org/0000-0003-4143-6006",
    "institution": "Delft University of Technology",
    "country": "NL",
-   "h_index": 73,
-   "cited_by": 20046,
+   "h_index": 74,
+   "cited_by": 20309,
    "works": 458,
    "expertise": [
     "Statistical and numerical algorithms",
@@ -3774,9 +3773,9 @@
    "orcid": "https://orcid.org/0000-0002-9461-4120",
    "institution": "Territoires, Environnement, Télédétection et Information Spatiale",
    "country": "FR",
-   "h_index": 69,
-   "cited_by": 13981,
-   "works": 704,
+   "h_index": 71,
+   "cited_by": 14741,
+   "works": 701,
    "expertise": [
     "Synthetic Aperture Radar (SAR) Applications and Techniques",
     "Soil Moisture and Remote Sensing",
@@ -3807,7 +3806,7 @@
     {
      "id": "A5033284277",
      "name": "Mohammad El Hajj",
-     "n": 61
+     "n": 60
     },
     {
      "id": "A5088075756",
@@ -3867,123 +3866,14 @@
    ]
   },
   {
-   "id": "A5025841679",
-   "name": "Fabio Remondino",
-   "orcid": "https://orcid.org/0000-0001-6097-5342",
-   "institution": "Fondazione Bruno Kessler",
-   "country": "IT",
-   "h_index": 66,
-   "cited_by": 20660,
-   "works": 731,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Image Processing and 3D Reconstruction",
-    "Satellite Image Processing and Photogrammetry",
-    "Advanced Vision and Imaging",
-    "3D Shape Modeling and Analysis"
-   ],
-   "fields": [
-    "photogrammetry",
-    "lidar",
-    "geoai",
-    "city-bim"
-   ],
-   "rank": {
-    "photogrammetry": 1,
-    "lidar": 3,
-    "geoai": 14,
-    "city-bim": 4
-   },
-   "recent": {
-    "photogrammetry": 558,
-    "lidar": 423,
-    "geoai": 159,
-    "city-bim": 173
-   },
-   "collab": [
-    {
-     "id": "A5020652744",
-     "name": "Elisa Mariarosaria Farella",
-     "n": 72
-    },
-    {
-     "id": "A5069958505",
-     "name": "Luca Morelli",
-     "n": 60
-    },
-    {
-     "id": "A5024347284",
-     "name": "Fabio Menna",
-     "n": 53
-    },
-    {
-     "id": "A5072508222",
-     "name": "Erica Nocerino",
-     "n": 49
-    },
-    {
-     "id": "A5022467960",
-     "name": "Simone Rigon",
-     "n": 41
-    },
-    {
-     "id": "A5000436623",
-     "name": "I. Toschi",
-     "n": 39
-    },
-    {
-     "id": "A5023445851",
-     "name": "Eleonora Grilli",
-     "n": 26
-    },
-    {
-     "id": "A5093091713",
-     "name": "Giulio Perda",
-     "n": 25
-    },
-    {
-     "id": "A5059785877",
-     "name": "Paweł Trybała",
-     "n": 23
-    },
-    {
-     "id": "A5011573559",
-     "name": "G. Mazzacca",
-     "n": 18
-    },
-    {
-     "id": "A5083945113",
-     "name": "Elisavet Konstantina Stathopoulou",
-     "n": 16
-    },
-    {
-     "id": "A5125718788",
-     "name": "Gianluca Bertolasi",
-     "n": 16
-    },
-    {
-     "id": "A5014284001",
-     "name": "Alessandro Torresani",
-     "n": 14
-    },
-    {
-     "id": "A5091851870",
-     "name": "Roberto Battisti",
-     "n": 14
-    }
-   ],
-   "position": "head of research unit",
-   "department": "3D Optical Metrology - 3DOM"
-  },
-  {
    "id": "A5073032922",
    "name": "Gui-Song Xia",
    "orcid": "https://orcid.org/0000-0001-7660-6090",
    "institution": "Wuhan University",
    "country": "CN",
-   "h_index": 66,
-   "cited_by": 33352,
-   "works": 400,
+   "h_index": 68,
+   "cited_by": 34975,
+   "works": 399,
    "expertise": [
     "Advanced Neural Network Applications",
     "Remote-Sensing Image Classification",
@@ -3996,7 +3886,7 @@
     "geoai"
    ],
    "rank": {
-    "photogrammetry": 7,
+    "photogrammetry": 8,
     "geoai": 18
    },
    "recent": {
@@ -4077,13 +3967,122 @@
    ]
   },
   {
+   "id": "A5025841679",
+   "name": "Fabio Remondino",
+   "orcid": "https://orcid.org/0000-0001-6097-5342",
+   "institution": "Fondazione Bruno Kessler",
+   "country": "IT",
+   "h_index": 67,
+   "cited_by": 21798,
+   "works": 732,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Image Processing and 3D Reconstruction",
+    "Satellite Image Processing and Photogrammetry",
+    "Advanced Vision and Imaging",
+    "3D Shape Modeling and Analysis"
+   ],
+   "fields": [
+    "photogrammetry",
+    "lidar",
+    "geoai",
+    "city-bim"
+   ],
+   "rank": {
+    "photogrammetry": 1,
+    "lidar": 3,
+    "geoai": 14,
+    "city-bim": 4
+   },
+   "recent": {
+    "photogrammetry": 558,
+    "lidar": 424,
+    "geoai": 159,
+    "city-bim": 173
+   },
+   "collab": [
+    {
+     "id": "A5020652744",
+     "name": "Elisa Mariarosaria Farella",
+     "n": 72
+    },
+    {
+     "id": "A5069958505",
+     "name": "Luca Morelli",
+     "n": 60
+    },
+    {
+     "id": "A5024347284",
+     "name": "Fabio Menna",
+     "n": 53
+    },
+    {
+     "id": "A5072508222",
+     "name": "Erica Nocerino",
+     "n": 49
+    },
+    {
+     "id": "A5022467960",
+     "name": "Simone Rigon",
+     "n": 41
+    },
+    {
+     "id": "A5000436623",
+     "name": "I. Toschi",
+     "n": 39
+    },
+    {
+     "id": "A5023445851",
+     "name": "Eleonora Grilli",
+     "n": 26
+    },
+    {
+     "id": "A5093091713",
+     "name": "Giulio Perda",
+     "n": 25
+    },
+    {
+     "id": "A5059785877",
+     "name": "Paweł Trybała",
+     "n": 23
+    },
+    {
+     "id": "A5011573559",
+     "name": "G. Mazzacca",
+     "n": 18
+    },
+    {
+     "id": "A5083945113",
+     "name": "Elisavet Konstantina Stathopoulou",
+     "n": 16
+    },
+    {
+     "id": "A5125718788",
+     "name": "Gianluca Bertolasi",
+     "n": 16
+    },
+    {
+     "id": "A5014284001",
+     "name": "Alessandro Torresani",
+     "n": 14
+    },
+    {
+     "id": "A5091851870",
+     "name": "Roberto Battisti",
+     "n": 14
+    }
+   ],
+   "position": "head of research unit",
+   "department": "3D Optical Metrology - 3DOM"
+  },
+  {
    "id": "A5021408538",
    "name": "Mengdao Xing",
    "orcid": "https://orcid.org/0000-0002-4084-0915",
    "institution": "Xidian University",
    "country": "CN",
-   "h_index": 66,
-   "cited_by": 16847,
+   "h_index": 67,
+   "cited_by": 17160,
    "works": 891,
    "expertise": [
     "Advanced SAR Imaging Techniques",
@@ -4099,7 +4098,7 @@
     "sar": 4
    },
    "recent": {
-    "sar": 401
+    "sar": 398
    },
    "collab": [
     {
@@ -4182,8 +4181,8 @@
    "orcid": "https://orcid.org/0000-0002-0038-9816",
    "institution": "Chinese Academy of Sciences",
    "country": "CN",
-   "h_index": 65,
-   "cited_by": 17624,
+   "h_index": 66,
+   "cited_by": 18464,
    "works": 465,
    "expertise": [
     "Advanced Neural Network Applications",
@@ -4282,8 +4281,8 @@
    "orcid": "https://orcid.org/0000-0002-8054-7449",
    "institution": "Chang'an University",
    "country": "CN",
-   "h_index": 64,
-   "cited_by": 16219,
+   "h_index": 65,
+   "cited_by": 16709,
    "works": 542,
    "expertise": [
     "Synthetic Aperture Radar (SAR) Applications and Techniques",
@@ -4296,7 +4295,7 @@
     "sar"
    ],
    "rank": {
-    "sar": 2
+    "sar": 3
    },
    "recent": {
     "sar": 445
@@ -4382,9 +4381,9 @@
    "orcid": "https://orcid.org/0000-0002-4661-8274",
    "institution": "Interaction Sol Plante Atmosphère",
    "country": "FR",
-   "h_index": 64,
-   "cited_by": 14045,
-   "works": 488,
+   "h_index": 65,
+   "cited_by": 14792,
+   "works": 487,
    "expertise": [
     "Soil Moisture and Remote Sensing",
     "Geophysics and Gravity Measurements",
@@ -4396,7 +4395,7 @@
     "sar"
    ],
    "rank": {
-    "sar": 17
+    "sar": 18
    },
    "recent": {
     "sar": 207
@@ -4477,111 +4476,13 @@
    "department": "ISPA"
   },
   {
-   "id": "A5035533740",
-   "name": "Jens Wickert",
-   "orcid": "https://orcid.org/0000-0002-7379-5276",
-   "institution": "GFZ Helmholtz Centre for Geosciences",
-   "country": "DE",
-   "h_index": 64,
-   "cited_by": 13974,
-   "works": 683,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Ionosphere and magnetosphere dynamics",
-    "Geophysics and Gravity Measurements",
-    "Meteorological Phenomena and Simulations",
-    "Atmospheric Ozone and Climate"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 9
-   },
-   "recent": {
-    "geodesy": 171
-   },
-   "collab": [
-    {
-     "id": "A5040896620",
-     "name": "Maximilian Semmling",
-     "n": 76
-    },
-    {
-     "id": "A5032894162",
-     "name": "Florian Zus",
-     "n": 74
-    },
-    {
-     "id": "A5112190765",
-     "name": "Galina Dick",
-     "n": 72
-    },
-    {
-     "id": "A5014145696",
-     "name": "Harald Schuh",
-     "n": 50
-    },
-    {
-     "id": "A5046444383",
-     "name": "Milad Asgarimehr",
-     "n": 45
-    },
-    {
-     "id": "A5021158847",
-     "name": "Benjamin Männel",
-     "n": 27
-    },
-    {
-     "id": "A5045434933",
-     "name": "Mainul Hoque",
-     "n": 26
-    },
-    {
-     "id": "A5046538240",
-     "name": "Wei Liu",
-     "n": 24
-    },
-    {
-     "id": "A5017352067",
-     "name": "Estel Cardellach",
-     "n": 23
-    },
-    {
-     "id": "A5052551639",
-     "name": "Markus Ramatschi",
-     "n": 23
-    },
-    {
-     "id": "A5060959314",
-     "name": "Georges Stienne",
-     "n": 23
-    },
-    {
-     "id": "A5021587155",
-     "name": "Yuan Chun Hu",
-     "n": 20
-    },
-    {
-     "id": "A5038052016",
-     "name": "Xintai Yuan",
-     "n": 20
-    },
-    {
-     "id": "A5061833277",
-     "name": "Maorong Ge",
-     "n": 20
-    }
-   ]
-  },
-  {
    "id": "A5044033108",
    "name": "Mathias I. Disney",
    "orcid": "https://orcid.org/0000-0002-2407-4026",
    "institution": "University College London",
    "country": "GB",
-   "h_index": 63,
-   "cited_by": 16121,
+   "h_index": 65,
+   "cited_by": 16852,
    "works": 440,
    "expertise": [
     "Remote Sensing and LiDAR Applications",
@@ -4673,13 +4574,324 @@
    ]
   },
   {
+   "id": "A5035533740",
+   "name": "Jens Wickert",
+   "orcid": "https://orcid.org/0000-0002-7379-5276",
+   "institution": "GFZ Helmholtz Centre for Geosciences",
+   "country": "DE",
+   "h_index": 65,
+   "cited_by": 14435,
+   "works": 684,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Ionosphere and magnetosphere dynamics",
+    "Geophysics and Gravity Measurements",
+    "Meteorological Phenomena and Simulations",
+    "Atmospheric Ozone and Climate"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 8
+   },
+   "recent": {
+    "geodesy": 174
+   },
+   "collab": [
+    {
+     "id": "A5040896620",
+     "name": "Maximilian Semmling",
+     "n": 76
+    },
+    {
+     "id": "A5032894162",
+     "name": "Florian Zus",
+     "n": 75
+    },
+    {
+     "id": "A5112190765",
+     "name": "Galina Dick",
+     "n": 72
+    },
+    {
+     "id": "A5014145696",
+     "name": "Harald Schuh",
+     "n": 51
+    },
+    {
+     "id": "A5046444383",
+     "name": "Milad Asgarimehr",
+     "n": 45
+    },
+    {
+     "id": "A5021158847",
+     "name": "Benjamin Männel",
+     "n": 27
+    },
+    {
+     "id": "A5045434933",
+     "name": "Mainul Hoque",
+     "n": 26
+    },
+    {
+     "id": "A5046538240",
+     "name": "Wei Liu",
+     "n": 24
+    },
+    {
+     "id": "A5017352067",
+     "name": "Estel Cardellach",
+     "n": 23
+    },
+    {
+     "id": "A5052551639",
+     "name": "Markus Ramatschi",
+     "n": 23
+    },
+    {
+     "id": "A5060959314",
+     "name": "Georges Stienne",
+     "n": 23
+    },
+    {
+     "id": "A5021587155",
+     "name": "Yuan Chun Hu",
+     "n": 20
+    },
+    {
+     "id": "A5038052016",
+     "name": "Xintai Yuan",
+     "n": 20
+    },
+    {
+     "id": "A5061833277",
+     "name": "Maorong Ge",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "id": "A5086428184",
+   "name": "George Vosselman",
+   "orcid": "https://orcid.org/0000-0001-8813-8028",
+   "institution": "International Institute for Geo-Information Science and Earth Observation",
+   "country": "NL",
+   "h_index": 62,
+   "cited_by": 14638,
+   "works": 352,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Automated Road and Building Extraction",
+    "3D Modeling in Geospatial Applications",
+    "Remote Sensing and LiDAR Applications",
+    "Advanced Neural Network Applications"
+   ],
+   "fields": [
+    "photogrammetry",
+    "lidar"
+   ],
+   "rank": {
+    "photogrammetry": 11,
+    "lidar": 17
+   },
+   "recent": {
+    "photogrammetry": 156,
+    "lidar": 207
+   },
+   "collab": [
+    {
+     "id": "A5029035818",
+     "name": "Claudio Persello",
+     "n": 35
+    },
+    {
+     "id": "A5014321482",
+     "name": "Michael Ying Yang",
+     "n": 34
+    },
+    {
+     "id": "A5013633154",
+     "name": "Francesco Nex",
+     "n": 32
+    },
+    {
+     "id": "A5059990087",
+     "name": "Sander Oude Elberink",
+     "n": 30
+    },
+    {
+     "id": "A5046864745",
+     "name": "M. Gerke",
+     "n": 22
+    },
+    {
+     "id": "A5014462963",
+     "name": "Norman Kerle",
+     "n": 19
+    },
+    {
+     "id": "A5078630837",
+     "name": "Caroline Margaux Gevaert",
+     "n": 18
+    },
+    {
+     "id": "A5150706423",
+     "name": "W. Jiao MSc",
+     "n": 12
+    },
+    {
+     "id": "A5035397566",
+     "name": "Richard Sliuzas",
+     "n": 11
+    },
+    {
+     "id": "A5150631988",
+     "name": "Hao Cheng",
+     "n": 10
+    },
+    {
+     "id": "A5025807163",
+     "name": "Ville Lehtola",
+     "n": 9
+    },
+    {
+     "id": "A5054712222",
+     "name": "Sophie Crommelinck",
+     "n": 9
+    },
+    {
+     "id": "A5008229163",
+     "name": "Michael Peter",
+     "n": 8
+    },
+    {
+     "id": "A5001059507",
+     "name": "Mila Koeva",
+     "n": 7
+    }
+   ],
+   "position": "Professor, University of Twente",
+   "department": "Department of Earth Observation Science",
+   "links": [
+    {
+     "name": "University of Twente profile page",
+     "url": "https://research.utwente.nl/en/persons/9bfbca67-bc20-4433-81de-48f903b3f086"
+    }
+   ]
+  },
+  {
+   "id": "A5010436195",
+   "name": "Zhong Lu",
+   "orcid": "https://orcid.org/0000-0001-9181-1818",
+   "institution": "Southern Methodist University",
+   "country": "US",
+   "h_index": 62,
+   "cited_by": 14515,
+   "works": 438,
+   "expertise": [
+    "Synthetic Aperture Radar (SAR) Applications and Techniques",
+    "earthquake and tectonic studies",
+    "Landslides and related hazards",
+    "Advanced SAR Imaging Techniques",
+    "Soil Moisture and Remote Sensing"
+   ],
+   "fields": [
+    "sar"
+   ],
+   "rank": {
+    "sar": 5
+   },
+   "recent": {
+    "sar": 391
+   },
+   "collab": [
+    {
+     "id": "A5067826216",
+     "name": "Chaoying Zhao",
+     "n": 49
+    },
+    {
+     "id": "A5068130970",
+     "name": "Jin‐Woo Kim",
+     "n": 47
+    },
+    {
+     "id": "A5100609819",
+     "name": "Qin Zhang",
+     "n": 27
+    },
+    {
+     "id": "A5067881429",
+     "name": "Yufen Niu",
+     "n": 16
+    },
+    {
+     "id": "A5059036768",
+     "name": "Xie Hu",
+     "n": 15
+    },
+    {
+     "id": "A5100665946",
+     "name": "Lei Zhang",
+     "n": 15
+    },
+    {
+     "id": "A5008517057",
+     "name": "Xiaoli Ding",
+     "n": 13
+    },
+    {
+     "id": "A5009665920",
+     "name": "Yuankun Xu",
+     "n": 13
+    },
+    {
+     "id": "A5055090796",
+     "name": "Jinqi Zhao",
+     "n": 12
+    },
+    {
+     "id": "A5011484422",
+     "name": "Feifei Qu",
+     "n": 11
+    },
+    {
+     "id": "A5009593279",
+     "name": "Hongyu Liang",
+     "n": 10
+    },
+    {
+     "id": "A5037778561",
+     "name": "Wu Zhu",
+     "n": 10
+    },
+    {
+     "id": "A5062668796",
+     "name": "Wei Qu",
+     "n": 10
+    },
+    {
+     "id": "A5108690778",
+     "name": "Chengsheng Yang",
+     "n": 10
+    }
+   ],
+   "links": [
+    {
+     "name": "",
+     "url": "https://smu.edu/dedman/lu"
+    }
+   ]
+  },
+  {
    "id": "A5052926185",
    "name": "Shuanggen Jin",
    "orcid": "https://orcid.org/0000-0002-5108-4828",
    "institution": "Chinese Academy of Sciences",
    "country": "CN",
    "h_index": 62,
-   "cited_by": 12561,
+   "cited_by": 12971,
    "works": 676,
    "expertise": [
     "GNSS positioning and interference",
@@ -4773,224 +4985,14 @@
    "department": ""
   },
   {
-   "id": "A5010436195",
-   "name": "Zhong Lu",
-   "orcid": "https://orcid.org/0000-0001-9181-1818",
-   "institution": "Southern Methodist University",
-   "country": "US",
-   "h_index": 61,
-   "cited_by": 14101,
-   "works": 438,
-   "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "earthquake and tectonic studies",
-    "Landslides and related hazards",
-    "Advanced SAR Imaging Techniques",
-    "Soil Moisture and Remote Sensing"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 5
-   },
-   "recent": {
-    "sar": 392
-   },
-   "collab": [
-    {
-     "id": "A5067826216",
-     "name": "Chaoying Zhao",
-     "n": 49
-    },
-    {
-     "id": "A5068130970",
-     "name": "Jin‐Woo Kim",
-     "n": 47
-    },
-    {
-     "id": "A5100609819",
-     "name": "Qin Zhang",
-     "n": 27
-    },
-    {
-     "id": "A5067881429",
-     "name": "Yufen Niu",
-     "n": 16
-    },
-    {
-     "id": "A5059036768",
-     "name": "Xie Hu",
-     "n": 15
-    },
-    {
-     "id": "A5100665946",
-     "name": "Lei Zhang",
-     "n": 15
-    },
-    {
-     "id": "A5008517057",
-     "name": "Xiaoli Ding",
-     "n": 13
-    },
-    {
-     "id": "A5009665920",
-     "name": "Yuankun Xu",
-     "n": 13
-    },
-    {
-     "id": "A5055090796",
-     "name": "Jinqi Zhao",
-     "n": 12
-    },
-    {
-     "id": "A5011484422",
-     "name": "Feifei Qu",
-     "n": 11
-    },
-    {
-     "id": "A5009593279",
-     "name": "Hongyu Liang",
-     "n": 10
-    },
-    {
-     "id": "A5037778561",
-     "name": "Wu Zhu",
-     "n": 10
-    },
-    {
-     "id": "A5062668796",
-     "name": "Wei Qu",
-     "n": 10
-    },
-    {
-     "id": "A5108690778",
-     "name": "Chengsheng Yang",
-     "n": 10
-    }
-   ],
-   "links": [
-    {
-     "name": "",
-     "url": "https://smu.edu/dedman/lu"
-    }
-   ]
-  },
-  {
-   "id": "A5086428184",
-   "name": "George Vosselman",
-   "orcid": "https://orcid.org/0000-0001-8813-8028",
-   "institution": "International Institute for Geo-Information Science and Earth Observation",
-   "country": "NL",
-   "h_index": 60,
-   "cited_by": 14253,
-   "works": 352,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Automated Road and Building Extraction",
-    "3D Modeling in Geospatial Applications",
-    "Remote Sensing and LiDAR Applications",
-    "Advanced Neural Network Applications"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 12
-   },
-   "recent": {
-    "photogrammetry": 151
-   },
-   "collab": [
-    {
-     "id": "A5029035818",
-     "name": "Claudio Persello",
-     "n": 35
-    },
-    {
-     "id": "A5014321482",
-     "name": "Michael Ying Yang",
-     "n": 34
-    },
-    {
-     "id": "A5013633154",
-     "name": "Francesco Nex",
-     "n": 32
-    },
-    {
-     "id": "A5059990087",
-     "name": "Sander Oude Elberink",
-     "n": 30
-    },
-    {
-     "id": "A5046864745",
-     "name": "M. Gerke",
-     "n": 22
-    },
-    {
-     "id": "A5014462963",
-     "name": "Norman Kerle",
-     "n": 19
-    },
-    {
-     "id": "A5078630837",
-     "name": "Caroline Margaux Gevaert",
-     "n": 18
-    },
-    {
-     "id": "A5150706423",
-     "name": "W. Jiao MSc",
-     "n": 12
-    },
-    {
-     "id": "A5035397566",
-     "name": "Richard Sliuzas",
-     "n": 11
-    },
-    {
-     "id": "A5150631988",
-     "name": "Hao Cheng",
-     "n": 10
-    },
-    {
-     "id": "A5025807163",
-     "name": "Ville Lehtola",
-     "n": 9
-    },
-    {
-     "id": "A5054712222",
-     "name": "Sophie Crommelinck",
-     "n": 9
-    },
-    {
-     "id": "A5008229163",
-     "name": "Michael Peter",
-     "n": 8
-    },
-    {
-     "id": "A5001059507",
-     "name": "Mila Koeva",
-     "n": 7
-    }
-   ],
-   "position": "Professor, University of Twente",
-   "department": "Department of Earth Observation Science",
-   "links": [
-    {
-     "name": "University of Twente profile page",
-     "url": "https://research.utwente.nl/en/persons/9bfbca67-bc20-4433-81de-48f903b3f086"
-    }
-   ]
-  },
-  {
    "id": "A5043014786",
    "name": "Harri Kaartinen",
    "orcid": "https://orcid.org/0000-0002-4796-3942",
    "institution": "Finnish Geospatial Research Institute",
    "country": "FI",
-   "h_index": 59,
-   "cited_by": 12884,
-   "works": 326,
+   "h_index": 60,
+   "cited_by": 13577,
+   "works": 327,
    "expertise": [
     "Remote Sensing and LiDAR Applications",
     "3D Surveying and Cultural Heritage",
@@ -5005,18 +5007,18 @@
     "lidar": 9
    },
    "recent": {
-    "lidar": 259
+    "lidar": 262
    },
    "collab": [
     {
      "id": "A5033042071",
      "name": "Juha M. Hyyppa",
-     "n": 134
+     "n": 135
     },
     {
      "id": "A5045584015",
      "name": "Antero Kukko",
-     "n": 116
+     "n": 117
     },
     {
      "id": "A5018804090",
@@ -5071,11 +5073,11 @@
     {
      "id": "A5084116684",
      "name": "Heikki Hyyti",
-     "n": 24
+     "n": 25
     },
     {
-     "id": "A5030143006",
-     "name": "Juho‐Pekka Virtanen",
+     "id": "A5011830111",
+     "name": "Ville Kankare",
      "n": 23
     }
    ],
@@ -5089,220 +5091,13 @@
    ]
   },
   {
-   "id": "A5043626547",
-   "name": "Oliver Montenbruck",
-   "orcid": "https://orcid.org/0000-0003-4783-745X",
-   "institution": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
-   "country": "DE",
-   "h_index": 58,
-   "cited_by": 14584,
-   "works": 621,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Space Satellite Systems and Control",
-    "Spacecraft Dynamics and Control",
-    "Geophysics and Gravity Measurements",
-    "Statistical and numerical algorithms"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 14
-   },
-   "recent": {
-    "geodesy": 141
-   },
-   "collab": [
-    {
-     "id": "A5087279614",
-     "name": "Peter Steigenberger",
-     "n": 71
-    },
-    {
-     "id": "A5024488095",
-     "name": "André Hauschild",
-     "n": 26
-    },
-    {
-     "id": "A5087026613",
-     "name": "Steffen Thoelert",
-     "n": 23
-    },
-    {
-     "id": "A5044034970",
-     "name": "Markus Markgraf",
-     "n": 10
-    },
-    {
-     "id": "A5060862931",
-     "name": "Stefan Hackel",
-     "n": 10
-    },
-    {
-     "id": "A5013044483",
-     "name": "Florian Kunzi",
-     "n": 9
-    },
-    {
-     "id": "A5027373059",
-     "name": "Urs Hugentobler",
-     "n": 9
-    },
-    {
-     "id": "A5072456620",
-     "name": "Adrian Jäggi",
-     "n": 9
-    },
-    {
-     "id": "A5019549039",
-     "name": "Daniel Arnold",
-     "n": 8
-    },
-    {
-     "id": "A5082833096",
-     "name": "Richard B. Langley",
-     "n": 8
-    },
-    {
-     "id": "A5000134861",
-     "name": "Bingbing Duan",
-     "n": 7
-    },
-    {
-     "id": "A5067107863",
-     "name": "Gerardo Allende-Alba",
-     "n": 7
-    },
-    {
-     "id": "A5012265681",
-     "name": "Rolf Dach",
-     "n": 6
-    },
-    {
-     "id": "A5038130359",
-     "name": "Franz Zangerl",
-     "n": 6
-    }
-   ]
-  },
-  {
-   "id": "A5081275712",
-   "name": "Norbert Pfeifer",
-   "orcid": "https://orcid.org/0000-0002-2348-7929",
-   "institution": "TU Wien",
-   "country": "AT",
-   "h_index": 57,
-   "cited_by": 12028,
-   "works": 507,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Remote Sensing and LiDAR Applications",
-    "Satellite Image Processing and Photogrammetry",
-    "Forest ecology and management",
-    "Remote-Sensing Image Classification"
-   ],
-   "fields": [
-    "photogrammetry",
-    "lidar"
-   ],
-   "rank": {
-    "photogrammetry": 4,
-    "lidar": 4
-   },
-   "recent": {
-    "photogrammetry": 258,
-    "lidar": 345
-   },
-   "collab": [
-    {
-     "id": "A5024904329",
-     "name": "Markus Hollaus",
-     "n": 61
-    },
-    {
-     "id": "A5017645389",
-     "name": "Camillo Ressl",
-     "n": 39
-    },
-    {
-     "id": "A5058420677",
-     "name": "Gottfried Mandlburger",
-     "n": 27
-    },
-    {
-     "id": "A5000789500",
-     "name": "Wilfried Karel",
-     "n": 20
-    },
-    {
-     "id": "A5006891946",
-     "name": "Livia Piermattei",
-     "n": 19
-    },
-    {
-     "id": "A5028336106",
-     "name": "Martin Wieser",
-     "n": 15
-    },
-    {
-     "id": "A5046424341",
-     "name": "Johannes Otepka",
-     "n": 15
-    },
-    {
-     "id": "A5103186281",
-     "name": "Sebastian Mikolka-Flöry",
-     "n": 15
-    },
-    {
-     "id": "A5036571552",
-     "name": "Milutin Milenković",
-     "n": 13
-    },
-    {
-     "id": "A5049056840",
-     "name": "Michael Becht",
-     "n": 12
-    },
-    {
-     "id": "A5053320484",
-     "name": "Tobias Heckmann",
-     "n": 12
-    },
-    {
-     "id": "A5013645315",
-     "name": "Florian Pöppl",
-     "n": 11
-    },
-    {
-     "id": "A5067742366",
-     "name": "Benjamin Wild",
-     "n": 11
-    },
-    {
-     "id": "A5003870232",
-     "name": "Di Wang",
-     "n": 10
-    }
-   ],
-   "position": "Professor of Photogrammetry",
-   "department": "Department of Geodesy and Geoinformation",
-   "links": [
-    {
-     "name": "Google scholar citations",
-     "url": "https://scholar.google.at/citations?user=-HuwYEMAAAAJ"
-    }
-   ]
-  },
-  {
    "id": "A5010235735",
    "name": "Filip Biljecki",
    "orcid": "https://orcid.org/0000-0002-6229-7749",
    "institution": "National University of Singapore",
    "country": "SG",
-   "h_index": 57,
-   "cited_by": 11004,
+   "h_index": 59,
+   "cited_by": 11944,
    "works": 297,
    "expertise": [
     "3D Modeling in Geospatial Applications",
@@ -5400,14 +5195,221 @@
    ]
   },
   {
+   "id": "A5081275712",
+   "name": "Norbert Pfeifer",
+   "orcid": "https://orcid.org/0000-0002-2348-7929",
+   "institution": "TU Wien",
+   "country": "AT",
+   "h_index": 58,
+   "cited_by": 12496,
+   "works": 507,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Remote Sensing and LiDAR Applications",
+    "Satellite Image Processing and Photogrammetry",
+    "Forest ecology and management",
+    "Remote-Sensing Image Classification"
+   ],
+   "fields": [
+    "photogrammetry",
+    "lidar"
+   ],
+   "rank": {
+    "photogrammetry": 4,
+    "lidar": 5
+   },
+   "recent": {
+    "photogrammetry": 258,
+    "lidar": 345
+   },
+   "collab": [
+    {
+     "id": "A5024904329",
+     "name": "Markus Hollaus",
+     "n": 61
+    },
+    {
+     "id": "A5017645389",
+     "name": "Camillo Ressl",
+     "n": 39
+    },
+    {
+     "id": "A5058420677",
+     "name": "Gottfried Mandlburger",
+     "n": 27
+    },
+    {
+     "id": "A5000789500",
+     "name": "Wilfried Karel",
+     "n": 20
+    },
+    {
+     "id": "A5006891946",
+     "name": "Livia Piermattei",
+     "n": 19
+    },
+    {
+     "id": "A5028336106",
+     "name": "Martin Wieser",
+     "n": 15
+    },
+    {
+     "id": "A5046424341",
+     "name": "Johannes Otepka",
+     "n": 15
+    },
+    {
+     "id": "A5103186281",
+     "name": "Sebastian Mikolka-Flöry",
+     "n": 15
+    },
+    {
+     "id": "A5036571552",
+     "name": "Milutin Milenković",
+     "n": 13
+    },
+    {
+     "id": "A5049056840",
+     "name": "Michael Becht",
+     "n": 12
+    },
+    {
+     "id": "A5053320484",
+     "name": "Tobias Heckmann",
+     "n": 12
+    },
+    {
+     "id": "A5013645315",
+     "name": "Florian Pöppl",
+     "n": 11
+    },
+    {
+     "id": "A5067742366",
+     "name": "Benjamin Wild",
+     "n": 11
+    },
+    {
+     "id": "A5003870232",
+     "name": "Di Wang",
+     "n": 10
+    }
+   ],
+   "position": "Professor of Photogrammetry",
+   "department": "Department of Geodesy and Geoinformation",
+   "links": [
+    {
+     "name": "Google scholar citations",
+     "url": "https://scholar.google.at/citations?user=-HuwYEMAAAAJ"
+    }
+   ]
+  },
+  {
+   "id": "A5043626547",
+   "name": "Oliver Montenbruck",
+   "orcid": "https://orcid.org/0000-0003-4783-745X",
+   "institution": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+   "country": "DE",
+   "h_index": 58,
+   "cited_by": 14985,
+   "works": 622,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Space Satellite Systems and Control",
+    "Spacecraft Dynamics and Control",
+    "Geophysics and Gravity Measurements",
+    "Statistical and numerical algorithms"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 14
+   },
+   "recent": {
+    "geodesy": 142
+   },
+   "collab": [
+    {
+     "id": "A5087279614",
+     "name": "Peter Steigenberger",
+     "n": 72
+    },
+    {
+     "id": "A5024488095",
+     "name": "André Hauschild",
+     "n": 26
+    },
+    {
+     "id": "A5087026613",
+     "name": "Steffen Thoelert",
+     "n": 23
+    },
+    {
+     "id": "A5044034970",
+     "name": "Markus Markgraf",
+     "n": 10
+    },
+    {
+     "id": "A5060862931",
+     "name": "Stefan Hackel",
+     "n": 10
+    },
+    {
+     "id": "A5013044483",
+     "name": "Florian Kunzi",
+     "n": 9
+    },
+    {
+     "id": "A5027373059",
+     "name": "Urs Hugentobler",
+     "n": 9
+    },
+    {
+     "id": "A5072456620",
+     "name": "Adrian Jäggi",
+     "n": 9
+    },
+    {
+     "id": "A5000134861",
+     "name": "Bingbing Duan",
+     "n": 8
+    },
+    {
+     "id": "A5019549039",
+     "name": "Daniel Arnold",
+     "n": 8
+    },
+    {
+     "id": "A5082833096",
+     "name": "Richard B. Langley",
+     "n": 8
+    },
+    {
+     "id": "A5067107863",
+     "name": "Gerardo Allende-Alba",
+     "n": 7
+    },
+    {
+     "id": "A5012265681",
+     "name": "Rolf Dach",
+     "n": 6
+    },
+    {
+     "id": "A5038130359",
+     "name": "Franz Zangerl",
+     "n": 6
+    }
+   ]
+  },
+  {
    "id": "A5014145696",
    "name": "Harald Schuh",
    "orcid": "https://orcid.org/0000-0001-5443-0370",
    "institution": "GFZ Helmholtz Centre for Geosciences",
    "country": "DE",
-   "h_index": 55,
-   "cited_by": 14670,
-   "works": 1207,
+   "h_index": 57,
+   "cited_by": 15383,
+   "works": 1206,
    "expertise": [
     "GNSS positioning and interference",
     "Geophysics and Gravity Measurements",
@@ -5422,7 +5424,7 @@
     "geodesy": 1
    },
    "recent": {
-    "geodesy": 454
+    "geodesy": 458
    },
    "collab": [
     {
@@ -5448,12 +5450,12 @@
     {
      "id": "A5065758639",
      "name": "Kyriakos Balidakis",
-     "n": 70
+     "n": 71
     },
     {
      "id": "A5035533740",
      "name": "Jens Wickert",
-     "n": 50
+     "n": 51
     },
     {
      "id": "A5055817452",
@@ -5500,13 +5502,217 @@
    "department": "Institute of Geodesy and Geoinformation Science"
   },
   {
+   "id": "A5012637418",
+   "name": "Hossein Azadi",
+   "orcid": "https://orcid.org/0000-0002-5108-1993",
+   "institution": "Ghent University",
+   "country": "BE",
+   "h_index": 56,
+   "cited_by": 12547,
+   "works": 476,
+   "expertise": [
+    "Agricultural Innovations and Practices",
+    "Land Use and Ecosystem Services",
+    "Agriculture, Land Use, Rural Development",
+    "Climate change impacts on agriculture",
+    "Conservation, Biodiversity, and Resource Management"
+   ],
+   "fields": [
+    "geoinformatics"
+   ],
+   "rank": {
+    "geoinformatics": 7
+   },
+   "recent": {
+    "geoinformatics": 325
+   },
+   "collab": [
+    {
+     "id": "A5090791456",
+     "name": "Frank Witlox",
+     "n": 49
+    },
+    {
+     "id": "A5046611710",
+     "name": "Steven Van Passel",
+     "n": 40
+    },
+    {
+     "id": "A5028972991",
+     "name": "Alishir Kurban",
+     "n": 32
+    },
+    {
+     "id": "A5102717420",
+     "name": "Philippe Lebailly",
+     "n": 32
+    },
+    {
+     "id": "A5073639729",
+     "name": "Petr Sklenička",
+     "n": 31
+    },
+    {
+     "id": "A5005680915",
+     "name": "Fatemeh Taheri",
+     "n": 27
+    },
+    {
+     "id": "A5051704952",
+     "name": "Jürgen Scheffran",
+     "n": 26
+    },
+    {
+     "id": "A5080140092",
+     "name": "Ants‐Hannes Viira",
+     "n": 26
+    },
+    {
+     "id": "A5018770563",
+     "name": "Saghi Movahhed Moghaddam",
+     "n": 21
+    },
+    {
+     "id": "A5073112729",
+     "name": "Kristina Janečková",
+     "n": 21
+    },
+    {
+     "id": "A5076087193",
+     "name": "Imaneh Goli",
+     "n": 21
+    },
+    {
+     "id": "A5074704557",
+     "name": "Rando Värnik",
+     "n": 18
+    },
+    {
+     "id": "A5044386556",
+     "name": "Shahla Choobchian",
+     "n": 17
+    },
+    {
+     "id": "A5087270608",
+     "name": "Anwar Eziz",
+     "n": 16
+    }
+   ]
+  },
+  {
+   "id": "A5083240181",
+   "name": "Juliet Biggs",
+   "orcid": "https://orcid.org/0000-0002-4855-039X",
+   "institution": "University of Bristol",
+   "country": "GB",
+   "h_index": 55,
+   "cited_by": 9627,
+   "works": 411,
+   "expertise": [
+    "earthquake and tectonic studies",
+    "Synthetic Aperture Radar (SAR) Applications and Techniques",
+    "Geological and Geophysical Studies",
+    "Seismic Waves and Analysis",
+    "Geological and Geochemical Analysis"
+   ],
+   "fields": [
+    "sar"
+   ],
+   "rank": {
+    "sar": 17
+   },
+   "recent": {
+    "sar": 230
+   },
+   "collab": [
+    {
+     "id": "A5102000066",
+     "name": "Åke Fagereng",
+     "n": 48
+    },
+    {
+     "id": "A5063881571",
+     "name": "S. K. Ebmeier",
+     "n": 42
+    },
+    {
+     "id": "A5019912703",
+     "name": "F. Albino",
+     "n": 37
+    },
+    {
+     "id": "A5008436371",
+     "name": "Hassan Mdala",
+     "n": 35
+    },
+    {
+     "id": "A5042295980",
+     "name": "Luke N. J. Wedmore",
+     "n": 35
+    },
+    {
+     "id": "A5003548446",
+     "name": "Jack Nicholas Williams",
+     "n": 32
+    },
+    {
+     "id": "A5090478126",
+     "name": "Elias Lewi",
+     "n": 28
+    },
+    {
+     "id": "A5025903767",
+     "name": "Felix Mphepo",
+     "n": 27
+    },
+    {
+     "id": "A5021717616",
+     "name": "Nantheera Anantrasirichai",
+     "n": 26
+    },
+    {
+     "id": "A5091769787",
+     "name": "Andrew J. Hooper",
+     "n": 24
+    },
+    {
+     "id": "A5040087061",
+     "name": "Tim Wright",
+     "n": 23
+    },
+    {
+     "id": "A5055547149",
+     "name": "M. E. Pritchard",
+     "n": 22
+    },
+    {
+     "id": "A5000057529",
+     "name": "Zuze Dulanya",
+     "n": 21
+    },
+    {
+     "id": "A5070315033",
+     "name": "Atalay Ayele",
+     "n": 20
+    }
+   ],
+   "position": "Academic , Professor",
+   "department": "School of Earth Sciences",
+   "links": [
+    {
+     "name": "University of Bristol profile",
+     "url": "https://research-information.bris.ac.uk/en/persons/57455bd8-0db3-4a58-a4e0-e89885fd5466"
+    }
+   ]
+  },
+  {
    "id": "A5061833277",
    "name": "Maorong Ge",
    "orcid": "https://orcid.org/0000-0001-5679-1153",
    "institution": "Technische Universität Berlin",
    "country": "DE",
    "h_index": 55,
-   "cited_by": 11053,
+   "cited_by": 11372,
    "works": 320,
    "expertise": [
     "GNSS positioning and interference",
@@ -5598,210 +5804,14 @@
    ]
   },
   {
-   "id": "A5012637418",
-   "name": "Hossein Azadi",
-   "orcid": "https://orcid.org/0000-0002-5108-1993",
-   "institution": "Ghent University",
-   "country": "BE",
-   "h_index": 54,
-   "cited_by": 11971,
-   "works": 476,
-   "expertise": [
-    "Agricultural Innovations and Practices",
-    "Land Use and Ecosystem Services",
-    "Agriculture, Land Use, Rural Development",
-    "Climate change impacts on agriculture",
-    "Conservation, Biodiversity, and Resource Management"
-   ],
-   "fields": [
-    "geoinformatics"
-   ],
-   "rank": {
-    "geoinformatics": 7
-   },
-   "recent": {
-    "geoinformatics": 319
-   },
-   "collab": [
-    {
-     "id": "A5090791456",
-     "name": "Frank Witlox",
-     "n": 49
-    },
-    {
-     "id": "A5046611710",
-     "name": "Steven Van Passel",
-     "n": 40
-    },
-    {
-     "id": "A5028972991",
-     "name": "Alishir Kurban",
-     "n": 32
-    },
-    {
-     "id": "A5102717420",
-     "name": "Philippe Lebailly",
-     "n": 32
-    },
-    {
-     "id": "A5073639729",
-     "name": "Petr Sklenička",
-     "n": 31
-    },
-    {
-     "id": "A5005680915",
-     "name": "Fatemeh Taheri",
-     "n": 27
-    },
-    {
-     "id": "A5051704952",
-     "name": "Jürgen Scheffran",
-     "n": 26
-    },
-    {
-     "id": "A5080140092",
-     "name": "Ants‐Hannes Viira",
-     "n": 26
-    },
-    {
-     "id": "A5018770563",
-     "name": "Saghi Movahhed Moghaddam",
-     "n": 21
-    },
-    {
-     "id": "A5073112729",
-     "name": "Kristina Janečková",
-     "n": 21
-    },
-    {
-     "id": "A5076087193",
-     "name": "Imaneh Goli",
-     "n": 21
-    },
-    {
-     "id": "A5074704557",
-     "name": "Rando Värnik",
-     "n": 18
-    },
-    {
-     "id": "A5044386556",
-     "name": "Shahla Choobchian",
-     "n": 17
-    },
-    {
-     "id": "A5087270608",
-     "name": "Anwar Eziz",
-     "n": 16
-    }
-   ]
-  },
-  {
-   "id": "A5029039359",
-   "name": "Zhiwei Li",
-   "orcid": "https://orcid.org/0000-0003-4575-5258",
-   "institution": "Central South University",
-   "country": "CN",
-   "h_index": 52,
-   "cited_by": 12127,
-   "works": 533,
-   "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Advanced SAR Imaging Techniques",
-    "Soil Moisture and Remote Sensing",
-    "earthquake and tectonic studies",
-    "Satellite Image Processing and Photogrammetry"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 14
-   },
-   "recent": {
-    "sar": 252
-   },
-   "collab": [
-    {
-     "id": "A5071442799",
-     "name": "Jun Hu",
-     "n": 54
-    },
-    {
-     "id": "A5017058983",
-     "name": "Jianjun Zhu",
-     "n": 52
-    },
-    {
-     "id": "A5059188698",
-     "name": "Guangcai Feng",
-     "n": 42
-    },
-    {
-     "id": "A5019950421",
-     "name": "Bing Xu",
-     "n": 24
-    },
-    {
-     "id": "A5061008079",
-     "name": "Jihong Liu",
-     "n": 22
-    },
-    {
-     "id": "A5090637514",
-     "name": "Lixin Wu",
-     "n": 18
-    },
-    {
-     "id": "A5088356096",
-     "name": "Wenbin Xu",
-     "n": 16
-    },
-    {
-     "id": "A5074072878",
-     "name": "Zefa Yang",
-     "n": 15
-    },
-    {
-     "id": "A5065299099",
-     "name": "Yunmeng Cao",
-     "n": 14
-    },
-    {
-     "id": "A5101500434",
-     "name": "Qian Sun",
-     "n": 14
-    },
-    {
-     "id": "A5008517057",
-     "name": "Xiaoli Ding",
-     "n": 12
-    },
-    {
-     "id": "A5030026085",
-     "name": "Meng Duan",
-     "n": 11
-    },
-    {
-     "id": "A5100743178",
-     "name": "Jia Li",
-     "n": 11
-    },
-    {
-     "id": "A5029527420",
-     "name": "Haiqiang Fu",
-     "n": 10
-    }
-   ]
-  },
-  {
    "id": "A5045584015",
    "name": "Antero Kukko",
    "orcid": "https://orcid.org/0000-0002-3841-6533",
    "institution": "Finnish Geospatial Research Institute",
    "country": "FI",
-   "h_index": 52,
-   "cited_by": 11549,
-   "works": 294,
+   "h_index": 54,
+   "cited_by": 12213,
+   "works": 295,
    "expertise": [
     "3D Surveying and Cultural Heritage",
     "Remote Sensing and LiDAR Applications",
@@ -5816,18 +5826,18 @@
     "lidar": 6
    },
    "recent": {
-    "lidar": 290
+    "lidar": 293
    },
    "collab": [
     {
      "id": "A5033042071",
      "name": "Juha M. Hyyppa",
-     "n": 134
+     "n": 135
     },
     {
      "id": "A5043014786",
      "name": "Harri Kaartinen",
-     "n": 116
+     "n": 117
     },
     {
      "id": "A5011450440",
@@ -5894,113 +5904,13 @@
    "department": "Remote Sensing and Photogrammetry"
   },
   {
-   "id": "A5100772177",
-   "name": "Bisheng Yang",
-   "orcid": "https://orcid.org/0000-0001-7736-0803",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 52,
-   "cited_by": 8930,
-   "works": 296,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "3D Shape Modeling and Analysis",
-    "Robotics and Sensor-Based Localization",
-    "Remote Sensing and LiDAR Applications",
-    "3D Modeling in Geospatial Applications"
-   ],
-   "fields": [
-    "lidar"
-   ],
-   "rank": {
-    "lidar": 13
-   },
-   "recent": {
-    "lidar": 252
-   },
-   "collab": [
-    {
-     "id": "A5070096266",
-     "name": "Zhen Dong",
-     "n": 106
-    },
-    {
-     "id": "A5025323734",
-     "name": "Fuxun Liang",
-     "n": 53
-    },
-    {
-     "id": "A5034194344",
-     "name": "Yuan Liu",
-     "n": 21
-    },
-    {
-     "id": "A5084233647",
-     "name": "Xiaoxin Mi",
-     "n": 20
-    },
-    {
-     "id": "A5035592893",
-     "name": "Weitong Wu",
-     "n": 19
-    },
-    {
-     "id": "A5007334941",
-     "name": "Ronggang Huang",
-     "n": 15
-    },
-    {
-     "id": "A5103170396",
-     "name": "Shangzhe Sun",
-     "n": 15
-    },
-    {
-     "id": "A5093307372",
-     "name": "Liuchun Li",
-     "n": 14
-    },
-    {
-     "id": "A5077549923",
-     "name": "Chi Chen",
-     "n": 12
-    },
-    {
-     "id": "A5113960734",
-     "name": "Wenxia Dai",
-     "n": 12
-    },
-    {
-     "id": "A5002619272",
-     "name": "Yangzi Cong",
-     "n": 11
-    },
-    {
-     "id": "A5047059705",
-     "name": "Zhiye Wang",
-     "n": 10
-    },
-    {
-     "id": "A5100672256",
-     "name": "Haiping Wang",
-     "n": 10
-    },
-    {
-     "id": "A5053039486",
-     "name": "Xianghong Zou",
-     "n": 9
-    }
-   ],
-   "position": "Professor",
-   "department": "State Key Laboratory of Information Engineering in  Surveying, Mapping and Remote Sensing"
-  },
-  {
    "id": "A5075301188",
    "name": "Abbas Rajabifard",
    "orcid": "https://orcid.org/0000-0002-4256-3173",
    "institution": "The University of Melbourne",
    "country": "AU",
-   "h_index": 52,
-   "cited_by": 11757,
+   "h_index": 54,
+   "cited_by": 12281,
    "works": 612,
    "expertise": [
     "3D Modeling in Geospatial Applications",
@@ -6092,298 +6002,100 @@
    ]
   },
   {
-   "id": "A5053008757",
-   "name": "Uwe Stilla",
-   "orcid": "https://orcid.org/0000-0002-1184-0924",
-   "institution": "Technical University of Munich",
-   "country": "DE",
-   "h_index": 51,
-   "cited_by": 11836,
-   "works": 501,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Automated Road and Building Extraction",
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Satellite Image Processing and Photogrammetry",
-    "Remote Sensing and LiDAR Applications"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 9
-   },
-   "recent": {
-    "photogrammetry": 180
-   },
-   "collab": [
-    {
-     "id": "A5040430485",
-     "name": "Ludwig Hoegner",
-     "n": 62
-    },
-    {
-     "id": "A5100419175",
-     "name": "Yusheng Xu",
-     "n": 52
-    },
-    {
-     "id": "A5030255169",
-     "name": "Marcus Hebel",
-     "n": 20
-    },
-    {
-     "id": "A5067646077",
-     "name": "Sebastian Tuttas",
-     "n": 19
-    },
-    {
-     "id": "A5100647649",
-     "name": "Wei Yao",
-     "n": 19
-    },
-    {
-     "id": "A5000041406",
-     "name": "Michael Arens",
-     "n": 15
-    },
-    {
-     "id": "A5032140742",
-     "name": "Rong Huang",
-     "n": 14
-    },
-    {
-     "id": "A5039348214",
-     "name": "Xiaohua Tong",
-     "n": 10
-    },
-    {
-     "id": "A5065349541",
-     "name": "Richard Boerner",
-     "n": 10
-    },
-    {
-     "id": "A5071722566",
-     "name": "Olaf Wysocki",
-     "n": 10
-    },
-    {
-     "id": "A5022977818",
-     "name": "Eckart Michaelsen",
-     "n": 9
-    },
-    {
-     "id": "A5025703498",
-     "name": "Joachim Gehrung",
-     "n": 9
-    },
-    {
-     "id": "A5008602593",
-     "name": "Björn Borgmann",
-     "n": 7
-    },
-    {
-     "id": "A5026782796",
-     "name": "Franz Quint",
-     "n": 7
-    }
-   ],
-   "position": "Head",
-   "department": "Photogrammetry & Remote Sensing"
-  },
-  {
-   "id": "A5100660972",
-   "name": "Jianyu Yang",
-   "orcid": "https://orcid.org/0000-0002-4726-8384",
-   "institution": "University of Electronic Science and Technology of China",
+   "id": "A5029039359",
+   "name": "Zhiwei Li",
+   "orcid": "https://orcid.org/0000-0003-4575-5258",
+   "institution": "Central South University",
    "country": "CN",
-   "h_index": 51,
-   "cited_by": 10860,
-   "works": 1020,
+   "h_index": 53,
+   "cited_by": 12391,
+   "works": 534,
    "expertise": [
-    "Advanced SAR Imaging Techniques",
-    "Radar Systems and Signal Processing",
     "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Image and Signal Denoising Methods",
-    "Direction-of-Arrival Estimation Techniques"
+    "Advanced SAR Imaging Techniques",
+    "Soil Moisture and Remote Sensing",
+    "earthquake and tectonic studies",
+    "Satellite Image Processing and Photogrammetry"
    ],
    "fields": [
     "sar"
    ],
    "rank": {
-    "sar": 11
+    "sar": 14
    },
    "recent": {
-    "sar": 271
+    "sar": 252
    },
    "collab": [
     {
-     "id": "A5027924825",
-     "name": "Yulin Huang",
-     "n": 319
-    },
-    {
-     "id": "A5030746978",
-     "name": "Junjie Wu",
-     "n": 307
-    },
-    {
-     "id": "A5100343725",
-     "name": "Yin Zhang",
-     "n": 195
-    },
-    {
-     "id": "A5100735598",
-     "name": "Zhongyu Li",
-     "n": 175
-    },
-    {
-     "id": "A5100736674",
-     "name": "Yongchao Zhang",
-     "n": 121
-    },
-    {
-     "id": "A5027281041",
-     "name": "Deqing Mao",
-     "n": 98
-    },
-    {
-     "id": "A5013688635",
-     "name": "Jifang Pei",
-     "n": 95
-    },
-    {
-     "id": "A5100555952",
-     "name": "Haiguang Yang",
-     "n": 78
-    },
-    {
-     "id": "A5034477287",
-     "name": "Zhichao Sun",
-     "n": 70
-    },
-    {
-     "id": "A5082373387",
-     "name": "Wenchao Li",
-     "n": 70
-    },
-    {
-     "id": "A5032659310",
-     "name": "Hongyang An",
-     "n": 64
-    },
-    {
-     "id": "A5026843046",
-     "name": "Weibo Huo",
-     "n": 63
-    },
-    {
-     "id": "A5100782023",
-     "name": "Wei Pu",
-     "n": 50
-    },
-    {
-     "id": "A5016297588",
-     "name": "Qing Hui Yang",
-     "n": 31
-    }
-   ]
-  },
-  {
-   "id": "A5086407273",
-   "name": "Diego González‐Aguilera",
-   "orcid": "https://orcid.org/0000-0002-8949-4216",
-   "institution": "Universidad de Salamanca",
-   "country": "ES",
-   "h_index": 50,
-   "cited_by": 8393,
-   "works": 376,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "3D Modeling in Geospatial Applications",
-    "Geodetic Measurements and Engineering Structures",
-    "Pleistocene-Era Hominins and Archaeology",
-    "Satellite Image Processing and Photogrammetry"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 18
-   },
-   "recent": {
-    "photogrammetry": 139
-   },
-   "collab": [
-    {
-     "id": "A5041043667",
-     "name": "Miguel Ángel Maté‐González",
-     "n": 61
-    },
-    {
-     "id": "A5025469590",
-     "name": "Cristina Sáez Blázquez",
+     "id": "A5071442799",
+     "name": "Jun Hu",
      "n": 54
     },
     {
-     "id": "A5088067587",
-     "name": "Pablo Rodríguez‐Gonzálvez",
-     "n": 50
+     "id": "A5017058983",
+     "name": "Jianjun Zhu",
+     "n": 52
     },
     {
-     "id": "A5079367441",
-     "name": "Luis Javier Sánchez-Aparicio",
-     "n": 43
+     "id": "A5059188698",
+     "name": "Guangcai Feng",
+     "n": 42
     },
     {
-     "id": "A5060028608",
-     "name": "Ignacio Martín Nieto",
-     "n": 41
+     "id": "A5019950421",
+     "name": "Bing Xu",
+     "n": 24
     },
     {
-     "id": "A5011690768",
-     "name": "José Yravedra",
-     "n": 38
-    },
-    {
-     "id": "A5030432306",
-     "name": "Lloyd A. Courtenay",
-     "n": 37
-    },
-    {
-     "id": "A5054952360",
-     "name": "David Hernández‐López",
-     "n": 37
-    },
-    {
-     "id": "A5059839733",
-     "name": "Arturo Farfán Martín",
-     "n": 37
-    },
-    {
-     "id": "A5057882277",
-     "name": "Susana Del Pozo",
-     "n": 30
-    },
-    {
-     "id": "A5082578952",
-     "name": "Julia Aramendi",
-     "n": 26
-    },
-    {
-     "id": "A5091178677",
-     "name": "S. Lagüela",
+     "id": "A5061008079",
+     "name": "Jihong Liu",
      "n": 22
     },
     {
-     "id": "A5088875746",
-     "name": "Pedro Carrasco García",
-     "n": 19
+     "id": "A5090637514",
+     "name": "Lixin Wu",
+     "n": 18
     },
     {
-     "id": "A5036783840",
-     "name": "Manuel Rodríguez‐Martín",
-     "n": 17
+     "id": "A5088356096",
+     "name": "Wenbin Xu",
+     "n": 16
+    },
+    {
+     "id": "A5074072878",
+     "name": "Zefa Yang",
+     "n": 15
+    },
+    {
+     "id": "A5065299099",
+     "name": "Yunmeng Cao",
+     "n": 14
+    },
+    {
+     "id": "A5101500434",
+     "name": "Qian Sun",
+     "n": 14
+    },
+    {
+     "id": "A5008517057",
+     "name": "Xiaoli Ding",
+     "n": 12
+    },
+    {
+     "id": "A5030026085",
+     "name": "Meng Duan",
+     "n": 11
+    },
+    {
+     "id": "A5100743178",
+     "name": "Jia Li",
+     "n": 11
+    },
+    {
+     "id": "A5029527420",
+     "name": "Haiqiang Fu",
+     "n": 10
     }
    ]
   },
@@ -6393,8 +6105,8 @@
    "orcid": "https://orcid.org/0000-0002-4562-2538",
    "institution": "Ghent University",
    "country": "BE",
-   "h_index": 50,
-   "cited_by": 9993,
+   "h_index": 53,
+   "cited_by": 10647,
    "works": 314,
    "expertise": [
     "Remote Sensing and LiDAR Applications",
@@ -6486,14 +6198,416 @@
    ]
   },
   {
+   "id": "A5053008757",
+   "name": "Uwe Stilla",
+   "orcid": "https://orcid.org/0000-0002-1184-0924",
+   "institution": "Technical University of Munich",
+   "country": "DE",
+   "h_index": 52,
+   "cited_by": 12175,
+   "works": 501,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "Automated Road and Building Extraction",
+    "Remote Sensing and LiDAR Applications",
+    "Synthetic Aperture Radar (SAR) Applications and Techniques",
+    "Satellite Image Processing and Photogrammetry"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 7
+   },
+   "recent": {
+    "photogrammetry": 184
+   },
+   "collab": [
+    {
+     "id": "A5040430485",
+     "name": "Ludwig Hoegner",
+     "n": 62
+    },
+    {
+     "id": "A5100419175",
+     "name": "Yusheng Xu",
+     "n": 52
+    },
+    {
+     "id": "A5030255169",
+     "name": "Marcus Hebel",
+     "n": 20
+    },
+    {
+     "id": "A5067646077",
+     "name": "Sebastian Tuttas",
+     "n": 19
+    },
+    {
+     "id": "A5100647649",
+     "name": "Wei Yao",
+     "n": 19
+    },
+    {
+     "id": "A5000041406",
+     "name": "Michael Arens",
+     "n": 15
+    },
+    {
+     "id": "A5032140742",
+     "name": "Rong Huang",
+     "n": 14
+    },
+    {
+     "id": "A5039348214",
+     "name": "Xiaohua Tong",
+     "n": 10
+    },
+    {
+     "id": "A5065349541",
+     "name": "Richard Boerner",
+     "n": 10
+    },
+    {
+     "id": "A5071722566",
+     "name": "Olaf Wysocki",
+     "n": 10
+    },
+    {
+     "id": "A5022977818",
+     "name": "Eckart Michaelsen",
+     "n": 9
+    },
+    {
+     "id": "A5025703498",
+     "name": "Joachim Gehrung",
+     "n": 9
+    },
+    {
+     "id": "A5008602593",
+     "name": "Björn Borgmann",
+     "n": 7
+    },
+    {
+     "id": "A5026782796",
+     "name": "Franz Quint",
+     "n": 7
+    }
+   ],
+   "position": "Head",
+   "department": "Photogrammetry & Remote Sensing"
+  },
+  {
+   "id": "A5100772177",
+   "name": "Bisheng Yang",
+   "orcid": "https://orcid.org/0000-0001-7736-0803",
+   "institution": "Wuhan University",
+   "country": "CN",
+   "h_index": 52,
+   "cited_by": 9310,
+   "works": 296,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "3D Shape Modeling and Analysis",
+    "Robotics and Sensor-Based Localization",
+    "Remote Sensing and LiDAR Applications",
+    "3D Modeling in Geospatial Applications"
+   ],
+   "fields": [
+    "lidar"
+   ],
+   "rank": {
+    "lidar": 14
+   },
+   "recent": {
+    "lidar": 252
+   },
+   "collab": [
+    {
+     "id": "A5070096266",
+     "name": "Zhen Dong",
+     "n": 106
+    },
+    {
+     "id": "A5025323734",
+     "name": "Fuxun Liang",
+     "n": 53
+    },
+    {
+     "id": "A5034194344",
+     "name": "Yuan Liu",
+     "n": 21
+    },
+    {
+     "id": "A5084233647",
+     "name": "Xiaoxin Mi",
+     "n": 20
+    },
+    {
+     "id": "A5035592893",
+     "name": "Weitong Wu",
+     "n": 19
+    },
+    {
+     "id": "A5007334941",
+     "name": "Ronggang Huang",
+     "n": 15
+    },
+    {
+     "id": "A5103170396",
+     "name": "Shangzhe Sun",
+     "n": 15
+    },
+    {
+     "id": "A5093307372",
+     "name": "Liuchun Li",
+     "n": 14
+    },
+    {
+     "id": "A5077549923",
+     "name": "Chi Chen",
+     "n": 12
+    },
+    {
+     "id": "A5113960734",
+     "name": "Wenxia Dai",
+     "n": 12
+    },
+    {
+     "id": "A5002619272",
+     "name": "Yangzi Cong",
+     "n": 11
+    },
+    {
+     "id": "A5047059705",
+     "name": "Zhiye Wang",
+     "n": 10
+    },
+    {
+     "id": "A5100672256",
+     "name": "Haiping Wang",
+     "n": 10
+    },
+    {
+     "id": "A5053039486",
+     "name": "Xianghong Zou",
+     "n": 9
+    }
+   ],
+   "position": "Professor",
+   "department": "State Key Laboratory of Information Engineering in  Surveying, Mapping and Remote Sensing"
+  },
+  {
+   "id": "A5100660972",
+   "name": "Jianyu Yang",
+   "orcid": "https://orcid.org/0000-0002-4726-8384",
+   "institution": "University of Electronic Science and Technology of China",
+   "country": "CN",
+   "h_index": 51,
+   "cited_by": 11043,
+   "works": 1020,
+   "expertise": [
+    "Advanced SAR Imaging Techniques",
+    "Radar Systems and Signal Processing",
+    "Synthetic Aperture Radar (SAR) Applications and Techniques",
+    "Image and Signal Denoising Methods",
+    "Direction-of-Arrival Estimation Techniques"
+   ],
+   "fields": [
+    "sar"
+   ],
+   "rank": {
+    "sar": 11
+   },
+   "recent": {
+    "sar": 270
+   },
+   "collab": [
+    {
+     "id": "A5027924825",
+     "name": "Yulin Huang",
+     "n": 319
+    },
+    {
+     "id": "A5030746978",
+     "name": "Junjie Wu",
+     "n": 307
+    },
+    {
+     "id": "A5100343725",
+     "name": "Yin Zhang",
+     "n": 195
+    },
+    {
+     "id": "A5100735598",
+     "name": "Zhongyu Li",
+     "n": 175
+    },
+    {
+     "id": "A5100736674",
+     "name": "Yongchao Zhang",
+     "n": 121
+    },
+    {
+     "id": "A5027281041",
+     "name": "Deqing Mao",
+     "n": 98
+    },
+    {
+     "id": "A5013688635",
+     "name": "Jifang Pei",
+     "n": 95
+    },
+    {
+     "id": "A5100555952",
+     "name": "Haiguang Yang",
+     "n": 78
+    },
+    {
+     "id": "A5034477287",
+     "name": "Zhichao Sun",
+     "n": 70
+    },
+    {
+     "id": "A5082373387",
+     "name": "Wenchao Li",
+     "n": 70
+    },
+    {
+     "id": "A5032659310",
+     "name": "Hongyang An",
+     "n": 64
+    },
+    {
+     "id": "A5026843046",
+     "name": "Weibo Huo",
+     "n": 63
+    },
+    {
+     "id": "A5100782023",
+     "name": "Wei Pu",
+     "n": 50
+    },
+    {
+     "id": "A5016297588",
+     "name": "Qing Hui Yang",
+     "n": 31
+    }
+   ]
+  },
+  {
+   "id": "A5012278795",
+   "name": "Jantien Stoter",
+   "orcid": "https://orcid.org/0000-0002-1393-7279",
+   "institution": "Delft University of Technology",
+   "country": "NL",
+   "h_index": 51,
+   "cited_by": 10268,
+   "works": 538,
+   "expertise": [
+    "3D Modeling in Geospatial Applications",
+    "Geographic Information Systems Studies",
+    "3D Surveying and Cultural Heritage",
+    "Geological Modeling and Analysis",
+    "Underground infrastructure and sustainability"
+   ],
+   "fields": [
+    "city-bim"
+   ],
+   "rank": {
+    "city-bim": 2
+   },
+   "recent": {
+    "city-bim": 256
+   },
+   "collab": [
+    {
+     "id": "A5070342940",
+     "name": "Ken Arroyo Ohori",
+     "n": 60
+    },
+    {
+     "id": "A5047673695",
+     "name": "Hugo Ledoux",
+     "n": 50
+    },
+    {
+     "id": "A5010235735",
+     "name": "Filip Biljecki",
+     "n": 37
+    },
+    {
+     "id": "A5004741098",
+     "name": "Francesca Noardo",
+     "n": 31
+    },
+    {
+     "id": "A5073620727",
+     "name": "Claire Ellul",
+     "n": 26
+    },
+    {
+     "id": "A5007673795",
+     "name": "Thomas Krijnen",
+     "n": 25
+    },
+    {
+     "id": "A5027616562",
+     "name": "Liangliang Nan",
+     "n": 23
+    },
+    {
+     "id": "A5043913530",
+     "name": "Lars Harrie",
+     "n": 22
+    },
+    {
+     "id": "A5000298644",
+     "name": "Giorgio Agugiaro",
+     "n": 18
+    },
+    {
+     "id": "A5016572093",
+     "name": "Kavisha Kumar",
+     "n": 16
+    },
+    {
+     "id": "A5053347927",
+     "name": "Ravi Peters",
+     "n": 15
+    },
+    {
+     "id": "A5068427631",
+     "name": "Stelios Vitalis",
+     "n": 15
+    },
+    {
+     "id": "A5026844810",
+     "name": "Anna Labetski",
+     "n": 14
+    },
+    {
+     "id": "A5070887627",
+     "name": "Balázs Dukai",
+     "n": 14
+    }
+   ],
+   "links": [
+    {
+     "name": "Delft University of Technology profile p",
+     "url": "https://research.tudelft.nl/en/persons/1f6b45c5-44ba-4745-a730-d5d3e627e3db"
+    }
+   ]
+  },
+  {
    "id": "A5065119769",
    "name": "Samad M. E. Sepasgozar",
    "orcid": "https://orcid.org/0000-0003-2568-3111",
    "institution": "UNSW Sydney",
    "country": "AU",
-   "h_index": 50,
-   "cited_by": 9183,
-   "works": 233,
+   "h_index": 51,
+   "cited_by": 9748,
+   "works": 234,
    "expertise": [
     "BIM and Construction Integration",
     "Construction Project Management and Performance",
@@ -6508,7 +6622,7 @@
     "city-bim": 18
    },
    "recent": {
-    "city-bim": 79
+    "city-bim": 80
    },
    "collab": [
     {
@@ -6589,8 +6703,8 @@
    "orcid": "https://orcid.org/0000-0002-1787-5191",
    "institution": "Hong Kong Polytechnic University",
    "country": "HK",
-   "h_index": 50,
-   "cited_by": 9381,
+   "h_index": 51,
+   "cited_by": 10010,
    "works": 731,
    "expertise": [
     "GNSS positioning and interference",
@@ -6682,13 +6796,111 @@
    ]
   },
   {
+   "id": "A5086407273",
+   "name": "Diego González‐Aguilera",
+   "orcid": "https://orcid.org/0000-0002-8949-4216",
+   "institution": "Universidad de Salamanca",
+   "country": "ES",
+   "h_index": 50,
+   "cited_by": 8721,
+   "works": 376,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "3D Modeling in Geospatial Applications",
+    "Geodetic Measurements and Engineering Structures",
+    "Pleistocene-Era Hominins and Archaeology",
+    "Satellite Image Processing and Photogrammetry"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 18
+   },
+   "recent": {
+    "photogrammetry": 139
+   },
+   "collab": [
+    {
+     "id": "A5041043667",
+     "name": "Miguel Ángel Maté‐González",
+     "n": 61
+    },
+    {
+     "id": "A5025469590",
+     "name": "Cristina Sáez Blázquez",
+     "n": 54
+    },
+    {
+     "id": "A5088067587",
+     "name": "Pablo Rodríguez‐Gonzálvez",
+     "n": 50
+    },
+    {
+     "id": "A5079367441",
+     "name": "Luis Javier Sánchez-Aparicio",
+     "n": 43
+    },
+    {
+     "id": "A5060028608",
+     "name": "Ignacio Martín Nieto",
+     "n": 41
+    },
+    {
+     "id": "A5011690768",
+     "name": "José Yravedra",
+     "n": 38
+    },
+    {
+     "id": "A5030432306",
+     "name": "Lloyd A. Courtenay",
+     "n": 37
+    },
+    {
+     "id": "A5054952360",
+     "name": "David Hernández‐López",
+     "n": 37
+    },
+    {
+     "id": "A5059839733",
+     "name": "Arturo Farfán Martín",
+     "n": 37
+    },
+    {
+     "id": "A5057882277",
+     "name": "Susana Del Pozo",
+     "n": 30
+    },
+    {
+     "id": "A5082578952",
+     "name": "Julia Aramendi",
+     "n": 26
+    },
+    {
+     "id": "A5091178677",
+     "name": "S. Lagüela",
+     "n": 22
+    },
+    {
+     "id": "A5088875746",
+     "name": "Pedro Carrasco García",
+     "n": 19
+    },
+    {
+     "id": "A5036783840",
+     "name": "Manuel Rodríguez‐Martín",
+     "n": 17
+    }
+   ]
+  },
+  {
    "id": "A5047838080",
    "name": "Mikko Vastaranta",
    "orcid": "https://orcid.org/0000-0001-6552-9122",
    "institution": "University of Eastern Finland",
    "country": "FI",
-   "h_index": 49,
-   "cited_by": 11384,
+   "h_index": 50,
+   "cited_by": 12038,
    "works": 290,
    "expertise": [
     "Remote Sensing and LiDAR Applications",
@@ -6798,7 +7010,7 @@
    "institution": "Wuhan University",
    "country": "CN",
    "h_index": 49,
-   "cited_by": 8741,
+   "cited_by": 8923,
    "works": 312,
    "expertise": [
     "GNSS positioning and interference",
@@ -6890,206 +7102,202 @@
    ]
   },
   {
-   "id": "A5012278795",
-   "name": "Jantien Stoter",
-   "orcid": "https://orcid.org/0000-0002-1393-7279",
-   "institution": "Delft University of Technology",
-   "country": "NL",
+   "id": "A5072456620",
+   "name": "Adrian Jäggi",
+   "orcid": "https://orcid.org/0000-0002-5624-3410",
+   "institution": "University of Bern",
+   "country": "CH",
    "h_index": 48,
-   "cited_by": 9613,
-   "works": 539,
-   "expertise": [
-    "3D Modeling in Geospatial Applications",
-    "Geographic Information Systems Studies",
-    "3D Surveying and Cultural Heritage",
-    "Geological Modeling and Analysis",
-    "Underground infrastructure and sustainability"
-   ],
-   "fields": [
-    "city-bim"
-   ],
-   "rank": {
-    "city-bim": 2
-   },
-   "recent": {
-    "city-bim": 256
-   },
-   "collab": [
-    {
-     "id": "A5070342940",
-     "name": "Ken Arroyo Ohori",
-     "n": 60
-    },
-    {
-     "id": "A5047673695",
-     "name": "Hugo Ledoux",
-     "n": 50
-    },
-    {
-     "id": "A5010235735",
-     "name": "Filip Biljecki",
-     "n": 37
-    },
-    {
-     "id": "A5004741098",
-     "name": "Francesca Noardo",
-     "n": 31
-    },
-    {
-     "id": "A5073620727",
-     "name": "Claire Ellul",
-     "n": 26
-    },
-    {
-     "id": "A5007673795",
-     "name": "Thomas Krijnen",
-     "n": 25
-    },
-    {
-     "id": "A5027616562",
-     "name": "Liangliang Nan",
-     "n": 23
-    },
-    {
-     "id": "A5043913530",
-     "name": "Lars Harrie",
-     "n": 22
-    },
-    {
-     "id": "A5000298644",
-     "name": "Giorgio Agugiaro",
-     "n": 18
-    },
-    {
-     "id": "A5016572093",
-     "name": "Kavisha Kumar",
-     "n": 16
-    },
-    {
-     "id": "A5053347927",
-     "name": "Ravi Peters",
-     "n": 15
-    },
-    {
-     "id": "A5068427631",
-     "name": "Stelios Vitalis",
-     "n": 15
-    },
-    {
-     "id": "A5026844810",
-     "name": "Anna Labetski",
-     "n": 14
-    },
-    {
-     "id": "A5070887627",
-     "name": "Balázs Dukai",
-     "n": 14
-    }
-   ],
-   "links": [
-    {
-     "name": "Delft University of Technology profile p",
-     "url": "https://research.tudelft.nl/en/persons/1f6b45c5-44ba-4745-a730-d5d3e627e3db"
-    }
-   ]
-  },
-  {
-   "id": "A5100330113",
-   "name": "Xiaohong Zhang",
-   "orcid": "https://orcid.org/0000-0002-2763-2548",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 47,
-   "cited_by": 7630,
-   "works": 327,
+   "cited_by": 8385,
+   "works": 586,
    "expertise": [
     "GNSS positioning and interference",
+    "Geophysics and Gravity Measurements",
     "Statistical and numerical algorithms",
-    "Ionosphere and magnetosphere dynamics",
-    "Inertial Sensor and Navigation",
-    "Earthquake Detection and Analysis"
+    "Space Satellite Systems and Control",
+    "Spacecraft Dynamics and Control"
    ],
    "fields": [
     "geodesy"
    ],
    "rank": {
-    "geodesy": 13
+    "geodesy": 9
    },
    "recent": {
-    "geodesy": 161
+    "geodesy": 207
    },
    "collab": [
     {
-     "id": "A5002550938",
-     "name": "Xiaodong Ren",
-     "n": 50
+     "id": "A5019549039",
+     "name": "Daniel Arnold",
+     "n": 125
     },
     {
-     "id": "A5100334114",
-     "name": "Fei Guo",
-     "n": 27
+     "id": "A5012265681",
+     "name": "Rolf Dach",
+     "n": 87
     },
     {
-     "id": "A5100661809",
-     "name": "Xingxing Li",
-     "n": 27
+     "id": "A5051337374",
+     "name": "Daniel Arnold",
+     "n": 52
     },
     {
-     "id": "A5017475936",
-     "name": "Feng Zhu",
+     "id": "A5001000638",
+     "name": "Martin Lasser",
+     "n": 44
+    },
+    {
+     "id": "A5087463864",
+     "name": "Arturo Villiger",
+     "n": 43
+    },
+    {
+     "id": "A5057046154",
+     "name": "Torsten Mayer‐Gürr",
+     "n": 39
+    },
+    {
+     "id": "A5068568420",
+     "name": "Lars Prange",
+     "n": 37
+    },
+    {
+     "id": "A5056362322",
+     "name": "Christoph Dahle",
+     "n": 34
+    },
+    {
+     "id": "A5016097845",
+     "name": "Andreas Kvas",
      "n": 24
     },
     {
-     "id": "A5053240621",
-     "name": "Wanke Liu",
+     "id": "A5032359604",
+     "name": "Stefan Schaer",
      "n": 24
     },
     {
-     "id": "A5015764816",
-     "name": "Dengkui Mei",
-     "n": 19
+     "id": "A5041986536",
+     "name": "Gerhard Beutler",
+     "n": 24
     },
     {
-     "id": "A5015880880",
-     "name": "Mohamed Freeshah",
-     "n": 16
+     "id": "A5052324851",
+     "name": "S. Bertone",
+     "n": 24
     },
     {
-     "id": "A5100338949",
-     "name": "Hang Liu",
-     "n": 16
+     "id": "A5055469319",
+     "name": "Krzysztof Sośnica",
+     "n": 24
     },
     {
-     "id": "A5026005771",
-     "name": "Lin Pan",
-     "n": 14
-    },
-    {
-     "id": "A5084881697",
-     "name": "Cuixian Lu",
-     "n": 12
-    },
-    {
-     "id": "A5100455189",
-     "name": "Pan Li",
-     "n": 12
-    },
-    {
-     "id": "A5014145696",
-     "name": "Harald Schuh",
-     "n": 11
-    },
-    {
-     "id": "A5062641275",
-     "name": "Xuan Le",
-     "n": 11
-    },
-    {
-     "id": "A5100443058",
-     "name": "Zhiyu Zhang",
-     "n": 11
+     "id": "A5056115888",
+     "name": "Frank Flechtner",
+     "n": 23
     }
    ]
+  },
+  {
+   "id": "A5010833142",
+   "name": "Eija Honkavaara",
+   "orcid": "https://orcid.org/0000-0002-7236-2145",
+   "institution": "Finnish Geospatial Research Institute",
+   "country": "FI",
+   "h_index": 47,
+   "cited_by": 9160,
+   "works": 285,
+   "expertise": [
+    "Remote Sensing and LiDAR Applications",
+    "3D Surveying and Cultural Heritage",
+    "Satellite Image Processing and Photogrammetry",
+    "Remote Sensing in Agriculture",
+    "Remote-Sensing Image Classification"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 6
+   },
+   "recent": {
+    "photogrammetry": 203
+   },
+   "collab": [
+    {
+     "id": "A5018473742",
+     "name": "Roope Näsi",
+     "n": 60
+    },
+    {
+     "id": "A5011450440",
+     "name": "Teemu Hakala",
+     "n": 53
+    },
+    {
+     "id": "A5062318076",
+     "name": "Raquel Alves de Oliveira",
+     "n": 43
+    },
+    {
+     "id": "A5033610179",
+     "name": "Antônio Maria Garcia Tommaselli",
+     "n": 42
+    },
+    {
+     "id": "A5037907825",
+     "name": "Niko Koivumäki",
+     "n": 39
+    },
+    {
+     "id": "A5112259914",
+     "name": "Niko Viljanen",
+     "n": 33
+    },
+    {
+     "id": "A5052882148",
+     "name": "Nilton Nobuhiro Imai",
+     "n": 25
+    },
+    {
+     "id": "A5014491014",
+     "name": "Juha M. Suomalainen",
+     "n": 22
+    },
+    {
+     "id": "A5086480276",
+     "name": "Lauri Markelin",
+     "n": 22
+    },
+    {
+     "id": "A5013773185",
+     "name": "Ilkka Pölönen",
+     "n": 21
+    },
+    {
+     "id": "A5033042071",
+     "name": "Juha M. Hyyppa",
+     "n": 21
+    },
+    {
+     "id": "A5047838080",
+     "name": "Mikko Vastaranta",
+     "n": 21
+    },
+    {
+     "id": "A5013945451",
+     "name": "Adilson Berveglieri",
+     "n": 18
+    },
+    {
+     "id": "A5045296703",
+     "name": "Jere Kaivosoja",
+     "n": 17
+    }
+   ],
+   "position": "Research Manager",
+   "department": "Remote Sensing and Photogrammetry"
   },
   {
    "id": "A5014080291",
@@ -7097,8 +7305,8 @@
    "orcid": "https://orcid.org/0000-0002-8766-0487",
    "institution": "UNSW Sydney",
    "country": "AU",
-   "h_index": 46,
-   "cited_by": 9930,
+   "h_index": 47,
+   "cited_by": 10430,
    "works": 633,
    "expertise": [
     "3D Modeling in Geospatial Applications",
@@ -7113,7 +7321,7 @@
     "geoinformatics"
    ],
    "rank": {
-    "photogrammetry": 14,
+    "photogrammetry": 15,
     "city-bim": 1,
     "geoinformatics": 5
    },
@@ -7203,8 +7411,8 @@
    "orcid": "https://orcid.org/0000-0001-7434-3696",
    "institution": "GFZ Helmholtz Centre for Geosciences",
    "country": "DE",
-   "h_index": 46,
-   "cited_by": 6949,
+   "h_index": 47,
+   "cited_by": 7246,
    "works": 457,
    "expertise": [
     "Synthetic Aperture Radar (SAR) Applications and Techniques",
@@ -7306,202 +7514,102 @@
    ]
   },
   {
-   "id": "A5072456620",
-   "name": "Adrian Jäggi",
-   "orcid": "https://orcid.org/0000-0002-5624-3410",
-   "institution": "University of Bern",
-   "country": "CH",
-   "h_index": 46,
-   "cited_by": 8107,
-   "works": 586,
+   "id": "A5100330113",
+   "name": "Xiaohong Zhang",
+   "orcid": "https://orcid.org/0000-0002-2763-2548",
+   "institution": "Wuhan University",
+   "country": "CN",
+   "h_index": 47,
+   "cited_by": 7780,
+   "works": 328,
    "expertise": [
     "GNSS positioning and interference",
-    "Geophysics and Gravity Measurements",
     "Statistical and numerical algorithms",
-    "Space Satellite Systems and Control",
-    "Spacecraft Dynamics and Control"
+    "Ionosphere and magnetosphere dynamics",
+    "Inertial Sensor and Navigation",
+    "Earthquake Detection and Analysis"
    ],
    "fields": [
     "geodesy"
    ],
    "rank": {
-    "geodesy": 8
+    "geodesy": 13
    },
    "recent": {
-    "geodesy": 207
+    "geodesy": 161
    },
    "collab": [
     {
-     "id": "A5019549039",
-     "name": "Daniel Arnold",
-     "n": 125
+     "id": "A5002550938",
+     "name": "Xiaodong Ren",
+     "n": 50
     },
     {
-     "id": "A5012265681",
-     "name": "Rolf Dach",
-     "n": 87
+     "id": "A5100334114",
+     "name": "Fei Guo",
+     "n": 27
     },
     {
-     "id": "A5051337374",
-     "name": "Daniel Arnold",
-     "n": 52
+     "id": "A5100661809",
+     "name": "Xingxing Li",
+     "n": 27
     },
     {
-     "id": "A5001000638",
-     "name": "Martin Lasser",
-     "n": 44
-    },
-    {
-     "id": "A5087463864",
-     "name": "Arturo Villiger",
-     "n": 43
-    },
-    {
-     "id": "A5057046154",
-     "name": "Torsten Mayer‐Gürr",
-     "n": 39
-    },
-    {
-     "id": "A5068568420",
-     "name": "Lars Prange",
-     "n": 37
-    },
-    {
-     "id": "A5056362322",
-     "name": "Christoph Dahle",
-     "n": 34
-    },
-    {
-     "id": "A5016097845",
-     "name": "Andreas Kvas",
+     "id": "A5017475936",
+     "name": "Feng Zhu",
      "n": 24
     },
     {
-     "id": "A5032359604",
-     "name": "Stefan Schaer",
+     "id": "A5053240621",
+     "name": "Wanke Liu",
      "n": 24
     },
     {
-     "id": "A5041986536",
-     "name": "Gerhard Beutler",
-     "n": 24
+     "id": "A5015764816",
+     "name": "Dengkui Mei",
+     "n": 19
     },
     {
-     "id": "A5052324851",
-     "name": "S. Bertone",
-     "n": 24
+     "id": "A5015880880",
+     "name": "Mohamed Freeshah",
+     "n": 16
     },
     {
-     "id": "A5055469319",
-     "name": "Krzysztof Sośnica",
-     "n": 24
+     "id": "A5100338949",
+     "name": "Hang Liu",
+     "n": 16
     },
     {
-     "id": "A5056115888",
-     "name": "Frank Flechtner",
-     "n": 23
+     "id": "A5026005771",
+     "name": "Lin Pan",
+     "n": 14
+    },
+    {
+     "id": "A5084881697",
+     "name": "Cuixian Lu",
+     "n": 12
+    },
+    {
+     "id": "A5100455189",
+     "name": "Pan Li",
+     "n": 12
+    },
+    {
+     "id": "A5014145696",
+     "name": "Harald Schuh",
+     "n": 11
+    },
+    {
+     "id": "A5062641275",
+     "name": "Xuan Le",
+     "n": 11
+    },
+    {
+     "id": "A5100443058",
+     "name": "Zhiyu Zhang",
+     "n": 11
     }
    ]
-  },
-  {
-   "id": "A5010833142",
-   "name": "Eija Honkavaara",
-   "orcid": "https://orcid.org/0000-0002-7236-2145",
-   "institution": "Finnish Geospatial Research Institute",
-   "country": "FI",
-   "h_index": 45,
-   "cited_by": 8648,
-   "works": 284,
-   "expertise": [
-    "Remote Sensing and LiDAR Applications",
-    "3D Surveying and Cultural Heritage",
-    "Satellite Image Processing and Photogrammetry",
-    "Remote Sensing in Agriculture",
-    "Remote-Sensing Image Classification"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 6
-   },
-   "recent": {
-    "photogrammetry": 203
-   },
-   "collab": [
-    {
-     "id": "A5018473742",
-     "name": "Roope Näsi",
-     "n": 60
-    },
-    {
-     "id": "A5011450440",
-     "name": "Teemu Hakala",
-     "n": 53
-    },
-    {
-     "id": "A5062318076",
-     "name": "Raquel Alves de Oliveira",
-     "n": 43
-    },
-    {
-     "id": "A5033610179",
-     "name": "Antônio Maria Garcia Tommaselli",
-     "n": 42
-    },
-    {
-     "id": "A5037907825",
-     "name": "Niko Koivumäki",
-     "n": 39
-    },
-    {
-     "id": "A5112259914",
-     "name": "Niko Viljanen",
-     "n": 33
-    },
-    {
-     "id": "A5052882148",
-     "name": "Nilton Nobuhiro Imai",
-     "n": 25
-    },
-    {
-     "id": "A5014491014",
-     "name": "Juha M. Suomalainen",
-     "n": 22
-    },
-    {
-     "id": "A5086480276",
-     "name": "Lauri Markelin",
-     "n": 22
-    },
-    {
-     "id": "A5013773185",
-     "name": "Ilkka Pölönen",
-     "n": 21
-    },
-    {
-     "id": "A5033042071",
-     "name": "Juha M. Hyyppa",
-     "n": 21
-    },
-    {
-     "id": "A5047838080",
-     "name": "Mikko Vastaranta",
-     "n": 21
-    },
-    {
-     "id": "A5013945451",
-     "name": "Adilson Berveglieri",
-     "n": 18
-    },
-    {
-     "id": "A5045296703",
-     "name": "Jere Kaivosoja",
-     "n": 17
-    }
-   ],
-   "position": "Research Manager",
-   "department": "Remote Sensing and Photogrammetry"
   },
   {
    "id": "A5109972324",
@@ -7509,9 +7617,9 @@
    "orcid": "https://orcid.org/0000-0003-3874-4737",
    "institution": "Delft University of Technology",
    "country": "NL",
-   "h_index": 44,
-   "cited_by": 8466,
-   "works": 668,
+   "h_index": 45,
+   "cited_by": 8815,
+   "works": 665,
    "expertise": [
     "3D Modeling in Geospatial Applications",
     "Geographic Information Systems Studies",
@@ -7562,7 +7670,7 @@
     {
      "id": "A5111927328",
      "name": "R. J. Thompson",
-     "n": 23
+     "n": 22
     },
     {
      "id": "A5014080291",
@@ -7575,14 +7683,14 @@
      "n": 15
     },
     {
-     "id": "A5032313309",
-     "name": "Volkan Çağdaş",
-     "n": 14
-    },
-    {
      "id": "A5108708396",
      "name": "Abdullah Alattas",
      "n": 14
+    },
+    {
+     "id": "A5032313309",
+     "name": "Volkan Çağdaş",
+     "n": 13
     },
     {
      "id": "A5024423181",
@@ -7602,112 +7710,14 @@
    ]
   },
   {
-   "id": "A5017058983",
-   "name": "Jianjun Zhu",
-   "orcid": "https://orcid.org/0000-0001-7185-6429",
-   "institution": "Central South University",
-   "country": "CN",
-   "h_index": 43,
-   "cited_by": 7508,
-   "works": 617,
-   "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Soil Moisture and Remote Sensing",
-    "Remote Sensing and LiDAR Applications",
-    "Advanced SAR Imaging Techniques",
-    "Satellite Image Processing and Photogrammetry"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 6
-   },
-   "recent": {
-    "sar": 344
-   },
-   "collab": [
-    {
-     "id": "A5029527420",
-     "name": "Haiqiang Fu",
-     "n": 111
-    },
-    {
-     "id": "A5029039359",
-     "name": "Zhiwei Li",
-     "n": 52
-    },
-    {
-     "id": "A5078501240",
-     "name": "Changcheng Wang",
-     "n": 45
-    },
-    {
-     "id": "A5082102192",
-     "name": "Qinghua Xie",
-     "n": 44
-    },
-    {
-     "id": "A5071442799",
-     "name": "Jun Hu",
-     "n": 42
-    },
-    {
-     "id": "A5068229249",
-     "name": "Juan Manuel Lopez-Sanchez",
-     "n": 23
-    },
-    {
-     "id": "A5059188698",
-     "name": "Guangcai Feng",
-     "n": 20
-    },
-    {
-     "id": "A5025878407",
-     "name": "Xing Peng",
-     "n": 18
-    },
-    {
-     "id": "A5074072878",
-     "name": "Zefa Yang",
-     "n": 17
-    },
-    {
-     "id": "A5087595508",
-     "name": "Yanzhou Xie",
-     "n": 16
-    },
-    {
-     "id": "A5013069605",
-     "name": "Peng Shen",
-     "n": 13
-    },
-    {
-     "id": "A5014580744",
-     "name": "Cui Zhou",
-     "n": 13
-    },
-    {
-     "id": "A5085897739",
-     "name": "Wentao Han",
-     "n": 12
-    },
-    {
-     "id": "A5093102714",
-     "name": "Huacan Hu",
-     "n": 12
-    }
-   ]
-  },
-  {
    "id": "A5055241681",
    "name": "Qile Zhao",
    "orcid": "https://orcid.org/0000-0003-3957-6376",
    "institution": "Wuhan University",
    "country": "CN",
-   "h_index": 43,
-   "cited_by": 7094,
-   "works": 279,
+   "h_index": 44,
+   "cited_by": 7247,
+   "works": 280,
    "expertise": [
     "GNSS positioning and interference",
     "Statistical and numerical algorithms",
@@ -7800,13 +7810,209 @@
    "department": "GNSS Research Center"
   },
   {
+   "id": "A5017058983",
+   "name": "Jianjun Zhu",
+   "orcid": "https://orcid.org/0000-0001-7185-6429",
+   "institution": "Central South University",
+   "country": "CN",
+   "h_index": 43,
+   "cited_by": 7687,
+   "works": 621,
+   "expertise": [
+    "Synthetic Aperture Radar (SAR) Applications and Techniques",
+    "Soil Moisture and Remote Sensing",
+    "Remote Sensing and LiDAR Applications",
+    "Advanced SAR Imaging Techniques",
+    "Satellite Image Processing and Photogrammetry"
+   ],
+   "fields": [
+    "sar"
+   ],
+   "rank": {
+    "sar": 6
+   },
+   "recent": {
+    "sar": 344
+   },
+   "collab": [
+    {
+     "id": "A5029527420",
+     "name": "Haiqiang Fu",
+     "n": 111
+    },
+    {
+     "id": "A5029039359",
+     "name": "Zhiwei Li",
+     "n": 52
+    },
+    {
+     "id": "A5078501240",
+     "name": "Changcheng Wang",
+     "n": 45
+    },
+    {
+     "id": "A5082102192",
+     "name": "Qinghua Xie",
+     "n": 44
+    },
+    {
+     "id": "A5071442799",
+     "name": "Jun Hu",
+     "n": 42
+    },
+    {
+     "id": "A5068229249",
+     "name": "Juan Manuel Lopez-Sanchez",
+     "n": 23
+    },
+    {
+     "id": "A5059188698",
+     "name": "Guangcai Feng",
+     "n": 20
+    },
+    {
+     "id": "A5025878407",
+     "name": "Xing Peng",
+     "n": 18
+    },
+    {
+     "id": "A5074072878",
+     "name": "Zefa Yang",
+     "n": 17
+    },
+    {
+     "id": "A5087595508",
+     "name": "Yanzhou Xie",
+     "n": 16
+    },
+    {
+     "id": "A5013069605",
+     "name": "Peng Shen",
+     "n": 13
+    },
+    {
+     "id": "A5014580744",
+     "name": "Cui Zhou",
+     "n": 13
+    },
+    {
+     "id": "A5085897739",
+     "name": "Wentao Han",
+     "n": 12
+    },
+    {
+     "id": "A5093102714",
+     "name": "Huacan Hu",
+     "n": 12
+    }
+   ]
+  },
+  {
+   "id": "A5072289333",
+   "name": "Yibin Yao",
+   "orcid": "https://orcid.org/0000-0002-7723-4601",
+   "institution": "Wuhan University",
+   "country": "CN",
+   "h_index": 43,
+   "cited_by": 7076,
+   "works": 417,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Ionosphere and magnetosphere dynamics",
+    "Geophysics and Gravity Measurements",
+    "Statistical and numerical algorithms",
+    "Earthquake Detection and Analysis"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 7
+   },
+   "recent": {
+    "geodesy": 221
+   },
+   "collab": [
+    {
+     "id": "A5038075494",
+     "name": "Qingzhi Zhao",
+     "n": 70
+    },
+    {
+     "id": "A5101660779",
+     "name": "Bao Zhang",
+     "n": 55
+    },
+    {
+     "id": "A5000194974",
+     "name": "Jian Kong",
+     "n": 48
+    },
+    {
+     "id": "A5082274844",
+     "name": "Chaoqian Xu",
+     "n": 47
+    },
+    {
+     "id": "A5053458962",
+     "name": "Wanqiang Yao",
+     "n": 40
+    },
+    {
+     "id": "A5010151704",
+     "name": "Xiongwei Ma",
+     "n": 31
+    },
+    {
+     "id": "A5043978941",
+     "name": "Peng Chen",
+     "n": 29
+    },
+    {
+     "id": "A5101526978",
+     "name": "Wenjie Peng",
+     "n": 27
+    },
+    {
+     "id": "A5102846355",
+     "name": "Zufeng Li",
+     "n": 26
+    },
+    {
+     "id": "A5016042156",
+     "name": "Changzhi Zhai",
+     "n": 19
+    },
+    {
+     "id": "A5100608792",
+     "name": "Qi Zhang",
+     "n": 19
+    },
+    {
+     "id": "A5100680715",
+     "name": "Junyu Li",
+     "n": 16
+    },
+    {
+     "id": "A5101610253",
+     "name": "Zheng Ping Du",
+     "n": 16
+    },
+    {
+     "id": "A5012399507",
+     "name": "Mingxian Hu",
+     "n": 14
+    }
+   ]
+  },
+  {
    "id": "A5013877845",
    "name": "Manuel Hernández Pajares",
    "orcid": "https://orcid.org/0000-0002-9687-5850",
    "institution": "Universitat Politècnica de Catalunya",
    "country": "ES",
    "h_index": 43,
-   "cited_by": 8290,
+   "cited_by": 8528,
    "works": 477,
    "expertise": [
     "GNSS positioning and interference",
@@ -7906,114 +8112,14 @@
    ]
   },
   {
-   "id": "A5035415910",
-   "name": "K. F. Zhang",
-   "orcid": "https://orcid.org/0000-0001-9376-1148",
-   "institution": "RMIT University",
-   "country": "AU",
-   "h_index": 43,
-   "cited_by": 7230,
-   "works": 412,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Ionosphere and magnetosphere dynamics",
-    "Geophysics and Gravity Measurements",
-    "Meteorological Phenomena and Simulations",
-    "Earthquake Detection and Analysis"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 18
-   },
-   "recent": {
-    "geodesy": 151
-   },
-   "collab": [
-    {
-     "id": "A5010638698",
-     "name": "Suqin Wu",
-     "n": 85
-    },
-    {
-     "id": "A5090158426",
-     "name": "Dongsheng Zhao",
-     "n": 41
-    },
-    {
-     "id": "A5100377908",
-     "name": "Xiaoming Wang",
-     "n": 33
-    },
-    {
-     "id": "A5100382387",
-     "name": "Wang Li",
-     "n": 33
-    },
-    {
-     "id": "A5009636834",
-     "name": "Peng Sun",
-     "n": 26
-    },
-    {
-     "id": "A5082554131",
-     "name": "Andong Hu",
-     "n": 22
-    },
-    {
-     "id": "A5103281102",
-     "name": "Longjiang Li",
-     "n": 20
-    },
-    {
-     "id": "A5007249101",
-     "name": "Craig Matthew Hancock",
-     "n": 18
-    },
-    {
-     "id": "A5103252655",
-     "name": "Dantong Zhu",
-     "n": 18
-    },
-    {
-     "id": "A5005947207",
-     "name": "Moufeng Wan",
-     "n": 17
-    },
-    {
-     "id": "A5020582029",
-     "name": "Robert J. Norman",
-     "n": 17
-    },
-    {
-     "id": "A5064989610",
-     "name": "Changyong Hé",
-     "n": 15
-    },
-    {
-     "id": "A5001054710",
-     "name": "Minghao Zhang",
-     "n": 14
-    },
-    {
-     "id": "A5102763740",
-     "name": "Jiaqi Shi",
-     "n": 14
-    }
-   ],
-   "position": "Honorary professor",
-   "department": "School of Science"
-  },
-  {
    "id": "A5100631497",
    "name": "Mingsheng Liao",
    "orcid": "https://orcid.org/0000-0001-9556-4287",
    "institution": "Wuhan University",
    "country": "CN",
    "h_index": 42,
-   "cited_by": 5752,
-   "works": 376,
+   "cited_by": 5883,
+   "works": 378,
    "expertise": [
     "Synthetic Aperture Radar (SAR) Applications and Techniques",
     "Advanced SAR Imaging Techniques",
@@ -8112,8 +8218,8 @@
    "institution": "Centre Tecnologic de Telecomunicacions de Catalunya",
    "country": "ES",
    "h_index": 42,
-   "cited_by": 7645,
-   "works": 328,
+   "cited_by": 7931,
+   "works": 329,
    "expertise": [
     "Synthetic Aperture Radar (SAR) Applications and Techniques",
     "Soil Moisture and Remote Sensing",
@@ -8128,7 +8234,7 @@
     "sar": 16
    },
    "recent": {
-    "sar": 276
+    "sar": 275
    },
    "collab": [
     {
@@ -8206,313 +8312,13 @@
    "department": ""
   },
   {
-   "id": "A5072289333",
-   "name": "Yibin Yao",
-   "orcid": "https://orcid.org/0000-0002-7723-4601",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 42,
-   "cited_by": 6932,
-   "works": 414,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Ionosphere and magnetosphere dynamics",
-    "Geophysics and Gravity Measurements",
-    "Statistical and numerical algorithms",
-    "Earthquake Detection and Analysis"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 7
-   },
-   "recent": {
-    "geodesy": 221
-   },
-   "collab": [
-    {
-     "id": "A5038075494",
-     "name": "Qingzhi Zhao",
-     "n": 70
-    },
-    {
-     "id": "A5101660779",
-     "name": "Bao Zhang",
-     "n": 55
-    },
-    {
-     "id": "A5000194974",
-     "name": "Jian Kong",
-     "n": 48
-    },
-    {
-     "id": "A5082274844",
-     "name": "Chaoqian Xu",
-     "n": 47
-    },
-    {
-     "id": "A5053458962",
-     "name": "Wanqiang Yao",
-     "n": 40
-    },
-    {
-     "id": "A5010151704",
-     "name": "Xiongwei Ma",
-     "n": 31
-    },
-    {
-     "id": "A5043978941",
-     "name": "Peng Chen",
-     "n": 29
-    },
-    {
-     "id": "A5101526978",
-     "name": "Wenjie Peng",
-     "n": 27
-    },
-    {
-     "id": "A5102846355",
-     "name": "Zufeng Li",
-     "n": 26
-    },
-    {
-     "id": "A5016042156",
-     "name": "Changzhi Zhai",
-     "n": 19
-    },
-    {
-     "id": "A5100608792",
-     "name": "Qi Zhang",
-     "n": 19
-    },
-    {
-     "id": "A5100680715",
-     "name": "Junyu Li",
-     "n": 16
-    },
-    {
-     "id": "A5101610253",
-     "name": "Zheng Ping Du",
-     "n": 16
-    },
-    {
-     "id": "A5012399507",
-     "name": "Mingxian Hu",
-     "n": 14
-    }
-   ]
-  },
-  {
-   "id": "A5059928575",
-   "name": "Roderik Lindenbergh",
-   "orcid": "https://orcid.org/0000-0001-8655-5266",
-   "institution": "Delft University of Technology",
-   "country": "NL",
-   "h_index": 41,
-   "cited_by": 5248,
-   "works": 324,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "Remote Sensing and LiDAR Applications",
-    "Coastal and Marine Dynamics",
-    "Geodetic Measurements and Engineering Structures",
-    "Cryospheric studies and observations"
-   ],
-   "fields": [
-    "lidar"
-   ],
-   "rank": {
-    "lidar": 17
-   },
-   "recent": {
-    "lidar": 256
-   },
-   "collab": [
-    {
-     "id": "A5013825187",
-     "name": "Sander E. Vos",
-     "n": 26
-    },
-    {
-     "id": "A5073592854",
-     "name": "Bernhard Höfle",
-     "n": 18
-    },
-    {
-     "id": "A5055284896",
-     "name": "Katharina Anders",
-     "n": 17
-    },
-    {
-     "id": "A5071094661",
-     "name": "Massimo Menenti",
-     "n": 16
-    },
-    {
-     "id": "A5071467252",
-     "name": "Linh Truong‐Hong",
-     "n": 16
-    },
-    {
-     "id": "A5055238227",
-     "name": "Mieke Kuschnerus",
-     "n": 15
-    },
-    {
-     "id": "A5056146313",
-     "name": "Adriaan van Natijne",
-     "n": 15
-    },
-    {
-     "id": "A5024638941",
-     "name": "Daan Cornelis Hulskemper",
-     "n": 14
-    },
-    {
-     "id": "A5073109128",
-     "name": "Thomas Zieher",
-     "n": 12
-    },
-    {
-     "id": "A5091080773",
-     "name": "Martin Rutzinger",
-     "n": 12
-    },
-    {
-     "id": "A5047838903",
-     "name": "Sierd de Vries",
-     "n": 11
-    },
-    {
-     "id": "A5017869669",
-     "name": "Felix Dahle",
-     "n": 10
-    },
-    {
-     "id": "A5035230077",
-     "name": "Bert Wouters",
-     "n": 10
-    },
-    {
-     "id": "A5043706379",
-     "name": "José A. Á. Antolínez",
-     "n": 10
-    }
-   ],
-   "links": [
-    {
-     "name": "Delft University of Technology profile p",
-     "url": "https://research.tudelft.nl/en/persons/273ddb1b-3fcd-4235-a68f-580645bb9252"
-    }
-   ]
-  },
-  {
-   "id": "A5101508917",
-   "name": "Xiaolin Meng",
-   "orcid": "https://orcid.org/0000-0003-2440-8054",
-   "institution": "United Imaging Healthcare (China)",
-   "country": "CN",
-   "h_index": 41,
-   "cited_by": 6294,
-   "works": 307,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Geodetic Measurements and Engineering Structures",
-    "Structural Health Monitoring Techniques",
-    "Statistical and numerical algorithms",
-    "Inertial Sensor and Navigation"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 17
-   },
-   "recent": {
-    "geodesy": 155
-   },
-   "collab": [
-    {
-     "id": "A5113179983",
-     "name": "Yilin Xie",
-     "n": 27
-    },
-    {
-     "id": "A5100736322",
-     "name": "Xiangdong An",
-     "n": 23
-    },
-    {
-     "id": "A5003507248",
-     "name": "Qusen Chen",
-     "n": 20
-    },
-    {
-     "id": "A5013417183",
-     "name": "Ruijie Xi",
-     "n": 18
-    },
-    {
-     "id": "A5019208828",
-     "name": "Weiping Jiang",
-     "n": 18
-    },
-    {
-     "id": "A5070109127",
-     "name": "Shuguo Pan",
-     "n": 18
-    },
-    {
-     "id": "A5065462530",
-     "name": "Panos A. Psimoulis",
-     "n": 17
-    },
-    {
-     "id": "A5005841076",
-     "name": "Yan Bao",
-     "n": 14
-    },
-    {
-     "id": "A5060460699",
-     "name": "Wang Gao",
-     "n": 14
-    },
-    {
-     "id": "A5079491511",
-     "name": "Liangliang Hu",
-     "n": 13
-    },
-    {
-     "id": "A5045776785",
-     "name": "Qiyi He",
-     "n": 11
-    },
-    {
-     "id": "A5084674829",
-     "name": "Fei Yang",
-     "n": 11
-    },
-    {
-     "id": "A5037709025",
-     "name": "Jiming Guo",
-     "n": 10
-    },
-    {
-     "id": "A5056945824",
-     "name": "Chengfa Gao",
-     "n": 9
-    }
-   ]
-  },
-  {
    "id": "A5013633154",
    "name": "Francesco Nex",
    "orcid": "https://orcid.org/0000-0002-5712-6902",
    "institution": "International Institute for Geo-Information Science and Earth Observation",
    "country": "NL",
    "h_index": 40,
-   "cited_by": 9716,
+   "cited_by": 10234,
    "works": 197,
    "expertise": [
     "3D Surveying and Cultural Heritage",
@@ -8525,10 +8331,10 @@
     "photogrammetry"
    ],
    "rank": {
-    "photogrammetry": 8
+    "photogrammetry": 9
    },
    "recent": {
-    "photogrammetry": 205
+    "photogrammetry": 208
    },
    "collab": [
     {
@@ -8616,7 +8422,7 @@
    "institution": "Innovation Academy for Precision Measurement Science and Technology, CAS",
    "country": "CN",
    "h_index": 40,
-   "cited_by": 6029,
+   "cited_by": 6105,
    "works": 230,
    "expertise": [
     "GNSS positioning and interference",
@@ -8708,119 +8514,13 @@
    ]
   },
   {
-   "id": "A5044034363",
-   "name": "Oriol Monserrat",
-   "orcid": "https://orcid.org/0000-0003-2505-6855",
-   "institution": "Centre Tecnologic de Telecomunicacions de Catalunya",
-   "country": "ES",
-   "h_index": 38,
-   "cited_by": 6525,
-   "works": 301,
-   "expertise": [
-    "Synthetic Aperture Radar (SAR) Applications and Techniques",
-    "Landslides and related hazards",
-    "Flood Risk Assessment and Management",
-    "Soil Moisture and Remote Sensing",
-    "Advanced SAR Imaging Techniques"
-   ],
-   "fields": [
-    "sar"
-   ],
-   "rank": {
-    "sar": 15
-   },
-   "recent": {
-    "sar": 294
-   },
-   "collab": [
-    {
-     "id": "A5052287334",
-     "name": "Michele Crosetto",
-     "n": 101
-    },
-    {
-     "id": "A5043423907",
-     "name": "Anna Barra",
-     "n": 100
-    },
-    {
-     "id": "A5071188889",
-     "name": "Bruno Crippa",
-     "n": 44
-    },
-    {
-     "id": "A5005635803",
-     "name": "María Cuevas-González",
-     "n": 43
-    },
-    {
-     "id": "A5036492225",
-     "name": "Rosa María Mateos",
-     "n": 40
-    },
-    {
-     "id": "A5088024779",
-     "name": "Marta Béjar‐Pizarro",
-     "n": 39
-    },
-    {
-     "id": "A5085262121",
-     "name": "Jorge Pedro Galvé",
-     "n": 36
-    },
-    {
-     "id": "A5053830730",
-     "name": "Roberto Sarro",
-     "n": 33
-    },
-    {
-     "id": "A5070700949",
-     "name": "Riccardo Palamà",
-     "n": 29
-    },
-    {
-     "id": "A5084888028",
-     "name": "José Miguel Azañón",
-     "n": 27
-    },
-    {
-     "id": "A5076790076",
-     "name": "Gerardo Herrera",
-     "n": 25
-    },
-    {
-     "id": "A5057604128",
-     "name": "Cristina Reyes‐Carmona",
-     "n": 22
-    },
-    {
-     "id": "A5075007266",
-     "name": "Pablo Ezquerro",
-     "n": 21
-    },
-    {
-     "id": "A5109366762",
-     "name": "Núria Devanthéry",
-     "n": 19
-    }
-   ],
-   "position": "Senior Researcher",
-   "department": "Geomatics Division-Remote Sensing",
-   "links": [
-    {
-     "name": "ResearchGate",
-     "url": "https://www.researchgate.net/profile/O_Monserrat"
-    }
-   ]
-  },
-  {
    "id": "A5047673695",
    "name": "Hugo Ledoux",
    "orcid": "https://orcid.org/0000-0002-1251-8654",
    "institution": "Delft University of Technology",
    "country": "NL",
-   "h_index": 37,
-   "cited_by": 5628,
+   "h_index": 39,
+   "cited_by": 6105,
    "works": 187,
    "expertise": [
     "3D Modeling in Geospatial Applications",
@@ -8928,13 +8628,217 @@
    ]
   },
   {
+   "id": "A5044034363",
+   "name": "Oriol Monserrat",
+   "orcid": "https://orcid.org/0000-0003-2505-6855",
+   "institution": "Centre Tecnologic de Telecomunicacions de Catalunya",
+   "country": "ES",
+   "h_index": 38,
+   "cited_by": 6784,
+   "works": 302,
+   "expertise": [
+    "Synthetic Aperture Radar (SAR) Applications and Techniques",
+    "Landslides and related hazards",
+    "Flood Risk Assessment and Management",
+    "Soil Moisture and Remote Sensing",
+    "Advanced SAR Imaging Techniques"
+   ],
+   "fields": [
+    "sar"
+   ],
+   "rank": {
+    "sar": 15
+   },
+   "recent": {
+    "sar": 294
+   },
+   "collab": [
+    {
+     "id": "A5043423907",
+     "name": "Anna Barra",
+     "n": 101
+    },
+    {
+     "id": "A5052287334",
+     "name": "Michele Crosetto",
+     "n": 101
+    },
+    {
+     "id": "A5071188889",
+     "name": "Bruno Crippa",
+     "n": 44
+    },
+    {
+     "id": "A5005635803",
+     "name": "María Cuevas-González",
+     "n": 43
+    },
+    {
+     "id": "A5036492225",
+     "name": "Rosa María Mateos",
+     "n": 40
+    },
+    {
+     "id": "A5088024779",
+     "name": "Marta Béjar‐Pizarro",
+     "n": 39
+    },
+    {
+     "id": "A5085262121",
+     "name": "Jorge Pedro Galvé",
+     "n": 36
+    },
+    {
+     "id": "A5053830730",
+     "name": "Roberto Sarro",
+     "n": 33
+    },
+    {
+     "id": "A5070700949",
+     "name": "Riccardo Palamà",
+     "n": 29
+    },
+    {
+     "id": "A5084888028",
+     "name": "José Miguel Azañón",
+     "n": 27
+    },
+    {
+     "id": "A5076790076",
+     "name": "Gerardo Herrera",
+     "n": 25
+    },
+    {
+     "id": "A5057604128",
+     "name": "Cristina Reyes‐Carmona",
+     "n": 22
+    },
+    {
+     "id": "A5075007266",
+     "name": "Pablo Ezquerro",
+     "n": 21
+    },
+    {
+     "id": "A5109366762",
+     "name": "Núria Devanthéry",
+     "n": 19
+    }
+   ],
+   "position": "Senior Researcher",
+   "department": "Geomatics Division-Remote Sensing",
+   "links": [
+    {
+     "name": "ResearchGate",
+     "url": "https://www.researchgate.net/profile/O_Monserrat"
+    }
+   ]
+  },
+  {
+   "id": "A5026452327",
+   "name": "Pierre Grussenmeyer",
+   "orcid": "https://orcid.org/0000-0002-7292-2755",
+   "institution": "Institut National des Sciences Appliquées de Strasbourg",
+   "country": "FR",
+   "h_index": 36,
+   "cited_by": 5813,
+   "works": 373,
+   "expertise": [
+    "3D Surveying and Cultural Heritage",
+    "3D Modeling in Geospatial Applications",
+    "Image Processing and 3D Reconstruction",
+    "Satellite Image Processing and Photogrammetry",
+    "Geodetic Measurements and Engineering Structures"
+   ],
+   "fields": [
+    "photogrammetry"
+   ],
+   "rank": {
+    "photogrammetry": 13
+   },
+   "recent": {
+    "photogrammetry": 194
+   },
+   "collab": [
+    {
+     "id": "A5032699264",
+     "name": "Arnadi Murtiyoso",
+     "n": 45
+    },
+    {
+     "id": "A5112403335",
+     "name": "Mathieu Koehl",
+     "n": 28
+    },
+    {
+     "id": "A5065796714",
+     "name": "Tania Landes",
+     "n": 27
+    },
+    {
+     "id": "A5102087964",
+     "name": "Samuel Guillemin",
+     "n": 22
+    },
+    {
+     "id": "A5081183599",
+     "name": "H. Macher",
+     "n": 12
+    },
+    {
+     "id": "A5078959268",
+     "name": "Eugenio Pellis",
+     "n": 10
+    },
+    {
+     "id": "A5090711074",
+     "name": "Andrea Masiero",
+     "n": 10
+    },
+    {
+     "id": "A5029626288",
+     "name": "Michele Betti",
+     "n": 9
+    },
+    {
+     "id": "A5043085560",
+     "name": "Albane Burens-Carozza",
+     "n": 9
+    },
+    {
+     "id": "A5005132838",
+     "name": "Deni Suwardhi",
+     "n": 8
+    },
+    {
+     "id": "A5021912694",
+     "name": "Laurent Carozza",
+     "n": 8
+    },
+    {
+     "id": "A5025482164",
+     "name": "Grazia Tucci",
+     "n": 8
+    },
+    {
+     "id": "A5041882028",
+     "name": "Emmanuel Moisan",
+     "n": 8
+    },
+    {
+     "id": "A5067556699",
+     "name": "Xiucheng Yang",
+     "n": 8
+    }
+   ]
+  },
+  {
    "id": "A5067826216",
    "name": "Chaoying Zhao",
    "orcid": "https://orcid.org/0000-0002-5730-9602",
    "institution": "Chang'an University",
    "country": "CN",
    "h_index": 36,
-   "cited_by": 4772,
+   "cited_by": 4897,
    "works": 198,
    "expertise": [
     "Synthetic Aperture Radar (SAR) Applications and Techniques",
@@ -8950,7 +8854,7 @@
     "sar": 10
    },
    "recent": {
-    "sar": 337
+    "sar": 336
    },
    "collab": [
     {
@@ -9028,111 +8932,13 @@
    "department": "School of Geological Engineering and Geomatics"
   },
   {
-   "id": "A5026452327",
-   "name": "Pierre Grussenmeyer",
-   "orcid": "https://orcid.org/0000-0002-7292-2755",
-   "institution": "Institut National des Sciences Appliquées de Strasbourg",
-   "country": "FR",
-   "h_index": 35,
-   "cited_by": 5525,
-   "works": 373,
-   "expertise": [
-    "3D Surveying and Cultural Heritage",
-    "3D Modeling in Geospatial Applications",
-    "Image Processing and 3D Reconstruction",
-    "Satellite Image Processing and Photogrammetry",
-    "3D Shape Modeling and Analysis"
-   ],
-   "fields": [
-    "photogrammetry"
-   ],
-   "rank": {
-    "photogrammetry": 13
-   },
-   "recent": {
-    "photogrammetry": 193
-   },
-   "collab": [
-    {
-     "id": "A5032699264",
-     "name": "Arnadi Murtiyoso",
-     "n": 45
-    },
-    {
-     "id": "A5112403335",
-     "name": "Mathieu Koehl",
-     "n": 28
-    },
-    {
-     "id": "A5065796714",
-     "name": "Tania Landes",
-     "n": 27
-    },
-    {
-     "id": "A5102087964",
-     "name": "Samuel Guillemin",
-     "n": 22
-    },
-    {
-     "id": "A5081183599",
-     "name": "H. Macher",
-     "n": 12
-    },
-    {
-     "id": "A5078959268",
-     "name": "Eugenio Pellis",
-     "n": 10
-    },
-    {
-     "id": "A5090711074",
-     "name": "Andrea Masiero",
-     "n": 10
-    },
-    {
-     "id": "A5029626288",
-     "name": "Michele Betti",
-     "n": 9
-    },
-    {
-     "id": "A5043085560",
-     "name": "Albane Burens-Carozza",
-     "n": 9
-    },
-    {
-     "id": "A5005132838",
-     "name": "Deni Suwardhi",
-     "n": 8
-    },
-    {
-     "id": "A5021912694",
-     "name": "Laurent Carozza",
-     "n": 8
-    },
-    {
-     "id": "A5025482164",
-     "name": "Grazia Tucci",
-     "n": 8
-    },
-    {
-     "id": "A5041882028",
-     "name": "Emmanuel Moisan",
-     "n": 8
-    },
-    {
-     "id": "A5067556699",
-     "name": "Xiucheng Yang",
-     "n": 8
-    }
-   ]
-  },
-  {
    "id": "A5035617766",
    "name": "Thomas H. Kolbe",
    "orcid": "https://orcid.org/0000-0003-1456-0423",
    "institution": "Technical University of Munich",
    "country": "DE",
    "h_index": 35,
-   "cited_by": 5405,
+   "cited_by": 5730,
    "works": 244,
    "expertise": [
     "3D Modeling in Geospatial Applications",
@@ -9246,7 +9052,7 @@
    "institution": "Wrocław University of Environmental and Life Sciences",
    "country": "PL",
    "h_index": 34,
-   "cited_by": 3284,
+   "cited_by": 3425,
    "works": 371,
    "expertise": [
     "GNSS positioning and interference",
@@ -9346,111 +9152,13 @@
    ]
   },
   {
-   "id": "A5019208828",
-   "name": "Weiping Jiang",
-   "orcid": "https://orcid.org/0000-0002-3267-9682",
-   "institution": "Wuhan University",
-   "country": "CN",
-   "h_index": 33,
-   "cited_by": 4271,
-   "works": 292,
-   "expertise": [
-    "GNSS positioning and interference",
-    "Geophysics and Gravity Measurements",
-    "Statistical and numerical algorithms",
-    "Geodetic Measurements and Engineering Structures",
-    "earthquake and tectonic studies"
-   ],
-   "fields": [
-    "geodesy"
-   ],
-   "rank": {
-    "geodesy": 15
-   },
-   "recent": {
-    "geodesy": 182
-   },
-   "collab": [
-    {
-     "id": "A5003507248",
-     "name": "Qusen Chen",
-     "n": 51
-    },
-    {
-     "id": "A5114585232",
-     "name": "Hua Chen",
-     "n": 43
-    },
-    {
-     "id": "A5101485635",
-     "name": "Zhao Li",
-     "n": 37
-    },
-    {
-     "id": "A5013417183",
-     "name": "Ruijie Xi",
-     "n": 25
-    },
-    {
-     "id": "A5033900636",
-     "name": "Taoyong Jin",
-     "n": 22
-    },
-    {
-     "id": "A5064770530",
-     "name": "Peng Yuan",
-     "n": 20
-    },
-    {
-     "id": "A5101508917",
-     "name": "Xiaolin Meng",
-     "n": 18
-    },
-    {
-     "id": "A5100736322",
-     "name": "Xiangdong An",
-     "n": 17
-    },
-    {
-     "id": "A5101774210",
-     "name": "Xingyu Zhou",
-     "n": 17
-    },
-    {
-     "id": "A5073716904",
-     "name": "Jian Wang",
-     "n": 16
-    },
-    {
-     "id": "A5084560640",
-     "name": "Tianjun Liu",
-     "n": 16
-    },
-    {
-     "id": "A5011552248",
-     "name": "Hao Ding",
-     "n": 15
-    },
-    {
-     "id": "A5015863790",
-     "name": "Xuexi Liu",
-     "n": 12
-    },
-    {
-     "id": "A5033158269",
-     "name": "Ran Lu",
-     "n": 12
-    }
-   ]
-  },
-  {
    "id": "A5024347284",
    "name": "Fabio Menna",
    "orcid": "https://orcid.org/0000-0002-5365-8813",
    "institution": "Parthenope University of Naples",
    "country": "IT",
-   "h_index": 32,
-   "cited_by": 4576,
+   "h_index": 33,
+   "cited_by": 4845,
    "works": 149,
    "expertise": [
     "3D Surveying and Cultural Heritage",
@@ -9463,7 +9171,7 @@
     "photogrammetry"
    ],
    "rank": {
-    "photogrammetry": 15
+    "photogrammetry": 14
    },
    "recent": {
     "photogrammetry": 198
@@ -9549,8 +9257,8 @@
    "orcid": "https://orcid.org/0000-0002-5896-1379",
    "institution": "The Ohio State University",
    "country": "US",
-   "h_index": 32,
-   "cited_by": 4522,
+   "h_index": 33,
+   "cited_by": 4853,
    "works": 179,
    "expertise": [
     "3D Surveying and Cultural Heritage",
@@ -9644,14 +9352,112 @@
    "department": ""
   },
   {
+   "id": "A5019208828",
+   "name": "Weiping Jiang",
+   "orcid": "https://orcid.org/0000-0002-3267-9682",
+   "institution": "Wuhan University",
+   "country": "CN",
+   "h_index": 33,
+   "cited_by": 4387,
+   "works": 292,
+   "expertise": [
+    "GNSS positioning and interference",
+    "Geophysics and Gravity Measurements",
+    "Statistical and numerical algorithms",
+    "Geodetic Measurements and Engineering Structures",
+    "earthquake and tectonic studies"
+   ],
+   "fields": [
+    "geodesy"
+   ],
+   "rank": {
+    "geodesy": 15
+   },
+   "recent": {
+    "geodesy": 182
+   },
+   "collab": [
+    {
+     "id": "A5003507248",
+     "name": "Qusen Chen",
+     "n": 51
+    },
+    {
+     "id": "A5114585232",
+     "name": "Hua Chen",
+     "n": 43
+    },
+    {
+     "id": "A5101485635",
+     "name": "Zhao Li",
+     "n": 37
+    },
+    {
+     "id": "A5013417183",
+     "name": "Ruijie Xi",
+     "n": 25
+    },
+    {
+     "id": "A5033900636",
+     "name": "Taoyong Jin",
+     "n": 22
+    },
+    {
+     "id": "A5064770530",
+     "name": "Peng Yuan",
+     "n": 20
+    },
+    {
+     "id": "A5101508917",
+     "name": "Xiaolin Meng",
+     "n": 18
+    },
+    {
+     "id": "A5100736322",
+     "name": "Xiangdong An",
+     "n": 17
+    },
+    {
+     "id": "A5101774210",
+     "name": "Xingyu Zhou",
+     "n": 17
+    },
+    {
+     "id": "A5073716904",
+     "name": "Jian Wang",
+     "n": 16
+    },
+    {
+     "id": "A5084560640",
+     "name": "Tianjun Liu",
+     "n": 16
+    },
+    {
+     "id": "A5011552248",
+     "name": "Hao Ding",
+     "n": 15
+    },
+    {
+     "id": "A5015863790",
+     "name": "Xuexi Liu",
+     "n": 12
+    },
+    {
+     "id": "A5033158269",
+     "name": "Ran Lu",
+     "n": 12
+    }
+   ]
+  },
+  {
    "id": "A5018958751",
    "name": "Polina Lemenkova",
    "orcid": "https://orcid.org/0000-0002-5759-1089",
    "institution": "Université d'Orléans",
    "country": "FR",
-   "h_index": 29,
-   "cited_by": 2925,
-   "works": 713,
+   "h_index": 31,
+   "cited_by": 3317,
+   "works": 715,
    "expertise": [
     "Geological and Geophysical Studies",
     "Remote Sensing and Land Use",
@@ -9763,9 +9569,9 @@
    "orcid": "https://orcid.org/0000-0002-5930-2711",
    "institution": "Politecnico di Torino",
    "country": "IT",
-   "h_index": 28,
-   "cited_by": 3769,
-   "works": 376,
+   "h_index": 30,
+   "cited_by": 4034,
+   "works": 377,
    "expertise": [
     "3D Surveying and Cultural Heritage",
     "Satellite Image Processing and Photogrammetry",
@@ -9780,7 +9586,7 @@
     "photogrammetry": 10
    },
    "recent": {
-    "photogrammetry": 228
+    "photogrammetry": 230
    },
    "collab": [
     {
@@ -9821,7 +9627,7 @@
     {
      "id": "A5017075999",
      "name": "Marco Piras",
-     "n": 17
+     "n": 18
     },
     {
      "id": "A5090556314",
@@ -9841,16 +9647,16 @@
     {
      "id": "A5049804007",
      "name": "Pietro Bolli",
-     "n": 14
-    },
-    {
-     "id": "A5054778990",
-     "name": "Giuseppe Virone",
-     "n": 14
+     "n": 15
     },
     {
      "id": "A5088854386",
      "name": "Fabio Paonessa",
+     "n": 15
+    },
+    {
+     "id": "A5054778990",
+     "name": "Giuseppe Virone",
      "n": 14
     }
    ],
@@ -9873,9 +9679,9 @@
    "orcid": "https://orcid.org/0000-0002-4982-5236",
    "institution": "Politecnico di Torino",
    "country": "IT",
-   "h_index": 27,
-   "cited_by": 3314,
-   "works": 329,
+   "h_index": 29,
+   "cited_by": 3533,
+   "works": 328,
    "expertise": [
     "3D Surveying and Cultural Heritage",
     "Geodetic Measurements and Engineering Structures",
@@ -9890,7 +9696,7 @@
     "photogrammetry": 5
    },
    "recent": {
-    "photogrammetry": 294
+    "photogrammetry": 295
    },
    "collab": [
     {
@@ -9979,9 +9785,9 @@
    "orcid": "https://orcid.org/0000-0003-3161-5561",
    "institution": "Politecnico di Milano",
    "country": "IT",
-   "h_index": 27,
-   "cited_by": 3859,
-   "works": 462,
+   "h_index": 28,
+   "cited_by": 4066,
+   "works": 463,
    "expertise": [
     "Geographic Information Systems Studies",
     "3D Modeling in Geospatial Applications",
@@ -10079,8 +9885,8 @@
    "orcid": "https://orcid.org/0000-0001-7612-5270",
    "institution": "International Institute for Geo-Information Science and Earth Observation",
    "country": "NL",
-   "h_index": 26,
-   "cited_by": 2111,
+   "h_index": 27,
+   "cited_by": 2308,
    "works": 171,
    "expertise": [
     "3D Modeling in Geospatial Applications",
@@ -10193,9 +9999,9 @@
    "orcid": "https://orcid.org/0000-0002-0413-8977",
    "institution": "Stuttgart Technical University of Applied Sciences",
    "country": "DE",
-   "h_index": 25,
-   "cited_by": 2992,
-   "works": 221,
+   "h_index": 26,
+   "cited_by": 3142,
+   "works": 222,
    "expertise": [
     "3D Modeling in Geospatial Applications",
     "Geographic Information Systems Studies",
@@ -10292,20 +10098,20 @@
    "institution": "University of Liège",
    "country": "BE",
    "h_index": 25,
-   "cited_by": 1964,
+   "cited_by": 2181,
    "works": 326,
    "expertise": [
     "3D Modeling in Geospatial Applications",
     "3D Surveying and Cultural Heritage",
     "Geographic Information Systems Studies",
     "Data Management and Algorithms",
-    "Semantic Web and Ontologies"
+    "3D Shape Modeling and Analysis"
    ],
    "fields": [
     "city-bim"
    ],
    "rank": {
-    "city-bim": 13
+    "city-bim": 14
    },
    "recent": {
     "city-bim": 121
@@ -10390,7 +10196,7 @@
    "institution": "Delft University of Technology",
    "country": "NL",
    "h_index": 24,
-   "cited_by": 1769,
+   "cited_by": 1960,
    "works": 114,
    "expertise": [
     "3D Modeling in Geospatial Applications",
@@ -10489,8 +10295,8 @@
    "orcid": "https://orcid.org/0000-0002-3310-8937",
    "institution": "Institut National des Sciences Appliquées de Strasbourg",
    "country": "FR",
-   "h_index": 22,
-   "cited_by": 1697,
+   "h_index": 23,
+   "cited_by": 1835,
    "works": 112,
    "expertise": [
     "3D Surveying and Cultural Heritage",
@@ -10599,8 +10405,8 @@
    "orcid": "https://orcid.org/0000-0002-2611-4650",
    "institution": "Delft University of Technology",
    "country": "NL",
-   "h_index": 20,
-   "cited_by": 1289,
+   "h_index": 21,
+   "cited_by": 1396,
    "works": 133,
    "expertise": [
     "3D Modeling in Geospatial Applications",
@@ -10613,7 +10419,7 @@
     "city-bim"
    ],
    "rank": {
-    "city-bim": 14
+    "city-bim": 13
    },
    "recent": {
     "city-bim": 130
@@ -10703,8 +10509,8 @@
    "orcid": "https://orcid.org/0000-0001-5263-8266",
    "institution": "University of Technology Malaysia",
    "country": "MY",
-   "h_index": 20,
-   "cited_by": 1849,
+   "h_index": 21,
+   "cited_by": 1941,
    "works": 228,
    "expertise": [
     "3D Modeling in Geospatial Applications",
