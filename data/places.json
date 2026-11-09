@@ -1371,6 +1371,10 @@
   "miss": true,
   "t": "2026-11-05T00:35:57.471Z"
  },
+ "city|kowloon hong kong|": {
+  "miss": true,
+  "t": "2026-11-09T09:52:22.470Z"
+ },
  "city|kreuzberg|DE": {
   "lat": 52.49973,
   "lon": 13.40338,
