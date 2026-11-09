@@ -1351,6 +1351,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:37.296Z"
  },
+ "city|isle brewers|GB": {
+  "lat": 50.98583,
+  "lon": -2.90262,
+  "city": "Isle Brewers",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-09T20:48:13.970Z"
+ },
  "city|issy-les-moulineaux|FR": {
   "lat": 48.82104,
   "lon": 2.27718,

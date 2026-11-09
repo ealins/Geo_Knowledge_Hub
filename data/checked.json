@@ -316,5 +316,17 @@
   "ok": true,
   "terms": "archaeology",
   "at": "2026-11-09T12:10:39.400Z"
+ },
+ "https://www.jobs.ac.uk/job/DTP012/postdoctoral-research-fellow": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-09T20:47:00.712Z"
+ },
+ "https://www.jobs.ac.uk/job/DTP048/research-associate-in-coastal-dynamic-management": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-09T20:47:00.712Z"
  }
 }
