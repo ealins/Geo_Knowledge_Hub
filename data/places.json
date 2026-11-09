@@ -135,6 +135,14 @@
   "src": "city",
   "t": "2026-11-06T15:57:59.997Z"
  },
+ "city|austin|US": {
+  "lat": 30.26715,
+  "lon": -97.74306,
+  "city": "Austin",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.998Z"
+ },
  "city|bacon county|US": {
   "lat": 31.53604,
   "lon": -82.50652,
@@ -411,6 +419,14 @@
   "miss": true,
   "t": "2026-11-05T00:35:49.941Z"
  },
+ "city|bucyrus|US": {
+  "lat": 40.80839,
+  "lon": -82.97546,
+  "city": "Bucyrus",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.681Z"
+ },
  "city|buda|US": {
   "lat": 30.08521,
   "lon": -97.84028,
@@ -547,6 +563,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:00.259Z"
  },
+ "city|chesterfield|US": {
+  "lat": 34.73599,
+  "lon": -80.08812,
+  "city": "Chesterfield",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.996Z"
+ },
  "city|chur|CH": {
   "lat": 46.84986,
   "lon": 9.53287,
@@ -622,6 +646,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:13:59.942Z"
+ },
+ "city|columbia|US": {
+  "lat": 34.00071,
+  "lon": -81.03481,
+  "city": "Columbia",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.022Z"
  },
  "city|concord|CA": {
   "lat": 43.80011,
@@ -1210,6 +1242,14 @@
  "city|hérault|FR": {
   "miss": true,
   "t": "2026-11-06T13:13:56.894Z"
+ },
+ "city|herndon|US": {
+  "lat": 38.96955,
+  "lon": -77.3861,
+  "city": "Herndon",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.021Z"
  },
  "city|hertfordshire|GB": {
   "miss": true,
@@ -1847,6 +1887,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:48.489Z"
  },
+ "city|north pole|US": {
+  "lat": 64.75111,
+  "lon": -147.34944,
+  "city": "North Pole",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.997Z"
+ },
  "city|north springfield|US": {
   "lat": 37.21533,
   "lon": -93.29824,
@@ -1894,6 +1942,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T15:57:59.739Z"
+ },
+ "city|opfikon|CH": {
+  "lat": 47.43169,
+  "lon": 8.57588,
+  "city": "Opfikon",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-09T14:19:24.662Z"
  },
  "city|ottawa|CA": {
   "lat": 45.41117,
@@ -2163,6 +2219,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.820Z"
  },
+ "city|richland|US": {
+  "lat": 33.78779,
+  "lon": -117.85311,
+  "city": "Orange",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.021Z"
+ },
  "city|richmond|US": {
   "lat": 37.55376,
   "lon": -77.46026,
@@ -2178,6 +2242,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:35:52.740Z"
+ },
+ "city|rochester|US": {
+  "lat": 43.15478,
+  "lon": -77.61556,
+  "city": "Rochester",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.697Z"
  },
  "city|rome italy|": {
   "miss": true,
@@ -2391,6 +2463,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:03.223Z"
  },
+ "city|spring|US": {
+  "lat": 37.21533,
+  "lon": -93.29824,
+  "city": "Springfield",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.687Z"
+ },
  "city|springfield|US": {
   "lat": 37.21533,
   "lon": -93.29824,
@@ -2546,6 +2626,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:33.834Z"
+ },
+ "city|toulouse|FR": {
+  "lat": 43.60426,
+  "lon": 1.44367,
+  "city": "Toulouse",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-09T14:19:24.670Z"
  },
  "city|trammells|US": {
   "lat": 29.53468,
@@ -2755,6 +2843,14 @@
   "src": "city",
   "t": "2026-11-08T12:11:03.168Z"
  },
+ "city|warren|US": {
+  "lat": 42.49044,
+  "lon": -83.01304,
+  "city": "Warren",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:25.681Z"
+ },
  "city|warsaw poland|": {
   "miss": true,
   "t": "2026-11-05T00:35:57.449Z"
@@ -2794,6 +2890,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:35:47.590Z"
+ },
+ "city|wellston|US": {
+  "lat": 39.12341,
+  "lon": -82.53294,
+  "city": "Wellston",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-09T14:19:24.728Z"
  },
  "city|weßling|DE": {
   "lat": 48.07452,
@@ -2922,6 +3026,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-07T11:57:07.279Z"
+ },
+ "city|zuidlaren|NL": {
+  "lat": 53.09417,
+  "lon": 6.68194,
+  "city": "Zuidlaren",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-09T14:19:24.664Z"
  },
  "city|zurich|": {
   "lat": 47.36667,
@@ -3094,6 +3206,14 @@
   "cc": "CA",
   "src": "ror",
   "t": "2026-11-06T13:14:04.508Z"
+ },
+ "ror|pacific northwest national laboratory|US": {
+  "lat": 46.28569,
+  "lon": -119.28446,
+  "city": "Richland",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-09T14:19:25.389Z"
  },
  "ror|pennsylvania state university|US": {
   "lat": 40.79339,
