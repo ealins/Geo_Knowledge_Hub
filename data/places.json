@@ -251,6 +251,10 @@
   "src": "city",
   "t": "2026-11-05T00:35:47.297Z"
  },
+ "city|bermuda park|GB": {
+  "miss": true,
+  "t": "2026-11-10T13:46:06.783Z"
+ },
  "city|bern|CH": {
   "lat": 46.94809,
   "lon": 7.44744,
@@ -538,6 +542,10 @@
  "city|centrum|DE": {
   "miss": true,
   "t": "2026-11-07T11:57:06.968Z"
+ },
+ "city|chaldecutt|CA": {
+  "miss": true,
+  "t": "2026-11-10T13:46:06.496Z"
  },
  "city|chamberlayne|US": {
   "lat": 37.62653,
@@ -1150,6 +1158,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:02.643Z"
+ },
+ "city|grasleben|DE": {
+  "lat": 52.30638,
+  "lon": 11.01465,
+  "city": "Grasleben",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-10T13:46:06.780Z"
  },
  "city|greater vancouver|CA": {
   "miss": true,
@@ -1831,6 +1847,14 @@
   "src": "city",
   "t": "2026-11-07T11:57:07.595Z"
  },
+ "city|neustadt in holstein|DE": {
+  "lat": 54.10707,
+  "lon": 10.8145,
+  "city": "Neustadt in Holstein",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-10T13:46:06.497Z"
+ },
  "city|new philadelphia|US": {
   "lat": 40.48979,
   "lon": -81.44567,
@@ -2034,6 +2058,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T00:35:53.626Z"
+ },
+ "city|petersfield|GB": {
+  "lat": 51.00495,
+  "lon": -0.93375,
+  "city": "Petersfield",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-10T13:46:06.782Z"
  },
  "city|peterstal|DE": {
   "lat": 49.44281,
@@ -2282,6 +2314,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T15:58:00.255Z"
+ },
+ "city|saint john|CA": {
+  "lat": 45.27076,
+  "lon": -66.05616,
+  "city": "Saint John",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-10T13:46:06.493Z"
  },
  "city|saint louis|US": {
   "lat": 43.40836,
@@ -2883,6 +2923,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:37.574Z"
  },
+ "city|wedding|DE": {
+  "lat": 52.54734,
+  "lon": 13.35594,
+  "city": "Wedding",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-10T13:46:06.510Z"
+ },
  "city|weimar|": {
   "lat": 50.9803,
   "lon": 11.32903,
@@ -2934,6 +2982,10 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T00:35:48.177Z"
+ },
+ "city|west midlands|GB": {
+  "miss": true,
+  "t": "2026-11-10T13:46:06.781Z"
  },
  "city|west palm beach|US": {
   "lat": 26.71534,
