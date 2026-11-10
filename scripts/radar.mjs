@@ -172,6 +172,19 @@ function parseArbeitsagentur(body) {
   }));
 }
 
+// JobTech (Arbetsförmedlingen, Sweden): open public API, no key. Adverts carry a real application deadline.
+function parseJobtech(body) {
+  const data = JSON.parse(body);
+  return (data.hits || []).filter((j) => j.webpage_url && !j.removed).map((j) => ({
+    title: `${j.headline || ""}${j.employer?.name ? " – " + j.employer.name : ""}`,
+    link: j.webpage_url,
+    date: j.publication_date || "",
+    deadline: j.application_deadline || "",
+    summary: `${j.occupation?.label || ""}. ${(j.description?.text || "").replace(/\s+/g, " ").slice(0, 400)}`,
+    location: [j.workplace_address?.municipality || j.workplace_address?.region, "Sweden"].filter(Boolean).join(", "),
+  }));
+}
+
 // ISPRS calendar (one page per year): a table of dates, event names, website and
 // place for every ISPRS, co-sponsored and related event, all within the field.
 const MON3 = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11 };
@@ -519,6 +532,7 @@ async function runSource(src, statusOut) {
       : src.type === "hf" ? parseHf(body)
       : src.type === "sedia" ? parseSedia(body)
       : src.type === "arbeitsagentur" ? parseArbeitsagentur(body)
+      : src.type === "jobtech" ? parseJobtech(body).filter((r) => hasStrong(`${r.title} ${r.summary}`).length)
       : src.type === "isprs-calendar" ? parseIsprsCalendar(body, src)
       : src.type === "jobsacuk" ? await verifyAdverts(parseJobsAc(body, src))
       : src.type === "euraxess" ? await verifyAdverts(parseEuraxess(body))
@@ -576,7 +590,7 @@ for (const it of fresh) {
 // Listing pages (html) show only what is currently open: if such a source was
 // read successfully and an item is no longer on it, the item is gone. Feeds
 // and APIs roll over quickly, so their items keep the per-kind window instead.
-const htmlOk = new Set(enabled.filter((s) => ["html", "jobsacuk", "euraxess", "adzuna", "collected", "boards", "page", "discovered", "discovered-events", "curated"].includes(s.type) && statusOut[s.id]?.state === "ok").map((s) => s.id));
+const htmlOk = new Set(enabled.filter((s) => ["html", "jobtech", "jobsacuk", "euraxess", "adzuna", "collected", "boards", "page", "discovered", "discovered-events", "curated"].includes(s.type) && statusOut[s.id]?.state === "ok").map((s) => s.id));
 const enabledIds = new Set(enabled.map((s) => s.id));
 for (const it of previous.items ?? []) {
   if (merged.has(it.id) || htmlOk.has(it.source) || !enabledIds.has(it.source)) continue;

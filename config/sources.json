@@ -1445,6 +1445,94 @@
       "tag": "Call for papers",
       "enabled": false,
       "_note": "disabled: site blocks automated access or page not found"
+    },
+    {
+      "id": "jobtech-gis",
+      "name": "Arbetsförmedlingen (Sweden)",
+      "url": "https://jobsearch.api.jobtechdev.se/search?q=GIS&limit=50",
+      "type": "jobtech",
+      "kind": "job",
+      "tag": "GIS",
+      "api": true,
+      "enabled": true,
+      "note": "Swedish public employment service open API (JobTech), no key needed"
+    },
+    {
+      "id": "jobtech-fjarranalys",
+      "name": "Arbetsförmedlingen (Sweden)",
+      "url": "https://jobsearch.api.jobtechdev.se/search?q=fj%C3%A4rranalys&limit=50",
+      "type": "jobtech",
+      "kind": "job",
+      "tag": "fjärranalys",
+      "api": true,
+      "enabled": true,
+      "note": "Swedish public employment service open API (JobTech), no key needed"
+    },
+    {
+      "id": "jobtech-geodata",
+      "name": "Arbetsförmedlingen (Sweden)",
+      "url": "https://jobsearch.api.jobtechdev.se/search?q=geodata&limit=50",
+      "type": "jobtech",
+      "kind": "job",
+      "tag": "geodata",
+      "api": true,
+      "enabled": true,
+      "note": "Swedish public employment service open API (JobTech), no key needed"
+    },
+    {
+      "id": "jobtech-remote-sensing",
+      "name": "Arbetsförmedlingen (Sweden)",
+      "url": "https://jobsearch.api.jobtechdev.se/search?q=remote%20sensing&limit=50",
+      "type": "jobtech",
+      "kind": "job",
+      "tag": "remote sensing",
+      "api": true,
+      "enabled": true,
+      "note": "Swedish public employment service open API (JobTech), no key needed"
+    },
+    {
+      "id": "jobtech-geodesi",
+      "name": "Arbetsförmedlingen (Sweden)",
+      "url": "https://jobsearch.api.jobtechdev.se/search?q=geodesi&limit=50",
+      "type": "jobtech",
+      "kind": "job",
+      "tag": "geodesi",
+      "api": true,
+      "enabled": true,
+      "note": "Swedish public employment service open API (JobTech), no key needed"
+    },
+    {
+      "id": "jobtech-lidar",
+      "name": "Arbetsförmedlingen (Sweden)",
+      "url": "https://jobsearch.api.jobtechdev.se/search?q=LiDAR&limit=50",
+      "type": "jobtech",
+      "kind": "job",
+      "tag": "LiDAR",
+      "api": true,
+      "enabled": true,
+      "note": "Swedish public employment service open API (JobTech), no key needed"
+    },
+    {
+      "id": "jobtech-fotogrammetri",
+      "name": "Arbetsförmedlingen (Sweden)",
+      "url": "https://jobsearch.api.jobtechdev.se/search?q=fotogrammetri&limit=50",
+      "type": "jobtech",
+      "kind": "job",
+      "tag": "fotogrammetri",
+      "api": true,
+      "enabled": true,
+      "note": "Swedish public employment service open API (JobTech), no key needed"
+    },
+    {
+      "id": "jobtech-lantmatare",
+      "name": "Arbetsförmedlingen (Sweden)",
+      "url": "https://jobsearch.api.jobtechdev.se/search?q=m%C3%A4tningsingenj%C3%B6r&limit=50",
+      "type": "jobtech",
+      "kind": "job",
+      "tag": "mätningsingenjör",
+      "api": true,
+      "enabled": true,
+      "note": "Swedish public employment service open API (JobTech), no key needed"
     }
   ]
 }

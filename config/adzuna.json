@@ -1,5 +1,5 @@
 {
-  "note": "Adzuna free tier: keep calls_per_day at or below 24 (limit 25). Each query is one call. The list is longer than one day's calls; the script takes a rotating window, so every query runs about every second day and results are kept for max_days_old.",
+  "note": "Adzuna free tier: keep calls_per_day at or below 24 (limit 25). Each query is one call. The list is longer than one day's calls; the script takes a rotating window, so every query runs about every third day and results are kept for max_days_old.",
   "calls_per_day": 24,
   "max_days_old": 30,
   "queries": [
@@ -13,6 +13,16 @@
     ["gb", "photogrammetry"], ["gb", "remote sensing"], ["gb", "LiDAR"], ["gb", "geospatial"], ["gb", "earth observation"],
     ["nl", "remote sensing"], ["nl", "GIS"],
     ["at", "Geoinformatik"], ["ch", "Geomatik"], ["ch", "Photogrammetrie"],
-    ["fr", "télédétection"], ["fr", "photogrammétrie"], ["in", "remote sensing GIS"], ["sg", "geospatial"]
+    ["fr", "télédétection"], ["fr", "photogrammétrie"], ["in", "remote sensing GIS"], ["sg", "geospatial"],
+    ["at", "GIS"], ["at", "Fernerkundung"], ["at", "Vermessung"],
+    ["ch", "GIS"], ["ch", "remote sensing"],
+    ["be", "GIS"], ["be", "remote sensing"], ["be", "geomatics"],
+    ["nl", "geo-informatie"], ["nl", "LiDAR"], ["nl", "geodesy"],
+    ["fr", "géomatique"], ["fr", "LiDAR"], ["fr", "remote sensing"],
+    ["es", "teledetección"], ["es", "geomática"], ["es", "GIS"], ["es", "topografía"],
+    ["it", "telerilevamento"], ["it", "GIS"], ["it", "geomatica"],
+    ["pl", "GIS"], ["pl", "remote sensing"],
+    ["gb", "GIS analyst"], ["gb", "geomatics"],
+    ["nz", "geospatial"], ["nz", "GIS"], ["au", "GIS"], ["au", "LiDAR"]
   ]
 }
