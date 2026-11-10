@@ -1,6 +1,6 @@
 {
-  "note": "Adzuna free tier: keep calls_per_day at or below 24 (limit 25). Each query is one call. The list is longer than one day's calls; the script takes a rotating window, so every query runs about every third day and results are kept for max_days_old.",
-  "calls_per_day": 24,
+  "note": "Testing the real free-tier limit (docs say 25 a minute, 250 a day, 2,500 a month): calls_per_day covers the whole list. If Adzuna answers 429 the run stops, data/adzuna.json records limited:true and ok_calls, and the window still moves 24 queries a day. If limited stays true, set calls_per_day back to 24.",
+  "calls_per_day": 69,
   "max_days_old": 30,
   "queries": [
     ["us", "photogrammetry"], ["us", "remote sensing"], ["us", "LiDAR"], ["us", "geospatial"],

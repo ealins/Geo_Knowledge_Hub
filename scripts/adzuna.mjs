@@ -11,20 +11,21 @@ const { ADZUNA_APP_ID: id, ADZUNA_APP_KEY: key } = process.env;
 if (!id || !key) { console.log("No Adzuna keys set; skipping."); process.exit(0); }
 if ((prev.fetched_at || "").startsWith(today) && !process.argv.includes("--force")) { console.log("Already fetched today; skipping to save calls."); process.exit(0); }
 
-const cap = Math.min(cfg.calls_per_day ?? 20, 24);
+const cap = Math.min(cfg.calls_per_day ?? 20, 100);
 // Rotating window: the list is longer than one day's calls, so each query runs every few days.
 const all = cfg.queries;
-const start = (Math.floor(Date.now() / 864e5) * cap) % all.length;
+// The window still moves 24 queries a day, so if Adzuna cuts a run short (HTTP 429) the next day starts elsewhere.
+const start = (Math.floor(Date.now() / 864e5) * 24) % all.length;
 const todays = Array.from({ length: Math.min(cap, all.length) }, (_, i) => all[(start + i) % all.length]);
 const items = new Map();
-let calls = 0, failed = 0;
+let calls = 0, failed = 0, limited = false;
 for (const [country, what] of todays) {
   const u = new URL(`https://api.adzuna.com/v1/api/jobs/${country}/search/1`);
   u.search = new URLSearchParams({ app_id: id, app_key: key, results_per_page: "50", what_phrase: what, max_days_old: String(cfg.max_days_old ?? 30), "content-type": "application/json" });
   calls++;
   try {
     const r = await fetch(u, { headers: { accept: "application/json" } });
-    if (!r.ok) { failed++; console.log(`${country} "${what}": HTTP ${r.status}`); if (r.status === 429 || r.status === 401) break; continue; }
+    if (!r.ok) { failed++; console.log(`${country} "${what}": HTTP ${r.status}`); if (r.status === 429 || r.status === 401) { limited = r.status === 429; break; } continue; }
     const j = await r.json();
     for (const x of j.results || []) {
       if (!x.redirect_url || items.has(x.id)) continue;
@@ -47,5 +48,5 @@ if (!items.size && failed) { console.log("All calls failed; keeping previous fil
 const cutoff = Date.now() - (cfg.max_days_old ?? 30) * 864e5;
 const urls = new Set([...items.values()].map((x) => x.url));
 for (const old of prev.items ?? []) if (!urls.has(old.url) && (Date.parse(old.posted) || 0) >= cutoff) items.set(old.url, old);
-await writeFile(OUT, JSON.stringify({ fetched_at: new Date().toISOString(), calls, items: [...items.values()] }, null, 2) + "\n");
+await writeFile(OUT, JSON.stringify({ fetched_at: new Date().toISOString(), calls, ok_calls: calls - failed, limited, items: [...items.values()] }, null, 2) + "\n");
 console.log(`calls ${calls}, items ${items.size}`);

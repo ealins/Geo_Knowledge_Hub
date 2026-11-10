@@ -1533,6 +1533,116 @@
       "api": true,
       "enabled": true,
       "note": "Swedish public employment service open API (JobTech), no key needed"
+    },
+    {
+      "id": "reed-remote-sensing",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=%22remote%20sensing%22&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "remote sensing",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
+    },
+    {
+      "id": "reed-photogrammetry",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=photogrammetry&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "photogrammetry",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
+    },
+    {
+      "id": "reed-geospatial",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=geospatial&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "geospatial",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
+    },
+    {
+      "id": "reed-gis-analyst",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=%22GIS%20analyst%22&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "GIS analyst",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
+    },
+    {
+      "id": "reed-lidar",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=LiDAR&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "LiDAR",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
+    },
+    {
+      "id": "reed-earth-observation",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=%22earth%20observation%22&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "earth observation",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
+    },
+    {
+      "id": "reed-geomatics",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=geomatics&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "geomatics",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
+    },
+    {
+      "id": "reed-land-surveyor",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=%22land%20surveyor%22&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "land surveyor",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
+    },
+    {
+      "id": "reed-geodesy",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=geodesy&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "geodesy",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
+    },
+    {
+      "id": "reed-point-cloud",
+      "name": "Reed (UK)",
+      "url": "https://www.reed.co.uk/api/1.0/search?keywords=%22point%20cloud%22&resultsToTake=100",
+      "type": "reed",
+      "kind": "job",
+      "tag": "point cloud",
+      "api": true,
+      "enabled": true,
+      "note": "Reed Jobseeker API, free key in the REED_API_KEY repository secret"
     }
   ]
 }

@@ -33,6 +33,8 @@ jobs:
         run: npm install --no-save --no-audit --no-fund playwright@1.48.2
 
       - name: Fetch sources and update feed
+        env:
+          REED_API_KEY: ${{ secrets.REED_API_KEY }}
         run: node scripts/radar.mjs
 
       - name: Place items on the map (free geocoding, cached)

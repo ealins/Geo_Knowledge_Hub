@@ -185,6 +185,20 @@ function parseJobtech(body) {
   }));
 }
 
+// Reed (UK job board): free Jobseeker API, key in REED_API_KEY (basic auth user name). Dates are dd/mm/yyyy.
+const ukDate = (d) => { const m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(d || ""); return m ? `${m[3]}-${m[2]}-${m[1]}T23:59:59Z` : ""; };
+function parseReed(body) {
+  const data = JSON.parse(body);
+  return (data.results || []).filter((j) => j.jobUrl).map((j) => ({
+    title: `${j.jobTitle || ""}${j.employerName ? " – " + j.employerName : ""}`,
+    link: j.jobUrl,
+    date: ukDate(j.date).replace("23:59:59", "00:00:00"),
+    deadline: ukDate(j.expirationDate),
+    summary: (j.jobDescription || "").replace(/\s+/g, " ").slice(0, 400),
+    location: [j.locationName, "United Kingdom"].filter(Boolean).join(", "),
+  }));
+}
+
 // ISPRS calendar (one page per year): a table of dates, event names, website and
 // place for every ISPRS, co-sponsored and related event, all within the field.
 const MON3 = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11 };
@@ -522,6 +536,10 @@ async function runSource(src, statusOut) {
     if (!src.api && !(await robotsAllows(src.url.replace(/\{since:\d+\}/g, "")))) throw new Error("disallowed by robots.txt");
     // {since:N} in a URL becomes the date N days ago (YYYY-MM-DD), keeping API queries to recent work.
     const url = src.url.replace(/\{since:(\d+)\}/g, (_, d) => new Date(now.getTime() - Number(d) * 864e5).toISOString().slice(0, 10));
+    if (src.type === "reed") {
+      if (!process.env.REED_API_KEY) { statusOut[src.id] = { ...(prev), state: "skipped", last_checked: nowIso, items_found: 0, items_matched: 0, consecutive_failures: 0, last_error: null, note: "REED_API_KEY not set" }; return []; }
+      src = { ...src, headers: { authorization: "Basic " + Buffer.from(process.env.REED_API_KEY + ":").toString("base64") } };
+    }
     const body = src.type === "sedia" ? await fetchSedia(url) : src.render ? await renderPage(url) : await fetchText(url, src.api ? { accept: "application/json", ...src.headers } : src.headers);
     if (src.api && !src.headers) { /* APIs answer JSON */ }
     const parsed =
@@ -532,6 +550,7 @@ async function runSource(src, statusOut) {
       : src.type === "hf" ? parseHf(body)
       : src.type === "sedia" ? parseSedia(body)
       : src.type === "arbeitsagentur" ? parseArbeitsagentur(body)
+      : src.type === "reed" ? parseReed(body).filter((r) => hasStrong(`${r.title} ${r.summary}`).length)
       : src.type === "jobtech" ? parseJobtech(body).filter((r) => hasStrong(`${r.title} ${r.summary}`).length)
       : src.type === "isprs-calendar" ? parseIsprsCalendar(body, src)
       : src.type === "jobsacuk" ? await verifyAdverts(parseJobsAc(body, src))
@@ -590,7 +609,7 @@ for (const it of fresh) {
 // Listing pages (html) show only what is currently open: if such a source was
 // read successfully and an item is no longer on it, the item is gone. Feeds
 // and APIs roll over quickly, so their items keep the per-kind window instead.
-const htmlOk = new Set(enabled.filter((s) => ["html", "jobtech", "jobsacuk", "euraxess", "adzuna", "collected", "boards", "page", "discovered", "discovered-events", "curated"].includes(s.type) && statusOut[s.id]?.state === "ok").map((s) => s.id));
+const htmlOk = new Set(enabled.filter((s) => ["html", "jobtech", "reed", "jobsacuk", "euraxess", "adzuna", "collected", "boards", "page", "discovered", "discovered-events", "curated"].includes(s.type) && statusOut[s.id]?.state === "ok").map((s) => s.id));
 const enabledIds = new Set(enabled.map((s) => s.id));
 for (const it of previous.items ?? []) {
   if (merged.has(it.id) || htmlOk.has(it.source) || !enabledIds.has(it.source)) continue;
