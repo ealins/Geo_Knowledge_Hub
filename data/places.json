@@ -391,6 +391,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:02.932Z"
  },
+ "city|brinckmansdorf|DE": {
+  "lat": 54.08232,
+  "lon": 12.18241,
+  "city": "Brinckmansdorf",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-10T22:09:39.879Z"
+ },
  "city|brink-hafen|DE": {
   "lat": 52.42103,
   "lon": 9.72204,
@@ -991,6 +999,14 @@
   "miss": true,
   "t": "2026-11-05T00:35:51.136Z"
  },
+ "city|erfurt|DE": {
+  "lat": 50.97734,
+  "lon": 11.03536,
+  "city": "Erfurt",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-10T22:09:39.597Z"
+ },
  "city|esip.org|": {
   "miss": true,
   "t": "2026-11-05T00:35:50.531Z"
@@ -1367,6 +1383,14 @@
   "miss": true,
   "t": "2026-11-10T21:45:14.068Z"
  },
+ "city|herisau|CH": {
+  "lat": 47.38615,
+  "lon": 9.27916,
+  "city": "Herisau",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-10T22:09:39.594Z"
+ },
  "city|herndon|US": {
   "lat": 38.96955,
   "lon": -77.3861,
@@ -1450,6 +1474,10 @@
  "city|iag-aig.org|": {
   "miss": true,
   "t": "2026-11-05T00:35:50.530Z"
+ },
+ "city|ile-de-france|FR": {
+  "miss": true,
+  "t": "2026-11-10T22:09:39.586Z"
  },
  "city|industriegebiet|DE": {
   "lat": 47.67583,
@@ -1570,6 +1598,14 @@
   "cc": "FR",
   "src": "city",
   "t": "2026-11-06T13:13:56.200Z"
+ },
+ "city|la grand-croix|FR": {
+  "lat": 45.50383,
+  "lon": 4.55915,
+  "city": "La Grand-Croix",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-10T22:09:39.584Z"
  },
  "city|la porte|US": {
   "lat": 29.66578,
