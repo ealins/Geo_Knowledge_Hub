@@ -1,0 +1,78 @@
+/* motion and polish: everything decorative lives here and switches off with prefers-reduced-motion */
+@property --f{syntax:"<percentage>";inherits:true;initial-value:0%}
+:root{--ease:cubic-bezier(.2,.8,.2,1)}
+html{scroll-behavior:smooth}
+
+/* hero */
+h1{background:linear-gradient(100deg,#fff 15%,#a5efe2 48%,#9db3ff 78%,#fff);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;padding-bottom:.08em}
+.pulse::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:#5fd3a0;margin-right:10px;vertical-align:1px;box-shadow:0 0 0 0 rgba(95,211,160,.6)}
+.gbox{isolation:isolate}
+.gbox::before{content:"";position:absolute;inset:-5%;border-radius:50%;z-index:-1;background:radial-gradient(circle,rgba(95,224,201,.30),rgba(138,164,255,.14) 55%,transparent 72%);filter:blur(34px);pointer-events:none}
+.next li{transition:background .2s,padding .2s var(--ease);border-radius:8px}
+.next li:hover{background:rgba(255,255,255,.05);padding-left:10px}
+.viz-tabs button,.theme,.support{transition:background .2s,color .2s,border-color .2s,transform .15s var(--ease)}
+.gzoom button{transition:border-color .2s,transform .15s var(--ease),opacity .2s}
+
+/* tabs */
+.tab{transition:background .2s,border-color .2s,color .2s,transform .15s var(--ease),box-shadow .2s}
+.tab:hover{transform:translateY(-1px)}
+.tab[aria-pressed="true"]{box-shadow:0 8px 22px -12px color-mix(in srgb,var(--text) 70%,transparent)}
+.tab:active,.wpill:active,.chip:active,.act:active,.more:active,.pnet:active,.gzoom button:active:not(:disabled),.viz-tabs button:active,.theme:active,.support:active,.spbtn:active,.gmore:active,.colmore:active{transform:scale(.96)}
+.tabs{box-shadow:0 10px 30px -22px rgba(0,0,0,.55)}
+.wpill,.chip,.term,.act,.pf,.pnet,.gmore,.colmore,.tnode,.snode,.back{transition:background .18s,color .18s,border-color .18s,transform .15s var(--ease)}
+.more{transition:transform .18s var(--ease),box-shadow .2s,opacity .2s}
+.more:hover{transform:translateY(-2px);box-shadow:0 12px 26px -14px var(--text)}
+input[type=search],select,.matcher input{transition:border-color .2s,box-shadow .2s}
+
+/* cards: pointer spotlight */
+.ptile,.person,.col,.ftile,.matcher{position:relative}
+.tile::after,.ptile::after,.person::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s;
+  background:radial-gradient(260px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--sc,var(--accent)) 20%,transparent),transparent 70%)}
+.tile{--sc:var(--dc)}.ptile{--sc:var(--job);overflow:hidden}.person{--sc:hsl(var(--ph) 70% 60%);overflow:hidden;transition:border-color .2s,transform .2s var(--ease),box-shadow .2s}
+.person[data-prof]:hover{transform:translateY(-2px);box-shadow:0 12px 30px -18px hsl(var(--ph) 60% 45%)}
+@media(hover:hover){.tile:hover::after,.ptile:hover::after,.person:hover::after{opacity:1}}
+.tile .tbig b{transition:color .2s}.tile:hover .tbig b{color:var(--dc)}
+.col{transition:border-color .2s,box-shadow .2s}.col:hover{border-color:color-mix(in srgb,var(--k,var(--accent)) 45%,var(--line))}
+
+/* rows */
+.row{transition:background .18s,border-radius .18s}
+.row:hover{border-radius:12px}
+.row::before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:3px;border-radius:3px;background:var(--k,var(--accent));transform:scaleY(0);transition:transform .22s var(--ease)}
+.row:hover::before,.row:focus-within::before{transform:scaleY(1)}
+.row h3 a{transition:color .15s}
+.ring{transition:transform .25s var(--ease)}.row:hover .ring{transform:scale(1.06)}
+
+/* dialogs */
+dialog{opacity:0;transform:translateY(16px) scale(.97);transition:opacity .24s,transform .28s var(--ease),overlay .28s allow-discrete,display .28s allow-discrete;box-shadow:0 30px 80px -30px rgba(0,0,0,.7)}
+dialog[open]{opacity:1;transform:none}
+dialog::backdrop{opacity:0;transition:opacity .24s,overlay .28s allow-discrete,display .28s allow-discrete;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
+dialog[open]::backdrop{opacity:1}
+@starting-style{dialog[open]{opacity:0;transform:translateY(16px) scale(.97)}dialog[open]::backdrop{opacity:0}}
+
+/* back to top */
+.totop{position:fixed;right:18px;bottom:18px;z-index:6;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:color-mix(in srgb,var(--surface) 88%,transparent);color:var(--text);font:600 18px/1 var(--sans);cursor:pointer;
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 10px 26px -14px rgba(0,0,0,.6);opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .25s,transform .25s var(--ease),border-color .2s}
+.totop.on{opacity:1;transform:none;pointer-events:auto}
+.totop:hover{border-color:var(--accent)}
+
+@media (prefers-reduced-motion:no-preference){
+  @keyframes up{from{opacity:0;translate:0 18px}to{opacity:1;translate:0 0}}
+  @keyframes shine{from{background-position:0 0}to{background-position:-220% 0}}
+  @keyframes ping{0%{box-shadow:0 0 0 0 rgba(95,211,160,.55)}70%,100%{box-shadow:0 0 0 12px rgba(95,211,160,0)}}
+  @keyframes breathe{from{opacity:.55;scale:.96}to{opacity:1;scale:1.03}}
+  @keyframes ringin{from{--f:0%}}
+  @keyframes prog{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  .top,.hero-copy h1,.sub,.tagline,.pulse,.radar,.next-h,.next li{animation:up .7s var(--ease) both}
+  .hero-copy h1{animation:up .7s var(--ease) .08s both,shine 9s linear 1.2s infinite}
+  .sub{animation-delay:.16s}.tagline{animation-delay:.24s}.pulse{animation-delay:.32s}.radar{animation-delay:.2s;animation-duration:1s}
+  .next-h{animation-delay:.4s}.next li:nth-child(1){animation-delay:.46s}.next li:nth-child(2){animation-delay:.52s}.next li:nth-child(3){animation-delay:.58s}.next li:nth-child(4){animation-delay:.64s}.next li:nth-child(5){animation-delay:.7s}
+  .pulse::before{animation:ping 2s ease-out infinite}
+  .gbox::before{animation:breathe 6s ease-in-out infinite alternate}
+  .swap{animation:up .38s var(--ease) both}
+  @supports (animation-timeline:view()){
+    .tile,.ptile,.person,.col,#list>.row,#list>.group,.sect{animation:up linear both;animation-timeline:view();animation-range:entry 0% entry 55%}
+    .ring{animation:ringin linear both;animation-timeline:view();animation-range:entry 20% entry 160%}
+    .tabs::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;transform-origin:0 50%;background:linear-gradient(90deg,#5fe0c9,var(--accent));animation:prog linear both;animation-timeline:scroll(root)}
+  }
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}dialog,dialog::backdrop,.totop{transition:none}.tab:hover,.more:hover,.person[data-prof]:hover{transform:none}}

@@ -27,7 +27,7 @@ function renderTree() {
 function setDomain(id, sub) {
   st.domain = id; st.sub = sub || ""; if (id || st.kind !== "job") st.kind = "all"; st.shown = PAGE;
   try { history.replaceState(null, "", id ? "#d=" + id + (sub ? "&s=" + encodeURIComponent(sub) : "") : location.pathname); } catch {}
-  render(); window.scrollTo({ top: Math.max(0, document.querySelector(".tabs").offsetTop - 1), behavior: "smooth" });
+  render(); window.scrollTo({ top: Math.max(0, document.querySelector(".tabs").offsetTop - 1), behavior: "smooth" }); swap();
 }
 
 function renderOverview() {

@@ -1,4 +1,4 @@
-$("stats").addEventListener("click", e => { const b = e.target.closest("[data-k]"); if (b) { st.kind = b.dataset.k; reset(); } });
+$("stats").addEventListener("click", e => { const b = e.target.closest("[data-k]"); if (b) { st.kind = b.dataset.k; reset(); swap(); } });
 document.addEventListener("click", e => {
   const vz = e.target.closest("[data-viz]");
   if (vz) { setViz(vz.dataset.viz); return; }
@@ -76,5 +76,5 @@ Promise.all([
   const names = [...new Set(feed.items.map(i => i.source_name))].sort();
   $("source").innerHTML += names.map(n => `<option>${esc(n)}</option>`).join("");
   $("meta").textContent = `${feed.items.length} live items, last updated ${new Date(feed.generated_at).toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}. The radar refreshes every hour.`;
-  renderHero(); render();
+  renderHero(); render(); motionInit();
 }).catch(() => { $("count").textContent = "Feed not available yet."; });
