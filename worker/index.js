@@ -10,6 +10,18 @@ const AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
 const diag = {}; // last cron run: what happened and why (read at /api/diag)
 const AI_MAX_PER_RUN = 120; // ~5 neurons per item, so far below the 10,000 neurons/day included allowance
 
+// Workers AI may return `response` as an already-parsed object (when the reply is valid JSON) or as text,
+// and small models sometimes add trailing commas or line breaks inside strings. Returns an object or null.
+function aiJson(r) {
+  const v = r?.response;
+  if (v == null) return null;
+  if (typeof v === "object") return v;
+  const m = String(v).match(/\{[\s\S]*\}/);
+  if (!m) return null;
+  try { return JSON.parse(m[0]); } catch { /* try a light repair */ }
+  try { return JSON.parse(m[0].replace(/[\u0000-\u001f]+/g, " ").replace(/,\s*([}\]])/g, "$1")); } catch { return null; }
+}
+
 async function collect(env) {
   const pages = cfg.pages.slice(0, cfg.max_pages);
   const out = { fetched_at: new Date().toISOString(), pages: [] };
@@ -58,7 +70,7 @@ async function tagItems(env) {
     if (todo.length >= AI_MAX_PER_RUN) break;
   }
   let done = 0;
-  const dg = (diag.tag = { todo: todo.length, ok: 0, nojson: 0, err: 0, firstErr: "" });
+  const dg = (diag.tag = { todo: todo.length, ok: 0, nojson: 0, err: 0, firstErr: "", sample: "" });
   for (const it of todo) {
     try {
       const prompt = `Classify this item for a geodata (photogrammetry, remote sensing, GIS, LiDAR, SAR, geodesy, GeoAI, BIM/CityGML) opportunity board.
@@ -68,9 +80,8 @@ Place: ${it.location || "unknown"}
 Reply with ONLY compact JSON: {"type":"phd|postdoc|student|internship|industry|other","relevance":0-10,"summary":"max 25 words, plain"}.
 relevance = how central geodata is to the work (10 core research, 0 unrelated such as sales or construction).`;
       const r = await env.AI.run(AI_MODEL, { messages: [{ role: "user", content: prompt }], max_tokens: 120, temperature: 0 });
-      const m = String(r.response ?? "").match(/\{[\s\S]*\}/);
-      if (!m) { dg.nojson++; continue; }
-      const j = JSON.parse(m[0]);
+      const j = aiJson(r);
+      if (!j) { dg.nojson++; dg.sample ||= JSON.stringify(r?.response ?? r).slice(0, 160); continue; }
       const type = ["phd", "postdoc", "student", "internship", "industry", "other"].includes(j.type) ? j.type : "other";
       const relevance = Math.max(0, Math.min(10, Number(j.relevance) || 0));
       await env.KV.put("ai:" + it.id, JSON.stringify({ type, relevance, summary: String(j.summary || "").slice(0, 200) }), { expirationTtl: 60 * 60 * 24 * 90 });
@@ -127,9 +138,8 @@ async function enrichProgrammes(env) {
 Text: ${facts}
 Reply with ONLY compact JSON: {"degree":"MSc|BSc|PhD|Certificate|Other","language":"teaching language e.g. English, German, English and German","duration":"e.g. 2 years","ects":number of ECTS credits or null,"tuition":"short, e.g. No tuition fees, EUR 1,500 per semester"}`;
         const a = await env.AI.run(AI_MODEL, { messages: [{ role: "user", content: prompt }], max_tokens: 140, temperature: 0 });
-        const m = String(a.response ?? "").match(/\{[\s\S]*\}/);
-        if (!m) { pg.nojson++; return none(); }
-        const j = JSON.parse(m[0]);
+        const j = aiJson(a);
+        if (!j) { pg.nojson++; return none(); }
         const ects = Number(j.ects);
         const out = {
           degree: ["MSc", "BSc", "PhD", "Certificate"].includes(j.degree) ? j.degree : "",
