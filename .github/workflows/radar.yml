@@ -50,6 +50,9 @@ jobs:
             echo "No feed changes."
           else
             git commit -m "radar: refresh feed"
+            # A run can start on an older checkout than main (queued behind another run), so rebase first;
+            # on a data conflict keep this run's freshly generated files.
+            git pull --rebase -X theirs origin main
             git push
           fi
 
