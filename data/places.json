@@ -147,6 +147,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:46.425Z"
  },
+ "city|apeldoorn|NL": {
+  "lat": 52.21,
+  "lon": 5.96944,
+  "city": "Apeldoorn",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-11T17:55:31.643Z"
+ },
  "city|armilla|ES": {
   "lat": 37.14386,
   "lon": -3.62534,
@@ -1279,6 +1287,14 @@
   "src": "city",
   "t": "2026-11-05T00:36:01.834Z"
  },
+ "city|exeter|GB": {
+  "lat": 50.7236,
+  "lon": -3.52751,
+  "city": "Exeter",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-11T17:55:31.978Z"
+ },
  "city|fairborn|US": {
   "lat": 39.82089,
   "lon": -84.01938,
@@ -1423,6 +1439,14 @@
   "src": "city",
   "t": "2026-11-07T11:57:06.965Z"
  },
+ "city|galgenen|CH": {
+  "lat": 47.18226,
+  "lon": 8.87046,
+  "city": "Galgenen",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-11T17:55:32.295Z"
+ },
  "city|geelong region|AU": {
   "miss": true,
   "t": "2026-11-05T19:43:09.293Z"
@@ -1547,6 +1571,14 @@
   "src": "city",
   "t": "2026-11-10T13:46:06.780Z"
  },
+ "city|graz|AT": {
+  "lat": 47.06733,
+  "lon": 15.44197,
+  "city": "Graz",
+  "cc": "AT",
+  "src": "city",
+  "t": "2026-11-11T17:55:32.612Z"
+ },
  "city|greater vancouver|CA": {
   "miss": true,
   "t": "2026-11-05T13:30:33.532Z"
@@ -1570,6 +1602,14 @@
  "city|grss-ieee.org|": {
   "miss": true,
   "t": "2026-11-05T19:49:40.465Z"
+ },
+ "city|gryfice|PL": {
+  "lat": 53.9165,
+  "lon": 15.20027,
+  "city": "Gryfice",
+  "cc": "PL",
+  "src": "city",
+  "t": "2026-11-11T17:55:31.976Z"
  },
  "city|guys cliffe|GB": {
   "lat": 52.29638,
@@ -1795,6 +1835,14 @@
   "miss": true,
   "t": "2026-11-11T13:01:14.055Z"
  },
+ "city|imst|AT": {
+  "lat": 47.24504,
+  "lon": 10.73974,
+  "city": "Imst",
+  "cc": "AT",
+  "src": "city",
+  "t": "2026-11-11T17:55:32.619Z"
+ },
  "city|industriegebiet|DE": {
   "lat": 47.67583,
   "lon": 9.14933,
@@ -1826,6 +1874,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-09T20:48:13.970Z"
+ },
+ "city|ispra|IT": {
+  "lat": 45.8148,
+  "lon": 8.61294,
+  "city": "Ispra",
+  "cc": "IT",
+  "src": "city",
+  "t": "2026-11-11T17:55:31.646Z"
  },
  "city|issy-les-moulineaux|FR": {
   "lat": 48.82104,
@@ -1859,6 +1915,14 @@
   "src": "city",
   "t": "2026-11-10T21:45:14.581Z"
  },
+ "city|kalispell|US": {
+  "lat": 48.19579,
+  "lon": -114.31291,
+  "city": "Kalispell",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-11T17:55:32.294Z"
+ },
  "city|kamloops|CA": {
   "lat": 50.66648,
   "lon": -120.3192,
@@ -1874,6 +1938,14 @@
  "city|karlsruhe institute of technology|DE": {
   "miss": true,
   "t": "2026-11-05T00:35:59.687Z"
+ },
+ "city|klosterneuburg|AT": {
+  "lat": 48.30521,
+  "lon": 16.32522,
+  "city": "Klosterneuburg",
+  "cc": "AT",
+  "src": "city",
+  "t": "2026-11-11T17:55:32.615Z"
  },
  "city|kogarah|AU": {
   "lat": -33.9681,
@@ -2219,6 +2291,14 @@
   "src": "city",
   "t": "2026-11-06T13:13:56.497Z"
  },
+ "city|madison|US": {
+  "lat": 43.07305,
+  "lon": -89.40123,
+  "city": "Madison",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-11T17:55:32.302Z"
+ },
  "city|madrid|ES": {
   "lat": 40.4165,
   "lon": -3.70256,
@@ -2250,6 +2330,14 @@
   "cc": "ES",
   "src": "city",
   "t": "2026-11-11T13:01:14.674Z"
+ },
+ "city|malans|CH": {
+  "lat": 46.98096,
+  "lon": 9.57527,
+  "city": "Malans",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-11T17:55:32.613Z"
  },
  "city|malmö|": {
   "lat": 55.60587,
@@ -2394,6 +2482,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:34.108Z"
+ },
+ "city|modena|IT": {
+  "lat": 44.64783,
+  "lon": 10.92539,
+  "city": "Modena",
+  "cc": "IT",
+  "src": "city",
+  "t": "2026-11-11T17:55:31.644Z"
  },
  "city|moncton|CA": {
   "lat": 46.09454,
@@ -2691,6 +2787,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:19.305Z"
  },
+ "city|oldbrook|GB": {
+  "lat": 52.02894,
+  "lon": -0.75171,
+  "city": "Oldbrook",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-11T17:55:31.981Z"
+ },
  "city|olivette|US": {
   "lat": 38.66533,
   "lon": -90.37595,
@@ -2918,6 +3022,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:02.058Z"
+ },
+ "city|pontevedra|ES": {
+  "lat": 42.431,
+  "lon": -8.64435,
+  "city": "Pontevedra",
+  "cc": "ES",
+  "src": "city",
+  "t": "2026-11-11T17:55:31.663Z"
  },
  "city|portola valley|US": {
   "lat": 37.38411,
@@ -3579,6 +3691,14 @@
   "src": "city",
   "t": "2026-11-08T12:11:02.651Z"
  },
+ "city|tasmania|AU": {
+  "lat": -42,
+  "lon": 147,
+  "city": "Tasmania",
+  "cc": "AU",
+  "src": "city",
+  "t": "2026-11-11T17:55:31.978Z"
+ },
  "city|taunton|GB": {
   "lat": 51.01494,
   "lon": -3.10293,
@@ -3770,6 +3890,14 @@
  "city|university of wisconsin–madison|US": {
   "miss": true,
   "t": "2026-11-05T00:35:59.712Z"
+ },
+ "city|university|US": {
+  "lat": 28.07389,
+  "lon": -82.43902,
+  "city": "University",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-11T17:55:32.296Z"
  },
  "city|uppsala|": {
   "lat": 59.85882,
@@ -4222,6 +4350,14 @@
   "cc": "CH",
   "src": "city",
   "t": "2026-11-11T13:01:20.850Z"
+ },
+ "city|zug|CH": {
+  "lat": 47.17242,
+  "lon": 8.51745,
+  "city": "Zug",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-11T17:55:32.928Z"
  },
  "city|zuidlaren|NL": {
   "lat": 53.09417,
