@@ -693,7 +693,7 @@
  },
  "city|canberra region|AU": {
   "miss": true,
-  "t": "2026-11-05T13:30:38.406Z"
+  "t": "2026-11-12T13:53:14.469Z"
  },
  "city|capshaw|US": {
   "lat": 34.77315,
@@ -1581,7 +1581,7 @@
  },
  "city|greater vancouver|CA": {
   "miss": true,
-  "t": "2026-11-05T13:30:33.532Z"
+  "t": "2026-11-12T13:53:14.813Z"
  },
  "city|gremmendorf|DE": {
   "lat": 51.92892,
@@ -2601,7 +2601,7 @@
  },
  "city|naughton|CA": {
   "miss": true,
-  "t": "2026-11-05T13:30:33.536Z"
+  "t": "2026-11-12T13:53:14.495Z"
  },
  "city|neumarkt in der oberpfalz|DE": {
   "lat": 49.28028,
@@ -2861,7 +2861,7 @@
  },
  "city|palmerston area|AU": {
   "miss": true,
-  "t": "2026-11-05T13:30:38.122Z"
+  "t": "2026-11-12T13:53:14.486Z"
  },
  "city|paris|FR": {
   "lat": 48.85341,
@@ -3157,7 +3157,7 @@
  },
  "city|regina region|CA": {
   "miss": true,
-  "t": "2026-11-05T13:30:37.847Z"
+  "t": "2026-11-12T13:53:14.810Z"
  },
  "city|regina|CA": {
   "lat": 50.45008,
@@ -3489,7 +3489,7 @@
  },
  "city|simcoe region|CA": {
   "miss": true,
-  "t": "2026-11-05T13:30:37.298Z"
+  "t": "2026-11-12T13:53:14.807Z"
  },
  "city|simcoe|CA": {
   "lat": 42.8334,
@@ -4393,7 +4393,7 @@
  },
  "ror|apex geomatics construction surveyors ltd|CA": {
   "miss": true,
-  "t": "2026-11-05T13:30:36.479Z"
+  "t": "2026-11-12T13:53:14.284Z"
  },
  "ror|birmingham city university|": {
   "lat": 52.48142,
