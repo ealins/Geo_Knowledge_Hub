@@ -346,5 +346,41 @@
   "ok": false,
   "terms": "",
   "at": "2026-11-12T09:52:51.956Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ106/senior-scientist-in-agentic-ai-for-environmental-digital-twins": {
+  "v": 2,
+  "ok": true,
+  "terms": "remote sensing, geospatial, earth observation, disaster",
+  "at": "2026-11-12T18:21:33.331Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ233/phd-studentship-can-we-trust-ai-to-help-save-biodiversity": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-12T18:21:33.331Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ201/phd-studentship-autonomous-satellite-linked-acoustic-monitoring-of-biodiversity-and-threats-in-the-celtic-sea": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-12T18:21:33.331Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ194/phd-studentship-leopard-seal-migration-as-an-early-warning-signal-of-antarctic-ecosystem-change": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-12T18:21:33.331Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ170/phd-studentship-using-next-generation-ocean-observations-and-machine-learning-to-transform-mixed-layer-depth-predictions": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-12T18:21:33.331Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ212/phd-studentship-soil-carbon-dynamics-following-amazon-forest-wildfires": {
+  "v": 2,
+  "ok": true,
+  "terms": "wildfire",
+  "at": "2026-11-12T18:21:33.331Z"
  }
 }

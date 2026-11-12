@@ -1099,6 +1099,14 @@
   "src": "city",
   "t": "2026-11-12T14:02:30.905Z"
  },
+ "city|devon|": {
+  "lat": 40.04928,
+  "lon": -75.42908,
+  "city": "Devon",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-12T18:22:17.016Z"
+ },
  "city|dgpf.de|": {
   "miss": true,
   "t": "2026-11-07T08:51:27.695Z"
@@ -1302,6 +1310,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-10T22:09:39.597Z"
+ },
+ "city|esch-sur-alzette|": {
+  "lat": 49.49583,
+  "lon": 5.98056,
+  "city": "Esch-sur-Alzette",
+  "cc": "LU",
+  "src": "city",
+  "t": "2026-11-12T18:22:17.014Z"
  },
  "city|esip.org|": {
   "miss": true,
@@ -4834,6 +4850,14 @@
   "cc": "SE",
   "src": "ror",
   "t": "2026-11-05T00:35:53.352Z"
+ },
+ "ror|luxembourg institute of science and technology|": {
+  "lat": 49.51014,
+  "lon": 5.92414,
+  "city": "Belvaux",
+  "cc": "LU",
+  "src": "ror",
+  "t": "2026-11-12T18:22:16.912Z"
  },
  "ror|mit lincoln laboratory|US": {
   "lat": 42.44732,
