@@ -16,8 +16,10 @@ $("support").addEventListener("click", () => {
       const r = await fetch("/api/pulse", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ name: $("spn").value, city: $("spc").value, url: $("spu").value, hp: $("sph").value }) });
       const j = await r.json(); if (!r.ok) throw new Error(j.error || "failed");
       d.innerHTML = `<h3>Almost there</h3><p>Pay on either page below and put this code in the payment note, so I can match it to your pulse. I add new pulses by hand, usually within a day or two.</p>
-        <div class="spcode">${esc(j.code)}</div><div class="spbtns"><a class="spbtn spgo" href="${PAY.revolut}" target="_blank" rel="noopener noreferrer">Pay with Revolut</a><a class="spbtn spalt" href="${PAY.paypal}" target="_blank" rel="noopener noreferrer">Pay with PayPal</a><button class="spbtn spalt" type="button" id="spx2">Close</button></div>`;
+        <div class="spcode">${esc(j.code)}</div>
+        <p class="spnote"><button class="spcopy" type="button" id="spcp">Copy code</button><span>Paste it into the note or message box on the payment page. Neither page fills it in for you.</span></p><div class="spbtns"><a class="spbtn spgo" href="${PAY.revolut}" target="_blank" rel="noopener noreferrer">Pay with Revolut</a><a class="spbtn spalt" href="${PAY.paypal}" target="_blank" rel="noopener noreferrer">Pay with PayPal</a><button class="spbtn spalt" type="button" id="spx2">Close</button></div>`;
       $("spx2").onclick = () => d.close();
+      $("spcp").onclick = async () => { try { await navigator.clipboard.writeText(j.code); $("spcp").textContent = "Copied"; } catch { $("spcp").textContent = "Select the code above"; } };
     } catch (err) { btn.disabled = false; alert("Could not save the claim. Please try again later."); }
   };
   d.showModal();
