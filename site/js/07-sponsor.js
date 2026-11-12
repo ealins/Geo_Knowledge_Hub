@@ -1,6 +1,6 @@
 // ---------- Sponsor a pulse ----------
 // Payment happens on Revolut / PayPal's own pages; this site never sees card data. The claim only stores name, city and a code.
-const PAY = { revolut: "https://revolut.me/ealins", paypal: "https://www.paypal.com/donate/?business=QJ7QV7SEW87WU&currency_code=EUR&item_name=Geo+Radar+pulse" };
+const PAY = { revolut: "https://revolut.me/ealins", paypal: "https://paypal.me/ealins" };
 $("support").addEventListener("click", () => {
   let d = $("spdlg"); if (!d) { d = document.createElement("dialog"); d.id = "spdlg"; document.body.appendChild(d); d.addEventListener("click", e => { if (e.target === d) d.close(); }); }
   d.innerHTML = `<h3>Sponsor a pulse</h3><p>Geo Radar is free for everyone. Support it with any amount you like and your own gold pulse lights up on the globe, with your name and city.</p>
