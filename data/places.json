@@ -1739,6 +1739,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:47.876Z"
  },
+ "city|hall in tirol|AT": {
+  "lat": 47.28333,
+  "lon": 11.51667,
+  "city": "Hall in Tirol",
+  "cc": "AT",
+  "src": "city",
+  "t": "2026-11-12T14:13:41.495Z"
+ },
  "city|halle|DE": {
   "lat": 51.48158,
   "lon": 11.97947,
@@ -3447,6 +3455,14 @@
   "src": "city",
   "t": "2026-11-10T21:45:14.326Z"
  },
+ "city|rosslyn|US": {
+  "lat": 38.89678,
+  "lon": -77.07248,
+  "city": "Rosslyn",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-12T14:13:41.519Z"
+ },
  "city|rotterdam|NL": {
   "lat": 51.9225,
   "lon": 4.47917,
@@ -4335,6 +4351,14 @@
   "src": "city",
   "t": "2026-11-08T12:11:03.168Z"
  },
+ "city|wakefield|GB": {
+  "lat": 53.68331,
+  "lon": -1.49768,
+  "city": "Wakefield",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-12T14:13:41.499Z"
+ },
  "city|walla walla|US": {
   "lat": 46.06458,
   "lon": -118.34302,
@@ -4622,6 +4646,14 @@
   "cc": "NL",
   "src": "city",
   "t": "2026-11-09T14:19:24.664Z"
+ },
+ "city|zuidveen|NL": {
+  "lat": 52.7775,
+  "lon": 6.10694,
+  "city": "Zuidveen",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-12T14:13:41.496Z"
  },
  "city|zurich|": {
   "lat": 47.36667,
