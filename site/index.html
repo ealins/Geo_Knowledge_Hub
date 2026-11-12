@@ -98,17 +98,23 @@
     </aside>
 
     <section aria-label="Results" class="main">
-      <div class="toolbar">
-        <label class="sr" for="q">Search</label>
-        <div class="sbox"><input id="q" type="search" placeholder="Search titles, sources and topics" autocomplete="off"><kbd>/</kbd></div>
+      <div id="vhead"></div>
+      <div class="panel refine">
+        <div class="toolbar">
+          <label class="sr" for="q">Search</label>
+          <div class="sbox"><input id="q" type="search" placeholder="Search titles, sources and topics" autocomplete="off"><kbd>/</kbd></div>
+        </div>
+        <div class="where" id="where" aria-label="Filter by place"></div>
       </div>
-      <div class="where" id="where" aria-label="Filter by place"></div>
-      <div class="count" id="count" aria-live="polite">Loading…</div>
+      <div class="sr" id="count" aria-live="polite">Loading…</div>
       <div id="dhead"></div>
       <div id="overview"></div>
       <div id="board"></div>
-      <div id="list"></div>
-      <button class="more" id="more" hidden>Show more</button>
+      <section class="panel listp" id="listp" aria-label="List">
+        <div id="lhead"></div>
+        <div id="list"></div>
+        <button class="more" id="more" hidden>Show more</button>
+      </section>
     </section>
   </div>
 </div>

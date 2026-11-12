@@ -25,10 +25,11 @@ function renderPeople() {
         <div class="plinks">${r.collab?.length ? `<button class="pnet" data-net="${esc(r.id)}">Network</button>` : ""}<a href="https://openalex.org/${esc(r.id)}" target="_blank" rel="noopener noreferrer">Publications</a>${r.orcid ? `<a href="${esc(r.orcid)}" target="_blank" rel="noopener noreferrer">ORCID</a>` : ""}</div>
       </div></article>`;
   }).join("");
-  $("overview").innerHTML = `<h2 class="sect">Researchers<small>${fb ? esc(fb.blurb) : "Researchers active in each field, listed alphabetically."}</small></h2>${chips}` +
+  $("overview").innerHTML = `<section class="panel"><h2 class="sect">${fb ? esc(fb.name) : "All fields"}<small>${fb ? esc(fb.blurb) : "Pick a field, or open a card for the profile."}</small></h2>${chips}` +
     (cards ? `<div class="people">${cards}</div>` : '<div class="empty">No researchers match.</div>') +
-    `<p class="mxnote">Ranked from OpenAlex by papers since ${P.since} and h-index. Public scholarly data only. Authors can be merged or split in OpenAlex, so check the profile. Updated ${new Date(P.generated_at).toLocaleDateString([], { dateStyle: "medium" })}.</p>`;
+    `<p class="mxnote">Ranked from OpenAlex by papers since ${P.since} and h-index. Public scholarly data only. Authors can be merged or split in OpenAlex, so check the profile. Updated ${new Date(P.generated_at).toLocaleDateString([], { dateStyle: "medium" })}.</p></section>`;
   $("count").textContent = `${ppl.length} researcher${ppl.length === 1 ? "" : "s"}${st.pfield ? " in " + P.fields[fIdx[st.pfield]].name : ""}`;
+  $("listp").hidden = true; renderViewHead(ppl);
 }
 
 function render() {
@@ -45,10 +46,13 @@ function render() {
   const nOpen = items.filter(i => NEEDS_DEADLINE.has(i.kind)).length;
   $("count").textContent = `${items.length} ${items.length === 1 ? "item" : "items"}${st.kind === "all" && nOpen && nOpen < items.length ? ` (${nOpen} to apply for, the rest papers and news)` : ""}${filters.length ? ", filtered by " + filters.join(", ") : ""}`;
   $("dhead").innerHTML = ""; $("overview").innerHTML = ""; $("board").innerHTML = "";
+  renderViewHead(items); $("listp").hidden = false;
   if (st.domain) renderDomainHead();
   if (overview) renderOverview();
   const jobsView = st.kind === "job" && !st.q.trim();
-  if (jobsView) $("overview").innerHTML = (!st.domain ? renderJobsOverview() : "") + groupBar();
+  if (jobsView && !st.domain && !st.ptype) $("overview").innerHTML = renderJobsOverview();
+  const drilled = activeFilters().length > 0, kl = (KINDS.find(k => k[0] === st.kind) || [, "Items"])[1];
+  $("lhead").innerHTML = `<h2 class="sect">${overview ? "Everything, closing soonest first" : (drilled ? "Matching " : "All ") + (st.kind === "all" ? "items" : kl.toLowerCase())}<small>${items.length} ${items.length === 1 ? "item" : "items"}</small></h2>` + (jobsView ? groupBar() : "");
   if (st.kind === "job" && st.group !== "time") {
     // Grouped positions: every group shows its first few, with "show all" per group.
     const count = {}, keys = new Set(), by = {};
@@ -64,7 +68,7 @@ function render() {
     $("more").hidden = true;
     return;
   }
-  if (board) { renderBoard(); $("list").innerHTML = ""; $("more").hidden = true; return; }
+  if (board) { renderBoard(); $("list").innerHTML = ""; $("more").hidden = true; $("listp").hidden = true; return; }
   let html = "", last = "";
   for (const it of page) {
     const g = st.sort === "seen" ? bucket(it) : st.sort === "auto" ? section(it) : "";

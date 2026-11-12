@@ -2,10 +2,13 @@ $("stats").addEventListener("click", e => { const b = e.target.closest("[data-k]
 document.addEventListener("click", e => {
   const vz = e.target.closest("[data-viz]");
   if (vz) { setViz(vz.dataset.viz); return; }
+  const cl = e.target.closest("[data-clear]");
+  if (cl) { clearFilter(cl.dataset.clear); return; }
+  if (e.target.closest("[data-stat-new]")) { st.newOnly = !st.newOnly; $("newOnly").checked = st.newOnly; reset(); return; }
   const wt = e.target.closest("[data-pt]");
-  if (wt) { st.ptype = wt.classList.contains("ptile") && st.ptype === wt.dataset.pt ? "" : wt.dataset.pt; st.shown = PAGE; render(); return; }
+  if (wt) { const tile = wt.classList.contains("ptile"); st.ptype = tile && st.ptype === wt.dataset.pt ? "" : wt.dataset.pt; st.shown = PAGE; render(); if (tile) { toView(); swap(); } return; }
   const mx = e.target.closest("[data-mxd]");
-  if (mx) { st.domain = mx.dataset.mxd; st.sub = ""; st.ptype = mx.dataset.mxp; st.shown = PAGE; render(); window.scrollTo({ top: Math.max(0, $("count").getBoundingClientRect().top + scrollY - 70), behavior: "smooth" }); return; }
+  if (mx) { st.domain = mx.dataset.mxd; st.sub = ""; st.ptype = mx.dataset.mxp; st.shown = PAGE; render(); window.scrollTo({ top: Math.max(0, $("vhead").getBoundingClientRect().top + scrollY - 70), behavior: "smooth" }); return; }
   const gp = e.target.closest("[data-group]");
   if (gp) { st.group = gp.dataset.group; write(STORE.group, st.group); st.shown = PAGE; render(); return; }
   const go = e.target.closest("[data-gopen]");

@@ -5,6 +5,7 @@
 | Area | Files |
 |---|---|
 | Look: theme, hero, tabs, tiles, lists | `css/01-base` to `css/07-list` |
+| Motion; view header, back control and panels | `css/08-motion`, `js/11-motion`; `css/09-areas`, `js/12-viewhead` |
 | Shared state, matcher, kinds | `js/01-core-matcher.js` (change with care: everything reads it) |
 | Domains, places | `js/02-domains-places.js` |
 | Sorting and labels | `js/03-sort-labels.js` |

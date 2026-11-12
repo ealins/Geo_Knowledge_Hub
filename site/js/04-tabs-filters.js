@@ -46,7 +46,7 @@ function renderOverview() {
       ${nxt ? `<span class="tnext"><b>${days === 0 ? "Today" : days + (days === 1 ? " day" : " days")}</b> · ${esc(nxt.title)}</span>` : '<span class="tnext">No dated deadline right now</span>'}
     </button>`;
   }).join("");
-  $("overview").innerHTML = `<h2 class="sect">Browse by domain<small>${pool.length} live items across ${DOMAINS.length - 1} fields</small></h2><div class="tiles">${tiles}</div><h2 class="sect" style="margin-top:34px">Everything, closing soonest first</h2>`;
+  $("overview").innerHTML = `<section class="panel"><h2 class="sect">Browse by domain<small>${pool.length} live items across ${DOMAINS.length - 1} fields</small></h2><div class="tiles">${tiles}</div></section>`;
 }
 
 function renderJobsOverview() {
@@ -71,11 +71,11 @@ function renderJobsOverview() {
       PTYPES.map(tp => { const c = r.its.filter(it => ptypeOf(it) === tp).length;
         return `<td>${c ? `<button data-mxd="${r.d.id}" data-mxp="${esc(tp)}" style="--a:${(0.12 + 0.88 * c / max).toFixed(2)}" title="${c} ${esc(tp)} in ${esc(r.d.name)}">${c}</button>` : '<button class="z" style="--a:0" tabindex="-1">·</button>'}</td>`; }).join("") +
       `<td class="tot"><button data-mxd="${r.d.id}" data-mxp="" style="--a:0">${r.its.length}</button></td></tr>`).join("") + "</tbody></table>";
-  return `<h2 class="sect">Positions by type<small>${pool.length} open. Tap a type to filter.</small></h2>
+  return `<section class="panel"><h2 class="sect">Positions by type<small>Tap a type to open it.</small></h2>
     <div class="slegend">${SECTORS.map((s, i) => `<span><i class="${SEC_CLASS[i]}"></i>${esc(s)}</span>`).join("")}</div>
-    <div class="ptiles">${tiles}</div>
-    <h2 class="sect" style="margin-top:30px">Field × type<small>Tap a number to see those positions.</small></h2>
-    <div class="tablewrap">${table}</div><p class="mxnote">A position can belong to more than one field.</p>`;
+    <div class="ptiles">${tiles}</div></section>
+    <section class="panel"><h2 class="sect">Field × type<small>Tap a number to see those positions.</small></h2>
+    <div class="tablewrap">${table}</div><p class="mxnote">A position can belong to more than one field.</p></section>`;
 }
 function groupBar() {
   return `<div class="gbar"><span class="wlabel">Group by</span>${GROUPS.map(([k, l]) => `<button class="wpill" data-group="${k}" aria-pressed="${st.group === k}">${l}</button>`).join("")}</div>`;
@@ -84,8 +84,7 @@ function groupBar() {
 function renderDomainHead() {
   const d = DOM[st.domain];
   const subPool = filtered(true, false, true);
-  $("dhead").innerHTML = `<div class="dhead" style="--dc:${d.color}"><button class="back" data-dom="">← All domains</button>
-    <h2 class="dtitle">${esc(d.name)}</h2><p class="dblurb">${esc(d.blurb)}</p>
+  $("dhead").innerHTML = !d.subs.length ? "" : `<div class="panel dhead" style="--dc:${d.color}"><h2 class="sect">Topics in ${esc(d.name)}<small>Tap one to narrow the list.</small></h2>
     ${d.subs.length ? `<div class="subchips"><button class="chip" data-sub="" aria-pressed="${!st.sub}">All<i>${subPool.length}</i></button>` + d.subs.map(([l]) => {
       const c = subPool.filter(it => it._s.has(d.id + ":" + l)).length;
       return c || st.sub === l ? `<button class="chip" data-sub="${esc(l)}" aria-pressed="${st.sub === l}">${esc(l)}<i>${c}</i></button>` : "";
