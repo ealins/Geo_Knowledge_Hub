@@ -406,5 +406,23 @@
   "ok": true,
   "terms": "geospatial, flood",
   "at": "2026-11-13T13:28:17.877Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ467/phd-studentship-digital-twinning-for-post-mining-environmental-transitions": {
+  "v": 2,
+  "ok": true,
+  "terms": "cultural heritage",
+  "at": "2026-11-13T17:46:10.914Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ558/phd-studentship-bee-behaviour-and-pollination-services-across-structurally-diverse-floral-habitats": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-13T17:46:10.914Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ559/phd-studentship-closing-the-aquatic-observational-gap-low-cost-environmental-sensing-from-recreational-watercraft": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-13T17:46:10.914Z"
  }
 }

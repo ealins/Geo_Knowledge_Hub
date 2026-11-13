@@ -85,7 +85,7 @@
  },
  "city|alpes-de-haute-provence|FR": {
   "miss": true,
-  "t": "2026-11-06T13:13:56.196Z"
+  "t": "2026-11-13T17:47:41.915Z"
  },
  "city|alpes-maritimes|FR": {
   "miss": true,
@@ -230,6 +230,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T15:57:59.997Z"
+ },
+ "city|auckland|NZ": {
+  "lat": -36.84853,
+  "lon": 174.76349,
+  "city": "Auckland",
+  "cc": "NZ",
+  "src": "city",
+  "t": "2026-11-13T17:47:41.915Z"
  },
  "city|austin|US": {
   "lat": 30.26715,
@@ -579,6 +587,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:49.054Z"
  },
+ "city|brentwood|US": {
+  "lat": 42.9787,
+  "lon": -71.07284,
+  "city": "Brentwood",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-13T17:47:42.174Z"
+ },
  "city|brest|FR": {
   "lat": 48.39029,
   "lon": -4.48628,
@@ -790,6 +806,14 @@
  "city|canterbury|NZ": {
   "miss": true,
   "t": "2026-11-13T13:30:21.548Z"
+ },
+ "city|capitol|US": {
+  "lat": 45.4361,
+  "lon": -104.06549,
+  "city": "Capitol",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-13T17:47:42.172Z"
  },
  "city|capshaw|US": {
   "lat": 34.77315,
@@ -1358,6 +1382,14 @@
   "cc": "CH",
   "src": "city",
   "t": "2026-11-05T00:35:51.705Z"
+ },
+ "city|eindhoven|NL": {
+  "lat": 51.44083,
+  "lon": 5.47778,
+  "city": "Eindhoven",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-13T17:47:41.915Z"
  },
  "city|el puerto de santa maría|ES": {
   "lat": 36.59389,
@@ -2203,6 +2235,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:49.642Z"
  },
+ "city|ivy|US": {
+  "lat": 38.05653,
+  "lon": -78.59668,
+  "city": "Ivy",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-13T17:47:42.174Z"
+ },
  "city|jena|DE": {
   "lat": 50.92878,
   "lon": 11.5899,
@@ -2943,6 +2983,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.822Z"
  },
+ "city|naperville|US": {
+  "lat": 41.78586,
+  "lon": -88.14729,
+  "city": "Naperville",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-13T17:47:42.173Z"
+ },
  "city|napoli|IT": {
   "lat": 40.87618,
   "lon": 14.5195,
@@ -2994,6 +3042,10 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T15:57:59.997Z"
+ },
+ "city|new south wales|AU": {
+  "miss": true,
+  "t": "2026-11-13T17:47:41.914Z"
  },
  "city|new york city|US": {
   "lat": 40.71427,
