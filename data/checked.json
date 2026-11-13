@@ -394,5 +394,17 @@
   "ok": false,
   "terms": "",
   "at": "2026-11-13T12:27:54.641Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ443/phd-studentship-pests-pathogens-and-forest-carbon-building-a-prognostic-disturbance-module-for-the-jules-land-surface-model": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-13T13:28:17.877Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ436/phd-studentship-ecosystem-engineers-can-beaver-wetlands-provide-resilience-to-the-hydrological-extremes-of-flooding-and-drought": {
+  "v": 2,
+  "ok": true,
+  "terms": "geospatial, flood",
+  "at": "2026-11-13T13:28:17.877Z"
  }
 }
