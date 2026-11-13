@@ -382,5 +382,17 @@
   "ok": true,
   "terms": "wildfire",
   "at": "2026-11-12T18:21:33.331Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ422/phd-studentship-solving-the-puzzle-of-contrasting-arctic-and-antarctic-sea-ice-changes": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-13T12:27:54.641Z"
+ },
+ "https://www.jobs.ac.uk/job/DTQ425/phd-studentship-when-does-ecosystem-engineering-create-ecological-opportunity-how-landscape-context-shapes-biodiversity-and-ecological-networks-following-beaver-restoration": {
+  "v": 2,
+  "ok": false,
+  "terms": "",
+  "at": "2026-11-13T12:27:54.641Z"
  }
 }
