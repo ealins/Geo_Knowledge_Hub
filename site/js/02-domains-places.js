@@ -85,11 +85,14 @@ const PTYPES = ["PhD", "Postdoc", "Student and thesis", "Internship", "Industry 
 const AI_TYPES = { phd: "PhD", postdoc: "Postdoc", student: "Student and thesis", internship: "Internship", industry: "Industry and other", other: "Industry and other" };
 let AI = {};
 let PROG = {};
-// Facts read from each programme's own page (degree, language, duration, ECTS, tuition), only when the page states them.
+// Programme facts: read from each programme's own page by the radar (it.facts) and, where that found nothing,
+// by the Worker's AI (PROG). A fact the page does not state shows as "see page" instead of being guessed.
 function progChips(it) {
-  const p = it.kind === "course" && PROG[it.id]; if (!p || p.none) return "";
-  const c = [p.degree, p.language, p.duration, p.ects ? p.ects + " ECTS" : "", p.tuition].filter(Boolean);
-  return c.map(x => `<span class="pc">${esc(x)}</span>`).join("");
+  if (it.kind !== "course") return "";
+  const a = PROG[it.id], p = a && !a.none ? a : {}, f = it.facts || {};
+  const v = k => f[k] || p[k] || "", ects = f.ects || p.ects;
+  const slot = (label, val) => val ? `<span class="pc">${esc(val)}</span>` : `<span class="pc na" title="Not stated on the programme page">${label}: see page</span>`;
+  return slot("Degree", v("degree")) + slot("Language", v("language")) + slot("Duration", v("duration")) + (ects ? `<span class="pc">${esc(ects)} ECTS</span>` : "") + slot("Tuition", v("tuition"));
 }
 function ptypeOf(it) {
   if (it._t) return it._t;
@@ -161,7 +164,7 @@ function filtered(ignoreKind, ignoreDomain, ignoreSub, ignoreWhere) {
     (!st.ptype || it.kind !== "job" || ptypeOf(it) === st.ptype) &&
     (!st.source || it.source_name === st.source) &&
     (!st.newOnly || isNew(it)) &&
-    (!NEEDS_DEADLINE.has(it.kind) || st.unlisted || (it.deadline && Date.parse(it.deadline) >= Date.now()) || upcoming(it) || it.open_posting) &&
+    (!NEEDS_DEADLINE.has(it.kind) || it.kind === "course" || st.unlisted || (it.deadline && Date.parse(it.deadline) >= Date.now()) || upcoming(it) || it.open_posting) &&
     (!st.savedOnly || saved.has(it.id)) &&
     (!q || [it.title, it.source_name, (it.matched || []).join(" ")].join(" ").toLowerCase().includes(q)));
 }

@@ -172,7 +172,7 @@ function card(it) {
   </article>`;
 }
 
-const SECTIONS = ["Closing within a week", "Closing within a month", "Open for longer", "Upcoming events", "Open postings without a closing date", "Papers with the most impact", "Recent papers", "Open data and tools", "News", "Other"];
+const SECTIONS = ["Closing within a week", "Closing within a month", "Open for longer", "Programmes without a listed deadline", "Upcoming events", "Open postings without a closing date", "Papers with the most impact", "Recent papers", "Open data and tools", "News", "Other"];
 function section(it) {
   if (it.kind === "paper" && !it.call) return (it.impact || 0) >= 50 ? "Papers with the most impact" : "Recent papers";
   if (it.kind === "resource") return "Open data and tools";
@@ -181,6 +181,7 @@ function section(it) {
     const d = dayLeft(it.deadline);
     return d <= 7 ? "Closing within a week" : d <= 30 ? "Closing within a month" : "Open for longer";
   }
+  if (it.kind === "course") return "Programmes without a listed deadline";
   if (it.kind === "event" && upcoming(it)) return "Upcoming events";
   if (it.open_posting) return "Open postings without a closing date";
   return "Other";

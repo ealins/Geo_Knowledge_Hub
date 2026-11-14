@@ -9,6 +9,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { getEnabledSources } from "./source-config.mjs";
 import { UA, fetchText, robotsAllows } from "./net.mjs";
+import { extractFacts, degreeOf } from "./facts.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_DIR = path.join(ROOT, "data");
@@ -604,7 +605,7 @@ const merged = new Map();
 for (const it of fresh) {
   if (merged.has(it.id)) continue;
   const p = prevById.get(it.id);
-  merged.set(it.id, { ...it, first_seen: p?.first_seen ?? nowIso, last_seen: nowIso });
+  merged.set(it.id, { ...it, ...(p?.facts ? { facts: p.facts, facts_checked: p.facts_checked } : {}), first_seen: p?.first_seen ?? nowIso, last_seen: nowIso });
 }
 // Listing pages (html) show only what is currently open: if such a source was
 // read successfully and an item is no longer on it, the item is gone. Feeds
@@ -637,6 +638,24 @@ for (let n = 0; n < todo.length; n += 8) {
         else if (it.kind === "course") it.apply_closed = true; // programme stays; its intake has passed
         else if (it.kind === "event" && it.starts) it.call_closed = true; // call closed, event still ahead
         else it.deadline = found; // position or event already over: dropped below
+      } catch {}
+    }),
+  );
+}
+
+// Programme facts (degree, language, duration, ECTS, tuition): the degree comes from the title for every
+// programme; the rest is read from the programme page (robots.txt respected), at most 40 pages per run,
+// each page rechecked every 14 days. Only facts the page states are kept.
+const FACTS_RECHECK_MS = 14 * 864e5;
+for (const it of merged.values()) if (it.kind === "course") { const d = degreeOf(it.title, it.url); if (d && !it.facts?.degree) it.facts = { ...it.facts, degree: d }; }
+const factsTodo = [...merged.values()].filter((i) => i.kind === "course" && (!i.facts_checked || now.getTime() - Date.parse(i.facts_checked) > FACTS_RECHECK_MS)).slice(0, 40);
+for (let n = 0; n < factsTodo.length; n += 8) {
+  await Promise.all(
+    factsTodo.slice(n, n + 8).map(async (it) => {
+      it.facts_checked = nowIso;
+      try {
+        if (!(await robotsAllows(it.url))) return;
+        it.facts = { ...it.facts, ...extractFacts(await fetchText(it.url), { title: it.title, url: it.url }) };
       } catch {}
     }),
   );

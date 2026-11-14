@@ -41,3 +41,6 @@
     .hero-copy{animation:drift linear both;animation-timeline:scroll(root);animation-range:0 520px}
   }
 }
+
+/* programme facts that the page does not state */
+.pc.na{opacity:.55;font-style:italic}
