@@ -75,6 +75,14 @@
   "src": "city",
   "t": "2026-11-05T19:43:08.531Z"
  },
+ "city|alexandria|US": {
+  "lat": 38.80484,
+  "lon": -77.04692,
+  "city": "Alexandria",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-14T15:08:28.364Z"
+ },
  "city|allauch|FR": {
   "lat": 43.33573,
   "lon": 5.48201,
