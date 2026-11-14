@@ -1,0 +1,43 @@
+/* motion plus: bolder intro, staggered results, richer tab transitions, hover and scroll effects.
+   Everything is inside prefers-reduced-motion:no-preference. To undo: delete this file. */
+@media (prefers-reduced-motion:no-preference){
+  @keyframes globein{from{opacity:0;scale:.78;rotate:-24deg;filter:blur(14px)}60%{filter:blur(0)}to{opacity:1;scale:1;rotate:0deg;filter:blur(0)}}
+  @keyframes heroin{from{opacity:0;translate:0 26px;filter:blur(8px)}to{opacity:1;translate:0 0;filter:blur(0)}}
+  @keyframes swapin{from{opacity:0;translate:0 16px;scale:.992;filter:blur(5px)}to{opacity:1;translate:0 0;scale:1;filter:blur(0)}}
+  @keyframes rowin{from{opacity:0;translate:0 22px;scale:.97}to{opacity:1;translate:0 0;scale:1}}
+  @keyframes drift{to{translate:0 -36px;opacity:.5}}
+
+  /* intro: the globe spins and sharpens in, the copy rises out of a blur */
+  .gbox{animation:globein 1.4s var(--ease) .12s both}
+  .top,.sub,.tagline,.pulse,.next-h,.next li{animation-name:heroin;animation-duration:.9s}
+  .hero-copy h1{animation:heroin .95s var(--ease) .08s both,shine 9s linear 1.2s infinite}
+  .next li:nth-child(6){animation-delay:.76s}.next li:nth-child(7){animation-delay:.82s}.next li:nth-child(8){animation-delay:.88s}
+
+  /* tab and domain changes: the column blurs in and the first dozen results stagger up */
+  .swap{animation:swapin .5s var(--ease) both}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(-n+12){animation:rowin .55s var(--ease) calc(var(--n,0)*45ms + 80ms) both}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(1){--n:0}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(2){--n:1}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(3){--n:2}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(4){--n:3}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(5){--n:4}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(6){--n:5}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(7){--n:6}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(8){--n:7}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(9){--n:8}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(10){--n:9}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(11){--n:10}
+  .swap :is(#list>.row,.tile,.ptile,.person,.col):nth-child(12){--n:11}
+
+  /* hover: cards lift and glow in their own colour */
+  @media (hover:hover){
+    .tile,.ptile,.col{transition:transform .35s var(--ease),box-shadow .35s,border-color .2s,background .2s}
+    .tile:hover,.ptile:hover,.col:hover{transform:translateY(-5px);box-shadow:0 24px 44px -26px color-mix(in srgb,var(--sc,var(--k,var(--accent))) 65%,transparent)}
+    .tile:active,.ptile:active,.col:active{transform:translateY(-1px) scale(.99)}
+  }
+
+  /* scroll: the hero copy drifts up and softens as you leave it */
+  @supports (animation-timeline:scroll()){
+    .hero-copy{animation:drift linear both;animation-timeline:scroll(root);animation-range:0 520px}
+  }
+}
