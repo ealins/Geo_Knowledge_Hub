@@ -1619,6 +1619,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:01.440Z"
  },
+ "city|fairmount|US": {
+  "lat": 40.41532,
+  "lon": -85.65053,
+  "city": "Fairmount",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T06:08:59.423Z"
+ },
  "city|faridabad india|": {
   "miss": true,
   "t": "2026-11-12T00:47:10.484Z"
@@ -1970,6 +1978,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-10T13:46:06.780Z"
+ },
+ "city|grasse|FR": {
+  "lat": 43.65783,
+  "lon": 6.92537,
+  "city": "Grasse",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-15T06:08:59.422Z"
  },
  "city|graz|AT": {
   "lat": 47.06733,
@@ -3403,6 +3419,14 @@
   "src": "city",
   "t": "2026-11-10T21:45:14.326Z"
  },
+ "city|oak hill|US": {
+  "lat": 37.97233,
+  "lon": -81.14871,
+  "city": "Oak Hill",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T06:08:59.420Z"
+ },
  "city|oberdorf|CH": {
   "lat": 47.39353,
   "lon": 7.75169,
@@ -3890,6 +3914,14 @@
   "cc": "IS",
   "src": "city",
   "t": "2026-11-05T00:55:34.820Z"
+ },
+ "city|rhode island|US": {
+  "lat": 31.81544,
+  "lon": -96.23136,
+  "city": "Rhode Island",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T06:08:59.422Z"
  },
  "city|rhoon|NL": {
   "lat": 51.8575,
