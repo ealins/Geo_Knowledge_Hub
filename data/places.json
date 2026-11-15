@@ -383,6 +383,14 @@
   "src": "city",
   "t": "2026-11-13T13:30:22.744Z"
  },
+ "city|bee cave|US": {
+  "lat": 30.30854,
+  "lon": -97.94501,
+  "city": "Bee Cave",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.668Z"
+ },
  "city|begonte|ES": {
   "lat": 43.15121,
   "lon": -7.68643,
@@ -418,6 +426,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-11T13:01:19.922Z"
+ },
+ "city|bellevue|US": {
+  "lat": 47.61038,
+  "lon": -122.20068,
+  "city": "Bellevue",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:14.889Z"
  },
  "city|bergheim|DE": {
   "lat": 50.95572,
@@ -478,6 +494,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:55:32.250Z"
+ },
+ "city|béziers|FR": {
+  "lat": 43.34122,
+  "lon": 3.21402,
+  "city": "Béziers",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.107Z"
  },
  "city|bielefeld|DE": {
   "lat": 52.03333,
@@ -615,6 +639,10 @@
   "src": "city",
   "t": "2026-11-13T17:47:42.174Z"
  },
+ "city|brest-l'hermitage-gouesnou|FR": {
+  "miss": true,
+  "t": "2026-11-15T05:11:15.825Z"
+ },
  "city|brest|FR": {
   "lat": 48.39029,
   "lon": -4.48628,
@@ -681,7 +709,7 @@
  },
  "city|british columbia|CA": {
   "miss": true,
-  "t": "2026-11-06T13:14:04.799Z"
+  "t": "2026-11-15T05:11:15.178Z"
  },
  "city|brive-la-gaillarde-sud-ouest|FR": {
   "miss": true,
@@ -1127,6 +1155,14 @@
   "src": "city",
   "t": "2026-11-13T13:30:20.925Z"
  },
+ "city|costa mesa|US": {
+  "lat": 33.64113,
+  "lon": -117.91867,
+  "city": "Costa Mesa",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.666Z"
+ },
  "city|cranford|GB": {
   "lat": 51.47695,
   "lon": -0.41345,
@@ -1151,6 +1187,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:16.823Z"
  },
+ "city|cupertino|US": {
+  "lat": 37.323,
+  "lon": -122.03218,
+  "city": "Cupertino",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.385Z"
+ },
  "city|custom house|US": {
   "lat": 36.60302,
   "lon": -121.89412,
@@ -1158,6 +1202,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-08T16:43:52.811Z"
+ },
+ "city|dallas|US": {
+  "lat": 32.78306,
+  "lon": -96.80667,
+  "city": "Dallas",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.950Z"
  },
  "city|darmstadt|": {
   "lat": 49.87167,
@@ -1306,6 +1358,14 @@
  "city|domat/ems|CH": {
   "miss": true,
   "t": "2026-11-14T12:33:48.720Z"
+ },
+ "city|doral|US": {
+  "lat": 25.81954,
+  "lon": -80.35533,
+  "city": "Doral",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:14.895Z"
  },
  "city|dortmund|DE": {
   "lat": 51.51494,
@@ -1671,6 +1731,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:04.160Z"
  },
+ "city|foster city|US": {
+  "lat": 45.96329,
+  "lon": -87.74402,
+  "city": "Foster City",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.666Z"
+ },
  "city|fountainebleau|US": {
   "lat": 25.77288,
   "lon": -80.34783,
@@ -1706,6 +1774,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:35:46.726Z"
+ },
+ "city|freinsheim|DE": {
+  "lat": 49.50649,
+  "lon": 8.21186,
+  "city": "Freinsheim",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-15T05:11:15.547Z"
  },
  "city|frieze hill|GB": {
   "lat": 51.02181,
@@ -1903,6 +1979,14 @@
   "src": "city",
   "t": "2026-11-11T17:55:32.612Z"
  },
+ "city|great falls|US": {
+  "lat": 47.50024,
+  "lon": -111.30081,
+  "city": "Great Falls",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.387Z"
+ },
  "city|greater vancouver|CA": {
   "miss": true,
   "t": "2026-11-12T13:53:14.813Z"
@@ -2026,6 +2110,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T00:35:51.412Z"
+ },
+ "city|hawthorne|US": {
+  "lat": 33.9164,
+  "lon": -118.35257,
+  "city": "Hawthorne",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.385Z"
  },
  "city|hay river|CA": {
   "lat": 60.81555,
@@ -2199,6 +2291,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:15.287Z"
  },
+ "city|iława|PL": {
+  "lat": 53.59601,
+  "lon": 19.56849,
+  "city": "Iława",
+  "cc": "PL",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.105Z"
+ },
  "city|ile-de-france|FR": {
   "miss": true,
   "t": "2026-11-10T22:09:39.586Z"
@@ -2279,6 +2379,14 @@
   "src": "city",
   "t": "2026-11-07T11:57:08.219Z"
  },
+ "city|italia|IT": {
+  "lat": 42.83333,
+  "lon": 12.83333,
+  "city": "Italy",
+  "cc": "IT",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.950Z"
+ },
  "city|itzehoe|DE": {
   "lat": 53.92099,
   "lon": 9.51529,
@@ -2350,6 +2458,14 @@
   "cc": "AT",
   "src": "city",
   "t": "2026-11-11T17:55:32.615Z"
+ },
+ "city|kloten|CH": {
+  "lat": 47.45152,
+  "lon": 8.58491,
+  "city": "Kloten",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-15T05:11:15.826Z"
  },
  "city|kogarah|AU": {
   "lat": -33.9681,
@@ -2438,6 +2554,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:37.293Z"
+ },
+ "city|la teste-de-buch|FR": {
+  "lat": 44.63278,
+  "lon": -1.14513,
+  "city": "La Teste-de-Buch",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.108Z"
  },
  "city|lafayette|US": {
   "lat": 30.22409,
@@ -3034,6 +3158,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:35:49.665Z"
+ },
+ "city|murcia|ES": {
+  "lat": 37.98704,
+  "lon": -1.13004,
+  "city": "Murcia",
+  "cc": "ES",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.106Z"
  },
  "city|muttenz|CH": {
   "lat": 47.52271,
@@ -3715,6 +3847,14 @@
   "src": "city",
   "t": "2026-11-06T13:13:58.065Z"
  },
+ "city|redmond|US": {
+  "lat": 47.67399,
+  "lon": -122.12151,
+  "city": "Redmond",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:15.179Z"
+ },
  "city|regent park|CA": {
   "lat": 43.66041,
   "lon": -79.3615,
@@ -3750,6 +3890,14 @@
   "cc": "IS",
   "src": "city",
   "t": "2026-11-05T00:55:34.820Z"
+ },
+ "city|rhoon|NL": {
+  "lat": 51.8575,
+  "lon": 4.42222,
+  "city": "Rhoon",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-15T05:11:15.828Z"
  },
  "city|richfield|US": {
   "lat": 38.77247,
@@ -4007,6 +4155,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:50.231Z"
  },
+ "city|santa barbara|US": {
+  "lat": 34.42083,
+  "lon": -119.69819,
+  "city": "Santa Barbara",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:16.388Z"
+ },
  "city|santander|ES": {
   "lat": 43.46589,
   "lon": -3.80493,
@@ -4231,6 +4387,14 @@
   "miss": true,
   "t": "2026-11-11T13:01:20.538Z"
  },
+ "city|stanford|US": {
+  "lat": 37.53119,
+  "lon": -84.66189,
+  "city": "Stanford",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-15T05:11:15.180Z"
+ },
  "city|state farm|US": {
   "lat": 40.45559,
   "lon": -88.99035,
@@ -4335,6 +4499,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:38.674Z"
  },
+ "city|sywell|GB": {
+  "lat": 52.29856,
+  "lon": -0.79728,
+  "city": "Sywell",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-15T05:11:15.827Z"
+ },
  "city|tainan chinese taipei|": {
   "miss": true,
   "t": "2026-11-12T00:47:09.678Z"
@@ -4378,6 +4550,10 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-07T16:29:05.276Z"
+ },
+ "city|textile finance|US": {
+  "miss": true,
+  "t": "2026-11-15T05:11:14.880Z"
  },
  "city|the acreage|US": {
   "lat": 26.79404,
@@ -4903,6 +5079,10 @@
   "src": "city",
   "t": "2026-11-05T00:35:48.177Z"
  },
+ "city|west indianapolis|US": {
+  "miss": true,
+  "t": "2026-11-15T05:11:16.667Z"
+ },
  "city|west midlands|GB": {
   "miss": true,
   "t": "2026-11-10T13:46:06.781Z"
@@ -5211,6 +5391,10 @@
   "src": "ror",
   "t": "2026-11-05T00:35:47.865Z"
  },
+ "ror|global land surveying|US": {
+  "miss": true,
+  "t": "2026-11-15T05:11:16.978Z"
+ },
  "ror|hft stuttgart|DE": {
   "miss": true,
   "t": "2026-11-12T00:47:11.911Z"
@@ -5286,6 +5470,10 @@
  "ror|nbc universal|US": {
   "miss": true,
   "t": "2026-11-13T13:30:22.439Z"
+ },
+ "ror|nbcuniversal media, llc|US": {
+  "miss": true,
+  "t": "2026-11-15T05:11:14.821Z"
  },
  "ror|nova scotia community college|CA": {
   "lat": 44.64269,
