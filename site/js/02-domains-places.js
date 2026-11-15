@@ -132,15 +132,59 @@ const ROLES = [
 const ROLE_NAMES = [...ROLES.map(r => r[0]), "Other"];
 function roleOf(it) { return it._r || (it._r = (ROLES.find(([, re]) => re.test(it.title)) || ["Other"])[0]); }
 const fieldOf = it => { for (const d of DOMAINS) if (it._d.has(d.id)) return d.id; return "general"; };
-const GROUPS = [["role", "Role"], ["type", "Type"], ["field", "Field"], ["sector", "Sector"], ["country", "Country"], ["time", "Deadline"]];
+// ---------- group by: every tab has its own options, each with a default ----------
+const GROUP_LABELS = { role: "Role", type: "Type", field: "Field", sector: "Sector", country: "Country", degree: "Degree", language: "Language", university: "University", month: "Month", etype: "Kind of event", impact: "Impact", venue: "Venue", year: "Year", rtype: "Kind of resource", source: "Source", kind: "Kind" };
+const GROUP_SETS = {
+  job: ["role", "type", "field", "sector", "country", "time"],
+  course: ["degree", "field", "country", "university", "language", "time"],
+  event: ["month", "etype", "field", "country", "time"],
+  paper: ["impact", "field", "venue", "year", "time"],
+  funding: ["field", "source", "time"],
+  resource: ["rtype", "field", "source", "time"],
+  news: ["source", "field", "time"],
+  all: ["kind", "field", "source", "country", "time"],
+};
+const GROUP_DEFAULT = { job: "role", course: "degree", event: "month", paper: "impact", funding: "field", resource: "rtype", news: "time", all: "time" };
+let GROUP_PICK = {};
+const groupOf = kind => { const s = GROUP_SETS[kind]; return s ? (s.includes(GROUP_PICK[kind]) ? GROUP_PICK[kind] : GROUP_DEFAULT[kind]) : ""; };
+const groupsFor = kind => (GROUP_SETS[kind] || []).map(id => [id, id === "time" ? (NEEDS_DEADLINE.has(kind) ? "Deadline" : "Latest") : GROUP_LABELS[id]]);
 const GROUP_N = 6;
 const openGroups = new Set();
+const DEG_NAMES = { MSc: "Master's (MSc)", Master: "Master's", BSc: "Bachelor's", PhD: "Doctoral", Certificate: "Certificates" };
+const DEG_ORDER = [...Object.values(DEG_NAMES), "Degree not stated"];
+const ETYPES = ["Conferences and symposia", "Workshops", "Schools and courses", "Calls and challenges", "Other events"];
+const IMPACTS = ["Calls for papers", "Exceptional impact (80+)", "Strong impact (50 to 79)", "Notable (under 50)"];
+const RTYPES = ["Code on GitHub", "Datasets and software on Zenodo", "Hugging Face datasets and models", "Other tools and data"];
+const NOT_STATED = /(not stated|not listed)$/i;
+function degreeKey(it) {
+  let d = (it.facts && it.facts.degree) || (PROG[it.id] && PROG[it.id].degree) || "";
+  if (!d) { const t = it.title + " " + (it.url || ""); d = /\b(ph\.?\s?d|doctoral|doctorate)\b/i.test(t) ? "PhD" : /certificate|zertifikat/i.test(t) ? "Certificate" : /\b(m\.?\s?sc\.?|msc|m\.?\s?eng)\b/i.test(t) ? "MSc" : /\bmaster/i.test(t) ? "Master" : /\b(b\.?\s?sc\.?|bsc|bachelor|undergraduate)\b/i.test(t) ? "BSc" : ""; }
+  return DEG_NAMES[d] || "Degree not stated";
+}
+function monthKey(it) { const t = Date.parse(it.starts || it.deadline || ""); if (!t) return "Date not listed"; const d = new Date(t); return MON[d.getMonth()] + " " + d.getFullYear(); }
+function etypeKey(it) {
+  const t = it.title.toLowerCase();
+  return /summer school|winter school|\bschool\b|course|training/.test(t) ? ETYPES[2] : /workshop/.test(t) ? ETYPES[1] : /call for|\bcfp\b|challenge|competition|hackathon|contest/.test(t) ? ETYPES[3] : /symposium|conference|congress|assembly|forum|summit|meeting|week|days?\b|geoinformatics|international/.test(t) ? ETYPES[0] : ETYPES[4];
+}
+function impactKey(it) { return it.call ? IMPACTS[0] : (it.impact || 0) >= 80 ? IMPACTS[1] : (it.impact || 0) >= 50 ? IMPACTS[2] : IMPACTS[3]; }
+function rtypeKey(it) { const s = it.source_name || ""; return /github/i.test(s) ? RTYPES[0] : /zenodo/i.test(s) ? RTYPES[1] : /hugging/i.test(s) ? RTYPES[2] : RTYPES[3]; }
 function groupKey(it, g) {
   if (g === "role") return roleOf(it);
   if (g === "type") return ptypeOf(it);
   if (g === "field") return DOM[fieldOf(it)].name;
   if (g === "sector") return sectorOf(it);
   if (g === "country") return countryOf(it) || "Location not stated";
+  if (g === "degree") return degreeKey(it);
+  if (g === "language") return (it.facts && it.facts.language) || (PROG[it.id] && PROG[it.id].language) || "Language not stated";
+  if (g === "university") return (it.location || "").split(",")[0].trim() || it.source_name || "University not stated";
+  if (g === "month") return monthKey(it);
+  if (g === "etype") return etypeKey(it);
+  if (g === "impact") return impactKey(it);
+  if (g === "venue") return it.venue || "Venue not stated";
+  if (g === "year") { const y = it.published ? new Date(it.published).getFullYear() : 0; return y ? String(y) : "Date not stated"; }
+  if (g === "rtype") return rtypeKey(it);
+  if (g === "source") return (it.source_name || "Source not stated").replace(/^Papers:\s*/, "");
+  if (g === "kind") return (KINDS.find(k => k[0] === it.kind) || [, "Other"])[1];
   return "";
 }
 function groupOrder(g, keys, count) {
@@ -148,7 +192,14 @@ function groupOrder(g, keys, count) {
   if (g === "type") return PTYPES.filter(k => keys.has(k));
   if (g === "sector") return SECTORS.filter(k => keys.has(k));
   if (g === "field") return DOMAINS.map(d => d.name).filter(k => keys.has(k));
-  return [...keys].sort((a, b) => (a === "Location not stated") - (b === "Location not stated") || count[b] - count[a] || a.localeCompare(b));
+  if (g === "degree") return DEG_ORDER.filter(k => keys.has(k));
+  if (g === "etype") return ETYPES.filter(k => keys.has(k));
+  if (g === "impact") return IMPACTS.filter(k => keys.has(k));
+  if (g === "rtype") return RTYPES.filter(k => keys.has(k));
+  if (g === "kind") return KINDS.map(k => k[1]).filter(k => keys.has(k));
+  if (g === "month") return [...keys].sort((a, b) => NOT_STATED.test(a) - NOT_STATED.test(b) || (Date.parse("1 " + a) || 0) - (Date.parse("1 " + b) || 0));
+  if (g === "year") return [...keys].sort((a, b) => NOT_STATED.test(a) - NOT_STATED.test(b) || b.localeCompare(a));
+  return [...keys].sort((a, b) => NOT_STATED.test(a) - NOT_STATED.test(b) || count[b] - count[a] || a.localeCompare(b));
 }
 
 function filtered(ignoreKind, ignoreDomain, ignoreSub, ignoreWhere) {

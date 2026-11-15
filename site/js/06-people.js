@@ -51,18 +51,19 @@ function render() {
   if (overview) renderOverview();
   const jobsView = st.kind === "job" && !st.q.trim();
   if (jobsView && !st.domain && !st.ptype) $("overview").innerHTML = renderJobsOverview();
+  const canGroup = Boolean(GROUP_SETS[st.kind]) && !overview && !board, grp = canGroup ? groupOf(st.kind) : "";
   const drilled = activeFilters().length > 0, kl = (KINDS.find(k => k[0] === st.kind) || [, "Items"])[1];
-  $("lhead").innerHTML = `<h2 class="sect">${overview ? "Everything, closing soonest first" : (drilled ? "Matching " : "All ") + (st.kind === "all" ? "items" : kl.toLowerCase())}<small>${items.length} ${items.length === 1 ? "item" : "items"}</small></h2>` + (jobsView ? groupBar() : "");
-  if (st.kind === "job" && st.group !== "time") {
-    // Grouped positions: every group shows its first few, with "show all" per group.
+  $("lhead").innerHTML = `<h2 class="sect">${overview ? "Everything, closing soonest first" : (drilled ? "Matching " : "All ") + (st.kind === "all" ? "items" : kl.toLowerCase())}<small>${items.length} ${items.length === 1 ? "item" : "items"}</small></h2>` + (canGroup ? groupBar() : "");
+  if (canGroup && grp !== "time") {
+    // Grouped list: every group shows its first few, with "show all" per group.
     const count = {}, keys = new Set(), by = {};
-    for (const it of items) { const k = groupKey(it, st.group); keys.add(k); count[k] = (count[k] || 0) + 1; (by[k] ||= []).push(it); }
+    for (const it of items) { const k = groupKey(it, grp); keys.add(k); count[k] = (count[k] || 0) + 1; (by[k] ||= []).push(it); }
     let gh = "";
-    for (const k of groupOrder(st.group, keys, count)) {
-      const its = by[k], open = openGroups.has(st.group + ":" + k);
-      const dc = st.group === "field" ? (DOMAINS.find(d => d.name === k) || {}).color : "";
-      gh += `<h2 class="group"${dc ? ` style="--dc:${dc}"` : ""}>${st.group === "field" ? '<i class="gdot"></i>' : ""}${esc(k)}<span>${its.length}</span></h2>` + (open ? its : its.slice(0, GROUP_N)).map(card).join("") +
-        (its.length > GROUP_N ? `<button class="gmore" data-gopen="${esc(st.group + ":" + k)}">${open ? "Show fewer" : `Show all ${its.length}`}</button>` : "");
+    for (const k of groupOrder(grp, keys, count)) {
+      const its = by[k], open = openGroups.has(st.kind + grp + ":" + k);
+      const dc = grp === "field" ? (DOMAINS.find(d => d.name === k) || {}).color : "";
+      gh += `<h2 class="group"${dc ? ` style="--dc:${dc}"` : ""}>${grp === "field" ? '<i class="gdot"></i>' : ""}${esc(k)}<span>${its.length}</span></h2>` + (open ? its : its.slice(0, GROUP_N)).map(card).join("") +
+        (its.length > GROUP_N ? `<button class="gmore" data-gopen="${esc(st.kind + grp + ":" + k)}">${open ? "Show fewer" : `Show all ${its.length}`}</button>` : "");
     }
     $("list").innerHTML = gh || '<div class="empty">Nothing matches these filters.</div>';
     $("more").hidden = true;

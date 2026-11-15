@@ -78,7 +78,8 @@ function renderJobsOverview() {
     <div class="tablewrap">${table}</div><p class="mxnote">A position can belong to more than one field.</p></section>`;
 }
 function groupBar() {
-  return `<div class="gbar"><span class="wlabel">Group by</span>${GROUPS.map(([k, l]) => `<button class="wpill" data-group="${k}" aria-pressed="${st.group === k}">${l}</button>`).join("")}</div>`;
+  const cur = groupOf(st.kind);
+  return `<div class="gbar"><span class="wlabel">Group by</span>${groupsFor(st.kind).map(([k, l]) => `<button class="wpill" data-group="${k}" aria-pressed="${cur === k}">${l}</button>`).join("")}</div>`;
 }
 
 function renderDomainHead() {

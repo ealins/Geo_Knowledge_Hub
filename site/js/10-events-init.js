@@ -10,7 +10,7 @@ document.addEventListener("click", e => {
   const mx = e.target.closest("[data-mxd]");
   if (mx) { st.domain = mx.dataset.mxd; st.sub = ""; st.ptype = mx.dataset.mxp; st.shown = PAGE; render(); window.scrollTo({ top: Math.max(0, $("vhead").getBoundingClientRect().top + scrollY - 70), behavior: "smooth" }); return; }
   const gp = e.target.closest("[data-group]");
-  if (gp) { st.group = gp.dataset.group; write(STORE.group, st.group); st.shown = PAGE; render(); return; }
+  if (gp) { GROUP_PICK[st.kind] = gp.dataset.group; write(STORE.group, JSON.stringify(GROUP_PICK)); st.shown = PAGE; render(); return; }
   const go = e.target.closest("[data-gopen]");
   if (go) { const k = go.dataset.gopen; openGroups.has(k) ? openGroups.delete(k) : openGroups.add(k); render(); return; }
   const wc = e.target.closest("[data-cont]");
@@ -59,7 +59,7 @@ try { profile = { skills: [], levels: [], where: "", ...JSON.parse(read(STORE.pr
 applyTheme(read(STORE.theme, "auto"));
 hero.viz = read("geo-radar-viz", "globe") === "radar" ? "radar" : "globe";
 try { $("gbox").toggleAttribute("hidden", hero.viz !== "globe"); $("radar").toggleAttribute("hidden", hero.viz !== "radar"); document.querySelectorAll(".viz-tabs [data-viz]").forEach(b => b.setAttribute("aria-selected", b.dataset.viz === hero.viz)); } catch {}
-st.group = GROUPS.some(([k]) => k === read(STORE.group, "")) ? read(STORE.group, "") : "role";
+try { const gp = JSON.parse(read(STORE.group, "{}")); GROUP_PICK = gp && typeof gp === "object" ? gp : {}; } catch { GROUP_PICK = {}; }
 drawCloud();
 let cloudT = 0; addEventListener("resize", () => { clearTimeout(cloudT); cloudT = setTimeout(drawCloud, 150); });
 try { if (matchMedia("(max-width:860px)").matches) $("filters").open = false; } catch {}
