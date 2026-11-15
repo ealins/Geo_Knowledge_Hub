@@ -870,6 +870,17 @@
       "enabled": true
     },
     {
+      "id": "feed-events",
+      "name": "Event calendars",
+      "url": "https://geoacademic.app/data/events-feeds.json",
+      "file": "events-feeds.json",
+      "type": "discovered-events",
+      "kind": "event",
+      "on_topic": true,
+      "tag": "event",
+      "enabled": true
+    },
+    {
       "id": "curated",
       "name": "Curated openings",
       "url": "https://geoacademic.app/data/curated.json",
