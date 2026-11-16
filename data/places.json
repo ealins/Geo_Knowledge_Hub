@@ -1195,6 +1195,10 @@
   "src": "city",
   "t": "2026-11-15T05:11:16.385Z"
  },
+ "city|curtin university|AU": {
+  "miss": true,
+  "t": "2026-11-16T03:17:05.568Z"
+ },
  "city|custom house|US": {
   "lat": 36.60302,
   "lon": -121.89412,
@@ -2714,6 +2718,10 @@
   "cc": "AT",
   "src": "city",
   "t": "2026-11-14T12:33:48.410Z"
+ },
+ "city|leibniz university hannover|DE": {
+  "miss": true,
+  "t": "2026-11-16T03:17:04.949Z"
  },
  "city|leicester|": {
   "lat": 52.6386,
@@ -4743,6 +4751,10 @@
   "src": "city",
   "t": "2026-11-05T00:35:59.393Z"
  },
+ "city|university of hawaiʻi at mānoa|US": {
+  "miss": true,
+  "t": "2026-11-16T03:17:04.950Z"
+ },
  "city|university of maine|US": {
   "lat": 44.8984,
   "lon": -68.67253,
@@ -4767,6 +4779,10 @@
   "miss": true,
   "t": "2026-11-12T00:47:11.898Z"
  },
+ "city|university of reading|GB": {
+  "miss": true,
+  "t": "2026-11-16T03:17:04.562Z"
+ },
  "city|university of southampton|GB": {
   "miss": true,
   "t": "2026-11-12T00:47:09.138Z"
@@ -4786,6 +4802,10 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-11T17:55:32.296Z"
+ },
+ "city|unsw sydney|AU": {
+  "miss": true,
+  "t": "2026-11-16T03:17:04.562Z"
  },
  "city|uppsala|": {
   "lat": 59.85882,
@@ -4962,6 +4982,10 @@
   "cc": "NL",
   "src": "city",
   "t": "2026-11-05T00:35:53.938Z"
+ },
+ "city|vrije universiteit amsterdam|NL": {
+  "miss": true,
+  "t": "2026-11-16T03:17:05.569Z"
  },
  "city|wageningen university & research|NL": {
   "miss": true,
@@ -5375,6 +5399,14 @@
   "miss": true,
   "t": "2026-11-11T13:01:18.688Z"
  },
+ "ror|curtin university|AU": {
+  "lat": -31.95224,
+  "lon": 115.8614,
+  "city": "Perth",
+  "cc": "AU",
+  "src": "ror",
+  "t": "2026-11-16T03:17:05.630Z"
+ },
  "ror|delft university of technology|NL": {
   "lat": 52.00667,
   "lon": 4.35556,
@@ -5466,6 +5498,14 @@
   "cc": "GB",
   "src": "ror",
   "t": "2026-11-05T00:55:34.238Z"
+ },
+ "ror|leibniz university hannover|DE": {
+  "lat": 52.37052,
+  "lon": 9.73322,
+  "city": "Hanover",
+  "cc": "DE",
+  "src": "ror",
+  "t": "2026-11-16T03:17:05.146Z"
  },
  "ror|louisiana state university|US": {
   "lat": 30.44332,
@@ -5711,6 +5751,14 @@
   "src": "ror",
   "t": "2026-11-05T00:35:45.656Z"
  },
+ "ror|university of hawaiʻi at mānoa|US": {
+  "lat": 21.30694,
+  "lon": -157.85833,
+  "city": "Honolulu",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-16T03:17:05.272Z"
+ },
  "ror|university of hawaii|US": {
   "lat": 21.30694,
   "lon": -157.85833,
@@ -5791,6 +5839,14 @@
   "src": "ror",
   "t": "2026-11-09T12:11:41.789Z"
  },
+ "ror|university of reading|GB": {
+  "lat": 51.45625,
+  "lon": -0.97113,
+  "city": "Reading",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-16T03:17:04.652Z"
+ },
  "ror|university of southampton|GB": {
   "lat": 50.90395,
   "lon": -1.40428,
@@ -5831,6 +5887,14 @@
   "src": "ror",
   "t": "2026-11-05T00:35:59.680Z"
  },
+ "ror|unsw sydney|AU": {
+  "lat": -33.86785,
+  "lon": 151.20732,
+  "city": "Sydney",
+  "cc": "AU",
+  "src": "ror",
+  "t": "2026-11-16T03:17:04.377Z"
+ },
  "ror|utah state university|US": {
   "lat": 41.73549,
   "lon": -111.83439,
@@ -5846,6 +5910,14 @@
   "cc": "NL",
   "src": "ror",
   "t": "2026-11-15T23:06:58.723Z"
+ },
+ "ror|vrije universiteit amsterdam|NL": {
+  "lat": 52.37403,
+  "lon": 4.88969,
+  "city": "Amsterdam",
+  "cc": "NL",
+  "src": "ror",
+  "t": "2026-11-16T03:17:05.591Z"
  },
  "ror|wageningen university & research|NL": {
   "lat": 51.97,
