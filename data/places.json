@@ -63,6 +63,14 @@
   "miss": true,
   "t": "2026-11-13T13:30:19.976Z"
  },
+ "city|alabama|US": {
+  "lat": 43.09645,
+  "lon": -78.39086,
+  "city": "Alabama",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-16T05:12:34.537Z"
+ },
  "city|albena bulgaria|": {
   "miss": true,
   "t": "2026-11-12T00:47:09.944Z"
@@ -1059,6 +1067,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:38.950Z"
  },
+ "city|clancy|US": {
+  "lat": 46.46521,
+  "lon": -111.98638,
+  "city": "Clancy",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-16T05:12:33.319Z"
+ },
  "city|clover bar|CA": {
   "lat": 53.56722,
   "lon": -113.35028,
@@ -1482,6 +1498,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:33.529Z"
+ },
+ "city|egg|CH": {
+  "lat": 47.29976,
+  "lon": 8.69032,
+  "city": "Egg",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-16T05:12:34.913Z"
  },
  "city|egnach|CH": {
   "lat": 47.54268,
@@ -2291,6 +2315,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:32.950Z"
  },
+ "city|huntsville|US": {
+  "lat": 34.7304,
+  "lon": -86.58594,
+  "city": "Huntsville",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-16T05:12:33.765Z"
+ },
  "city|hyderabad|": {
   "lat": 17.38405,
   "lon": 78.45636,
@@ -2455,6 +2487,18 @@
   "src": "city",
   "t": "2026-11-05T13:30:37.028Z"
  },
+ "city|kanata|CA": {
+  "lat": 45.3001,
+  "lon": -75.91606,
+  "city": "Kanata",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-16T05:12:34.538Z"
+ },
+ "city|kanton aargau|CH": {
+  "miss": true,
+  "t": "2026-11-16T05:12:34.913Z"
+ },
  "city|karabük türkiye|": {
   "miss": true,
   "t": "2026-11-12T00:47:10.216Z"
@@ -2462,6 +2506,10 @@
  "city|karlsruhe institute of technology|DE": {
   "miss": true,
   "t": "2026-11-12T00:47:11.019Z"
+ },
+ "city|king and spadina|CA": {
+  "miss": true,
+  "t": "2026-11-16T05:12:34.539Z"
  },
  "city|kirkhamgate|GB": {
   "lat": 53.70188,
@@ -2638,6 +2686,14 @@
   "cc": "ES",
   "src": "city",
   "t": "2026-11-11T13:01:14.671Z"
+ },
+ "city|lanham|US": {
+  "lat": 38.96875,
+  "lon": -76.8634,
+  "city": "Lanham",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-16T05:12:34.221Z"
  },
  "city|largs north|AU": {
   "lat": -34.8205,
@@ -3499,6 +3555,14 @@
   "src": "city",
   "t": "2026-11-13T13:30:21.854Z"
  },
+ "city|orléans|FR": {
+  "lat": 47.90248,
+  "lon": 1.90407,
+  "city": "Orléans",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-16T05:12:33.319Z"
+ },
  "city|ottawa|CA": {
   "lat": 45.41117,
   "lon": -75.69812,
@@ -3614,6 +3678,10 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:00.839Z"
+ },
+ "city|perth cbd|AU": {
+  "miss": true,
+  "t": "2026-11-16T05:12:34.912Z"
  },
  "city|perth|AU": {
   "lat": -31.95224,
@@ -3907,6 +3975,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:36.753Z"
  },
+ "city|rennes|FR": {
+  "lat": 48.11109,
+  "lon": -1.67431,
+  "city": "Rennes",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-16T05:12:33.317Z"
+ },
  "city|reston|US": {
   "lat": 38.96872,
   "lon": -77.3411,
@@ -4022,6 +4098,14 @@
   "cc": "NL",
   "src": "city",
   "t": "2026-11-11T13:01:12.820Z"
+ },
+ "city|roy|US": {
+  "lat": 41.16161,
+  "lon": -112.02633,
+  "city": "Roy",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-16T05:12:33.767Z"
  },
  "city|rspsoc.org.uk|": {
   "miss": true,
@@ -4274,6 +4358,14 @@
   "cc": "CH",
   "src": "city",
   "t": "2026-11-11T13:01:20.846Z"
+ },
+ "city|scottsdale|US": {
+  "lat": 33.50921,
+  "lon": -111.89903,
+  "city": "Scottsdale",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-16T05:12:33.766Z"
  },
  "city|seattle|US": {
   "lat": 47.60621,
@@ -4590,6 +4682,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-07T16:29:05.276Z"
+ },
+ "city|teufen|CH": {
+  "lat": 47.3908,
+  "lon": 9.38644,
+  "city": "Teufen AR",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-16T05:12:34.909Z"
  },
  "city|textile finance|US": {
   "miss": true,
@@ -5603,6 +5703,14 @@
   "src": "ror",
   "t": "2026-11-05T00:35:58.504Z"
  },
+ "ror|the university of alabama in huntsville|US": {
+  "lat": 34.7304,
+  "lon": -86.58594,
+  "city": "Huntsville",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-16T05:12:34.602Z"
+ },
  "ror|the university of manchester|": {
   "lat": 53.48095,
   "lon": -2.23743,
@@ -5626,6 +5734,14 @@
   "cc": "AT",
   "src": "ror",
   "t": "2026-11-05T00:36:00.264Z"
+ },
+ "ror|universidad politécnica de madrid|ES": {
+  "lat": 40.4165,
+  "lon": -3.70256,
+  "city": "Madrid",
+  "cc": "ES",
+  "src": "ror",
+  "t": "2026-11-16T05:12:33.451Z"
  },
  "ror|universitat autònoma de barcelona|ES": {
   "lat": 41.49109,
