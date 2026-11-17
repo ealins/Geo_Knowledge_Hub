@@ -1507,6 +1507,14 @@
   "miss": true,
   "t": "2026-11-05T00:55:32.952Z"
  },
+ "city|edinburgh|": {
+  "lat": 55.95206,
+  "lon": -3.19648,
+  "city": "Edinburgh",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-17T16:07:14.314Z"
+ },
  "city|edinburgh|GB": {
   "lat": 55.95206,
   "lon": -3.19648,
@@ -5686,6 +5694,14 @@
  "ror|global land surveying|US": {
   "miss": true,
   "t": "2026-11-15T05:11:16.978Z"
+ },
+ "ror|heriot-watt university|": {
+  "lat": 55.95206,
+  "lon": -3.19648,
+  "city": "Edinburgh",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-17T16:07:14.405Z"
  },
  "ror|hft stuttgart|DE": {
   "miss": true,
