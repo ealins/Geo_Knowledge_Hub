@@ -91,6 +91,14 @@
   "src": "city",
   "t": "2026-11-14T15:08:28.364Z"
  },
+ "city|algeciras|ES": {
+  "lat": 36.13326,
+  "lon": -5.45051,
+  "city": "Algeciras",
+  "cc": "ES",
+  "src": "city",
+  "t": "2026-11-17T05:11:13.037Z"
+ },
  "city|allauch|FR": {
   "lat": 43.33573,
   "lon": 5.48201,
@@ -791,6 +799,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:37.850Z"
  },
+ "city|butte|US": {
+  "lat": 46.00382,
+  "lon": -112.53474,
+  "city": "Butte",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-17T05:11:13.293Z"
+ },
  "city|bützow|DE": {
   "lat": 53.84133,
   "lon": 11.98145,
@@ -1311,6 +1327,14 @@
   "miss": true,
   "t": "2026-11-11T13:01:12.820Z"
  },
+ "city|denistone west|AU": {
+  "lat": -33.80049,
+  "lon": 151.07617,
+  "city": "Denistone West",
+  "cc": "AU",
+  "src": "city",
+  "t": "2026-11-17T05:11:13.292Z"
+ },
  "city|denver|US": {
   "lat": 39.73915,
   "lon": -104.9847,
@@ -1783,6 +1807,10 @@
   "src": "city",
   "t": "2026-11-06T13:14:02.351Z"
  },
+ "city|four mile lk|US": {
+  "miss": true,
+  "t": "2026-11-17T05:11:13.550Z"
+ },
  "city|frankfurt am main|DE": {
   "lat": 50.11552,
   "lon": 8.68417,
@@ -2138,6 +2166,10 @@
  "city|haute-garonne|FR": {
   "miss": true,
   "t": "2026-11-10T21:45:12.840Z"
+ },
+ "city|haute-savoie|FR": {
+  "miss": true,
+  "t": "2026-11-17T05:11:13.036Z"
  },
  "city|hauts-de-france|FR": {
   "miss": true,
@@ -2702,6 +2734,14 @@
   "cc": "AU",
   "src": "city",
   "t": "2026-11-05T13:30:38.672Z"
+ },
+ "city|las cruces|US": {
+  "lat": 32.31232,
+  "lon": -106.77834,
+  "city": "Las Cruces",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-17T05:11:14.286Z"
  },
  "city|lawrencetown|CA": {
   "lat": 44.6596,
@@ -3375,6 +3415,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:53.923Z"
  },
+ "city|nijmegen|NL": {
+  "lat": 51.8425,
+  "lon": 5.85278,
+  "city": "Nijmegen",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-17T05:11:14.284Z"
+ },
  "city|nokomis|US": {
   "lat": 27.11922,
   "lon": -82.44426,
@@ -3538,6 +3586,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T15:57:59.739Z"
+ },
+ "city|oosterhout|NL": {
+  "lat": 51.645,
+  "lon": 4.85972,
+  "city": "Oosterhout",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-17T05:11:14.540Z"
  },
  "city|opfikon|CH": {
   "lat": 47.43169,
@@ -3929,7 +3985,7 @@
  },
  "city|red deer county|CA": {
   "miss": true,
-  "t": "2026-11-05T17:01:30.849Z"
+  "t": "2026-11-17T05:11:14.286Z"
  },
  "city|redcliffe|GB": {
   "lat": 51.48688,
@@ -4099,6 +4155,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:12.820Z"
  },
+ "city|roxborough|US": {
+  "lat": 40.673,
+  "lon": -111.96216,
+  "city": "Roxborough",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-17T05:11:14.285Z"
+ },
  "city|roy|US": {
   "lat": 41.16161,
   "lon": -112.02633,
@@ -4231,6 +4295,14 @@
   "src": "city",
   "t": "2026-11-05T00:55:34.529Z"
  },
+ "city|san antonio|US": {
+  "lat": 29.42412,
+  "lon": -98.49363,
+  "city": "San Antonio",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-17T05:11:13.550Z"
+ },
  "city|san diego|US": {
   "lat": 32.71571,
   "lon": -117.16472,
@@ -4311,6 +4383,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:36.751Z"
  },
+ "city|sasso marconi|IT": {
+  "lat": 44.40064,
+  "lon": 11.25177,
+  "city": "Sasso Marconi",
+  "cc": "IT",
+  "src": "city",
+  "t": "2026-11-17T05:11:13.291Z"
+ },
  "city|sauget|US": {
   "lat": 38.59644,
   "lon": -90.18483,
@@ -4350,6 +4430,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-07T11:57:07.282Z"
+ },
+ "city|schwechat|AT": {
+  "lat": 48.13333,
+  "lon": 16.46667,
+  "city": "Schwechat",
+  "cc": "AT",
+  "src": "city",
+  "t": "2026-11-17T05:11:14.540Z"
  },
  "city|schwyz|CH": {
   "lat": 47.02076,
@@ -4438,6 +4526,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:13:58.061Z"
+ },
+ "city|sneads ferry|US": {
+  "lat": 34.55267,
+  "lon": -77.39718,
+  "city": "Sneads Ferry",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-17T05:11:13.551Z"
  },
  "city|south albury|AU": {
   "lat": -36.08654,
@@ -4727,6 +4823,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:13.437Z"
  },
+ "city|thorndon|NZ": {
+  "lat": -41.27632,
+  "lon": 174.77756,
+  "city": "Thorndon",
+  "cc": "NZ",
+  "src": "city",
+  "t": "2026-11-17T05:11:13.293Z"
+ },
  "city|thunder bay|CA": {
   "lat": 48.38202,
   "lon": -89.25018,
@@ -4742,6 +4846,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-11T13:01:18.992Z"
+ },
+ "city|toledo|ES": {
+  "lat": 39.8581,
+  "lon": -4.02263,
+  "city": "Toledo",
+  "cc": "ES",
+  "src": "city",
+  "t": "2026-11-17T05:11:13.035Z"
  },
  "city|toronto|CA": {
   "lat": 43.70643,
@@ -5375,6 +5487,10 @@
   "src": "city",
   "t": "2026-11-08T12:11:03.771Z"
  },
+ "city|yvelines|FR": {
+  "miss": true,
+  "t": "2026-11-17T05:11:13.036Z"
+ },
  "city|zaragoza|ES": {
   "lat": 41.65606,
   "lon": -0.87734,
@@ -5646,6 +5762,14 @@
  "ror|nbcuniversal media, llc|US": {
   "miss": true,
   "t": "2026-11-15T05:11:14.821Z"
+ },
+ "ror|new mexico state university|US": {
+  "lat": 32.31232,
+  "lon": -106.77834,
+  "city": "Las Cruces",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-17T05:11:14.032Z"
  },
  "ror|nova scotia community college|CA": {
   "lat": 44.64269,
