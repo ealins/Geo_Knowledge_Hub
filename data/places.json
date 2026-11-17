@@ -1975,6 +1975,10 @@
   "miss": true,
   "t": "2026-11-12T00:47:08.322Z"
  },
+ "city|going am wilden kaiser|AT": {
+  "miss": true,
+  "t": "2026-11-17T06:06:57.494Z"
+ },
  "city|gold coast region|AU": {
   "miss": true,
   "t": "2026-11-13T01:08:11.015Z"
@@ -4890,6 +4894,14 @@
  "city|tu wien|AT": {
   "miss": true,
   "t": "2026-11-12T00:47:11.285Z"
+ },
+ "city|tucson|US": {
+  "lat": 32.22174,
+  "lon": -110.92648,
+  "city": "Tucson",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-17T06:06:57.512Z"
  },
  "city|turin italy|": {
   "miss": true,
