@@ -9,7 +9,7 @@
  },
  "city|10ème arrondissement|FR": {
   "miss": true,
-  "t": "2026-11-10T21:45:13.542Z"
+  "t": "2026-11-17T22:06:56.422Z"
  },
  "city|8ème arrondissement|FR": {
   "miss": true,
@@ -489,7 +489,7 @@
  },
  "city|bernburg (saale)|DE": {
   "miss": true,
-  "t": "2026-11-10T20:51:35.934Z"
+  "t": "2026-11-17T22:06:56.783Z"
  },
  "city|besançon-est|FR": {
   "miss": true,
@@ -1001,7 +1001,7 @@
  },
  "city|chartres-nord-est|FR": {
   "miss": true,
-  "t": "2026-11-10T21:45:13.546Z"
+  "t": "2026-11-17T22:06:56.356Z"
  },
  "city|chasse-sur-rhône|FR": {
   "lat": 45.5785,
@@ -2177,7 +2177,7 @@
  },
  "city|haute-garonne|FR": {
   "miss": true,
-  "t": "2026-11-10T21:45:12.840Z"
+  "t": "2026-11-17T22:06:56.783Z"
  },
  "city|haute-savoie|FR": {
   "miss": true,
@@ -2189,7 +2189,7 @@
  },
  "city|hauts-de-seine|FR": {
   "miss": true,
-  "t": "2026-11-10T21:45:13.803Z"
+  "t": "2026-11-17T22:06:56.423Z"
  },
  "city|havant|GB": {
   "lat": 50.8567,
@@ -5717,7 +5717,7 @@
  },
  "ror|institut de recherche pour le developpement|FR": {
   "miss": true,
-  "t": "2026-11-10T21:45:12.584Z"
+  "t": "2026-11-17T22:06:56.528Z"
  },
  "ror|institut polytechnique unilasalle|FR": {
   "lat": 48.02459,
