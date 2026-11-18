@@ -4695,6 +4695,14 @@
   "src": "city",
   "t": "2026-11-06T13:13:58.061Z"
  },
+ "city|sligo|": {
+  "lat": 54.26969,
+  "lon": -8.46943,
+  "city": "Sligo",
+  "cc": "IE",
+  "src": "city",
+  "t": "2026-11-18T10:06:57.367Z"
+ },
  "city|sneads ferry|US": {
   "lat": 34.55267,
   "lon": -77.39718,
@@ -5758,6 +5766,14 @@
  "ror|apex geomatics construction surveyors ltd|CA": {
   "miss": true,
   "t": "2026-11-12T13:53:14.284Z"
+ },
+ "ror|atlantic technological university|": {
+  "lat": 53,
+  "lon": -8,
+  "city": "Ireland",
+  "cc": "IE",
+  "src": "ror",
+  "t": "2026-11-18T10:06:57.278Z"
  },
  "ror|birmingham city university|": {
   "lat": 52.48142,
