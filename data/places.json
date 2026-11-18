@@ -455,6 +455,10 @@
   "src": "city",
   "t": "2026-11-15T05:11:14.889Z"
  },
+ "city|berczy park|CA": {
+  "miss": true,
+  "t": "2026-11-18T06:06:47.230Z"
+ },
  "city|bergheim|DE": {
   "lat": 50.95572,
   "lon": 6.63986,
@@ -650,6 +654,10 @@
   "cc": "AT",
   "src": "city",
   "t": "2026-11-11T13:01:20.234Z"
+ },
+ "city|bremgarten bei bern|CH": {
+  "miss": true,
+  "t": "2026-11-18T06:06:47.228Z"
  },
  "city|bremgarten|CH": {
   "lat": 47.35109,
@@ -4582,6 +4590,14 @@
   "cc": "CH",
   "src": "city",
   "t": "2026-11-11T13:01:20.846Z"
+ },
+ "city|scott air force base|US": {
+  "lat": 38.5427,
+  "lon": -89.85035,
+  "city": "Scott Air Force Base",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-18T06:06:47.229Z"
  },
  "city|scottsdale|US": {
   "lat": 33.50921,
