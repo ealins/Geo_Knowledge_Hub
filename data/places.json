@@ -17,7 +17,7 @@
  },
  "city|8ème arrondissement|FR": {
   "miss": true,
-  "t": "2026-11-11T13:01:13.745Z"
+  "t": "2026-11-18T13:06:58.789Z"
  },
  "city|aag.org|": {
   "miss": true,
@@ -1193,7 +1193,7 @@
  },
  "city|comunidad valenciana|ES": {
   "miss": true,
-  "t": "2026-11-11T13:01:15.291Z"
+  "t": "2026-11-18T13:06:59.304Z"
  },
  "city|concord|CA": {
   "lat": 43.80011,
@@ -1369,7 +1369,7 @@
  },
  "city|den haag|NL": {
   "miss": true,
-  "t": "2026-11-11T13:01:12.820Z"
+  "t": "2026-11-18T13:06:59.049Z"
  },
  "city|denistone west|AU": {
   "lat": -33.80049,
@@ -1561,7 +1561,7 @@
  },
  "city|edinburgh city centre|GB": {
   "miss": true,
-  "t": "2026-11-11T13:01:17.439Z"
+  "t": "2026-11-18T13:06:58.492Z"
  },
  "city|edinburgh technopole|GB": {
   "miss": true,
@@ -1833,7 +1833,7 @@
  },
  "city|fort mcmurray region|CA": {
   "miss": true,
-  "t": "2026-11-11T13:01:19.611Z"
+  "t": "2026-11-18T13:06:58.492Z"
  },
  "city|fort mcmurray|CA": {
   "lat": 56.72676,
@@ -1897,7 +1897,7 @@
  },
  "city|fredericksburg city|US": {
   "miss": true,
-  "t": "2026-11-11T13:01:18.996Z"
+  "t": "2026-11-18T13:06:59.304Z"
  },
  "city|freiburg im breisgau|DE": {
   "lat": 47.9959,
@@ -2477,7 +2477,7 @@
  },
  "city|ille-et-vilaine|FR": {
   "miss": true,
-  "t": "2026-11-11T13:01:14.055Z"
+  "t": "2026-11-18T13:06:59.048Z"
  },
  "city|imst|AT": {
   "lat": 47.24504,
@@ -4073,11 +4073,11 @@
  },
  "city|provincia di milano|IT": {
   "miss": true,
-  "t": "2026-11-11T13:01:16.207Z"
+  "t": "2026-11-18T13:06:58.163Z"
  },
  "city|provincia di roma|IT": {
   "miss": true,
-  "t": "2026-11-11T13:01:16.205Z"
+  "t": "2026-11-18T13:06:59.048Z"
  },
  "city|purdue university west lafayette|US": {
   "miss": true,
@@ -4677,7 +4677,7 @@
  },
  "city|singleton area|AU": {
   "miss": true,
-  "t": "2026-11-11T13:01:17.748Z"
+  "t": "2026-11-18T13:06:59.050Z"
  },
  "city|sinsheim|DE": {
   "lat": 49.2529,
@@ -4729,7 +4729,7 @@
  },
  "city|south east london|GB": {
   "miss": true,
-  "t": "2026-11-11T13:01:17.129Z"
+  "t": "2026-11-18T13:06:58.162Z"
  },
  "city|southborough|US": {
   "lat": 42.30565,
@@ -4789,7 +4789,7 @@
  },
  "city|st. margarethen an der sierning|AT": {
   "miss": true,
-  "t": "2026-11-11T13:01:20.538Z"
+  "t": "2026-11-18T13:06:58.493Z"
  },
  "city|stanford|US": {
   "lat": 37.53119,
@@ -5441,7 +5441,7 @@
  },
  "city|warszawa|PL": {
   "miss": true,
-  "t": "2026-11-11T13:01:16.519Z"
+  "t": "2026-11-18T13:06:58.163Z"
  },
  "city|washington|US": {
   "lat": 38.89511,
@@ -5821,7 +5821,7 @@
  },
  "ror|cooper aerial surveys co|US": {
   "miss": true,
-  "t": "2026-11-11T13:01:18.688Z"
+  "t": "2026-11-18T13:06:58.230Z"
  },
  "ror|curtin university|AU": {
   "lat": -31.95224,
