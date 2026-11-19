@@ -1,0 +1,12 @@
+/* domain slider under the tabs */
+aside{top:126px}
+.domslide{max-width:1760px;margin:0 auto;padding:0 var(--gx) 12px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x proximity;scroll-padding:0 var(--gx);-webkit-overflow-scrolling:touch}
+.domslide[hidden]{display:none}
+.domslide::-webkit-scrollbar{display:none}
+.dchip{flex:none;display:flex;align-items:center;gap:8px;min-height:36px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--muted);font:500 14px var(--sans);white-space:nowrap;cursor:pointer;scroll-snap-align:start;touch-action:manipulation;transition:background .15s,border-color .15s,color .15s}
+.dchip .d{width:9px;height:9px;border-radius:50%;background:var(--dc,var(--faint));flex:none}
+.dchip em{font-style:normal;font-variant-numeric:tabular-nums;opacity:.65;font-size:12.5px}
+.dchip:hover{color:var(--text);border-color:var(--dc,var(--faint))}
+.dchip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.dchip[aria-pressed="true"]{background:color-mix(in srgb,var(--dc,var(--text)) 18%,var(--surface));border-color:var(--dc,var(--text));color:var(--text);font-weight:650}
+@media (max-width:860px){aside{top:auto}.domslide{padding-bottom:10px}}
