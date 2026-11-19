@@ -953,7 +953,7 @@
  },
  "city|canberra region|AU": {
   "miss": true,
-  "t": "2026-11-12T13:53:14.469Z"
+  "t": "2026-11-19T14:06:59.036Z"
  },
  "city|canterbury|NZ": {
   "miss": true,
@@ -2181,7 +2181,7 @@
  },
  "city|greater vancouver|CA": {
   "miss": true,
-  "t": "2026-11-12T13:53:14.813Z"
+  "t": "2026-11-19T14:06:58.705Z"
  },
  "city|gremmendorf|DE": {
   "lat": 51.92892,
@@ -3209,7 +3209,7 @@
  },
  "city|manawatu-wanganui|NZ": {
   "miss": true,
-  "t": "2026-11-12T14:02:32.930Z"
+  "t": "2026-11-19T14:06:58.708Z"
  },
  "city|manchester|": {
   "lat": 53.48095,
@@ -3521,7 +3521,7 @@
  },
  "city|naughton|CA": {
   "miss": true,
-  "t": "2026-11-12T13:53:14.495Z"
+  "t": "2026-11-19T14:06:58.704Z"
  },
  "city|nava|ES": {
   "lat": 43.3581,
@@ -3893,7 +3893,7 @@
  },
  "city|palmerston area|AU": {
   "miss": true,
-  "t": "2026-11-12T13:53:14.486Z"
+  "t": "2026-11-19T14:06:59.035Z"
  },
  "city|palmerston north|NZ": {
   "lat": -40.35636,
@@ -4141,7 +4141,7 @@
  },
  "city|provincia di chieti|IT": {
   "miss": true,
-  "t": "2026-11-12T14:02:32.933Z"
+  "t": "2026-11-19T14:06:59.035Z"
  },
  "city|provincia di milano|IT": {
   "miss": true,
@@ -4245,7 +4245,7 @@
  },
  "city|regina region|CA": {
   "miss": true,
-  "t": "2026-11-12T13:53:14.810Z"
+  "t": "2026-11-19T14:06:59.399Z"
  },
  "city|regina|CA": {
   "lat": 50.45008,
@@ -4745,7 +4745,7 @@
  },
  "city|simcoe region|CA": {
   "miss": true,
-  "t": "2026-11-12T13:53:14.807Z"
+  "t": "2026-11-19T14:06:59.401Z"
  },
  "city|simcoe|CA": {
   "lat": 42.8334,
@@ -5885,7 +5885,7 @@
  },
  "ror|apex geomatics construction surveyors ltd|CA": {
   "miss": true,
-  "t": "2026-11-12T13:53:14.284Z"
+  "t": "2026-11-19T14:06:58.725Z"
  },
  "ror|atlantic technological university|": {
   "lat": 53,
@@ -5913,7 +5913,7 @@
  },
  "ror|callon dietz inc ontario land surveyors|CA": {
   "miss": true,
-  "t": "2026-11-12T14:02:31.767Z"
+  "t": "2026-11-19T14:06:59.089Z"
  },
  "ror|cardiff university|": {
   "lat": 51.48,
