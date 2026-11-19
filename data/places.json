@@ -83,6 +83,14 @@
   "src": "city",
   "t": "2026-11-19T05:11:26.868Z"
  },
+ "city|alaska|US": {
+  "lat": 61.21806,
+  "lon": -149.90028,
+  "city": "Anchorage",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-19T06:06:54.784Z"
+ },
  "city|albena bulgaria|": {
   "miss": true,
   "t": "2026-11-19T01:07:42.744Z"
@@ -4975,6 +4983,14 @@
   "miss": true,
   "t": "2026-11-19T01:07:43.508Z"
  },
+ "city|swindon|GB": {
+  "lat": 51.55797,
+  "lon": -1.78116,
+  "city": "Swindon",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-19T06:06:54.780Z"
+ },
  "city|sydney|AU": {
   "lat": -33.86785,
   "lon": 151.20732,
@@ -5690,6 +5706,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-11T13:01:19.304Z"
+ },
+ "city|westmount|CA": {
+  "lat": 45.48341,
+  "lon": -73.59918,
+  "city": "Westmount",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-19T06:06:54.775Z"
  },
  "city|white settlement|US": {
   "lat": 32.75957,
