@@ -1,27 +1,4 @@
-// ---------- plain wording and the domain slider ----------
-// Plain-language names for the analysis field (the domain id stays "geoai", so saved links keep working).
-(() => {
-  const d = DOM.geoai;
-  d.name = "Automated data analysis";
-  d.blurb = "Computer methods that find patterns in imagery and spatial data: classification, detection and mapping at scale.";
-  const rename = { "Deep learning": "Pattern recognition", "Foundation models": "Large-scale methods" };
-  d.subs.forEach(s => { if (rename[s[0]]) s[0] = rename[s[0]]; });
-  KIND_INFO.resource[1] = "Open datasets and code.";
-})();
-// Source names that still use the old wording.
-{
-  const baseClassify = classify;
-  classify = it => { if (it.source_name) it.source_name = it.source_name.replace(/GeoAI/g, "data analysis"); baseClassify(it); };
-}
-// Radar view labels are drawn from a local table, so fix the one old word after each draw.
-{
-  const radar = document.getElementById("radar");
-  if (radar && window.MutationObserver) {
-    const fix = () => radar.querySelectorAll("text").forEach(t => { if (t.textContent === "GeoAI") t.textContent = "Data analysis"; });
-    new MutationObserver(fix).observe(radar, { childList: true, subtree: true });
-  }
-}
-
+// ---------- domain slider ----------
 // Horizontal domain slider pinned under the tabs, so the domain can be changed from anywhere on the page.
 {
   const nav = document.querySelector("nav.tabs");
@@ -48,4 +25,18 @@
   };
   const baseTree = renderTree;
   renderTree = () => { baseTree(); render(); };
+}
+
+// Shorter notes on the researcher pages: no data-source details.
+{
+  const note = (sel, text) => { const el = document.querySelector(sel); if (el) el.textContent = text; };
+  const basePeople = renderPeople;
+  renderPeople = () => {
+    basePeople();
+    note("#overview .mxnote", `Ranked by papers since ${PEOPLE.since} and citation record. Updated ${new Date(PEOPLE.generated_at).toLocaleDateString([], { dateStyle: "medium" })}.`);
+  };
+  const baseProfile = openProfile;
+  openProfile = id => { baseProfile(id); note("#pdlg .pnote", "Metrics are indicators, not a ranking. To contact them, use the institution page or ORCID: this site does not collect email addresses."); };
+  const baseNet = openNet;
+  openNet = id => { baseNet(id); const el = document.querySelector("#netdlg .netnote"); if (el) el.textContent = el.textContent.replace(/\s*Source: OpenAlex\.?$/, ""); };
 }
