@@ -119,6 +119,14 @@
   "src": "city",
   "t": "2026-11-17T05:11:13.037Z"
  },
+ "city|alicante|ES": {
+  "lat": 38.34517,
+  "lon": -0.48149,
+  "city": "Alicante",
+  "cc": "ES",
+  "src": "city",
+  "t": "2026-11-20T05:13:10.807Z"
+ },
  "city|allauch|FR": {
   "lat": 43.33573,
   "lon": 5.48201,
@@ -207,6 +215,14 @@
   "src": "city",
   "t": "2026-11-06T13:13:58.067Z"
  },
+ "city|andalucía|ES": {
+  "lat": 40.54005,
+  "lon": -3.64595,
+  "city": "Andalucia Park",
+  "cc": "ES",
+  "src": "city",
+  "t": "2026-11-20T05:13:10.790Z"
+ },
  "city|angers|FR": {
   "lat": 47.47156,
   "lon": -0.55202,
@@ -246,6 +262,10 @@
   "cc": "ES",
   "src": "city",
   "t": "2026-11-12T14:02:32.650Z"
+ },
+ "city|ariège|FR": {
+  "miss": true,
+  "t": "2026-11-20T05:13:12.942Z"
  },
  "city|armilla|ES": {
   "lat": 37.14386,
@@ -550,6 +570,14 @@
   "cc": "FR",
   "src": "city",
   "t": "2026-11-15T05:11:16.107Z"
+ },
+ "city|bicester|GB": {
+  "lat": 51.89998,
+  "lon": -1.15357,
+  "city": "Bicester",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-20T05:13:10.789Z"
  },
  "city|bielefeld|DE": {
   "lat": 52.03333,
@@ -935,6 +963,10 @@
   "src": "city",
   "t": "2026-11-05T00:35:52.722Z"
  },
+ "city|cambridgeshire|GB": {
+  "miss": true,
+  "t": "2026-11-20T05:13:12.653Z"
+ },
  "city|camden|GB": {
   "lat": 51.54057,
   "lon": -0.14334,
@@ -994,6 +1026,14 @@
  "city|cartogis.org|": {
   "miss": true,
   "t": "2026-11-19T01:07:42.232Z"
+ },
+ "city|castelnau-le-lez|FR": {
+  "lat": 43.63605,
+  "lon": 3.90137,
+  "city": "Castelnau-le-Lez",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.937Z"
  },
  "city|cataluña|ES": {
   "miss": true,
@@ -1074,6 +1114,22 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:00.259Z"
+ },
+ "city|charlottenburg|DE": {
+  "lat": 52.51667,
+  "lon": 13.28333,
+  "city": "Charlottenburg",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.658Z"
+ },
+ "city|charlottesville|US": {
+  "lat": 38.02931,
+  "lon": -78.47668,
+  "city": "Charlottesville",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.095Z"
  },
  "city|chartres-nord-est|FR": {
   "miss": true,
@@ -1374,6 +1430,14 @@
   "cc": "NL",
   "src": "city",
   "t": "2026-11-05T00:35:54.213Z"
+ },
+ "city|dearborn park|US": {
+  "lat": 37.25883,
+  "lon": -122.31803,
+  "city": "Dearborn Park",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.379Z"
  },
  "city|dearborn|US": {
   "lat": 42.32226,
@@ -1891,6 +1955,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:04.160Z"
  },
+ "city|fort worth|US": {
+  "lat": 32.72541,
+  "lon": -97.32085,
+  "city": "Fort Worth",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.098Z"
+ },
  "city|foster city|US": {
   "lat": 45.96329,
   "lon": -87.74402,
@@ -1946,6 +2018,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-15T05:11:15.547Z"
+ },
+ "city|fremont|US": {
+  "lat": 37.54827,
+  "lon": -121.98857,
+  "city": "Fremont",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:11.795Z"
  },
  "city|frieze hill|GB": {
   "lat": 51.02181,
@@ -2283,6 +2363,14 @@
   "src": "city",
   "t": "2026-11-13T13:30:19.974Z"
  },
+ "city|hastings-sunrise|CA": {
+  "lat": 49.28333,
+  "lon": -123.03333,
+  "city": "Hastings-Sunrise",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.374Z"
+ },
  "city|haute-garonne|FR": {
   "miss": true,
   "t": "2026-11-17T22:06:56.783Z"
@@ -2346,6 +2434,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:35:50.255Z"
+ },
+ "city|helena|US": {
+  "lat": 46.59271,
+  "lon": -112.03611,
+  "city": "Helena",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:11.091Z"
  },
  "city|helsingborg|": {
   "lat": 56.04673,
@@ -2474,6 +2570,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-16T05:12:33.765Z"
+ },
+ "city|hutchinson island|US": {
+  "lat": 32.0973,
+  "lon": -81.10189,
+  "city": "Hutchinson Island",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.092Z"
  },
  "city|hyderabad|": {
   "lat": 17.38405,
@@ -2650,6 +2754,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-16T05:12:34.538Z"
+ },
+ "city|kansas city|US": {
+  "lat": 39.09973,
+  "lon": -94.57857,
+  "city": "Kansas City",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.093Z"
  },
  "city|kanton aargau|CH": {
   "miss": true,
@@ -2835,6 +2947,14 @@
   "src": "city",
   "t": "2026-11-08T12:11:02.906Z"
  },
+ "city|lakewood|US": {
+  "lat": 39.70471,
+  "lon": -105.08137,
+  "city": "Lakewood",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:11.799Z"
+ },
  "city|landstraße|AT": {
   "lat": 48.2019,
   "lon": 16.38792,
@@ -3019,6 +3139,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:20.232Z"
  },
+ "city|lille|FR": {
+  "lat": 50.63391,
+  "lon": 3.05512,
+  "city": "Lille",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.936Z"
+ },
  "city|limerick|": {
   "lat": 52.66472,
   "lon": -8.62306,
@@ -3134,6 +3262,10 @@
   "cc": "SE",
   "src": "city",
   "t": "2026-11-10T21:45:14.325Z"
+ },
+ "city|lutherstadt wittenberg|DE": {
+  "miss": true,
+  "t": "2026-11-20T05:13:12.660Z"
  },
  "city|luzern|CH": {
   "lat": 47.05048,
@@ -3307,6 +3439,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:00.549Z"
  },
+ "city|midland|US": {
+  "lat": 31.99735,
+  "lon": -102.07791,
+  "city": "Midland",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.375Z"
+ },
  "city|midlothian|US": {
   "lat": 32.48236,
   "lon": -96.99445,
@@ -3354,6 +3494,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:34.108Z"
+ },
+ "city|mitchell|US": {
+  "lat": 43.70943,
+  "lon": -98.0298,
+  "city": "Mitchell",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:11.089Z"
  },
  "city|modena|IT": {
   "lat": 44.64783,
@@ -3554,6 +3702,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T15:57:59.997Z"
+ },
+ "city|new richmond|CA": {
+  "lat": 48.16059,
+  "lon": -65.85823,
+  "city": "New-Richmond",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.377Z"
  },
  "city|new south wales|AU": {
   "miss": true,
@@ -4743,6 +4899,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:37.019Z"
  },
+ "city|silea|IT": {
+  "lat": 45.65444,
+  "lon": 12.29701,
+  "city": "Silea",
+  "cc": "IT",
+  "src": "city",
+  "t": "2026-11-20T05:13:10.794Z"
+ },
  "city|simcoe region|CA": {
   "miss": true,
   "t": "2026-11-19T14:06:59.401Z"
@@ -5439,6 +5603,10 @@
   "src": "city",
   "t": "2026-11-06T13:14:01.440Z"
  },
+ "city|vienne-nord|FR": {
+  "miss": true,
+  "t": "2026-11-20T05:13:12.940Z"
+ },
  "city|village of los ranchos|US": {
   "miss": true,
   "t": "2026-11-13T13:30:21.854Z"
@@ -5482,6 +5650,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-08T16:43:52.810Z"
+ },
+ "city|virginia|US": {
+  "lat": 36.85293,
+  "lon": -75.97799,
+  "city": "Virginia Beach",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:11.797Z"
  },
  "city|voorhout|NL": {
   "lat": 52.22167,
@@ -5663,6 +5839,14 @@
   "miss": true,
   "t": "2026-11-15T05:11:16.667Z"
  },
+ "city|west melbourne|AU": {
+  "lat": -37.81014,
+  "lon": 144.95,
+  "city": "West Melbourne",
+  "cc": "AU",
+  "src": "city",
+  "t": "2026-11-20T05:13:12.656Z"
+ },
  "city|west midlands|GB": {
   "miss": true,
   "t": "2026-11-17T14:08:36.254Z"
@@ -5762,6 +5946,14 @@
   "cc": "CH",
   "src": "city",
   "t": "2026-11-10T21:45:12.096Z"
+ },
+ "city|woburn|US": {
+  "lat": 42.47926,
+  "lon": -71.15228,
+  "city": "Woburn",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T05:13:11.092Z"
  },
  "city|woodbridge|CA": {
   "lat": 43.78341,
@@ -6091,6 +6283,10 @@
   "src": "ror",
   "t": "2026-11-06T13:14:03.581Z"
  },
+ "ror|mitchell technical college|US": {
+  "miss": true,
+  "t": "2026-11-20T05:13:11.516Z"
+ },
  "ror|nbc universal|US": {
   "miss": true,
   "t": "2026-11-13T13:30:22.439Z"
@@ -6122,6 +6318,10 @@
   "cc": "US",
   "src": "ror",
   "t": "2026-11-09T14:19:25.389Z"
+ },
+ "ror|patriot surveying & infrastructure, pllc|US": {
+  "miss": true,
+  "t": "2026-11-20T05:13:11.816Z"
  },
  "ror|pennsylvania state university|US": {
   "lat": 40.79339,
