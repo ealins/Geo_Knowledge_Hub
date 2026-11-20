@@ -7,7 +7,7 @@ on:
     - cron: "23 4 * * *"
   push:
     branches: [main]
-    paths: ["scripts/discover-events.mjs", "config/discover-events.json"]
+    paths: ["scripts/discover-events.mjs", "config/discover-events.json", "scripts/events-feeds.mjs", "scripts/events-feeds-lib.mjs", "config/events-feeds.json"]
 
 permissions:
   contents: write
@@ -38,6 +38,9 @@ jobs:
       - name: Find events at societies and related organisations
         if: steps.guard.outputs.skip != 'true'
         run: node scripts/discover-events.mjs | tee discover-events.log
+      - name: Read event calendars and feeds (OSM Calendar, WikiCFP, GRSS)
+        if: steps.guard.outputs.skip != 'true'
+        run: node scripts/events-feeds.mjs | tee events-feeds.log
       - name: Commit result
         if: steps.guard.outputs.skip != 'true'
         run: |
@@ -45,7 +48,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdir -p data
           tail -n 400 discover-events.log | head -c 60000 > data/discover-events-log.txt
-          git add data/events-discovered.json data/discover-events-log.txt
+          tail -n 100 events-feeds.log > data/events-feeds-log.txt
+          git add data/events-discovered.json data/discover-events-log.txt data/events-feeds.json data/events-feeds-log.txt
           if git diff --cached --quiet; then
             echo "No changes."
           else

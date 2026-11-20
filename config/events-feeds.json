@@ -1,0 +1,16 @@
+{
+  "_comment": "Open event calendars with structured data (read by scripts/events-feeds.mjs). Events must name a topic from config/domain.json, or for OSM Calendar a conference-type word. Add a WikiCFP category or a Tribe Events (WordPress) API here to widen coverage.",
+  "osmcal": {
+    "enabled": true,
+    "url": "https://osmcal.org/api/v2/events/",
+    "keep_title": "state of the map|sotm|foss4g|geospatial|open ?data|conference|summit|symposium|workshop|hackathon"
+  },
+  "wikicfp": {
+    "url": "http://www.wikicfp.com/cfp/rss",
+    "categories": ["remote sensing", "gis", "geoinformatics", "photogrammetry", "earth observation", "lidar", "geospatial", "geodesy", "computer vision", "spatial data", "geoai"],
+    "exclude_title": []
+  },
+  "tribe": [
+    { "url": "https://www.grss-ieee.org/wp-json/tribe/events/v1/events", "max_pages": 5 }
+  ]
+}

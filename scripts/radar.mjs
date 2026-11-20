@@ -527,8 +527,8 @@ async function runSource(src, statusOut) {
     }
     if (src.type === "discovered-events") {
       // Events found by scripts/discover-events.mjs, read from the committed file.
-      const file = await readJson(path.join(DATA_DIR, "events-discovered.json"), { items: [] });
-      const raw = file.items.map((e) => ({ title: e.title, link: e.url, date: e.starts, starts: e.starts, ends: e.ends, summary: e.host, deadline: e.deadline || "", location: e.host }));
+      const file = await readJson(path.join(DATA_DIR, src.file || "events-discovered.json"), { items: [] });
+      const raw = file.items.map((e) => ({ title: e.title, link: e.url, date: e.starts, starts: e.starts, ends: e.ends, summary: e.host, deadline: e.deadline || "", location: e.location || e.host }));
       const kept = raw.map((r) => classify(r, src)).filter(Boolean);
       statusOut[src.id] = { state: "ok", last_checked: nowIso, last_success: nowIso, items_found: raw.length, items_matched: kept.length, consecutive_failures: 0, last_error: null };
       return kept;
