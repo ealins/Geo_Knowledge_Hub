@@ -499,6 +499,14 @@
   "src": "city",
   "t": "2026-11-15T05:11:14.889Z"
  },
+ "city|benbrook|US": {
+  "lat": 32.67319,
+  "lon": -97.46058,
+  "city": "Benbrook",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-20T06:07:55.186Z"
+ },
  "city|berczy park|CA": {
   "miss": true,
   "t": "2026-11-18T06:06:47.230Z"
@@ -3886,6 +3894,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T00:35:48.172Z"
+ },
+ "city|nürnberg|DE": {
+  "lat": 49.45421,
+  "lon": 11.07752,
+  "city": "Nuremberg",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-20T06:07:55.185Z"
  },
  "city|nyköping|": {
   "lat": 58.753,
