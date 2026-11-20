@@ -6635,6 +6635,14 @@
   "src": "ror",
   "t": "2026-11-05T00:35:51.980Z"
  },
+ "ror|university of plymouth|": {
+  "lat": 50.37153,
+  "lon": -4.14305,
+  "city": "Plymouth",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-20T15:06:52.982Z"
+ },
  "ror|university of potsdam|DE": {
   "lat": 52.39886,
   "lon": 13.06566,

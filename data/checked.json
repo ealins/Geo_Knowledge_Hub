@@ -460,5 +460,11 @@
   "ok": false,
   "terms": "",
   "at": "2026-11-20T14:06:12.339Z"
+ },
+ "https://www.jobs.ac.uk/job/DTS628/post-doctoral-research-fellow": {
+  "v": 2,
+  "ok": true,
+  "terms": "remote sensing, earth observation, multispectral, Sentinel-2, Landsat, wildfire",
+  "at": "2026-11-20T15:06:05.980Z"
  }
 }
