@@ -94,6 +94,8 @@ relevance = how central geodata is to the work (10 core research, 0 unrelated su
 // Programme facts: the Worker reads each programme page once and asks Workers AI for the few facts
 // that decide whether to apply. Anything the page does not state stays empty.
 const PROG_MAX_PER_RUN = 20;
+const PROG_NONE_TTL = 60 * 60 * 24 * 3; // page blocked by robots.txt or states no facts: do not look again for 3 days
+const PROG_RETRY_TTL = 60 * 60 * 6; // transient failure (non-OK status, unparsable AI reply): look again in 6 hours
 const UA = "GeoRadar/1.0 (+https://geoacademic.app)";
 const robotsCache = new Map();
 async function robotsOk(u) {
@@ -128,18 +130,18 @@ async function enrichProgrammes(env) {
   const pg = (diag.prog = { todo: todo.length, ok: 0, robots: 0, notok: 0, nojson: 0, empty: 0, err: 0, firstErr: "", firstStatus: 0 });
   for (let i = 0; i < todo.length; i += 4) {
     await Promise.all(todo.slice(i, i + 4).map(async (it) => {
-      const none = () => env.KV.put("prog:" + it.id, JSON.stringify({ none: 1 }), { expirationTtl: 60 * 60 * 24 * 3 });
+      const none = (ttl = PROG_NONE_TTL) => env.KV.put("prog:" + it.id, JSON.stringify({ none: 1 }), { expirationTtl: ttl });
       try {
         if (!(await robotsOk(it.url))) { pg.robots++; return none(); }
         const r = await fetch(it.url, { headers: { "user-agent": UA, accept: "text/html" }, signal: AbortSignal.timeout(8000) });
-        if (!r.ok || !/html/i.test(r.headers.get("content-type") || "")) { pg.notok++; pg.firstStatus ||= r.status; return none(); }
+        if (!r.ok || !/html/i.test(r.headers.get("content-type") || "")) { pg.notok++; pg.firstStatus ||= r.status; return none(PROG_RETRY_TTL); }
         const facts = pageFacts((await r.text()).slice(0, 600000));
         const prompt = `Read this university programme page text and extract facts. Use ONLY what the text states; if a fact is not stated, use null. Do not guess.
 Text: ${facts}
 Reply with ONLY compact JSON: {"degree":"MSc|BSc|PhD|Certificate|Other","language":"teaching language e.g. English, German, English and German","duration":"e.g. 2 years","ects":number of ECTS credits or null,"tuition":"short, e.g. No tuition fees, EUR 1,500 per semester"}`;
         const a = await env.AI.run(AI_MODEL, { messages: [{ role: "user", content: prompt }], max_tokens: 140, temperature: 0 });
         const j = aiJson(a);
-        if (!j) { pg.nojson++; return none(); }
+        if (!j) { pg.nojson++; return none(PROG_RETRY_TTL); }
         const ects = Number(j.ects);
         const out = {
           degree: ["MSc", "BSc", "PhD", "Certificate"].includes(j.degree) ? j.degree : "",
