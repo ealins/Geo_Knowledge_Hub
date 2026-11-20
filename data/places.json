@@ -4007,6 +4007,10 @@
   "src": "city",
   "t": "2026-11-16T05:12:33.319Z"
  },
+ "city|oskemen/ust-kamenogorsk kazakhstan|": {
+  "miss": true,
+  "t": "2026-11-20T08:08:20.170Z"
+ },
  "city|ottawa|CA": {
   "lat": 45.41117,
   "lon": -75.69812,
@@ -5346,6 +5350,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-08T12:11:02.646Z"
+ },
+ "city|trelleborg|": {
+  "lat": 55.37514,
+  "lon": 13.15691,
+  "city": "Trelleborg",
+  "cc": "SE",
+  "src": "city",
+  "t": "2026-11-20T08:08:20.169Z"
  },
  "city|triangle|US": {
   "lat": 38.54679,
