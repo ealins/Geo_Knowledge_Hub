@@ -1219,6 +1219,14 @@
   "src": "city",
   "t": "2026-11-09T14:19:25.996Z"
  },
+ "city|chicago|US": {
+  "lat": 41.85003,
+  "lon": -87.65005,
+  "city": "Chicago",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-21T06:06:56.708Z"
+ },
  "city|choczewo|PL": {
   "lat": 54.73993,
   "lon": 17.89175,
@@ -5137,7 +5145,7 @@
  },
  "city|st columbans|US": {
   "miss": true,
-  "t": "2026-11-06T15:58:00.255Z"
+  "t": "2026-11-21T06:06:56.708Z"
  },
  "city|st paul's|GB": {
   "lat": 51.51466,
@@ -5178,6 +5186,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:03.225Z"
+ },
+ "city|steenwijk|NL": {
+  "lat": 52.7875,
+  "lon": 6.12083,
+  "city": "Steenwijk",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-21T06:06:56.707Z"
  },
  "city|steenwijkerland|NL": {
   "miss": true,
