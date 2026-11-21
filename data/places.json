@@ -127,6 +127,14 @@
   "src": "city",
   "t": "2026-11-20T05:13:10.807Z"
  },
+ "city|alken|BE": {
+  "lat": 50.87553,
+  "lon": 5.30558,
+  "city": "Alken",
+  "cc": "BE",
+  "src": "city",
+  "t": "2026-11-21T05:11:52.161Z"
+ },
  "city|allauch|FR": {
   "lat": 43.33573,
   "lon": 5.48201,
@@ -415,6 +423,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:49.078Z"
  },
+ "city|basingstoke|GB": {
+  "lat": 51.26249,
+  "lon": -1.08708,
+  "city": "Basingstoke",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-21T05:11:51.786Z"
+ },
  "city|baton rouge|US": {
   "lat": 30.44332,
   "lon": -91.18747,
@@ -627,6 +643,14 @@
   "src": "city",
   "t": "2026-11-19T05:11:26.869Z"
  },
+ "city|birsfelden|CH": {
+  "lat": 47.5529,
+  "lon": 7.62322,
+  "city": "Birsfelden",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-21T05:11:51.789Z"
+ },
  "city|bismarck|US": {
   "lat": 46.80833,
   "lon": -100.78374,
@@ -659,6 +683,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:39.231Z"
  },
+ "city|bolton|CA": {
+  "lat": 43.87952,
+  "lon": -79.73791,
+  "city": "Bolton",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-21T05:11:51.467Z"
+ },
  "city|bolzano|IT": {
   "lat": 46.49067,
   "lon": 11.33982,
@@ -678,6 +710,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:55:34.188Z"
+ },
+ "city|bonn|DE": {
+  "lat": 50.73438,
+  "lon": 7.09549,
+  "city": "Bonn",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-21T05:11:51.461Z"
  },
  "city|bothfeld|DE": {
   "lat": 52.41732,
@@ -2195,6 +2235,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:55.700Z"
  },
+ "city|gordonsville|US": {
+  "lat": 38.13736,
+  "lon": -78.18778,
+  "city": "Gordonsville",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-21T05:11:52.730Z"
+ },
  "city|gorinchem|NL": {
   "lat": 51.83652,
   "lon": 4.97243,
@@ -2278,6 +2326,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:35:46.432Z"
+ },
+ "city|grenoble|FR": {
+  "lat": 45.17869,
+  "lon": 5.71479,
+  "city": "Grenoble",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-21T05:11:52.446Z"
  },
  "city|groningen|NL": {
   "lat": 53.21917,
@@ -2562,6 +2618,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:02.934Z"
+ },
+ "city|hub|US": {
+  "lat": 31.14546,
+  "lon": -89.75008,
+  "city": "Hub",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-21T05:11:52.730Z"
  },
  "city|hunslet|GB": {
   "lat": 53.7755,
@@ -3123,6 +3187,14 @@
   "miss": true,
   "t": "2026-11-12T14:02:31.184Z"
  },
+ "city|les ulis|FR": {
+  "lat": 48.68167,
+  "lon": 2.16944,
+  "city": "Les Ulis",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-21T05:11:51.784Z"
+ },
  "city|lexington|US": {
   "lat": 37.98869,
   "lon": -84.47772,
@@ -3179,6 +3251,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:18.991Z"
  },
+ "city|lisburn|GB": {
+  "lat": 54.52337,
+  "lon": -6.03527,
+  "city": "Lisburn",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-21T05:11:52.445Z"
+ },
  "city|littleton|US": {
   "lat": 39.61332,
   "lon": -105.01665,
@@ -3198,6 +3278,10 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-19T05:11:27.126Z"
+ },
+ "city|loire-atlantique|FR": {
+  "miss": true,
+  "t": "2026-11-21T05:11:52.446Z"
  },
  "city|loiret|FR": {
   "miss": true,
@@ -4194,6 +4278,14 @@
   "cc": "AU",
   "src": "city",
   "t": "2026-11-05T13:30:38.399Z"
+ },
+ "city|pietra de' giorgi|IT": {
+  "lat": 45.02136,
+  "lon": 9.23036,
+  "city": "Pietra de' Giorgi",
+  "cc": "IT",
+  "src": "city",
+  "t": "2026-11-21T05:11:52.443Z"
  },
  "city|pijnacker|NL": {
   "lat": 52.01954,
@@ -6063,6 +6155,10 @@
   "src": "city",
   "t": "2026-11-11T13:01:20.850Z"
  },
+ "city|zoo|CA": {
+  "miss": true,
+  "t": "2026-11-21T05:11:51.464Z"
+ },
  "city|zug|CH": {
   "lat": 47.17242,
   "lon": 8.51745,
@@ -6518,6 +6614,14 @@
   "cc": "GB",
   "src": "ror",
   "t": "2026-11-05T19:43:08.435Z"
+ },
+ "ror|university of cambridge|GB": {
+  "lat": 52.2,
+  "lon": 0.11667,
+  "city": "Cambridge",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-21T05:11:51.501Z"
  },
  "ror|university of copenhagen|DK": {
   "miss": true,
