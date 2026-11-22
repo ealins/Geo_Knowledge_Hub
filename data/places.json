@@ -391,6 +391,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:15.903Z"
  },
+ "city|barmen|DE": {
+  "lat": 50.94381,
+  "lon": 6.30508,
+  "city": "Barmen",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-22T05:11:16.509Z"
+ },
  "city|barop|DE": {
   "lat": 51.48173,
   "lon": 7.43197,
@@ -726,6 +734,10 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-07T16:29:05.023Z"
+ },
+ "city|bouches-du-rhône|FR": {
+  "miss": true,
+  "t": "2026-11-22T05:11:14.781Z"
  },
  "city|bourg-en-bresse|FR": {
   "lat": 46.20574,
@@ -1227,6 +1239,14 @@
   "src": "city",
   "t": "2026-11-21T06:06:56.708Z"
  },
+ "city|chippis|CH": {
+  "lat": 46.2802,
+  "lon": 7.53962,
+  "city": "Chippis",
+  "cc": "CH",
+  "src": "city",
+  "t": "2026-11-22T05:11:14.780Z"
+ },
  "city|choczewo|PL": {
   "lat": 54.73993,
   "lon": 17.89175,
@@ -1334,6 +1354,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-09T14:19:25.022Z"
+ },
+ "city|commerce city|US": {
+  "lat": 39.80832,
+  "lon": -104.93387,
+  "city": "Commerce City",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-22T05:11:15.841Z"
  },
  "city|comunidad valenciana|ES": {
   "miss": true,
@@ -1599,6 +1627,10 @@
   "miss": true,
   "t": "2026-11-21T13:07:08.118Z"
  },
+ "city|doornik|BE": {
+  "miss": true,
+  "t": "2026-11-22T05:11:15.088Z"
+ },
  "city|doral|US": {
   "lat": 25.81954,
   "lon": -80.35533,
@@ -1711,6 +1743,14 @@
   "src": "city",
   "t": "2026-11-06T15:57:59.738Z"
  },
+ "city|eberswalde|DE": {
+  "lat": 52.83492,
+  "lon": 13.81951,
+  "city": "Eberswalde",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-22T05:11:15.842Z"
+ },
  "city|edinburgh city centre|GB": {
   "miss": true,
   "t": "2026-11-18T13:06:58.492Z"
@@ -1818,6 +1858,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-10T22:09:39.597Z"
+ },
+ "city|ermingen|DE": {
+  "lat": 48.38122,
+  "lon": 9.8992,
+  "city": "Ermingen",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-22T05:11:16.514Z"
  },
  "city|esch-sur-alzette|": {
   "lat": 49.49583,
@@ -2267,6 +2315,14 @@
   "src": "city",
   "t": "2026-11-10T21:45:14.070Z"
  },
+ "city|gralla|AT": {
+  "lat": 46.81404,
+  "lon": 15.5551,
+  "city": "Gralla",
+  "cc": "AT",
+  "src": "city",
+  "t": "2026-11-22T05:11:14.781Z"
+ },
  "city|grand central|US": {
   "lat": 40.84426,
   "lon": -75.26407,
@@ -2635,6 +2691,14 @@
   "src": "city",
   "t": "2026-11-21T05:11:52.730Z"
  },
+ "city|huissen|NL": {
+  "lat": 51.93833,
+  "lon": 5.93333,
+  "city": "Huissen",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-22T05:11:16.509Z"
+ },
  "city|hunslet|GB": {
   "lat": 53.7755,
   "lon": -1.53482,
@@ -2718,6 +2782,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-07T11:57:07.280Z"
+ },
+ "city|innsbruck|AT": {
+  "lat": 47.26266,
+  "lon": 11.39454,
+  "city": "Innsbruck",
+  "cc": "AT",
+  "src": "city",
+  "t": "2026-11-22T05:11:15.087Z"
  },
  "city|international|US": {
   "lat": 48.60105,
@@ -3522,6 +3594,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:55:32.659Z"
+ },
+ "city|melbourne cbd|AU": {
+  "lat": -37.81501,
+  "lon": 144.96657,
+  "city": "Melbourne CBD",
+  "cc": "AU",
+  "src": "city",
+  "t": "2026-11-22T05:11:15.535Z"
  },
  "city|melbourne|AU": {
   "lat": -37.814,
@@ -4390,6 +4470,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:35:47.902Z"
+ },
+ "city|pozuelo de alarcón|ES": {
+  "lat": 40.43293,
+  "lon": -3.81338,
+  "city": "Pozuelo de Alarcón",
+  "cc": "ES",
+  "src": "city",
+  "t": "2026-11-22T05:11:15.086Z"
  },
  "city|prestonwood|US": {
   "lat": 32.77013,
@@ -6223,6 +6311,10 @@
   "src": "city",
   "t": "2026-11-05T00:55:33.535Z"
  },
+ "ror|american university|US": {
+  "miss": true,
+  "t": "2026-11-22T05:11:15.879Z"
+ },
  "ror|apex geomatics construction surveyors ltd|CA": {
   "miss": true,
   "t": "2026-11-19T14:06:58.725Z"
@@ -6374,6 +6466,14 @@
   "cc": "FR",
   "src": "ror",
   "t": "2026-11-10T21:45:13.289Z"
+ },
+ "ror|johann heinrich von thünen-institut|DE": {
+  "lat": 52.26594,
+  "lon": 10.52673,
+  "city": "Braunschweig",
+  "cc": "DE",
+  "src": "ror",
+  "t": "2026-11-22T05:11:16.205Z"
  },
  "ror|karlsruhe institute of technology|DE": {
   "lat": 49.00937,
@@ -6558,6 +6658,14 @@
   "cc": "ES",
   "src": "ror",
   "t": "2026-11-05T00:35:58.793Z"
+ },
+ "ror|universität innsbruck|AT": {
+  "lat": 47.26266,
+  "lon": 11.39454,
+  "city": "Innsbruck",
+  "cc": "AT",
+  "src": "ror",
+  "t": "2026-11-22T05:11:14.771Z"
  },
  "ror|université claude bernard lyon 1|FR": {
   "lat": 45.76601,
