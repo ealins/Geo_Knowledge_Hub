@@ -455,6 +455,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:47.001Z"
  },
+ "city|beachs corner|US": {
+  "lat": 43.54241,
+  "lon": -111.96414,
+  "city": "Beachs Corner",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-22T06:06:54.013Z"
+ },
  "city|beauvais|FR": {
   "lat": 49.43333,
   "lon": 2.08333,
@@ -643,6 +651,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:55.971Z"
  },
+ "city|birmingham|GB": {
+  "lat": 52.48142,
+  "lon": -1.89983,
+  "city": "Birmingham",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-22T06:06:54.023Z"
+ },
  "city|birmingham|US": {
   "lat": 33.52066,
   "lon": -86.80249,
@@ -797,7 +813,7 @@
  },
  "city|brest-l'hermitage-gouesnou|FR": {
   "miss": true,
-  "t": "2026-11-15T05:11:15.825Z"
+  "t": "2026-11-22T06:06:54.017Z"
  },
  "city|brest|FR": {
   "lat": 48.39029,
@@ -5449,7 +5465,7 @@
  },
  "city|textile finance|US": {
   "miss": true,
-  "t": "2026-11-15T05:11:14.880Z"
+  "t": "2026-11-22T06:06:54.014Z"
  },
  "city|the acreage|US": {
   "lat": 26.79404,
@@ -6069,7 +6085,7 @@
  },
  "city|west indianapolis|US": {
   "miss": true,
-  "t": "2026-11-15T05:11:16.667Z"
+  "t": "2026-11-22T06:06:54.318Z"
  },
  "city|west melbourne|AU": {
   "lat": -37.81014,
@@ -6433,7 +6449,7 @@
  },
  "ror|global land surveying|US": {
   "miss": true,
-  "t": "2026-11-15T05:11:16.978Z"
+  "t": "2026-11-22T06:06:54.616Z"
  },
  "ror|heriot-watt university|": {
   "lat": 55.95206,
@@ -6541,7 +6557,7 @@
  },
  "ror|nbcuniversal media, llc|US": {
   "miss": true,
-  "t": "2026-11-15T05:11:14.821Z"
+  "t": "2026-11-22T06:06:54.597Z"
  },
  "ror|new mexico state university|US": {
   "lat": 32.31232,
