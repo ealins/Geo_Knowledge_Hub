@@ -2951,6 +2951,14 @@
   "miss": true,
   "t": "2026-11-19T01:07:43.509Z"
  },
+ "city|karlstad|": {
+  "lat": 59.3793,
+  "lon": 13.50357,
+  "city": "Karlstad",
+  "cc": "SE",
+  "src": "city",
+  "t": "2026-11-23T12:09:02.136Z"
+ },
  "city|kensington|AU": {
   "lat": -33.92019,
   "lon": 151.22241,
