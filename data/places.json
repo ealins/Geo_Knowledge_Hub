@@ -2941,7 +2941,7 @@
  },
  "city|kanton aargau|CH": {
   "miss": true,
-  "t": "2026-11-16T05:12:34.913Z"
+  "t": "2026-11-23T06:06:48.623Z"
  },
  "city|karabük türkiye|": {
   "miss": true,
@@ -2961,7 +2961,7 @@
  },
  "city|king and spadina|CA": {
   "miss": true,
-  "t": "2026-11-16T05:12:34.539Z"
+  "t": "2026-11-23T06:06:48.645Z"
  },
  "city|king|US": {
   "lat": 36.28069,
@@ -3558,6 +3558,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-05T13:30:39.499Z"
+ },
+ "city|manito|US": {
+  "lat": 40.42587,
+  "lon": -89.77928,
+  "city": "Manito",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-23T06:06:48.644Z"
  },
  "city|maple ridge|CA": {
   "lat": 49.21939,
