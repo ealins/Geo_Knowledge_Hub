@@ -743,6 +743,14 @@
   "src": "city",
   "t": "2026-11-21T05:11:51.461Z"
  },
+ "city|bonnie|US": {
+  "lat": 38.20283,
+  "lon": -88.9034,
+  "city": "Bonnie",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-23T05:11:30.430Z"
+ },
  "city|bothfeld|DE": {
   "lat": 52.41732,
   "lon": 9.79612,
@@ -3291,6 +3299,10 @@
   "src": "city",
   "t": "2026-11-21T05:11:51.784Z"
  },
+ "city|lewis and clark county|US": {
+  "miss": true,
+  "t": "2026-11-23T05:11:30.430Z"
+ },
  "city|lexington|US": {
   "lat": 37.98869,
   "lon": -84.47772,
@@ -4049,7 +4061,7 @@
  },
  "city|northern ireland|GB": {
   "miss": true,
-  "t": "2026-11-11T13:01:17.437Z"
+  "t": "2026-11-23T05:11:30.428Z"
  },
  "city|northlake|US": {
   "lat": 41.91725,
@@ -4439,6 +4451,14 @@
   "src": "city",
   "t": "2026-11-06T13:13:59.941Z"
  },
+ "city|pomorskie|PL": {
+  "lat": 54.03333,
+  "lon": 16.2,
+  "city": "Pomorskie",
+  "cc": "PL",
+  "src": "city",
+  "t": "2026-11-23T05:11:30.432Z"
+ },
  "city|ponderosa|US": {
   "lat": 35.66003,
   "lon": -106.66753,
@@ -4454,6 +4474,14 @@
   "cc": "ES",
   "src": "city",
   "t": "2026-11-11T17:55:31.663Z"
+ },
+ "city|portland|US": {
+  "lat": 45.52345,
+  "lon": -122.67621,
+  "city": "Portland",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-23T05:11:30.770Z"
  },
  "city|portola valley|US": {
   "lat": 37.38411,
@@ -5354,6 +5382,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-05T00:35:55.676Z"
+ },
+ "city|stuttgart|DE": {
+  "lat": 48.78232,
+  "lon": 9.17702,
+  "city": "Stuttgart",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-23T05:11:30.770Z"
  },
  "city|sunbury-on-thames|GB": {
   "lat": 51.40424,
@@ -6694,6 +6730,14 @@
   "cc": "FR",
   "src": "ror",
   "t": "2026-11-10T21:45:12.989Z"
+ },
+ "ror|université de rennes|FR": {
+  "lat": 48.11109,
+  "lon": -1.67431,
+  "city": "Rennes",
+  "cc": "FR",
+  "src": "ror",
+  "t": "2026-11-23T05:11:31.205Z"
  },
  "ror|university college dublin|": {
   "lat": 53.33306,
