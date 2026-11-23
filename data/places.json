@@ -5655,6 +5655,10 @@
   "src": "city",
   "t": "2026-11-05T00:36:00.005Z"
  },
+ "city|university of colorado boulder|US": {
+  "miss": true,
+  "t": "2026-11-23T03:15:25.467Z"
+ },
  "city|university of copenhagen|DK": {
   "miss": true,
   "t": "2026-11-19T01:07:43.763Z"
@@ -6762,6 +6766,14 @@
   "cc": "GB",
   "src": "ror",
   "t": "2026-11-21T05:11:51.501Z"
+ },
+ "ror|university of colorado boulder|US": {
+  "lat": 40.01499,
+  "lon": -105.27055,
+  "city": "Boulder",
+  "cc": "US",
+  "src": "ror",
+  "t": "2026-11-23T03:15:25.437Z"
  },
  "ror|university of copenhagen|DK": {
   "miss": true,
