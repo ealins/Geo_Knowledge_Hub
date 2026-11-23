@@ -1,27 +1,17 @@
 {
- "generated_at": "2026-11-16T03:06:06.943Z",
+ "generated_at": "2026-11-23T03:06:08.102Z",
  "universities": 122,
  "count": 98,
  "items": [
   {
-   "url": "https://www.tudelft.nl/onderwijs/opleidingen/masters/sgim/msc-geographical-information-management-and-applications",
-   "title": "MSc Geographical Information Management and Applications",
-   "summary": "",
-   "level": "master",
-   "university": "Delft University of Technology",
-   "country": "NL",
+   "url": "https://www.colorado.edu/academics/certificate-gis-computational-science",
+   "title": "Certificate in GIS & Computational Science",
+   "summary": "Our interdisciplinary undergraduate certificate allows students to learn how to display data points of the positions of Earth with spatial data analysis and computation.",
+   "level": "certificate",
+   "university": "University of Colorado Boulder",
+   "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.tudelft.nl/onderwijs/opleidingen/masters/gm/msc-geomatics",
-   "title": "MSc Geomatics for the Built Environment",
-   "summary": "",
-   "level": "master",
-   "university": "Delft University of Technology",
-   "country": "NL",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/",
@@ -31,7 +21,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": "2027-05-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/master-structure/",
@@ -41,7 +31,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": "2027-05-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/admission-application/university-students/",
@@ -51,7 +41,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/cau-china/",
@@ -61,7 +51,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/cnu-china/",
@@ -71,7 +61,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/elegibility-check/",
@@ -81,7 +71,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/master-structure/joint-programmes/",
@@ -91,7 +81,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/specialisations/disaster-resilience/",
@@ -101,7 +91,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/specialisations/free-specialisation/",
@@ -111,7 +101,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/specialisations/geoai/",
@@ -121,7 +111,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/specialisations/resources-security/",
@@ -131,7 +121,7 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.utwente.nl/en/education/master/programmes/geo-information-science-earth-observation/specialisations/urban-and-land-futures/",
@@ -141,7 +131,37 @@
    "university": "University of Twente",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.tudelft.nl/onderwijs/opleidingen/masters/sgim/msc-geographical-information-management-and-applications",
+   "title": "MSc Geographical Information Management and Applications",
+   "summary": "",
+   "level": "master",
+   "university": "Delft University of Technology",
+   "country": "NL",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.tudelft.nl/onderwijs/opleidingen/masters/gm/msc-geomatics",
+   "title": "MSc Geomatics for the Built Environment",
+   "summary": "",
+   "level": "master",
+   "university": "Delft University of Technology",
+   "country": "NL",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.tudelft.nl/onderwijs/opleidingen/masters/ect/msc-earth-climate-and-technology/study-programme/track-climate-and-earth-observation",
+   "title": "Track Climate and Earth Observation",
+   "summary": "",
+   "level": "",
+   "university": "Delft University of Technology",
+   "country": "NL",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.wur.nl/en/education/master/masters-geographical-information-management-and-applications",
@@ -151,7 +171,7 @@
    "university": "Wageningen University & Research",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.wur.nl/nl/onderwijs/master/master-geographical-information-management-and-applications",
@@ -161,67 +181,7 @@
    "university": "Wageningen University & Research",
    "country": "NL",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://catalog.tamu.edu/undergraduate/arts-and-sciences/geography/geographic-information-science-technology-bs/",
-   "title": "Texas A&M University Catalogs",
-   "summary": "",
-   "level": "bachelor",
-   "university": "Texas A&M University",
-   "country": "US",
-   "deadline": "2027-01-05T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/AGL_UCT06/",
-   "title": "Geomatics",
-   "summary": "",
-   "level": "certificate",
-   "university": "University of Florida",
-   "country": "US",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/LAS_UCT04/",
-   "title": "Geospatial Information Analysis",
-   "summary": "",
-   "level": "certificate",
-   "university": "University of Florida",
-   "country": "US",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.sle.kit.edu/vorstudium/bachelor-geodaesie-geoinformatik.php",
-   "title": "KIT - Studiengänge - Geodäsie und Geoinformatik Bachelor of Science",
-   "summary": "▶ Alles rund um den Studiengang Geod&auml;sie und Geoinformatik am Karlsruher Institut f&uuml;r Technologie, der Forschungsuniversit&auml;t in Baden-W&uuml;rttemberg. Entdecke unser breites Studienangebot am KIT, Univers",
-   "level": "bachelor",
-   "university": "Karlsruhe Institute of Technology",
-   "country": "DE",
-   "deadline": "2027-09-15T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.sle.kit.edu/vorstudium/master-geodaesie-geoinformatik.php",
-   "title": "KIT - Studiengänge - Geodaäsie und Geoinformatik Master of Science",
-   "summary": "▶ Alles rund um den Studiengang Geod&auml;sie und Geoinformatik am Karlsruher Institut f&uuml;r Technologie, der Forschungsuniversit&auml;t in Baden-W&uuml;rttemberg. Entdecke unser breites Studienangebot am KIT, Univers",
-   "level": "master",
-   "university": "Karlsruhe Institute of Technology",
-   "country": "DE",
-   "deadline": "2027-09-30T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.sle.kit.edu/vorstudium/master-remote-sensing-geoinformatics.php",
-   "title": "KIT - Studiengänge - Remote Sensing and Geoinformatics Master of Science",
-   "summary": "▶ Alles rund um den Studiengang Remote Sensing and Geoinformatics am Karlsruher Institut f&uuml;r Technologie, der Forschungsuniversit&auml;t in Baden-W&uuml;rttemberg. Entdecke unser breites Studienangebot am KIT, Unive",
-   "level": "master",
-   "university": "Karlsruhe Institute of Technology",
-   "country": "DE",
-   "deadline": "2027-06-15T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://geog.umd.edu/undergraduate/geospatial-data-science",
@@ -231,7 +191,7 @@
    "university": "University of Maryland, College Park",
    "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://geog.umd.edu/undergraduate/computational-earth-observation-science",
@@ -241,27 +201,67 @@
    "university": "University of Maryland, College Park",
    "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
-   "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-civil-surveying",
-   "title": "Bachelor of Engineering (Honours) (Civil) / Surveying",
-   "summary": "Gain accreditation as both an Engineer and a Surveyor through this double degree for flexibility in your future career.",
+   "url": "https://catalog.tamu.edu/undergraduate/arts-and-sciences/geography/geographic-information-science-technology-bs/",
+   "title": "Texas A&M University Catalogs",
+   "summary": "",
    "level": "bachelor",
-   "university": "UNSW Sydney",
-   "country": "AU",
-   "deadline": "2027-01-15T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "university": "Texas A&M University",
+   "country": "US",
+   "deadline": "2027-01-05T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
-   "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-surveying",
-   "title": "Bachelor of Engineering (Honours) (Surveying)",
-   "summary": "Support construction activity and infrastructure engineering in urban and rural environments, as well as mapping and monitoring the natural environment.",
+   "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGAGL/AGL_UCT06/",
+   "title": "Geomatics",
+   "summary": "",
+   "level": "certificate",
+   "university": "University of Florida",
+   "country": "US",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/LAS_UCT04/",
+   "title": "Geospatial Information Analysis",
+   "summary": "",
+   "level": "certificate",
+   "university": "University of Florida",
+   "country": "US",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.sle.kit.edu/vorstudium/bachelor-geodaesie-geoinformatik.php",
+   "title": "KIT - Studiengänge - Geodäsie und Geoinformatik Bachelor of Science",
+   "summary": "▶ Alles rund um den Studiengang Geod&auml;sie und Geoinformatik am Karlsruher Institut f&uuml;r Technologie, der Forschungsuniversit&auml;t in Baden-W&uuml;rttemberg. Entdecke unser breites Studienangebot am KIT, Univers",
    "level": "bachelor",
-   "university": "UNSW Sydney",
-   "country": "AU",
-   "deadline": "2027-01-15T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "university": "Karlsruhe Institute of Technology",
+   "country": "DE",
+   "deadline": "2027-09-15T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.sle.kit.edu/vorstudium/master-geodaesie-geoinformatik.php",
+   "title": "KIT - Studiengänge - Geodaäsie und Geoinformatik Master of Science",
+   "summary": "▶ Alles rund um den Studiengang Geod&auml;sie und Geoinformatik am Karlsruher Institut f&uuml;r Technologie, der Forschungsuniversit&auml;t in Baden-W&uuml;rttemberg. Entdecke unser breites Studienangebot am KIT, Univers",
+   "level": "master",
+   "university": "Karlsruhe Institute of Technology",
+   "country": "DE",
+   "deadline": "2027-09-30T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.sle.kit.edu/vorstudium/master-remote-sensing-geoinformatics.php",
+   "title": "KIT - Studiengänge - Remote Sensing and Geoinformatics Master of Science",
+   "summary": "▶ Alles rund um den Studiengang Remote Sensing and Geoinformatics am Karlsruher Institut f&uuml;r Technologie, der Forschungsuniversit&auml;t in Baden-W&uuml;rttemberg. Entdecke unser breites Studienangebot am KIT, Unive",
+   "level": "master",
+   "university": "Karlsruhe Institute of Technology",
+   "country": "DE",
+   "deadline": "2027-06-15T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://pdc.wisc.edu/degrees/cartography-gis-accelerated-non-thesis-ms/",
@@ -271,7 +271,7 @@
    "university": "University of Wisconsin–Madison",
    "country": "US",
    "deadline": "2027-04-01T00:00:00.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.exeter.ac.uk/undergraduate-degrees/bsc-geography-with-applied-gis/",
@@ -281,7 +281,7 @@
    "university": "University of Exeter",
    "country": "GB",
    "deadline": "2027-06-30T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.exeter.ac.uk/masters-degrees/msc-geographical-information-science/",
@@ -290,8 +290,28 @@
    "level": "master",
    "university": "University of Exeter",
    "country": "GB",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "deadline": "2027-01-20T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-civil-surveying",
+   "title": "Bachelor of Engineering (Honours) (Civil) / Surveying",
+   "summary": "Gain accreditation as both an Engineer and a Surveyor through this double degree for flexibility in your future career.",
+   "level": "bachelor",
+   "university": "UNSW Sydney",
+   "country": "AU",
+   "deadline": "2027-01-15T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-surveying",
+   "title": "Bachelor of Engineering (Honours) (Surveying)",
+   "summary": "Support construction activity and infrastructure engineering in urban and rural environments, as well as mapping and monitoring the natural environment.",
+   "level": "bachelor",
+   "university": "UNSW Sydney",
+   "country": "AU",
+   "deadline": "2027-01-15T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://infostudies.purdue.edu/graduate-certificate-in-geospatial-information-science/",
@@ -301,7 +321,7 @@
    "university": "Purdue University West Lafayette",
    "country": "US",
    "deadline": "2026-12-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.purdue.edu/online/program/masters-in-applied-geospatial-analytics/",
@@ -311,7 +331,7 @@
    "university": "Purdue University West Lafayette",
    "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://polytechnic.purdue.edu/degrees/masters-applied-geospatial-analytics-online?utm_source=puo_website&amp;utm_medium=snapshot&amp;utm_campaign=GRST-MS-OL_AGSA",
@@ -321,7 +341,7 @@
    "university": "Purdue University West Lafayette",
    "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://polytechnic.purdue.edu/academics/online-master-science-applied-geospatial-analytics/curriculum?utm_source=puo_website&amp;utm_medium=snapshot",
@@ -331,47 +351,7 @@
    "university": "Purdue University West Lafayette",
    "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.arizona.edu/degree-search/majors/geographic-information-science",
-   "title": "Geographic Information Science",
-   "summary": "The GIS Graduate Certificate program teaches you to use maps and data for a variety of industry and research applications. Apply today!",
-   "level": "",
-   "university": "University of Arizona",
-   "country": "US",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.arizona.edu/degree-search/majors/geographic-information-systems-technology-bs",
-   "title": "Geographic Information Systems Technology",
-   "summary": "This degree is to offer courses in cutting edge geographic information science (GIS), and geographic information systems technology (GIST) to fill the growing worldwide demand for skilled geospatial professionals. The pr",
-   "level": "",
-   "university": "University of Arizona",
-   "country": "US",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.arizona.edu/degree-search/majors/geography-geographic-information-science-emphasis",
-   "title": "Geography: Geographic Information Science Emphasis",
-   "summary": "Students pursuing a geography degree with an emphasis on GIS programs from the University of Arizona benefit from courses in cutting-edge GIS technology. Learn about our program.",
-   "level": "",
-   "university": "University of Arizona",
-   "country": "US",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.arizona.edu/degree-search/majors/professional-geographic-information-systems-technology",
-   "title": "Professional Geographic Information Systems Technology",
-   "summary": "Choose from two graduate pathways, GIST program or Graduate Certificate in Professional Geographic Information Systems Technology (P-GIST).",
-   "level": "",
-   "university": "University of Arizona",
-   "country": "US",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://pm.forestry.ubc.ca/programs/master-geomatics-for-environmental-management/",
@@ -381,7 +361,7 @@
    "university": "University of British Columbia",
    "country": "CA",
    "deadline": "2027-02-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://forestry.ubc.ca/future-students/undergraduate/certificate-in-geomatics-for-environmental-management/",
@@ -391,17 +371,7 @@
    "university": "University of British Columbia",
    "country": "CA",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.uu.nl/en/masters/geographical-information-management-and-applications-gima",
-   "title": "Geographical Information Management and Applications (GIMA)",
-   "summary": "GIMA focuses on the management and application of geographical information from a scientific perspective.",
-   "level": "",
-   "university": "Utrecht University",
-   "country": "NL",
-   "deadline": "2027-04-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options/cs-x-degree-programs/computer-science-geography",
@@ -411,27 +381,57 @@
    "university": "University of Illinois Urbana-Champaign",
    "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
-   "url": "https://grad.ucla.edu/programs/social-sciences/geography-department/master-of-applied-geospatial-information-systems-technologies/",
-   "title": "UCLA Graduate Programs",
-   "summary": "",
-   "level": "master",
-   "university": "University of California, Los Angeles",
+   "url": "https://www.arizona.edu/degree-search/majors/geographic-information-science",
+   "title": "Geographic Information Science",
+   "summary": "The GIS Graduate Certificate program teaches you to use maps and data for a variety of industry and research applications. Apply today!",
+   "level": "",
+   "university": "University of Arizona",
    "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
-   "url": "https://gis.ucla.edu/programs/magist",
-   "title": "MAGIST - UCLA Master of Applied Geospatial Information Systems and Technologies (MAGIST)",
-   "summary": "Earn your GIS Master's degree fully online from UCLA, the #1 public university in the United States.",
-   "level": "master",
-   "university": "University of California, Los Angeles",
+   "url": "https://www.arizona.edu/degree-search/majors/geographic-information-systems-technology-bs",
+   "title": "Geographic Information Systems Technology",
+   "summary": "This degree is to offer courses in cutting edge geographic information science (GIS), and geographic information systems technology (GIST) to fill the growing worldwide demand for skilled geospatial professionals. The pr",
+   "level": "",
+   "university": "University of Arizona",
    "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.arizona.edu/degree-search/majors/geography-geographic-information-science-emphasis",
+   "title": "Geography: Geographic Information Science Emphasis",
+   "summary": "Students pursuing a geography degree with an emphasis on GIS programs from the University of Arizona benefit from courses in cutting-edge GIS technology. Learn about our program.",
+   "level": "",
+   "university": "University of Arizona",
+   "country": "US",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.arizona.edu/degree-search/majors/professional-geographic-information-systems-technology",
+   "title": "Professional Geographic Information Systems Technology",
+   "summary": "Choose from two graduate pathways, GIST program or Graduate Certificate in Professional Geographic Information Systems Technology (P-GIST).",
+   "level": "",
+   "university": "University of Arizona",
+   "country": "US",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.uu.nl/en/masters/geographical-information-management-and-applications-gima",
+   "title": "Geographical Information Management and Applications (GIMA)",
+   "summary": "GIMA focuses on the management and application of geographical information from a scientific perspective.",
+   "level": "",
+   "university": "Utrecht University",
+   "country": "NL",
+   "deadline": "2027-04-01T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.ku.dk/studies/masters/geography-and-geoinformatics",
@@ -441,7 +441,7 @@
    "university": "University of Copenhagen",
    "country": "DK",
    "deadline": "2027-01-15T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.ku.dk/studier/bachelor/geografi-og-geoinformatik",
@@ -451,87 +451,27 @@
    "university": "University of Copenhagen",
    "country": "DK",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
-   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/building-and-surveying-ug",
-   "title": "Building and Surveying",
-   "summary": "Study a degree in building and surveying at the University of Reading, starting in September 2026, and prepare for a career in the built environment.",
-   "level": "bachelor",
-   "university": "University of Reading",
-   "country": "GB",
-   "deadline": "2027-08-13T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "url": "https://grad.ucla.edu/programs/social-sciences/geography-department/master-of-applied-geospatial-information-systems-technologies/",
+   "title": "UCLA Graduate Programs",
+   "summary": "",
+   "level": "master",
+   "university": "University of California, Los Angeles",
+   "country": "US",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
-   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/international-foundation-pathways-ug/bsc-building-surveying-ifp-january",
-   "title": "BSc Building Surveying with International Foundation Year - January Entry",
-   "summary": "Prepare for a successful career in building surveying with our BSc Building Surveying with International Foundation Year, University of Reading - starting in January 2027.",
-   "level": "bachelor",
-   "university": "University of Reading",
-   "country": "GB",
-   "deadline": "2027-08-13T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/international-foundation-pathways-ug/bsc-construction-management-and-surveying-ifp-january",
-   "title": "BSc Construction Management and Surveying with International Foundation Year - January Entry",
-   "summary": "Develop a thorough knowledge of technical and managerial issues within the construction sector and open up a wide range of alternative career paths with our BSc Construction Management and Surveying with International Fo",
-   "level": "bachelor",
-   "university": "University of Reading",
-   "country": "GB",
-   "deadline": "2027-08-13T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/international-foundation-pathways-ug/bsc-quantity-surveying-ifp-january",
-   "title": "BSc Quantity Surveying with International Foundation Year - January Entry",
-   "summary": "Prepare for a career in quantity surveying from the ground up with this BSc Quantity Surveying Degree including a foundation year, starting in January 2027.",
-   "level": "bachelor",
-   "university": "University of Reading",
-   "country": "GB",
-   "deadline": "2027-08-13T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/surveying-and-construction-management-ug/bsc-building-surveying",
-   "title": "BSc Building Surveying",
-   "summary": "Develop technical and practical skills and analyse building performance on our double accredited BSc Building Surveying course, starting in 2027.",
-   "level": "bachelor",
-   "university": "University of Reading",
-   "country": "GB",
-   "deadline": "2027-08-13T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/surveying-and-construction-management-ug/bsc-construction-management-and-surveying",
-   "title": "BSc Construction Management and Surveying",
-   "summary": "Develop a thorough knowledge of technical and managerial issues within construction on our double accredited BSc Construction Management and Surveying course, starting in 2027.",
-   "level": "bachelor",
-   "university": "University of Reading",
-   "country": "GB",
-   "deadline": "2027-08-13T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/surveying-and-construction-management-ug/bsc-quantity-surveying",
-   "title": "BSc Quantity Surveying",
-   "summary": "Learn about the cost of construction, and the challenges of timescale, specification and budget on our accredited BSc Quantity Surveying course, starting in 2027.",
-   "level": "bachelor",
-   "university": "University of Reading",
-   "country": "GB",
-   "deadline": "2027-08-13T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/surveying-and-construction-management-ug",
-   "title": "Surveying and Construction Management",
-   "summary": "We offer courses in building surveying, quantity surveying, construction management, and construction management and surveying, starting in 2026.",
-   "level": "bachelor",
-   "university": "University of Reading",
-   "country": "GB",
-   "deadline": "2027-08-13T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "url": "https://gis.ucla.edu/programs/magist",
+   "title": "MAGIST - UCLA Master of Applied Geospatial Information Systems and Technologies (MAGIST)",
+   "summary": "Earn your GIS Master's degree fully online from UCLA, the #1 public university in the United States.",
+   "level": "master",
+   "university": "University of California, Los Angeles",
+   "country": "US",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.bristol.ac.uk/cabot/postgraduate-opportunities/cabot-masters/project-photogrammetry-techniques-on-uk-streams/",
@@ -541,7 +481,87 @@
    "university": "University of Bristol",
    "country": "GB",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/building-and-surveying-ug",
+   "title": "Building and Surveying",
+   "summary": "Study a degree in building and surveying at the University of Reading, starting in September 2026, and prepare for a career in the built environment.",
+   "level": "bachelor",
+   "university": "University of Reading",
+   "country": "GB",
+   "deadline": "2027-08-13T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/international-foundation-pathways-ug/bsc-building-surveying-ifp-january",
+   "title": "BSc Building Surveying with International Foundation Year - January Entry",
+   "summary": "Prepare for a successful career in building surveying with our BSc Building Surveying with International Foundation Year, University of Reading - starting in January 2027.",
+   "level": "bachelor",
+   "university": "University of Reading",
+   "country": "GB",
+   "deadline": "2027-08-13T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/international-foundation-pathways-ug/bsc-construction-management-and-surveying-ifp-january",
+   "title": "BSc Construction Management and Surveying with International Foundation Year - January Entry",
+   "summary": "Develop a thorough knowledge of technical and managerial issues within the construction sector and open up a wide range of alternative career paths with our BSc Construction Management and Surveying with International Fo",
+   "level": "bachelor",
+   "university": "University of Reading",
+   "country": "GB",
+   "deadline": "2027-08-13T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/international-foundation-pathways-ug/bsc-quantity-surveying-ifp-january",
+   "title": "BSc Quantity Surveying with International Foundation Year - January Entry",
+   "summary": "Prepare for a career in quantity surveying from the ground up with this BSc Quantity Surveying Degree including a foundation year, starting in January 2027.",
+   "level": "bachelor",
+   "university": "University of Reading",
+   "country": "GB",
+   "deadline": "2027-08-13T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/surveying-and-construction-management-ug/bsc-building-surveying",
+   "title": "BSc Building Surveying",
+   "summary": "Develop technical and practical skills and analyse building performance on our double accredited BSc Building Surveying course, starting in 2027.",
+   "level": "bachelor",
+   "university": "University of Reading",
+   "country": "GB",
+   "deadline": "2027-08-13T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/surveying-and-construction-management-ug/bsc-construction-management-and-surveying",
+   "title": "BSc Construction Management and Surveying",
+   "summary": "Develop a thorough knowledge of technical and managerial issues within construction on our double accredited BSc Construction Management and Surveying course, starting in 2027.",
+   "level": "bachelor",
+   "university": "University of Reading",
+   "country": "GB",
+   "deadline": "2027-08-13T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/surveying-and-construction-management-ug/bsc-quantity-surveying",
+   "title": "BSc Quantity Surveying",
+   "summary": "Learn about the cost of construction, and the challenges of timescale, specification and budget on our accredited BSc Quantity Surveying course, starting in 2027.",
+   "level": "bachelor",
+   "university": "University of Reading",
+   "country": "GB",
+   "deadline": "2027-08-13T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.reading.ac.uk/ready-to-study/study/2026/surveying-and-construction-management-ug",
+   "title": "Surveying and Construction Management",
+   "summary": "We offer courses in building surveying, quantity surveying, construction management, and construction management and surveying, starting in 2026.",
+   "level": "bachelor",
+   "university": "University of Reading",
+   "country": "GB",
+   "deadline": "2027-08-13T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.slu.se/en/study/programmes-courses/doctoral-education/research-schools/ecology/programme/2026/gis-and-spatial-analysis-with-r/",
@@ -551,7 +571,7 @@
    "university": "Swedish University of Agricultural Sciences",
    "country": "SE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.slu.se/studentwebb/studier/kurser-och-program/kurssok/kurser/a/avancerad-geografisk-modellering-i-gis/",
@@ -561,7 +581,7 @@
    "university": "Swedish University of Agricultural Sciences",
    "country": "SE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.slu.se/studentwebb/studier/kurser-och-program/kurssok/kurser/a/avancerad-landskapsanalys-med-gis/",
@@ -571,7 +591,7 @@
    "university": "Swedish University of Agricultural Sciences",
    "country": "SE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.slu.se/studentwebb/studier/kurser-och-program/kurssok/kurser/e/en-introduktion-till-geografiska-informationssytem-gis/",
@@ -581,7 +601,7 @@
    "university": "Swedish University of Agricultural Sciences",
    "country": "SE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.slu.se/studentwebb/studier/kurser-och-program/kurssok/kurser/g/gis-for-skog-och-landskap/",
@@ -591,7 +611,7 @@
    "university": "Swedish University of Agricultural Sciences",
    "country": "SE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.slu.se/studentwebb/studier/kurser-och-program/kurssok/kurser/g/gis-and-geographic-analysis/",
@@ -601,7 +621,7 @@
    "university": "Swedish University of Agricultural Sciences",
    "country": "SE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.slu.se/studentwebb/studier/kurser-och-program/kurssok/kurser/g/gis-och-skoglig-fjarranalys/",
@@ -611,7 +631,7 @@
    "university": "Swedish University of Agricultural Sciences",
    "country": "SE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.tuwien.at/en/studies/studies/master-programmes/mathematics-and-geoinformation",
@@ -621,7 +641,7 @@
    "university": "TU Wien",
    "country": "AT",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.tuwien.at/studium/studienangebot/masterstudien/mathematik-und-geoinformation/cartography",
@@ -631,7 +651,7 @@
    "university": "TU Wien",
    "country": "AT",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.tuwien.at/studium/studienangebot/masterstudien/mathematik-und-geoinformation/geodesy-and-geoinformation",
@@ -641,7 +661,7 @@
    "university": "TU Wien",
    "country": "AT",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-gis-geographic-information-systems-masters-degree",
@@ -651,7 +671,7 @@
    "university": "Pennsylvania State University",
    "country": "US",
    "deadline": "2027-04-01T00:00:00.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-gis-geographic-information-systems-postbaccalaureate-certificate",
@@ -661,7 +681,7 @@
    "university": "Pennsylvania State University",
    "country": "US",
    "deadline": "2026-12-15T00:00:00.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-geospatial-intelligence-analytics-graduate-certificate",
@@ -671,7 +691,7 @@
    "university": "Pennsylvania State University",
    "country": "US",
    "deadline": "2026-12-15T00:00:00.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-geospatial-programming-and-web-map-development-graduate-certificate",
@@ -681,7 +701,7 @@
    "university": "Pennsylvania State University",
    "country": "US",
    "deadline": "2026-12-15T00:00:00.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-remote-sensing-and-earth-observation-graduate-certificate",
@@ -691,37 +711,7 @@
    "university": "Pennsylvania State University",
    "country": "US",
    "deadline": "2026-12-15T00:00:00.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://geography.osu.edu/mgist",
-   "title": "Master of Geographic Information Science and Technology",
-   "summary": "",
-   "level": "master",
-   "university": "The Ohio State University",
-   "country": "US",
-   "deadline": "2026-12-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://gpadmissions.osu.edu/programs/program.aspx?prog=0352",
-   "title": "Geographic Information Science and Technology Master of Geographic Information Science and Technology – Online",
-   "summary": "",
-   "level": "master",
-   "university": "The Ohio State University",
-   "country": "US",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://gpadmissions.osu.edu/programs/program.aspx?prog=0300",
-   "title": "Geographic Information Science and Technology Graduate Certificate in Geographic Information Science Technology",
-   "summary": "",
-   "level": "certificate",
-   "university": "The Ohio State University",
-   "country": "US",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.uni-hannover.de/en/studium/im-studium/pruefungsinfos-fachberatung/geodesy-and-geoinformatics-msc/key-dates",
@@ -731,7 +721,7 @@
    "university": "Leibniz University Hannover",
    "country": "DE",
    "deadline": "2027-03-18T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.uni-hannover.de/en/studium/im-studium/pruefungsinfos-fachberatung/geodaesie-und-geoinformatik-bsc/pruefungsruecktritt-fristverlaengerung",
@@ -741,7 +731,7 @@
    "university": "Leibniz University Hannover",
    "country": "DE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.uni-hannover.de/en/studium/im-studium/pruefungsinfos-fachberatung/geodaesie-und-geoinformatik-msc/pruefungsruecktritt-fristverlaengerung",
@@ -751,7 +741,7 @@
    "university": "Leibniz University Hannover",
    "country": "DE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.uni-hannover.de/en/studium/im-studium/pruefungsinfos-fachberatung/geodesy-and-geoinformatics-msc/regulations",
@@ -761,7 +751,7 @@
    "university": "Leibniz University Hannover",
    "country": "DE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.uni-hannover.de/en/studium/im-studium/pruefungsinfos-fachberatung/geodesy-and-geoinformatics-msc/forms",
@@ -771,7 +761,37 @@
    "university": "Leibniz University Hannover",
    "country": "DE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://geography.osu.edu/mgist",
+   "title": "Master of Geographic Information Science and Technology",
+   "summary": "",
+   "level": "master",
+   "university": "The Ohio State University",
+   "country": "US",
+   "deadline": "2026-12-01T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://gpadmissions.osu.edu/programs/program.aspx?prog=0352",
+   "title": "Geographic Information Science and Technology Master of Geographic Information Science and Technology – Online",
+   "summary": "",
+   "level": "master",
+   "university": "The Ohio State University",
+   "country": "US",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://gpadmissions.osu.edu/programs/program.aspx?prog=0300",
+   "title": "Geographic Information Science and Technology Graduate Certificate in Geographic Information Science Technology",
+   "summary": "",
+   "level": "certificate",
+   "university": "The Ohio State University",
+   "country": "US",
+   "deadline": null,
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.uni-potsdam.de/en/studium/what-to-study/master/remote-sensing",
@@ -781,7 +801,7 @@
    "university": "University of Potsdam",
    "country": "DE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://geography.manoa.hawaii.edu/gis-certificate/",
@@ -791,47 +811,7 @@
    "university": "University of Hawaiʻi at Mānoa",
    "country": "US",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.curtin.edu.au/study/study-areas/engineering-mining-surveying/",
-   "title": "Undergraduate engineering, mining and surveying",
-   "summary": "Develop your problem-solving skills and learn to design, construct and test machines, systems, structures, materials and processes. Browse our courses today.",
-   "level": "",
-   "university": "Curtin University",
-   "country": "AU",
-   "deadline": "2026-11-27T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.curtin.edu.au/study/offering/course-ug-bachelor-of-mine-and-engineering-surveying--b-mesur/",
-   "title": "Mine and Engineering Surveying",
-   "summary": "Become a specialist surveyor with expertise in advanced software and equipment, including GPS and drones, to acquire and process land and satellite data.",
-   "level": "bachelor",
-   "university": "Curtin University",
-   "country": "AU",
-   "deadline": "2027-04-20T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.curtin.edu.au/study/offering/course-ug-bachelor-of-surveying-honours--bh-survy/",
-   "title": "Surveying (Honours)",
-   "summary": "Surveying is a highly specialised professional discipline that involves measuring the surface of the Earth and its features.",
-   "level": "bachelor",
-   "university": "Curtin University",
-   "country": "AU",
-   "deadline": "2027-04-20T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
-  },
-  {
-   "url": "https://www.curtin.edu.au/study/offering/course-pg-graduate-certificate-in-geospatial-intelligence--gc-geospi/",
-   "title": "Geospatial Intelligence",
-   "summary": "Learn the principles of geographic information systems and remote sensing, and change to a career in geospatial intelligence.",
-   "level": "certificate",
-   "university": "Curtin University",
-   "country": "AU",
-   "deadline": "2027-04-20T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://arts.ucalgary.ca/geography/future-students/undergraduate/geographic-information-science-certificate",
@@ -841,7 +821,7 @@
    "university": "University of Calgary",
    "country": "CA",
    "deadline": "2027-09-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://arts.ucalgary.ca/geography/future-students/graduate/programs/master-geographic-information-systems",
@@ -851,7 +831,7 @@
    "university": "University of Calgary",
    "country": "CA",
    "deadline": "2027-09-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://arts.ucalgary.ca/geospatial-information-technology",
@@ -861,27 +841,47 @@
    "university": "University of Calgary",
    "country": "CA",
    "deadline": "2027-03-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
-   "url": "https://vu.nl/nl/onderwijs/professionals/cursussen-opleidingen/master-geographical-information-sciences",
-   "title": "Geographical Information Sciences",
-   "summary": "Wil je ruimtelijke data vertalen naar waardevolle kennis? Ontdek de online Master Geographical Information Sciences (UNIGIS) voor GIS professionals.",
+   "url": "https://www.curtin.edu.au/study/study-areas/engineering-mining-surveying/",
+   "title": "Undergraduate engineering, mining and surveying",
+   "summary": "Develop your problem-solving skills and learn to design, construct and test machines, systems, structures, materials and processes. Browse our courses today.",
    "level": "",
-   "university": "Vrije Universiteit Amsterdam",
-   "country": "NL",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "university": "Curtin University",
+   "country": "AU",
+   "deadline": "2026-11-27T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
-   "url": "https://vu.nl/nl/onderwijs/master/geographical-information-sciences",
-   "title": "Geographical Information Sciences (UNIGIS)",
-   "summary": "Met de parttime driejarige online Master MSc Geographical Information Sciences GIS aan VU Amsterdam leer je data uit verschillende bronnen samenbrengen.",
-   "level": "master",
-   "university": "Vrije Universiteit Amsterdam",
-   "country": "NL",
-   "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "url": "https://www.curtin.edu.au/study/offering/course-ug-bachelor-of-mine-and-engineering-surveying--b-mesur/",
+   "title": "Mine and Engineering Surveying",
+   "summary": "Become a specialist surveyor with expertise in advanced software and equipment, including GPS and drones, to acquire and process land and satellite data.",
+   "level": "bachelor",
+   "university": "Curtin University",
+   "country": "AU",
+   "deadline": "2027-04-20T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.curtin.edu.au/study/offering/course-ug-bachelor-of-surveying-honours--bh-survy/",
+   "title": "Surveying (Honours)",
+   "summary": "Surveying is a highly specialised professional discipline that involves measuring the surface of the Earth and its features.",
+   "level": "bachelor",
+   "university": "Curtin University",
+   "country": "AU",
+   "deadline": "2027-04-20T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
+  },
+  {
+   "url": "https://www.curtin.edu.au/study/offering/course-pg-graduate-certificate-in-geospatial-intelligence--gc-geospi/",
+   "title": "Geospatial Intelligence",
+   "summary": "Learn the principles of geographic information systems and remote sensing, and change to a career in geospatial intelligence.",
+   "level": "certificate",
+   "university": "Curtin University",
+   "country": "AU",
+   "deadline": "2027-04-20T23:59:59.000Z",
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.southampton.ac.uk/courses/geographical-information-systems-remote-sensing-masters-msc",
@@ -891,7 +891,7 @@
    "university": "University of Southampton",
    "country": "GB",
    "deadline": "2027-08-18T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.southampton.ac.uk/geography/international/our_students/debajyoli_bhowmick.page",
@@ -901,7 +901,7 @@
    "university": "University of Southampton",
    "country": "GB",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.hft-stuttgart.de/vermessung/master-photogrammetry-and-geoinformatics",
@@ -911,7 +911,7 @@
    "university": "HFT Stuttgart",
    "country": "DE",
    "deadline": "2027-02-20T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.hft-stuttgart.de/vermessung/master-vermessung",
@@ -921,7 +921,7 @@
    "university": "HFT Stuttgart",
    "country": "DE",
    "deadline": "2020-11-04T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.hft-stuttgart.de/vermessung/bachelor-vermessung-und-geoinformatik",
@@ -931,7 +931,7 @@
    "university": "HFT Stuttgart",
    "country": "DE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://www.hft-stuttgart.de/architektur-und-gestaltung/master-smart-city-solutions",
@@ -941,7 +941,7 @@
    "university": "HFT Stuttgart",
    "country": "DE",
    "deadline": null,
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://umaine.edu/academics/online-geographic-information-systems-graduate-certificate/",
@@ -951,7 +951,7 @@
    "university": "University of Maine",
    "country": "US",
    "deadline": "2026-12-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://umaine.edu/academics/online-surveying-engineering-technology-graduate-certificate/",
@@ -961,7 +961,7 @@
    "university": "University of Maine",
    "country": "US",
    "deadline": "2026-12-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://umaine.edu/academics/online-bachelor-of-science-in-surveying-engineering-technology/",
@@ -971,7 +971,7 @@
    "university": "University of Maine",
    "country": "US",
    "deadline": "2026-12-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   },
   {
    "url": "https://umaine.edu/academics/geospatial-technologies-m-b-a/",
@@ -981,7 +981,7 @@
    "university": "University of Maine",
    "country": "US",
    "deadline": "2026-12-01T23:59:59.000Z",
-   "discovered_at": "2026-11-16T03:06:06.943Z"
+   "discovered_at": "2026-11-23T03:06:08.102Z"
   }
  ]
 }
