@@ -31,6 +31,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:54.526Z"
  },
+ "city|aberdeen|GB": {
+  "lat": 57.14369,
+  "lon": -2.09814,
+  "city": "Aberdeen",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-24T06:07:34.713Z"
+ },
  "city|adelaide|AU": {
   "lat": -34.92866,
   "lon": 138.59863,
@@ -2141,7 +2149,7 @@
  },
  "city|four mile lk|US": {
   "miss": true,
-  "t": "2026-11-17T05:11:13.550Z"
+  "t": "2026-11-24T06:07:34.713Z"
  },
  "city|frankfurt am main|DE": {
   "lat": 50.11552,
@@ -3698,6 +3706,14 @@
   "cc": "AU",
   "src": "city",
   "t": "2026-11-05T13:30:38.126Z"
+ },
+ "city|merchweiler|DE": {
+  "lat": 49.35,
+  "lon": 7.05,
+  "city": "Merchweiler",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-24T06:07:34.713Z"
  },
  "city|merrimack|US": {
   "lat": 42.86509,
@@ -6381,7 +6397,7 @@
  },
  "city|yvelines|FR": {
   "miss": true,
-  "t": "2026-11-17T05:11:13.036Z"
+  "t": "2026-11-24T06:07:34.711Z"
  },
  "city|zaragoza|ES": {
   "lat": 41.65606,
