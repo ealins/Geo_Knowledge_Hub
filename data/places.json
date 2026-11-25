@@ -6819,6 +6819,14 @@
   "src": "ror",
   "t": "2026-11-05T00:55:31.958Z"
  },
+ "ror|the university of manchester|GB": {
+  "lat": 53.48095,
+  "lon": -2.23743,
+  "city": "Manchester",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-25T01:06:46.984Z"
+ },
  "ror|tu delft vacancies|": {
   "lat": 52.00667,
   "lon": 4.35556,
