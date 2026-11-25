@@ -6719,6 +6719,14 @@
   "miss": true,
   "t": "2026-11-20T05:13:11.516Z"
  },
+ "ror|nanyang technological university|SG": {
+  "lat": 1.28967,
+  "lon": 103.85007,
+  "city": "Singapore",
+  "cc": "SG",
+  "src": "ror",
+  "t": "2026-11-25T00:08:03.979Z"
+ },
  "ror|nbc universal|US": {
   "miss": true,
   "t": "2026-11-20T14:07:25.296Z"
