@@ -13,7 +13,7 @@
  },
  "city|1er arrondissement|FR": {
   "miss": true,
-  "t": "2026-11-18T05:11:53.452Z"
+  "t": "2026-11-25T06:07:10.199Z"
  },
  "city|8ème arrondissement|FR": {
   "miss": true,
@@ -375,6 +375,10 @@
   "src": "city",
   "t": "2026-11-13T13:30:20.617Z"
  },
+ "city|balsall heath|GB": {
+  "miss": true,
+  "t": "2026-11-25T06:07:09.866Z"
+ },
  "city|bangor|US": {
   "lat": 44.79884,
   "lon": -68.77265,
@@ -554,6 +558,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-20T06:07:55.186Z"
+ },
+ "city|benevento|IT": {
+  "lat": 41.1307,
+  "lon": 14.77816,
+  "city": "Benevento",
+  "cc": "IT",
+  "src": "city",
+  "t": "2026-11-25T06:07:09.845Z"
  },
  "city|benrath|DE": {
   "lat": 51.16338,
@@ -833,7 +845,7 @@
  },
  "city|bremgarten bei bern|CH": {
   "miss": true,
-  "t": "2026-11-18T06:06:47.228Z"
+  "t": "2026-11-25T06:07:09.844Z"
  },
  "city|bremgarten|CH": {
   "lat": 47.35109,
@@ -4559,6 +4571,14 @@
   "src": "city",
   "t": "2026-11-05T00:35:55.384Z"
  },
+ "city|philippines|": {
+  "lat": 13.40882,
+  "lon": 122.56155,
+  "city": "Philippines",
+  "cc": "PH",
+  "src": "city",
+  "t": "2026-11-25T06:07:10.198Z"
+ },
  "city|phoenix|US": {
   "lat": 33.44838,
   "lon": -112.07404,
@@ -5754,6 +5774,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T13:30:38.124Z"
+ },
+ "city|tiel|NL": {
+  "lat": 51.88667,
+  "lon": 5.42917,
+  "city": "Tiel",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-25T06:07:09.846Z"
  },
  "city|times square|US": {
   "lat": 40.75636,
