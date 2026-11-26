@@ -1233,7 +1233,7 @@
  },
  "city|chaldecutt|CA": {
   "miss": true,
-  "t": "2026-11-10T13:46:06.496Z"
+  "t": "2026-11-26T06:06:43.568Z"
  },
  "city|chamberlayne|US": {
   "lat": 37.62653,
@@ -2907,6 +2907,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:15.287Z"
  },
+ "city|idaho city|US": {
+  "lat": 43.8285,
+  "lon": -115.83455,
+  "city": "Idaho City",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-26T06:06:43.569Z"
+ },
  "city|iława|PL": {
   "lat": 53.59601,
   "lon": 19.56849,
@@ -2985,7 +2993,7 @@
  },
  "city|islas baleares|ES": {
   "miss": true,
-  "t": "2026-11-19T05:11:26.867Z"
+  "t": "2026-11-26T06:06:43.570Z"
  },
  "city|isle brewers|GB": {
   "lat": 50.98583,
