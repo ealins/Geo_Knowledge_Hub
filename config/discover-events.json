@@ -45,5 +45,5 @@
   ],
   "max_hosts": 160,
   "max_pages_per_host": 12,
-  "max_events_per_host": 15
+  "max_events_per_host": 40
 }
