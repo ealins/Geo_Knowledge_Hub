@@ -21,7 +21,7 @@
  },
  "city|aag.org|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.232Z"
+  "t": "2026-11-26T02:06:56.714Z"
  },
  "city|aarau|CH": {
   "lat": 47.39254,
@@ -101,7 +101,7 @@
  },
  "city|albena bulgaria|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.744Z"
+  "t": "2026-11-26T02:06:57.633Z"
  },
  "city|alberta|CA": {
   "lat": 53.66684,
@@ -309,7 +309,7 @@
  },
  "city|asprs.org|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.717Z"
+  "t": "2026-11-26T02:06:55.842Z"
  },
  "city|assen|NL": {
   "lat": 52.99667,
@@ -517,7 +517,7 @@
  },
  "city|beijing china|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.998Z"
+  "t": "2026-11-26T02:06:57.022Z"
  },
  "city|belgië|BE": {
   "lat": 50.75,
@@ -769,7 +769,7 @@
  },
  "city|bonn germany|": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.254Z"
+  "t": "2026-11-26T02:06:57.330Z"
  },
  "city|bonn|": {
   "lat": 50.73438,
@@ -1169,7 +1169,7 @@
  },
  "city|cartogis.org|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.232Z"
+  "t": "2026-11-26T02:06:55.533Z"
  },
  "city|castelnau-le-lez|FR": {
   "lat": 43.63605,
@@ -1365,7 +1365,7 @@
  },
  "city|cipaheritagedocumentation.org|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.302Z"
+  "t": "2026-11-26T02:06:55.223Z"
  },
  "city|city|AU": {
   "lat": -28.82981,
@@ -1617,11 +1617,11 @@
  },
  "city|delft the netherlands|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.744Z"
+  "t": "2026-11-26T02:06:57.633Z"
  },
  "city|delft university of technology|NL": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.508Z"
+  "t": "2026-11-26T02:06:55.532Z"
  },
  "city|delft|NL": {
   "lat": 52.00667,
@@ -1813,11 +1813,11 @@
  },
  "city|earsel.org|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.975Z"
+  "t": "2026-11-26T02:06:56.407Z"
  },
  "city|earthobservations.org|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.232Z"
+  "t": "2026-11-26T02:06:56.715Z"
  },
  "city|east brisbane|AU": {
   "lat": -27.48099,
@@ -1949,7 +1949,7 @@
  },
  "city|eratosthenes.org.cy|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.974Z"
+  "t": "2026-11-26T02:06:56.405Z"
  },
  "city|erfurt|DE": {
   "lat": 50.97734,
@@ -1985,7 +1985,7 @@
  },
  "city|esip.org|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.301Z"
+  "t": "2026-11-26T02:06:55.533Z"
  },
  "city|españa|ES": {
   "lat": 35.88234,
@@ -2057,7 +2057,7 @@
  },
  "city|faridabad india|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.999Z"
+  "t": "2026-11-26T02:06:57.022Z"
  },
  "city|farnborough|GB": {
   "lat": 51.53333,
@@ -2317,15 +2317,15 @@
  },
  "city|geo-week.com|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.232Z"
+  "t": "2026-11-26T02:06:56.712Z"
  },
  "city|geoforum.no|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.716Z"
+  "t": "2026-11-26T02:06:55.222Z"
  },
  "city|geoinformatienederland.nl|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.301Z"
+  "t": "2026-11-26T02:06:55.534Z"
  },
  "city|georgia|US": {
   "lat": 34.45343,
@@ -2353,7 +2353,7 @@
  },
  "city|gim-international.com|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.041Z"
+  "t": "2026-11-26T02:06:56.407Z"
  },
  "city|glasgow|": {
   "lat": 55.86515,
@@ -2389,7 +2389,7 @@
  },
  "city|gogeomatics.ca|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.976Z"
+  "t": "2026-11-26T02:06:55.225Z"
  },
  "city|going am wilden kaiser|AT": {
   "miss": true,
@@ -2773,7 +2773,7 @@
  },
  "city|hft stuttgart|DE": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.719Z"
+  "t": "2026-11-26T02:06:55.841Z"
  },
  "city|highland park|US": {
   "lat": 42.18169,
@@ -2865,7 +2865,7 @@
  },
  "city|iag-aig.org|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.974Z"
+  "t": "2026-11-26T02:06:56.405Z"
  },
  "city|ibiza|ES": {
   "lat": 38.90883,
@@ -3057,7 +3057,7 @@
  },
  "city|karlsruhe institute of technology|DE": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.509Z"
+  "t": "2026-11-26T02:06:58.249Z"
  },
  "city|karlstad|": {
   "lat": 59.3793,
@@ -3137,7 +3137,7 @@
  },
  "city|konya türkiye|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.744Z"
+  "t": "2026-11-26T02:06:57.636Z"
  },
  "city|kowloon hong kong|": {
   "miss": true,
@@ -3565,7 +3565,7 @@
  },
  "city|ludwigsvorstadt-isarvorstadt|DE": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.488Z"
+  "t": "2026-11-26T02:06:57.020Z"
  },
  "city|luleå|": {
   "lat": 65.58415,
@@ -4769,7 +4769,7 @@
  },
  "city|purdue university west lafayette|US": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.508Z"
+  "t": "2026-11-26T02:06:57.943Z"
  },
  "city|queensland|AU": {
   "lat": -21.48333,
@@ -4969,7 +4969,7 @@
  },
  "city|rome italy|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.742Z"
+  "t": "2026-11-26T02:06:57.635Z"
  },
  "city|ronneby|": {
   "lat": 56.20999,
@@ -5013,7 +5013,7 @@
  },
  "city|rspsoc.org.uk|": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.719Z"
+  "t": "2026-11-26T02:06:55.843Z"
  },
  "city|ryde|AU": {
   "lat": -33.8188,
@@ -5589,7 +5589,7 @@
  },
  "city|stuttgart germany|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.489Z"
+  "t": "2026-11-26T02:06:57.328Z"
  },
  "city|stuttgart|": {
   "lat": 48.78232,
@@ -5633,11 +5633,11 @@
  },
  "city|suva fiji islands|": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.253Z"
+  "t": "2026-11-26T02:06:57.020Z"
  },
  "city|swedish university of agricultural sciences|SE": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.508Z"
+  "t": "2026-11-26T02:06:57.944Z"
  },
  "city|swindon|GB": {
   "lat": 51.55797,
@@ -5665,7 +5665,7 @@
  },
  "city|tainan chinese taipei|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.488Z"
+  "t": "2026-11-26T02:06:57.330Z"
  },
  "city|tampa|US": {
   "lat": 27.94752,
@@ -5857,7 +5857,7 @@
  },
  "city|tu wien|AT": {
   "miss": true,
-  "t": "2026-11-19T01:07:44.137Z"
+  "t": "2026-11-26T02:06:58.718Z"
  },
  "city|tucson|US": {
   "lat": 32.22174,
@@ -5901,7 +5901,7 @@
  },
  "city|university of bristol|GB": {
   "miss": true,
-  "t": "2026-11-19T01:07:44.136Z"
+  "t": "2026-11-26T02:06:58.718Z"
  },
  "city|university of british columbia|CA": {
   "lat": 49.26418,
@@ -5913,7 +5913,7 @@
  },
  "city|university of calgary|CA": {
   "miss": true,
-  "t": "2026-11-19T01:07:44.138Z"
+  "t": "2026-11-26T02:06:59.022Z"
  },
  "city|university of california|US": {
   "lat": 32.88477,
@@ -5929,11 +5929,11 @@
  },
  "city|university of copenhagen|DK": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.763Z"
+  "t": "2026-11-26T02:06:58.716Z"
  },
  "city|university of exeter|GB": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.761Z"
+  "t": "2026-11-26T02:06:58.251Z"
  },
  "city|university of florida|US": {
   "lat": 29.64413,
@@ -5969,7 +5969,7 @@
  },
  "city|university of potsdam|DE": {
   "miss": true,
-  "t": "2026-11-19T01:07:44.136Z"
+  "t": "2026-11-26T02:06:58.716Z"
  },
  "city|university of reading|GB": {
   "miss": true,
@@ -5977,15 +5977,15 @@
  },
  "city|university of southampton|GB": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.488Z"
+  "t": "2026-11-26T02:06:56.712Z"
  },
  "city|university of twente|NL": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.043Z"
+  "t": "2026-11-26T02:06:55.221Z"
  },
  "city|university of wisconsin–madison|US": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.763Z"
+  "t": "2026-11-26T02:06:58.251Z"
  },
  "city|university|US": {
   "lat": 28.07389,
@@ -6113,7 +6113,7 @@
  },
  "city|vienna austria|": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.252Z"
+  "t": "2026-11-26T02:06:57.328Z"
  },
  "city|vienna|": {
   "lat": 48.20849,
@@ -6201,7 +6201,7 @@
  },
  "city|wageningen university & research|NL": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.253Z"
+  "t": "2026-11-26T02:06:57.944Z"
  },
  "city|wahiawa|US": {
   "lat": 21.50279,
@@ -6253,7 +6253,7 @@
  },
  "city|warsaw poland|": {
   "miss": true,
-  "t": "2026-11-19T01:07:42.999Z"
+  "t": "2026-11-26T02:06:57.943Z"
  },
  "city|warszawa|PL": {
   "miss": true,
@@ -6753,7 +6753,7 @@
  },
  "ror|hft stuttgart|DE": {
   "miss": true,
-  "t": "2026-11-19T01:07:41.460Z"
+  "t": "2026-11-26T02:06:56.100Z"
  },
  "ror|hochschule bochum zentralcampus|DE": {
   "lat": 51.48165,
@@ -7089,7 +7089,7 @@
  },
  "ror|university of copenhagen|DK": {
   "miss": true,
-  "t": "2026-11-19T01:07:43.882Z"
+  "t": "2026-11-26T02:06:58.411Z"
  },
  "ror|university of east anglia|": {
   "lat": 52.62783,
