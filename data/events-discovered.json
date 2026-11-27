@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-26T04:06:06.529Z",
+ "generated_at": "2026-11-27T04:06:05.077Z",
  "organisations": 160,
- "count": 41,
+ "count": 37,
  "items": [
   {
    "title": "2027 AAG Annual Meeting",
@@ -10,7 +10,7 @@
    "ends": "2027-02-08T23:59:59.000Z",
    "deadline": "2026-12-10T23:59:59.000Z",
    "host": "aag.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Preparing for the New York City 2027 Annual Meeting",
@@ -19,7 +19,7 @@
    "ends": "2027-02-12T23:59:59.000Z",
    "deadline": null,
    "host": "aag.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Geo Week Seeks Impactful Presentations; Accepting Speaker Submissions Through July 17",
@@ -28,16 +28,7 @@
    "ends": "2027-05-26T23:59:59.000Z",
    "deadline": null,
    "host": "geo-week.com",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
-  },
-  {
-   "title": "5th Annual Forum- ESIP at 30: Social security that moves Europe - Growth, competitiveness and social protection",
-   "url": "https://www.esip.org/events/5th-esip-forum-1-1",
-   "starts": "2026-12-01T00:00:00.000Z",
-   "ends": "2026-12-01T23:59:59.000Z",
-   "deadline": null,
-   "host": "esip.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Geo Week 2027",
@@ -46,7 +37,7 @@
    "ends": "2027-02-25T23:59:59.000Z",
    "deadline": null,
    "host": "gogeomatics.ca",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "GeoConnect 2027 Conference",
@@ -55,7 +46,7 @@
    "ends": "2027-05-14T23:59:59.000Z",
    "deadline": null,
    "host": "gogeomatics.ca",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "MISA Ontario 2027 Annual Conference and Trade Show",
@@ -64,7 +55,7 @@
    "ends": "2027-06-02T23:59:59.000Z",
    "deadline": null,
    "host": "gogeomatics.ca",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Canadian Association of Geographers (CAG) 2027 Annual Meeting",
@@ -73,7 +64,7 @@
    "ends": "2027-06-03T23:59:59.000Z",
    "deadline": null,
    "host": "gogeomatics.ca",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "National Surveyors’ Conference 2027 (ACLS)",
@@ -82,7 +73,7 @@
    "ends": "2027-06-03T23:59:59.000Z",
    "deadline": null,
    "host": "gogeomatics.ca",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "31st International Symposium – CIPA2027 Abu Dhabi",
@@ -91,7 +82,7 @@
    "ends": "2027-11-14T23:59:59.000Z",
    "deadline": null,
    "host": "cipaheritagedocumentation.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "European Navigation Conference (ENC) 2027 19 May 2027 - 21 May 2027 ESA ESTEC",
@@ -100,7 +91,7 @@
    "ends": "2027-04-06T23:59:59.000Z",
    "deadline": "2027-01-10T23:59:59.000Z",
    "host": "iag-aig.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "NGGM Science and Applications Workshop 2027 24 May 2027 - 26 May 2027 TBD",
@@ -109,7 +100,7 @@
    "ends": "2027-05-19T23:59:59.000Z",
    "deadline": null,
    "host": "iag-aig.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "IUGG General Assembly 2027 16 July 2027 - 22 July 2027 Incheon, South Korea",
@@ -118,7 +109,7 @@
    "ends": "2027-05-24T23:59:59.000Z",
    "deadline": null,
    "host": "iag-aig.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "2028 Glacial Isostatic Adjustment Workshop 28 May 2028 - 2 June 2028 TU Dresden",
@@ -127,7 +118,7 @@
    "ends": "2027-07-16T23:59:59.000Z",
    "deadline": null,
    "host": "iag-aig.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Sponsored and Co-Sponsored Conferences",
@@ -136,7 +127,7 @@
    "ends": "2027-07-16T23:59:59.000Z",
    "deadline": null,
    "host": "grss-ieee.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Request Conference Sponsorship",
@@ -145,7 +136,7 @@
    "ends": "2027-07-16T23:59:59.000Z",
    "deadline": null,
    "host": "grss-ieee.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Conference & Event Calendar",
@@ -154,7 +145,7 @@
    "ends": "2027-07-16T23:59:59.000Z",
    "deadline": null,
    "host": "grss-ieee.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "GRSS Webinar Program",
@@ -163,7 +154,7 @@
    "ends": "2027-07-16T23:59:59.000Z",
    "deadline": null,
    "host": "grss-ieee.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS)",
@@ -172,7 +163,7 @@
    "ends": "2027-07-16T23:59:59.000Z",
    "deadline": null,
    "host": "grss-ieee.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "2027 IEEE Radio and Wireless Symposium (RWS)",
@@ -181,7 +172,7 @@
    "ends": "2027-07-16T23:59:59.000Z",
    "deadline": null,
    "host": "grss-ieee.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "18th AOGEO Symposium",
@@ -190,7 +181,7 @@
    "ends": "2026-12-17T23:59:59.000Z",
    "deadline": "2026-11-30T23:59:59.000Z",
    "host": "earthobservations.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "AmeriGEO Week 2026",
@@ -199,16 +190,7 @@
    "ends": "2026-12-05T23:59:59.000Z",
    "deadline": null,
    "host": "earthobservations.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
-  },
-  {
-   "title": "GIN-webinar: veilig graven en betrouwbare ondergrondinformatie",
-   "url": "https://geoinformatienederland.nl/agenda/gin-webinar-gi-4",
-   "starts": "2026-11-26T00:00:00.000Z",
-   "ends": "2026-11-26T23:59:59.000Z",
-   "deadline": null,
-   "host": "geoinformatienederland.nl",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Webinar EuroSDR: Securing Critical Geo and Geodetic Expertise in Europe",
@@ -217,16 +199,16 @@
    "ends": "2026-12-03T23:59:59.000Z",
    "deadline": null,
    "host": "geoinformatienederland.nl",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Workshop OGC Sensor API's voor gevorderden",
-   "url": "https://geoinformatienederland.nl/agenda/workshop-ogc-sensor-apis-voor-gevorderden",
+   "url": "https://geoinformatienederland.nl/agenda/workshop-ogc-sensor-apis-voor-gevorderden-2",
    "starts": "2026-12-09T00:00:00.000Z",
    "ends": "2026-12-09T23:59:59.000Z",
    "deadline": null,
    "host": "geoinformatienederland.nl",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "NIN/HSB/GIN symposium “GNSS Jamming en Spoofing",
@@ -235,34 +217,7 @@
    "ends": "2026-12-10T23:59:59.000Z",
    "deadline": null,
    "host": "geoinformatienederland.nl",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
-  },
-  {
-   "title": "GeoForum Rogaland inviterer til fagdag om tema rundt eiendom, matrikkel og landmåling.",
-   "url": "https://geoforum.no/event/geoforum-rogaland-inviterer-til-fagdag-om-tema-rundt-eiendom-matrikkel-og-landmaling/",
-   "starts": "2026-11-26T00:00:00.000Z",
-   "ends": "2026-11-26T23:59:59.000Z",
-   "deadline": null,
-   "host": "geoforum.no",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
-  },
-  {
-   "title": "GI Norden webinar",
-   "url": "https://geoforum.no/event/gi-norden-webinar/",
-   "starts": "2026-11-26T00:00:00.000Z",
-   "ends": "2026-11-26T23:59:59.000Z",
-   "deadline": null,
-   "host": "geoforum.no",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
-  },
-  {
-   "title": "Plan, bygg og geodata – Kommunal geomatikkonferanse 2026",
-   "url": "https://geoforum.no/event/plan-bygg-og-geodata-kommunal-geomatikkonferanse-2026/",
-   "starts": "2026-12-01T00:00:00.000Z",
-   "ends": "2026-12-01T23:59:59.000Z",
-   "deadline": null,
-   "host": "geoforum.no",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "PCP27 - Workshop Point Cloud Processing",
@@ -271,7 +226,7 @@
    "ends": "2027-02-04T23:59:59.000Z",
    "deadline": null,
    "host": "dgpf.de",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "DGPF Jahrestagung 2027",
@@ -280,7 +235,7 @@
    "ends": "2027-05-19T23:59:59.000Z",
    "deadline": null,
    "host": "dgpf.de",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Wavelength 2027: Early Careers Conference in Remote Sensing",
@@ -289,7 +244,16 @@
    "ends": "2027-04-09T23:59:59.000Z",
    "deadline": null,
    "host": "rspsoc.org.uk",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
+  },
+  {
+   "title": "Geo Week 2027 Register Now",
+   "url": "http://www.asprs.org/Main/News---Resources/ASPRS-News/Geo_Week_2027_Register_Now.aspx",
+   "starts": "2027-02-23T00:00:00.000Z",
+   "ends": "2027-02-25T23:59:59.000Z",
+   "deadline": null,
+   "host": "asprs.org",
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Save the Date - 2027 ASPRS Fall Symposium",
@@ -298,7 +262,7 @@
    "ends": "2027-09-12T23:59:59.000Z",
    "deadline": null,
    "host": "asprs.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "RSCy2027 Eleventh International Conference on Remote Sensing and Geoinformation of Environment",
@@ -307,7 +271,7 @@
    "ends": "2027-04-14T23:59:59.000Z",
    "deadline": null,
    "host": "eratosthenes.org.cy",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "EuroSDR Webinar – Securing Critical Geo and Geodetic Expertise in Europe",
@@ -316,7 +280,7 @@
    "ends": "2026-12-03T23:59:59.000Z",
    "deadline": null,
    "host": "eurosdr.net",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "EuroSDR Workshop | Addressing Key Challenges for NMCAs and 3D: From Wish List to Practice",
@@ -325,7 +289,7 @@
    "ends": "2027-01-21T23:59:59.000Z",
    "deadline": "2026-12-04T23:59:59.000Z",
    "host": "eurosdr.net",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "5th International Workshop on Point Cloud Processing",
@@ -334,7 +298,7 @@
    "ends": "2027-02-05T23:59:59.000Z",
    "deadline": null,
    "host": "eurosdr.net",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "EuroSDR workshop | Towards a Digital Commons for Education about Land and Its Transformation",
@@ -343,7 +307,7 @@
    "ends": "2027-02-15T23:59:59.000Z",
    "deadline": "2026-12-04T23:59:59.000Z",
    "host": "eurosdr.net",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "46th EARSeL Symposium and 50th General Assembly",
@@ -352,7 +316,7 @@
    "ends": "2027-06-04T23:59:59.000Z",
    "deadline": "2026-11-30T23:59:59.000Z",
    "host": "earsel.org",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "Geo Week 2027",
@@ -361,7 +325,7 @@
    "ends": "2027-02-23T23:59:59.000Z",
    "deadline": null,
    "host": "gim-international.com",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   },
   {
    "title": "FIG WORKING WEEK 2027",
@@ -370,7 +334,7 @@
    "ends": "2027-05-23T23:59:59.000Z",
    "deadline": null,
    "host": "gim-international.com",
-   "discovered_at": "2026-11-26T04:06:06.529Z"
+   "discovered_at": "2026-11-27T04:06:05.077Z"
   }
  ]
 }
