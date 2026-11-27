@@ -81,7 +81,7 @@
  },
  "city|aix en provence sud-ouest|FR": {
   "miss": true,
-  "t": "2026-11-20T14:07:26.855Z"
+  "t": "2026-11-27T15:06:58.037Z"
  },
  "city|alabama|US": {
   "lat": 43.09645,
@@ -1105,7 +1105,7 @@
  },
  "city|cairns region|AU": {
   "miss": true,
-  "t": "2026-11-20T14:07:26.856Z"
+  "t": "2026-11-27T15:06:58.395Z"
  },
  "city|calenberger neustadt|DE": {
   "lat": 52.37077,
@@ -1229,7 +1229,7 @@
  },
  "city|cataluña|ES": {
   "miss": true,
-  "t": "2026-11-20T14:07:26.517Z"
+  "t": "2026-11-27T15:06:58.669Z"
  },
  "city|catania|IT": {
   "lat": 37.49223,
@@ -1353,7 +1353,7 @@
  },
  "city|cheltenham trade park|GB": {
   "miss": true,
-  "t": "2026-11-20T14:07:25.982Z"
+  "t": "2026-11-27T15:06:58.037Z"
  },
  "city|chelva|ES": {
   "lat": 39.7493,
@@ -3621,7 +3621,7 @@
  },
  "city|loch alpine|US": {
   "miss": true,
-  "t": "2026-11-20T14:07:25.628Z"
+  "t": "2026-11-27T15:06:57.755Z"
  },
  "city|lochmühle|DE": {
   "lat": 47.93333,
@@ -5709,7 +5709,7 @@
  },
  "city|st. bernhard-frauenhofen|AT": {
   "miss": true,
-  "t": "2026-11-20T14:18:58.312Z"
+  "t": "2026-11-27T15:06:57.736Z"
  },
  "city|st. john's|CA": {
   "lat": 47.56494,
@@ -6357,7 +6357,7 @@
  },
  "city|village of los ranchos|US": {
   "miss": true,
-  "t": "2026-11-20T14:07:25.981Z"
+  "t": "2026-11-27T15:06:57.757Z"
  },
  "city|villebon-sur-yvette|FR": {
   "lat": 48.70594,
@@ -6581,7 +6581,7 @@
  },
  "city|west bethesda|US": {
   "miss": true,
-  "t": "2026-11-20T14:07:25.980Z"
+  "t": "2026-11-27T15:06:58.032Z"
  },
  "city|west carrollton|US": {
   "lat": 39.79895,
@@ -7093,7 +7093,7 @@
  },
  "ror|nbc universal|US": {
   "miss": true,
-  "t": "2026-11-20T14:07:25.296Z"
+  "t": "2026-11-27T15:06:57.645Z"
  },
  "ror|nbcuniversal media, llc|US": {
   "miss": true,
