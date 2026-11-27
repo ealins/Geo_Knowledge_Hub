@@ -1,4 +1,12 @@
 {
+ "city|'s-gravenland|NL": {
+  "lat": 52.238,
+  "lon": 5.122,
+  "city": "'s-Graveland",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.108Z"
+ },
  "city|'s-hertogenbosch|NL": {
   "lat": 51.69917,
   "lon": 5.30417,
@@ -110,6 +118,14 @@
   "cc": "CA",
   "src": "city",
   "t": "2026-11-05T19:43:08.531Z"
+ },
+ "city|alcázar de san juan|ES": {
+  "lat": 39.39011,
+  "lon": -3.20827,
+  "city": "Alcázar de San Juan",
+  "cc": "ES",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.390Z"
  },
  "city|alexandria|US": {
   "lat": 38.80484,
@@ -318,6 +334,14 @@
   "cc": "NL",
   "src": "city",
   "t": "2026-11-05T00:35:54.231Z"
+ },
+ "city|aston|GB": {
+  "lat": 51.72501,
+  "lon": -1.50805,
+  "city": "Aston",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.696Z"
  },
  "city|atlanta|US": {
   "lat": 33.749,
@@ -1091,6 +1115,14 @@
   "src": "city",
   "t": "2026-11-05T13:30:36.746Z"
  },
+ "city|california|US": {
+  "lat": 38.62753,
+  "lon": -92.56658,
+  "city": "California",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.694Z"
+ },
  "city|cambridge|": {
   "lat": 52.2,
   "lon": 0.11667,
@@ -1302,6 +1334,14 @@
   "cc": "FR",
   "src": "city",
   "t": "2026-11-11T13:01:20.231Z"
+ },
+ "city|chelmsford|GB": {
+  "lat": 51.73575,
+  "lon": 0.46958,
+  "city": "Chelmsford",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-27T05:11:23.734Z"
  },
  "city|cheltenham trade park|GB": {
   "miss": true,
@@ -2118,6 +2158,14 @@
   "cc": "IT",
   "src": "city",
   "t": "2026-11-11T13:01:16.211Z"
+ },
+ "city|fontainebleau|FR": {
+  "lat": 48.40908,
+  "lon": 2.70177,
+  "city": "Fontainebleau",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.394Z"
  },
  "city|fort belvoir|US": {
   "lat": 38.7119,
@@ -3455,6 +3503,14 @@
   "miss": true,
   "t": "2026-11-26T05:11:14.148Z"
  },
+ "city|lent|NL": {
+  "lat": 51.86167,
+  "lon": 5.86667,
+  "city": "Lent",
+  "cc": "NL",
+  "src": "city",
+  "t": "2026-11-27T05:11:23.730Z"
+ },
  "city|les ulis|FR": {
   "lat": 48.68167,
   "lon": 2.16944,
@@ -3482,6 +3538,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:03.517Z"
+ },
+ "city|liesing|AT": {
+  "lat": 46.69278,
+  "lon": 12.81861,
+  "city": "Liesing",
+  "cc": "AT",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.395Z"
  },
  "city|liestal|CH": {
   "lat": 47.48455,
@@ -3607,6 +3671,14 @@
   "src": "city",
   "t": "2026-11-18T05:11:54.041Z"
  },
+ "city|lower bullingham|GB": {
+  "lat": 52.03333,
+  "lon": -2.7,
+  "city": "Lower Bullingham",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-27T05:11:23.444Z"
+ },
  "city|ludwigsvorstadt-isarvorstadt|DE": {
   "miss": true,
   "t": "2026-11-26T02:06:57.020Z"
@@ -3711,6 +3783,14 @@
   "src": "city",
   "t": "2026-11-10T21:45:14.838Z"
  },
+ "city|malvern|GB": {
+  "lat": 52.10751,
+  "lon": -2.3243,
+  "city": "Malvern",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-27T05:11:23.429Z"
+ },
  "city|manawatu-wanganui|NZ": {
   "miss": true,
   "t": "2026-11-26T15:06:51.085Z"
@@ -3770,6 +3850,14 @@
   "cc": "FR",
   "src": "city",
   "t": "2026-11-10T21:45:13.804Z"
+ },
+ "city|maryland|US": {
+  "lat": 39.09205,
+  "lon": -76.81775,
+  "city": "Maryland City",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.980Z"
  },
  "city|massy|FR": {
   "lat": 48.72692,
@@ -3842,6 +3930,14 @@
   "cc": "NL",
   "src": "city",
   "t": "2026-11-24T05:11:29.880Z"
+ },
+ "city|middle park|AU": {
+  "lat": -37.85116,
+  "lon": 144.962,
+  "city": "Middle Park",
+  "cc": "AU",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.691Z"
  },
  "city|midland|US": {
   "lat": 31.99735,
@@ -4859,6 +4955,14 @@
   "src": "city",
   "t": "2026-11-06T13:14:02.932Z"
  },
+ "city|rapid city|US": {
+  "lat": 44.08054,
+  "lon": -103.23101,
+  "city": "Rapid City",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.980Z"
+ },
  "city|raszyn|PL": {
   "lat": 52.15603,
   "lon": 20.9226,
@@ -4893,7 +4997,7 @@
  },
  "city|red deer county|CA": {
   "miss": true,
-  "t": "2026-11-17T05:11:14.286Z"
+  "t": "2026-11-27T05:11:24.976Z"
  },
  "city|redcliffe|GB": {
   "lat": 51.48688,
@@ -5535,6 +5639,14 @@
   "miss": true,
   "t": "2026-11-18T13:06:58.162Z"
  },
+ "city|southampton|GB": {
+  "lat": 50.90395,
+  "lon": -1.40428,
+  "city": "Southampton",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-27T05:11:23.735Z"
+ },
  "city|southborough|US": {
   "lat": 42.30565,
   "lon": -71.52451,
@@ -5738,6 +5850,14 @@
   "cc": "GB",
   "src": "city",
   "t": "2026-11-15T05:11:15.827Z"
+ },
+ "city|szczecin|PL": {
+  "lat": 53.42894,
+  "lon": 14.55302,
+  "city": "Szczecin",
+  "cc": "PL",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.698Z"
  },
  "city|tainan chinese taipei|": {
   "miss": true,
@@ -6427,6 +6547,14 @@
   "src": "city",
   "t": "2026-11-10T21:45:11.840Z"
  },
+ "city|wertheim|DE": {
+  "lat": 49.759,
+  "lon": 9.50852,
+  "city": "Wertheim am Main",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-27T05:11:23.445Z"
+ },
  "city|weßling|DE": {
   "lat": 48.07452,
   "lon": 11.2482,
@@ -6566,6 +6694,14 @@
   "cc": "CH",
   "src": "city",
   "t": "2026-11-10T21:45:12.096Z"
+ },
+ "city|windsor|CA": {
+  "lat": 42.30008,
+  "lon": -83.01654,
+  "city": "Windsor",
+  "cc": "CA",
+  "src": "city",
+  "t": "2026-11-27T05:11:24.978Z"
  },
  "city|woburn|US": {
   "lat": 42.47926,
@@ -6963,6 +7099,14 @@
   "src": "ror",
   "t": "2026-11-06T13:14:04.508Z"
  },
+ "ror|ordnance survey|GB": {
+  "lat": 50.90395,
+  "lon": -1.40428,
+  "city": "Southampton",
+  "cc": "GB",
+  "src": "ror",
+  "t": "2026-11-27T05:11:23.450Z"
+ },
  "ror|pacific northwest national laboratory|US": {
   "lat": 46.28569,
   "lon": -119.28446,
@@ -7082,6 +7226,14 @@
   "cc": "AT",
   "src": "ror",
   "t": "2026-11-22T05:11:14.771Z"
+ },
+ "ror|universität wien|AT": {
+  "lat": 48.20849,
+  "lon": 16.37208,
+  "city": "Vienna",
+  "cc": "AT",
+  "src": "ror",
+  "t": "2026-11-27T05:11:24.412Z"
  },
  "ror|université claude bernard lyon 1|FR": {
   "lat": 45.76601,
