@@ -3689,7 +3689,7 @@
  },
  "city|loire-atlantique|FR": {
   "miss": true,
-  "t": "2026-11-21T05:11:52.446Z"
+  "t": "2026-11-28T06:06:53.133Z"
  },
  "city|loiret|FR": {
   "miss": true,
@@ -6830,6 +6830,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:00.258Z"
+ },
+ "city|woolston|GB": {
+  "lat": 50.26096,
+  "lon": -3.8017,
+  "city": "Woolston",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-28T06:06:53.139Z"
  },
  "city|wpafb|US": {
   "miss": true,
