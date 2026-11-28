@@ -299,6 +299,14 @@
   "miss": true,
   "t": "2026-11-27T06:07:14.233Z"
  },
+ "city|arlington|US": {
+  "lat": 32.73569,
+  "lon": -97.10807,
+  "city": "Arlington",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.602Z"
+ },
  "city|armilla|ES": {
   "lat": 37.14386,
   "lon": -3.62534,
@@ -530,6 +538,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-15T05:11:16.668Z"
+ },
+ "city|bega|AU": {
+  "lat": -36.67392,
+  "lon": 149.84178,
+  "city": "Bega",
+  "cc": "AU",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.598Z"
  },
  "city|begonte|ES": {
   "lat": 43.15121,
@@ -834,6 +850,10 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-23T05:11:30.430Z"
+ },
+ "city|boswells tavern|US": {
+  "miss": true,
+  "t": "2026-11-28T05:11:31.598Z"
  },
  "city|bothfeld|DE": {
   "lat": 52.41732,
@@ -1543,6 +1563,14 @@
   "miss": true,
   "t": "2026-11-27T15:30:59.433Z"
  },
+ "city|corvallis|US": {
+  "lat": 44.56457,
+  "lon": -123.26204,
+  "city": "Corvallis",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.869Z"
+ },
  "city|coslada|ES": {
   "lat": 40.42378,
   "lon": -3.56129,
@@ -2175,6 +2203,14 @@
   "src": "city",
   "t": "2026-11-27T05:11:24.394Z"
  },
+ "city|forest heights|US": {
+  "lat": 38.80956,
+  "lon": -76.99803,
+  "city": "Forest Heights",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.867Z"
+ },
  "city|fort belvoir|US": {
   "lat": 38.7119,
   "lon": -77.14589,
@@ -2395,6 +2431,14 @@
   "miss": true,
   "t": "2026-11-13T09:36:10.809Z"
  },
+ "city|genova|IT": {
+  "lat": 45.21604,
+  "lon": 11.87211,
+  "city": "Genova",
+  "cc": "IT",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.322Z"
+ },
  "city|geo-week.com|": {
   "miss": true,
   "t": "2026-11-26T02:06:56.712Z"
@@ -2485,7 +2529,7 @@
  },
  "city|gold coast region|AU": {
   "miss": true,
-  "t": "2026-11-20T03:08:15.227Z"
+  "t": "2026-11-28T05:11:32.133Z"
  },
  "city|goldlauter|DE": {
   "lat": 50.62855,
@@ -2846,6 +2890,10 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-09T14:19:25.021Z"
+ },
+ "city|hershey heights|US": {
+  "miss": true,
+  "t": "2026-11-28T05:11:31.866Z"
  },
  "city|hertfordshire|GB": {
   "miss": true,
@@ -3250,6 +3298,14 @@
   "cc": "PL",
   "src": "city",
   "t": "2026-11-11T13:01:16.516Z"
+ },
+ "city|krasnystaw|PL": {
+  "lat": 50.98464,
+  "lon": 23.1742,
+  "city": "Krasnystaw",
+  "cc": "PL",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.333Z"
  },
  "city|kreuzberg|DE": {
   "lat": 52.49973,
@@ -3938,6 +3994,14 @@
   "cc": "US",
   "src": "city",
   "t": "2026-11-06T13:14:00.549Z"
+ },
+ "city|mesquite|US": {
+  "lat": 32.7668,
+  "lon": -96.59916,
+  "city": "Mesquite",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.598Z"
  },
  "city|meteren|NL": {
   "lat": 51.865,
@@ -5183,6 +5247,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:12.820Z"
  },
+ "city|rouen|FR": {
+  "lat": 49.44313,
+  "lon": 1.09932,
+  "city": "Rouen",
+  "cc": "FR",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.322Z"
+ },
  "city|roxborough|US": {
   "lat": 40.673,
   "lon": -111.96216,
@@ -6003,6 +6075,14 @@
   "src": "city",
   "t": "2026-11-11T13:01:18.992Z"
  },
+ "city|tockington|GB": {
+  "lat": 51.5771,
+  "lon": -2.56433,
+  "city": "Tockington",
+  "cc": "GB",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.321Z"
+ },
  "city|toledo|ES": {
   "lat": 39.8581,
   "lon": -4.02263,
@@ -6455,6 +6535,14 @@
   "src": "city",
   "t": "2026-11-12T14:02:30.332Z"
  },
+ "city|walnut creek|US": {
+  "lat": 37.90631,
+  "lon": -122.06496,
+  "city": "Walnut Creek",
+  "cc": "US",
+  "src": "city",
+  "t": "2026-11-28T05:11:31.867Z"
+ },
  "city|warren|US": {
   "lat": 42.49044,
   "lon": -83.01304,
@@ -6790,6 +6878,14 @@
   "cc": "DE",
   "src": "city",
   "t": "2026-11-07T11:57:07.279Z"
+ },
+ "city|zeulenroda-triebes|DE": {
+  "lat": 50.65033,
+  "lon": 11.98377,
+  "city": "Zeulenroda-Triebes",
+  "cc": "DE",
+  "src": "city",
+  "t": "2026-11-28T05:11:32.133Z"
  },
  "city|zollikon|CH": {
   "lat": 47.34019,
